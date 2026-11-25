@@ -1,3 +1,9 @@
+# Project
+
+- Implementation of the **Pandemic Legacy: Season 0** board game.
+- Predecessor: [boardgame-pandemic-legacy-season-2](https://github.com/smirea/boardgame-pandemic-legacy-season-2) (Pandemic Legacy: Season 2).
+- Use the Season 2 repo as a high-level reference when tackling new problems or architectural decisions—it is mostly polished and shows how similar patterns were solved. However, treat it as a reference rather than gospel: this is both a newer iteration and a different game with its own rules and context, so don't hesitate to improve or redesign systems where it makes sense.
+
 # Stack
 
 - Tooling: Bun + TypeScript
