@@ -9,7 +9,7 @@ Workshop save and rulebook used for this archive. Nothing here is a substitute m
 - PDF 1.7, 16 pages, A4, dated 2020-12-06 in the file metadata
 - Printed identity: Department of Sabotage Field Manual No. N4245.3, Pandemic Legacy Season 0, © 2020 Z-Man Games
 - Page images: `rules/pages/page-01.png` through `page-16.png` (rendered at 140 dpi)
-- The file has almost no text layer on the early pages. `rules/rulebook.md` is a cleaned transcription of those pages, including the 1962 / Project MEDUSA briefing, the component list, the sticker-slot letters, and the game calendar
+- The file has almost no text layer on the early pages. `rules/rulebook-unfilled.md` is a cleaned transcription of those pages, including the 1962 / Project MEDUSA briefing, the component list, the sticker-slot letters, and the game calendar. `rules/rulebook.md` is that manual with every rule sticker in its slot
 - Publisher contents cross-check: `https://www.zmangames.com/game/pandemic-legacy-season-0/` (same component list as page 2)
 
 ## Workshop mod

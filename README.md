@@ -2,6 +2,8 @@
 
 The extracted Pandemic Legacy: Season 0 game lives in [docs/game](docs/game/README.md): every workshop component, the rulebook, the images, and the meshes, one record per piece. That README is the map.
 
+[docs/game/rules/rulebook.md](docs/game/rules/rulebook.md) is the field manual with every rule sticker in its slot. [docs/game/rules/rulebook-unfilled.md](docs/game/rules/rulebook-unfilled.md) is the same manual before those stickers, with the slots still blank.
+
 Created on 2026-11-25 with [setup-new-app](https://github.com/smirea/stefan-utils/tree/master/scripts/setup-new-app) (`--type client-server`). `.github/CI.md` describes the CI checks.
 
 SvelteKit UI, Bun API, and shared TypeScript contracts in a Bun workspace.

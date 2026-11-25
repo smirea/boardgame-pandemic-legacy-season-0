@@ -1,30 +1,42 @@
 # Pandemic Legacy: Season 0
 
-Department of Sabotage Field Manual No. N4245.3. Rulebook transcription of the 16-page Z-Man book (© 2020 Z-Man Games). Page images are `page-01.png` through `page-16.png` beside this file. Headings follow the book. A sticker slot is quoted as printed: the page is blank until a sticker is placed there.
+Department of Sabotage Field Manual No. N4245.3, with every rule sticker in its slot. The manual before those stickers is `rulebook-unfilled.md`. Page images of that unstickered book are `page-01.png` through `page-16.png`. Headings follow the book. Each sticker keeps the letter printed in its corner. There is no sticker I. Stickers that belong on the board, a passport, or a reference card are not in this file.
 
 Designers: Matt Leacock and Rob Daviau. Story: Rob Daviau and Justin Kemppainen. The game calendar printed on the back of the Debrief Book is included below, because the rulebook tells you to use it and the manual's own funding rules match that sheet.
 
-## Sticker slots in the manual
+## Rules from the stickers
 
-Empty when the book is new. Letters, in the order they appear:
+The letters below are the stickers, in the order they sit in the book. The rule is written at that place.
 
-| Slot | Where it sits |
+| Sticker | Rule |
 | --- | --- |
-| A | Setup, after preparing the board |
-| B | Setup, after adding agents |
-| C | Setup, after slot B |
-| D | Setup, with Escalation cards |
-| E, F, G, H | Player turns, left column. There is no slot I. |
-| J | Beside Check Surveillance |
-| K | Under Drive / Ferry a team |
-| L, M, N, O, P | Left column of the unknown-target example page |
-| Q, R, S, T, U | Right column of that page |
-| V | Under Mop Up |
-| W | Under Draw 2 Player Cards |
-| X | Beside Escalation cards |
-| Y, Z | Under Incidents |
-| AA | Under Game End. Distinct from A. |
-| BB | Beside After the Game. Distinct from B. |
+| A | Put out restrictions |
+| B | Infection cards into the Threat discard pile |
+| C | Disease cubes for a starting intensity |
+| D | Satellite cards into the Player piles |
+| E | Action tokens |
+| F | Marking exposed cities |
+| G | Which Exposed City sticker to use |
+| H | Disease cubes and Symptom cards |
+| J | Contamination stickers and Symptom cards |
+| K | Removing pursuit tokens |
+| L | Disrupt trial |
+| M | Change alias |
+| N | Create checkpoint |
+| O | Get treatment |
+| P | Enter or exit an infiltration site |
+| Q | Infiltrate |
+| R | Using several symbols, and moving in PEARL |
+| S | Infiltrate through a tunnel |
+| T | Disable satellite |
+| U | Unlock hatchway |
+| V | Leave an infiltration site after mop up |
+| W | Satellite cards |
+| X | Pursuit, as escalation step 4 |
+| Y | Drawing infection cards |
+| Z | Chain reaction outbreaks |
+| AA | The supply of Outbreak tokens or Disease cubes runs out |
+| BB | Contamination stickers after the game |
 
 <!-- page: 01 -->
 
@@ -364,21 +376,27 @@ Place the Threat Level marker on the leftmost space of the Threat Level track.
 
 Place the agents, Incident tokens, objective tokens, tracking tokens, teams, and remaining safehouses in separate supplies near the board.
 
-### 3. Sticker slot A
+### 3. Put out restrictions (A)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED.
+Put all of the Restriction cards you have received into the Operations area of the board.
+
+The sticker shows a sample Restriction card, EVALUATION: CURIOUS. The card reads: This "restriction" was in fact an elaborate test to determine if you were too curious for your own good. You have failed.
 
 ### 4. Add agents to the board
 
 Shuffle the Threat cards and flip over 3 of them. Place 3 agents into each city shown. Then flip 3 more cards and place 2 agents into each city shown. Finally, flip 3 more cards and place 1 agent into each city shown. Place the flipped cards faceup into the Threat discard pile.
 
-### 5. Sticker slot B
+### 5. Infection cards (B)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED.
+Add all Infection cards with city names written on them faceup into the Threat discard pile.
 
-### 6. Sticker slot C
+### 6. Starting intensity (C)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED.
+Add Disease cubes to cities with a starting intensity.
+
+In each city with a starting intensity, add Disease cubes equal to its starting intensity.
+
+(For example, if Paris has a starting intensity of 1, put 1 Disease cube in Paris during setup.)
 
 <!-- page: 09 -->
 
@@ -400,9 +418,12 @@ Players keep their hands faceup at all times.
 
 Divide the remaining Player cards into 5 facedown piles, as equal in size as possible. Place smaller piles toward the right side of the row. Shuffle 1 Escalation card facedown into each pile.
 
-### Sticker slot D
+### Add satellite cards to the piles (D)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED. The slot sits with step 8.
+a. Take the Satellite card for each region that has at least 1 Control Center sticker. (Return the other Satellite cards to the reserve.)
+b. Shuffle these Satellite cards.
+c. Shuffle 1 Satellite card into each Player card pile, starting from the right. If you have fewer than 5 Satellite cards, not all piles will have one. (Satellites appear toward the bottom of the deck.)
+d. If you have a 6th Satellite card, put it into the reserve without looking at it.
 
 ### 9. Reassemble the Player deck
 
@@ -465,9 +486,28 @@ Players should freely give each other advice. Let everyone offer opinions and id
 
 Your hand can have City and Event cards in it. City cards are used in some actions and Event cards can be played without using an action and even on other players' turns.
 
-### Sticker slots E, F, G, H
+### Action tokens (E)
 
-Four slots stacked on the left of the player-turn page, letters E, F, G, and H. Each says PLACE RULE STICKER HERE WHEN INSTRUCTED. The manual skips the letter I. The next slot is J.
+For each Action token you spend, you may do 1 additional action during the Do Actions step of your turn.
+
+At the end of the Mop Up step on your turn, if you have more than 3 Action tokens, discard down to 3.
+
+### Marking exposed cities (F)
+
+For each city that becomes exposed:
+
+1. Write the name of the exposed city on a blank Infection card and put it into the Game End area.
+2. Put an Exposed City sticker on the city.
+
+### Exposed City stickers (G)
+
+When you put an Exposed City sticker on a city, use an Exposed City sticker with a number matching the Infection card's starting intensity. The sticker shows those intensities as 1, 2, and 3.
+
+### Disease cubes (H)
+
+When you enter a city containing one or more Disease cubes, take 1 Symptom card into your hand.
+
+(After the game, during step 6, return all Symptom cards to the reserve.)
 
 ### 1. Check surveillance
 
@@ -477,9 +517,9 @@ If you start your turn in a city with surveillance, lose 1 cover for each survei
 
 Ignore this if there is a safehouse in your city.
 
-### Sticker slot J
+### Contamination stickers (J)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED. The slot sits beside Check Surveillance.
+When you enter a city with a Contamination sticker, take 1 Symptom card, in addition to the Symptom card you take due to any Disease cubes in that city.
 
 ### 2. Do actions
 
@@ -542,9 +582,11 @@ If all of the teams of that affiliation are already on the board, you may reloca
 
 Move a team to an adjacent city. You do not have to be in the city of the team you are moving. Multiple teams can be in the same city. Teams are not affected by surveillance (except through certain Incident effects).
 
-### Sticker slot K
+### Removing pursuit tokens (K)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED. The slot sits under Drive / Ferry a team.
+When an active team enters (or is built in) a city with a Pursuit token, remove the Pursuit token.
+
+Pursuit tokens are removed in this way whenever an active team enters their city, even if the team was moved by some other card or ability.
 
 #### Acquire targets
 
@@ -578,9 +620,73 @@ Important! You can place teams in multiple possible cities to increase your odds
 
 Unknown target city example. Players have narrowed the possible target cities in Europe to Paris, Rome, and Prague: two Allied cities and one Soviet. They position their Soviet team in Prague. They can position their Allied team in Paris or Rome. On a gamble, they place their Allied team in Rome and then do the Acquire Targets action. If the target city is either Prague or Rome, they'll successfully complete the objective. If it is Paris, they will fail. Given how the game was going, they didn't believe they would be able to assemble and position another Allied team in Paris to guarantee success. Ultimately, they decided it was worth the risk.
 
-### Sticker slots L, M, N, O, P, Q, R, S, T, U
+#### Disrupt trial (L)
 
-The rest of the unknown-target example page is empty sticker slots. Each one prints PLACE RULE STICKER HERE WHEN INSTRUCTED. Left column, top to bottom: L, M, N, O, P. Right column, top to bottom: Q, R, S, T, U.
+When you do this action, disrupt the trial in each city that has an active team.
+
+You must have an active team in at least 1 trial city to do this action.
+
+#### Change alias (M)
+
+While in a city with a safehouse, open your passport to a different page. This switches the cover occupation, specialization, assets, and liabilities available to your character. Your hand of cards and your Action tokens are not affected when you do the Change Alias action.
+
+#### Create checkpoint (N)
+
+Discard a City card matching your city's affiliation to add a Checkpoint token between your city and an adjacent city.
+
+If all 12 Checkpoint tokens have been used, take one from the board to add.
+
+#### Get treatment (O)
+
+While in a safehouse, return 1 Symptom card from your hand to the supply.
+
+#### Enter / exit infiltration site (P)
+
+Move your pawn between an Infiltration city and the ENTRANCE room of its Infiltration site.
+
+You must use an alias that matches the affiliation of the Infiltration city to do this action.
+
+Whenever you enter a room, reveal all facedown Security tokens adjacent to it.
+
+If you exit an Infiltration site to a city with Disease cubes and/or a Contamination sticker, do not take any Symptom cards.
+
+#### Infiltrate (Q)
+
+While at an Infiltration site, reveal cards from your hand matching the symbols on Security tokens for an adjacent room to move your pawn to that adjacent room. You must cross a Security token in order to move to an adjacent room.
+
+Whenever you enter a room, reveal all facedown Security tokens adjacent to it.
+
+While at an Infiltration site, you may do only the Infiltrate and Enter/Exit Infiltration Site actions, and are not considered to be in any city.
+
+Security tokens are not removed during the game, but are reset at the start of each game with an Infiltration objective.
+
+#### Infiltrate with several symbols (R)
+
+When Infiltrating, you may use multiple symbols (region, affiliation, keypad number) on the same Player card at the same time.
+
+##### Discovering new areas of PEARL
+
+When you move into a new area in PEARL, open the Dossier door for the new area and place your pawn in the connected room. Turn Security tokens adjacent to your room faceup, then read any text in the room.
+
+Some areas in PEARL have more than 1 room under a single Dossier door. These rooms are not connected to each other.
+
+##### Hatchways
+
+Hatchways in PEARL Compound may not be bypassed with the Infiltrate action.
+
+#### Infiltration update (S)
+
+You may now use the Infiltrate action to pass through a hatchway that has a Tunnel sticker adjacent to it.
+
+To do the Infiltrate action through a tunnel, reveal any 1 City card to move into the adjacent room.
+
+#### Disable satellite (T)
+
+If in a city with a Control Center that contains a Bug sticker, return that region's Satellite token to the reserve for the remainder of this game.
+
+#### Unlock hatchway (U)
+
+Choose a hatchway in your room. Then, discard City cards whose keypad numbers total 10 or more to place a Tunnel sticker adjacent to that hatchway. Put the sticker on the dossier between the two rooms.
 
 <!-- page: 13 -->
 
@@ -590,9 +696,9 @@ Your teams do what they were sent to do.
 
 Remove all agents in each city with an active team.
 
-### Sticker slot V
+### Get out! (V)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED. The slot sits under Mop Up.
+At the end of the Mop Up step, if your pawn is at an Infiltration site, you must shift it back to its Infiltration city.
 
 ### 4. Draw 2 Player cards
 
@@ -604,9 +710,13 @@ When you are about to draw, if there are fewer than 2 cards left in the Player d
 
 Hand limit: if you are over your hand limit (usually 7 cards), immediately discard cards or play Event cards until you are at your limit.
 
-### Sticker slot W
+### Satellite cards (W)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED. The slot sits under Draw 2 Player Cards.
+When you draw a Satellite card, put a Satellite token in the matching region, then discard the card.
+
+Each city in this region has +1 surveillance while the satellite token is in it (to a maximum of 3).
+
+If you draw a Satellite card and an Escalation card at the same time, resolve the Satellite card first.
 
 #### Escalation cards
 
@@ -615,16 +725,23 @@ If your draw includes any Escalation cards, do not add them to your hand (and do
 1. Increase Threat. Move the Threat Level marker 1 space to the right on the Threat Level track.
 2. Add Agents. Draw the bottom card from the Threat deck. Place three agents in that city. Discard the drawn card to the Threat discard pile.
 3. Intensify. Shuffle all cards in the Threat discard pile (including the one just drawn) and place them facedown on top of the Threat deck.
+4. Add a Pursuit token to every city adjacent to a city already containing a Pursuit token. (X)
+
+Do not place a Pursuit token when:
+
+- The route is blocked by a Checkpoint token, or
+- The adjacent city contains an active team.
+
+You fail a pursuit objective if:
+
+- You add a Pursuit token to a Soviet city, or
+- You need to place a Pursuit token but there are no more left in the supply.
 
 Remember: When resolving an Escalation card, draw from the bottom of the Threat deck and shuffle only the cards in the Threat discard pile, placing them on top of the existing Threat deck.
 
 It is rare but possible to draw 2 Escalation cards at once. In this case, do all the steps above once and then again.
 
 After resolving any Escalation cards, discard them.
-
-### Sticker slot X
-
-PLACE RULE STICKER HERE WHEN INSTRUCTED. The slot sits beside the Escalation steps.
 
 ### 5. Draw Threat cards
 
@@ -652,9 +769,19 @@ Place an Incident token into each of the affected cities (players in those citie
 
 If you must place an Incident token and there are none left in the supply, the game immediately ends. See "Game End" to the right.
 
-### Sticker slots Y and Z
+### Drawing infection cards (Y)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED. Two slots under the incident rules, letters Y and Z.
+(These infection rules are very similar to Pandemic.)
+
+When you draw an Infection card, put 1 Disease cube into the city named on the card.
+
+If the city already has 3 cubes, do not add one. An outbreak occurs in that city instead. Add a Disease cube to each connected city and place an Outbreak token into the city. Use an Incident/Outbreak token, Outbreak side up.
+
+### Chain reaction outbreaks (Z)
+
+If any connected city already has 3 Disease cubes, do not place a 4th cube in those cities. Instead, in each connected city, a chain reaction outbreak occurs after the current outbreak is done.
+
+When a chain reaction outbreak occurs, place Outbreak tokens and Disease cubes as above, except do not add a token or cube to cities that have already had an outbreak (or a chain reaction outbreak) as part of resolving the current Infection card.
 
 ## Turn end
 
@@ -668,10 +795,8 @@ The game ends when any of the following occurs:
 - You cannot draw 2 Player cards because there are not enough cards left in the Player deck.
 - You need to place an agent, but the supply is empty.
 - You need to place an Incident token, but the supply is empty.
-
-### Sticker slot AA
-
-PLACE RULE STICKER HERE WHEN INSTRUCTED. AA is a different slot from A.
+- You need to add an Outbreak token but there aren't any in the supply. (AA)
+- You need to add a Disease cube to the board but there aren't any in the supply. (AA)
 
 The game ends immediately, even if it is the middle of a player's turn. You cannot finish your turn, even if you would like to.
 
@@ -798,6 +923,6 @@ Place a counter surveillance sticker over a surveillance symbol on a city (eithe
 
 Discard all Player cards and clear the board of all game pieces (but not stickers — those are permanent). These all reset for the start of the next game.
 
-### Sticker slot BB
+### Contamination (BB)
 
-PLACE RULE STICKER HERE WHEN INSTRUCTED. BB is a different slot from B.
+Add a Contamination sticker to cities that contain one or more Outbreak tokens. Add only 1 sticker regardless of how many Outbreak tokens are in the city. Each city can have at most 1 Contamination sticker. Do not add additional Contamination stickers to cities that already have 1, even if there are Outbreak tokens on them. If there are no Contamination stickers left in the supply, do not add any more.
