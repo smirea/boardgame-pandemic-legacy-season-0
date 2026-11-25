@@ -1,0 +1,49 @@
+{
+  "id": "operations/i11",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "be3726",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/30",
+    "duplicatePaths": [
+      "347/30"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "be3726"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Keep this in the Intelligence file.\n1. DEBRIEF NUMBER\n104\n2. DESTINATION\nLeningrad\n3. DATE\nJUNE, 1962\n4. BOAT NO.\n5. CHARGES\nPREPAID\n5. DESCRIPTION OF GOODS\nSpores, Ragweed\nORIGINAL FREIGHT BILL\nOriginal Freight Bill must accompany claim for overcharge, loss, or damage.\nACTION REQUESTED:\nNone required\nRECEIVED\nJUNE, 1962",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-11.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n79",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-11.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/104",
+      "label": "DEBRIEF NUMBER 104"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

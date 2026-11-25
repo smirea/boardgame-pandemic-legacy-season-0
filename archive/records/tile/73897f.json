@@ -1,0 +1,33 @@
+{
+  "id": "tile/73897f",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "73897f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "316/0/2",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "73897f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "UNLOCK HATCHWAY Discard City cards whose keypad numbers total 10 or more to place a Tunnel sticker next to a hatchway in your room.",
+      "flavor": "",
+      "image": "media/original/4fa65d22433207cae2aa3b8a3210b791eaf0c373.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

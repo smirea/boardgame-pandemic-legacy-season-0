@@ -1,0 +1,33 @@
+{
+  "id": "tile/b6006c",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b6006c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "327/0/10",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b6006c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "FIRST ASSISTANT TO POLITBURO MINISTER: Once on your turn as an action, you may draw a Soviet City card from the Player discard pile.",
+      "flavor": "",
+      "image": "media/original/3f2c95006459116a4edbdad0fd9019534ce154a8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

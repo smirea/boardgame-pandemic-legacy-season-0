@@ -1,0 +1,135 @@
+{
+  "id": "passport/black-allied",
+  "printedCode": null,
+  "kind": "passport",
+  "censusKey": "passport",
+  "sourceGuid": "c6bfff",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "266",
+    "duplicatePaths": [],
+    "note": "Black pawn, allied alias page. state-1 is the unscratched page. state-2 onward reveal cover pips one scratch at a time. The book counts 4 passports; the mod stores 3 allegiance pages for each of 4 pawns.",
+    "guids": [
+      "05fea8",
+      "136c50",
+      "14a4ff",
+      "65aac1",
+      "681004",
+      "7f1569",
+      "c6bfff",
+      "e8b89e",
+      "f9c890",
+      "fccd70",
+      "fce8aa"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "state-1",
+      "ttsState": 1,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/69457b84fc60e815669c3b5b9680c739000aea40.jpg"
+    },
+    {
+      "id": "state-2",
+      "ttsState": 2,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/0ae7c79f5026ad3c1dfc6648fbf3a5a3f3cd6ce8.jpg"
+    },
+    {
+      "id": "state-3",
+      "ttsState": 3,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/3f2a9a40b22925603816a9aa9da2be93bbfc9915.jpg"
+    },
+    {
+      "id": "state-4",
+      "ttsState": 4,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/49c9bcc87d694e392099e0f164a8ebdbefd0bacf.jpg"
+    },
+    {
+      "id": "state-5",
+      "ttsState": 5,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/143ef4afa564a7ed92a3e0ebfd8de5f4497e3a89.jpg"
+    },
+    {
+      "id": "state-6",
+      "ttsState": 6,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/7e15b8e0f63e05a14021cda3208706065e5f5c10.jpg"
+    },
+    {
+      "id": "state-7",
+      "ttsState": 7,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/69c975a1c7795b5c66502ff6227364e7e208121f.jpg"
+    },
+    {
+      "id": "state-8",
+      "ttsState": 8,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/08e5bb322110d3b995cce2f58fe452eb0b06db19.jpg"
+    },
+    {
+      "id": "state-9",
+      "ttsState": 9,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. scratched, empty\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/992b56fdd0d18021b0de65a6e373f80d9d54d33d.jpg"
+    },
+    {
+      "id": "state-10",
+      "ttsState": 10,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, empty\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/1bc699e927f3fdb0aefeabb2e671a1c5098556d0.jpg"
+    },
+    {
+      "id": "state-11",
+      "ttsState": 11,
+      "role": "rules",
+      "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, empty\n10. scratched, flame",
+      "flavor": "",
+      "image": "media/original/6a016285c18144adda12c7491577514d12392c4b.jpg"
+    }
+  ],
+  "states": [
+    "state-1",
+    "state-2",
+    "state-3",
+    "state-4",
+    "state-5",
+    "state-6",
+    "state-7",
+    "state-8",
+    "state-9",
+    "state-10",
+    "state-11"
+  ],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

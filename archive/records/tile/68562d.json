@@ -1,0 +1,33 @@
+{
+  "id": "tile/68562d",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "68562d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "330/0/11",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "68562d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "INFILTRATE\nRULE Q\nWhile at an Infiltration site, reveal cards from your hand matching the symbols on Security tokens for an adjacent room to move your pawn to that adjacent room. (You must cross a Security token in order to move to an adjacent room).\nWhenever you enter a room, reveal all facedown Security tokens adjacent to it.\nNote: While at an Infiltration site, you may do only the Infiltrate and Enter/Exit Infiltration Site actions, and are not considered to be in any city.\nSecurity tokens are not removed during the game, but are reset at the start of each game with an Infiltration objective.",
+      "flavor": "",
+      "image": "media/original/bf1a8e45b99045eee714674f60346beb0ff37653.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

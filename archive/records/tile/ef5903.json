@@ -1,0 +1,33 @@
+{
+  "id": "tile/ef5903",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ef5903",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/38",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "ef5903"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "REMOVING PURSUIT TOKENS\nRULE K\nWhen an active team enters (or is built in) a city with a Pursuit token, remove the Pursuit token.\nNote: Pursuit tokens are removed in this way whenever an active team enters their city (even if the team was moved by some other card or ability).",
+      "flavor": "",
+      "image": "media/original/da1ec9a8a918683b5894d3902124ad061d758ca3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

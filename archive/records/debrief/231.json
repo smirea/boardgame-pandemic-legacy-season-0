@@ -1,0 +1,31 @@
+{
+  "id": "debrief/231",
+  "printedCode": "231",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Scratch 1 cover from each alias in each passport.",
+      "flavor": "\"Internal inquiry discovered your 'off-the-book' dealings with Sabik. It's a serious violation of CIA methodology, but...I understand. I know it seems absurd to dilly-dally in protocol when the world hangs in the balance, but there is a reason for all of it; not every agent is as trustworthy as you. I covered for you, but unfortunately not before the inquiry drew a great deal of attention to you.\"",
+      "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "legacy/03-09",
+  "printedCode": "03-09",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "b7414d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/47",
+    "duplicatePaths": [
+      "352/47"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "b7414d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\nONE QUIET NIGHT\nSkip the Draw Threat Cards step this turn.\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-47.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-47.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/fc89b3",
+  "printedCode": "Passport Selector 3",
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "fc89b3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "230",
+    "duplicatePaths": [],
+    "note": "Passport Selector 3",
+    "guids": [
+      "fc89b3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/b139b5493b3e2900d061c5971edb3114500de22e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

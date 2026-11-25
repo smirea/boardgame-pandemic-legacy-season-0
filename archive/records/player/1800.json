@@ -1,0 +1,41 @@
+{
+  "id": "player/1800",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "dee7b8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "332/0/20/0",
+    "duplicatePaths": [],
+    "note": "Player card. Sealed in safe deposit box 0008, not in the prologue player deck.",
+    "guids": [
+      "dee7b8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SATELLITE LAUNCH\nOVER THE PACIFIC RIM\n\nAdd a Satellite token to the Pacific Rim.\nEvery city in the Pacific Rim: + surveillance",
+      "flavor": "",
+      "image": "media/split/eab2a5816522-0.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

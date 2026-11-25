@@ -1,0 +1,36 @@
+{
+  "id": "pearl/12-0e2ff7",
+  "printedCode": "12",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "0e2ff7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/5",
+    "duplicatePaths": [
+      "356/5",
+      "357/5"
+    ],
+    "note": "PEARL compound piece 12. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "0e2ff7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CLINICAL TRIAL ROOM",
+      "flavor": "",
+      "image": "media/original/cf9fbf1314fd132aa6821a919d48c68b7400c976.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

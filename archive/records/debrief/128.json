@@ -1,0 +1,31 @@
+{
+  "id": "debrief/128",
+  "printedCode": "128",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "The teams were unable to locate the KGB officer. You learned nothing more about the control centers.",
+      "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

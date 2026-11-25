@@ -1,0 +1,33 @@
+{
+  "id": "tile/c018d3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c018d3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "300/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "c018d3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SUITCASE FULL OF MONEY\nInstead of scratching a cover, you may check a box below.",
+      "flavor": "",
+      "image": "media/original/d52d62ec5f771af77611a810ac098981f7d01203.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

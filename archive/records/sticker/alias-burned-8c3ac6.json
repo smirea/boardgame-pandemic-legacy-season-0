@@ -1,0 +1,33 @@
+{
+  "id": "sticker/alias-burned-8c3ac6",
+  "printedCode": "Alias Burned",
+  "kind": "sticker",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8c3ac6",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "215",
+    "duplicatePaths": [],
+    "note": "Burned-alias sticker. Covers the name and photo when an alias is fully burned.",
+    "guids": [
+      "8c3ac6"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Replace your portrait if your alias gets burned",
+      "flavor": "",
+      "image": "media/original/c51bbab866e2e996c157c8dedbd021aebbd6ae25.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

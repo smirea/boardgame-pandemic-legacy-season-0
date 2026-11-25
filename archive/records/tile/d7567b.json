@@ -1,0 +1,33 @@
+{
+  "id": "tile/d7567b",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d7567b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "284/0/4",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "d7567b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "LIABILITIES\nDOOR 11",
+      "flavor": "",
+      "image": "media/original/b3ad035b7fb3cd80baae59375dccab999ebcef77.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

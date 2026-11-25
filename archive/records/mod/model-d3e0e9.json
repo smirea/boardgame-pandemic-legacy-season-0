@@ -1,0 +1,88 @@
+{
+  "id": "mod/model-d3e0e9",
+  "printedCode": null,
+  "kind": "mesh",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d3e0e9",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "348",
+    "duplicatePaths": [],
+    "note": "Custom model.",
+    "guids": [
+      "d3e0e9"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "tile/10685e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/3b4275",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/4498ea",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/558269",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/65bd69",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/85c59b",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/8f3646",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/978d96",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b8c625",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/c376a5",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/d78cb7",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/f4c70f",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": {
+    "file": "media/original/dd803074b63c5c64af4ddb9b3e70907740873d5b.obj",
+    "diffuse": null
+  }
+}

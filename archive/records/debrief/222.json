@@ -1,0 +1,31 @@
+{
+  "id": "debrief/222",
+  "printedCode": "222",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Take 1 Action token and give it to 1 player.",
+      "flavor": "The team interrogated the KGB officer. The man gloated, indicating that you failed to grasp the true purpose of the control centers: they are the cornerstone of the MEDUSA dispersal plan, an operation they call \"LION'S TOOTH.\"",
+      "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

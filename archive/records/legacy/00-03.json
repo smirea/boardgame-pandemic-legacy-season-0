@@ -1,0 +1,54 @@
+{
+  "id": "legacy/00-03",
+  "printedCode": "00-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "cb4dbc",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/78",
+    "duplicatePaths": [
+      "352/78"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "cb4dbc"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 11 Europe City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen shuffle the remaining Europe cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-22.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PROLOGUE OBJECTIVE 1\nRETRIEVE PROJECT MEDUSA SAMPLE\nAcquire Target in:\n1 UNKNOWN CITY IN EUROPE\nCompleted: Read Debrief 160\nFailed: Read Debrief 166",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-22.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/160",
+      "label": "Debrief 160"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/166",
+      "label": "Debrief 166"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

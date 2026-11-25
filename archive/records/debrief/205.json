@@ -1,0 +1,31 @@
+{
+  "id": "debrief/205",
+  "printedCode": "205",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+      "flavor": "The Soviets were investigating a hydrogen production facility in a remote harbor outside the city: a large building built after the war. It's unclear how this relates to either production or deployment of the MEDUSA plague, but the Soviets appear to need large quantities of hydrogen.",
+      "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

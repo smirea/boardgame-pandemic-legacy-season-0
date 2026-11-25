@@ -1,0 +1,24 @@
+{
+  "id": "mod/blocksquare-a475c3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "a475c3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/8",
+    "duplicatePaths": [],
+    "note": "Tabletop Simulator table geometry.",
+    "guids": [
+      "a475c3"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

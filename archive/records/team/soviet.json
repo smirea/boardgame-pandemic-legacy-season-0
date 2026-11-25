@@ -1,0 +1,41 @@
+{
+  "id": "team/soviet",
+  "printedCode": null,
+  "kind": "team",
+  "censusKey": "team",
+  "sourceGuid": "54026d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "53",
+    "duplicatePaths": [
+      "54",
+      "55"
+    ],
+    "note": "Soviet team miniature. Three copies share this mesh.",
+    "guids": [
+      "54026d",
+      "b48d8b",
+      "b5f046"
+    ]
+  },
+  "count": 3,
+  "faces": [
+    {
+      "id": "diffuse",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/38c6de3d151ac546fa4f569e38587ec14b9c9a72.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/a2460123d1e0bbe96009679a47e883ccb1d8853f.obj",
+    "diffuse": "media/original/38c6de3d151ac546fa4f569e38587ec14b9c9a72.jpg"
+  }
+}

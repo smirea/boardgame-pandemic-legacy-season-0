@@ -1,0 +1,52 @@
+{
+  "id": "legacy/sealed-12-04",
+  "printedCode": "12-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "286939",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/5",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "286939"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the City cards matching cities with a Control Center sticker from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the other cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/a3ad9647d9f9-5.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DECEMBER OBJECTIVE 2\nSTOP OPERATION LION'S TOOTH\nAcquire Target in:\n1 UNKNOWN CITY WITH A CONTROL CENTER\nYOU MAY NOT USE THE IDENTIFY TARGET CITY ACTION\nCompleted: Read Debrief 155\nFailed: Read Debrief 117",
+      "flavor": "",
+      "image": "media/split/0755b549db50-5.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/117",
+      "label": "Debrief 117"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/155",
+      "label": "Debrief 155"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

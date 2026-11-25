@@ -1,0 +1,33 @@
+{
+  "id": "tile/65bc0a",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "65bc0a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "311/0/12",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "65bc0a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "COUNTER SURVEILLANCE DOOR 30 1 Keep these stickers in the reserve.",
+      "flavor": "",
+      "image": "media/original/e2e711072d3583eb8fcd54c4b676b5f19c47f8cb.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

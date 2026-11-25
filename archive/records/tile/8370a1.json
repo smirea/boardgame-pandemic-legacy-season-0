@@ -1,0 +1,33 @@
+{
+  "id": "tile/8370a1",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8370a1",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "298/0/2",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "8370a1"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "HASSLED: If you end your turn in an Allied city without a safehouse, discard 1 card (after the Draw Cards step).",
+      "flavor": "",
+      "image": "media/original/e0493f3939d75a7b821e1843866d553e28a77746.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

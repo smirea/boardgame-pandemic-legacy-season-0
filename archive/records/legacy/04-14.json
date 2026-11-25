@@ -1,0 +1,43 @@
+{
+  "id": "legacy/04-14",
+  "printedCode": "04-14",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "a70776",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/33",
+    "duplicatePaths": [
+      "352/33"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "a70776"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nPersistent Headache\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-33.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nPersistent Headache\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-33.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

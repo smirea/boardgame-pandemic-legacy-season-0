@@ -1,0 +1,33 @@
+{
+  "id": "tile/c28507",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c28507",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "98",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "c28507"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TRACKING DEVICE\nDuring the Do Actions step of your turn, you may look at the top 2 cards of the Threat deck (not an action).",
+      "flavor": "",
+      "image": "media/original/2a75207d2f4a7cf16ed1637f33e2e6bc7f155fd5.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

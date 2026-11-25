@@ -1,0 +1,33 @@
+{
+  "id": "tile/b20902",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b20902",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "332/0/21",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b20902"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "A WATCHFUL SKY\n\n“The satellites above will observe your movements; your aliases could be compromised if you are not cautious.”\n\nRIGHT NOW\n1 Put the 5 enclosed Satellite tokens to the side of the board to form a supply.\n2 Add the 12 enclosed Disease cubes to the supply.\n3 Set the enclosed Satellite cards to the side for now. You’ll use them during setup.\n4 Add the enclosed stickers to the rulebook.",
+      "flavor": "“The satellites above will observe your movements; your aliases could be compromised if you are not cautious.”",
+      "image": "media/original/a5a0b79f583f7a15712a92eba2c341c0b6150e1a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

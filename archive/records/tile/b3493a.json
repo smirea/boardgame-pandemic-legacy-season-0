@@ -1,0 +1,33 @@
+{
+  "id": "tile/b3493a",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b3493a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/42",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b3493a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CREATE CHECKPOINT Discard a City card matching your city's affiliation to add a Checkpoint token between your city and an adjacent city.",
+      "flavor": "",
+      "image": "media/original/15949210b4d84cb63ab1a942968ea1df7a5bc25e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

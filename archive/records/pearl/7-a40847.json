@@ -1,0 +1,36 @@
+{
+  "id": "pearl/7-a40847",
+  "printedCode": "7",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "a40847",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/15",
+    "duplicatePaths": [
+      "356/15",
+      "357/15"
+    ],
+    "note": "PEARL compound piece 7. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "a40847"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MONITORING ROOM\nWhen you enter this room, turn any 2 unrevealed Security tokens face up.",
+      "flavor": "",
+      "image": "media/original/160b708abcd65d2b3d9756ea7c9df1fdddf5d29c.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

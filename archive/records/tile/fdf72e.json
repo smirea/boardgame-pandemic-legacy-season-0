@@ -1,0 +1,33 @@
+{
+  "id": "tile/fdf72e",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "fdf72e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "286/0/2",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "fdf72e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ASSETS\nDOOR 13\n2\n1",
+      "flavor": "",
+      "image": "media/original/befc43fa8bf02949a3892288cd09552ae15a0be6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

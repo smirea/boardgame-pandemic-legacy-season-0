@@ -1,0 +1,33 @@
+{
+  "id": "mod/model-0c7e07",
+  "printedCode": null,
+  "kind": "mesh",
+  "censusKey": "mod-extra",
+  "sourceGuid": "0c7e07",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "345",
+    "duplicatePaths": [],
+    "note": "Custom model.",
+    "guids": [
+      "0c7e07"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "token/tracker",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": {
+    "file": "media/original/52a4c8a11b3b4257df88e8d28f5928886d0c28ff.obj",
+    "diffuse": null
+  }
+}

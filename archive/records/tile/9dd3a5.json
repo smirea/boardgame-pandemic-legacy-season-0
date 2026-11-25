@@ -1,0 +1,33 @@
+{
+  "id": "tile/9dd3a5",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "9dd3a5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "312/0/4",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "9dd3a5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DOOR 35",
+      "flavor": "",
+      "image": "media/original/8666cf75ad930da02dfdc8ac39e09305a0393c5a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

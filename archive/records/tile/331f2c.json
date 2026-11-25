@@ -1,0 +1,33 @@
+{
+  "id": "tile/331f2c",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "331f2c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "288/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "331f2c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CODE BOOK\nYou need 1 fewer card to do the Identify Target City action.\n[unreadable]",
+      "flavor": "",
+      "image": "media/original/1ff1ac9f26d3dfe92b18175681f6141992933bcd.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

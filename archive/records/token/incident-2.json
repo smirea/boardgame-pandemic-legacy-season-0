@@ -1,0 +1,49 @@
+{
+  "id": "token/incident-2",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "incident",
+  "sourceGuid": "eff27d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/31/0",
+    "duplicatePaths": [
+      "326/0/31/1",
+      "326/0/31/2",
+      "326/0/31/3",
+      "326/0/31/4",
+      "326/0/31/5",
+      "326/0/31/6"
+    ],
+    "note": "Incident token.",
+    "guids": [
+      "127cfe",
+      "2a8cea",
+      "2d20ca",
+      "834cdc",
+      "96cc27",
+      "bcc198",
+      "eff27d"
+    ]
+  },
+  "count": 7,
+  "faces": [
+    {
+      "id": "diffuse",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/d370b5f9c31eb762420a2318367dc911007545ec.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/868d7bfbfc376825490ce526845a55a5f5ae2719.obj",
+    "diffuse": "media/original/d370b5f9c31eb762420a2318367dc911007545ec.jpg"
+  }
+}

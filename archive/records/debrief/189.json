@@ -1,0 +1,31 @@
+{
+  "id": "debrief/189",
+  "printedCode": "189",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "When you leave the office, you find a note on your desk. Find card 81 from the Operations deck. Follow its instructions.",
+      "flavor": "\"Sabik was willing to sacrifice that many civilians? Collateral damage can be a regrettable necessity at times, but on this scale? Coupled with his raid upon this facility and the disappearance and death of CMO John Cooper, Sabik is growing more unstable. Thank you for this update.\"",
+      "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

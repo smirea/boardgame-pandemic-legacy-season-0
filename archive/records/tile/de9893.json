@@ -1,0 +1,33 @@
+{
+  "id": "tile/de9893",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "de9893",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "227",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "de9893"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DISGUISES can be located using the Decals tool",
+      "flavor": "",
+      "image": "media/original/0806a229774d84ab3426493760d21d653d7f89ec.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

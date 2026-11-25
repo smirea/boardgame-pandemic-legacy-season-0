@@ -1,0 +1,41 @@
+{
+  "id": "event/airlift",
+  "printedCode": "Airlift",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "a1802a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "342/0/2",
+    "duplicatePaths": [],
+    "note": "Event. Part of the 58 player cards. Playable any time it is your turn, not between drawing and resolving a card.",
+    "guids": [
+      "a1802a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nAIRLIFT\n\nMove a pawn to any city or move a team to any city.\n\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-9.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

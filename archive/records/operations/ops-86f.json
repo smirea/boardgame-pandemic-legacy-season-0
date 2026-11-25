@@ -1,0 +1,54 @@
+{
+  "id": "operations/ops-86f",
+  "printedCode": "Ops 86f",
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "000aa6",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/37",
+    "duplicatePaths": [
+      "347/37"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "000aa6"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "APRIL OBJECTIVE 1A QUARANTINE AN EXPOSED CITY IN SOUTH AMERICA Acquire Target in: 1 EXPOSED CITY IN SOUTH AMERICA, USING 2 ACTIVE TEAMS AT THE SAME TIME Completed: Read Debrief 170 Failed: Read Debrief 115",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-4.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "86 86 OPERATIONS 86",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-4.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/115",
+      "label": "Debrief 115"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/170",
+      "label": "Debrief 170"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

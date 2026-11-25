@@ -1,0 +1,41 @@
+{
+  "id": "player/lima",
+  "printedCode": "Lima",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "250af4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0/21",
+    "duplicatePaths": [],
+    "note": "Player card. Region: south america.",
+    "guids": [
+      "250af4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "LIMA\nPERU\nSOUTH AMERICA\n7",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-35.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

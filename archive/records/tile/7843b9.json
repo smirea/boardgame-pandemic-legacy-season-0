@@ -1,0 +1,33 @@
+{
+  "id": "tile/7843b9",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "7843b9",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "294/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "7843b9"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "FORGED PAPERS\nYou can fly to Soviet cities using the Commercial Flight action if you discard the matching City card.\n[unreadable]",
+      "flavor": "",
+      "image": "media/original/278233a146eee29331da0de586c7432c0f07ad25.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

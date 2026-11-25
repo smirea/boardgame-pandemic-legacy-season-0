@@ -1,0 +1,31 @@
+{
+  "id": "debrief/183",
+  "printedCode": "183",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Put the Infiltration cards for Sabik's Safehouse into the reserve. No further information.",
+      "flavor": "Sabik or one of his loyal operatives noticed your monitoring. Photographs of your team were taped to the exterior windows with your real names written on them. A warning: he knows who you are.",
+      "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

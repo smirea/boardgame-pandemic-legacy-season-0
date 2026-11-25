@@ -1,0 +1,105 @@
+{
+  "id": "deck/legacy-sealed",
+  "printedCode": "Legacy Cards",
+  "kind": "deck",
+  "censusKey": "legacy-deck",
+  "sourceGuid": "32d0c6",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0",
+    "duplicatePaths": [],
+    "note": "Sixteen legacy cards sealed in box 0005.",
+    "guids": [
+      "32d0c6"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-11-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-11-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-11-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-11-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-11-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-11-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-11-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-12-08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/sealed-end-of-legacy-deck",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

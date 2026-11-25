@@ -1,0 +1,31 @@
+{
+  "id": "debrief/178",
+  "printedCode": "178",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Turn each city where the trial was NOT disrupted into an Exposed City (following the rules for Marking Exposed Cities). Place these Infection cards in the Game End area and destroy any unused Infection cards. Then move all three City cards under the Disrupt Trial objective to the Player discard pile. Then draw the Pause card in the Legacy deck and read it.",
+      "flavor": "This MEDUSA strain is highly virulent. The cities are already having issues. The press has taken notice, and preventing outbreaks at home will be challenging.",
+      "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

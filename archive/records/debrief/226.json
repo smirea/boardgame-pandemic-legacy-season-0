@@ -1,0 +1,31 @@
+{
+  "id": "debrief/226",
+  "printedCode": "226",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "You recovered the COdA sample and put a convincing placebo in its place. The CIA won't be able to use it. No one will be harmed by COdA again.",
+      "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

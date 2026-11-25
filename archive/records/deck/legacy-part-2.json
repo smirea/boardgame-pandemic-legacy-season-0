@@ -1,0 +1,290 @@
+{
+  "id": "deck/legacy-part-2",
+  "printedCode": "Legacy Deck Part 2",
+  "kind": "deck",
+  "censusKey": "legacy-deck",
+  "sourceGuid": "9342f4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2.",
+    "guids": [
+      "9342f4"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "legacy/07-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/07-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/07-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/07-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/07-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/07-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/07-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-09",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-10",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-11",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-09",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-10",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-11",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-12",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-13",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/10-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/10-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/10-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/10-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/10-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/10-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/11-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/11-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/11-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/11-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/11-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/11-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/11-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-02",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-04",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/12-08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/end-of-legacy-deck",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

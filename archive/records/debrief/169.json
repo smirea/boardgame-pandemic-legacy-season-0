@@ -1,0 +1,42 @@
+{
+  "id": "debrief/169",
+  "printedCode": "169",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Open Door 46. Then open Door F and place that rule in the rulebook. Then draw the Pause card in the Legacy deck and read the back of it.",
+      "flavor": "None of the trials were disrupted, and all three cities are exposed to the pathogen. The MEDUSA symptoms are still mild, so fortunately the effect on the populace remains minimal.",
+      "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/46",
+      "label": "Open door 46"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/F",
+      "label": "Open door F"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

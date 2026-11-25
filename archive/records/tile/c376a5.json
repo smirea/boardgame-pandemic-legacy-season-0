@@ -1,0 +1,35 @@
+{
+  "id": "tile/c376a5",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c376a5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/30",
+    "duplicatePaths": [
+      "348/4"
+    ],
+    "note": "Unclassified tile.",
+    "guids": [
+      "c376a5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

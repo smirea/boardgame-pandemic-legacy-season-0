@@ -1,0 +1,59 @@
+{
+  "id": "legacy/06-04",
+  "printedCode": "06-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "b67ed8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/11",
+    "duplicatePaths": [
+      "352/11"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "b67ed8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is an infiltration objective.\nTo set it up, find cards 70 and 71 in the Operations deck and place them faceup next to each other to form the infiltration site Sabik's Safehouse.\nMix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-11.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "JUNE OBJECTIVE 2\nINFILTRATE SABIK'S SAFEHOUSE\nInfiltration City: Mexico City\nWHILE IN THE BASEMENT OF SABIK'S SAFEHOUSE, SPEND AN ACTION AND DISCARD 3 NEUTRAL CITY CARDS\nCompleted: Read Debrief 104\nFailed (First half of month): Read Debrief 183\nFailed (Second half of month): Read Debrief 192",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-11.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/104",
+      "label": "Debrief 104"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/183",
+      "label": "Debrief 183"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/192",
+      "label": "Debrief 192"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

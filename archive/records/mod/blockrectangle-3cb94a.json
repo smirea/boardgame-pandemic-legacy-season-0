@@ -1,0 +1,24 @@
+{
+  "id": "mod/blockrectangle-3cb94a",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "3cb94a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "3",
+    "duplicatePaths": [],
+    "note": "Tabletop Simulator table geometry.",
+    "guids": [
+      "3cb94a"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tile/acfca4",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "acfca4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/24",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "acfca4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SPECIALIZATIONS\nBox 0007-4f\nAdd a specialization to each neutral alias.",
+      "flavor": "",
+      "image": "media/original/e16d24c2949465f3f1612ac2d837839ffdf9c92a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "box/0007",
+      "label": "Box 0007"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

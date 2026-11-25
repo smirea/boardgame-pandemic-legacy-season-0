@@ -1,0 +1,165 @@
+{
+  "id": "mod/0003-743a56",
+  "printedCode": "0003",
+  "kind": "note",
+  "censusKey": "mod-extra",
+  "sourceGuid": "743a56",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "357",
+    "duplicatePaths": [],
+    "note": "",
+    "guids": [
+      "743a56"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "door/47",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/1-800bd2",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/10-07228e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/10-af50c9",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/11-4b4164",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/11-d2762a",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/12-0e2ff7",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/12-b04c52",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/13-87e2cd",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/13-a39c19",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/14-b55856",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/14-fd5882",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/2-b938d7",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/2-f25a19",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/3-78fe12",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/3-e4bda8",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/4-363fcf",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/4-694a38",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/5-1fdf01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/5-2d2696",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/6-84e5d1",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/6-f94656",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/7-58f185",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/7-a40847",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/8-459a26",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/8-ba32bf",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/9-1ca7ae",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/9-595792",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

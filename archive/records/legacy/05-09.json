@@ -1,0 +1,43 @@
+{
+  "id": "legacy/05-09",
+  "printedCode": "05-09",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "1a0a19",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/15",
+    "duplicatePaths": [
+      "352/15"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "1a0a19"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\nBORDER SECURITY\nEach player may add up to 2 checkpoint tokens to the board on connections adjacent to their current city.\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-15.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-15.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

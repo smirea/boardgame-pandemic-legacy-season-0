@@ -1,0 +1,69 @@
+{
+  "id": "legacy/06-13",
+  "printedCode": "06-13",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "7e8e9c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/2",
+    "duplicatePaths": [
+      "352/2"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "7e8e9c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\n\nDraw this card and read the back during step 3 at the end of the first game in June.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-2.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\n\nOpen the following doors:\nO 36 17 22\n\nIf you received a FAILING evaluation for the first half of the month, read Debrief 116.\n\nThen, add the following Event card to the pool of events that you select from when you set up the game.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-2.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/17",
+      "label": "Open door 17"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/22",
+      "label": "Open door 22"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/36",
+      "label": "Open door 36"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/O",
+      "label": "Open door O"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/116",
+      "label": "Debrief 116"
+    }
+  ],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

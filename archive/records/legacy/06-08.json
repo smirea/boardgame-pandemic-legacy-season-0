@@ -1,0 +1,43 @@
+{
+  "id": "legacy/06-08",
+  "printedCode": "06-08",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "26fa06",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/7",
+    "duplicatePaths": [
+      "352/7"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "26fa06"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\n\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial objective).",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-7.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\n\nDraw the next 4 cards and continue reading the debrief entry.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-7.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

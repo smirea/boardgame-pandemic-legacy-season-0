@@ -1,0 +1,43 @@
+{
+  "id": "legacy/04-10",
+  "printedCode": "04-10",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "b74be3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/37",
+    "duplicatePaths": [
+      "352/37"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "b74be3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nTingling Limbs\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-37.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nTingling Limbs\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-37.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

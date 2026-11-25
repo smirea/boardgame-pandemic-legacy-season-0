@@ -1,0 +1,33 @@
+{
+  "id": "tile/ff8a8b",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ff8a8b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "330/0/18",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "ff8a8b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ENTER/EXIT INFILTRATION SITE Move between an Infiltration city and the ENTRANCE room of its Infiltration site. Your alias must match the city’s affiliation.",
+      "flavor": "",
+      "image": "media/original/d1252c9eedf548b62a51fbd05d5e004c457a2b9f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

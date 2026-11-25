@@ -1,0 +1,31 @@
+{
+  "id": "debrief/203",
+  "printedCode": "203",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Turn each city where the trial was NOT disrupted into an Exposed City (following the rules for Marking Exposed Cities). Place these Infection cards into the Game End area and destroy any unused Infection cards. Then move all 4 City cards under the Disrupt Trial objective to the Player discard pile.",
+      "flavor": "While disrupting the trials, your team came across some intel of potential interest. Until early autumn last year, the Soviets were buying large quantities of a rare jellyfish: Diplulmaris Antarctica. Seems unrelated to MEDUSA, but your team obtained a sample just in case.",
+      "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

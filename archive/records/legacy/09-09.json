@@ -1,0 +1,44 @@
+{
+  "id": "legacy/09-09",
+  "printedCode": "09-09",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "f4e4f2",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/10",
+    "duplicatePaths": [
+      "333/26"
+    ],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "874dad",
+      "f4e4f2"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "“We are approaching the end of your probationary period, agents.\n\nI’m pleased to say that you’re on track to finish early, but there are still evaluations to process. Begin now.”",
+      "flavor": "“We are approaching the end of your probationary period, agents.\n\nI’m pleased to say that you’re on track to finish early, but there are still evaluations to process. Begin now.”",
+      "image": "media/split/cc2c7c586e0d-26.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Decide as a group, then fill in one bubble per question.\nStrongly Disagree\nStrongly Agree\n\n12. We believe the ends justify the means.\n1 2 3 4 5\n\nAfter answering, put this card into your Personnel file.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

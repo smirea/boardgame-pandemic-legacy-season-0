@@ -1,0 +1,52 @@
+{
+  "id": "legacy/08-09",
+  "printedCode": "08-09",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "12c501",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/37",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "12c501"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PSYCHOLOGICAL EVALUATION\n\nReview your responses to questions 10–11 from the tests in your Personnel file. Record your answers, then total your results.\n\nNUMBER CIRCLED\nQuestion 10\nQuestion 11\n\nTOTAL:\n\nFlip this card over for your test results.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-37.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEST RESULTS\n\nRead the debrief corresponding to your total:\n\n2-6: Read Debrief 153\n7-10: Read Debrief 127\n\nIf you receive a Restriction card, put it into the Operations area of the board, and continue to do so at the start of each game.\n\nKeep this card in your Personnel file.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-37.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/127",
+      "label": "Debrief 127"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/153",
+      "label": "Debrief 153"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

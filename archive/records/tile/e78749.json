@@ -1,0 +1,33 @@
+{
+  "id": "tile/e78749",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "e78749",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "90",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "e78749"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEMPORARY ALIAS\n\nResearch Assistant:\nWhen you do the Share Intel action, you may give any 1 City card.\nWhen others Share Intel with you, they may take any 1 City card from you.\n\nCover\nWhen playing with a temporary alias, for every cover you would scratch, discard 1 card (if you have any) instead.",
+      "flavor": "",
+      "image": "media/original/6036cc07e1fe3c13ab9e13db510516081195789c.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

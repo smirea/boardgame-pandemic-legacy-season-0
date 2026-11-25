@@ -1,0 +1,36 @@
+{
+  "id": "pearl/9-595792",
+  "printedCode": "9",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "595792",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/11",
+    "duplicatePaths": [
+      "356/11",
+      "357/11"
+    ],
+    "note": "PEARL compound piece 9. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "595792"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "HOLDING CELLS\nWhen you enter this room, scratch 3 cover.",
+      "flavor": "",
+      "image": "media/original/6545b7301980aabfe5dff8ee949bb05930c1064f.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

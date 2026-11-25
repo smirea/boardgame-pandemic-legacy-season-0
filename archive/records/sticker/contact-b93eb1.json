@@ -1,0 +1,33 @@
+{
+  "id": "sticker/contact-b93eb1",
+  "printedCode": null,
+  "kind": "sticker",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b93eb1",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "87",
+    "duplicatePaths": [],
+    "note": "Contact sticker (shop owner, crime boss, or politician) placed loose next to the upgrade sheet.",
+    "guids": [
+      "b93eb1"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SHOP OWNER As an action, while in the Shop Owner's city, swap 2 City cards from your hand with 1 City card from the Player discard pile.\nCITY:",
+      "flavor": "",
+      "image": "media/original/abef97ce26568bbc4fcceea0fdd2ac9113881d2b.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

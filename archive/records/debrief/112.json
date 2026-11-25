@@ -1,0 +1,31 @@
+{
+  "id": "debrief/112",
+  "printedCode": "112",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+      "flavor": "The defector, a botanist who contracts with the CIA, escaped. Her colleagues indicated that she was troubled after accidentally receiving CIA documents. She took her research and ran, but you discover that her spouse was unable to flee with her. They're in hiding at the moment, but may surface again soon.",
+      "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

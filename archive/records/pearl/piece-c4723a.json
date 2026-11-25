@@ -1,0 +1,33 @@
+{
+  "id": "pearl/piece-c4723a",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c4723a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/47",
+    "duplicatePaths": [],
+    "note": "PEARL compound piece c4723a. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "c4723a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/8f19eafecbcc9a217dc7d635c1430260ed51ce57.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

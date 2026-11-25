@@ -1,0 +1,31 @@
+{
+  "id": "debrief/201",
+  "printedCode": "201",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+      "flavor": "Sabik's former ally was ready to talk. \"Sabik tore apart our HQ after you rejected his offer, screaming about betrayal. He scrubbed everything we were planning against the Soviets and MEDUSA and headed to San Francisco. Something about some old comrade who has been there for a few months. Conner, or Cooney, I think? Don't know what he's going to do, but I doubt it'll be pretty.\"",
+      "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

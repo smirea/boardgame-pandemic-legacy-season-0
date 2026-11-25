@@ -1,0 +1,67 @@
+{
+  "id": "legacy/11-03",
+  "printedCode": "11-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "ea6793",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/13",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "ea6793"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "MISSION BRIEFING\n\n\"'Operation LION'S TOOTH.' This is what the Soviets call their MEDUSA deployment plan, and we need to know more. A Soviet spy posing as a businessman, last seen in Sydney, has this information. Find him.\n\nYour second objective is to dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment. Finally, Sabik is laying low, but many of his allies are parting ways with him. Find one.\"\n\nOpen the following doors:\nU 39 42 S",
+      "flavor": "\"'Operation LION'S TOOTH.' This is what the Soviets call their MEDUSA deployment plan, and we need to know more. A Soviet spy posing as a businessman, last seen in Sydney, has this information. Find him.\n\nYour second objective is to dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment. Finally, Sabik is laying low, but many of his allies are parting ways with him. Find one.\"",
+      "image": "media/split/cc2c7c586e0d-13.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "MISSION BRIEFING\n\n\"One more thing...\"\n\nIf the \"Help from Sabik\" card is in the Operations Area, read Debrief 231.",
+      "flavor": "\"One more thing...\"",
+      "image": "media/split/1aaabc2decc1-13.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/39",
+      "label": "Open door 39"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/42",
+      "label": "Open door 42"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/S",
+      "label": "Open door S"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/U",
+      "label": "Open door U"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/231",
+      "label": "Debrief 231"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

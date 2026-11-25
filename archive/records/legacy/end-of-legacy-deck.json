@@ -1,0 +1,41 @@
+{
+  "id": "legacy/end-of-legacy-deck",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "0b145d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/0",
+    "duplicatePaths": [],
+    "note": "Warning card at the end of the legacy deck. It has no NN-NN code.",
+    "guids": [
+      "0b145d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "WARNING!\nEND OF LEGACY DECK",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-0.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "WARNING!\nEND OF LEGACY DECK",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

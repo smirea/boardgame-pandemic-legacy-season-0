@@ -1,0 +1,31 @@
+{
+  "id": "debrief/199",
+  "printedCode": "199",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Find card 58 from the Operations deck and place it faceup in the Operations area.",
+      "flavor": "\"Sabik has compromised a number of dedicated agents, exploiting their desire to accomplish good. Your own optimism in the face of a growing threat is refreshing, but you must be cautious about who you trust on the outside, especially when sensitive intelligence is in play.\"",
+      "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

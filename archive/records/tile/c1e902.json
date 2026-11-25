@@ -1,0 +1,33 @@
+{
+  "id": "tile/c1e902",
+  "printedCode": "Face location marker",
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c1e902",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/12",
+    "duplicatePaths": [],
+    "note": "Face location marker",
+    "guids": [
+      "c1e902"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/9a083c14d4d67066c2dd8df57730aa13758adc59.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

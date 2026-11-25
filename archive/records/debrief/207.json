@@ -1,0 +1,31 @@
+{
+  "id": "debrief/207",
+  "printedCode": "207",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Find card 51 from the Operations deck and place it faceup in the Operations area.",
+      "flavor": "\"All right team, I went over your responses and have an initial evaluation. Best I can figure is you're a little uncertain. It takes a while for new agents to find their footing, and this is more common than you'd think. So, we're gonna give you a little nudge, something to make sure you learn to work in the field, away from the nest.\"",
+      "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

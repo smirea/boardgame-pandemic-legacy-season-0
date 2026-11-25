@@ -1,0 +1,33 @@
+{
+  "id": "tile/85f90a",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "85f90a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "285/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "85f90a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "715\nAUTHORIZATION CODE 715\nAs an action, you may remove all agents from a city containing an active team.",
+      "flavor": "",
+      "image": "media/original/72b9ac13996c7195ddb061ff05665a0730236329.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

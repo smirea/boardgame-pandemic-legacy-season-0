@@ -1,0 +1,33 @@
+{
+  "id": "mod/rules-incidents",
+  "printedCode": null,
+  "kind": "rule-page",
+  "censusKey": "mod-extra",
+  "sourceGuid": "71999f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "27",
+    "duplicatePaths": [],
+    "note": "In-mod copy of the incidents and game-end spread.",
+    "guids": [
+      "71999f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/747210a5a517bfc6d5e1bf16aee57f89889c4361.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

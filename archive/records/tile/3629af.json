@@ -1,0 +1,33 @@
+{
+  "id": "tile/3629af",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "3629af",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "314/0/4",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "3629af"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DOOR 37",
+      "flavor": "",
+      "image": "media/original/cf6d2cd55bed43574d0e1fd0853ade56c6d57f2d.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

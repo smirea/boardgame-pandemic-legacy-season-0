@@ -1,0 +1,37 @@
+{
+  "id": "debrief/107",
+  "printedCode": "107",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Information on Operation LION'S TOOTH is in the records room! If the objective \"Stop Operation LION'S TOOTH\" is incomplete, open Door 41.\n\nReturn the player pawn in the PEARL Compound to Novosibirsk.",
+      "flavor": "You obtained the MEDUSA genome. This weaponized strain is deadly, contagious, and according to Soviet data, incurable. You'll be sending the genome to the CDC the first chance you get; the MEDUSA plague must be isolated in deep storage. You destroy everything else in the lab before leaving, putting an end to PROJEKT MEDUSA.",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/41",
+      "label": "Open door 41"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

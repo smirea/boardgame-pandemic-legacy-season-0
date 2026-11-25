@@ -1,0 +1,41 @@
+{
+  "id": "event/counter-intelligence",
+  "printedCode": "Counter-Intelligence",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "919378",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "342/0/1",
+    "duplicatePaths": [],
+    "note": "Event. Part of the 58 player cards. Playable any time it is your turn, not between drawing and resolving a card.",
+    "guids": [
+      "919378"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nCOUNTER-INTELLIGENCE\n\nPut 1 card from the Threat discard pile into the game end area.\n\nPlay any time. You may play this between the Add Agents and Intensify steps of an escalation. Not an action.",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-7.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

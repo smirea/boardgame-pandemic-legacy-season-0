@@ -1,0 +1,43 @@
+{
+  "id": "legacy/04-11",
+  "printedCode": "04-11",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "fed826",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/36",
+    "duplicatePaths": [
+      "352/36"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "fed826"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nBlurred Vision\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-36.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nBlurred Vision\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-36.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mod/blocksquare-eab441",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "eab441",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "332/0/8",
+    "duplicatePaths": [],
+    "note": "Tabletop Simulator table geometry.",
+    "guids": [
+      "eab441"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

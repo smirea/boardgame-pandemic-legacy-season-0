@@ -1,0 +1,33 @@
+{
+  "id": "tile/8ce16f",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8ce16f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "91",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "8ce16f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEMPORARY ALIAS\n\nHospital Administrator:\nYou may do the Assemble Team action with one fewer card.\n\nCover\nWhen playing with a temporary alias, for every cover you would scratch, discard 1 card (if you have any) instead.",
+      "flavor": "",
+      "image": "media/original/d2f120e840a1be15be3d26b384e07d0e231b6c69.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

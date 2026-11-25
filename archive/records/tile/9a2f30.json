@@ -1,0 +1,33 @@
+{
+  "id": "tile/9a2f30",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "9a2f30",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "285/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "9a2f30"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "405\nAUTHORIZATION CODE 405\nAs an action, discard a City card to move a team to the matching city.",
+      "flavor": "",
+      "image": "media/original/650289bb5855211c851d6b5bdfac01ba3dc82c24.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

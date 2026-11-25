@@ -1,0 +1,33 @@
+{
+  "id": "tile/b84863",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b84863",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "288/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b84863"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DR. ROBERT If you start your turn in this city, take 2 Action tokens. The city must be a Soviet city.\nCITY:",
+      "flavor": "",
+      "image": "media/original/295e0b689987f59e70e76b6a966c4f371f0f4ce6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

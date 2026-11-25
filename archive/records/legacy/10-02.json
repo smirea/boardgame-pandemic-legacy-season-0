@@ -1,0 +1,52 @@
+{
+  "id": "legacy/10-02",
+  "printedCode": "10-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "f535b0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/20",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "f535b0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is an infiltration objective.\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-20.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OCTOBER OBJECTIVE 1\nFIND THE SOVIETS' CURE FOR MEDUSA\nInfiltration City: Novosibirsk\nWHILE IN THE MEDICAL WARD OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 3 CITY CARDS\nCompleted: Read Debrief 180\nFailed: Read Debrief 217",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-20.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/180",
+      "label": "Debrief 180"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/217",
+      "label": "Debrief 217"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

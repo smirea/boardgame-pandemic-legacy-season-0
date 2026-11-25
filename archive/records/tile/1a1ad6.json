@@ -1,0 +1,33 @@
+{
+  "id": "tile/1a1ad6",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "1a1ad6",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "323/0/3",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "1a1ad6"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CHRONIC INFECTION DOOR 43 Keep these stickers in the reserve.",
+      "flavor": "",
+      "image": "media/original/c8b4dec45d58ce9d64306d47e82fef3f8e25a24e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

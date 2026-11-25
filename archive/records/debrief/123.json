@@ -1,0 +1,31 @@
+{
+  "id": "debrief/123",
+  "printedCode": "123",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Return the player pawn in Sabik's HQ to Leningrad.\n\nThen take cards 64 and 65 from the Operations deck. Decide which report you wish to file with the CIA. Put that card in your Intelligence file. Destroy the other one.",
+      "flavor": "In Sabik's HQ, you find a safe containing a CIA document. It reads, \"June 18, 1961. Top Secret. From John Cooper. Cancel retrieval of Agent Sabik from captivity in Siberia. Sabik is too valuable as an asset on the inside. He has a front-row seat to Soviet plans and is well-versed in counter-interrogation techniques. We can pull him out in the summer of '62. It's a risk he might not make it, but acceptable, given the time of great need.\"\n\nSabik enters the room, bundled completely in spite of the summer heat. He holds a pistol in a relaxed grip and keeps his distance. \"You understand now why I can't go back. Your buddy Coop left me for dead, expecting I'd still be on mission. I guess I still am: just not on their payroll.\"\n\nHe pauses, his arm shaking as a tremor passes through him. \"Do you get it now? The world needs saving, the CIA isn't any better than the damn Soviets, and you waste your time chasing me instead of fighting MEDUSA!\" He raises the pistol, clenching his gloved fist.\n\nAfter a moment he lowers it with a sigh.\"Look...I don't want to keep fighting you. As a sign of good faith, let me help; I know where they're studying and manufacturing MEDUSA. It's a place called PEARL Compound. It's where I was held captive.\" Keeping the pistol trained on you, he departs.",
+      "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

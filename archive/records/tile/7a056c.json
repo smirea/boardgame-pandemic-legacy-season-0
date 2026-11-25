@@ -1,0 +1,33 @@
+{
+  "id": "tile/7a056c",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "7a056c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "302/0/2",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "7a056c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ASSETS\nDOOR 25\n1\n2",
+      "flavor": "",
+      "image": "media/original/a80dc5b1efac57e55abe026f011a0df820a06a35.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

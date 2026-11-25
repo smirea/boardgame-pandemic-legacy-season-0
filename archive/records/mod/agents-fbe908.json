@@ -1,0 +1,33 @@
+{
+  "id": "mod/agents-fbe908",
+  "printedCode": "Agents",
+  "kind": "mesh",
+  "censusKey": "mod-extra",
+  "sourceGuid": "fbe908",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "31",
+    "duplicatePaths": [],
+    "note": "Supply bag for the agents.",
+    "guids": [
+      "fbe908"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "token/agent",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": {
+    "file": "media/original/3ce5858bbdc9d084d0d7efaff9893c710e8e4507.obj",
+    "diffuse": null
+  }
+}

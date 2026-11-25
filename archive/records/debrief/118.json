@@ -1,0 +1,31 @@
+{
+  "id": "debrief/118",
+  "printedCode": "118",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "Soviet security was too tight to plant the bug; there won't be another opportunity for it.",
+      "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "operations/i39",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "e255d4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/2",
+    "duplicatePaths": [
+      "347/2"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "e255d4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVALUATION: ERRATIC You may not Share Intel in Washington. Washington RESTRICTION",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-39.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "51 51 OPERATIONS 51",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-39.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

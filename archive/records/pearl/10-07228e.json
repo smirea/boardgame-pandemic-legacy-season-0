@@ -1,0 +1,36 @@
+{
+  "id": "pearl/10-07228e",
+  "printedCode": "10",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "07228e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/9",
+    "duplicatePaths": [
+      "356/9",
+      "357/9"
+    ],
+    "note": "PEARL compound piece 10. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "07228e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MEDICAL WARD\n\nDIRECTOR'S OFFICE\nWhen you enter this room, you may scratch 1 cover to draw 2 City cards from the Player discard pile.",
+      "flavor": "",
+      "image": "media/original/a66938ef7e15d56855fbae5e6441ea122183e7d1.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

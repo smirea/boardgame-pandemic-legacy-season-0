@@ -1,0 +1,35 @@
+{
+  "id": "pearl/piece-3cba65",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "3cba65",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/28",
+    "duplicatePaths": [
+      "356/28"
+    ],
+    "note": "PEARL compound piece 3cba65. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "3cba65"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "47\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??",
+      "flavor": "",
+      "image": "media/original/eb17b980534a19c2c4ba83d9d78a5cdb2860d836.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

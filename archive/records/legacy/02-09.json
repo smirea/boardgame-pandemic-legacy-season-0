@@ -1,0 +1,54 @@
+{
+  "id": "legacy/02-09",
+  "printedCode": "02-09",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "10155b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/57",
+    "duplicatePaths": [
+      "352/57"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "10155b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in February.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-1.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\nOpen the following door:\n12\nIf you received a FAILING evaluation for the first half of the month, read Debrief 163.\nFinally, add the following Event card to the pool of events that you select from when you set up the game (regardless of the evaluation you received).",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/12",
+      "label": "Open door 12"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/163",
+      "label": "Debrief 163"
+    }
+  ],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

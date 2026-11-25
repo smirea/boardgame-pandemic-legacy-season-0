@@ -1,0 +1,182 @@
+{
+  "legacy/08-09": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PSYCHOLOGICAL EVALUATION\n\nReview your responses to questions 10–11 from the tests in your Personnel file. Record your answers, then total your results.\n\nNUMBER CIRCLED\nQuestion 10\nQuestion 11\n\nTOTAL:\n\nFlip this card over for your test results.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "TEST RESULTS\n\nRead the debrief corresponding to your total:\n\n2-6: Read Debrief 153\n7-10: Read Debrief 127\n\nIf you receive a Restriction card, put it into the Operations area of the board, and continue to do so at the start of each game.\n\nKeep this card in your Personnel file.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/08-10": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\n\nDraw this card and read the back during step 3 at the end of the first game in August.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "MEDUSA DEPLOYMENT REPORT\n\n“We’re working on investigating the MEDUSA plague deployment system.\n\nBased upon what you have seen in the field, tell us what you know.”\n\nCheck 1 box and place this card in your Intelligence file:\n\nMEDUSA deployment is connected to:\nJellyfish\nAgent Sabik\nPollen\nWe don’t know",
+        "flavor": "“We’re working on investigating the MEDUSA plague deployment system.\n\nBased upon what you have seen in the field, tell us what you know.”"
+      }
+    }
+  },
+  "legacy/08-11": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\n\nOpen the following doors:\n20 21 26\n\nIf you received a FAILING evaluation for the first half of the month, read Debrief 212.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STOP\n\nDraw this card just before you set up your first game in September.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "MISSION BRIEFING\n\n“The Soviets are developing and manufacturing the MEDUSA plague at a facility called PEARL Compound, near Lake Baikal: the same location where Agent Sabik was held last year.\n\nExpect to infiltrate PEARL repeatedly in the coming months. Your first task is to find records of Sabik’s captivity. Discover what broke him.”\n\nOPEN\n0003\nand read its contents.",
+        "flavor": "“The Soviets are developing and manufacturing the MEDUSA plague at a facility called PEARL Compound, near Lake Baikal: the same location where Agent Sabik was held last year.\n\nExpect to infiltrate PEARL repeatedly in the coming months. Your first task is to find records of Sabik’s captivity. Discover what broke him.”"
+      }
+    }
+  },
+  "legacy/09-02": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "flavor",
+        "transcription": "MISSION BRIEFING\n\n“There is a final MEDUSA trial, by far the most severe strain they have created.\n\nThe trial is to take place in North America, and...you must prevent all of the trials. The PEARL Compound is their source for MEDUSA, so you may be able to find their loading dock and replace their samples with a placebo.\n\nThere is an extreme risk of exposure to the pathogen if you do this, but there may not be another way.\n\nYour final objective is to bug another control center. I recognize that it may be a lower priority, but intercepting Soviet data remains important.”",
+        "flavor": "“There is a final MEDUSA trial, by far the most severe strain they have created.\n\nThe trial is to take place in North America, and...you must prevent all of the trials. The PEARL Compound is their source for MEDUSA, so you may be able to find their loading dock and replace their samples with a placebo.\n\nThere is an extreme risk of exposure to the pathogen if you do this, but there may not be another way.\n\nYour final objective is to bug another control center. I recognize that it may be a lower priority, but intercepting Soviet data remains important.”"
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is a disrupt trial objective.\n\nTo set it up, separate the 8 North America City cards from the Player deck, shuffle them, and place 3 of them faceup into the Operations area. These are the 3 trial cities.\n\nThen shuffle the remaining North America cards back into the Player deck.\n\nFinally, flip this card over and place it on top of the 3 trial city cards.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "SEPTEMBER OBJECTIVE 1\n\nDISRUPT OR PREVENT ALL TRIALS\n\nDisrupt Trial in:\nALL KNOWN TRIAL CITIES IN NORTH AMERICA AT THE SAME TIME (OR PREVENT THEM FROM HAPPENING)\n\nCompleted: Read Debrief 230\nFailed: Read Debrief 178",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-04": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is an infiltration objective.\n\nUse the PEARL Compound Infiltration site. To set it up, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\n\nFlip this card over and place it onto the board in the Operations area.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "SEPTEMBER OBJECTIVE 2\n\nACCESS AGENT SABIK’S RECORDS\n\nInfiltration City: Novosibirsk\n\nWHILE IN THE RECORDS ROOM OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 3 CITY CARDS\n\nCompleted: Read Debrief 182\nFailed: Read Debrief 145",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-05": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 5 Pacific Rim City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Pacific Rim cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "SEPTEMBER OBJECTIVE 3\n\nBUG CONTROL CENTER\n\nAcquire Target in:\n1 UNKNOWN CITY IN THE PACIFIC RIM\n\nCompleted: Read Debrief 234\nFailed: Read Debrief 218",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-06": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STARTING INTENSITY\n3\nINFECTION CITY NAME\nDuring setup, put 3 disease cubes into this city.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-07": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STARTING INTENSITY\n3\nINFECTION CITY NAME\nDuring setup, put 3 disease cubes into this city.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-08": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STARTING INTENSITY\n3\nINFECTION CITY NAME\nDuring setup, put 3 disease cubes into this city.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-09": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "flavor",
+        "transcription": "“We are approaching the end of your probationary period, agents.\n\nI’m pleased to say that you’re on track to finish early, but there are still evaluations to process. Begin now.”",
+        "flavor": "“We are approaching the end of your probationary period, agents.\n\nI’m pleased to say that you’re on track to finish early, but there are still evaluations to process. Begin now.”"
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "Decide as a group, then fill in one bubble per question.\nStrongly Disagree\nStrongly Agree\n\n12. We believe the ends justify the means.\n1 2 3 4 5\n\nAfter answering, put this card into your Personnel file.",
+        "flavor": ""
+      }
+    }
+  }
+}

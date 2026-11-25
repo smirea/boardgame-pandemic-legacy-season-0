@@ -1,0 +1,41 @@
+{
+  "id": "player/buenos-aires",
+  "printedCode": "Buenos Aires",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "4a032e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0/34",
+    "duplicatePaths": [],
+    "note": "Player card. Region: south america.",
+    "guids": [
+      "4a032e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "BUENOS AIRES ARGENTINA SOUTH AMERICA 1",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-51.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

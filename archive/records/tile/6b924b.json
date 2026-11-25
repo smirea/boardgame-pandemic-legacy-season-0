@@ -1,0 +1,33 @@
+{
+  "id": "tile/6b924b",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "6b924b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/39",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "6b924b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CHECKPOINTS\nDo not add Pursuit tokens across routes containing a Checkpoint token.",
+      "flavor": "",
+      "image": "media/original/ecb8bf3faeaf0ecf6044e84a71ccf8466e2b5670.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

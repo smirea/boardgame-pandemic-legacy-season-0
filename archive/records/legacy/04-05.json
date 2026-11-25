@@ -1,0 +1,43 @@
+{
+  "id": "legacy/04-05",
+  "printedCode": "04-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "ca0dc3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/42",
+    "duplicatePaths": [
+      "352/42"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "ca0dc3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nDifficulty Breathing\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-42.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nDifficulty Breathing\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-42.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

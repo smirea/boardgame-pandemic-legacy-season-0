@@ -1,0 +1,43 @@
+{
+  "id": "legacy/00-05",
+  "printedCode": "00-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "e7b463",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/76",
+    "duplicatePaths": [
+      "352/76"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "e7b463"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "\"Oh yeah, one more thing. I've seen a lot of field agents get overwhelmed out there, so I usually prepare a couple of notes; just somethin' to keep you on task.\n\nI find it helps, even if some folks 'round here like to poke fun at 'Coop's notes.'\"",
+      "flavor": "\"Oh yeah, one more thing. I've seen a lot of field agents get overwhelmed out there, so I usually prepare a couple of notes; just somethin' to keep you on task.\n\nI find it helps, even if some folks 'round here like to poke fun at 'Coop's notes.'\"",
+      "image": "media/split/ff910e2efc70-20.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "THE MEDUSA PLAGUE\nWhat does it do?\nWhere are the Soviets making it?\nHow are the Soviets planning to deploy it?\nHow do we stop it?\n\nAGENT SABIK\nWhat does he know from his time in captivity?\nWhere is he?\nCan he be trusted?\n\nPlace this card in your Intelligence file.",
+      "flavor": "THE MEDUSA PLAGUE\nWhat does it do?\nWhere are the Soviets making it?\nHow are the Soviets planning to deploy it?\nHow do we stop it?\n\nAGENT SABIK\nWhat does he know from his time in captivity?\nWhere is he?\nCan he be trusted?",
+      "image": "media/split/6bdabf12abfb-20.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

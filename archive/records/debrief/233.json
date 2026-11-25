@@ -1,0 +1,31 @@
+{
+  "id": "debrief/233",
+  "printedCode": "233",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "DESTROY the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+      "flavor": "Your teams quarantined those infected. They are contained for the time being.",
+      "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

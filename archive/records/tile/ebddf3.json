@@ -1,0 +1,33 @@
+{
+  "id": "tile/ebddf3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ebddf3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "325/0/6",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "ebddf3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EXPOSED CITY STICKERS\nDOOR 46\nKeep these stickers in the reserve.",
+      "flavor": "",
+      "image": "media/original/6da2f1dcf65b33d46cb24bc06ab2e03004dc620a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/e6f240",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "e6f240",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "298/0/4",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "e6f240"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "LIABILITIES\nDOOR 21",
+      "flavor": "",
+      "image": "media/original/4d4377b0b4910019e390bafc1a0f6be6bdba33f4.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

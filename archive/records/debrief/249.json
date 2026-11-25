@@ -1,0 +1,31 @@
+{
+  "id": "debrief/249",
+  "printedCode": "249",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "Long after the MEDUSA plague nearly destroyed the world, its impact lingers. The different strains from the many MEDUSA trials evolved into four distinct diseases throughout the globe. The CDC wishes to set up crisis teams to keep this new world from being overrun.\n\nWary of other potential sources of biological warfare, the CIA retrieved a sample of the Soviets’ other attempt at a bioweapon: COdA. It will be kept on lockdown at Langley and thoroughly researched. You will be ready if there are any attempts to weaponize it.",
+      "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,173 @@
+# debrief/index
+
+- Kind: reference
+- Census: debrief-page × 1
+- Printed code: —
+- Marker: —
+- Source GUID: 3d3e0f
+- Unreferenced: yes
+
+Index sheet for the debrief book.
+
+## front
+
+![](media/original/4cb30bb6a4e3afccf2e844301c3385f3d80ce4fd.jpg)
+
+DEBRIEF BOOK
+NO. N4245.4
+S-E-C-R-E-T
+Section 100
+Section 101
+Section 102
+Section 103
+Section 104
+Section 105
+Section 106
+Section 107
+Section 108
+Section 109
+Section 110
+Section 111
+Section 112
+Section 113
+Section 114
+Section 115
+Section 116
+Section 117
+Section 118
+Section 119
+Section 120
+Section 121
+Section 122
+Section 123
+Section 124
+Section 125
+Section 126
+Section 127
+Section 128
+Section 129
+Section 130
+Section 131
+Section 132
+Section 133
+Section 134
+Section 135
+Section 136
+Section 137
+Section 138
+Section 139
+Section 140
+Section 141
+Section 142
+Section 143
+Section 144
+Section 145
+Section 146
+Section 147
+Section 148
+Section 149
+Section 150
+Section 151
+Section 152
+Section 153
+Section 154
+Section 155
+Section 156
+Section 157
+Section 158
+Section 159
+Section 160
+Section 161
+Section 162
+Section 163
+Section 164
+Section 165
+Section 166
+Section 167
+Section 168
+Section 169
+Section 170
+Section 171
+Section 172
+Section 173
+Section 174
+Section 175
+Section 176
+Section 177
+Section 178
+Section 179
+Section 180
+Section 181
+Section 182
+Section 183
+Section 184
+Section 185
+Section 186
+Section 187
+Section 188
+Section 189
+Section 190
+Section 191
+Section 192
+Section 193
+Section 194
+Section 195
+Section 196
+Section 197
+Section 198
+Section 199
+Section 200
+Section 201
+Section 202
+Section 203
+Section 204
+Section 205
+Section 206
+Section 207
+Section 208
+Section 209
+Section 210
+Section 211
+Section 212
+Section 213
+Section 214
+Section 215
+Section 216
+Section 217
+Section 218
+Section 219
+Section 220
+Section 221
+Section 222
+Section 223
+Section 224
+Section 225
+Section 226
+Section 227
+Section 228
+Section 229
+Section 230
+Section 231
+Section 232
+Section 233
+Section 234
+Section 235
+Section 236
+Section 237
+Section 238
+Section 239
+Section 240
+Section 241
+Section 242
+Section 243
+Section 244
+Section 245
+Section 246
+Section 247
+Section 248
+Section 249
+Section 250
+Section 251
+Section 252
+S-E-C-R-E-T
+Z-MAN 2020 [unreadable]

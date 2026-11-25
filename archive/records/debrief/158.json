@@ -1,0 +1,31 @@
+{
+  "id": "debrief/158",
+  "printedCode": "158",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Mark this objective as complete. No further information.",
+      "flavor": "You did what you had to, and Charles Sabik is no more. The brutality he suffered at Soviet hands left him unstable, filled with rage. Focusing on vengeance made him lose sight of the big picture; nothing could be gained from injecting Cooper with COdA.\nLying to the CIA comes easy now; you claim that the COdA theft and pulling Coop out of protective custody gave you the exact chance you needed to stop Sabik, for real this time. Doctor Morris is initially suspicious, but you control Sabik's influence in the CIA. There is little she can do to you now.",
+      "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

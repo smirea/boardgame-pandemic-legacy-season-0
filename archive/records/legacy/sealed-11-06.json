@@ -1,0 +1,57 @@
+{
+  "id": "legacy/sealed-11-06",
+  "printedCode": "11-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "d620cf",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/10",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "d620cf"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is an infiltration objective.\nTo set it up, find cards 74 and 75 in the Operations deck and place them faceup next to each other to form the infiltration site Langley.\nMix all the remaining Security tokens and put one facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/a3ad9647d9f9-10.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "NOVEMBER OBJECTIVE 3\nRECOVER THE COdA SAMPLE\nInfiltration City: Washington\nWHILE IN COLD STORAGE OF LANGLEY, SPEND AN ACTION AND DISCARD ANY 3 CITY CARDS\nCompleted: Read Debrief 226\nFailed (First half of month): Read Debrief 130\nFailed (Second half of month): Read Debrief 119",
+      "flavor": "",
+      "image": "media/split/0755b549db50-10.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/119",
+      "label": "Debrief 119"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/130",
+      "label": "Debrief 130"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/226",
+      "label": "Debrief 226"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

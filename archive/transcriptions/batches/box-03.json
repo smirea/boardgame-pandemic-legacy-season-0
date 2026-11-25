@@ -1,0 +1,272 @@
+{
+  "pearl/7-58f185": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "??",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/7-a40847": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MONITORING ROOM\nWhen you enter this room, turn any 2 unrevealed Security tokens face up.",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/8-459a26": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "??",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/8-ba32bf": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RECORDS ROOM\nWhen you enter this room, take 1 Action token.\nARCHIVES\nWhen you enter this room, take 1 City card from the Player discard pile.",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/9-1ca7ae": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "??",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/9-595792": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "HOLDING CELLS\nWhen you enter this room, scratch 3 cover.",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/entrance-b68e82": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "47",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-05452e": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-05b55c": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "0003",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-1b53df": {
+    "faces": {
+      "front": {
+        "role": "flavor",
+        "transcription": "THE COMPOUND\n“Located at the edge of Lake Baikal, PEARL Compound is the heart and soul of the Soviet efforts to destroy the West. Use your Soviet identity to infiltrate it, but leave no trace of your presence. If they realize we’re this close, this reservoir of intelligence will disappear overnight.\nIt will take many months to infiltrate all of PEARL. Take your time, be careful, and leave quickly. Anything you learn will be helpful as we close in on Project MEDUSA.”",
+        "flavor": "“Located at the edge of Lake Baikal, PEARL Compound is the heart and soul of the Soviet efforts to destroy the West. Use your Soviet identity to infiltrate it, but leave no trace of your presence. If they realize we’re this close, this reservoir of intelligence will disappear overnight.\nIt will take many months to infiltrate all of PEARL. Take your time, be careful, and leave quickly. Anything you learn will be helpful as we close in on Project MEDUSA.”"
+      }
+    }
+  },
+  "pearl/piece-212d27": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-391431": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-3cba65": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "47\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??\n??",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-3eacd2": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-413ef0": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\n1 Remove the contents of the game box, open the false bottom below all of the Safe Deposit boxes, then take the secret dossier and place it faceup next to the game board.\n2 Return everything else to the game box.\n3 Open Door 47 (found on the new dossier).\n4 Mix the 21 enclosed Security tokens into the supply of Security tokens. These show new symbols (regions and affiliations) that you may need to match when doing the Infiltrate action.\n5 Add the sticker (enclosed in this box) to the rulebook.",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-505dfe": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-533297": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-58a5ac": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-5f0011": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RULE R\nWhen Infiltrating, you may use multiple symbols (region, affiliation, keypad number) on the same Player card at the same time.\nDISCOVERING NEW AREAS OF PEARL\nWhen you move into a new area in PEARL, open the Dossier door for the new area and place your pawn in the connected room. Turn Security tokens adjacent to your room faceup, then read any text in the room.\nSome areas in PEARL have more than 1 room under a single Dossier door.\nThese rooms are not connected to each other.\nHATCHWAYS\nHatchways in PEARL Compound may not be bypassed with the Infiltrate action.",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-60c7a4": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-765c62": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-776af6": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-7bdd56": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-8e1560": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-92135e": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-a1ae01": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-aff6db": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-b01bb6": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-c4723a": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-c5d91c": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  }
+}

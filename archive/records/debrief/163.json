@@ -1,0 +1,31 @@
+{
+  "id": "debrief/163",
+  "printedCode": "163",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Destroy the objective \"Disrupt the First Trial.\" Find card 85 in the Operations deck. Use this objective as your second objective for the second half of February.",
+      "flavor": "\"I know it ain't easy, but we're gonna send you out again. The trials are already done with, but maybe you can quietly, and I do mean quietly, quarantine some of the population to slow down the spread of this thing.\"",
+      "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

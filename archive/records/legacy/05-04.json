@@ -1,0 +1,54 @@
+{
+  "id": "legacy/05-04",
+  "printedCode": "05-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "83e205",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/20",
+    "duplicatePaths": [
+      "352/20"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "83e205"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has 2 known target cities.\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-20.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MAY OBJECTIVE 2\nFIND SABIK'S OPERATIVES\nAcquire Target in 2 Cities with the same action:\nISTANBUL\nPEKING\nCompleted: Read Debrief 223\nFailed: Read Debrief 159",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-20.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/159",
+      "label": "Debrief 159"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/223",
+      "label": "Debrief 223"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

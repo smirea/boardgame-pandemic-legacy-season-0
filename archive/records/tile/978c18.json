@@ -1,0 +1,33 @@
+{
+  "id": "tile/978c18",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "978c18",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "299/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "978c18"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "FIELD MEDIC As an action, remove 1 Disease cube from the Field Medic’s city or a city adjacent to it.\nCITY:",
+      "flavor": "",
+      "image": "media/original/765baf145849f316728dfdf407ff0bb5f5945150.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

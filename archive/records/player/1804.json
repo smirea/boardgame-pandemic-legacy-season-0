@@ -1,0 +1,41 @@
+{
+  "id": "player/1804",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "1ba4ca",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "332/0/20/4",
+    "duplicatePaths": [],
+    "note": "Player card. Sealed in safe deposit box 0008, not in the prologue player deck.",
+    "guids": [
+      "1ba4ca"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SATELLITE LAUNCH\nOVER SOUTH AMERICA\n\nAdd a Satellite token to South America.\nEvery city in South America: + surveillance",
+      "flavor": "",
+      "image": "media/split/eab2a5816522-4.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

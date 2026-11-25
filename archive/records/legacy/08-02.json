@@ -1,0 +1,52 @@
+{
+  "id": "legacy/08-02",
+  "printedCode": "08-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "6b26cd",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/44",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "6b26cd"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is a disrupt trial objective.\n\nTo set it up, separate the 13 Asia City cards from the Player deck, shuffle them, and place 4 of them faceup into the Operations area. These are the 4 trial cities.\n\nThen, shuffle the remaining Asia cards back into the Player deck.\n\nFinally, flip this card over and place it on top of the 4 trial City cards.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-44.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AUGUST OBJECTIVE 1\n\nDISRUPT THE FOURTH TRIAL\n\nDisrupt Trial in:\n1, 2, 3 OR 4 KNOWN CITIES IN ASIA AT THE SAME TIME\n\nCompleted: Read Debrief 203\nFailed: Read Debrief 100",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-44.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/100",
+      "label": "Debrief 100"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/203",
+      "label": "Debrief 203"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

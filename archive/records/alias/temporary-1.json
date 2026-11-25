@@ -1,0 +1,41 @@
+{
+  "id": "alias/temporary-1",
+  "printedCode": "Temporary 1",
+  "kind": "card",
+  "censusKey": "temporary-alias",
+  "sourceGuid": "752c7b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "2/0",
+    "duplicatePaths": [],
+    "note": "Temporary alias, used in the prologue before passports are created.",
+    "guids": [
+      "752c7b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEMPORARY ALIAS\n\nResearch Assistant:\nWhen you do the Share Intel action, you may give any 1 City card.\nWhen others Share Intel with you, they may take any 1 City card from you.\n\nCover\nWhen playing with a temporary alias, for every cover you would scratch, discard 1 card (if you have any) instead.",
+      "flavor": "",
+      "image": "media/split/1c2d9f958d4e-0.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/62183f0c2660404a987c109637a6b8b53fa5998b.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

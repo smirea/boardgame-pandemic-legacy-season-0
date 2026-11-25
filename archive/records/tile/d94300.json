@@ -1,0 +1,33 @@
+{
+  "id": "tile/d94300",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d94300",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "327/0/7",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "d94300"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STREET CLEANER: When you enter a Soviet city, remove all the agents from that city.",
+      "flavor": "",
+      "image": "media/original/26ff7cbdf167a70ba8d3cf5bc491fd7abab8232f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "debrief/247",
+  "printedCode": "247",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Turn to entry 249.",
+      "flavor": "The plague started slowly, spreading on the winds. Rural areas suffered first, then the cities. The contaminated pollen went everywhere; there were no safe havens. Fortunately, your efforts throughout the year ensured that LION’S TOOTH had only one launch site. In the end, the damage was severe, but the world recovered. With no genome to make another batch of MEDUSA, the Soviets abandoned the program.\n\nAdmitting that the plague was a failed attempt to destroy the West was worse than lying. Thus, the US framed the outbreak as a rare strain of the flu, and the Soviets kept the fiction. Millions died, but it could have been much worse.",
+      "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/249",
+      "label": "entry 249"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

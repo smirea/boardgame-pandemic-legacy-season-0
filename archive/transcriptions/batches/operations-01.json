@@ -1,0 +1,198 @@
+{
+  "operations/i00": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "WARNING!\nTHIS IS THE BOTTOM OF THE OPERATIONS DECK.\nTURN THIS DECK OVER.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "WARNING!\nTHIS IS THE BOTTOM OF THE OPERATIONS DECK.\nTURN THIS DECK OVER.",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i06": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "SEPTEMBER OBJECTIVE 3A\nBUG COMPLETED CONTROL CENTER IN THE PACIFIC RIM\nAcquire Target in:\nTHE CITY IN THE PACIFIC RIM CONTAINING A CONTROL CENTER, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 103\nFailed: Read Debrief 168",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n84",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i07": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "SEPTEMBER OBJECTIVE 1A\nQUARANTINE AN EXPOSED CITY IN NORTH AMERICA\nAcquire Target in:\n1 EXPOSED CITY IN NORTH AMERICA, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 124\nFailed: Read Debrief 152",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n83",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i08": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "1. DEBRIEF NUMBER\n151\n2. DATE\nAUGUST, 1962\nKeep this in the intelligence file.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n82",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i09": {
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "HELP FROM SABIK\n\"My eyes and ears at Langley told me you edited your report. Very smart: I'm glad you're looking after yourselves. I like you, and I like what you're doing. If you need a hand sidestepping the bureaucrats, just let me know. No strings attached.\"\nPut this card into the Operations area now and at the start of each game. Check a box to ignore 1 Restriction card for the current player's turn:\nWhen all 3 boxes are checked, destroy this card.",
+        "flavor": "\"My eyes and ears at Langley told me you edited your report. Very smart: I'm glad you're looking after yourselves. I like you, and I like what you're doing. If you need a hand sidestepping the bureaucrats, just let me know. No strings attached.\""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n81",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i10": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "1. DEBRIEF NUMBER\n113\n2. DATE\nJULY, 1962\nKeep this in the intelligence file.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n80",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i11": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "Keep this in the Intelligence file.\n1. DEBRIEF NUMBER\n104\n2. DESTINATION\nLeningrad\n3. DATE\nJUNE, 1962\n4. BOAT NO.\n5. CHARGES\nPREPAID\n5. DESCRIPTION OF GOODS\nSpores, Ragweed\nORIGINAL FREIGHT BILL\nOriginal Freight Bill must accompany claim for overcharge, loss, or damage.\nACTION REQUESTED:\nNone required\nRECEIVED\nJUNE, 1962",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n79",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i12": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "1. DEBRIEF NUMBER\n224\n2. DATE\nAPRIL, 1962\nKeep this in the Intelligence file.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n78",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i13": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "1. DEBRIEF NUMBER\n191\n2. DATE\nFEBRUARY, 1962\nKeep this in the intelligence file.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n77",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i14": {
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "AN OFFER\nSabik has uncovered his face. His appearance is horrific, his skin translucent. You watch as blood pulses through the visible veins throughout his face. He notices your stare and gives a ghastly smile.\n\"This? Just a memento of my time in Soviet hands.\"\nThe smile fades.\n\"Look...I'm not your enemy. We all want to stop MEDUSA, so let's work together. You can stop chasing me, I can get you clear of the bureaucrats, and we can focus on what matters: saving the world. We won't always follow the rules, but we'll get the job done.\"\nIf you decline Sabik's offer, read Debrief 139.\nIf you accept Sabik's offer, read Debrief 242.",
+        "flavor": "Sabik has uncovered his face. His appearance is horrific, his skin translucent. You watch as blood pulses through the visible veins throughout his face. He notices your stare and gives a ghastly smile.\n\"This? Just a memento of my time in Soviet hands.\"\nThe smile fades.\n\"Look...I'm not your enemy. We all want to stop MEDUSA, so let's work together. You can stop chasing me, I can get you clear of the bureaucrats, and we can focus on what matters: saving the world. We won't always follow the rules, but we'll get the job done.\""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n76",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i15": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "Destroy these 2 cards at the beginning of December.\nARMORY\nWhen you enter this room, you may add 1 Asset sticker to your Allied alias for free.\nCOLD STORAGE",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n75",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i16": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFILTRATION SITE:\nLANGLEY\nWASHINGTON\nENTRANCE\nAn Allied alias is required to enter this infiltration site.\nBRIEFING ROOM\nWhen you enter this room, you may scratch 2 cover to add an Event card of your choice from the reserve to your hand.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n74",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i17": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "Destroy these 2 cards at the beginning of September.\nSECURITY\nWhen you enter this room, scratch 1 cover.\nSECRET ANNEX",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n73",
+        "flavor": ""
+      }
+    }
+  },
+  "operations/i18": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFILTRATION SITE:\nSABIK'S HQ\nLENINGRAD\nENTRANCE\nA Soviet alias is required to enter this infiltration site.\nOFFICE\nWhen you enter this room, take 1 Action token.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OPERATIONS\n72",
+        "flavor": ""
+      }
+    }
+  }
+}

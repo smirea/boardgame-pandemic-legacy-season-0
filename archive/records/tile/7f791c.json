@@ -1,0 +1,33 @@
+{
+  "id": "tile/7f791c",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "7f791c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "327/0/2",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "7f791c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SPECIALIZATIONS\n\nAdd a specialization to each Soviet alias.",
+      "flavor": "",
+      "image": "media/original/a8b7559aa5fabe2b955ff1259a1ee436c690c17e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

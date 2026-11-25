@@ -1,0 +1,43 @@
+{
+  "id": "legacy/01-02",
+  "printedCode": "01-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "239c16",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/74",
+    "duplicatePaths": [
+      "352/74"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "239c16"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "\"I'll get you a second alias once you're comfortable with this one.\n\nHere are the month's objectives: Agent Sabik is still in Asia, and we gotta track him down. Also, two Soviet scientists from the Project MEDUSA research team are in South America. Might be we can catch up to 'em and get some intel.\"",
+      "flavor": "\"I'll get you a second alias once you're comfortable with this one.\n\nHere are the month's objectives: Agent Sabik is still in Asia, and we gotta track him down. Also, two Soviet scientists from the Project MEDUSA research team are in South America. Might be we can catch up to 'em and get some intel.\"",
+      "image": "media/split/ff910e2efc70-18.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-18.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

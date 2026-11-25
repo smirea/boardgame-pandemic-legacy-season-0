@@ -1,0 +1,41 @@
+{
+  "id": "player/london",
+  "printedCode": "London",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "c43cd7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0/19",
+    "duplicatePaths": [],
+    "note": "Player card. Region: europe.",
+    "guids": [
+      "c43cd7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "LONDON\nUNITED KINGDOM\nEUROPE\n7",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-34.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

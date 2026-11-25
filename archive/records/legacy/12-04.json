@@ -1,0 +1,52 @@
+{
+  "id": "legacy/12-04",
+  "printedCode": "12-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "d79565",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/5",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "d79565"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is a pursuit objective.\n\nTo set it up, place a Pursuit token in San Francisco.\nThen, place this card onto the board in the Operations area and flip it over.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-5.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DECEMBER OBJECTIVE 2\nCAPTURE SABIK\n\nRemove the last Pursuit token from the board\nSTARTING CITY: SAN FRANCISCO\nDESTINATION: ANY SOVIET CITY\n\nCompleted: Read Debrief 181\nFailed: Read Debrief 179",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-5.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/179",
+      "label": "Debrief 179"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/181",
+      "label": "Debrief 181"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

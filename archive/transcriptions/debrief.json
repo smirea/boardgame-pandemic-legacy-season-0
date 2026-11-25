@@ -1,0 +1,767 @@
+{
+  "100": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "Create Infection cards for all four trial cities and place them in the game end area. Then move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+    "flavor": "No trials were disrupted in Asia. MEDUSA is spreading, but you did manage to discover something interesting. The Soviets had been buying a considerable amount of a rare jellyfish called Diplulmaris Antarctica, but they stopped last fall, seemingly without reason."
+  },
+  "101": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "You may immediately turn up to 2 Security tokens faceup in the PEARL Compound. Remove all Checkpoint tokens from the board.",
+    "flavor": "The exporter proved cooperative once cornered: \"I'm not in trouble, am I? I'm just shipping ragweed pollen and seeds. I don't know why they want it, but it's not a crime, right? It's just a weed; it can't really hurt anyone. I'll tell you where the shipment is headed, but that's all I know. I swear.\""
+  },
+  "102": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "Take 2 Action tokens and distribute them among the players as you like.",
+    "flavor": "You discovered the manufacturing facility within PEARL Compound. Stacks of empty supply crates imply that the Soviets have already manufactured a large quantity of the plague. You render the sensitive equipment inoperable with a few subtle \"adjustments\" that should take months to locate and repair."
+  },
+  "103": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "Place a Bug sticker on the corner of the Control Center sticker in the Pacific Rim to show that the teams bugged it.",
+    "flavor": "Teams were able to put a bug in the control center. They posed as cleaning staff to gain access."
+  },
+  "104": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "Return the player pawn in Sabik's Safehouse to Mexico City. Find card 79 in the Operations deck. Place it in the Intelligence file. Anyone can look at it at any time.",
+    "flavor": "Sabik is not present, but you find a wealth of information inside the safehouse. Documents, photographs, and papers lie scattered throughout the interior, mingling with forgery supplies, several currencies, and spoiled food.\n\nFrom what you can piece together, Sabik has been tracking the Soviet progress with MEDUSA. He has multiple half-sketched operations to prevent MEDUSA deployment, some of which feature shocking amounts of violence and collateral damage."
+  },
+  "105": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "Open Door 43 (if it hasn't been opened already). Place a Chronic Infection sticker on the front cover of your passport. Passports may have multiple Chronic Infection stickers. Chronic Infection stickers don't have any effect. For now.\n\nIf this is the third time you have visited the Loading Docks this game and there are no City cards under the Disrupt Trial Objective, mark that Objective as complete.",
+    "flavor": "Sample of MEDUSA destroyed, but at great personal cost. You were exposed to the pathogen..."
+  },
+  "106": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "No further information.",
+    "flavor": "The African control center had extra guards. The teams were unable to bug it."
+  },
+  "107": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "Information on Operation LION'S TOOTH is in the records room! If the objective \"Stop Operation LION'S TOOTH\" is incomplete, open Door 41.\n\nReturn the player pawn in the PEARL Compound to Novosibirsk.",
+    "flavor": "You obtained the MEDUSA genome. This weaponized strain is deadly, contagious, and according to Soviet data, incurable. You'll be sending the genome to the CDC the first chance you get; the MEDUSA plague must be isolated in deep storage. You destroy everything else in the lab before leaving, putting an end to PROJEKT MEDUSA."
+  },
+  "108": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and replace it with card 67 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+    "flavor": "\"The effort is appreciated, but you're falling short. Fix what you can.\""
+  },
+  "109": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "No further information.",
+    "flavor": "\"Your information put additional scrutiny upon Sabik, which allowed us to close in upon him. Unfortunately, there are no indications that Sabik was at all involved in MEDUSA or Soviet efforts to deploy it.\""
+  },
+  "110": {
+    "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg",
+    "transcription": "Find card 59 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Passion can become extremism can become fanaticism. Do not allow yourselves or your teams to lose sight of humanity out in the field, or you'll become no better than former Agent Sabik.\""
+  },
+  "111": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "Place a Control Center sticker on the target city (do not put a bug on the center). Then move the target City card under the objective to the Player discard pile.",
+    "flavor": "The control center could not be bugged. Now operational, it will have high security."
+  },
+  "112": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+    "flavor": "The defector, a botanist who contracts with the CIA, escaped. Her colleagues indicated that she was troubled after accidentally receiving CIA documents. She took her research and ran, but you discover that her spouse was unable to flee with her. They're in hiding at the moment, but may surface again soon."
+  },
+  "113": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "Find card 80 in the Operations deck and place it in the Intelligence file. Anyone can look at it at any time.",
+    "flavor": "The team was too late. Dozens of civilians witnessed a messy execution in broad daylight. After a lot of effort, your team cooled the ire of local authorities and claimed what was left of the body. During examination, a document was found in a hidden compartment in the Soviet agent's billfold."
+  },
+  "114": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "The player who completed this objective may remove one agent from the board.",
+    "flavor": "After cornering Sabik's operative on Charles Bridge at 3am, your team recovered sensitive CIA intel, including Coop's recent briefings and details on your new aliases. Sabik and his operative were also brokering in stolen Soviet data: a schematic for reconnaissance satellites and a July launch schedule."
+  },
+  "115": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "No further information.",
+    "flavor": "The teams were unable to get into position. The disease is still active in all of the South American cities."
+  },
+  "116": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and replace it with card 66 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).\n\nIf you failed the objective \"Disrupt the Third Trial,\" destroy it and replace it with card 89 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+    "flavor": "\"The work of a field agent is not easy. Use the remainder of the month to refocus.\""
+  },
+  "117": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "No further information.",
+    "flavor": "The teams arrived too late. The Soviets launched the weather balloons containing the infected pollen. Soon, millions of spores laced with the deadly and virulent MEDUSA plague will fall upon an unsuspecting world. It has begun."
+  },
+  "118": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "No further information.",
+    "flavor": "Soviet security was too tight to plant the bug; there won't be another opportunity for it."
+  },
+  "119": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "No further information.",
+    "flavor": "Later, you get another message. \"I had to make a bit of a mess, but I got the COdA sample myself. I'll have more for you soon. Be ready.\""
+  },
+  "120": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "Lower your funding by 1.",
+    "flavor": "\"Your honesty was appreciated, though you are full agents now. We will be expecting more from you.\""
+  },
+  "121": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "Lower your funding by 1.",
+    "flavor": "\"The research division was unable to find any evidence that MEDUSA can be spread through animal contact. Precious time and resources were wasted. In the future, understand that no information is preferable to incorrect information.\""
+  },
+  "122": {
+    "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg",
+    "transcription": "Find card 53 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Your answers have been reviewed, and I have a restriction to implement. Caution and observation are to be commended, but do not hesitate to seize opportunity. I look forward to seeing your progress.\""
+  },
+  "123": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Return the player pawn in Sabik's HQ to Leningrad.\n\nThen take cards 64 and 65 from the Operations deck. Decide which report you wish to file with the CIA. Put that card in your Intelligence file. Destroy the other one.",
+    "flavor": "In Sabik's HQ, you find a safe containing a CIA document. It reads, \"June 18, 1961. Top Secret. From John Cooper. Cancel retrieval of Agent Sabik from captivity in Siberia. Sabik is too valuable as an asset on the inside. He has a front-row seat to Soviet plans and is well-versed in counter-interrogation techniques. We can pull him out in the summer of '62. It's a risk he might not make it, but acceptable, given the time of great need.\"\n\nSabik enters the room, bundled completely in spite of the summer heat. He holds a pistol in a relaxed grip and keeps his distance. \"You understand now why I can't go back. Your buddy Coop left me for dead, expecting I'd still be on mission. I guess I still am: just not on their payroll.\"\n\nHe pauses, his arm shaking as a tremor passes through him. \"Do you get it now? The world needs saving, the CIA isn't any better than the damn Soviets, and you waste your time chasing me instead of fighting MEDUSA!\" He raises the pistol, clenching his gloved fist.\n\nAfter a moment he lowers it with a sigh.\"Look...I don't want to keep fighting you. As a sign of good faith, let me help; I know where they're studying and manufacturing MEDUSA. It's a place called PEARL Compound. It's where I was held captive.\" Keeping the pistol trained on you, he departs."
+  },
+  "124": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Destroy the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+    "flavor": "Teams quarantined the population of the city to contain the problem."
+  },
+  "125": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Place a Control Center sticker on the target city (do not put a bug on the center). Then move the target City card under the objective to the Player discard pile.",
+    "flavor": "Another control center completed without a bug; the satellite will be able to track your movements in Africa."
+  },
+  "126": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Lower your funding by 1.",
+    "flavor": "The Soviets used jellyfish for their abandoned COdA program. This was not helpful in the least."
+  },
+  "127": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Find card 57 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Indeed, the evaluation contained a measure of deception. How do you cope with incomplete data? How will you make decisions when you don't have all the facts? Fickleness is a poor attribute for agents within this organization. We must be able to trust your instincts.\""
+  },
+  "128": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "No further information.",
+    "flavor": "The teams were unable to locate the KGB officer. You learned nothing more about the control centers."
+  },
+  "129": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "No further information.",
+    "flavor": "Cooper is dead. You know this for certain; Sabik sent photos. Unhappy with your failure, he took matters into his own hands. Perhaps you could have stopped him given the chance, but it's too late now. You've allied yourselves with him, for good or ill."
+  },
+  "130": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Choose one contact on any alias and cross it out. That contact is dead and can no longer be used.",
+    "flavor": "You receive a message from Sabik: \"I'm trusting you to get the job done. If you can't hack it, you better let me know right now. We can't afford many screw-ups. Consider this a lesson.\""
+  },
+  "131": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "No further information.",
+    "flavor": "You were unable to gain further information on the MEDUSA plague. The scientists in São Paulo and Santiago escaped into the jungle before your teams could close in."
+  },
+  "132": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "DESTROY the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+    "flavor": "The teams quarantined the infected population of the city to contain the problem. If a cure is found, those quarantined should be easy to treat."
+  },
+  "133": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Find card 54 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Your answers have been reviewed, and I have a restriction to implement. Deceit and elusive cunning are critical tools for field agents, but remember that you must trust your superiors. I look forward to seeing your progress.\""
+  },
+  "134": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "No further information.",
+    "flavor": "You could not find any allies of Sabik who were willing to talk. They all seem to be afraid of him."
+  },
+  "135": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Lower your funding by 1.",
+    "flavor": "\"The research division quickly concluded that saliva could not be a transmission point. Such a means would be slow to spread and easy to quarantine: ineffective as a bioweapon.\""
+  },
+  "136": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Place a Control Center sticker on the target city (do not put a bug on the center). Then move the target City card under the objective to the Player discard pile.",
+    "flavor": "The bug could not be planted. For now, the control center will remain unmonitored."
+  },
+  "137": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+    "flavor": "The Soviet agent slipped through your net, and the information on LION'S TOOTH is gone with him. Your intel suggests that your pursuit caused him to depart Sydney before resolving his business there; the city will be closely watched in case he returns."
+  },
+  "138": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Mark this objective as complete. No further information.",
+    "flavor": "You chose to leave rather than to observe the results, and you hear nothing further of what became of John Cooper.\n\nLater, Sabik sends a message: \"Right, so I know that wasn't exactly what I said I'd do. Things got a little raw, but it's done now. You did good, and I owe you one. I'll be in touch.\""
+  },
+  "139": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Choose one contact on any one alias and cross it out. That contact is dead and can no longer be used.\n\nDraw the Pause card in the Legacy deck and read the back of it.",
+    "flavor": "Sabik's teeth grind together behind closed lips, his ghoulish features flushing with anger. \"You...you're just like them. I swear you'll regret this.\""
+  },
+  "140": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Increase your funding by 2.",
+    "flavor": "\"You were correct; they are going to use pollen to disperse MEDUSA. Excellent work.\""
+  },
+  "141": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Remove all Checkpoint tokens from the board. Remove 2 agents from the board.",
+    "flavor": "Your team cornered and interrogated the defector, a botanist who contracts with the CIA. It appears they stumbled across intel on the MEDUSA trials and mistakenly concluded that the CIA failed to stop them on purpose. The defector accepted money from Soviet sources to deliver data: something about an experiment involving pollen and orange groves."
+  },
+  "142": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Put the Infiltration cards for Sabik's HQ into the reserve.",
+    "flavor": "You were unable to infiltrate Sabik's safehouse."
+  },
+  "143": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Find card 50 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"All right team, I went over your responses and have an initial evaluation. Your 'can-do' attitude is refreshing, all things considered, but remember that you're still new to this. For now, you gotta run some of your ops up the chain for approval. It's a pain, I know, but it ain't personal: pretty standard stuff for new agents.\""
+  },
+  "144": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Mark this objective as complete. No further information.",
+    "flavor": "You did what you had to, and Charles Sabik is no more. The brutality he suffered in Soviet hands left him unstable, filled with anger. Nothing could have brought him back from that. You return Cooper to the CIA for debriefing and medical attention. You're told that, physically, he should make a full recovery."
+  },
+  "145": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "No further information.",
+    "flavor": "Your infiltration into the Records Room of the PEARL Compound failed."
+  },
+  "146": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Return all Checkpoint tokens on the board to the supply.",
+    "flavor": "The Soviets were transporting a large quantity of thin sheets of rubberized silk from Jade Manufacturing, and they were sparing no effort to keep it a secret. Still, you managed to tie up their delivery in customs and paperwork indefinitely."
+  },
+  "147": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "No further information.",
+    "flavor": "After cornering the scientists, you learned that the plague is called MEDUSA due to its paralytic effect. The current MEDUSA strain is mild, but the Soviets are confident that they can develop a lethal and fully weaponized strain."
+  },
+  "148": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Return all Pursuit and Checkpoint tokens on the board to the supply.",
+    "flavor": "Even though there was a second shipment, you still did not intercept it."
+  },
+  "149": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "No further information.",
+    "flavor": "Your teams were unable to catch up to the Soviet scientists, so nothing new was discovered."
+  },
+  "150": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Sometimes there will be text at the end of the paragraph that gives further instructions. In this case, there is no further information.",
+    "flavor": "Sabik's trail had gone cold, but your team discovered that Soviet agents were also in the area looking for him. It seems like they want their prisoner back."
+  },
+  "151": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Take the target City card under the objective and add it to the hand of the player who completed this objective. Find Operations card 82 and add it to the Intelligence folder. Anyone may look at it at any time.",
+    "flavor": "The teams bugged the control center. While doing so, they found a fragment of blueprint to a location called PEARL Compound."
+  },
+  "152": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "No further information.",
+    "flavor": "The teams were too late to help. MEDUSA spread too far, too fast. Quarantining would be useless now."
+  },
+  "153": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Find card 56 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Indeed, the evaluation contained a measure of deception. How do you cope with incomplete data? How will you make decisions when you don't have all the facts? I want to ensure that you do not hesitate when the time comes. You cannot equivocate in the field.\""
+  },
+  "154": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Raise your funding by 1.",
+    "flavor": "\"Excellent. We confirmed that MEDUSA is transmitted by air. Your instincts let us get to this conclusion quickly. Continue to perform at this level, and you'll do well.\""
+  },
+  "155": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Stopping LION'S TOOTH has given you renewed purpose. If you have not completed all objectives, take 2 Action tokens and distribute them among the players as you like. Then, take the target City card under the objective and add it to the hand of the player who completed the objective.",
+    "flavor": "Crisis averted. The team infiltrated the control center just before launch and destroyed the balloons containing the MEDUSA-laced pollen. Operation LION'S TOOTH has been stopped."
+  },
+  "156": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Create an Infection card for all three trial cities and place them in the Game End area. Then move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+    "flavor": "The teams were unable to stop any of the trials. The MEDUSA plague is spreading."
+  },
+  "157": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "No further information. No information at all, really.",
+    "flavor": "Fighting off the rabid wolverines, you somehow manage to make it back to Langley. \"My word,\" Coop says, his eyes going wide. \"You mean to tell me that the cure for the MEDUSA plague is rhubarb pie!? Why, that's the most remarkable pearl of knowledge I've ever encountered! It's nigh utopian!\""
+  },
+  "158": {
+    "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg",
+    "transcription": "Mark this objective as complete. No further information.",
+    "flavor": "You did what you had to, and Charles Sabik is no more. The brutality he suffered at Soviet hands left him unstable, filled with rage. Focusing on vengeance made him lose sight of the big picture; nothing could be gained from injecting Cooper with COdA.\nLying to the CIA comes easy now; you claim that the COdA theft and pulling Coop out of protective custody gave you the exact chance you needed to stop Sabik, for real this time. Doctor Morris is initially suspicious, but you control Sabik's influence in the CIA. There is little she can do to you now."
+  },
+  "159": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "No further information.",
+    "flavor": "You were unable to locate Sabik's operatives in time. Explosives detonated in several locations of both cities, killing a handful of Soviet scientists but almost a hundred civilians as well. A forensic sweep revealed that the explosives matched those taken by Sabik from the Langley armory earlier this month."
+  },
+  "160": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "You intercepted the courier and secured the MEDUSA sample. Before your team could interrogate, the courier took a cyanide pill. Analysis of the MEDUSA sample revealed it's biological, but nothing you've seen before. Not COdA. Not Smallpox. Not Anthrax."
+  },
+  "161": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "No further information. Move the target City card under the objective to the Player discard pile.",
+    "flavor": "You're not certain what the Soviets were attempting to manufacture or how it might relate to MEDUSA."
+  },
+  "162": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "No further information.",
+    "flavor": "Despite best efforts, your teams were unable to quarantine those suffering from MEDUSA."
+  },
+  "163": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Destroy the objective \"Disrupt the First Trial.\" Find card 85 in the Operations deck. Use this objective as your second objective for the second half of February.",
+    "flavor": "\"I know it ain't easy, but we're gonna send you out again. The trials are already done with, but maybe you can quietly, and I do mean quietly, quarantine some of the population to slow down the spread of this thing.\""
+  },
+  "164": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Mark this objective as complete.\nIf the objective \"Steal the MEDUSA Genome\" is incomplete, flip up to 4 facedown Security tokens in PEARL Compound faceup. Remove all Pursuit and Checkpoint tokens from the board.",
+    "flavor": "Sabik has done terrible things, but he deserves better than to be put down in a dark alley, so you talk to him. It's a near thing; more than once he comes close to proceeding with the injection. Finally, with a defeated bow of his head, Sabik puts down the syringe and releases Cooper.\nBefore he's taken away, he provides a few final pieces of information on PEARL Compound. Scarred as he is and understanding what he went through, perhaps the CIA will not be too harsh. Cooper himself is delivered back to the CIA for debriefing and medical attention. You're told that, physically, he should make a full recovery."
+  },
+  "165": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Open Door 44. Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Place the sticker sheets in the reserve. Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "There was very little indication within the control center as to its purpose, but your team successfully planted the bug. Once it becomes operational, you'll likely receive more information."
+  },
+  "166": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Sometimes there will be text at the end of the paragraph that gives further instructions. In this case, there is no further information.",
+    "flavor": "The courier escaped, and you were unable to gain more information on MEDUSA."
+  },
+  "167": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "The bug picked up a hushed discussion between Soviet workers, who were recently at a compound in Siberia. They discussed secret rooms filled with vegetation, gardeners wearing chemical suits, and screams behind closed doors."
+  },
+  "168": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "No further information.",
+    "flavor": "Constant surveillance prevented the bug from being planted. Satellites in the Pacific Rim are fully active."
+  },
+  "169": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Open Door 46. Then open Door F and place that rule in the rulebook. Then draw the Pause card in the Legacy deck and read the back of it.",
+    "flavor": "None of the trials were disrupted, and all three cities are exposed to the pathogen. The MEDUSA symptoms are still mild, so fortunately the effect on the populace remains minimal."
+  },
+  "170": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "DESTROY the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+    "flavor": "The teams quarantined the population of the city to contain the problem."
+  },
+  "171": {
+    "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg",
+    "transcription": "Place a Bug sticker on the corner of the Control Center sticker in Africa to show that it was bugged.",
+    "flavor": "The teams posed as plumbers and planted a bug in the control center."
+  },
+  "172": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+    "flavor": "The target slipped through the network, safely into Soviet territory. He is a gardening contractor that deals in plants, seeds, and so on. It is unclear what he was carrying, but it looks like he's sending another shipment this month."
+  },
+  "173": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "No further information.",
+    "flavor": "Despite your best efforts, your teams couldn't bug the control center."
+  },
+  "174": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "Open Door 46. Then open Door F and place that rule in the rulebook. Then draw the Pause card in the Legacy deck and read the back of it.",
+    "flavor": "The Soviets proved easy to locate, as if they weren't expecting opposition. Your teams made a quick sweep and prevented the experiment from taking place. Quick analysis suggests that the Soviets were holding the trials around city parks."
+  },
+  "175": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "DESTROY the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+    "flavor": "Your team quarantined the population of the city to contain the problem. The local government has created a plausible cover story that should buy time."
+  },
+  "176": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "Place a Bug sticker on the corner of the Control Center sticker in South America to show that it was bugged.",
+    "flavor": "The bug was successfully planted. So far, you've heard nondescript chatter about a Siberian compound, but nothing actionable."
+  },
+  "177": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and find card 88 in the Operations deck. Use this objective as your third objective for the second half of May. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+    "flavor": "\"We must do better than this. If we allow ourselves to fall too far behind the Soviets, we risk losing everything.\""
+  },
+  "178": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "Turn each city where the trial was NOT disrupted into an Exposed City (following the rules for Marking Exposed Cities). Place these Infection cards in the Game End area and destroy any unused Infection cards. Then move all three City cards under the Disrupt Trial objective to the Player discard pile. Then draw the Pause card in the Legacy deck and read it.",
+    "flavor": "This MEDUSA strain is highly virulent. The cities are already having issues. The press has taken notice, and preventing outbreaks at home will be challenging."
+  },
+  "179": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+    "flavor": "Cooper is missing once again, and you suspect he won't be found. Of Sabik, there is no further news. He has disappeared into hiding, but you receive a message. It reads, \"I have a few other things to take care of, but don't worry. I haven't forgotten about you.\""
+  },
+  "180": {
+    "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg",
+    "transcription": "If the objective \"Hunt Down Soviet Exporter\" is incomplete, you may immediately place 1 Checkpoint token on the board. Return the player pawn in the PEARL Compound to Novosibirsk. Players may still Infiltrate PEARL if they wish.",
+    "flavor": "There is no cure. All you find are records of empty promises from PEARL scientists to the Kremlin about viable treatment before December: no data, no samples, no progress.\n\nThe Soviets will not be able to insulate themselves from the plague. The scientists are hiding their failure while the world hangs in the balance. If the Soviets launch the fully-weaponized MEDUSA plague, there will be no cure. For anyone."
+  },
+  "181": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "If you attempt to forcefully stop Sabik, read entry 144.\n\nIf you attempt to talk Sabik out of killing Cooper, read entry 164.",
+    "flavor": "You arrive at the scene. Cooper is incoherent, drugged, and barely standing. Wounded in the pursuit, the cornered Sabik clutches a syringe in one hand and Cooper's collar in the other. His wild, ghastly eyes dart back and forth. \"You have to listen to me. I was set up! The CIA had him this whole time. They told you I killed him so that you wouldn't trust me! They betrayed me. They'll betray you too!\" He gestures wildly with the syringe. Blood pulses through veins along the translucent skin of his temples. \"Look at me! LOOK WHAT THEY DID TO ME!\" he screams, bringing the syringe towards Cooper's neck."
+  },
+  "182": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "Return the player pawn in the PEARL Compound to Novosibirsk. Players may still infiltrate PEARL Compound.",
+    "flavor": "August 10, 1961. Testing of Chuma 0 - Diplulmaris Antarctica (C0dA). Subject Alpha: Sabik. American. Early test of the Diplulmaris Antarctica collagen gene to evaluate weakening the vasculature in mammals: making the skin translucent.\n\nDay 1, trial 1. 45cc C0dA at 0300. Violent seizures. Slight transparentization of dermis from genome, as hoped, and severe fever. Note: Restrain subject in future trials.\n\nDay 10, trial 2. 75cc C0dA at 0430. Further seizures, but subject restrained. Additional transparentization, revealing viscera, muscular systems, and arteries, in particular near eyes, mouth, back of hands. Emotional extremes in subject, including periods of lethargy and violent outbursts. Note: C0dA virus must pass the blood-brain barrier to effect aggression and seizures.\n\nDay 30, trial 3. 200cc C0dA at 0415. Physical reaction led to cardiac arrest. Subject revived and stabilized. Near complete transparentization of dermis. Editorial note: Subject features the \"sufficiently horrific appearance\" requested by the KGB. A population suffering from its effects would surely experience significant unrest.\n\nDay 40, further trials suspended. C0dA ineffective at low dosage, and insufficient supply for the necessary higher dosage. Decades of testing and refinement will be required to weaponize it. Proceed with pathogen retrieved from Lake Baikal for PROJEKT MEDUSA."
+  },
+  "183": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "Put the Infiltration cards for Sabik's Safehouse into the reserve. No further information.",
+    "flavor": "Sabik or one of his loyal operatives noticed your monitoring. Photographs of your team were taped to the exterior windows with your real names written on them. A warning: he knows who you are."
+  },
+  "184": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "If you allow him to proceed, read entry 138.\n\nIf you attempt to forcefully stop Sabik, read entry 158.",
+    "flavor": "After your team extracts Cooper, you bring him to Sabik. \"Coop...I always wondered what I'd say to you if we crossed paths. What you did to me...it's unforgivable.\" Cooper pleads, terrified, as Sabik leans close, veins pulsing beneath translucent flesh.\n\nSabik frowns. \"You know what? It's not enough to see it, is it? You need to understand. You need to REALLY UNDERSTAND!\" Sabik walks to the nearby workbench, tearing open medical supplies. Moments later, he empties a vial into a large syringe. \"This is C0dA.\" His voice is calm now, his hand steady as he walks toward Cooper. \"This is what you did to me.\""
+  },
+  "185": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "No further information.",
+    "flavor": "The teams could not quarantine the city."
+  },
+  "186": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "While bugging the control center, the team found an encrypted note in the trash. \"?????? launched on schedule. Wind and ???? tracked. ???? gathered for Operation LION'S TOOTH.\""
+  },
+  "187": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "Place a Bug sticker on the corner of the Control Center sticker in Asia to show that it was bugged.",
+    "flavor": "Posing as electricians, your team infiltrated the control center and planted the bug. Monitoring data for the facility is already routing back to Langley."
+  },
+  "188": {
+    "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg",
+    "transcription": "Take 1 Action token and give it to one player. Remove all Checkpoint tokens from the board.",
+    "flavor": "The Soviets have grafted the final, deadly strain of the MEDUSA plague onto ragweed pollen, inspired by the Japanese Fu-Go balloon bombs from World War II. Next month, they intend to launch Operation LION'S TOOTH, a series of weather balloons loaded with millions of grains of contaminated pollen. Once the balloons reach their targets, they will release the pollen, and there will be nowhere to hide."
+  },
+  "189": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "When you leave the office, you find a note on your desk. Find card 81 from the Operations deck. Follow its instructions.",
+    "flavor": "\"Sabik was willing to sacrifice that many civilians? Collateral damage can be a regrettable necessity at times, but on this scale? Coupled with his raid upon this facility and the disappearance and death of CMO John Cooper, Sabik is growing more unstable. Thank you for this update.\""
+  },
+  "190": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "Open Doors 38, G, and C. Apply the rules stickers to the rulebook and read them. Draw the Pause card of the Legacy deck and read the back.\nThen, turn all four trial cities into Exposed Cities using the new Infection cards (following the rules for Marking Exposed Cities). Place these Infection cards in the Game End area. Move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+    "flavor": "No trials were disrupted. The MEDUSA plague is now active in three new cities. The strain is confirmed to be much stronger."
+  },
+  "191": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective. Take card 77 in the Operations deck and place it in the Intelligence file. Anyone can look at it at any time.",
+    "flavor": "The Soviets were operating out of a cheap hotel, posing as Bulgarian tourists. While they were out, your team infiltrated and took photos of their notes. They're spending a lot of time in parks, hiking trails, and other outdoor areas: possibly scouting MEDUSA deployment sites?"
+  },
+  "192": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "All characters in the current game scratch 1 cover from each alias in their passport.",
+    "flavor": "You failed again to infiltrate Sabik's safehouse. In retribution, he has leaked some of your information to the Soviets."
+  },
+  "193": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "Open Door 44. Place a Control Center sticker on the target city. Then place the sticker sheet in the reserve (do not put a bug on the center). Move the target City card under the objective to the Player discard pile.",
+    "flavor": "The Soviets kept the location of the control center well-hidden during its construction. Unfortunately, it's now under heavy guard; bugging it will be difficult."
+  },
+  "194": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "No further information.",
+    "flavor": "The Soviet security was too tight to plant the bug."
+  },
+  "195": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "No further information. Move the target City card under the objective to the Player discard pile.",
+    "flavor": "Your team was unable to locate Sabik, who is clearly avoiding contact. For now, you cannot ascertain what he knows, what his intentions are, or if he can be trusted."
+  },
+  "196": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "No further information.",
+    "flavor": "You failed to steal the MEDUSA genome, and the lab within PEARL remains intact. Even if you stop LION'S TOOTH, the Soviets will be able to continue their work with the plague."
+  },
+  "197": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "Find card 55 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"I have reviewed your answers, and I have a restriction to implement. Confidence is a virtue but remember that you operate under a strict code of moral and professional conduct. I look forward to seeing your progress.\""
+  },
+  "198": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "Find card 80 in the Operations deck and place it in the Intelligence file. Anyone can look at it at any time.",
+    "flavor": "The teams covered both cities and stopped Sabik's target from stumbling into a messy public assassination. The Soviet had an attaché case with a hidden compartment containing something of potential use."
+  },
+  "199": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "Find card 58 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Sabik has compromised a number of dedicated agents, exploiting their desire to accomplish good. Your own optimism in the face of a growing threat is refreshing, but you must be cautious about who you trust on the outside, especially when sensitive intelligence is in play.\""
+  },
+  "200": {
+    "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+    "transcription": "Raise your funding by 1.",
+    "flavor": "\"Your report last month on former agent Sabik has been extremely valuable. His attempted bombing of civilian targets indicates rising instability, and I assure you that he is not without involvement in CMO Cooper's death.\nYour integrity in this challenging operation is commendable. Our resources have been stretched to capacity, but you are displaying good judgment.\""
+  },
+  "201": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "Sabik's former ally was ready to talk. \"Sabik tore apart our HQ after you rejected his offer, screaming about betrayal. He scrubbed everything we were planning against the Soviets and MEDUSA and headed to San Francisco. Something about some old comrade who has been there for a few months. Conner, or Cooney, I think? Don't know what he's going to do, but I doubt it'll be pretty.\""
+  },
+  "202": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Return all Pursuit and Checkpoint tokens on the board to the supply.",
+    "flavor": "The courier escaped your net, and the delivery made it into Soviet hands."
+  },
+  "203": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Turn each city where the trial was NOT disrupted into an Exposed City (following the rules for Marking Exposed Cities). Place these Infection cards into the Game End area and destroy any unused Infection cards. Then move all 4 City cards under the Disrupt Trial objective to the Player discard pile.",
+    "flavor": "While disrupting the trials, your team came across some intel of potential interest. Until early autumn last year, the Soviets were buying large quantities of a rare jellyfish: Diplulmaris Antarctica. Seems unrelated to MEDUSA, but your team obtained a sample just in case."
+  },
+  "204": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "No further information.",
+    "flavor": "The control center had constant surveillance. Your team was unable to bug it."
+  },
+  "205": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "The Soviets were investigating a hydrogen production facility in a remote harbor outside the city: a large building built after the war. It's unclear how this relates to either production or deployment of the MEDUSA plague, but the Soviets appear to need large quantities of hydrogen."
+  },
+  "206": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "One player may return one Symptom card to the supply.\nOpen Doors 38, G, and C. Apply the rules stickers to the rulebook and read them. Draw the Pause card of the Legacy deck and read the back.\nThen, turn each city where the trial was NOT disrupted into an Exposed City using the new Infection cards (following the rules for Marking Exposed Cities). Place these Infection cards into the Game End area and destroy any unused Infection cards. Move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+    "flavor": "The trial was disrupted, and the teams picked up an infected Soviet soldier with a medical kit labeled \"PEARL Compound, Medical Ward: MEDUSA Treatment.\" Analysis of both soldier and kit should prove useful."
+  },
+  "207": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Find card 51 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"All right team, I went over your responses and have an initial evaluation. Best I can figure is you're a little uncertain. It takes a while for new agents to find their footing, and this is more common than you'd think. So, we're gonna give you a little nudge, something to make sure you learn to work in the field, away from the nest.\""
+  },
+  "208": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Place a Bug sticker on the corner of the Control Center sticker in Europe to show that it was bugged.",
+    "flavor": "The two teams worked together to infiltrate the control center. One posed as a delivery service, and the other planted the bug."
+  },
+  "209": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Lower your funding by 2.",
+    "flavor": "\"There is no indication that Sabik is involved, except in his unauthorized attempts to prevent it.\""
+  },
+  "210": {
+    "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+    "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective. Then take cards 60 and 61 from the Operations deck. Decide which report you wish to file with the CIA. Put that card in your Intelligence file. Destroy the other one.",
+    "flavor": "Your team found Sabik in an unheated bunker, bundled up. He spoke with a manic edge and paused often to release a wet, wracking cough. \"Coop wants me to come in? Heh, I bet he does...\"\n\"Look, you're new to this, so here's some advice. Don't trust anyone. Not me, not the CIA, and definitely, definitely not your buddy Coop. If you're smart, you won't even tell them you found me; too much honesty can be dangerous in this line of work.\""
+  },
+  "211": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "No further information.",
+    "flavor": "The teams were unable to quarantine any city. News outlets are starting to connect the dots; the word is getting out."
+  },
+  "212": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "If you failed the objective \"Disrupt the Fourth Trial,\" destroy it and replace it with card 68 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).\nIf you failed the objective \"Bug the Control Center,\" destroy it and replace it with card 69 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+    "flavor": "\"There is still time. Continue your efforts.\""
+  },
+  "213": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "No further information.",
+    "flavor": "\"We investigated several parks where trials were held. We confirmed that water is not the transmission point, but your suggestion provided actionable direction: air is the likely vector for spreading MEDUSA.\""
+  },
+  "214": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "Sometimes there will be text at the end of the paragraph that gives further instructions. In this case, there is no further information.",
+    "flavor": "You picked up traces of Sabik, but nothing definitive. A few locals indicated that they saw someone matching his description, but the individual was bundled up. You can't determine at the moment why he hasn't come in or made contact."
+  },
+  "215": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "Place a Control Center sticker on the target city (do not put a bug on the center). Then move the target City card under the objective to the Player discard pile.",
+    "flavor": "Your team could not infiltrate the control center. Soviet surveillance is active in North America."
+  },
+  "216": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "Place a Bug sticker on the corner of the Control Center sticker in North America to show that it was bugged.",
+    "flavor": "Teams were able to put a bug in the control center, posing as traveling salespeople."
+  },
+  "217": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "No further information.",
+    "flavor": "You were unable to recover any information on MEDUSA treatment."
+  },
+  "218": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "Place a Control Center sticker on the target city (do not put a bug on the center). Then move the target City card under the objective to the Player discard pile.",
+    "flavor": "The team could not bug the control center. The Soviets now have eyes in the Pacific Rim."
+  },
+  "219": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "No further information.",
+    "flavor": "Sabik got to the target first, leaving the body in a gruesome state. Local authorities were not alerted this time, but Sabik may have other targets."
+  },
+  "220": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and replace it with card 84 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).\nIf you failed the objective \"Disrupt or Prevent All Trials,\" destroy it and replace it with card 83 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+    "flavor": "\"MEDUSA is spreading, Soviet satellites are watching us, and Sabik continues to cause chaos. Continue your work.\""
+  },
+  "221": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "No further information.",
+    "flavor": "\"Sabik is extremely dangerous. The death of John Cooper, the aggressive use of the stolen explosives, and the casual disregard for collateral damage point to a deteriorating mental state. Allowing him to continue unfettered places our operation at great risk.\""
+  },
+  "222": {
+    "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg",
+    "transcription": "Take 1 Action token and give it to 1 player.",
+    "flavor": "The team interrogated the KGB officer. The man gloated, indicating that you failed to grasp the true purpose of the control centers: they are the cornerstone of the MEDUSA dispersal plan, an operation they call \"LION'S TOOTH.\""
+  },
+  "223": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "Take 1 Action token and give it to one player. Then take cards 62 and 63 from the Operations deck. Decide which report you wish to file with the CIA. Put that card in your Intelligence file. Destroy the other one.",
+    "flavor": "You prevented Sabik's operatives from placing explosives, stolen from the Langley armory, in public locations of both cities. Soviet scientists were the target, but civilian casualties would have been staggering.\nA few days later, you received a message from Sabik. \"Hey, great job messing with my operation. You know, I'm trying to stop MEDUSA here and prevent millions of deaths! So yes, I'll steal bombs from the CIA, and no, I won't lose sleep over collateral damage. I think it was your buddy Coop who once said, 'Acceptable, given the time of great need.' By the way, I didn't kill him: too busy for grudges right now. Coop probably asked too many questions or got caught misusing company funds. That was always his thing.\""
+  },
+  "224": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "Take Operations card 78.\nTurn each city where the trial was NOT disrupted into an Exposed City (following the rules for Marking Exposed Cities). Place these Infection cards into the Game End area and destroy any unused Infection cards. Then move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+    "flavor": "While disrupting the trial, the team caught a talkative Soviet soldier. He mentioned that his unit picked up MEDUSA samples from a compound in Siberia. Their access was limited, and they were closely monitored from a nearby building. Even though the unit went no deeper than a courtyard, the soldier still noticed enough to provide a rough sketch."
+  },
+  "225": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "All players scratch one cover from their current alias.",
+    "flavor": "Sabik's operative delivered the stolen CIA information to Soviet agents before your teams could close in on him. As a result, your aliases were partially compromised."
+  },
+  "226": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "No further information.",
+    "flavor": "You recovered the COdA sample and put a convincing placebo in its place. The CIA won't be able to use it. No one will be harmed by COdA again."
+  },
+  "227": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "Destroy both objectives for this month. Find cards 86 and 87 in the Operations deck. Use these two new objectives for the second half of April.",
+    "flavor": "\"Well, shoot, this one got away from us. It ain't gonna be easy, but there's still a chance to get back out and clean some of it up.\nNow, I don't want you to get nervous, but brass is gonna be keepin' a real close eye on this operation. Heck, I noticed someone tailin' me the other day. Nothin' to worry about, though; oversight like this comes with the territory.\""
+  },
+  "228": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "Find card 52 in the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"All right team, I gotta say I'm impressed. Sabik fed you his propaganda and you passed it along to me at some risk. Thank you; you got a bright future. Now, it's standard procedure for new operatives to get some restrictions in their first year; something to keep you on track, maybe challenge your methodology. But hey, I pulled a few strings and got you something you can work around. No need to hinder your good efforts.\""
+  },
+  "229": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "The team discovered a room in the control center where the Soviets plan to retrieve and analyze satellite data. This points to an impending launch of spy satellites; these facilities are likely intended to control them."
+  },
+  "230": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "Move any City cards under the Disrupt Trial objective to the Player discard pile. Then draw the Pause card in the Legacy deck and read it.",
+    "flavor": "All three cities were saved through substantial effort. By all indications, the MEDUSA trials are at an end. The Soviets will have everything they need to produce a fully lethal strain; it is only a matter of time before they use it."
+  },
+  "231": {
+    "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg",
+    "transcription": "Scratch 1 cover from each alias in each passport.",
+    "flavor": "\"Internal inquiry discovered your 'off-the-book' dealings with Sabik. It's a serious violation of CIA methodology, but...I understand. I know it seems absurd to dilly-dally in protocol when the world hangs in the balance, but there is a reason for all of it; not every agent is as trustworthy as you. I covered for you, but unfortunately not before the inquiry drew a great deal of attention to you.\""
+  },
+  "232": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "No further information.",
+    "flavor": "The analyst’s spouse smuggled additional documents. Eluding capture, they made it to a Soviet haven."
+  },
+  "233": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "DESTROY the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+    "flavor": "Your teams quarantined those infected. They are contained for the time being."
+  },
+  "234": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+    "flavor": "The team bugging the control center found a coded message: “Network complete. Working with Japanese scientists to complete preparation of MEDUSA deployment for December. Where the Japanese failed with Fu-Go, we will succeed with LION’S TOOTH.”"
+  },
+  "235": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "No further information.",
+    "flavor": "You failed to sabotage the MEDUSA manufacturing center. The Soviets will be able to synthesize as much of the plague as they like."
+  },
+  "236": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "",
+    "flavor": "CIA Evaluation (Dec. 1962). Exemplary. The team worked through numerous challenging objectives and succeeded in nearly every area. Dedicated service to the CIA and this country will not be forgotten."
+  },
+  "237": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "",
+    "flavor": "CIA Evaluation (Dec. 1962). Expectations exceeded. Encountered mild difficulty with certain objectives but overall a highly commendable performance. Recommendation: retain as field agents for high priority missions."
+  },
+  "238": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "",
+    "flavor": "CIA Evaluation (Dec. 1962). Adequate. Moderately efficient performance despite numerous failed objectives. Recommendation: Continue as field agents but reinstate restrictions. Additional time and training required."
+  },
+  "239": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "",
+    "flavor": "CIA Evaluation (Dec. 1962). Poor. Excessive number of failed objectives. Recommendation: Remove from active duty and place in developmental training. Determine if field work remains an appropriate option."
+  },
+  "240": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "",
+    "flavor": "CIA Evaluation (Dec. 1962). No evaluation. Agents assigned to the MEDUSA operation missing, presumed dead. Mark status as MIA and deactivate all associated clearances."
+  },
+  "241": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "No further information.",
+    "flavor": "Another shipment went through, but you still did not manage to intercept it."
+  },
+  "242": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "Open Safe Deposit Box 0005 and read its contents.",
+    "flavor": "He releases a long, relieved sigh. “Good...good. I swear you won’t regret this. Let’s get to work.”"
+  },
+  "243": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "Turn to entry 249.",
+    "flavor": "The repercussions of 1962 will take a long time to settle. With the MEDUSA genome captured and LION’S TOOTH stopped, the world continued normally. The final, fatal MEDUSA sample lies in storage at the CDC, buried so deep that someone would have to blow up the entire building just to find it.\n\nVery few people know how close the world was to annihilation this past year: just as you and the CIA prefer it."
+  },
+  "244": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "Turn to entry 251.",
+    "flavor": "The plague started slowly, spreading on the winds. Rural areas suffered first, then the cities. The contaminated pollen went everywhere; there were no safe havens. Fortunately, your efforts throughout the year ensured that LION’S TOOTH had only one launch site. In the end, the damage was severe, but the world recovered. With no genome to make another batch of MEDUSA, the Soviets abandoned the program.\n\nAdmitting that the plague was a failed attempt to destroy the West was worse than lying. Thus, the US framed the outbreak as a rare strain of the flu, and the Soviets did not dispute the lie. Millions died, but it could have been much worse."
+  },
+  "245": {
+    "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg",
+    "transcription": "Turn to entry 249.",
+    "flavor": "With LION’S TOOTH stopped, there was a brief lull as both sides reevaluated the situation. The Soviets had the lethal strain of the MEDUSA genome but knew the CIA would stop at nothing to get it. PEARL was abandoned and the project moved elsewhere. They may plan another attack sometime in the future, but the CIA will not rest until this deadly strain of MEDUSA is out of Soviet hands and safe in deep storage at the CDC."
+  },
+  "246": {
+    "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg",
+    "transcription": "Turn to entry 251.",
+    "flavor": "The repercussions of 1962 will take a long time to settle. With the MEDUSA genome captured and LION’S TOOTH stopped, the world continued as normal. The final, fatal MEDUSA sample lies in storage at the CDC, buried so deep that someone would have to blow up the entire building just to find it.\n\nVery few people know how close the world was to annihilation this past year: just as you and the CIA prefer it."
+  },
+  "247": {
+    "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg",
+    "transcription": "Turn to entry 249.",
+    "flavor": "The plague started slowly, spreading on the winds. Rural areas suffered first, then the cities. The contaminated pollen went everywhere; there were no safe havens. Fortunately, your efforts throughout the year ensured that LION’S TOOTH had only one launch site. In the end, the damage was severe, but the world recovered. With no genome to make another batch of MEDUSA, the Soviets abandoned the program.\n\nAdmitting that the plague was a failed attempt to destroy the West was worse than lying. Thus, the US framed the outbreak as a rare strain of the flu, and the Soviets kept the fiction. Millions died, but it could have been much worse."
+  },
+  "248": {
+    "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg",
+    "transcription": "Turn to entry 251.",
+    "flavor": "With LION’S TOOTH stopped, there was a brief lull as both sides reevaluated the situation. The Soviets had the lethal strain of the MEDUSA genome but knew the CIA would stop at nothing to get it. PEARL was abandoned and the project moved elsewhere. They may plan another attack sometime in the future, but the CIA will not rest until this deadly strain of MEDUSA is out of Soviet hands and safe in deep storage at the CDC."
+  },
+  "249": {
+    "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg",
+    "transcription": "No further information.",
+    "flavor": "Long after the MEDUSA plague nearly destroyed the world, its impact lingers. The different strains from the many MEDUSA trials evolved into four distinct diseases throughout the globe. The CDC wishes to set up crisis teams to keep this new world from being overrun.\n\nWary of other potential sources of biological warfare, the CIA retrieved a sample of the Soviets’ other attempt at a bioweapon: COdA. It will be kept on lockdown at Langley and thoroughly researched. You will be ready if there are any attempts to weaponize it."
+  },
+  "250": {
+    "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg",
+    "transcription": "Turn to entry 251.",
+    "flavor": "In 1963, the world fell apart. Pollen laced with MEDUSA covered the globe, and death followed. At first, governments tried to pass it off as a rare strain of the flu. Eager to capitalize on the chaos, the Soviets quickly released more and more MEDUSA as the vanguard to invasion and expansion of their territory.\n\nUnfortunately, the Soviets never found a treatment or cure for the final, deadly MEDUSA strain. The plague spread back into the Soviet Union itself, shattering their ambitions. Eventually, after a global death toll exceeding 70 million, the MEDUSA plague faded, and the world slowly recovered."
+  },
+  "251": {
+    "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg",
+    "transcription": "No further information.",
+    "flavor": "Long after the MEDUSA plague nearly destroyed the world, its impact lingers. The different strains used within the MEDUSA trials have evolved. Four distinct diseases are appearing throughout the globe, and the CDC is setting up teams to keep this new world from being overrun completely.\n\nYou remained with the CIA. With all of Sabik’s back channels, contacts, and resources under your control, you gained a lot of freedom. These days you practically run the place. Your secret association thrives when working within and outside the system: whatever it takes to serve the greater good. Your group even has a name:\n\nZODIAC."
+  },
+  "252": {
+    "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg",
+    "transcription": "Turn to entry 249.",
+    "flavor": "In 1963, the world fell apart. Pollen laced with MEDUSA covered the globe, and death followed. At first, governments tried to pass it off as a rare strain of the flu. Eager to capitalize on the chaos, the Soviets quickly released more and more MEDUSA as the vanguard to invasion and expansion of their territory.\n\nUnfortunately, the Soviets never found a treatment or cure for the final, deadly MEDUSA strain. The plague spread back into the Soviet Union itself, shattering their ambitions. Eventually, after a global death toll exceeding 70 million, the MEDUSA plague faded, and the world slowly recovered."
+  }
+}

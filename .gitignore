@@ -18,6 +18,8 @@ build
 .eslintcache
 .cache
 *.tsbuildinfo
+__pycache__/
+*.pyc
 
 # other
 .DS_Store

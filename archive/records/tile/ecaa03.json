@@ -1,0 +1,33 @@
+{
+  "id": "tile/ecaa03",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ecaa03",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/19",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "ecaa03"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/12dc2708ab77d88ab2ad3b9fb355f6faae6300bb.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

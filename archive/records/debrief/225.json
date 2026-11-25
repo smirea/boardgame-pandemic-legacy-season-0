@@ -1,0 +1,31 @@
+{
+  "id": "debrief/225",
+  "printedCode": "225",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "All players scratch one cover from their current alias.",
+      "flavor": "Sabik's operative delivered the stolen CIA information to Soviet agents before your teams could close in on him. As a result, your aliases were partially compromised.",
+      "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

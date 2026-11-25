@@ -1,0 +1,41 @@
+{
+  "id": "legacy/sealed-end-of-legacy-deck",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "355b6c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/0",
+    "duplicatePaths": [],
+    "note": "Warning card sealed in box 0005. The part 2 deck also has this face. This copy stays because the box still holds it.",
+    "guids": [
+      "355b6c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "END OF LEGACY DECK",
+      "flavor": "",
+      "image": "media/split/a3ad9647d9f9-0.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "END OF LEGACY DECK",
+      "flavor": "",
+      "image": "media/split/0755b549db50-0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

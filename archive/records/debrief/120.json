@@ -1,0 +1,31 @@
+{
+  "id": "debrief/120",
+  "printedCode": "120",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Lower your funding by 1.",
+      "flavor": "\"Your honesty was appreciated, though you are full agents now. We will be expecting more from you.\"",
+      "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

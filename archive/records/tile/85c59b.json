@@ -1,0 +1,35 @@
+{
+  "id": "tile/85c59b",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "85c59b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/33",
+    "duplicatePaths": [
+      "348/2"
+    ],
+    "note": "Unclassified tile.",
+    "guids": [
+      "85c59b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

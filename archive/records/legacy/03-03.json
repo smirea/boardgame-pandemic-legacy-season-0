@@ -1,0 +1,54 @@
+{
+  "id": "legacy/03-03",
+  "printedCode": "03-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "39a571",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/53",
+    "duplicatePaths": [
+      "352/53"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "39a571"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has a known target city.\nTwo active teams are required to complete it.\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-53.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MARCH OBJECTIVE 2\nPREVENT SABIK FROM SELLING CIA SECRETS\nAcquire Target in:\nPRAGUE, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 114\nFailed: Read Debrief 225",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-53.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/114",
+      "label": "Debrief 114"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/225",
+      "label": "Debrief 225"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

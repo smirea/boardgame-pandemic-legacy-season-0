@@ -1,0 +1,57 @@
+{
+  "id": "legacy/10-04",
+  "printedCode": "10-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "fae008",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/18",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "fae008"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is a pursuit objective.\nTo set it up, place a Pursuit token in London.\nThen, place this card onto the board in the Operations area and flip it over.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-18.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OCTOBER OBJECTIVE 2\nHUNT DOWN THE SOVIET “EXPORTER”\nRemove the last Pursuit token from the board\nSTARTING CITY: LONDON\nDESTINATION: ANY SOVIET CITY\nCompleted: Read Debrief 101\nFailed (First half of month): Read Debrief 172\nFailed (Second half of month): Read Debrief 241",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-18.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/101",
+      "label": "Debrief 101"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/172",
+      "label": "Debrief 172"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/241",
+      "label": "Debrief 241"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

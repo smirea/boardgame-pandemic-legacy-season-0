@@ -1,0 +1,41 @@
+{
+  "id": "legacy/11-01",
+  "printedCode": "11-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "6cb6d3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/15",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "6cb6d3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\nDraw this card just before you set up your first game in November.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-15.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Please meet me.\nI’d like to talk.\n— Sabik\nRead the following Operations card: 76",
+      "flavor": "Please meet me.\nI’d like to talk.\n— Sabik",
+      "image": "media/split/1aaabc2decc1-15.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

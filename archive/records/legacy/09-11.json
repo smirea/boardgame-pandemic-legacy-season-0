@@ -1,0 +1,41 @@
+{
+  "id": "legacy/09-11",
+  "printedCode": "09-11",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "fecf74",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/24",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "fecf74"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RELAPSE\nEach player takes 2 Symptom cards for each Chronic Infection sticker on the cover of their passport.\nDo this when this card is drawn (or dealt during setup), then discard it.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-24.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-24.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

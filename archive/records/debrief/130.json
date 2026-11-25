@@ -1,0 +1,31 @@
+{
+  "id": "debrief/130",
+  "printedCode": "130",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Choose one contact on any alias and cross it out. That contact is dead and can no longer be used.",
+      "flavor": "You receive a message from Sabik: \"I'm trusting you to get the job done. If you can't hack it, you better let me know right now. We can't afford many screw-ups. Consider this a lesson.\"",
+      "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

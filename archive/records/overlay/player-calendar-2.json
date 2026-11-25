@@ -1,0 +1,33 @@
+{
+  "id": "overlay/player-calendar-2",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "eaefa2",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "37",
+    "duplicatePaths": [],
+    "note": "Gold ink. Blank player log. Same words as the other three player calendars.",
+    "guids": [
+      "eaefa2"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MONTH | PLAYER | RESULT | DATE | MONTH | PLAYER | RESULT | DATE\nJANUARY | JULY\nFEBRUARY | AUGUST\nMARCH | SEPTEMBER\nAPRIL | OCTOBER\nMAY | NOVEMBER\nJUNE | DECEMBER",
+      "flavor": "",
+      "image": "media/original/03637f0b7b0ca9a9ea967eddba8863fce157f44c.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

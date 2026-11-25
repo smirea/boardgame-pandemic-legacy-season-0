@@ -1,0 +1,226 @@
+{
+  "threat/karachi": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "KARACHI\nPAKISTAN\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in South America.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/khartoum": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "KHARTOUM\nSUDAN\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Asia.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/kiev": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "KIEV\nSOVIET UNION\nINCIDENT\nSAFEHOUSE COMPROMISED\nRemove 1 safehouse in the Pacific Rim and return it to the supply.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/lagos": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LAGOS\nNIGERIA\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in South America.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/leningrad": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LENINGRAD\nSOVIET UNION\nINCIDENT\nTEAMS COMPROMISED\nShift each team in a city with surveillance (that is not in a safehouse) to Washington.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/leopoldville": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LEOPOLDVILLE\nCONGO-LÉOPOLDVILLE\nINCIDENT\nRECOGNIZED\nPlayers in Africa or Asia (that are not in a safehouse) each lose 1 cover.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/lima": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LIMA\nPERU\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Europe.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/london": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LONDON\nUNITED KINGDOM\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Asia.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/los-angeles": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LOS ANGELES\nUNITED STATES\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Europe.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/madrid": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MADRID\nSPAIN\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in the Pacific Rim.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/manila": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MANILA\nPHILIPPINES\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Asia.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/mexico-city": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MEXICO CITY\nMEXICO\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in the Pacific Rim.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/moscow": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MOSCOW\nSOVIET UNION\nINCIDENT\nRECOGNIZED\nPlayers in Europe or Africa (that are not in a safehouse) each lose 1 cover.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/new-york": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "NEW YORK\nUNITED STATES\nINCIDENT\nRECOGNIZED\nPlayers in North America or South America (that are not in a safehouse) each lose 1 cover.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/novosibirsk": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "NOVOSIBIRSK\nSOVIET UNION\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Europe.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/osaka": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "OSAKA\nJAPAN\nINCIDENT\nRECOGNIZED\nPlayers in the Pacific Rim or North America (that are not in a safehouse) each lose 1 cover.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  }
+}

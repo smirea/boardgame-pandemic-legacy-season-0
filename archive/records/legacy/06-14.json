@@ -1,0 +1,43 @@
+{
+  "id": "legacy/06-14",
+  "printedCode": "06-14",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "c47547",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/1",
+    "duplicatePaths": [
+      "352/1"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "c47547"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nTRIAL VACCINE\n\n[unreadable]\n\nRemove 2 disease cubes from the board.\n\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-1.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

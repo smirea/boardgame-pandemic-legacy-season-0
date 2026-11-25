@@ -1,0 +1,45 @@
+{
+  "id": "legacy/03-07",
+  "printedCode": "03-07",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "76cdfe",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/2",
+    "duplicatePaths": [
+      "351/0/49",
+      "352/49"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "0d79da",
+      "76cdfe"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in March.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-49.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "DISCRETIONARY BUDGET\n\"I appreciate what y'all are doin' out there. I've tapped into a...somewhat idle internal fund, and I want you to use it in your mission. Just, uh, don't mention it to anyone, all right? This ain't exactly by the book.\"\nDuring step 7 of setup, for each box you check, you may add an additional event card to the player deck. (This does not affect your funding.)\nKeep this card in the reserve.\nDestroy it once all 3 boxes are checked.",
+      "flavor": "\"I appreciate what y'all are doin' out there. I've tapped into a...somewhat idle internal fund, and I want you to use it in your mission. Just, uh, don't mention it to anyone, all right? This ain't exactly by the book.\"",
+      "image": "media/split/70bec37606e4-49.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

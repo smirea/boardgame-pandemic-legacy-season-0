@@ -1,0 +1,33 @@
+{
+  "id": "tile/5dffee",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "5dffee",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "289/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "5dffee"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "PUT OUT RESTRICTIONS\nRULE A\nPut all of the Restriction cards you have received into the Operations area of the board.\nEVALUATION: CURIOUS\nThis \"restriction\" was in fact an elaborate test to determine if you were too curious for your own good. You have failed.\nRESTRICTION",
+      "flavor": "This \"restriction\" was in fact an elaborate test to determine if you were too curious for your own good. You have failed.",
+      "image": "media/original/d8112af730efa1f88575d8feacdff49293261b0d.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

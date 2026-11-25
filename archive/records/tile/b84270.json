@@ -1,0 +1,33 @@
+{
+  "id": "tile/b84270",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b84270",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/27",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b84270"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SPECIALIZATIONS\nAdd a specialization to each Allied alias.",
+      "flavor": "",
+      "image": "media/original/266fb56e4294548df101df5d6bbc826fec61326b.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

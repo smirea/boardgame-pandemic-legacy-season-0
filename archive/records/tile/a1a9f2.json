@@ -1,0 +1,33 @@
+{
+  "id": "tile/a1a9f2",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "a1a9f2",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "327/0/9",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "a1a9f2"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RED ARMY DOCTOR: When you enter a Soviet city, return all of your Symptom cards to the supply.",
+      "flavor": "",
+      "image": "media/original/a08d62db7cbabc3ab09ee972de4efe425039e2a7.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

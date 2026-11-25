@@ -1,0 +1,52 @@
+{
+  "id": "legacy/10-05",
+  "printedCode": "10-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "3d7f4b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/17",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "3d7f4b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "“Your probationary period is ending soon, and this final developmental goal should serve you well in what remains of this operation and indeed whatever threat rises after.\nMy thanks for your dedication in this difficult mission.”",
+      "flavor": "“Your probationary period is ending soon, and this final developmental goal should serve you well in what remains of this operation and indeed whatever threat rises after.\nMy thanks for your dedication in this difficult mission.”",
+      "image": "media/split/cc2c7c586e0d-17.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEST RESULTS\nReview your response to question 12 from the loyalty questionnaire (in your Personnel file).\nIf card 65 is in your Intelligence file, add 1 to your response.\nIf you answered 1–3: Read Debrief 199\nIf you answered 4–6: Read Debrief 110\nIf you receive a Restriction card, put it into the Operations area of the board, and continue to do so at the start of each game.\nKeep this card in your Personnel file.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-17.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/110",
+      "label": "Debrief 110"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/199",
+      "label": "Debrief 199"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "debrief/135",
+  "printedCode": "135",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Lower your funding by 1.",
+      "flavor": "\"The research division quickly concluded that saliva could not be a transmission point. Such a means would be slow to spread and easy to quarantine: ineffective as a bioweapon.\"",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

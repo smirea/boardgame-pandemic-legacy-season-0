@@ -1,0 +1,175 @@
+{
+  "id": "debrief/book",
+  "printedCode": null,
+  "kind": "rule-page",
+  "censusKey": "debrief-book",
+  "sourceGuid": "beba7d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "344",
+    "duplicatePaths": [],
+    "note": "Debrief book. Pages are TTS states. Numbered entries are separate records.",
+    "guids": [
+      "008e36",
+      "11bbf7",
+      "153815",
+      "644ffe",
+      "6668fd",
+      "7b4d31",
+      "7b9c39",
+      "833c94",
+      "87c361",
+      "a97108",
+      "be01d0",
+      "beba7d",
+      "ca1530",
+      "ef9990",
+      "f023fa"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "state-1",
+      "ttsState": 1,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/896e7940fb83b1ccc9d3c73c9e2c288ff06da9c9.jpg"
+    },
+    {
+      "id": "state-2",
+      "ttsState": 2,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    },
+    {
+      "id": "state-3",
+      "ttsState": 3,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg"
+    },
+    {
+      "id": "state-4",
+      "ttsState": 4,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg"
+    },
+    {
+      "id": "state-5",
+      "ttsState": 5,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    },
+    {
+      "id": "state-6",
+      "ttsState": 6,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg"
+    },
+    {
+      "id": "state-7",
+      "ttsState": 7,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg"
+    },
+    {
+      "id": "state-8",
+      "ttsState": 8,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg"
+    },
+    {
+      "id": "state-9",
+      "ttsState": 9,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg"
+    },
+    {
+      "id": "state-10",
+      "ttsState": 10,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg"
+    },
+    {
+      "id": "state-11",
+      "ttsState": 11,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg"
+    },
+    {
+      "id": "state-12",
+      "ttsState": 12,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg"
+    },
+    {
+      "id": "state-13",
+      "ttsState": 13,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg"
+    },
+    {
+      "id": "state-14",
+      "ttsState": 14,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg"
+    },
+    {
+      "id": "state-15",
+      "ttsState": 15,
+      "role": "rules",
+      "transcription": "Debrief book page. Each numbered entry on these pages is its own debrief record.",
+      "flavor": "",
+      "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg"
+    }
+  ],
+  "states": [
+    "state-1",
+    "state-2",
+    "state-3",
+    "state-4",
+    "state-5",
+    "state-6",
+    "state-7",
+    "state-8",
+    "state-9",
+    "state-10",
+    "state-11",
+    "state-12",
+    "state-13",
+    "state-14",
+    "state-15"
+  ],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

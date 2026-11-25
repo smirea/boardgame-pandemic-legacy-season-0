@@ -1,0 +1,33 @@
+{
+  "id": "tile/d7bbc7",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d7bbc7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/9",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "d7bbc7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RULE B\nAdd all Infection cards with city names written on them faceup into the Threat discard pile.",
+      "flavor": "",
+      "image": "media/original/6ea1ade77ad7447b44548dfa761ec938ddf05825.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

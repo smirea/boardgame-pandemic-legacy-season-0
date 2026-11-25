@@ -1,0 +1,31 @@
+{
+  "id": "debrief/102",
+  "printedCode": "102",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Take 2 Action tokens and distribute them among the players as you like.",
+      "flavor": "You discovered the manufacturing facility within PEARL Compound. Stacks of empty supply crates imply that the Soviets have already manufactured a large quantity of the plague. You render the sensitive equipment inoperable with a few subtle \"adjustments\" that should take months to locate and repair.",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "legacy/04-23",
+  "printedCode": "04-23",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "38800b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/24",
+    "duplicatePaths": [
+      "352/24"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "38800b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nEXTENDED TIME\n\nGive 2 Action Tokens to the current player.\n\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-24.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-24.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

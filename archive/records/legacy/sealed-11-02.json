@@ -1,0 +1,62 @@
+{
+  "id": "legacy/sealed-11-02",
+  "printedCode": "11-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "c5cca9",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/14",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "c5cca9"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "MISSION BRIEFING\n\"With Sabik gone, our focus can shift entirely to MEDUSA and the Soviets. We are close to understanding how the plague will be dispersed; Soviets are calling it Operation LION'S TOOTH, but we need more than just a name. A Soviet spy posing as a businessman, last seen in Sydney, has this information.\nIn addition, you must dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment.\"\nOpen the following doors:\nU 39 42 S",
+      "flavor": "\"With Sabik gone, our focus can shift entirely to MEDUSA and the Soviets. We are close to understanding how the plague will be dispersed; Soviets are calling it Operation LION'S TOOTH, but we need more than just a name. A Soviet spy posing as a businessman, last seen in Sydney, has this information.\nIn addition, you must dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment.\"",
+      "image": "media/split/a3ad9647d9f9-14.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/0755b549db50-14.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/39",
+      "label": "Open door 39"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/42",
+      "label": "Open door 42"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/S",
+      "label": "Open door S"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/U",
+      "label": "Open door U"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

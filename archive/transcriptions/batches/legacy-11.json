@@ -1,0 +1,182 @@
+{
+  "legacy/11-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "MISSION BRIEFING\n\n\"'Operation LION'S TOOTH.' This is what the Soviets call their MEDUSA deployment plan, and we need to know more. A Soviet spy posing as a businessman, last seen in Sydney, has this information. Find him.\n\nYour second objective is to dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment. Finally, Sabik is laying low, but many of his allies are parting ways with him. Find one.\"\n\nOpen the following doors:\nU 39 42 S",
+        "flavor": "\"'Operation LION'S TOOTH.' This is what the Soviets call their MEDUSA deployment plan, and we need to know more. A Soviet spy posing as a businessman, last seen in Sydney, has this information. Find him.\n\nYour second objective is to dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment. Finally, Sabik is laying low, but many of his allies are parting ways with him. Find one.\""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "MISSION BRIEFING\n\n\"One more thing...\"\n\nIf the \"Help from Sabik\" card is in the Operations Area, read Debrief 231.",
+        "flavor": "\"One more thing...\""
+      }
+    }
+  },
+  "legacy/11-04": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is an infiltration objective.\n\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\n\nFlip this card over and place it onto the board in the Operations area.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "NOVEMBER OBJECTIVE 1\nSABOTAGE THE MANUFACTURING FACILITY\n\nInfiltration City: Novosibirsk\n\nWHILE IN THE MANUFACTURING FACILITY OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 4 CITY CARDS\n\nCompleted: Read Debrief 102\nFailed: Read Debrief 235",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/11-05": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 14 Allied City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Allied cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "NOVEMBER OBJECTIVE 2\nBRIBE SABIK'S ALLY\n\nAcquire Target in:\n1 UNKNOWN ALLIED CITY\nYOU MAY NOT USE THE IDENTIFY TARGET CITY ACTION\n\nCompleted: Read Debrief 201\nFailed: Read Debrief 134",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/11-06": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is a pursuit objective.\n\nTo set it up, place a Pursuit token in Sydney.\nThen, place this card onto the board in the Operations area and flip it over.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "NOVEMBER OBJECTIVE 3\nLEARN ABOUT MEDUSA DEPLOYMENT PLAN\n\nRemove the last Pursuit token from the board\nSTARTING CITY: SYDNEY\nDESTINATION: ANY SOVIET CITY\n\nCompleted: Read Debrief 188\nFailed: Read Debrief 137",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/11-07": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in November.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\nOpen the following door:\n28\n\nTHEN, DESTROY\n0005\nwithout opening it.\n(Everything inside is recyclable paper.)",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/12-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STOP\nDraw this card just before you set up your first game in December.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "FOLLOWING UP\n\n\"We followed your leads on MEDUSA deployment. Here is what we discovered.\"\n\nTake your MEDUSA Deployment Report out of your Intelligence file.\nNote your answer, then read the appropriate debrief:\n\nJellyfish: Read Debrief 126\nAgent Sabik: Read Debrief 209\nPollen: Read Debrief 140\nWe Don't Know: Read Debrief 120",
+        "flavor": "\"We followed your leads on MEDUSA deployment. Here is what we discovered.\""
+      }
+    }
+  },
+  "legacy/12-02": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "flavor",
+        "transcription": "MISSION BRIEFING\n\n\"The time has come. You must steal the MEDUSA genome from PEARL. Without it, they cannot create more of the plague.\n\nAdditionally, they are executing Operation LION'S TOOTH. One of their control centers is launching weather balloons containing pollen coated in the MEDUSA plague. Find out which control center it is, and stop it at all costs.\"",
+        "flavor": "\"The time has come. You must steal the MEDUSA genome from PEARL. Without it, they cannot create more of the plague.\n\nAdditionally, they are executing Operation LION'S TOOTH. One of their control centers is launching weather balloons containing pollen coated in the MEDUSA plague. Find out which control center it is, and stop it at all costs.\""
+      },
+      "back": {
+        "role": "flavor",
+        "transcription": "MISSION BRIEFING\n\n\"Agent Cooper is alive, held by Sabik in San Francisco for the past six months.\n\nSabik has depleted his resources, allies, and seemingly what little remained of his sanity.\n\nHe is now fleeing to Soviet territory, either to defect or to get beyond our reach. He's taking Agent Cooper with him as a hostage; you must bring Sabik in and rescue Cooper if you can.\n\nThere will be only one chance to succeed at this. Good luck.\"",
+        "flavor": "\"Agent Cooper is alive, held by Sabik in San Francisco for the past six months.\n\nSabik has depleted his resources, allies, and seemingly what little remained of his sanity.\n\nHe is now fleeing to Soviet territory, either to defect or to get beyond our reach. He's taking Agent Cooper with him as a hostage; you must bring Sabik in and rescue Cooper if you can.\n\nThere will be only one chance to succeed at this. Good luck.\""
+      }
+    }
+  },
+  "legacy/12-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is an infiltration objective.\n\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\n\nFlip this card over and place it onto the board in the Operations area.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "DECEMBER OBJECTIVE 1\nSTEAL THE MEDUSA GENOME\n\nInfiltration City: Novosibirsk\n\nWHILE IN THE LABORATORY OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 5 CITY CARDS\n\nCompleted: Read Debrief 107\nFailed: Read Debrief 196",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/12-04": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is a pursuit objective.\n\nTo set it up, place a Pursuit token in San Francisco.\nThen, place this card onto the board in the Operations area and flip it over.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "DECEMBER OBJECTIVE 2\nCAPTURE SABIK\n\nRemove the last Pursuit token from the board\nSTARTING CITY: SAN FRANCISCO\nDESTINATION: ANY SOVIET CITY\n\nCompleted: Read Debrief 181\nFailed: Read Debrief 179",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/12-05": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the City cards matching cities with a Control Center sticker from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the other cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "DECEMBER OBJECTIVE 3\nSTOP OPERATION LION'S TOOTH\n\nAcquire Target in:\n1 UNKNOWN CITY WITH A CONTROL CENTER\nYOU MAY NOT USE THE IDENTIFY TARGET CITY ACTION\n\nCompleted: Read Debrief 155\nFailed: Read Debrief 117",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/12-06": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in December.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\n\nTHE CAMPAIGN IS OVER.\n\nEven if you received an evaluation of FAILING, do not play the second half of December.\n\nIT'S OVER.\n\nDo not spend budgetary units.\nContinue reading from the Legacy deck.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/12-07": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "AT LAST\n\nIf you completed both Steal the MEDUSA Genome and Stop Operation LION'S TOOTH, read Debrief 243.\n\nIf you completed Steal the MEDUSA Genome but failed Stop Operation LION'S TOOTH, read Debrief 247.\n\nIf you failed Steal the MEDUSA Genome but completed Stop Operation LION'S TOOTH, read Debrief 245.\n\nIf you failed both Steal the MEDUSA Genome and Stop Operation LION'S TOOTH, read Debrief 252.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  }
+}

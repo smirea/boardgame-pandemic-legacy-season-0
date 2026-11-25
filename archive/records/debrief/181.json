@@ -1,0 +1,42 @@
+{
+  "id": "debrief/181",
+  "printedCode": "181",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "If you attempt to forcefully stop Sabik, read entry 144.\n\nIf you attempt to talk Sabik out of killing Cooper, read entry 164.",
+      "flavor": "You arrive at the scene. Cooper is incoherent, drugged, and barely standing. Wounded in the pursuit, the cornered Sabik clutches a syringe in one hand and Cooper's collar in the other. His wild, ghastly eyes dart back and forth. \"You have to listen to me. I was set up! The CIA had him this whole time. They told you I killed him so that you wouldn't trust me! They betrayed me. They'll betray you too!\" He gestures wildly with the syringe. Blood pulses through veins along the translucent skin of his temples. \"Look at me! LOOK WHAT THEY DID TO ME!\" he screams, bringing the syringe towards Cooper's neck.",
+      "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/144",
+      "label": "entry 144"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/164",
+      "label": "entry 164"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

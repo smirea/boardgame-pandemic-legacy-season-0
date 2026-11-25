@@ -1,0 +1,71 @@
+{
+  "id": "legacy/05-06",
+  "printedCode": "05-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "5f5bec",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/0",
+    "duplicatePaths": [
+      "351/0/18",
+      "352/18"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "5f5bec",
+      "eae4ac"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "FOLLOWING UP\n“We investigated your lead on how MEDUSA is going to be transmitted. Here is what we found.”\nTake your Transmission Method report out of your Intelligence file.\nNote your answer and then turn this card over.",
+      "flavor": "“We investigated your lead on how MEDUSA is going to be transmitted. Here is what we found.”",
+      "image": "media/split/8ef8489d5a98-18.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "IF YOU ANSWERED...\nAnimal Contact: Read Debrief 121\nAirborne: Read Debrief 154\nSaliva: Read Debrief 135\nWaterborne: Read Debrief 213\nAfter reading the debrief entry, destroy this card.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-18.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "destroys",
+      "targetId": "legacy/05-06",
+      "label": "Destroy this card"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/121",
+      "label": "Debrief 121"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/135",
+      "label": "Debrief 135"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/154",
+      "label": "Debrief 154"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/213",
+      "label": "Debrief 213"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "file/personnel",
+  "printedCode": "Personnel Folder",
+  "kind": "file",
+  "censusKey": "personnel-file",
+  "sourceGuid": "dc412e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "58",
+    "duplicatePaths": [],
+    "note": "Personnel file. Starts empty.",
+    "guids": [
+      "dc412e"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/bcb1b4b06415eadcd4691468e369028a4921c30a.obj",
+    "diffuse": "media/original/b8aa5c8004a7f3358f61fb3eae4c3e84088aee0a.jpg"
+  }
+}

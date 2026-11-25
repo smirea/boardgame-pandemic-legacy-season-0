@@ -1,0 +1,33 @@
+{
+  "id": "tile/bbaef0",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "bbaef0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/40",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "bbaef0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AFTER RESOLVING EACH ESCALATION CARD\nAdd a Pursuit token to each city adjacent to a city with a Pursuit token.",
+      "flavor": "",
+      "image": "media/original/002a0de6deb6977a696507b11abf9112ca49af42.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "token/safehouse",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "safehouse",
+  "sourceGuid": "5c6544",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "45/0",
+    "duplicatePaths": [
+      "45/1",
+      "45/2",
+      "45/3",
+      "45/4",
+      "45/5",
+      "45/6",
+      "45/7"
+    ],
+    "note": "Safehouse token.",
+    "guids": [
+      "0536a1",
+      "1bc95d",
+      "21b832",
+      "35f86a",
+      "56bf85",
+      "5c6544",
+      "f1091b",
+      "fae0e2"
+    ]
+  },
+  "count": 8,
+  "faces": [
+    {
+      "id": "diffuse",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/551fd5cba20e48d87500cdbae2b420eb9cc7f308.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/a0514982ddf0a6bd9461daf1b583c62d08ad4281.obj",
+    "diffuse": "media/original/551fd5cba20e48d87500cdbae2b420eb9cc7f308.jpg"
+  }
+}

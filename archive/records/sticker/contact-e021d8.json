@@ -1,0 +1,33 @@
+{
+  "id": "sticker/contact-e021d8",
+  "printedCode": null,
+  "kind": "sticker",
+  "censusKey": "mod-extra",
+  "sourceGuid": "e021d8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "88",
+    "duplicatePaths": [],
+    "note": "Contact sticker (shop owner, crime boss, or politician) placed loose next to the upgrade sheet.",
+    "guids": [
+      "e021d8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CRIME BOSS Once per turn, as an action, remove 1 agent from the Crime Boss's city or a city adjacent to it.\nCITY:",
+      "flavor": "",
+      "image": "media/original/0d84202fe5e889758c78b418374dd86dc0d83aa9.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

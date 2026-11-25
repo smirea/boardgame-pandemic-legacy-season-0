@@ -1,0 +1,236 @@
+{
+  "tile/064706": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "UNLOCK HATCHWAY Discard City cards whose keypad numbers total 10 or more to place a Tunnel sticker next to a hatchway in your room.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/4e722d": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "UNLOCK HATCHWAY Discard City cards whose keypad numbers total 10 or more to place a Tunnel sticker next to a hatchway in your room.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/5a4f7d": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "UNLOCK HATCHWAY Discard City cards whose keypad numbers total 10 or more to place a Tunnel sticker next to a hatchway in your room.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/73897f": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "UNLOCK HATCHWAY Discard City cards whose keypad numbers total 10 or more to place a Tunnel sticker next to a hatchway in your room.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/fc51be": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CONTAMINATION STICKERS When you enter a city with a Contamination sticker, take 1 Symptom card, in addition to the Symptom card you take due to any Disease cubes in that city.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/ac1b47": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RECORDS ROOM When you enter this room, reveal the City card underneath the Stop Operation Lion’s Tooth objective.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/f16e74": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "DOOR 41 Put this sticker over the Records Room in PEARL Compound. (If you have not found the Records Room, place it when you do.)",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/1fdabd": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/2f9ba1": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/537788": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/59fdc3": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "TUNNELS DOOR 42 Keep these stickers in the reserve.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/862ad7": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/93eda7": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/1a1ad6": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CHRONIC INFECTION DOOR 43 Keep these stickers in the reserve.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/5f32e4": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/8a8f9c": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/b2cf40": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/2b3b70": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/379b30": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/53d274": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/651f1a": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/6744d5": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/8610d8": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/a5ab67": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/b06c3d": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CONTROL CENTERS BUGS DOOR 44 Keep these stickers in the reserve.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/c75b8a": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  }
+}

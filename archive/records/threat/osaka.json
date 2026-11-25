@@ -1,0 +1,41 @@
+{
+  "id": "threat/osaka",
+  "printedCode": "Osaka",
+  "kind": "card",
+  "censusKey": "threat-card",
+  "sourceGuid": "447fdc",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "59/4",
+    "duplicatePaths": [],
+    "note": "Threat card. Drawing it from the bottom of the deck is the incident effect.",
+    "guids": [
+      "447fdc"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OSAKA\nJAPAN\nINCIDENT\nRECOGNIZED\nPlayers in the Pacific Rim or North America (that are not in a safehouse) each lose 1 cover.",
+      "flavor": "",
+      "image": "media/split/f50a156f5be0-17.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

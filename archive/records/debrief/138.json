@@ -1,0 +1,31 @@
+{
+  "id": "debrief/138",
+  "printedCode": "138",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Mark this objective as complete. No further information.",
+      "flavor": "You chose to leave rather than to observe the results, and you hear nothing further of what became of John Cooper.\n\nLater, Sabik sends a message: \"Right, so I know that wasn't exactly what I said I'd do. Things got a little raw, but it's done now. You did good, and I owe you one. I'll be in touch.\"",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

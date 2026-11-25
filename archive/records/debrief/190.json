@@ -1,0 +1,42 @@
+{
+  "id": "debrief/190",
+  "printedCode": "190",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Open Doors 38, G, and C. Apply the rules stickers to the rulebook and read them. Draw the Pause card of the Legacy deck and read the back.\nThen, turn all four trial cities into Exposed Cities using the new Infection cards (following the rules for Marking Exposed Cities). Place these Infection cards in the Game End area. Move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+      "flavor": "No trials were disrupted. The MEDUSA plague is now active in three new cities. The strain is confirmed to be much stronger.",
+      "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/38",
+      "label": "Open door 38"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/G",
+      "label": "Open door G"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

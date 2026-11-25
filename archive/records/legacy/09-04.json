@@ -1,0 +1,52 @@
+{
+  "id": "legacy/09-04",
+  "printedCode": "09-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "6af6ce",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/31",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "6af6ce"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is an infiltration objective.\n\nUse the PEARL Compound Infiltration site. To set it up, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\n\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-31.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SEPTEMBER OBJECTIVE 2\n\nACCESS AGENT SABIK’S RECORDS\n\nInfiltration City: Novosibirsk\n\nWHILE IN THE RECORDS ROOM OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 3 CITY CARDS\n\nCompleted: Read Debrief 182\nFailed: Read Debrief 145",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-31.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/145",
+      "label": "Debrief 145"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/182",
+      "label": "Debrief 182"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

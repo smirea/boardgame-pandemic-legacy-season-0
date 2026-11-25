@@ -1,0 +1,41 @@
+{
+  "id": "legacy/sealed-12-06",
+  "printedCode": "12-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "afb1c5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/3",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "afb1c5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in December.",
+      "flavor": "",
+      "image": "media/split/a3ad9647d9f9-3.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "RIGHT NOW\nTHE CAMPAIGN IS OVER.\n\nEven if you received an evaluation of FAILING, you do not play the second half of December.\n\nIT'S OVER.\n\nDo not spend budgetary units.\nContinue reading from the Legacy deck.",
+      "flavor": "THE CAMPAIGN IS OVER. IT'S OVER.",
+      "image": "media/split/0755b549db50-3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

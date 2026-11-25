@@ -1,0 +1,33 @@
+{
+  "id": "tile/ae24f6",
+  "printedCode": "Hidden Items Utility",
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ae24f6",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "245",
+    "duplicatePaths": [],
+    "note": "Hidden Items Utility",
+    "guids": [
+      "ae24f6"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/d053c5e79072cd943325b215dafcb065c146bd5e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

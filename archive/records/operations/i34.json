@@ -1,0 +1,43 @@
+{
+  "id": "operations/i34",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "e6825c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/7",
+    "duplicatePaths": [
+      "347/7"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "e6825c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVALUATION: HESITANT You must discard an additional card (of any affiliation) to do the Commercial Flight action to a neutral city. RESTRICTION",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-34.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "56 56 OPERATIONS 56",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-34.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

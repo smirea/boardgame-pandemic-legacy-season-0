@@ -1,0 +1,52 @@
+{
+  "id": "legacy/09-12",
+  "printedCode": "09-12",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "29b5e7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/23",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "29b5e7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in September.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-23.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\nOpen the following door:\n23\nIf you received a FAILING evaluation for the first half of the month, read Debrief 220.\nThen, add the following Event card to the pool of events that you select from when you set up the game.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-23.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/23",
+      "label": "Open door 23"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/220",
+      "label": "Debrief 220"
+    }
+  ],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,117 @@
+{
+  "123": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Return the player pawn in Sabik's HQ to Leningrad.\n\nThen take cards 64 and 65 from the Operations deck. Decide which report you wish to file with the CIA. Put that card in your Intelligence file. Destroy the other one.",
+    "flavor": "In Sabik's HQ, you find a safe containing a CIA document. It reads, \"June 18, 1961. Top Secret. From John Cooper. Cancel retrieval of Agent Sabik from captivity in Siberia. Sabik is too valuable as an asset on the inside. He has a front-row seat to Soviet plans and is well-versed in counter-interrogation techniques. We can pull him out in the summer of '62. It's a risk he might not make it, but acceptable, given the time of great need.\"\n\nSabik enters the room, bundled completely in spite of the summer heat. He holds a pistol in a relaxed grip and keeps his distance. \"You understand now why I can't go back. Your buddy Coop left me for dead, expecting I'd still be on mission. I guess I still am: just not on their payroll.\"\n\nHe pauses, his arm shaking as a tremor passes through him. \"Do you get it now? The world needs saving, the CIA isn't any better than the damn Soviets, and you waste your time chasing me instead of fighting MEDUSA!\" He raises the pistol, clenching his gloved fist.\n\nAfter a moment he lowers it with a sigh.\"Look...I don't want to keep fighting you. As a sign of good faith, let me help; I know where they're studying and manufacturing MEDUSA. It's a place called PEARL Compound. It's where I was held captive.\" Keeping the pistol trained on you, he departs."
+  },
+  "124": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Destroy the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+    "flavor": "Teams quarantined the population of the city to contain the problem."
+  },
+  "125": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Place a Control Center sticker on the target city (do not put a bug on the center). Then move the target City card under the objective to the Player discard pile.",
+    "flavor": "Another control center completed without a bug; the satellite will be able to track your movements in Africa."
+  },
+  "126": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Lower your funding by 1.",
+    "flavor": "The Soviets used jellyfish for their abandoned COdA program. This was not helpful in the least."
+  },
+  "127": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Find card 57 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Indeed, the evaluation contained a measure of deception. How do you cope with incomplete data? How will you make decisions when you don't have all the facts? Fickleness is a poor attribute for agents within this organization. We must be able to trust your instincts.\""
+  },
+  "128": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "No further information.",
+    "flavor": "The teams were unable to locate the KGB officer. You learned nothing more about the control centers."
+  },
+  "129": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "No further information.",
+    "flavor": "Cooper is dead. You know this for certain; Sabik sent photos. Unhappy with your failure, he took matters into his own hands. Perhaps you could have stopped him given the chance, but it's too late now. You've allied yourselves with him, for good or ill."
+  },
+  "130": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Choose one contact on any alias and cross it out. That contact is dead and can no longer be used.",
+    "flavor": "You receive a message from Sabik: \"I'm trusting you to get the job done. If you can't hack it, you better let me know right now. We can't afford many screw-ups. Consider this a lesson.\""
+  },
+  "131": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "No further information.",
+    "flavor": "You were unable to gain further information on the MEDUSA plague. The scientists in São Paulo and Santiago escaped into the jungle before your teams could close in."
+  },
+  "132": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "DESTROY the Infection card of the city where you quarantined the population. Remove (or cross out) the Exposed City sticker near that city. It is no longer an Exposed City.",
+    "flavor": "The teams quarantined the infected population of the city to contain the problem. If a cure is found, those quarantined should be easy to treat."
+  },
+  "133": {
+    "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg",
+    "transcription": "Find card 54 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"Your answers have been reviewed, and I have a restriction to implement. Deceit and elusive cunning are critical tools for field agents, but remember that you must trust your superiors. I look forward to seeing your progress.\""
+  },
+  "134": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "No further information.",
+    "flavor": "You could not find any allies of Sabik who were willing to talk. They all seem to be afraid of him."
+  },
+  "135": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Lower your funding by 1.",
+    "flavor": "\"The research division quickly concluded that saliva could not be a transmission point. Such a means would be slow to spread and easy to quarantine: ineffective as a bioweapon.\""
+  },
+  "136": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Place a Control Center sticker on the target city (do not put a bug on the center). Then move the target City card under the objective to the Player discard pile.",
+    "flavor": "The bug could not be planted. For now, the control center will remain unmonitored."
+  },
+  "137": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+    "flavor": "The Soviet agent slipped through your net, and the information on LION'S TOOTH is gone with him. Your intel suggests that your pursuit caused him to depart Sydney before resolving his business there; the city will be closely watched in case he returns."
+  },
+  "138": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Mark this objective as complete. No further information.",
+    "flavor": "You chose to leave rather than to observe the results, and you hear nothing further of what became of John Cooper.\n\nLater, Sabik sends a message: \"Right, so I know that wasn't exactly what I said I'd do. Things got a little raw, but it's done now. You did good, and I owe you one. I'll be in touch.\""
+  },
+  "139": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Choose one contact on any one alias and cross it out. That contact is dead and can no longer be used.\n\nDraw the Pause card in the Legacy deck and read the back of it.",
+    "flavor": "Sabik's teeth grind together behind closed lips, his ghoulish features flushing with anger. \"You...you're just like them. I swear you'll regret this.\""
+  },
+  "140": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Increase your funding by 2.",
+    "flavor": "\"You were correct; they are going to use pollen to disperse MEDUSA. Excellent work.\""
+  },
+  "141": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Remove all Checkpoint tokens from the board. Remove 2 agents from the board.",
+    "flavor": "Your team cornered and interrogated the defector, a botanist who contracts with the CIA. It appears they stumbled across intel on the MEDUSA trials and mistakenly concluded that the CIA failed to stop them on purpose. The defector accepted money from Soviet sources to deliver data: something about an experiment involving pollen and orange groves."
+  },
+  "142": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Put the Infiltration cards for Sabik's HQ into the reserve.",
+    "flavor": "You were unable to infiltrate Sabik's safehouse."
+  },
+  "143": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Find card 50 from the Operations deck and place it faceup in the Operations area.",
+    "flavor": "\"All right team, I went over your responses and have an initial evaluation. Your 'can-do' attitude is refreshing, all things considered, but remember that you're still new to this. For now, you gotta run some of your ops up the chain for approval. It's a pain, I know, but it ain't personal: pretty standard stuff for new agents.\""
+  },
+  "144": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "Mark this objective as complete. No further information.",
+    "flavor": "You did what you had to, and Charles Sabik is no more. The brutality he suffered in Soviet hands left him unstable, filled with anger. Nothing could have brought him back from that. You return Cooper to the CIA for debriefing and medical attention. You're told that, physically, he should make a full recovery."
+  },
+  "145": {
+    "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg",
+    "transcription": "No further information.",
+    "flavor": "Your infiltration into the Records Room of the PEARL Compound failed."
+  }
+}

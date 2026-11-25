@@ -1,0 +1,52 @@
+{
+  "id": "legacy/sealed-12-05",
+  "printedCode": "12-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "9e5d68",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/4",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "9e5d68"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has a known target city.\n\nTwo active teams are required to complete it.\n\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/a3ad9647d9f9-4.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DECEMBER OBJECTIVE 3\nBRING COOPER TO SABIK\nAcquire Target in:\nSAN FRANCISCO, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 184\nFailed: Read Debrief 129",
+      "flavor": "",
+      "image": "media/split/0755b549db50-4.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/129",
+      "label": "Debrief 129"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/184",
+      "label": "Debrief 184"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

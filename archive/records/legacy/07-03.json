@@ -1,0 +1,57 @@
+{
+  "id": "legacy/07-03",
+  "printedCode": "07-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "6f790a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/50",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "6f790a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has 2 known target cities.\n\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-50.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "JULY OBJECTIVE 2\n\nSTOP SABIK FINDING HIS FORMER CAPTORS\n\nAcquire Target in 2 Cities with the same action:\nWARSAW\nMADRID\n\nCompleted: Read Debrief 198\nFailed (First half of month): Read Debrief 219\nFailed (Second half of month): Read Debrief 113",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-50.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/113",
+      "label": "Debrief 113"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/198",
+      "label": "Debrief 198"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/219",
+      "label": "Debrief 219"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

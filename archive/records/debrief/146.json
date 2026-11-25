@@ -1,0 +1,37 @@
+{
+  "id": "debrief/146",
+  "printedCode": "146",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Return all Checkpoint tokens on the board to the supply.",
+      "flavor": "The Soviets were transporting a large quantity of thin sheets of rubberized silk from Jade Manufacturing, and they were sparing no effort to keep it a secret. Still, you managed to tie up their delivery in customs and paperwork indefinitely.",
+      "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "places",
+      "targetId": "board",
+      "label": "On the board"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

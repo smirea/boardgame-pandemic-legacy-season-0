@@ -1,0 +1,33 @@
+{
+  "id": "tile/41e06b",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "41e06b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "305/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "41e06b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "GET TREATMENT\nRULE O\nWhile in a safehouse, return 1 Symptom card from your hand to the supply.",
+      "flavor": "",
+      "image": "media/original/c86ce13513987e4b49c108ec2b3831b3a933967a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

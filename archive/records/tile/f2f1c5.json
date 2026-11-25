@@ -1,0 +1,39 @@
+{
+  "id": "tile/f2f1c5",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "f2f1c5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/27",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "f2f1c5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "COVER OCCUPATIONS\nBox 0007-3f\nUse these stickers to create new (neutral) aliases.",
+      "flavor": "",
+      "image": "media/original/fb6fc2ba33d3ce3793219e6875185881b82677d8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "box/0007",
+      "label": "Box 0007"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

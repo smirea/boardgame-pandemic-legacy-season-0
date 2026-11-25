@@ -1,0 +1,31 @@
+{
+  "id": "debrief/166",
+  "printedCode": "166",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Sometimes there will be text at the end of the paragraph that gives further instructions. In this case, there is no further information.",
+      "flavor": "The courier escaped, and you were unable to gain more information on MEDUSA.",
+      "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

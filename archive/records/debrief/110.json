@@ -1,0 +1,31 @@
+{
+  "id": "debrief/110",
+  "printedCode": "110",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Find card 59 from the Operations deck and place it faceup in the Operations area.",
+      "flavor": "\"Passion can become extremism can become fanaticism. Do not allow yourselves or your teams to lose sight of humanity out in the field, or you'll become no better than former Agent Sabik.\"",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

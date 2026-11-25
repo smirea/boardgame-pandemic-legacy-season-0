@@ -1,0 +1,33 @@
+{
+  "id": "tile/f16e74",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "f16e74",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "321/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "f16e74"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DOOR 41 Put this sticker over the Records Room in PEARL Compound. (If you have not found the Records Room, place it when you do.)",
+      "flavor": "",
+      "image": "media/original/ccb96f47276714faf2ca13f98d6bebd4f25f4a9e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

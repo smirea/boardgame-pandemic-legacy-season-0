@@ -1,0 +1,33 @@
+{
+  "id": "token/threat-marker",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "threat-marker",
+  "sourceGuid": "936750",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "46",
+    "duplicatePaths": [],
+    "note": "Threat level marker.",
+    "guids": [
+      "936750"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/32e1b0613e9a806960ea8e7a3c630bec76ebddf6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

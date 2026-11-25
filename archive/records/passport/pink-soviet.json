@@ -1,0 +1,135 @@
+{
+  "id": "passport/pink-soviet",
+  "printedCode": null,
+  "kind": "passport",
+  "censusKey": "passport",
+  "sourceGuid": "9cd8d3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "259",
+    "duplicatePaths": [],
+    "note": "Pink pawn, soviet alias page. state-1 is the unscratched page. state-2 onward reveal cover pips one scratch at a time. The book counts 4 passports; the mod stores 3 allegiance pages for each of 4 pawns.",
+    "guids": [
+      "150200",
+      "44ec34",
+      "493bcb",
+      "4e803f",
+      "591256",
+      "5f6f22",
+      "6e9026",
+      "974dda",
+      "9cd8d3",
+      "d41275",
+      "f7a534"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "state-1",
+      "ttsState": 1,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/3f1bc1379e013cc3dc09ff3ec36637756bbb56fb.jpg"
+    },
+    {
+      "id": "state-2",
+      "ttsState": 2,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/a7b297956fa1b49468d68a6efe80c3f82e5a34ab.jpg"
+    },
+    {
+      "id": "state-3",
+      "ttsState": 3,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/f795a969e417a6e61d02e695bfb35144ff4ced92.jpg"
+    },
+    {
+      "id": "state-4",
+      "ttsState": 4,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/722b6275bd91e617787563937adcb006c0cbf83b.jpg"
+    },
+    {
+      "id": "state-5",
+      "ttsState": 5,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/141879cc79cc2a770eba087595b3f2c4837270e2.jpg"
+    },
+    {
+      "id": "state-6",
+      "ttsState": 6,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/994513e2202a6273facab8f03605456275b9af9f.jpg"
+    },
+    {
+      "id": "state-7",
+      "ttsState": 7,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/3a9d23fc244e5383a0c7d18254c0e11f96f251f2.jpg"
+    },
+    {
+      "id": "state-8",
+      "ttsState": 8,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/1aa5d60b3f809beb34a727377741fd51e9ebe641.jpg"
+    },
+    {
+      "id": "state-9",
+      "ttsState": 9,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. scratched, empty\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/b4ecb80a735f1845c72307ba20c515a6e9a34e7c.jpg"
+    },
+    {
+      "id": "state-10",
+      "ttsState": 10,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. scratched, empty\n9. scratched, empty\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/2a3366339a2c4e56e1ea981d3b030c081817c530.jpg"
+    },
+    {
+      "id": "state-11",
+      "ttsState": 11,
+      "role": "rules",
+      "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. scratched, empty\n9. scratched, empty\n10. scratched, empty",
+      "flavor": "",
+      "image": "media/original/35a2168ba79a84175a1ba967e5462dc945c180fa.jpg"
+    }
+  ],
+  "states": [
+    "state-1",
+    "state-2",
+    "state-3",
+    "state-4",
+    "state-5",
+    "state-6",
+    "state-7",
+    "state-8",
+    "state-9",
+    "state-10",
+    "state-11"
+  ],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

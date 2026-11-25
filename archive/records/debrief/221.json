@@ -1,0 +1,31 @@
+{
+  "id": "debrief/221",
+  "printedCode": "221",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "\"Sabik is extremely dangerous. The death of John Cooper, the aggressive use of the stolen explosives, and the casual disregard for collateral damage point to a deteriorating mental state. Allowing him to continue unfettered places our operation at great risk.\"",
+      "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

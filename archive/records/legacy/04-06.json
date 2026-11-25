@@ -1,0 +1,43 @@
+{
+  "id": "legacy/04-06",
+  "printedCode": "04-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "005770",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/41",
+    "duplicatePaths": [
+      "352/41"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "005770"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nLack of Coordination\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-41.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SYMPTOM\nLack of Coordination\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-41.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pearl/5-1fdf01",
+  "printedCode": "5",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "1fdf01",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/19",
+    "duplicatePaths": [
+      "356/19",
+      "357/19"
+    ],
+    "note": "PEARL compound piece 5. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "1fdf01"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CONTROL ROOM\nWhen you enter this room, you may discard a City card matching the region of a Satellite token. If you do, remove the Satellite token in that region and destroy the Satellite card for that region.",
+      "flavor": "",
+      "image": "media/original/e0f8ffacf6ffb24a865198c86d2369590fa9bd24.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "debrief/148",
+  "printedCode": "148",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Return all Pursuit and Checkpoint tokens on the board to the supply.",
+      "flavor": "Even though there was a second shipment, you still did not intercept it.",
+      "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "places",
+      "targetId": "board",
+      "label": "On the board"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

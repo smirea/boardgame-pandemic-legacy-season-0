@@ -1,0 +1,35 @@
+{
+  "id": "tile/d04bad",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d04bad",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/16",
+    "duplicatePaths": [
+      "349/2"
+    ],
+    "note": "Unclassified tile.",
+    "guids": [
+      "d04bad"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

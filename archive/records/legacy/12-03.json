@@ -1,0 +1,52 @@
+{
+  "id": "legacy/12-03",
+  "printedCode": "12-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "97d8e9",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/6",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "97d8e9"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is an infiltration objective.\n\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\n\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-6.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DECEMBER OBJECTIVE 1\nSTEAL THE MEDUSA GENOME\n\nInfiltration City: Novosibirsk\n\nWHILE IN THE LABORATORY OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 5 CITY CARDS\n\nCompleted: Read Debrief 107\nFailed: Read Debrief 196",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/107",
+      "label": "Debrief 107"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/196",
+      "label": "Debrief 196"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

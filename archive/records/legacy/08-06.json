@@ -1,0 +1,41 @@
+{
+  "id": "legacy/08-06",
+  "printedCode": "08-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "2539d0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/40",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "2539d0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STARTING INTENSITY 2\n\nINFECTION CITY NAME\n\nDuring setup, put 2 disease cubes into this city.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-40.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-40.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

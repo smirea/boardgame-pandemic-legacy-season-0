@@ -1,0 +1,33 @@
+{
+  "id": "sticker/contact-1d6c80",
+  "printedCode": null,
+  "kind": "sticker",
+  "censusKey": "mod-extra",
+  "sourceGuid": "1d6c80",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "89",
+    "duplicatePaths": [],
+    "note": "Contact sticker (shop owner, crime boss, or politician) placed loose next to the upgrade sheet.",
+    "guids": [
+      "1d6c80"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "POLITICIAN Once per turn, as an action, while in the Politician's city, you may give a City card to a player in any city.\nCITY:",
+      "flavor": "",
+      "image": "media/original/2a9802e982297b9a39c3c20070278a693cbee236.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

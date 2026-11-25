@@ -1,0 +1,31 @@
+{
+  "id": "debrief/220",
+  "printedCode": "220",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and replace it with card 84 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).\nIf you failed the objective \"Disrupt or Prevent All Trials,\" destroy it and replace it with card 83 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+      "flavor": "\"MEDUSA is spreading, Soviet satellites are watching us, and Sabik continues to cause chaos. Continue your work.\"",
+      "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

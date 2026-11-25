@@ -1,0 +1,30 @@
+{
+  "id": "shell/30",
+  "printedCode": "30",
+  "kind": "note",
+  "censusKey": "duplicate-shell",
+  "sourceGuid": "117905",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "311",
+    "duplicatePaths": [],
+    "note": "Infinite bag. The mod tells you to click a door once; the bag respawns its contents. The inner object is the real component.",
+    "guids": [
+      "117905"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "door/30",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

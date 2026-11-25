@@ -1,0 +1,33 @@
+{
+  "id": "tile/8559db",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8559db",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "93",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "8559db"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "VISA\nAs an action, you may move to the city named on this visa.\nCITY:",
+      "flavor": "",
+      "image": "media/original/36e30b6e5914b071669366ea1dea79d836225ce9.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

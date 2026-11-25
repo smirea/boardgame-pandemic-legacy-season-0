@@ -1,0 +1,31 @@
+{
+  "id": "debrief/200",
+  "printedCode": "200",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Raise your funding by 1.",
+      "flavor": "\"Your report last month on former agent Sabik has been extremely valuable. His attempted bombing of civilian targets indicates rising instability, and I assure you that he is not without involvement in CMO Cooper's death.\nYour integrity in this challenging operation is commendable. Our resources have been stretched to capacity, but you are displaying good judgment.\"",
+      "image": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

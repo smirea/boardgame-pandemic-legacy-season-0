@@ -1,0 +1,33 @@
+{
+  "id": "mod/rules-turns",
+  "printedCode": null,
+  "kind": "rule-page",
+  "censusKey": "mod-extra",
+  "sourceGuid": "dbcdd2",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "25",
+    "duplicatePaths": [],
+    "note": "In-mod copy of the player-turn spread.",
+    "guids": [
+      "dbcdd2"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/07015ed1b460973b377c63dfcfb4d5d74ef50340.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "event/cover-of-darkness",
+  "printedCode": "Cover of Darkness",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "fc80c4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "342/0/3",
+    "duplicatePaths": [],
+    "note": "Event. Part of the 58 player cards. Playable any time it is your turn, not between drawing and resolving a card.",
+    "guids": [
+      "fc80c4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nCOVER OF DARKNESS\n\nThis turn, remove 1 agent from each city the player drives/ferries to.\n\nPlay during the Do Actions step of a turn. Not an action.",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-6.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

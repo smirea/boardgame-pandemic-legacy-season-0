@@ -1,0 +1,41 @@
+{
+  "id": "player/mexico-city",
+  "printedCode": "Mexico City",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "a63e3f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0/43",
+    "duplicatePaths": [],
+    "note": "Player card. Region: north america.",
+    "guids": [
+      "a63e3f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MEXICO CITY\nMEXICO\nNORTH AMERICA\n5",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-30.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

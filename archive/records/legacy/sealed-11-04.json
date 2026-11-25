@@ -1,0 +1,57 @@
+{
+  "id": "legacy/sealed-11-04",
+  "printedCode": "11-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "d5b28c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/12",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "d5b28c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "This is a pursuit objective.\nTo set it up, place a Pursuit token in Sydney.\nThen, place this card onto the board in the Operations area and flip it over.\n\"I've been tracking this Soviet agent since June. An old pal down under is already in position.\"\nImmediately place 1 Checkpoint token on the board.",
+      "flavor": "\"I've been tracking this Soviet agent since June. An old pal down under is already in position.\"",
+      "image": "media/split/a3ad9647d9f9-12.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "NOVEMBER OBJECTIVE 2\nLEARN ABOUT MEDUSA DEPLOYMENT PLAN\nRemove the last Pursuit token from the board\nSTARTING CITY: SYDNEY\nDESTINATION: ANY SOVIET CITY\nCompleted: Read Debrief 188\nFailed: Read Debrief 137",
+      "flavor": "",
+      "image": "media/split/0755b549db50-12.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "places",
+      "targetId": "board",
+      "label": "On the board"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/137",
+      "label": "Debrief 137"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/188",
+      "label": "Debrief 188"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

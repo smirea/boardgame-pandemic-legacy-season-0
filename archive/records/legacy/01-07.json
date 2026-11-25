@@ -1,0 +1,43 @@
+{
+  "id": "legacy/01-07",
+  "printedCode": "01-07",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "d9a223",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/69",
+    "duplicatePaths": [
+      "352/69"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "d9a223"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\nBUREAUCRATIC ENTANGLEMENTS\nRemove 1 or 2 agents from the board.\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-13.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-13.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

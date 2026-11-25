@@ -1,0 +1,52 @@
+{
+  "id": "legacy/10-03",
+  "printedCode": "10-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "b35e79",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/19",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "b35e79"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has a known target city.\nTwo active teams are required to complete it.\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-19.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OCTOBER OBJECTIVE 2\nINTERROGATE THE KGB OFFICER\nAcquire Target in:\nJOHANNESBURG, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 222\nFailed: Read Debrief 128",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-19.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/128",
+      "label": "Debrief 128"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/222",
+      "label": "Debrief 222"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

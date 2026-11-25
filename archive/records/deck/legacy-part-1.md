@@ -1,0 +1,94 @@
+# deck/legacy-part-1
+
+- Kind: deck
+- Census: legacy-deck × 1
+- Printed code: Legacy Deck Part 1
+- Marker: —
+- Source GUID: 01b1bd
+- Unreferenced: no
+
+Legacy deck part 1, in the save's contained order. Draw order starts at 00-01.
+
+## Edges
+
+- adds `legacy/00-01` — Contains
+- adds `legacy/00-02` — Contains
+- adds `legacy/00-03` — Contains
+- adds `legacy/00-04` — Contains
+- adds `legacy/00-05` — Contains
+- adds `legacy/01-01` — Contains
+- adds `legacy/01-02` — Contains
+- adds `legacy/01-03` — Contains
+- adds `legacy/01-04` — Contains
+- adds `legacy/01-05` — Contains
+- adds `legacy/01-06` — Contains
+- adds `legacy/01-07` — Contains
+- adds `legacy/01-08` — Contains
+- adds `legacy/01-09` — Contains
+- adds `legacy/01-10` — Contains
+- adds `legacy/02-01` — Contains
+- adds `legacy/02-02` — Contains
+- adds `legacy/02-03` — Contains
+- adds `legacy/02-04` — Contains
+- adds `legacy/02-05` — Contains
+- adds `legacy/02-06` — Contains
+- adds `legacy/02-07` — Contains
+- adds `legacy/02-08` — Contains
+- adds `legacy/02-09` — Contains
+- adds `legacy/02-10` — Contains
+- adds `legacy/03-01` — Contains
+- adds `legacy/03-02` — Contains
+- adds `legacy/03-03` — Contains
+- adds `legacy/03-04` — Contains
+- adds `legacy/03-05` — Contains
+- adds `legacy/03-06` — Contains
+- adds `legacy/03-07` — Contains
+- adds `legacy/03-08` — Contains
+- adds `legacy/03-09` — Contains
+- adds `legacy/04-01` — Contains
+- adds `legacy/04-02` — Contains
+- adds `legacy/04-03` — Contains
+- adds `legacy/04-04` — Contains
+- adds `legacy/04-05` — Contains
+- adds `legacy/04-06` — Contains
+- adds `legacy/04-07` — Contains
+- adds `legacy/04-08` — Contains
+- adds `legacy/04-09` — Contains
+- adds `legacy/04-10` — Contains
+- adds `legacy/04-11` — Contains
+- adds `legacy/04-12` — Contains
+- adds `legacy/04-13` — Contains
+- adds `legacy/04-14` — Contains
+- adds `legacy/04-15` — Contains
+- adds `legacy/04-16` — Contains
+- adds `legacy/04-17` — Contains
+- adds `legacy/04-18` — Contains
+- adds `legacy/04-19` — Contains
+- adds `legacy/04-20` — Contains
+- adds `legacy/04-21` — Contains
+- adds `legacy/04-22` — Contains
+- adds `legacy/04-23` — Contains
+- adds `legacy/05-01` — Contains
+- adds `legacy/05-02` — Contains
+- adds `legacy/05-03` — Contains
+- adds `legacy/05-04` — Contains
+- adds `legacy/05-05` — Contains
+- adds `legacy/05-06` — Contains
+- adds `legacy/05-07` — Contains
+- adds `legacy/05-08` — Contains
+- adds `legacy/05-09` — Contains
+- adds `legacy/06-01` — Contains
+- adds `legacy/06-02` — Contains
+- adds `legacy/06-03` — Contains
+- adds `legacy/06-04` — Contains
+- adds `legacy/06-05` — Contains
+- adds `legacy/06-06` — Contains
+- adds `legacy/06-07` — Contains
+- adds `legacy/06-08` — Contains
+- adds `legacy/06-09` — Contains
+- adds `legacy/06-10` — Contains
+- adds `legacy/06-11` — Contains
+- adds `legacy/06-12` — Contains
+- adds `legacy/06-13` — Contains
+- adds `legacy/06-14` — Contains
+- adds `legacy/end-of-part-1` — Contains

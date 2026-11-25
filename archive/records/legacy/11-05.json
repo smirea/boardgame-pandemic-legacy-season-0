@@ -1,0 +1,52 @@
+{
+  "id": "legacy/11-05",
+  "printedCode": "11-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "2698d1",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/11",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "2698d1"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 14 Allied City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Allied cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-11.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "NOVEMBER OBJECTIVE 2\nBRIBE SABIK'S ALLY\n\nAcquire Target in:\n1 UNKNOWN ALLIED CITY\nYOU MAY NOT USE THE IDENTIFY TARGET CITY ACTION\n\nCompleted: Read Debrief 201\nFailed: Read Debrief 134",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-11.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/134",
+      "label": "Debrief 134"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/201",
+      "label": "Debrief 201"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

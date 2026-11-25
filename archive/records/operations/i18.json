@@ -1,0 +1,43 @@
+{
+  "id": "operations/i18",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "b6aef9",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/23",
+    "duplicatePaths": [
+      "347/23"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "b6aef9"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "INFILTRATION SITE:\nSABIK'S HQ\nLENINGRAD\nENTRANCE\nA Soviet alias is required to enter this infiltration site.\nOFFICE\nWhen you enter this room, take 1 Action token.",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-18.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n72",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-18.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

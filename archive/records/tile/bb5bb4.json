@@ -1,0 +1,33 @@
+{
+  "id": "tile/bb5bb4",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "bb5bb4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "304/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "bb5bb4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DISRUPT TRIAL\nRULE L\nWhen you do this action, disrupt the trial in each city that has an active team.\nYou must have an active team in at least 1 trial city to do this action.",
+      "flavor": "",
+      "image": "media/original/248ff49443460c1a3591b412a7a8bddc5506d82a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

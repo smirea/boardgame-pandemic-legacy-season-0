@@ -1,0 +1,43 @@
+{
+  "id": "legacy/05-01",
+  "printedCode": "05-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "bb8720",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/23",
+    "duplicatePaths": [
+      "352/23"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "bb8720"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\n\nDraw this card just before you set up your first game in May.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-23.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "UPDATE\n\n\"Greetings agents. I am Dr. Helen Morris. You may call me Dr. Morris, and I bring tragic news. Former Agent Charles Sabik raided this facility last night to steal data, weaponry, and other key items. During this raid, several individuals were killed, including your CMO, John Cooper.\"\n\nIf the Discretionary Budget card is in the reserve, destroy it.\n\n\"I will admit that John Cooper and I rarely saw eye to eye. His disregard for protocol resulted in numerous mistakes over the years, but he remained a deeply loyal and dedicated agent. He will be missed.\"",
+      "flavor": "\"Greetings agents. I am Dr. Helen Morris. You may call me Dr. Morris, and I bring tragic news. Former Agent Charles Sabik raided this facility last night to steal data, weaponry, and other key items. During this raid, several individuals were killed, including your CMO, John Cooper.\"\n\n\"I will admit that John Cooper and I rarely saw eye to eye. His disregard for protocol resulted in numerous mistakes over the years, but he remained a deeply loyal and dedicated agent. He will be missed.\"",
+      "image": "media/split/70bec37606e4-23.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

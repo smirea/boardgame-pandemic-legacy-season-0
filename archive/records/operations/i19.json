@@ -1,0 +1,43 @@
+{
+  "id": "operations/i19",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "c94e3b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/22",
+    "duplicatePaths": [
+      "347/22"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "c94e3b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "FRONT ROOM\nIf you are in this room during the Mop Up step, scratch 1 cover.\nBASEMENT",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-19.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n71",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-19.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

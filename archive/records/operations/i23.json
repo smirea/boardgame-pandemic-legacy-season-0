@@ -1,0 +1,54 @@
+{
+  "id": "operations/i23",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "83a83b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/18",
+    "duplicatePaths": [
+      "347/18"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "83a83b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "JULY OBJECTIVE 3A\nBUG COMPLETED CONTROL CENTER IN AFRICA\nAcquire Target in:\nTHE CITY IN AFRICA CONTAINING A CONTROL CENTER, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 171\nFailed: Read Debrief 106",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-23.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n67",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-23.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/106",
+      "label": "Debrief 106"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/171",
+      "label": "Debrief 171"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

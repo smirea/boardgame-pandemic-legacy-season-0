@@ -1,0 +1,44 @@
+{
+  "id": "tile/b9ee67",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b9ee67",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "287/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b9ee67"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "DOOR 14\nYou hear a knock at the door. You rush to open it, but there’s no one there. Staring at you is a single black briefcase marked with the New Zealand flag.\nWhat do you do?\nOpen the briefcase: Open Door 19.\nBlow it up: Open Door 24.\nIgnore it: Put this card in the reserve until you decide what to do with it.",
+      "flavor": "You hear a knock at the door. You rush to open it, but there’s no one there. Staring at you is a single black briefcase marked with the New Zealand flag.\nWhat do you do?",
+      "image": "media/original/e156c8068bc5b2c2eb5f5b6b9501c3e1fa4b4f74.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/19",
+      "label": "Open door 19"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/24",
+      "label": "Open door 24"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

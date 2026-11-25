@@ -1,0 +1,33 @@
+{
+  "id": "tile/8004f3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8004f3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/14",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "8004f3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ACTION TOKENS\nRULE E\nFor each Action token you spend, you may do 1 additional action during the Do Actions step of your turn.\nAt the end of the Mop Up step on your turn, if you have more than 3 Action tokens, discard down to 3.",
+      "flavor": "",
+      "image": "media/original/f4dbe81c69619c3ec2f9ff67a9b1bb673b4e8dd1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

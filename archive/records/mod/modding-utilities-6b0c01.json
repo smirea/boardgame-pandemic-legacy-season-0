@@ -1,0 +1,90 @@
+{
+  "id": "mod/modding-utilities-6b0c01",
+  "printedCode": "Modding Utilities",
+  "kind": "note",
+  "censusKey": "mod-extra",
+  "sourceGuid": "6b0c01",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85",
+    "duplicatePaths": [],
+    "note": "",
+    "guids": [
+      "6b0c01"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "legacy/01-05",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/02-08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/03-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/03-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/04-01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/05-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/05-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/06-06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/06-07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/08-08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "legacy/09-09",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/10939d",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/c1e902",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

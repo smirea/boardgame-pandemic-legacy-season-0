@@ -1,0 +1,41 @@
+{
+  "id": "threat/paris",
+  "printedCode": "Paris",
+  "kind": "card",
+  "censusKey": "threat-card",
+  "sourceGuid": "5ea463",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "59/43",
+    "duplicatePaths": [],
+    "note": "Threat card. Drawing it from the bottom of the deck is the incident effect.",
+    "guids": [
+      "5ea463"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PARIS\nFRANCE\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in North America.",
+      "flavor": "",
+      "image": "media/split/f50a156f5be0-15.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

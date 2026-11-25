@@ -1,0 +1,52 @@
+{
+  "id": "legacy/08-03",
+  "printedCode": "08-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "6e4e5a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/43",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "6e4e5a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is an infiltration objective.\n\nTo set it up, find cards 72 and 73 in the Operations deck and place them faceup next to each other to form the infiltration site Sabik's HQ.\n\nThen, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\n\nFlip this card over and place it onto the board in the Operations area.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-43.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AUGUST OBJECTIVE 2\n\nINFILTRATE SABIK'S HQ\n\nInfiltration City: Leningrad\n\nWHILE IN THE SECRET ANNEX OF SABIK'S HQ, SPEND AN ACTION AND DISCARD 3 NEUTRAL CITY CARDS\n\nCompleted: Read Debrief 123\nFailed: Read Debrief 142",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-43.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/123",
+      "label": "Debrief 123"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/142",
+      "label": "Debrief 142"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "legacy/01-01",
+  "printedCode": "01-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "bbaf6b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/75",
+    "duplicatePaths": [
+      "352/75"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "bbaf6b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\nDraw this card just before you set up your first game in January.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-19.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "\"All right team, say hello to the new you. This is the alias you'll be using for the time bein'.\"\n\nTake the 4 passports. Choose a set of 3 photos and place 1 on each alias of the passport. Then, on the first page (the one with the ✦ star) give each alias a name. Add a Cover Occupation sticker to each alias. Leave the Specialization empty for now. Modify its appearance using Disguise stickers.\n\nWhen you have finished making your aliases, continue reading.",
+      "flavor": "\"All right team, say hello to the new you. This is the alias you'll be using for the time bein'.\"",
+      "image": "media/split/6bdabf12abfb-19.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

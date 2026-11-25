@@ -1,0 +1,33 @@
+{
+  "id": "tile/99ef95",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "99ef95",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "312/0/3",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "99ef95"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DISRUPT TRIAL Select a Disrupt Trial objective. If you have an active team in at least 1 of the target cities, you complete the objective.",
+      "flavor": "",
+      "image": "media/original/e5fad03040cb6c40b46c9e3e87055297fd4dbba7.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

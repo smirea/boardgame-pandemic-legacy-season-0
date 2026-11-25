@@ -1,0 +1,49 @@
+{
+  "id": "operations/i08",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "2dddcf",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/33",
+    "duplicatePaths": [
+      "347/33"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "2dddcf"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "1. DEBRIEF NUMBER\n151\n2. DATE\nAUGUST, 1962\nKeep this in the intelligence file.",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-8.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n82",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/151",
+      "label": "DEBRIEF NUMBER 151"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

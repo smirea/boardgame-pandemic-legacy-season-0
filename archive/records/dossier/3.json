@@ -1,0 +1,33 @@
+{
+  "id": "dossier/3",
+  "printedCode": null,
+  "kind": "dossier",
+  "censusKey": "dossier",
+  "sourceGuid": "004322",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "283",
+    "duplicatePaths": [],
+    "note": "Dossier folio 3.",
+    "guids": [
+      "004322"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Dossier folio 3. Door pockets, top row to bottom row, left to right:\n\n39  44  46\n38  43  J\n37  42  U\n36  41\n35  40  T\n",
+      "flavor": "",
+      "image": "media/original/a78215f29ee4aae1a43b2a1e7466422f032b9ab2.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

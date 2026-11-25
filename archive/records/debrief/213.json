@@ -1,0 +1,31 @@
+{
+  "id": "debrief/213",
+  "printedCode": "213",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "\"We investigated several parks where trials were held. We confirmed that water is not the transmission point, but your suggestion provided actionable direction: air is the likely vector for spreading MEDUSA.\"",
+      "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

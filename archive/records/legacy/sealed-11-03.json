@@ -1,0 +1,52 @@
+{
+  "id": "legacy/sealed-11-03",
+  "printedCode": "11-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "b5e01a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/13",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "b5e01a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "This is an infiltration objective.\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and put one facedown on each circle on the Infiltration site. Set aside the other Security tokens without looking at them.\nFlip this card over and place it onto the board in the Operations area.\n\"This is where I was held. I know the place.\"\nImmediately turn over any 4 Security tokens.",
+      "flavor": "\"This is where I was held. I know the place.\"",
+      "image": "media/split/a3ad9647d9f9-13.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "NOVEMBER OBJECTIVE 1\nSABOTAGE THE MANUFACTURING FACILITY\nInfiltration City: Novosibirsk\nWHILE IN THE MANUFACTURING FACILITY OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 4 CITY CARDS\nCompleted: Read Debrief 102\nFailed: Read Debrief 235",
+      "flavor": "",
+      "image": "media/split/0755b549db50-13.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/102",
+      "label": "Debrief 102"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/235",
+      "label": "Debrief 235"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

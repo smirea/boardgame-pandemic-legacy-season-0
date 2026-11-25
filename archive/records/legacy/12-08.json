@@ -1,0 +1,67 @@
+{
+  "id": "legacy/12-08",
+  "printedCode": "12-08",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "ecf483",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/1",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "ecf483"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Annual Review\nTally your score, then review your final evaluation on the back of this card.\n85 pts per SUCCEEDING evaluation\n55 pts per ADEQUATE evaluation\n-40 pts per FAILING evaluation (beginning of the month)\n0 pts per FAILING evaluation (end of the month)\n25 pts for stopping LION'S TOOTH\n25 pts for stealing the MEDUSA genome\n-10 pts per Exposed City\n-10 pts per Contaminated City\nTOTAL",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-1.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "FINAL EVALUATION\nTotal result is:\n800 or higher\nRead Debrief 236.\n650-799\nRead Debrief 237.\n450-649\nRead Debrief 238.\n300-449\nRead Debrief 239.\n299 or lower\nRead Debrief 240.\nKeep this card in your Personnel file. It will become part of your permanent record.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/236",
+      "label": "Debrief 236"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/237",
+      "label": "Debrief 237"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/238",
+      "label": "Debrief 238"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/239",
+      "label": "Debrief 239"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/240",
+      "label": "Debrief 240"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/70aec0",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "70aec0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "319/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "70aec0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CONTAMINATION STICKERS\nRULE J\nSYMPTOM\n[unreadable]\nWhen you enter a city with a Contamination sticker, take 1 Symptom card, in addition to the Symptom card you take due to any Disease cubes in that city.",
+      "flavor": "",
+      "image": "media/original/762e28b433dc89f1d82a4b03adbb1487d6b0677f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

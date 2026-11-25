@@ -1,0 +1,37 @@
+{
+  "id": "debrief/252",
+  "printedCode": "252",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Turn to entry 249.",
+      "flavor": "In 1963, the world fell apart. Pollen laced with MEDUSA covered the globe, and death followed. At first, governments tried to pass it off as a rare strain of the flu. Eager to capitalize on the chaos, the Soviets quickly released more and more MEDUSA as the vanguard to invasion and expansion of their territory.\n\nUnfortunately, the Soviets never found a treatment or cure for the final, deadly MEDUSA strain. The plague spread back into the Soviet Union itself, shattering their ambitions. Eventually, after a global death toll exceeding 70 million, the MEDUSA plague faded, and the world slowly recovered.",
+      "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/249",
+      "label": "entry 249"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

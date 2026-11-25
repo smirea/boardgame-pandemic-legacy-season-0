@@ -1,0 +1,33 @@
+{
+  "id": "tile/869fb7",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "869fb7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "310/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "869fb7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DISEASE CUBES When you enter a city containing one or more Disease cubes, take 1 Symptom card into your hand.",
+      "flavor": "",
+      "image": "media/original/4bf9177c5befa37e1b8920cd3e517cdcf8519430.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

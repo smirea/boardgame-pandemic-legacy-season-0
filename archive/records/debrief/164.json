@@ -1,0 +1,31 @@
+{
+  "id": "debrief/164",
+  "printedCode": "164",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Mark this objective as complete.\nIf the objective \"Steal the MEDUSA Genome\" is incomplete, flip up to 4 facedown Security tokens in PEARL Compound faceup. Remove all Pursuit and Checkpoint tokens from the board.",
+      "flavor": "Sabik has done terrible things, but he deserves better than to be put down in a dark alley, so you talk to him. It's a near thing; more than once he comes close to proceeding with the injection. Finally, with a defeated bow of his head, Sabik puts down the syringe and releases Cooper.\nBefore he's taken away, he provides a few final pieces of information on PEARL Compound. Scarred as he is and understanding what he went through, perhaps the CIA will not be too harsh. Cooper himself is delivered back to the CIA for debriefing and medical attention. You're told that, physically, he should make a full recovery.",
+      "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

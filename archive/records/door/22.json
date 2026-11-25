@@ -1,0 +1,40 @@
+{
+  "id": "door/22",
+  "printedCode": "22",
+  "kind": "door",
+  "censusKey": "dossier",
+  "sourceGuid": "e40e40",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "299/0",
+    "duplicatePaths": [],
+    "note": "Sealed dossier door. Opening it adds the components in edges.",
+    "guids": [
+      "e40e40"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "tile/522ebf",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/978c18",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/e4bab0",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

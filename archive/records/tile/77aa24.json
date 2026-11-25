@@ -1,0 +1,33 @@
+{
+  "id": "tile/77aa24",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "77aa24",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "298/0/3",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "77aa24"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "FOLLOWED: If you end your turn in an Allied city without an agent, add an agent to your city.",
+      "flavor": "",
+      "image": "media/original/ae9001e3f49546588b3167bef88926bd54a8a942.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

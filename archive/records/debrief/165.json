@@ -1,0 +1,37 @@
+{
+  "id": "debrief/165",
+  "printedCode": "165",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Open Door 44. Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Place the sticker sheets in the reserve. Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+      "flavor": "There was very little indication within the control center as to its purpose, but your team successfully planted the bug. Once it becomes operational, you'll likely receive more information.",
+      "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/44",
+      "label": "Open door 44"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

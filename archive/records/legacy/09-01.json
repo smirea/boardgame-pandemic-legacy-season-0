@@ -1,0 +1,41 @@
+{
+  "id": "legacy/09-01",
+  "printedCode": "09-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "a5be2e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/34",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "a5be2e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\n\nDraw this card just before you set up your first game in September.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-34.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "MISSION BRIEFING\n\n“The Soviets are developing and manufacturing the MEDUSA plague at a facility called PEARL Compound, near Lake Baikal: the same location where Agent Sabik was held last year.\n\nExpect to infiltrate PEARL repeatedly in the coming months. Your first task is to find records of Sabik’s captivity. Discover what broke him.”\n\nOPEN\n0003\nand read its contents.",
+      "flavor": "“The Soviets are developing and manufacturing the MEDUSA plague at a facility called PEARL Compound, near Lake Baikal: the same location where Agent Sabik was held last year.\n\nExpect to infiltrate PEARL repeatedly in the coming months. Your first task is to find records of Sabik’s captivity. Discover what broke him.”",
+      "image": "media/split/1aaabc2decc1-34.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

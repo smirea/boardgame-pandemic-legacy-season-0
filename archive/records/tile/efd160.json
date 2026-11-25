@@ -1,0 +1,33 @@
+{
+  "id": "tile/efd160",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "efd160",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "306/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "efd160"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "INFILTRATION UPDATE!\nRULE S\nYou may now use the Infiltrate action to pass through a hatchway that has a Tunnel sticker adjacent to it.\nTo do the Infiltrate action through a tunnel, reveal any 1 City card to move into the adjacent room.",
+      "flavor": "",
+      "image": "media/original/ec2be93d8ed87eb7a2d960231da4a06486a3fb91.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

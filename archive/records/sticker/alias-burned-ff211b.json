@@ -1,0 +1,33 @@
+{
+  "id": "sticker/alias-burned-ff211b",
+  "printedCode": "Alias Burned",
+  "kind": "sticker",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ff211b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "210",
+    "duplicatePaths": [],
+    "note": "Burned-alias sticker. Covers the name and photo when an alias is fully burned.",
+    "guids": [
+      "ff211b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Replace your portrait if your alias gets burned",
+      "flavor": "",
+      "image": "media/original/02908af20dba0289646e0b3c6b4ef6b4a700f218.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

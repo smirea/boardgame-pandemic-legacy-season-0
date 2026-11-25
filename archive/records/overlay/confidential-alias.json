@@ -1,0 +1,33 @@
+{
+  "id": "overlay/confidential-alias",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "bb3648",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "232",
+    "duplicatePaths": [],
+    "note": "Top Secret / Confidential Alias mat.",
+    "guids": [
+      "bb3648"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TOP SECRET\nCONFIDENTIAL ALIAS",
+      "flavor": "",
+      "image": "media/original/6fc5ca44fe056ff1a74a7cb7aa43aa1c8aef11ec.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

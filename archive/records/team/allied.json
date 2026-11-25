@@ -1,0 +1,41 @@
+{
+  "id": "team/allied",
+  "printedCode": null,
+  "kind": "team",
+  "censusKey": "team",
+  "sourceGuid": "8d23aa",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "47",
+    "duplicatePaths": [
+      "48",
+      "49"
+    ],
+    "note": "Allied team miniature. Three copies share this mesh.",
+    "guids": [
+      "6be4f8",
+      "81f675",
+      "8d23aa"
+    ]
+  },
+  "count": 3,
+  "faces": [
+    {
+      "id": "diffuse",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/754a1c697bb4dc0d3aac5dd0a22b5f23f7939174.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/a2460123d1e0bbe96009679a47e883ccb1d8853f.obj",
+    "diffuse": "media/original/754a1c697bb4dc0d3aac5dd0a22b5f23f7939174.jpg"
+  }
+}

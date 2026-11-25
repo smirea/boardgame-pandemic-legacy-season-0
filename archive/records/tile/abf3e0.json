@@ -1,0 +1,33 @@
+{
+  "id": "tile/abf3e0",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "abf3e0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "22",
+    "duplicatePaths": [],
+    "note": "Solid color texture with no printed text.",
+    "guids": [
+      "abf3e0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/bc08f3b891b0fa3a7f59760be7ec684ef5518e01.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

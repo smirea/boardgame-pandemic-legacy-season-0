@@ -1,0 +1,41 @@
+{
+  "id": "legacy/07-07",
+  "printedCode": "07-07",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "251f08",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/46",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "251f08"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nSPECTRUM INTERFERENCE\n\nReturn up to 2 Satellite tokens (that are currently in play) back to the reserve.\n\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-46.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-46.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

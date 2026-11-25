@@ -1,0 +1,43 @@
+{
+  "id": "operations/i30",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "49eac8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/11",
+    "duplicatePaths": [
+      "347/11"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "49eac8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "FIELD REPORT\nJANUARY, 1962\n\nEncountered Sabik.\n\nHe was difficult, refused to come in. He didn't say why. Unsure if Soviets turned him or he's gone rogue.\n\nHe said nothing else.",
+      "flavor": "Encountered Sabik.\n\nHe was difficult, refused to come in. He didn't say why. Unsure if Soviets turned him or he's gone rogue.\n\nHe said nothing else.",
+      "image": "media/split/f7f847d898dc-30.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n60",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-30.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

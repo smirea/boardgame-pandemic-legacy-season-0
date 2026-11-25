@@ -1,0 +1,36 @@
+{
+  "id": "pearl/13-a39c19",
+  "printedCode": "13",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "a39c19",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/3",
+    "duplicatePaths": [
+      "356/3",
+      "357/3"
+    ],
+    "note": "PEARL compound piece 13. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "a39c19"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "GREENHOUSE\nIf you are in this room during the Mop Up step, scratch 2 cover.",
+      "flavor": "",
+      "image": "media/original/45b52975c2d509722fae0f44b21dfebc578f753b.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

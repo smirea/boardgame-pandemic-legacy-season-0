@@ -1,0 +1,54 @@
+{
+  "id": "legacy/00-04",
+  "printedCode": "00-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "3737d4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/77",
+    "duplicatePaths": [
+      "352/77"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "3737d4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has a known target city.\n\nFlip this card over and place it onto the board in the Operations area. (Remember: You do not need to put the Novosibirsk City card under this card.)",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-21.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PROLOGUE OBJECTIVE 2\nSEARCH FOR AGENT SABIK\nAcquire Target in:\nNOVOSIBIRSK\nCompleted: Read Debrief 214\nFailed: Read Debrief 150",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-21.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/150",
+      "label": "Debrief 150"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/214",
+      "label": "Debrief 214"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

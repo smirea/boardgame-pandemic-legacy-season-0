@@ -1,0 +1,52 @@
+{
+  "id": "legacy/08-04",
+  "printedCode": "08-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "380c04",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/42",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "380c04"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 8 North America City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining North America cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-42.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AUGUST OBJECTIVE 3\n\nBUG CONTROL CENTER\n\nAcquire Target in:\n1 UNKNOWN CITY IN NORTH AMERICA\n\nCompleted: Read Debrief 151\nFailed: Read Debrief 215",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-42.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/151",
+      "label": "Debrief 151"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/215",
+      "label": "Debrief 215"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

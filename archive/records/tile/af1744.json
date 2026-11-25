@@ -1,0 +1,33 @@
+{
+  "id": "tile/af1744",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "af1744",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "307/0/3",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "af1744"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SUSPECTED: You may not do the Drive/Ferry Team action to move an Allied team.",
+      "flavor": "",
+      "image": "media/original/f7f95d77c2826996ae1a70ee423a42feb022edc8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

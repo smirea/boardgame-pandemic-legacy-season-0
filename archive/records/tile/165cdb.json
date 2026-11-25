@@ -1,0 +1,39 @@
+{
+  "id": "tile/165cdb",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "165cdb",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/23",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "165cdb"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SPECIALIZATIONS\nBox 0007-5f\nAdd a specialization to each neutral alias.",
+      "flavor": "",
+      "image": "media/original/819337600b92bc5e3c2c5511b6af2e8e433abcb3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "box/0007",
+      "label": "Box 0007"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

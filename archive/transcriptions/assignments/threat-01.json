@@ -1,0 +1,230 @@
+{
+  "batch": "threat-01",
+  "output": "archive/transcriptions/batches/threat-01.json",
+  "items": [
+    {
+      "id": "threat/algiers",
+      "printedCode": "Algiers",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-46.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/atlanta",
+      "printedCode": "Atlanta",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-47.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/baghdad",
+      "printedCode": "Baghdad",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-45.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/bangkok",
+      "printedCode": "Bangkok",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-44.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/bogota",
+      "printedCode": "Bogota",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-43.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/bombay",
+      "printedCode": "Bombay",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-42.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/buenos-aires",
+      "printedCode": "Buenos Aires",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-41.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/cairo",
+      "printedCode": "Caiiro",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-39.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/calcutta",
+      "printedCode": "Calcutta",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-40.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/delhi",
+      "printedCode": "Delhi",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-38.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/east-berlin",
+      "printedCode": "East Berlin",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-37.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/hanoi",
+      "printedCode": "Hanoi",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-36.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/havana",
+      "printedCode": "Havana",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-35.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/istanbul",
+      "printedCode": "Istanbul",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-33.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/jakarta",
+      "printedCode": "Jakarta",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-34.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/johannesburg",
+      "printedCode": "Johannesburg",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-32.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "tile/5e0070": {
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "DOOR 19\nYou open the briefcase.\nInside you find stacks of New Zealand pounds and a bag of valuable opals.\nAt the end of this game, you have 6 additional budgetary units to spend.\nDestroy this card after the Spend Budget step.",
+        "flavor": "You open the briefcase.\nInside you find stacks of New Zealand pounds and a bag of valuable opals."
+      }
+    }
+  },
+  "tile/505211": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "VISA\nAs an action, you may move to the city named on this visa.\nCITY:\n[unreadable]\nF[unreadable] 3-9, 196\n[unreadable]",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/b78718": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ASSETS\nDOOR 20\n1\n1",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/b88207": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "VISA\nAs an action, you may move to the city named on this visa.\nCITY:\nEMBASSY\nFEB 11, 196\nSECTION",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/0ac850": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "AIRPORTS ALERTED: You may not do the Unrecorded Flight action from an Allied city.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/77aa24": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "FOLLOWED: If you end your turn in an Allied city without an agent, add an agent to your city.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/8370a1": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "HASSLED: If you end your turn in an Allied city without a safehouse, discard 1 card (after the Draw Cards step).",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/c71e6c": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MONITORED: If you draw 2 Allied City cards at the end of your turn, lose 1 cover.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/e6f240": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LIABILITIES\nDOOR 21",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/522ebf": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EXPERIMENTAL MEDICINE\nAs an action, remove all the Disease cubes from your city.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/978c18": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "FIELD MEDIC As an action, remove 1 Disease cube from the Field Medic’s city or a city adjacent to it.\nCITY:",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/e4bab0": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ASSETS\nDOOR 22\n2\n1",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/1d586d": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PORTABLE COMPUTING DEVICE\nWhen you do the Infiltrate action, you may use keypad numbers that are 1 higher or 1 lower than required.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/c018d3": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "SUITCASE FULL OF MONEY\nInstead of scratching a cover, you may check a box below.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/c3f1cd": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ASSETS\nDOOR 23\n2\n2",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/31cc0e": {
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "DOOR 24\nYou blow up the briefcase.\nIn the wreckage of the case, you find smoldering currency and electronic surveillance equipment. It seems the case was bugged.\nImmediately add these Counter Surveillance stickers to the board.",
+        "flavor": "You blow up the briefcase.\nIn the wreckage of the case, you find smoldering currency and electronic surveillance equipment. It seems the case was bugged."
+      }
+    }
+  },
+  "tile/6cbc6f": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/93de82": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/9c6b84": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/c5e999": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/dac218": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/dfe27e": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/4e8412": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "COBBLER As an action, discard 3 City cards of the same affiliation to change a team in the Cobbler’s city to the affiliation of the cards.\nCITY:",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/7a056c": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ASSETS\nDOOR 25\n1\n2",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/db6091": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "SHORTWAVE RADIO\nYou may do the Identify Target City action from any safehouse (regardless of region).",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/56b66e": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LIABILITIES\nDOOR 26",
+        "flavor": ""
+      }
+    }
+  }
+}

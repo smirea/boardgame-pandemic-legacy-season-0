@@ -1,0 +1,54 @@
+{
+  "id": "legacy/02-02",
+  "printedCode": "02-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "51edcc",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/64",
+    "duplicatePaths": [
+      "352/64"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "51edcc"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\nOpen the following doors:\nL 35\nAdd the Disrupt Trial action to each reference sheet.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-8.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/35",
+      "label": "Open door 35"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/L",
+      "label": "Open door L"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

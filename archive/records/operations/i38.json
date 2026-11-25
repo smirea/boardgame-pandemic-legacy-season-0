@@ -1,0 +1,43 @@
+{
+  "id": "operations/i38",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "a17b7d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/3",
+    "duplicatePaths": [
+      "347/3"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "a17b7d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVALUATION: TOO CAUTIOUS You may not Assemble Teams in Washington. Washington RESTRICTION",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-38.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "52 52 OPERATIONS 52",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-38.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

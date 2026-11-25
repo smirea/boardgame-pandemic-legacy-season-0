@@ -1,0 +1,96 @@
+{
+  "id": "box/0002",
+  "printedCode": "0002",
+  "kind": "box",
+  "censusKey": "safe-deposit-box",
+  "sourceGuid": "0aa913",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "250",
+    "duplicatePaths": [
+      "327/0"
+    ],
+    "note": "Safe deposit box. The model and the bag that holds its contents are one record.",
+    "guids": [
+      "0aa913",
+      "1ea131"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "tile/235906",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/27a898",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/319f4c",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/583d03",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/5df45e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/69b6f4",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/7f791c",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/a1a9f2",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b6006c",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/c63b06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/cd4131",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/d94300",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/e11f42",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/bcb1b4b06415eadcd4691468e369028a4921c30a.obj",
+    "diffuse": "media/original/376ff60370c88e7d7dbbabd981f91eda5fa40cb2.jpg"
+  }
+}

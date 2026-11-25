@@ -1,0 +1,226 @@
+{
+  "threat/algiers": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ALGIERS\nALGERIA\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in North America.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/atlanta": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ATLANTA\nUNITED STATES\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Asia.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/baghdad": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "BAGHDAD\nIRAQ\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in the Pacific Rim.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/bangkok": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "BANGKOK\nTHAILAND\nINCIDENT\nTEAMS COMPROMISED\nShift each team in a city with surveillance (that is not in a safehouse) to Washington.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/bogota": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "BOGOTÁ\nCOLOMBIA\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in North America.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/bombay": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "BOMBAY\nINDIA\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in the Pacific Rim.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/buenos-aires": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "BUENOS AIRES\nARGENTINA\nINCIDENT\nRECOGNIZED\nPlayers in South America or Europe (that are not in a safehouse) each lose 1 cover.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/cairo": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CAIRO\nEGYPT\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Europe.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/calcutta": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CALCUTTA\nINDIA\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Africa.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/delhi": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "DELHI\nINDIA\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Africa.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/east-berlin": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EAST BERLIN\nGERMAN DEMOCRATIC REPUBLIC\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in South America.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/hanoi": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "HANOI\nDEM. REPUBLIC OF VIETNAM\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in South America.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/havana": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "HAVANA\nCUBA\nINCIDENT\nSAFEHOUSE COMPROMISED\nRemove 1 safehouse in Asia and return it to the supply.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/istanbul": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ISTANBUL\nTURKEY\nINCIDENT\nSAFEHOUSE COMPROMISED\nRemove 1 safehouse in Africa and return it to the supply.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/jakarta": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "JAKARTA\nINDONESIA\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in Europe.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "threat/johannesburg": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "JOHANNESBURG\nSOUTH AFRICA\nINCIDENT\nSAFEHOUSE COMPROMISED\nRemove 1 safehouse in South America and return it to the supply.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  }
+}

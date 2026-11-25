@@ -1,0 +1,39 @@
+{
+  "id": "sticker-sheet/allied-upgrades",
+  "printedCode": null,
+  "kind": "sticker",
+  "censusKey": "sticker-sheet",
+  "sourceGuid": "d504a1",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "86",
+    "duplicatePaths": [],
+    "note": "Allied cover occupations, game-end upgrades, and surveillance sticker sheet.",
+    "guids": [
+      "d504a1"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ALLIED COVER OCCUPATIONS\nWHEN INSTRUCTED BY THE LEGACY DECK, ADD 1 OF THESE COVER OCCUPATIONS TO EACH ALLIED ALIAS.\n[unreadable]\n[unreadable]\n[unreadable]\n[unreadable]\nGAME END UPGRADES\nASSETS\nAdd Contacts, Visas, and Gear onto any asset slot of any character card.\nCONTACTS\n[unreadable]\n3\n[unreadable]\n2\n[unreadable]\n2\nVISAS\n[unreadable]\n1\n[unreadable]\n1\n[unreadable]\n1\nGEAR\n[unreadable]\n1\n[unreadable]\n1\n[unreadable]\n1\nPERMANENT SAFEHOUSES\nAdd a permanent safehouse to any city that contained a safehouse in the just-played game.\n3\nCOUNTER SURVEILLANCE\nCancel one surveillance on the board.\n1\nSURVEILLANCE\nAt game end, during the Check Cities step, add a Surveillance sticker to each city containing 1 or more Incident tokens.",
+      "flavor": "",
+      "image": "media/original/89959675adec8a66181cb4e8ab925f64e6238758.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "places",
+      "targetId": "board",
+      "label": "On the board"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

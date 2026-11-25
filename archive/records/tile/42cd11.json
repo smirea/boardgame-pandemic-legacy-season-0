@@ -1,0 +1,33 @@
+{
+  "id": "tile/42cd11",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "42cd11",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/36",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "42cd11"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RULE X\n4 Add a Pursuit token to every city adjacent to a city already containing a Pursuit token.\n\nDo not place a Pursuit token when:\nThe route is blocked by a Checkpoint token (or)\nThe adjacent city contains an active team\n\nYou fail a pursuit objective if:\nYou add a Pursuit token to a Soviet City (or)\nYou need to place a Pursuit token but there are no more left in the supply",
+      "flavor": "",
+      "image": "media/original/0cea28fd5b24316a6adde1e625539a99a28faa09.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

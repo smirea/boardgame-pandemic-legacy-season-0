@@ -1,0 +1,33 @@
+{
+  "id": "note/read-me",
+  "printedCode": "READ ME!",
+  "kind": "note",
+  "censusKey": "mod-extra",
+  "sourceGuid": "bfef4d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "334",
+    "duplicatePaths": [],
+    "note": "Mod notecard. Instructions for the table, not a published rule.",
+    "guids": [
+      "bfef4d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "The passport pages are under these covers. You will use the associated faction icon selector to choose the alias to play with. READ THE RULES BEFORE CLICKING THINGS!\n\nDelete this card after read.",
+      "flavor": "",
+      "image": null
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

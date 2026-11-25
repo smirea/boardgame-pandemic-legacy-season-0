@@ -1,0 +1,31 @@
+{
+  "id": "debrief/141",
+  "printedCode": "141",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Remove all Checkpoint tokens from the board. Remove 2 agents from the board.",
+      "flavor": "Your team cornered and interrogated the defector, a botanist who contracts with the CIA. It appears they stumbled across intel on the MEDUSA trials and mistakenly concluded that the CIA failed to stop them on purpose. The defector accepted money from Soviet sources to deliver data: something about an experiment involving pollen and orange groves.",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

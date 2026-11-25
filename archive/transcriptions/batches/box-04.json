@@ -1,0 +1,272 @@
+{
+  "pearl/piece-caff6e": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-e607d3": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "pearl/piece-fb729c": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/0272bf": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "0004",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/0505b5": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/10685e": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/1bc01c": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/1c0b63": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/1c6b4a": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CREATE CHECKPOINT Discard a City card matching your city's affiliation to add a Checkpoint token between your city and an adjacent city.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/243435": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/308d0e": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "0004",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/3b4275": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/42cd11": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RULE X\n4 Add a Pursuit token to every city adjacent to a city already containing a Pursuit token.\n\nDo not place a Pursuit token when:\nThe route is blocked by a Checkpoint token (or)\nThe adjacent city contains an active team\n\nYou fail a pursuit objective if:\nYou add a Pursuit token to a Soviet City (or)\nYou need to place a Pursuit token but there are no more left in the supply",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/4498ea": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/558269": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/5891f9": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/65bd69": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/6b924b": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CHECKPOINTS\nDo not add Pursuit tokens across routes containing a Checkpoint token.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/7cc27b": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/85c59b": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/8f3646": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/929aaa": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CREATE CHECKPOINT Discard a City card matching your city's affiliation to add a Checkpoint token between your city and an adjacent city.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/978d96": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/af6b93": {
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "ON THE RUN\n\"Until now, our approach has been one of subtlety. However, new objectives will require active pursuit of individuals who know you are looking for them. Careful planning and coordination will be required to ensure that they do not evade your teams.\"\n\nRIGHT NOW\n1 Put the 12 enclosed Pursuit tokens and 12 Checkpoint tokens by the side of the board to form supplies of each.\n2 Add the 10 enclosed Disease cubes to the supply.\n3 Add the enclosed stickers to the game board, rulebook, and Reference cards.",
+        "flavor": "\"Until now, our approach has been one of subtlety. However, new objectives will require active pursuit of individuals who know you are looking for them. Careful planning and coordination will be required to ensure that they do not evade your teams.\""
+      }
+    }
+  },
+  "tile/b3493a": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CREATE CHECKPOINT Discard a City card matching your city's affiliation to add a Checkpoint token between your city and an adjacent city.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/b8c625": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/bbaef0": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "AFTER RESOLVING EACH ESCALATION CARD\nAdd a Pursuit token to each city adjacent to a city with a Pursuit token.",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/be1e83": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/c376a5": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/d04bad": {
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  }
+}

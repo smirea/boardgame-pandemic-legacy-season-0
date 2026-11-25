@@ -1,0 +1,265 @@
+{
+  "id": "deck/player-cards-2",
+  "printedCode": "Player Cards",
+  "kind": "deck",
+  "censusKey": "mod-extra",
+  "sourceGuid": "0a1021",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0",
+    "duplicatePaths": [],
+    "note": "Deck container. The cards are their own records.",
+    "guids": [
+      "0a1021"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "player/algiers",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/atlanta",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/baghdad",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/bangkok",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/bogota",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/bombay",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/buenos-aires",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/cairo",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/calcutta",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/delhi",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/east-berlin",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/hanoi",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/havana",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/istanbul",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/jakarta",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/johannesburg",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/karachi",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/khartoum",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/kiev",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/lagos",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/leningrad",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/leopoldville",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/lima",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/london",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/los-angeles",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/madrid",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/manila",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/mexico-city",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/moscow",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/new-york",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/novosibirsk",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/osaka",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/paris",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/peking",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/prague",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/pyongyang",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/riyadh",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/rome",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/saigon",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/san-francisco",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/santiago",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/sao-paulo",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/shanghai",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/sydney",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/tokyo",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/toronto",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/warsaw",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "player/washington",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

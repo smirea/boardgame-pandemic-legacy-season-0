@@ -1,0 +1,33 @@
+{
+  "id": "tile/d9d393",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d9d393",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "354",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "d9d393"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEMPORARY ALIAS\n\nMedical Conference Coordinator:\nAs an action, you may move a team or a different player's pawn up to 3 cities away from its current city.\n(The team/pawn does not enter any cities in between.)\n\nCover\nWhen playing with a temporary alias, for every cover you would scratch, discard 1 card (if you have any) instead.",
+      "flavor": "",
+      "image": "media/original/8c6ea5076dc7ad16c04c493adbc962d5a1ca2ab2.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

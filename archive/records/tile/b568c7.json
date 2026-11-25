@@ -1,0 +1,33 @@
+{
+  "id": "tile/b568c7",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b568c7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "332/0/19",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b568c7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ADD SATELLITE CARDS TO THE PILES:\nRULE D\na. Take the Satellite card for each region that has at least 1 Control Center sticker. (Return the other Satellite cards to the reserve.)\nb. Shuffle these Satellite cards.\nc. Shuffle 1 Satellite card into each Player card pile, starting from the right. If you have fewer than 5 Satellite cards, not all piles will have one. (Satellites appear toward the bottom of the deck.)\nd. If you have a 6th Satellite card, put it into the reserve without looking at it.",
+      "flavor": "",
+      "image": "media/original/d1d46a23615007c8ce647701b732ef4ae2cb1c7e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,90 @@
+{
+  "id": "door/30",
+  "printedCode": "30",
+  "kind": "door",
+  "censusKey": "dossier",
+  "sourceGuid": "a58da5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "311/0",
+    "duplicatePaths": [],
+    "note": "Sealed dossier door. Opening it adds the components in edges.",
+    "guids": [
+      "a58da5"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "tile/02c4a0",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/0db745",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/22f676",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/502257",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/65bc0a",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/777afd",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/7cbf98",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/933749",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/a24963",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/a4cc8d",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b6752b",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/e99322",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/f2f8a2",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

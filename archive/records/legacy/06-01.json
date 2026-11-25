@@ -1,0 +1,59 @@
+{
+  "id": "legacy/06-01",
+  "printedCode": "06-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "40ee80",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/14",
+    "duplicatePaths": [
+      "352/14"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "40ee80"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\nDraw this card just before you set up your first game in June.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-14.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "WE NEED TO TALK\n“I was reviewing your files, looking at the work you did last month tracking down Sabik's operatives.\nI have questions for you.”\nIf Operation card 62 is in the Intelligence file, read Debrief 189.\nIf Operation card 63 is in the Intelligence file, read Debrief 200.\nIf neither card is there, read Debrief 221.",
+      "flavor": "“I was reviewing your files, looking at the work you did last month tracking down Sabik's operatives.\nI have questions for you.”",
+      "image": "media/split/70bec37606e4-14.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/189",
+      "label": "Debrief 189"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/200",
+      "label": "Debrief 200"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/221",
+      "label": "Debrief 221"
+    }
+  ],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

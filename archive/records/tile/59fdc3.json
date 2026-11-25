@@ -1,0 +1,33 @@
+{
+  "id": "tile/59fdc3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "59fdc3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "322/0/5",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "59fdc3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TUNNELS DOOR 42 Keep these stickers in the reserve.",
+      "flavor": "",
+      "image": "media/original/fe434dbe6555542dda6275af7ccc7752e373a59d.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

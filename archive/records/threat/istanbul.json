@@ -1,0 +1,41 @@
+{
+  "id": "threat/istanbul",
+  "printedCode": "Istanbul",
+  "kind": "card",
+  "censusKey": "threat-card",
+  "sourceGuid": "a9f835",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "59/5",
+    "duplicatePaths": [],
+    "note": "Threat card. Drawing it from the bottom of the deck is the incident effect.",
+    "guids": [
+      "a9f835"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ISTANBUL\nTURKEY\nINCIDENT\nSAFEHOUSE COMPROMISED\nRemove 1 safehouse in Africa and return it to the supply.",
+      "flavor": "",
+      "image": "media/split/f50a156f5be0-33.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

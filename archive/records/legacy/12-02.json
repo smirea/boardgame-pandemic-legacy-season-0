@@ -1,0 +1,41 @@
+{
+  "id": "legacy/12-02",
+  "printedCode": "12-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "eb4948",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/7",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "eb4948"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "MISSION BRIEFING\n\n\"The time has come. You must steal the MEDUSA genome from PEARL. Without it, they cannot create more of the plague.\n\nAdditionally, they are executing Operation LION'S TOOTH. One of their control centers is launching weather balloons containing pollen coated in the MEDUSA plague. Find out which control center it is, and stop it at all costs.\"",
+      "flavor": "\"The time has come. You must steal the MEDUSA genome from PEARL. Without it, they cannot create more of the plague.\n\nAdditionally, they are executing Operation LION'S TOOTH. One of their control centers is launching weather balloons containing pollen coated in the MEDUSA plague. Find out which control center it is, and stop it at all costs.\"",
+      "image": "media/split/cc2c7c586e0d-7.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "MISSION BRIEFING\n\n\"Agent Cooper is alive, held by Sabik in San Francisco for the past six months.\n\nSabik has depleted his resources, allies, and seemingly what little remained of his sanity.\n\nHe is now fleeing to Soviet territory, either to defect or to get beyond our reach. He's taking Agent Cooper with him as a hostage; you must bring Sabik in and rescue Cooper if you can.\n\nThere will be only one chance to succeed at this. Good luck.\"",
+      "flavor": "\"Agent Cooper is alive, held by Sabik in San Francisco for the past six months.\n\nSabik has depleted his resources, allies, and seemingly what little remained of his sanity.\n\nHe is now fleeing to Soviet territory, either to defect or to get beyond our reach. He's taking Agent Cooper with him as a hostage; you must bring Sabik in and rescue Cooper if you can.\n\nThere will be only one chance to succeed at this. Good luck.\"",
+      "image": "media/split/1aaabc2decc1-7.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

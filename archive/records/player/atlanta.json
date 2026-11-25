@@ -1,0 +1,41 @@
+{
+  "id": "player/atlanta",
+  "printedCode": "Atlanta",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "d521c6",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0/33",
+    "duplicatePaths": [],
+    "note": "Player card. Region: north america.",
+    "guids": [
+      "d521c6"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ATLANTA\nUNITED STATES\nNORTH AMERICA\n2",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-56.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,54 @@
+{
+  "id": "operations/ops-88f",
+  "printedCode": "Ops 88f",
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "c9240b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/39",
+    "duplicatePaths": [
+      "347/39"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "c9240b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MAY OBJECTIVE 3A BUG COMPLETED CONTROL CENTER IN SOUTH AMERICA Acquire Target in: THE CITY IN SOUTH AMERICA CONTAINING A CONTROL CENTER, USING 2 ACTIVE TEAMS AT THE SAME TIME Completed: Read Debrief 176 Failed: Read Debrief 118",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-2.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "88 88 OPERATIONS 88",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-2.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/118",
+      "label": "Debrief 118"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/176",
+      "label": "Debrief 176"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

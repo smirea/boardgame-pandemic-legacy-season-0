@@ -1,0 +1,41 @@
+{
+  "id": "legacy/09-13",
+  "printedCode": "09-13",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "f89f08",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/22",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "f89f08"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\nDECRYPTION BOOK\nReveal 4 security tokens in the PEARL Compound.\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-22.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-22.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

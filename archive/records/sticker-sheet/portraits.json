@@ -1,0 +1,33 @@
+{
+  "id": "sticker-sheet/portraits",
+  "printedCode": null,
+  "kind": "sticker",
+  "censusKey": "sticker-sheet",
+  "sourceGuid": "a3b180",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "60",
+    "duplicatePaths": [],
+    "note": "Character portrait sticker sheet.",
+    "guids": [
+      "a3b180"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CHARACTER PORTRAITS",
+      "flavor": "",
+      "image": "media/original/65badf19132484259fcabb0cbf1e4c5f616b254c.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

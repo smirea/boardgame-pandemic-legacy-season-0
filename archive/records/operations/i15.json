@@ -1,0 +1,43 @@
+{
+  "id": "operations/i15",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "633a32",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/26",
+    "duplicatePaths": [
+      "347/26"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "633a32"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Destroy these 2 cards at the beginning of December.\nARMORY\nWhen you enter this room, you may add 1 Asset sticker to your Allied alias for free.\nCOLD STORAGE",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-15.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n75",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-15.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

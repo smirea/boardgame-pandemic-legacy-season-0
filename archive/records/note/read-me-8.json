@@ -1,0 +1,33 @@
+{
+  "id": "note/read-me-8",
+  "printedCode": "READ ME!",
+  "kind": "note",
+  "censusKey": "mod-extra",
+  "sourceGuid": "18877f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "350",
+    "duplicatePaths": [],
+    "note": "Mod notecard. Instructions for the table, not a published rule.",
+    "guids": [
+      "18877f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Refrain from placing anything here. More bags will be spawned here in the future to accommodate the scripted setup.",
+      "flavor": "",
+      "image": null
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

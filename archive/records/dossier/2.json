@@ -1,0 +1,33 @@
+{
+  "id": "dossier/2",
+  "printedCode": null,
+  "kind": "dossier",
+  "censusKey": "dossier",
+  "sourceGuid": "072b0f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "282",
+    "duplicatePaths": [],
+    "note": "Dossier folio 2.",
+    "guids": [
+      "072b0f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Dossier folio 2. Door pockets, top row to bottom row, left to right:\n\n25  30  S\n24  29  O\n23  28  L\n22  27  H\n21  26\n",
+      "flavor": "",
+      "image": "media/original/64d98428f246c7f4c0b1137ccaea38be80f2b1f3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

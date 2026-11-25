@@ -1,0 +1,43 @@
+{
+  "id": "legacy/02-01",
+  "printedCode": "02-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "b0874d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/65",
+    "duplicatePaths": [
+      "352/65"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "b0874d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\nDraw this card just before you set up your first game in February.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-9.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "MISSION BRIEFING\n\"Okay team, listen up. First off, we got a couple of Soviet scientists nosin' around our home soil, and we gotta figure out what they're doin'.\nSecond thing: I'm told the current strain of the MEDUSA plague is non-lethal, but the Reds ain't gonna leave it at that. They're starting up trials, experimentin' on local populations in three different cities. We want you to stop it, all of it, but I got a word of advice:\nThings can get...real complicated out in the field. Sometimes you can't do everything for everyone. It shakes loose that way...just... just keep in mind savin' one city is better than savin' none, y'know?\"",
+      "flavor": "\"Okay team, listen up. First off, we got a couple of Soviet scientists nosin' around our home soil, and we gotta figure out what they're doin'.\nSecond thing: I'm told the current strain of the MEDUSA plague is non-lethal, but the Reds ain't gonna leave it at that. They're starting up trials, experimentin' on local populations in three different cities. We want you to stop it, all of it, but I got a word of advice:\nThings can get...real complicated out in the field. Sometimes you can't do everything for everyone. It shakes loose that way...just... just keep in mind savin' one city is better than savin' none, y'know?\"",
+      "image": "media/split/6bdabf12abfb-9.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "legacy/sealed-12-01",
+  "printedCode": "12-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "3a0367",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/8",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "3a0367"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\nDraw this card just before you set up your first game in December.",
+      "flavor": "",
+      "image": "media/split/a3ad9647d9f9-8.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "FOLLOWING UP\n\"We followed your leads on Operation LION'S TOOTH. Here's what we discovered.\"\nTake your MEDUSA Deployment report out of your Intelligence file.\nNote your answer, then read the appropriate debrief:\nJellyfish: Read Debrief 126\nAgent Sabik: Read Debrief 109\nPollen: Read Debrief 140\nWe Don't Know: Read Debrief 120",
+      "flavor": "\"We followed your leads on Operation LION'S TOOTH. Here's what we discovered.\"",
+      "image": "media/split/0755b549db50-8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/109",
+      "label": "Debrief 109"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/120",
+      "label": "Debrief 120"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/126",
+      "label": "Debrief 126"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/140",
+      "label": "Debrief 140"
+    }
+  ],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

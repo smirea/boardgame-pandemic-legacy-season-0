@@ -1,0 +1,42 @@
+{
+  "id": "debrief/184",
+  "printedCode": "184",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "If you allow him to proceed, read entry 138.\n\nIf you attempt to forcefully stop Sabik, read entry 158.",
+      "flavor": "After your team extracts Cooper, you bring him to Sabik. \"Coop...I always wondered what I'd say to you if we crossed paths. What you did to me...it's unforgivable.\" Cooper pleads, terrified, as Sabik leans close, veins pulsing beneath translucent flesh.\n\nSabik frowns. \"You know what? It's not enough to see it, is it? You need to understand. You need to REALLY UNDERSTAND!\" Sabik walks to the nearby workbench, tearing open medical supplies. Moments later, he empties a vial into a large syringe. \"This is C0dA.\" His voice is calm now, his hand steady as he walks toward Cooper. \"This is what you did to me.\"",
+      "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/138",
+      "label": "entry 138"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/158",
+      "label": "entry 158"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

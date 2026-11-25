@@ -1,0 +1,33 @@
+{
+  "id": "tile/0b5233",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "0b5233",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/25",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "0b5233"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ALUMINUM SALESPERSON:\nOnce per turn, as an action, you may take a City card from another player in your city.",
+      "flavor": "",
+      "image": "media/original/f408b6f3a6cbd923375c9ca9429ea268b7e79428.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

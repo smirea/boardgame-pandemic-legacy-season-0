@@ -1,0 +1,43 @@
+{
+  "id": "legacy/02-06",
+  "printedCode": "02-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "596738",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/60",
+    "duplicatePaths": [
+      "352/60"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "596738"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "INFECTION\nCITY NAME",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-4.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-4.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

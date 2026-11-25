@@ -1,0 +1,43 @@
+{
+  "id": "legacy/01-06",
+  "printedCode": "01-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "6d98d8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/70",
+    "duplicatePaths": [
+      "352/70"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "6d98d8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in January.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-14.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Add the following Event cards to the pool of events that you select from when you set up the game.",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-14.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

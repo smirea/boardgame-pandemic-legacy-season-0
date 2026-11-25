@@ -1,0 +1,33 @@
+{
+  "id": "board",
+  "printedCode": null,
+  "kind": "board",
+  "censusKey": "board",
+  "sourceGuid": "8da583",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "19",
+    "duplicatePaths": [],
+    "note": "World map. Regions, cities, connections, and the printed incident and surveillance reminders.",
+    "guids": [
+      "8da583"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Atlanta | North America | Allied | Havana, Los Angeles, Mexico City, Toronto, Washington | no\nHavana | North America | Soviet | Atlanta, Bogotá, Mexico City | no\nLos Angeles | North America | Allied | Atlanta, Mexico City, San Francisco, Sydney | no\nMexico City | North America | Neutral | Atlanta, Bogotá, Havana, Los Angeles | no\nNew York | North America | Allied | London, Madrid, Toronto, Washington | no\nSan Francisco | North America | Allied | Los Angeles, Saigon, Tokyo, Toronto | no\nToronto | North America | Allied | Atlanta, New York, San Francisco, Washington | no\nWashington | North America | Allied | Atlanta, New York, Toronto | yes\nBogotá | South America | Neutral | Havana, Lima, Mexico City, São Paulo | no\nBuenos Aires | South America | Neutral | Lima, São Paulo | no\nLima | South America | Neutral | Bogotá, Buenos Aires, Santiago, São Paulo | no\nSantiago | South America | Neutral | Lima, São Paulo | no\nSão Paulo | South America | Neutral | Bogotá, Buenos Aires, Lagos, Lima, Madrid, Santiago | no\nEast Berlin | Europe | Soviet | Paris, Prague, Warsaw | no\nIstanbul | Europe | Allied | Baghdad, Cairo, Prague, Rome | no\nKiev | Europe | Soviet | Leningrad, Moscow, Warsaw | no\nLeningrad | Europe | Soviet | Kiev, Moscow, Warsaw | no\nLondon | Europe | Allied | New York, Paris | no\nMadrid | Europe | Neutral | Algiers, New York, Paris, São Paulo | no\nMoscow | Europe | Soviet | Kiev, Leningrad, Novosibirsk | no\nParis | Europe | Allied | East Berlin, London, Madrid, Rome | no\nPrague | Europe | Soviet | East Berlin, Istanbul, Warsaw | no\nRome | Europe | Allied | Algiers, Istanbul, Paris | no\nWarsaw | Europe | Soviet | East Berlin, Kiev, Leningrad, Prague | no\nAlgiers | Africa | Allied | Cairo, Madrid, Rome | no\nCairo | Africa | Soviet | Algiers, Baghdad, Istanbul, Khartoum, Riyadh | no\nJohannesburg | Africa | Allied | Khartoum, Leopoldville | no\nKhartoum | Africa | Neutral | Cairo, Johannesburg, Lagos, Leopoldville, Riyadh | no\nLagos | Africa | Neutral | Khartoum, Leopoldville, São Paulo | no\nLeopoldville | Africa | Neutral | Johannesburg, Khartoum, Lagos | no\nBaghdad | Asia | Soviet | Cairo, Istanbul, Karachi, Riyadh | no\nBangkok | Asia | Neutral | Bombay, Calcutta, Hanoi, Jakarta, Manila | no\nBombay | Asia | Neutral | Bangkok, Calcutta, Delhi, Jakarta, Karachi | no\nCalcutta | Asia | Neutral | Bangkok, Bombay, Delhi, Hanoi | no\nDelhi | Asia | Neutral | Bombay, Calcutta, Hanoi, Karachi | no\nHanoi | Asia | Soviet | Bangkok, Calcutta, Delhi, Saigon | no\nKarachi | Asia | Neutral | Baghdad, Bombay, Delhi, Riyadh | no\nNovosibirsk | Asia | Soviet | Moscow, Peking | no\nPeking | Asia | Soviet | Novosibirsk, Pyongyang, Shanghai | no\nPyongyang | Asia | Soviet | Peking, Shanghai, Tokyo | no\nRiyadh | Asia | Neutral | Baghdad, Cairo, Karachi, Khartoum | no\nSaigon | Asia | Allied | Hanoi, Manila, Osaka, San Francisco, Shanghai | no\nShanghai | Asia | Soviet | Osaka, Peking, Pyongyang, Saigon, Tokyo | no\nJakarta | Pacific Rim | Neutral | Bangkok, Bombay, Manila, Sydney | no\nManila | Pacific Rim | Neutral | Bangkok, Jakarta, Saigon, Sydney | no\nOsaka | Pacific Rim | Neutral | Saigon, Shanghai, Tokyo | no\nSydney | Pacific Rim | Allied | Jakarta, Los Angeles, Manila | no\nTokyo | Pacific Rim | Neutral | Osaka, Pyongyang, San Francisco, Shanghai | no\nProtocols: CRANE, HADES, RABBIT, STRAW, ZEPHYR.\nPrinted safehouse: Washington.\n",
+      "flavor": "",
+      "image": "media/original/42ce80cb4888fe575b0abb59db92936e6bbb296f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

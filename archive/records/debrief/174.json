@@ -1,0 +1,42 @@
+{
+  "id": "debrief/174",
+  "printedCode": "174",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Open Door 46. Then open Door F and place that rule in the rulebook. Then draw the Pause card in the Legacy deck and read the back of it.",
+      "flavor": "The Soviets proved easy to locate, as if they weren't expecting opposition. Your teams made a quick sweep and prevented the experiment from taking place. Quick analysis suggests that the Soviets were holding the trials around city parks.",
+      "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/46",
+      "label": "Open door 46"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/F",
+      "label": "Open door F"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

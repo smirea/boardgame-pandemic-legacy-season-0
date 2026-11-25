@@ -1,0 +1,41 @@
+{
+  "id": "legacy/08-01",
+  "printedCode": "08-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "6b0429",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/45",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "6b0429"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\n\nDraw this card just before you set up your first game in August.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-45.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "MISSION BRIEFING\n\n\"The Soviets are holding more trials and building upon their surveillance network.\n\nWe've also found the location of Sabik's primary base of operations. You'll be given a Soviet alias to infiltrate it. Find out what he's hiding, and apprehend him if possible.\"\n\nOPEN 0002 and read its contents.",
+      "flavor": "\"The Soviets are holding more trials and building upon their surveillance network.\n\nWe've also found the location of Sabik's primary base of operations. You'll be given a Soviet alias to infiltrate it. Find out what he's hiding, and apprehend him if possible.\"",
+      "image": "media/split/1aaabc2decc1-45.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

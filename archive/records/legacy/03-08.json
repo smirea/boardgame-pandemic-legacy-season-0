@@ -1,0 +1,54 @@
+{
+  "id": "legacy/03-08",
+  "printedCode": "03-08",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "9ceacb",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/48",
+    "duplicatePaths": [
+      "352/48"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "9ceacb"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\nOpen the following doors:\nA 13\nThen, add the following Event card to the pool of events that you select from when you set up the game.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-48.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-48.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/13",
+      "label": "Open door 13"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/A",
+      "label": "Open door A"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

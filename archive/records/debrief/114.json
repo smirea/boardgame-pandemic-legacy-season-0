@@ -1,0 +1,31 @@
+{
+  "id": "debrief/114",
+  "printedCode": "114",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "The player who completed this objective may remove one agent from the board.",
+      "flavor": "After cornering Sabik's operative on Charles Bridge at 3am, your team recovered sensitive CIA intel, including Coop's recent briefings and details on your new aliases. Sabik and his operative were also brokering in stolen Soviet data: a schematic for reconnaissance satellites and a July launch schedule.",
+      "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

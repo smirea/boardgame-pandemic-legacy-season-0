@@ -1,0 +1,41 @@
+{
+  "id": "legacy/07-05",
+  "printedCode": "07-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "a8ec7a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/48",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "a8ec7a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "\"To facilitate your continued growth and improvement as agents, we have more questions.\n\nRemember that all group members must agree on your selection. Please begin.\"",
+      "flavor": "\"To facilitate your continued growth and improvement as agents, we have more questions.\n\nRemember that all group members must agree on your selection. Please begin.\"",
+      "image": "media/split/cc2c7c586e0d-48.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Decide as a group, then fill in one bubble per question.\n\nStrongly Disagree 1 2 3 4 5 Strongly Agree\n\n10. In order for us to win, someone else must lose. 1 2 3 4 5\n\n11. We believe that [REDACTED] is in our best interest. 1 2 3 4 5\n\nAfter answering, put this card into your Personnel file.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-48.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

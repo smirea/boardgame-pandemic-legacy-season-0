@@ -1,0 +1,31 @@
+{
+  "id": "debrief/214",
+  "printedCode": "214",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Sometimes there will be text at the end of the paragraph that gives further instructions. In this case, there is no further information.",
+      "flavor": "You picked up traces of Sabik, but nothing definitive. A few locals indicated that they saw someone matching his description, but the individual was bundled up. You can't determine at the moment why he hasn't come in or made contact.",
+      "image": "media/original/d9f9cc193c732fbd8d7bc531f2cf961a955843e0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

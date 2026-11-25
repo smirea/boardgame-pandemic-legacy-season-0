@@ -1,0 +1,33 @@
+{
+  "id": "sticker-sheet/liabilities",
+  "printedCode": null,
+  "kind": "sticker",
+  "censusKey": "sticker-sheet",
+  "sourceGuid": "40eeb4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "218",
+    "duplicatePaths": [],
+    "note": "Liability sticker sheet. Eight stickers: Followed, Hassled, Monitored, Airports Alerted, Authorities Watching, Cipher Decoded, Tracked, Recognized.",
+    "guids": [
+      "40eeb4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "LIABILITIES\nIf you scratch off a circle on your alias and reveal a %, add a Liability sticker to your character.\nIf necessary, write the name of the region where you received the liability.\nFOLLOWED: If you end your turn in a Soviet city, without an agent, add an agent to that city.\nAUTHORITIES WATCHING: You may not do the Neutralize Agent action while in a city with an Incident token.\nHASSLED: If you end your turn in a Soviet city without a safe house, discard 1 card (after the Draw Cards step).\nCIPHER DECODED: You cannot do the Share Intel action when you are in\nREGION:\nMONITORED: If you draw 2 Soviet City cards at the end of your turn, lose 1 cover.\nTRACKED: You cannot do the Drive/Ferry Team action when you are in\nREGION:\nAIRPORTS ALERTED: You may not do the Unrecorded Flight action from a Soviet city.\nRECOGNIZED: If you are in this region, lose a cover whenever an Incident token is added to it.\nREGION:",
+      "flavor": "",
+      "image": "media/original/05ea0088d22c672eb33b5b219f00820288ed4a58.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

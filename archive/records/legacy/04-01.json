@@ -1,0 +1,45 @@
+{
+  "id": "legacy/04-01",
+  "printedCode": "04-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "d3868e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/1",
+    "duplicatePaths": [
+      "351/0/46",
+      "352/46"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "323462",
+      "d3868e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\nDraw this card just before you set up your first game in April.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-46.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "REPORT:\nTRANSMISSION METHOD\n\"The eggheads are lookin' to figure out how the Soviets plan to deploy MEDUSA. You've been out in the field; can you give them some direction?\"\nCheck one box and place this card in your Intelligence file:\nTransmission Method:\nAirborne\nAnimal Contact\nSaliva\nWaterborne",
+      "flavor": "\"The eggheads are lookin' to figure out how the Soviets plan to deploy MEDUSA. You've been out in the field; can you give them some direction?\"",
+      "image": "media/split/70bec37606e4-46.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

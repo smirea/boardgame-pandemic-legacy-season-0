@@ -1,0 +1,33 @@
+{
+  "id": "tile/c71e6c",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c71e6c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "298/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "c71e6c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MONITORED: If you draw 2 Allied City cards at the end of your turn, lose 1 cover.",
+      "flavor": "",
+      "image": "media/original/38f31d34c0caba4bd498abb5cc04c7851a3279d4.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

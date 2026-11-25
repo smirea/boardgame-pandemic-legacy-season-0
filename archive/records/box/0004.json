@@ -1,0 +1,261 @@
+{
+  "id": "box/0004",
+  "printedCode": "0004",
+  "kind": "box",
+  "censusKey": "safe-deposit-box",
+  "sourceGuid": "129edf",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "252",
+    "duplicatePaths": [
+      "328/0"
+    ],
+    "note": "Safe deposit box. The model and the bag that holds its contents are one record.",
+    "guids": [
+      "129edf",
+      "803da9"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-08e717",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-0a0d00",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-196f36",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-37c278",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-7ca46f",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-887240",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-a475c3",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-b54dea",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-bd79cf",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-fd5d1e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/0272bf",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/0505b5",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/10685e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/1bc01c",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/1c0b63",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/1c6b4a",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/243435",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/308d0e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/3b4275",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/42cd11",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/4498ea",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/558269",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/5891f9",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/65bd69",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/6b924b",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/7cc27b",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/85c59b",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/8f3646",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/929aaa",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/978d96",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/af6b93",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b3493a",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b8c625",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/bbaef0",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/be1e83",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/c376a5",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/d04bad",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/d78cb7",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/dd6100",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/eb474e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/ed8cd0",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/ef5903",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/f3a1e3",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/f4c70f",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/f67102",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/fc7793",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/bcb1b4b06415eadcd4691468e369028a4921c30a.obj",
+    "diffuse": "media/original/487b45c6d1f692452a351eb65408ec2894eed931.jpg"
+  }
+}

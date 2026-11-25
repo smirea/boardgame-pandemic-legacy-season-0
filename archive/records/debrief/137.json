@@ -1,0 +1,31 @@
+{
+  "id": "debrief/137",
+  "printedCode": "137",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+      "flavor": "The Soviet agent slipped through your net, and the information on LION'S TOOTH is gone with him. Your intel suggests that your pursuit caused him to depart Sydney before resolving his business there; the city will be closely watched in case he returns.",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

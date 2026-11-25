@@ -1,0 +1,182 @@
+{
+  "legacy/09-10": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial Objective).",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\nIf any player has at least 1 Chronic Infection sticker on their passport, take the following Relapse card and add it to the Player discard pile. (Keep this card in the Player deck for all future games.)\nIf no passports have Chronic Infection stickers, destroy the Relapse card.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-11": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RELAPSE\nEach player takes 2 Symptom cards for each Chronic Infection sticker on the cover of their passport.\nDo this when this card is drawn (or dealt during setup), then discard it.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-12": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in September.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\nOpen the following door:\n23\nIf you received a FAILING evaluation for the first half of the month, read Debrief 220.\nThen, add the following Event card to the pool of events that you select from when you set up the game.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/09-13": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EVENT\nDECRYPTION BOOK\nReveal 4 security tokens in the PEARL Compound.\nPlay any time. Not an action.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/10-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STOP\nDraw this card just before you set up your first game in October.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "flavor",
+        "transcription": "MISSION BRIEFING\n“The missiles in Cuba are a distraction; stay focused on your objectives.\nWe need intel from two targets: the KGB officer in charge of their satellite program and a British ‘exporter’ delivering something suspicious.\nYou must also infiltrate PEARL again to discover what progress the Soviets have made on a treatment for MEDUSA. Surely they will have developed a contingency in case the plague gains a foothold in their territory.”",
+        "flavor": "“The missiles in Cuba are a distraction; stay focused on your objectives.\nWe need intel from two targets: the KGB officer in charge of their satellite program and a British ‘exporter’ delivering something suspicious.\nYou must also infiltrate PEARL again to discover what progress the Soviets have made on a treatment for MEDUSA. Surely they will have developed a contingency in case the plague gains a foothold in their territory.”"
+      }
+    }
+  },
+  "legacy/10-02": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is an infiltration objective.\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and place 1 facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\nFlip this card over and place it onto the board in the Operations area.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OCTOBER OBJECTIVE 1\nFIND THE SOVIETS' CURE FOR MEDUSA\nInfiltration City: Novosibirsk\nWHILE IN THE MEDICAL WARD OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 3 CITY CARDS\nCompleted: Read Debrief 180\nFailed: Read Debrief 217",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/10-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This objective has a known target city.\nTwo active teams are required to complete it.\nFlip this card over and place it onto the board in the Operations area.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OCTOBER OBJECTIVE 2\nINTERROGATE THE KGB OFFICER\nAcquire Target in:\nJOHANNESBURG, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 222\nFailed: Read Debrief 128",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/10-04": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is a pursuit objective.\nTo set it up, place a Pursuit token in London.\nThen, place this card onto the board in the Operations area and flip it over.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "OCTOBER OBJECTIVE 2\nHUNT DOWN THE SOVIET “EXPORTER”\nRemove the last Pursuit token from the board\nSTARTING CITY: LONDON\nDESTINATION: ANY SOVIET CITY\nCompleted: Read Debrief 101\nFailed (First half of month): Read Debrief 172\nFailed (Second half of month): Read Debrief 241",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/10-05": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "flavor",
+        "transcription": "“Your probationary period is ending soon, and this final developmental goal should serve you well in what remains of this operation and indeed whatever threat rises after.\nMy thanks for your dedication in this difficult mission.”",
+        "flavor": "“Your probationary period is ending soon, and this final developmental goal should serve you well in what remains of this operation and indeed whatever threat rises after.\nMy thanks for your dedication in this difficult mission.”"
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "TEST RESULTS\nReview your response to question 12 from the loyalty questionnaire (in your Personnel file).\nIf card 65 is in your Intelligence file, add 1 to your response.\nIf you answered 1–3: Read Debrief 199\nIf you answered 4–6: Read Debrief 110\nIf you receive a Restriction card, put it into the Operations area of the board, and continue to do so at the start of each game.\nKeep this card in your Personnel file.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/10-06": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in October.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "RIGHT NOW\nOpen the following door:\n27\n“Infiltrating the PEARL Compound is a challenging objective, so I am equipping you with our latest technology to assist in your effort.”\nAny 1 player may add the Infrared Goggles asset to an alias without spending budgetary units.",
+        "flavor": "“Infiltrating the PEARL Compound is a challenging objective, so I am equipping you with our latest technology to assist in your effort.”"
+      }
+    }
+  },
+  "legacy/11-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STOP\nDraw this card just before you set up your first game in November.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "Please meet me.\nI’d like to talk.\n— Sabik\nRead the following Operations card: 76",
+        "flavor": "Please meet me.\nI’d like to talk.\n— Sabik"
+      }
+    }
+  },
+  "legacy/11-02": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back when instructed.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "MISSION BRIEFING\n“I understand that you declined Sabik’s offer—yes, we were watching you, don’t be too surprised.\nYou made the correct choice; with his deteriorating mental state, only a fool would trust him. This display of loyalty has allowed me to push through an early end to your probationary period.\nCongratulations, you are now full agents.”\nDestroy all of your restrictions.\nRaise your funding by 2.",
+        "flavor": "“I understand that you declined Sabik’s offer—yes, we were watching you, don’t be too surprised.\nYou made the correct choice; with his deteriorating mental state, only a fool would trust him. This display of loyalty has allowed me to push through an early end to your probationary period.\nCongratulations, you are now full agents.”"
+      }
+    }
+  }
+}

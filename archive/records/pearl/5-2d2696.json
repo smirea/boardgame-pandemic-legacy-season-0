@@ -1,0 +1,36 @@
+{
+  "id": "pearl/5-2d2696",
+  "printedCode": "5",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "2d2696",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/18",
+    "duplicatePaths": [
+      "356/18",
+      "357/18"
+    ],
+    "note": "PEARL compound piece 5. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "2d2696"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "??",
+      "flavor": "",
+      "image": "media/original/a6e992ecc4c4e84304ed0f1738975b68352266ec.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "legacy/09-10",
+  "printedCode": "09-10",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "03b1c8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/25",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "03b1c8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial Objective).",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-25.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\nIf any player has at least 1 Chronic Infection sticker on their passport, take the following Relapse card and add it to the Player discard pile. (Keep this card in the Player deck for all future games.)\nIf no passports have Chronic Infection stickers, destroy the Relapse card.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-25.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

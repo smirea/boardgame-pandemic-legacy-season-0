@@ -1,0 +1,37 @@
+{
+  "id": "debrief/246",
+  "printedCode": "246",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Turn to entry 251.",
+      "flavor": "The repercussions of 1962 will take a long time to settle. With the MEDUSA genome captured and LION’S TOOTH stopped, the world continued as normal. The final, fatal MEDUSA sample lies in storage at the CDC, buried so deep that someone would have to blow up the entire building just to find it.\n\nVery few people know how close the world was to annihilation this past year: just as you and the CIA prefer it.",
+      "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/251",
+      "label": "entry 251"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

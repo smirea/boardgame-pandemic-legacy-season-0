@@ -1,0 +1,43 @@
+{
+  "id": "legacy/04-22",
+  "printedCode": "04-22",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "aa6145",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/25",
+    "duplicatePaths": [
+      "352/25"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "aa6145"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nUNDOCUMENTED ACTIONS\n\nRESTRICTION\n\nMove a Restriction card to the reserve. It is no longer in effect this game.\n\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-25.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-25.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

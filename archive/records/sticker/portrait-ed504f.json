@@ -1,0 +1,33 @@
+{
+  "id": "sticker/portrait-ed504f",
+  "printedCode": null,
+  "kind": "sticker",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ed504f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "83",
+    "duplicatePaths": [],
+    "note": "Portrait sticker clipped from sticker-sheet/portraits so it can be placed on a passport.",
+    "guids": [
+      "ed504f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/8fd3696659f6d35199a36da94257223356efd828.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

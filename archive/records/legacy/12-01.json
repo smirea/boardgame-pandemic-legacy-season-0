@@ -1,0 +1,62 @@
+{
+  "id": "legacy/12-01",
+  "printedCode": "12-01",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "c882c0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/8",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "c882c0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "STOP\nDraw this card just before you set up your first game in December.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-8.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "FOLLOWING UP\n\n\"We followed your leads on MEDUSA deployment. Here is what we discovered.\"\n\nTake your MEDUSA Deployment Report out of your Intelligence file.\nNote your answer, then read the appropriate debrief:\n\nJellyfish: Read Debrief 126\nAgent Sabik: Read Debrief 209\nPollen: Read Debrief 140\nWe Don't Know: Read Debrief 120",
+      "flavor": "\"We followed your leads on MEDUSA deployment. Here is what we discovered.\"",
+      "image": "media/split/1aaabc2decc1-8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/120",
+      "label": "Debrief 120"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/126",
+      "label": "Debrief 126"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/140",
+      "label": "Debrief 140"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/209",
+      "label": "Debrief 209"
+    }
+  ],
+  "marker": "STOP",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,265 @@
+{
+  "id": "deck/threat-cards",
+  "printedCode": "Threat Cards",
+  "kind": "deck",
+  "censusKey": "mod-extra",
+  "sourceGuid": "190bd0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "59",
+    "duplicatePaths": [],
+    "note": "Deck container. The cards are their own records.",
+    "guids": [
+      "190bd0"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "threat/algiers",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/atlanta",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/baghdad",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/bangkok",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/bogota",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/bombay",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/buenos-aires",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/cairo",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/calcutta",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/delhi",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/east-berlin",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/hanoi",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/havana",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/istanbul",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/jakarta",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/johannesburg",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/karachi",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/khartoum",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/kiev",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/lagos",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/leningrad",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/leopoldville",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/lima",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/london",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/los-angeles",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/madrid",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/manila",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/mexico-city",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/moscow",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/new-york",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/novosibirsk",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/osaka",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/paris",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/peking",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/prague",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/pyongyang",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/riyadh",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/rome",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/saigon",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/san-francisco",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/santiago",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/sao-paulo",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/shanghai",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/sydney",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/tokyo",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/toronto",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/warsaw",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "threat/washington",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

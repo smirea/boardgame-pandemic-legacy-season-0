@@ -1,0 +1,33 @@
+{
+  "id": "tile/b06c3d",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b06c3d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "324/0/12",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b06c3d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CONTROL CENTERS BUGS DOOR 44 Keep these stickers in the reserve.",
+      "flavor": "",
+      "image": "media/original/e063a18c01e5e34da35edf311ebeaaa9de47e3ed.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

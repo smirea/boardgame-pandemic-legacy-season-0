@@ -1,0 +1,33 @@
+{
+  "id": "tile/cb43ea",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "cb43ea",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "284/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "cb43ea"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AIRPORTS ALERTED: You may not do the Unrecorded Flight action from a neutral city.",
+      "flavor": "",
+      "image": "media/original/f156596ec7ca9288e56c7d10a2d6d8459bb02293.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

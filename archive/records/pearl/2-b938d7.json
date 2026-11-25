@@ -1,0 +1,36 @@
+{
+  "id": "pearl/2-b938d7",
+  "printedCode": "2",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b938d7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/25",
+    "duplicatePaths": [
+      "356/25",
+      "357/25"
+    ],
+    "note": "PEARL compound piece 2. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "b938d7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "GATEHOUSE\nIf you are in this room during the Mop Up step, scratch 1 cover.",
+      "flavor": "",
+      "image": "media/original/fde95b8eb0544bb12f7a31131323f29036bdcfb5.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

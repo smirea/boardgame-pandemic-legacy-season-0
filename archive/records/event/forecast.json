@@ -1,0 +1,41 @@
+{
+  "id": "event/forecast",
+  "printedCode": "Forecast",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "5bb630",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "342/0/0",
+    "duplicatePaths": [],
+    "note": "Event. Part of the 58 player cards. Playable any time it is your turn, not between drawing and resolving a card.",
+    "guids": [
+      "5bb630"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\n\nFORECAST\n\nLook at the next 6 Threat cards. Rearrange them in any order and return them to the top of the Threat deck.\n\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-5.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

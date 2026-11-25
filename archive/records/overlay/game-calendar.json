@@ -1,0 +1,39 @@
+{
+  "id": "overlay/game-calendar",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c5f765",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "29",
+    "duplicatePaths": [],
+    "note": "Game calendar tile. The same table is printed in the rulebook.",
+    "guids": [
+      "c5f765"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "GAME CALENDAR – 1962\n\nNumber of Failed Objectives | Game End Evaluation | Funding | Your Next Game\n0 | SUCCEEDING | −1 | Advance to the next month.\n1 | ADEQUATE | +1 | Advance to the next month.\n2 or more | FAILING | +2 | If this was the first time playing this month, replay it. Otherwise advance to the next month.\n\nMONTH | FUNDING* | PLAYERS & CHARACTERS | DATE PLAYED | GAME END EVALUATION\nPrologue | All | 5\nJanuary | Early | 5\nJanuary | Late\nFebruary | Early\nFebruary | Late\nMarch | Early\nMarch | Late\nApril | Early\nApril | Late\nMay | Early\nMay | Late\nJune | Early\nJune | Late\nJuly | Early\nJuly | Late\nAugust | Early\nAugust | Late\nSeptember | Early\nSeptember | Late\nOctober | Early\nOctober | Late\nNovember | Early\nNovember | Late\nDecember | Early\nDecember | Late\n\n* Funding cannot go above 10 or below 1. The first time funding would go above 10, record it as 10 and then open Door 14.\n\nNotes:",
+      "flavor": "",
+      "image": "media/original/b5e3f04c9b8167f5bde1ceb24bb49d0e9695b308.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/14",
+      "label": "Open door 14"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

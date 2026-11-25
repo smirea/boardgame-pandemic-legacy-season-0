@@ -1,0 +1,31 @@
+{
+  "id": "debrief/140",
+  "printedCode": "140",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Increase your funding by 2.",
+      "flavor": "\"You were correct; they are going to use pollen to disperse MEDUSA. Excellent work.\"",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

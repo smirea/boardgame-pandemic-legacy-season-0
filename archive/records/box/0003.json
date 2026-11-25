@@ -1,0 +1,301 @@
+{
+  "id": "box/0003",
+  "printedCode": "0003",
+  "kind": "box",
+  "censusKey": "safe-deposit-box",
+  "sourceGuid": "2c65fc",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "251",
+    "duplicatePaths": [
+      "355/0"
+    ],
+    "note": "Safe deposit box. The model and the bag that holds its contents are one record. Bag 0003 holds the September PEARL compound pieces.",
+    "guids": [
+      "2c65fc",
+      "37b5c5"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "door/47",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/1-800bd2",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/10-07228e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/10-af50c9",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/11-4b4164",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/11-d2762a",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/12-0e2ff7",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/12-b04c52",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/13-87e2cd",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/13-a39c19",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/14-b55856",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/14-fd5882",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/2-b938d7",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/2-f25a19",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/3-78fe12",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/3-e4bda8",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/4-363fcf",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/4-694a38",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/5-1fdf01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/5-2d2696",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/6-84e5d1",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/6-f94656",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/7-58f185",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/7-a40847",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/8-459a26",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/8-ba32bf",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/9-1ca7ae",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/9-595792",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-05452e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-05b55c",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-1b53df",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-212d27",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-391431",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-3cba65",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-3eacd2",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-413ef0",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-505dfe",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-533297",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-58a5ac",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-5f0011",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-60c7a4",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-765c62",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-776af6",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-7bdd56",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-8e1560",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-92135e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-a1ae01",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-aff6db",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-b01bb6",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-c4723a",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-c5d91c",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-caff6e",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-e607d3",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-fb729c",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/bcb1b4b06415eadcd4691468e369028a4921c30a.obj",
+    "diffuse": "media/original/0e7b9d9bca4a306e9b56e18e50ea20483d20147b.jpg"
+  }
+}

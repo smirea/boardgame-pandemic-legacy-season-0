@@ -1,0 +1,33 @@
+{
+  "id": "tile/af6b93",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "af6b93",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "328/0/45",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "af6b93"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "ON THE RUN\n\"Until now, our approach has been one of subtlety. However, new objectives will require active pursuit of individuals who know you are looking for them. Careful planning and coordination will be required to ensure that they do not evade your teams.\"\n\nRIGHT NOW\n1 Put the 12 enclosed Pursuit tokens and 12 Checkpoint tokens by the side of the board to form supplies of each.\n2 Add the 10 enclosed Disease cubes to the supply.\n3 Add the enclosed stickers to the game board, rulebook, and Reference cards.",
+      "flavor": "\"Until now, our approach has been one of subtlety. However, new objectives will require active pursuit of individuals who know you are looking for them. Careful planning and coordination will be required to ensure that they do not evade your teams.\"",
+      "image": "media/original/9521a5c9f6eb70798c38033be8190403919dfde6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

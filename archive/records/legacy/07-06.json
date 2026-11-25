@@ -1,0 +1,67 @@
+{
+  "id": "legacy/07-06",
+  "printedCode": "07-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "18928f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/47",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "18928f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\n\nDraw this card and read the back during step 3 at the end of the first game in July.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-47.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\n\nOpen the following doors:\nT 37 25 30\n\nIf you received a FAILING evaluation for the first half of the month, read Debrief 108.\n\nThen, add the following Event card to the pool of events that you select from when you set up the game.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-47.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/25",
+      "label": "Open door 25"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/30",
+      "label": "Open door 30"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/37",
+      "label": "Open door 37"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/T",
+      "label": "Open door T"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/108",
+      "label": "Debrief 108"
+    }
+  ],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

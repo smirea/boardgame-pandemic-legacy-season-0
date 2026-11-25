@@ -1,0 +1,41 @@
+{
+  "id": "player/escalation",
+  "printedCode": "Escalation",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "9afbce",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "343/0",
+    "duplicatePaths": [],
+    "note": "Escalation card. Setup puts one in each of the five player-deck piles. The save stores a single object; the mod clones it. This record counts the five physical cards.",
+    "guids": [
+      "9afbce"
+    ]
+  },
+  "count": 5,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ESCALATION 1. INCREASE THREAT Advance the Threat Level marker 1 space. 2. ADD AGENTS Draw the bottom card from the Threat deck and add 3 agents to that city. Discard the card to the Threat discard pile. 3. INTENSIFY Shuffle the cards in the Threat discard pile and put them on top of the Threat deck.",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-4.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

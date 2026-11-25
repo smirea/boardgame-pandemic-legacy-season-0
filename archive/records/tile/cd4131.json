@@ -1,0 +1,33 @@
+{
+  "id": "tile/cd4131",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "cd4131",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "327/0/12",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "cd4131"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "BELLY OF THE BEAST\n\n“The Soviet aliases will be necessary to infiltrate locations in Soviet cities. I recommend you practice your Russian.”\n\nRIGHT NOW\n1 Add the enclosed Cover Occupation stickers and Specialization stickers (Deep Cover) to the third alias of each of the 4 passports.\n2 Modify the appearance of these new aliases with the enclosed disguises.\n3 Give each of the new aliases a name.",
+      "flavor": "“The Soviet aliases will be necessary to infiltrate locations in Soviet cities. I recommend you practice your Russian.”",
+      "image": "media/original/5c39fe3b34138254bbf7b0ef295bfacef7fed62a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

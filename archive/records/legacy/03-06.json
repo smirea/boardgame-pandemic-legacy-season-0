@@ -1,0 +1,61 @@
+{
+  "id": "legacy/03-06",
+  "printedCode": "03-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "cf8f69",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/3",
+    "duplicatePaths": [
+      "351/0/50",
+      "352/50"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "1fdb97",
+      "cf8f69"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PSYCHOLOGICAL EVALUATION\nReview your responses to questions 1–4 from the tests in your Personnel file. Circle the number for each question then total your results.\nAGREE DISAGREE\nQuestion 1 1 0\nQuestion 2 1 0\nQuestion 3 0 1\nQuestion 4 0 1\nSUBTOTAL:\nIf Operations card 61 is in your Intelligence file, add 2 to this total.\nTOTAL:\nFlip this card over for your test results.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-50.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEST RESULTS\nRead the debrief corresponding to your total:\n0–2: Read Debrief 143\n3–4: Read Debrief 207\n5–6: Read Debrief 228\nIf you receive a Restriction card, put it into the Operations area of the board, and continue to do so at the start of each game.\nKeep this card in your Personnel file.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-50.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/143",
+      "label": "Debrief 143"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/207",
+      "label": "Debrief 207"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/228",
+      "label": "Debrief 228"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pearl/piece-413ef0",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "413ef0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/52",
+    "duplicatePaths": [],
+    "note": "PEARL compound piece 413ef0. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "413ef0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\n1 Remove the contents of the game box, open the false bottom below all of the Safe Deposit boxes, then take the secret dossier and place it faceup next to the game board.\n2 Return everything else to the game box.\n3 Open Door 47 (found on the new dossier).\n4 Mix the 21 enclosed Security tokens into the supply of Security tokens. These show new symbols (regions and affiliations) that you may need to match when doing the Infiltrate action.\n5 Add the sticker (enclosed in this box) to the rulebook.",
+      "flavor": "",
+      "image": "media/original/edc10b97d06da8a40b32e6a170763a1515028a03.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "pearl/piece-3cba65",
+      "label": "Take the secret dossier"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/47",
+      "label": "Open door 47"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

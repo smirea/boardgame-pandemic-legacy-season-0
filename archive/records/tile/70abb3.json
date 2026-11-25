@@ -1,0 +1,33 @@
+{
+  "id": "tile/70abb3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "70abb3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "317/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "70abb3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DISABLE SATELLITE\nRULE T\nIf in a city with a Control Center that contains a Bug sticker, return that region's Satellite token to the reserve for the remainder of this game.",
+      "flavor": "",
+      "image": "media/original/bec074e73f805d30dbc6108fa992a6b50e5c91da.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

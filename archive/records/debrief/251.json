@@ -1,0 +1,31 @@
+{
+  "id": "debrief/251",
+  "printedCode": "251",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "Long after the MEDUSA plague nearly destroyed the world, its impact lingers. The different strains used within the MEDUSA trials have evolved. Four distinct diseases are appearing throughout the globe, and the CDC is setting up teams to keep this new world from being overrun completely.\n\nYou remained with the CIA. With all of Sabik’s back channels, contacts, and resources under your control, you gained a lot of freedom. These days you practically run the place. Your secret association thrives when working within and outside the system: whatever it takes to serve the greater good. Your group even has a name:\n\nZODIAC.",
+      "image": "media/original/815db5b4c659ebcf17f16ea7195c2d6988fcd9c1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

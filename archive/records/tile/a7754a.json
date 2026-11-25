@@ -1,0 +1,33 @@
+{
+  "id": "tile/a7754a",
+  "printedCode": "Passport Selector 2",
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "a7754a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "229",
+    "duplicatePaths": [],
+    "note": "Passport Selector 2",
+    "guids": [
+      "a7754a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/b139b5493b3e2900d061c5971edb3114500de22e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

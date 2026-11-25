@@ -1,0 +1,39 @@
+{
+  "id": "dossier/1",
+  "printedCode": null,
+  "kind": "dossier",
+  "censusKey": "dossier",
+  "sourceGuid": "aedbf8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "281",
+    "duplicatePaths": [],
+    "note": "Dossier folio 1. Doors on this folio include 11–20 and A, C, F, G.",
+    "guids": [
+      "aedbf8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Dossier folio 1. Door pockets, top row to bottom row, left to right:\n\n15  20  G\n14  19  F\n13  18  C\n12  17  A\n11  16\n\nBeside 14: OPEN THIS DOOR IF YOUR FUNDING WOULD EVER GO ABOVE 10.\n",
+      "flavor": "",
+      "image": "media/original/2d4526704af722465822514c85c37c78ec74ff1f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/14",
+      "label": "Open this door if your funding would ever go above 10"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

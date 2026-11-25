@@ -1,0 +1,41 @@
+{
+  "id": "threat/mexico-city",
+  "printedCode": "Mexico City",
+  "kind": "card",
+  "censusKey": "threat-card",
+  "sourceGuid": "d96f87",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "59/22",
+    "duplicatePaths": [],
+    "note": "Threat card. Drawing it from the bottom of the deck is the incident effect.",
+    "guids": [
+      "d96f87"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MEXICO CITY\nMEXICO\nINCIDENT\nSLEEPER CELLS ACTIVATE\nPlace an agent in every city with 1 or more Incident tokens in the Pacific Rim.",
+      "flavor": "",
+      "image": "media/split/f50a156f5be0-19.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

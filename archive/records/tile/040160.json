@@ -1,0 +1,33 @@
+{
+  "id": "tile/040160",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "040160",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "294/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "040160"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ARMY DOCTOR\nIf you enter the Army Doctor’s city, return all your Symptom cards to the supply.\nCITY:",
+      "flavor": "",
+      "image": "media/original/e3ff2cd276dcedd740e45cabb98482c42dcd1321.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

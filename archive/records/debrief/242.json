@@ -1,0 +1,37 @@
+{
+  "id": "debrief/242",
+  "printedCode": "242",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Open Safe Deposit Box 0005 and read its contents.",
+      "flavor": "He releases a long, relieved sigh. “Good...good. I swear you won’t regret this. Let’s get to work.”",
+      "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "box/0005",
+      "label": "Box 0005"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

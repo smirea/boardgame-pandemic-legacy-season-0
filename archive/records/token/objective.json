@@ -1,0 +1,33 @@
+{
+  "id": "token/objective",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "objective-token",
+  "sourceGuid": "5ff822",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "56",
+    "duplicatePaths": [],
+    "note": "Completed/failed objective token. The save stacks 3 copies on this one face (a black star).",
+    "guids": [
+      "5ff822"
+    ]
+  },
+  "count": 3,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/07e17f76cfc5c62b861aa62b0ed0f00cde7a9b1c.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

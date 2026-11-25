@@ -1,0 +1,42 @@
+{
+  "id": "pearl/3-e4bda8",
+  "printedCode": "3",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "e4bda8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/23",
+    "duplicatePaths": [
+      "356/23",
+      "357/23"
+    ],
+    "note": "PEARL compound piece 3. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "e4bda8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "LOADING DOCK\nWhen you enter this room, you may take 1 card from under a Disrupt Trial objective and add it to your hand.\n(You prevent the trial in that city.)\nIf you do, read Debrief 105.",
+      "flavor": "",
+      "image": "media/original/a0530bad8f5b56c2149365f6da7b4b2cfd066f8f.png"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/105",
+      "label": "Debrief 105"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

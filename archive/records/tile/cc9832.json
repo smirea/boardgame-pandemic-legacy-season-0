@@ -1,0 +1,33 @@
+{
+  "id": "tile/cc9832",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "cc9832",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "222",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "cc9832"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AIRPORTS ALERTED: You may not do the Unrecorded Flight action from a Soviet city.",
+      "flavor": "",
+      "image": "media/original/da88bed70dbfb57be6a8074d86c6947a28fab496.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/fbbb6b",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "fbbb6b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/21",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "fbbb6b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TRANSPORT CREW:\nOn your turn, whenever you move to a new city, you may move any teams in your city with you.",
+      "flavor": "",
+      "image": "media/original/989710d8799a04646a6cf4711c5d308277a810f0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

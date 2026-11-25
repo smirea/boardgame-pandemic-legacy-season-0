@@ -1,0 +1,74 @@
+{
+  "reference/1": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ACTIONS\nDRIVE / FERRY\nMove to an adjacent city.\nCOMMERCIAL FLIGHT Reveal an Allied city card in your hand to move to the matching city. Discard a Neutral City card to move to the matching city. You cannot move to a Soviet city using the Commercial Flight action.\nUNRECORDED FLIGHT\nDiscard the City card that matches your city to move to any city.\nNEUTRALIZE AGENT\nRemove an agent from your city.\nSHARE INTEL Either: give a card that matches the city you are in to another player or take that card from another player. The other player must also be in the city with you.\nBUILD SAFEHOUSE\nDiscard the City card that matches your city to build a safehouse there.\nIDENTIFY TARGET CITY While at a safehouse, discard 3 City cards matching your region to reveal the target city of your region under an Objective card.\nASSEMBLE TEAM While at a safehouse, discard 5 City cards matching the affiliation of your city to put a team of that affiliation there.\nDRIVE / FERRY TEAM\nMove a team to an adjacent city.\nACQUIRE TARGETS Select an Acquire Target objective. If you have active teams in the required cities, you complete it. If not, you fail that objective.",
+        "flavor": ""
+      }
+    }
+  },
+  "reference/2": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ACTIONS\nDRIVE / FERRY\nMove to an adjacent city.\nCOMMERCIAL FLIGHT Reveal an Allied city card in your hand to move to the matching city. Discard a Neutral City card to move to the matching city. You cannot move to a Soviet city using the Commercial Flight action.\nUNRECORDED FLIGHT\nDiscard the City card that matches your city to move to any city.\nNEUTRALIZE AGENT\nRemove an agent from your city.\nSHARE INTEL Either: give a card that matches the city you are in to another player or take that card from another player. The other player must also be in the city with you.\nBUILD SAFEHOUSE\nDiscard the City card that matches your city to build a safehouse there.\nIDENTIFY TARGET CITY While at a safehouse, discard 3 City cards matching your region to reveal the target city of your region under an Objective card.\nASSEMBLE TEAM While at a safehouse, discard 5 City cards matching the affiliation of your city to put a team of that affiliation there.\nDRIVE / FERRY TEAM\nMove a team to an adjacent city.\nACQUIRE TARGETS Select an Acquire Target objective. If you have active teams in the required cities, you complete it. If not, you fail that objective.",
+        "flavor": ""
+      }
+    }
+  },
+  "reference/3": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ACTIONS\nDRIVE / FERRY\nMove to an adjacent city.\nCOMMERCIAL FLIGHT Reveal an Allied city card in your hand to move to the matching city. Discard a Neutral City card to move to the matching city. You cannot move to a Soviet city using the Commercial Flight action.\nUNRECORDED FLIGHT\nDiscard the City card that matches your city to move to any city.\nNEUTRALIZE AGENT\nRemove an agent from your city.\nSHARE INTEL Either: give a card that matches the city you are in to another player or take that card from another player. The other player must also be in the city with you.\nBUILD SAFEHOUSE\nDiscard the City card that matches your city to build a safehouse there.\nIDENTIFY TARGET CITY While at a safehouse, discard 3 City cards matching your region to reveal the target city of your region under an Objective card.\nASSEMBLE TEAM While at a safehouse, discard 5 City cards matching the affiliation of your city to put a team of that affiliation there.\nDRIVE / FERRY TEAM\nMove a team to an adjacent city.\nACQUIRE TARGETS Select an Acquire Target objective. If you have active teams in the required cities, you complete it. If not, you fail that objective.",
+        "flavor": ""
+      }
+    }
+  },
+  "reference/4": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ACTIONS\nDRIVE / FERRY\nMove to an adjacent city.\nCOMMERCIAL FLIGHT Reveal an Allied city card in your hand to move to the matching city. Discard a Neutral City card to move to the matching city. You cannot move to a Soviet city using the Commercial Flight action.\nUNRECORDED FLIGHT\nDiscard the City card that matches your city to move to any city.\nNEUTRALIZE AGENT\nRemove an agent from your city.\nSHARE INTEL Either: give a card that matches the city you are in to another player or take that card from another player. The other player must also be in the city with you.\nBUILD SAFEHOUSE\nDiscard the City card that matches your city to build a safehouse there.\nIDENTIFY TARGET CITY While at a safehouse, discard 3 City cards matching your region to reveal the target city of your region under an Objective card.\nASSEMBLE TEAM While at a safehouse, discard 5 City cards matching the affiliation of your city to put a team of that affiliation there.\nDRIVE / FERRY TEAM\nMove a team to an adjacent city.\nACQUIRE TARGETS Select an Acquire Target objective. If you have active teams in the required cities, you complete it. If not, you fail that objective.",
+        "flavor": ""
+      }
+    }
+  },
+  "sticker-sheet/allied-upgrades": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ALLIED COVER OCCUPATIONS\nWHEN INSTRUCTED BY THE LEGACY DECK, ADD 1 OF THESE COVER OCCUPATIONS TO EACH ALLIED ALIAS.\n[unreadable]\n[unreadable]\n[unreadable]\n[unreadable]\nGAME END UPGRADES\nASSETS\nAdd Contacts, Visas, and Gear onto any asset slot of any character card.\nCONTACTS\n[unreadable]\n3\n[unreadable]\n2\n[unreadable]\n2\nVISAS\n[unreadable]\n1\n[unreadable]\n1\n[unreadable]\n1\nGEAR\n[unreadable]\n1\n[unreadable]\n1\n[unreadable]\n1\nPERMANENT SAFEHOUSES\nAdd a permanent safehouse to any city that contained a safehouse in the just-played game.\n3\nCOUNTER SURVEILLANCE\nCancel one surveillance on the board.\n1\nSURVEILLANCE\nAt game end, during the Check Cities step, add a Surveillance sticker to each city containing 1 or more Incident tokens.",
+        "flavor": ""
+      }
+    }
+  },
+  "sticker-sheet/liabilities": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LIABILITIES\nIf you scratch off a circle on your alias and reveal a %, add a Liability sticker to your character.\nIf necessary, write the name of the region where you received the liability.\nFOLLOWED: If you end your turn in a Soviet city, without an agent, add an agent to that city.\nAUTHORITIES WATCHING: You may not do the Neutralize Agent action while in a city with an Incident token.\nHASSLED: If you end your turn in a Soviet city without a safe house, discard 1 card (after the Draw Cards step).\nCIPHER DECODED: You cannot do the Share Intel action when you are in\nREGION:\nMONITORED: If you draw 2 Soviet City cards at the end of your turn, lose 1 cover.\nTRACKED: You cannot do the Drive/Ferry Team action when you are in\nREGION:\nAIRPORTS ALERTED: You may not do the Unrecorded Flight action from a Soviet city.\nRECOGNIZED: If you are in this region, lose a cover whenever an Incident token is added to it.\nREGION:",
+        "flavor": ""
+      }
+    }
+  },
+  "sticker-sheet/portraits": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "CHARACTER PORTRAITS",
+        "flavor": ""
+      }
+    }
+  },
+  "debrief/index": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "DEBRIEF BOOK\nNO. N4245.4\nS-E-C-R-E-T\nSection 100\nSection 101\nSection 102\nSection 103\nSection 104\nSection 105\nSection 106\nSection 107\nSection 108\nSection 109\nSection 110\nSection 111\nSection 112\nSection 113\nSection 114\nSection 115\nSection 116\nSection 117\nSection 118\nSection 119\nSection 120\nSection 121\nSection 122\nSection 123\nSection 124\nSection 125\nSection 126\nSection 127\nSection 128\nSection 129\nSection 130\nSection 131\nSection 132\nSection 133\nSection 134\nSection 135\nSection 136\nSection 137\nSection 138\nSection 139\nSection 140\nSection 141\nSection 142\nSection 143\nSection 144\nSection 145\nSection 146\nSection 147\nSection 148\nSection 149\nSection 150\nSection 151\nSection 152\nSection 153\nSection 154\nSection 155\nSection 156\nSection 157\nSection 158\nSection 159\nSection 160\nSection 161\nSection 162\nSection 163\nSection 164\nSection 165\nSection 166\nSection 167\nSection 168\nSection 169\nSection 170\nSection 171\nSection 172\nSection 173\nSection 174\nSection 175\nSection 176\nSection 177\nSection 178\nSection 179\nSection 180\nSection 181\nSection 182\nSection 183\nSection 184\nSection 185\nSection 186\nSection 187\nSection 188\nSection 189\nSection 190\nSection 191\nSection 192\nSection 193\nSection 194\nSection 195\nSection 196\nSection 197\nSection 198\nSection 199\nSection 200\nSection 201\nSection 202\nSection 203\nSection 204\nSection 205\nSection 206\nSection 207\nSection 208\nSection 209\nSection 210\nSection 211\nSection 212\nSection 213\nSection 214\nSection 215\nSection 216\nSection 217\nSection 218\nSection 219\nSection 220\nSection 221\nSection 222\nSection 223\nSection 224\nSection 225\nSection 226\nSection 227\nSection 228\nSection 229\nSection 230\nSection 231\nSection 232\nSection 233\nSection 234\nSection 235\nSection 236\nSection 237\nSection 238\nSection 239\nSection 240\nSection 241\nSection 242\nSection 243\nSection 244\nSection 245\nSection 246\nSection 247\nSection 248\nSection 249\nSection 250\nSection 251\nSection 252\nS-E-C-R-E-T\nZ-MAN 2020 [unreadable]",
+        "flavor": ""
+      }
+    }
+  }
+}

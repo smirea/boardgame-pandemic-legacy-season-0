@@ -1,0 +1,33 @@
+{
+  "id": "tile/839d56",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "839d56",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "330/0/10",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "839d56"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "GET OUT!\nRULE V\nAt the end of the Mop Up step, if your pawn is at an Infiltration site, you must shift it back to its Infiltration city.",
+      "flavor": "",
+      "image": "media/original/a659b7f15c4dc95656e58faa6a894f9ae60cd56d.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

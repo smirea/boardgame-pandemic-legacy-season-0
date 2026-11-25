@@ -1,0 +1,43 @@
+{
+  "id": "legacy/02-05",
+  "printedCode": "02-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "190da7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/61",
+    "duplicatePaths": [
+      "352/61"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "190da7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial objective).",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-5.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\n1 Draw the next 3 cards in this deck.\n2 Turn each city where the trial was NOT disrupted into an Exposed city (following the rules for Marking Exposed Cities). These cities are now exposed to MEDUSA, and Disease cubes will appear on them when Infection cards are drawn for them.\n3 Destroy any unused Infection cards.\n4 Move the 3 City cards under the Disrupt Trial objective to the Player discard pile.",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-5.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

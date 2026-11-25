@@ -1,0 +1,135 @@
+{
+  "id": "passport/white-neutral",
+  "printedCode": null,
+  "kind": "passport",
+  "censusKey": "passport",
+  "sourceGuid": "085004",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "261",
+    "duplicatePaths": [],
+    "note": "White pawn, neutral alias page. state-1 is the unscratched page. state-2 onward reveal cover pips one scratch at a time. The book counts 4 passports; the mod stores 3 allegiance pages for each of 4 pawns.",
+    "guids": [
+      "085004",
+      "19cdde",
+      "20015f",
+      "41a217",
+      "87d8a7",
+      "9e9fc5",
+      "a1ba5b",
+      "b6abd8",
+      "dac83c",
+      "dcd016",
+      "ec519e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "state-1",
+      "ttsState": 1,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/5e36a72c576711556c6949ed5f04bb02d749a2da.jpg"
+    },
+    {
+      "id": "state-2",
+      "ttsState": 2,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/a88528dab79a1e2a3ff13d0a08e4807f241512c9.jpg"
+    },
+    {
+      "id": "state-3",
+      "ttsState": 3,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/3260fc8eb19466569fbaedb99a4a7c5fdb29fac1.jpg"
+    },
+    {
+      "id": "state-4",
+      "ttsState": 4,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/33e1a3b1e1da22b2e196cec77b280488243e8b70.jpg"
+    },
+    {
+      "id": "state-5",
+      "ttsState": 5,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/61ff34421e88be47a41094dc565bed8746971a00.jpg"
+    },
+    {
+      "id": "state-6",
+      "ttsState": 6,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/ccdc9824a9133a5483834c5a3a9b0f23d3afce15.jpg"
+    },
+    {
+      "id": "state-7",
+      "ttsState": 7,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/b2e8b13dfc08ac220c4f7a87bc4d1c499be46921.jpg"
+    },
+    {
+      "id": "state-8",
+      "ttsState": 8,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. unscratched\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/4a3ab102115fdd36ec3ec057aeebc14d365cdc4f.jpg"
+    },
+    {
+      "id": "state-9",
+      "ttsState": 9,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, empty\n9. unscratched\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/40142091f08f86b8a53d47d43dde6c5c5b542d46.jpg"
+    },
+    {
+      "id": "state-10",
+      "ttsState": 10,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, empty\n9. scratched, flame\n10. unscratched",
+      "flavor": "",
+      "image": "media/original/49ebefe68983214c8b71d05aedb63bd8e1de618a.jpg"
+    },
+    {
+      "id": "state-11",
+      "ttsState": 11,
+      "role": "rules",
+      "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, empty\n9. scratched, flame\n10. scratched, empty",
+      "flavor": "",
+      "image": "media/original/8088fa18b421df4ebe54ccf45cb3f6bb8616d00c.jpg"
+    }
+  ],
+  "states": [
+    "state-1",
+    "state-2",
+    "state-3",
+    "state-4",
+    "state-5",
+    "state-6",
+    "state-7",
+    "state-8",
+    "state-9",
+    "state-10",
+    "state-11"
+  ],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

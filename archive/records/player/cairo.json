@@ -1,0 +1,41 @@
+{
+  "id": "player/cairo",
+  "printedCode": "Cairo",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "f819a3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0/35",
+    "duplicatePaths": [],
+    "note": "Player card. Region: africa.",
+    "guids": [
+      "f819a3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CAIRO EGYPT AFRICA 7",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-50.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

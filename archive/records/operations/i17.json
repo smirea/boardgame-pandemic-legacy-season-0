@@ -1,0 +1,43 @@
+{
+  "id": "operations/i17",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "e70595",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/24",
+    "duplicatePaths": [
+      "347/24"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "e70595"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Destroy these 2 cards at the beginning of September.\nSECURITY\nWhen you enter this room, scratch 1 cover.\nSECRET ANNEX",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-17.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n73",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-17.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

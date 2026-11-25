@@ -1,0 +1,43 @@
+{
+  "id": "legacy/01-08",
+  "printedCode": "01-08",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "05e8ca",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/68",
+    "duplicatePaths": [
+      "352/68"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "05e8ca"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVENT\nENCODED MESSAGES\nChoose 2 players. They select 1 card from their hands and swap them.\nPlay any time. Not an action.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-12.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-12.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

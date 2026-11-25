@@ -1,0 +1,36 @@
+{
+  "id": "pearl/8-ba32bf",
+  "printedCode": "8",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ba32bf",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/13",
+    "duplicatePaths": [
+      "356/13",
+      "357/13"
+    ],
+    "note": "PEARL compound piece 8. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "ba32bf"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RECORDS ROOM\nWhen you enter this room, take 1 Action token.\nARCHIVES\nWhen you enter this room, take 1 City card from the Player discard pile.",
+      "flavor": "",
+      "image": "media/original/569a66f81777bbcc18f6b0bf1cf57903f1389109.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

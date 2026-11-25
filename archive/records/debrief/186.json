@@ -1,0 +1,31 @@
+{
+  "id": "debrief/186",
+  "printedCode": "186",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Place a Control Center sticker on the target city. Place a Bug sticker over the corner of the Control Center sticker to show that it was bugged. Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+      "flavor": "While bugging the control center, the team found an encrypted note in the trash. \"?????? launched on schedule. Wind and ???? tracked. ???? gathered for Operation LION'S TOOTH.\"",
+      "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

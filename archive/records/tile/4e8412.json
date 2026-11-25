@@ -1,0 +1,33 @@
+{
+  "id": "tile/4e8412",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "4e8412",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "302/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "4e8412"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "COBBLER As an action, discard 3 City cards of the same affiliation to change a team in the Cobbler’s city to the affiliation of the cards.\nCITY:",
+      "flavor": "",
+      "image": "media/original/409091d771e6e1a8101642b9bb55aaeae222243e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

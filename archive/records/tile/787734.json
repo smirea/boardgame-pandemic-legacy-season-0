@@ -1,0 +1,33 @@
+{
+  "id": "tile/787734",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "787734",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/13",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "787734"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CHANGE ALIAS\nRULE M\nWhile in a city with a safehouse, open your passport to a different page. This switches the cover occupation, specialization, assets, and liabilities available to your character. Your hand of cards and your Action tokens are not affected when you do the Change Alias action.",
+      "flavor": "",
+      "image": "media/original/3ff13345544d883db280285e1dbffe0653f72d1b.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

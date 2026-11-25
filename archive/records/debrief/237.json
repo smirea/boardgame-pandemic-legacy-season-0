@@ -1,0 +1,31 @@
+{
+  "id": "debrief/237",
+  "printedCode": "237",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "CIA Evaluation (Dec. 1962). Expectations exceeded. Encountered mild difficulty with certain objectives but overall a highly commendable performance. Recommendation: retain as field agents for high priority missions.",
+      "flavor": "CIA Evaluation (Dec. 1962). Expectations exceeded. Encountered mild difficulty with certain objectives but overall a highly commendable performance. Recommendation: retain as field agents for high priority missions.",
+      "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

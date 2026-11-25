@@ -1,0 +1,31 @@
+{
+  "id": "debrief/223",
+  "printedCode": "223",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Take 1 Action token and give it to one player. Then take cards 62 and 63 from the Operations deck. Decide which report you wish to file with the CIA. Put that card in your Intelligence file. Destroy the other one.",
+      "flavor": "You prevented Sabik's operatives from placing explosives, stolen from the Langley armory, in public locations of both cities. Soviet scientists were the target, but civilian casualties would have been staggering.\nA few days later, you received a message from Sabik. \"Hey, great job messing with my operation. You know, I'm trying to stop MEDUSA here and prevent millions of deaths! So yes, I'll steal bombs from the CIA, and no, I won't lose sleep over collateral damage. I think it was your buddy Coop who once said, 'Acceptable, given the time of great need.' By the way, I didn't kill him: too busy for grudges right now. Coop probably asked too many questions or got caught misusing company funds. That was always his thing.\"",
+      "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

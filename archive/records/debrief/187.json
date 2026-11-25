@@ -1,0 +1,31 @@
+{
+  "id": "debrief/187",
+  "printedCode": "187",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Place a Bug sticker on the corner of the Control Center sticker in Asia to show that it was bugged.",
+      "flavor": "Posing as electricians, your team infiltrated the control center and planted the bug. Monitoring data for the facility is already routing back to Langley.",
+      "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

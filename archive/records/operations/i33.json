@@ -1,0 +1,43 @@
+{
+  "id": "operations/i33",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "d78150",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/8",
+    "duplicatePaths": [
+      "347/8"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "d78150"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "EVALUATION: UNPREDICTABLE You must discard the matching Allied card to do the Commercial Flight action to an Allied city. RESTRICTION",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-33.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "57 57 OPERATIONS 57",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-33.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

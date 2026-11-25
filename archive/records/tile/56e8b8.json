@@ -1,0 +1,33 @@
+{
+  "id": "tile/56e8b8",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "56e8b8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "96",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "56e8b8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SPY CAMERA\nAs an action, draw the City card matching your current city from the Player discard pile.",
+      "flavor": "",
+      "image": "media/original/c535f504ed196e9d58010f9a95b9e8b746044a45.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mod/incidents-c17585",
+  "printedCode": "Incidents",
+  "kind": "mesh",
+  "censusKey": "mod-extra",
+  "sourceGuid": "c17585",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/31",
+    "duplicatePaths": [],
+    "note": "Supply bag for the incidents.",
+    "guids": [
+      "c17585"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "token/incident-2",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/868d7bfbfc376825490ce526845a55a5f5ae2719.obj",
+    "diffuse": "media/original/d370b5f9c31eb762420a2318367dc911007545ec.jpg"
+  }
+}

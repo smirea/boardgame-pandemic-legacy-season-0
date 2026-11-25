@@ -1,0 +1,24 @@
+{
+  "id": "pawn/0.96-0.439-0.807",
+  "printedCode": null,
+  "kind": "pawn",
+  "censusKey": "pawn",
+  "sourceGuid": "e80c04",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "41",
+    "duplicatePaths": [],
+    "note": "Player pawn. TTS color (0.96, 0.439, 0.807).",
+    "guids": [
+      "e80c04"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

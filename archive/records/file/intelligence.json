@@ -1,0 +1,27 @@
+{
+  "id": "file/intelligence",
+  "printedCode": "Intelligence Folder",
+  "kind": "file",
+  "censusKey": "intelligence-file",
+  "sourceGuid": "ab3f6c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "57",
+    "duplicatePaths": [],
+    "note": "Intelligence file. Starts empty.",
+    "guids": [
+      "ab3f6c"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/bcb1b4b06415eadcd4691468e369028a4921c30a.obj",
+    "diffuse": "media/original/dee37bf43d7c2a9a3efebc8af8b539b318b96ead.jpg"
+  }
+}

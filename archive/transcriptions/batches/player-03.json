@@ -1,0 +1,226 @@
+{
+  "player/leningrad": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LENINGRAD\nSOVIET UNION\nEUROPE\n2",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/leopoldville": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LEOPOLDVILLE\nCONGO-LÉOPOLDVILLE\nAFRICA\n8",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/lima": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LIMA\nPERU\nSOUTH AMERICA\n7",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/london": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LONDON\nUNITED KINGDOM\nEUROPE\n7",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/los-angeles": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "LOS ANGELES\nUNITED STATES\nNORTH AMERICA\n8",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/madrid": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MADRID\nSPAIN\nEUROPE\n9",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/manila": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MANILA\nPHILIPPINES\nPACIFIC RIM\n9",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/mexico-city": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MEXICO CITY\nMEXICO\nNORTH AMERICA\n5",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/moscow": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MOSCOW\nSOVIET UNION\nEUROPE\n8",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/new-york": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "NEW YORK\nUNITED STATES\nNORTH AMERICA\n4",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/novosibirsk": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "NOVOSIBIRSK\nSOVIET UNION\nASIA\n9",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/osaka": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "OSAKA\nJAPAN\nPACIFIC RIM\n4",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/paris": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PARIS\nFRANCE\nEUROPE\n5",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/peking": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PEKING\nPEOPLE'S REPUBLIC OF CHINA\nASIA\n2",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/prague": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PRAGUE\nCZECHOSLOVAKIA\nEUROPE\n1",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "player/pyongyang": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PYONGYANG\nDPR KOREA\nASIA\n8",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  }
+}

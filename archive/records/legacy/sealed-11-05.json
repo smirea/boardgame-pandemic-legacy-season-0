@@ -1,0 +1,41 @@
+{
+  "id": "legacy/sealed-11-05",
+  "printedCode": "11-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "bc9bbc",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/11",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "bc9bbc"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "SABIK'S BRIEFING\n\"Good, that little deception I created paid off, and they think I'm dead. Definitely handle Doc Morris's two objectives; I'm all about stopping MEDUSA and LION'S TOOTH.\nHere's what she didn't tell you. She sent another team into PEARL last month and stole a virus called COdA. It's another bioweapon; the Soviets used it to give me this pretty face. Well, the CIA plans to experiment with it, and we can't let that happen. You need to get into the Langley restricted section and steal it.\"",
+      "flavor": "\"Good, that little deception I created paid off, and they think I'm dead. Definitely handle Doc Morris's two objectives; I'm all about stopping MEDUSA and LION'S TOOTH.\nHere's what she didn't tell you. She sent another team into PEARL last month and stole a virus called COdA. It's another bioweapon; the Soviets used it to give me this pretty face. Well, the CIA plans to experiment with it, and we can't let that happen. You need to get into the Langley restricted section and steal it.\"",
+      "image": "media/split/a3ad9647d9f9-11.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/0755b549db50-11.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

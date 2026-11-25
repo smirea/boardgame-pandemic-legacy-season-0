@@ -1,0 +1,4972 @@
+{
+  "records": [
+    {
+      "id": "alias/temporary-1",
+      "file": "records/alias/temporary-1.json"
+    },
+    {
+      "id": "alias/temporary-2",
+      "file": "records/alias/temporary-2.json"
+    },
+    {
+      "id": "alias/temporary-3",
+      "file": "records/alias/temporary-3.json"
+    },
+    {
+      "id": "alias/temporary-4",
+      "file": "records/alias/temporary-4.json"
+    },
+    {
+      "id": "board",
+      "file": "records/board.json"
+    },
+    {
+      "id": "box/0001",
+      "file": "records/box/0001.json"
+    },
+    {
+      "id": "box/0002",
+      "file": "records/box/0002.json"
+    },
+    {
+      "id": "box/0003",
+      "file": "records/box/0003.json"
+    },
+    {
+      "id": "box/0004",
+      "file": "records/box/0004.json"
+    },
+    {
+      "id": "box/0005",
+      "file": "records/box/0005.json"
+    },
+    {
+      "id": "box/0006",
+      "file": "records/box/0006.json"
+    },
+    {
+      "id": "box/0007",
+      "file": "records/box/0007.json"
+    },
+    {
+      "id": "box/0008",
+      "file": "records/box/0008.json"
+    },
+    {
+      "id": "debrief/100",
+      "file": "records/debrief/100.json"
+    },
+    {
+      "id": "debrief/101",
+      "file": "records/debrief/101.json"
+    },
+    {
+      "id": "debrief/102",
+      "file": "records/debrief/102.json"
+    },
+    {
+      "id": "debrief/103",
+      "file": "records/debrief/103.json"
+    },
+    {
+      "id": "debrief/104",
+      "file": "records/debrief/104.json"
+    },
+    {
+      "id": "debrief/105",
+      "file": "records/debrief/105.json"
+    },
+    {
+      "id": "debrief/106",
+      "file": "records/debrief/106.json"
+    },
+    {
+      "id": "debrief/107",
+      "file": "records/debrief/107.json"
+    },
+    {
+      "id": "debrief/108",
+      "file": "records/debrief/108.json"
+    },
+    {
+      "id": "debrief/109",
+      "file": "records/debrief/109.json"
+    },
+    {
+      "id": "debrief/110",
+      "file": "records/debrief/110.json"
+    },
+    {
+      "id": "debrief/111",
+      "file": "records/debrief/111.json"
+    },
+    {
+      "id": "debrief/112",
+      "file": "records/debrief/112.json"
+    },
+    {
+      "id": "debrief/113",
+      "file": "records/debrief/113.json"
+    },
+    {
+      "id": "debrief/114",
+      "file": "records/debrief/114.json"
+    },
+    {
+      "id": "debrief/115",
+      "file": "records/debrief/115.json"
+    },
+    {
+      "id": "debrief/116",
+      "file": "records/debrief/116.json"
+    },
+    {
+      "id": "debrief/117",
+      "file": "records/debrief/117.json"
+    },
+    {
+      "id": "debrief/118",
+      "file": "records/debrief/118.json"
+    },
+    {
+      "id": "debrief/119",
+      "file": "records/debrief/119.json"
+    },
+    {
+      "id": "debrief/120",
+      "file": "records/debrief/120.json"
+    },
+    {
+      "id": "debrief/121",
+      "file": "records/debrief/121.json"
+    },
+    {
+      "id": "debrief/122",
+      "file": "records/debrief/122.json"
+    },
+    {
+      "id": "debrief/123",
+      "file": "records/debrief/123.json"
+    },
+    {
+      "id": "debrief/124",
+      "file": "records/debrief/124.json"
+    },
+    {
+      "id": "debrief/125",
+      "file": "records/debrief/125.json"
+    },
+    {
+      "id": "debrief/126",
+      "file": "records/debrief/126.json"
+    },
+    {
+      "id": "debrief/127",
+      "file": "records/debrief/127.json"
+    },
+    {
+      "id": "debrief/128",
+      "file": "records/debrief/128.json"
+    },
+    {
+      "id": "debrief/129",
+      "file": "records/debrief/129.json"
+    },
+    {
+      "id": "debrief/130",
+      "file": "records/debrief/130.json"
+    },
+    {
+      "id": "debrief/131",
+      "file": "records/debrief/131.json"
+    },
+    {
+      "id": "debrief/132",
+      "file": "records/debrief/132.json"
+    },
+    {
+      "id": "debrief/133",
+      "file": "records/debrief/133.json"
+    },
+    {
+      "id": "debrief/134",
+      "file": "records/debrief/134.json"
+    },
+    {
+      "id": "debrief/135",
+      "file": "records/debrief/135.json"
+    },
+    {
+      "id": "debrief/136",
+      "file": "records/debrief/136.json"
+    },
+    {
+      "id": "debrief/137",
+      "file": "records/debrief/137.json"
+    },
+    {
+      "id": "debrief/138",
+      "file": "records/debrief/138.json"
+    },
+    {
+      "id": "debrief/139",
+      "file": "records/debrief/139.json"
+    },
+    {
+      "id": "debrief/140",
+      "file": "records/debrief/140.json"
+    },
+    {
+      "id": "debrief/141",
+      "file": "records/debrief/141.json"
+    },
+    {
+      "id": "debrief/142",
+      "file": "records/debrief/142.json"
+    },
+    {
+      "id": "debrief/143",
+      "file": "records/debrief/143.json"
+    },
+    {
+      "id": "debrief/144",
+      "file": "records/debrief/144.json"
+    },
+    {
+      "id": "debrief/145",
+      "file": "records/debrief/145.json"
+    },
+    {
+      "id": "debrief/146",
+      "file": "records/debrief/146.json"
+    },
+    {
+      "id": "debrief/147",
+      "file": "records/debrief/147.json"
+    },
+    {
+      "id": "debrief/148",
+      "file": "records/debrief/148.json"
+    },
+    {
+      "id": "debrief/149",
+      "file": "records/debrief/149.json"
+    },
+    {
+      "id": "debrief/150",
+      "file": "records/debrief/150.json"
+    },
+    {
+      "id": "debrief/151",
+      "file": "records/debrief/151.json"
+    },
+    {
+      "id": "debrief/152",
+      "file": "records/debrief/152.json"
+    },
+    {
+      "id": "debrief/153",
+      "file": "records/debrief/153.json"
+    },
+    {
+      "id": "debrief/154",
+      "file": "records/debrief/154.json"
+    },
+    {
+      "id": "debrief/155",
+      "file": "records/debrief/155.json"
+    },
+    {
+      "id": "debrief/156",
+      "file": "records/debrief/156.json"
+    },
+    {
+      "id": "debrief/157",
+      "file": "records/debrief/157.json"
+    },
+    {
+      "id": "debrief/158",
+      "file": "records/debrief/158.json"
+    },
+    {
+      "id": "debrief/159",
+      "file": "records/debrief/159.json"
+    },
+    {
+      "id": "debrief/160",
+      "file": "records/debrief/160.json"
+    },
+    {
+      "id": "debrief/161",
+      "file": "records/debrief/161.json"
+    },
+    {
+      "id": "debrief/162",
+      "file": "records/debrief/162.json"
+    },
+    {
+      "id": "debrief/163",
+      "file": "records/debrief/163.json"
+    },
+    {
+      "id": "debrief/164",
+      "file": "records/debrief/164.json"
+    },
+    {
+      "id": "debrief/165",
+      "file": "records/debrief/165.json"
+    },
+    {
+      "id": "debrief/166",
+      "file": "records/debrief/166.json"
+    },
+    {
+      "id": "debrief/167",
+      "file": "records/debrief/167.json"
+    },
+    {
+      "id": "debrief/168",
+      "file": "records/debrief/168.json"
+    },
+    {
+      "id": "debrief/169",
+      "file": "records/debrief/169.json"
+    },
+    {
+      "id": "debrief/170",
+      "file": "records/debrief/170.json"
+    },
+    {
+      "id": "debrief/171",
+      "file": "records/debrief/171.json"
+    },
+    {
+      "id": "debrief/172",
+      "file": "records/debrief/172.json"
+    },
+    {
+      "id": "debrief/173",
+      "file": "records/debrief/173.json"
+    },
+    {
+      "id": "debrief/174",
+      "file": "records/debrief/174.json"
+    },
+    {
+      "id": "debrief/175",
+      "file": "records/debrief/175.json"
+    },
+    {
+      "id": "debrief/176",
+      "file": "records/debrief/176.json"
+    },
+    {
+      "id": "debrief/177",
+      "file": "records/debrief/177.json"
+    },
+    {
+      "id": "debrief/178",
+      "file": "records/debrief/178.json"
+    },
+    {
+      "id": "debrief/179",
+      "file": "records/debrief/179.json"
+    },
+    {
+      "id": "debrief/180",
+      "file": "records/debrief/180.json"
+    },
+    {
+      "id": "debrief/181",
+      "file": "records/debrief/181.json"
+    },
+    {
+      "id": "debrief/182",
+      "file": "records/debrief/182.json"
+    },
+    {
+      "id": "debrief/183",
+      "file": "records/debrief/183.json"
+    },
+    {
+      "id": "debrief/184",
+      "file": "records/debrief/184.json"
+    },
+    {
+      "id": "debrief/185",
+      "file": "records/debrief/185.json"
+    },
+    {
+      "id": "debrief/186",
+      "file": "records/debrief/186.json"
+    },
+    {
+      "id": "debrief/187",
+      "file": "records/debrief/187.json"
+    },
+    {
+      "id": "debrief/188",
+      "file": "records/debrief/188.json"
+    },
+    {
+      "id": "debrief/189",
+      "file": "records/debrief/189.json"
+    },
+    {
+      "id": "debrief/190",
+      "file": "records/debrief/190.json"
+    },
+    {
+      "id": "debrief/191",
+      "file": "records/debrief/191.json"
+    },
+    {
+      "id": "debrief/192",
+      "file": "records/debrief/192.json"
+    },
+    {
+      "id": "debrief/193",
+      "file": "records/debrief/193.json"
+    },
+    {
+      "id": "debrief/194",
+      "file": "records/debrief/194.json"
+    },
+    {
+      "id": "debrief/195",
+      "file": "records/debrief/195.json"
+    },
+    {
+      "id": "debrief/196",
+      "file": "records/debrief/196.json"
+    },
+    {
+      "id": "debrief/197",
+      "file": "records/debrief/197.json"
+    },
+    {
+      "id": "debrief/198",
+      "file": "records/debrief/198.json"
+    },
+    {
+      "id": "debrief/199",
+      "file": "records/debrief/199.json"
+    },
+    {
+      "id": "debrief/200",
+      "file": "records/debrief/200.json"
+    },
+    {
+      "id": "debrief/201",
+      "file": "records/debrief/201.json"
+    },
+    {
+      "id": "debrief/202",
+      "file": "records/debrief/202.json"
+    },
+    {
+      "id": "debrief/203",
+      "file": "records/debrief/203.json"
+    },
+    {
+      "id": "debrief/204",
+      "file": "records/debrief/204.json"
+    },
+    {
+      "id": "debrief/205",
+      "file": "records/debrief/205.json"
+    },
+    {
+      "id": "debrief/206",
+      "file": "records/debrief/206.json"
+    },
+    {
+      "id": "debrief/207",
+      "file": "records/debrief/207.json"
+    },
+    {
+      "id": "debrief/208",
+      "file": "records/debrief/208.json"
+    },
+    {
+      "id": "debrief/209",
+      "file": "records/debrief/209.json"
+    },
+    {
+      "id": "debrief/210",
+      "file": "records/debrief/210.json"
+    },
+    {
+      "id": "debrief/211",
+      "file": "records/debrief/211.json"
+    },
+    {
+      "id": "debrief/212",
+      "file": "records/debrief/212.json"
+    },
+    {
+      "id": "debrief/213",
+      "file": "records/debrief/213.json"
+    },
+    {
+      "id": "debrief/214",
+      "file": "records/debrief/214.json"
+    },
+    {
+      "id": "debrief/215",
+      "file": "records/debrief/215.json"
+    },
+    {
+      "id": "debrief/216",
+      "file": "records/debrief/216.json"
+    },
+    {
+      "id": "debrief/217",
+      "file": "records/debrief/217.json"
+    },
+    {
+      "id": "debrief/218",
+      "file": "records/debrief/218.json"
+    },
+    {
+      "id": "debrief/219",
+      "file": "records/debrief/219.json"
+    },
+    {
+      "id": "debrief/220",
+      "file": "records/debrief/220.json"
+    },
+    {
+      "id": "debrief/221",
+      "file": "records/debrief/221.json"
+    },
+    {
+      "id": "debrief/222",
+      "file": "records/debrief/222.json"
+    },
+    {
+      "id": "debrief/223",
+      "file": "records/debrief/223.json"
+    },
+    {
+      "id": "debrief/224",
+      "file": "records/debrief/224.json"
+    },
+    {
+      "id": "debrief/225",
+      "file": "records/debrief/225.json"
+    },
+    {
+      "id": "debrief/226",
+      "file": "records/debrief/226.json"
+    },
+    {
+      "id": "debrief/227",
+      "file": "records/debrief/227.json"
+    },
+    {
+      "id": "debrief/228",
+      "file": "records/debrief/228.json"
+    },
+    {
+      "id": "debrief/229",
+      "file": "records/debrief/229.json"
+    },
+    {
+      "id": "debrief/230",
+      "file": "records/debrief/230.json"
+    },
+    {
+      "id": "debrief/231",
+      "file": "records/debrief/231.json"
+    },
+    {
+      "id": "debrief/232",
+      "file": "records/debrief/232.json"
+    },
+    {
+      "id": "debrief/233",
+      "file": "records/debrief/233.json"
+    },
+    {
+      "id": "debrief/234",
+      "file": "records/debrief/234.json"
+    },
+    {
+      "id": "debrief/235",
+      "file": "records/debrief/235.json"
+    },
+    {
+      "id": "debrief/236",
+      "file": "records/debrief/236.json"
+    },
+    {
+      "id": "debrief/237",
+      "file": "records/debrief/237.json"
+    },
+    {
+      "id": "debrief/238",
+      "file": "records/debrief/238.json"
+    },
+    {
+      "id": "debrief/239",
+      "file": "records/debrief/239.json"
+    },
+    {
+      "id": "debrief/240",
+      "file": "records/debrief/240.json"
+    },
+    {
+      "id": "debrief/241",
+      "file": "records/debrief/241.json"
+    },
+    {
+      "id": "debrief/242",
+      "file": "records/debrief/242.json"
+    },
+    {
+      "id": "debrief/243",
+      "file": "records/debrief/243.json"
+    },
+    {
+      "id": "debrief/244",
+      "file": "records/debrief/244.json"
+    },
+    {
+      "id": "debrief/245",
+      "file": "records/debrief/245.json"
+    },
+    {
+      "id": "debrief/246",
+      "file": "records/debrief/246.json"
+    },
+    {
+      "id": "debrief/247",
+      "file": "records/debrief/247.json"
+    },
+    {
+      "id": "debrief/248",
+      "file": "records/debrief/248.json"
+    },
+    {
+      "id": "debrief/249",
+      "file": "records/debrief/249.json"
+    },
+    {
+      "id": "debrief/250",
+      "file": "records/debrief/250.json"
+    },
+    {
+      "id": "debrief/251",
+      "file": "records/debrief/251.json"
+    },
+    {
+      "id": "debrief/252",
+      "file": "records/debrief/252.json"
+    },
+    {
+      "id": "debrief/book",
+      "file": "records/debrief/book.json"
+    },
+    {
+      "id": "debrief/index",
+      "file": "records/debrief/index.json"
+    },
+    {
+      "id": "deck/3ad2e3",
+      "file": "records/deck/3ad2e3.json"
+    },
+    {
+      "id": "deck/legacy-part-1",
+      "file": "records/deck/legacy-part-1.json"
+    },
+    {
+      "id": "deck/legacy-part-2",
+      "file": "records/deck/legacy-part-2.json"
+    },
+    {
+      "id": "deck/legacy-sealed",
+      "file": "records/deck/legacy-sealed.json"
+    },
+    {
+      "id": "deck/operations-deck",
+      "file": "records/deck/operations-deck.json"
+    },
+    {
+      "id": "deck/player-cards",
+      "file": "records/deck/player-cards.json"
+    },
+    {
+      "id": "deck/player-cards-2",
+      "file": "records/deck/player-cards-2.json"
+    },
+    {
+      "id": "deck/temporary-aliases",
+      "file": "records/deck/temporary-aliases.json"
+    },
+    {
+      "id": "deck/threat-cards",
+      "file": "records/deck/threat-cards.json"
+    },
+    {
+      "id": "door/11",
+      "file": "records/door/11.json"
+    },
+    {
+      "id": "door/12",
+      "file": "records/door/12.json"
+    },
+    {
+      "id": "door/13",
+      "file": "records/door/13.json"
+    },
+    {
+      "id": "door/14",
+      "file": "records/door/14.json"
+    },
+    {
+      "id": "door/15",
+      "file": "records/door/15.json"
+    },
+    {
+      "id": "door/16",
+      "file": "records/door/16.json"
+    },
+    {
+      "id": "door/17",
+      "file": "records/door/17.json"
+    },
+    {
+      "id": "door/18",
+      "file": "records/door/18.json"
+    },
+    {
+      "id": "door/19",
+      "file": "records/door/19.json"
+    },
+    {
+      "id": "door/20",
+      "file": "records/door/20.json"
+    },
+    {
+      "id": "door/21",
+      "file": "records/door/21.json"
+    },
+    {
+      "id": "door/22",
+      "file": "records/door/22.json"
+    },
+    {
+      "id": "door/23",
+      "file": "records/door/23.json"
+    },
+    {
+      "id": "door/24",
+      "file": "records/door/24.json"
+    },
+    {
+      "id": "door/25",
+      "file": "records/door/25.json"
+    },
+    {
+      "id": "door/26",
+      "file": "records/door/26.json"
+    },
+    {
+      "id": "door/27",
+      "file": "records/door/27.json"
+    },
+    {
+      "id": "door/28",
+      "file": "records/door/28.json"
+    },
+    {
+      "id": "door/29",
+      "file": "records/door/29.json"
+    },
+    {
+      "id": "door/30",
+      "file": "records/door/30.json"
+    },
+    {
+      "id": "door/35",
+      "file": "records/door/35.json"
+    },
+    {
+      "id": "door/36",
+      "file": "records/door/36.json"
+    },
+    {
+      "id": "door/37",
+      "file": "records/door/37.json"
+    },
+    {
+      "id": "door/38",
+      "file": "records/door/38.json"
+    },
+    {
+      "id": "door/39",
+      "file": "records/door/39.json"
+    },
+    {
+      "id": "door/40",
+      "file": "records/door/40.json"
+    },
+    {
+      "id": "door/41",
+      "file": "records/door/41.json"
+    },
+    {
+      "id": "door/42",
+      "file": "records/door/42.json"
+    },
+    {
+      "id": "door/43",
+      "file": "records/door/43.json"
+    },
+    {
+      "id": "door/44",
+      "file": "records/door/44.json"
+    },
+    {
+      "id": "door/46",
+      "file": "records/door/46.json"
+    },
+    {
+      "id": "door/47",
+      "file": "records/door/47.json"
+    },
+    {
+      "id": "door/A",
+      "file": "records/door/A.json"
+    },
+    {
+      "id": "door/C",
+      "file": "records/door/C.json"
+    },
+    {
+      "id": "door/F",
+      "file": "records/door/F.json"
+    },
+    {
+      "id": "door/G",
+      "file": "records/door/G.json"
+    },
+    {
+      "id": "door/H",
+      "file": "records/door/H.json"
+    },
+    {
+      "id": "door/J",
+      "file": "records/door/J.json"
+    },
+    {
+      "id": "door/L",
+      "file": "records/door/L.json"
+    },
+    {
+      "id": "door/O",
+      "file": "records/door/O.json"
+    },
+    {
+      "id": "door/S",
+      "file": "records/door/S.json"
+    },
+    {
+      "id": "door/T",
+      "file": "records/door/T.json"
+    },
+    {
+      "id": "door/U",
+      "file": "records/door/U.json"
+    },
+    {
+      "id": "dossier/1",
+      "file": "records/dossier/1.json"
+    },
+    {
+      "id": "dossier/2",
+      "file": "records/dossier/2.json"
+    },
+    {
+      "id": "dossier/3",
+      "file": "records/dossier/3.json"
+    },
+    {
+      "id": "event/a-holdover-from-the-war",
+      "file": "records/event/a-holdover-from-the-war.json"
+    },
+    {
+      "id": "event/airlift",
+      "file": "records/event/airlift.json"
+    },
+    {
+      "id": "event/counter-intelligence",
+      "file": "records/event/counter-intelligence.json"
+    },
+    {
+      "id": "event/cover-of-darkness",
+      "file": "records/event/cover-of-darkness.json"
+    },
+    {
+      "id": "event/forecast",
+      "file": "records/event/forecast.json"
+    },
+    {
+      "id": "file/intelligence",
+      "file": "records/file/intelligence.json"
+    },
+    {
+      "id": "file/personnel",
+      "file": "records/file/personnel.json"
+    },
+    {
+      "id": "legacy/00-01",
+      "file": "records/legacy/00-01.json"
+    },
+    {
+      "id": "legacy/00-02",
+      "file": "records/legacy/00-02.json"
+    },
+    {
+      "id": "legacy/00-03",
+      "file": "records/legacy/00-03.json"
+    },
+    {
+      "id": "legacy/00-04",
+      "file": "records/legacy/00-04.json"
+    },
+    {
+      "id": "legacy/00-05",
+      "file": "records/legacy/00-05.json"
+    },
+    {
+      "id": "legacy/01-01",
+      "file": "records/legacy/01-01.json"
+    },
+    {
+      "id": "legacy/01-02",
+      "file": "records/legacy/01-02.json"
+    },
+    {
+      "id": "legacy/01-03",
+      "file": "records/legacy/01-03.json"
+    },
+    {
+      "id": "legacy/01-04",
+      "file": "records/legacy/01-04.json"
+    },
+    {
+      "id": "legacy/01-05",
+      "file": "records/legacy/01-05.json"
+    },
+    {
+      "id": "legacy/01-06",
+      "file": "records/legacy/01-06.json"
+    },
+    {
+      "id": "legacy/01-07",
+      "file": "records/legacy/01-07.json"
+    },
+    {
+      "id": "legacy/01-08",
+      "file": "records/legacy/01-08.json"
+    },
+    {
+      "id": "legacy/01-09",
+      "file": "records/legacy/01-09.json"
+    },
+    {
+      "id": "legacy/01-10",
+      "file": "records/legacy/01-10.json"
+    },
+    {
+      "id": "legacy/02-01",
+      "file": "records/legacy/02-01.json"
+    },
+    {
+      "id": "legacy/02-02",
+      "file": "records/legacy/02-02.json"
+    },
+    {
+      "id": "legacy/02-03",
+      "file": "records/legacy/02-03.json"
+    },
+    {
+      "id": "legacy/02-04",
+      "file": "records/legacy/02-04.json"
+    },
+    {
+      "id": "legacy/02-05",
+      "file": "records/legacy/02-05.json"
+    },
+    {
+      "id": "legacy/02-06",
+      "file": "records/legacy/02-06.json"
+    },
+    {
+      "id": "legacy/02-07",
+      "file": "records/legacy/02-07.json"
+    },
+    {
+      "id": "legacy/02-08",
+      "file": "records/legacy/02-08.json"
+    },
+    {
+      "id": "legacy/02-09",
+      "file": "records/legacy/02-09.json"
+    },
+    {
+      "id": "legacy/02-10",
+      "file": "records/legacy/02-10.json"
+    },
+    {
+      "id": "legacy/03-01",
+      "file": "records/legacy/03-01.json"
+    },
+    {
+      "id": "legacy/03-02",
+      "file": "records/legacy/03-02.json"
+    },
+    {
+      "id": "legacy/03-03",
+      "file": "records/legacy/03-03.json"
+    },
+    {
+      "id": "legacy/03-04",
+      "file": "records/legacy/03-04.json"
+    },
+    {
+      "id": "legacy/03-05",
+      "file": "records/legacy/03-05.json"
+    },
+    {
+      "id": "legacy/03-06",
+      "file": "records/legacy/03-06.json"
+    },
+    {
+      "id": "legacy/03-07",
+      "file": "records/legacy/03-07.json"
+    },
+    {
+      "id": "legacy/03-08",
+      "file": "records/legacy/03-08.json"
+    },
+    {
+      "id": "legacy/03-09",
+      "file": "records/legacy/03-09.json"
+    },
+    {
+      "id": "legacy/04-01",
+      "file": "records/legacy/04-01.json"
+    },
+    {
+      "id": "legacy/04-02",
+      "file": "records/legacy/04-02.json"
+    },
+    {
+      "id": "legacy/04-03",
+      "file": "records/legacy/04-03.json"
+    },
+    {
+      "id": "legacy/04-04",
+      "file": "records/legacy/04-04.json"
+    },
+    {
+      "id": "legacy/04-05",
+      "file": "records/legacy/04-05.json"
+    },
+    {
+      "id": "legacy/04-06",
+      "file": "records/legacy/04-06.json"
+    },
+    {
+      "id": "legacy/04-07",
+      "file": "records/legacy/04-07.json"
+    },
+    {
+      "id": "legacy/04-08",
+      "file": "records/legacy/04-08.json"
+    },
+    {
+      "id": "legacy/04-09",
+      "file": "records/legacy/04-09.json"
+    },
+    {
+      "id": "legacy/04-10",
+      "file": "records/legacy/04-10.json"
+    },
+    {
+      "id": "legacy/04-11",
+      "file": "records/legacy/04-11.json"
+    },
+    {
+      "id": "legacy/04-12",
+      "file": "records/legacy/04-12.json"
+    },
+    {
+      "id": "legacy/04-13",
+      "file": "records/legacy/04-13.json"
+    },
+    {
+      "id": "legacy/04-14",
+      "file": "records/legacy/04-14.json"
+    },
+    {
+      "id": "legacy/04-15",
+      "file": "records/legacy/04-15.json"
+    },
+    {
+      "id": "legacy/04-16",
+      "file": "records/legacy/04-16.json"
+    },
+    {
+      "id": "legacy/04-17",
+      "file": "records/legacy/04-17.json"
+    },
+    {
+      "id": "legacy/04-18",
+      "file": "records/legacy/04-18.json"
+    },
+    {
+      "id": "legacy/04-19",
+      "file": "records/legacy/04-19.json"
+    },
+    {
+      "id": "legacy/04-20",
+      "file": "records/legacy/04-20.json"
+    },
+    {
+      "id": "legacy/04-21",
+      "file": "records/legacy/04-21.json"
+    },
+    {
+      "id": "legacy/04-22",
+      "file": "records/legacy/04-22.json"
+    },
+    {
+      "id": "legacy/04-23",
+      "file": "records/legacy/04-23.json"
+    },
+    {
+      "id": "legacy/05-01",
+      "file": "records/legacy/05-01.json"
+    },
+    {
+      "id": "legacy/05-02",
+      "file": "records/legacy/05-02.json"
+    },
+    {
+      "id": "legacy/05-03",
+      "file": "records/legacy/05-03.json"
+    },
+    {
+      "id": "legacy/05-04",
+      "file": "records/legacy/05-04.json"
+    },
+    {
+      "id": "legacy/05-05",
+      "file": "records/legacy/05-05.json"
+    },
+    {
+      "id": "legacy/05-06",
+      "file": "records/legacy/05-06.json"
+    },
+    {
+      "id": "legacy/05-07",
+      "file": "records/legacy/05-07.json"
+    },
+    {
+      "id": "legacy/05-08",
+      "file": "records/legacy/05-08.json"
+    },
+    {
+      "id": "legacy/05-09",
+      "file": "records/legacy/05-09.json"
+    },
+    {
+      "id": "legacy/06-01",
+      "file": "records/legacy/06-01.json"
+    },
+    {
+      "id": "legacy/06-02",
+      "file": "records/legacy/06-02.json"
+    },
+    {
+      "id": "legacy/06-03",
+      "file": "records/legacy/06-03.json"
+    },
+    {
+      "id": "legacy/06-04",
+      "file": "records/legacy/06-04.json"
+    },
+    {
+      "id": "legacy/06-05",
+      "file": "records/legacy/06-05.json"
+    },
+    {
+      "id": "legacy/06-06",
+      "file": "records/legacy/06-06.json"
+    },
+    {
+      "id": "legacy/06-07",
+      "file": "records/legacy/06-07.json"
+    },
+    {
+      "id": "legacy/06-08",
+      "file": "records/legacy/06-08.json"
+    },
+    {
+      "id": "legacy/06-09",
+      "file": "records/legacy/06-09.json"
+    },
+    {
+      "id": "legacy/06-10",
+      "file": "records/legacy/06-10.json"
+    },
+    {
+      "id": "legacy/06-11",
+      "file": "records/legacy/06-11.json"
+    },
+    {
+      "id": "legacy/06-12",
+      "file": "records/legacy/06-12.json"
+    },
+    {
+      "id": "legacy/06-13",
+      "file": "records/legacy/06-13.json"
+    },
+    {
+      "id": "legacy/06-14",
+      "file": "records/legacy/06-14.json"
+    },
+    {
+      "id": "legacy/07-01",
+      "file": "records/legacy/07-01.json"
+    },
+    {
+      "id": "legacy/07-02",
+      "file": "records/legacy/07-02.json"
+    },
+    {
+      "id": "legacy/07-03",
+      "file": "records/legacy/07-03.json"
+    },
+    {
+      "id": "legacy/07-04",
+      "file": "records/legacy/07-04.json"
+    },
+    {
+      "id": "legacy/07-05",
+      "file": "records/legacy/07-05.json"
+    },
+    {
+      "id": "legacy/07-06",
+      "file": "records/legacy/07-06.json"
+    },
+    {
+      "id": "legacy/07-07",
+      "file": "records/legacy/07-07.json"
+    },
+    {
+      "id": "legacy/08-01",
+      "file": "records/legacy/08-01.json"
+    },
+    {
+      "id": "legacy/08-02",
+      "file": "records/legacy/08-02.json"
+    },
+    {
+      "id": "legacy/08-03",
+      "file": "records/legacy/08-03.json"
+    },
+    {
+      "id": "legacy/08-04",
+      "file": "records/legacy/08-04.json"
+    },
+    {
+      "id": "legacy/08-05",
+      "file": "records/legacy/08-05.json"
+    },
+    {
+      "id": "legacy/08-06",
+      "file": "records/legacy/08-06.json"
+    },
+    {
+      "id": "legacy/08-07",
+      "file": "records/legacy/08-07.json"
+    },
+    {
+      "id": "legacy/08-08",
+      "file": "records/legacy/08-08.json"
+    },
+    {
+      "id": "legacy/08-09",
+      "file": "records/legacy/08-09.json"
+    },
+    {
+      "id": "legacy/08-10",
+      "file": "records/legacy/08-10.json"
+    },
+    {
+      "id": "legacy/08-11",
+      "file": "records/legacy/08-11.json"
+    },
+    {
+      "id": "legacy/09-01",
+      "file": "records/legacy/09-01.json"
+    },
+    {
+      "id": "legacy/09-02",
+      "file": "records/legacy/09-02.json"
+    },
+    {
+      "id": "legacy/09-03",
+      "file": "records/legacy/09-03.json"
+    },
+    {
+      "id": "legacy/09-04",
+      "file": "records/legacy/09-04.json"
+    },
+    {
+      "id": "legacy/09-05",
+      "file": "records/legacy/09-05.json"
+    },
+    {
+      "id": "legacy/09-06",
+      "file": "records/legacy/09-06.json"
+    },
+    {
+      "id": "legacy/09-07",
+      "file": "records/legacy/09-07.json"
+    },
+    {
+      "id": "legacy/09-08",
+      "file": "records/legacy/09-08.json"
+    },
+    {
+      "id": "legacy/09-09",
+      "file": "records/legacy/09-09.json"
+    },
+    {
+      "id": "legacy/09-10",
+      "file": "records/legacy/09-10.json"
+    },
+    {
+      "id": "legacy/09-11",
+      "file": "records/legacy/09-11.json"
+    },
+    {
+      "id": "legacy/09-12",
+      "file": "records/legacy/09-12.json"
+    },
+    {
+      "id": "legacy/09-13",
+      "file": "records/legacy/09-13.json"
+    },
+    {
+      "id": "legacy/10-01",
+      "file": "records/legacy/10-01.json"
+    },
+    {
+      "id": "legacy/10-02",
+      "file": "records/legacy/10-02.json"
+    },
+    {
+      "id": "legacy/10-03",
+      "file": "records/legacy/10-03.json"
+    },
+    {
+      "id": "legacy/10-04",
+      "file": "records/legacy/10-04.json"
+    },
+    {
+      "id": "legacy/10-05",
+      "file": "records/legacy/10-05.json"
+    },
+    {
+      "id": "legacy/10-06",
+      "file": "records/legacy/10-06.json"
+    },
+    {
+      "id": "legacy/11-01",
+      "file": "records/legacy/11-01.json"
+    },
+    {
+      "id": "legacy/11-02",
+      "file": "records/legacy/11-02.json"
+    },
+    {
+      "id": "legacy/11-03",
+      "file": "records/legacy/11-03.json"
+    },
+    {
+      "id": "legacy/11-04",
+      "file": "records/legacy/11-04.json"
+    },
+    {
+      "id": "legacy/11-05",
+      "file": "records/legacy/11-05.json"
+    },
+    {
+      "id": "legacy/11-06",
+      "file": "records/legacy/11-06.json"
+    },
+    {
+      "id": "legacy/11-07",
+      "file": "records/legacy/11-07.json"
+    },
+    {
+      "id": "legacy/12-01",
+      "file": "records/legacy/12-01.json"
+    },
+    {
+      "id": "legacy/12-02",
+      "file": "records/legacy/12-02.json"
+    },
+    {
+      "id": "legacy/12-03",
+      "file": "records/legacy/12-03.json"
+    },
+    {
+      "id": "legacy/12-04",
+      "file": "records/legacy/12-04.json"
+    },
+    {
+      "id": "legacy/12-05",
+      "file": "records/legacy/12-05.json"
+    },
+    {
+      "id": "legacy/12-06",
+      "file": "records/legacy/12-06.json"
+    },
+    {
+      "id": "legacy/12-07",
+      "file": "records/legacy/12-07.json"
+    },
+    {
+      "id": "legacy/12-08",
+      "file": "records/legacy/12-08.json"
+    },
+    {
+      "id": "legacy/end-of-legacy-deck",
+      "file": "records/legacy/end-of-legacy-deck.json"
+    },
+    {
+      "id": "legacy/end-of-part-1",
+      "file": "records/legacy/end-of-part-1.json"
+    },
+    {
+      "id": "legacy/sealed-11-01",
+      "file": "records/legacy/sealed-11-01.json"
+    },
+    {
+      "id": "legacy/sealed-11-02",
+      "file": "records/legacy/sealed-11-02.json"
+    },
+    {
+      "id": "legacy/sealed-11-03",
+      "file": "records/legacy/sealed-11-03.json"
+    },
+    {
+      "id": "legacy/sealed-11-04",
+      "file": "records/legacy/sealed-11-04.json"
+    },
+    {
+      "id": "legacy/sealed-11-05",
+      "file": "records/legacy/sealed-11-05.json"
+    },
+    {
+      "id": "legacy/sealed-11-06",
+      "file": "records/legacy/sealed-11-06.json"
+    },
+    {
+      "id": "legacy/sealed-11-07",
+      "file": "records/legacy/sealed-11-07.json"
+    },
+    {
+      "id": "legacy/sealed-12-01",
+      "file": "records/legacy/sealed-12-01.json"
+    },
+    {
+      "id": "legacy/sealed-12-02",
+      "file": "records/legacy/sealed-12-02.json"
+    },
+    {
+      "id": "legacy/sealed-12-03",
+      "file": "records/legacy/sealed-12-03.json"
+    },
+    {
+      "id": "legacy/sealed-12-04",
+      "file": "records/legacy/sealed-12-04.json"
+    },
+    {
+      "id": "legacy/sealed-12-05",
+      "file": "records/legacy/sealed-12-05.json"
+    },
+    {
+      "id": "legacy/sealed-12-06",
+      "file": "records/legacy/sealed-12-06.json"
+    },
+    {
+      "id": "legacy/sealed-12-07",
+      "file": "records/legacy/sealed-12-07.json"
+    },
+    {
+      "id": "legacy/sealed-12-08",
+      "file": "records/legacy/sealed-12-08.json"
+    },
+    {
+      "id": "legacy/sealed-end-of-legacy-deck",
+      "file": "records/legacy/sealed-end-of-legacy-deck.json"
+    },
+    {
+      "id": "mod/0003-743a56",
+      "file": "records/mod/0003-743a56.json"
+    },
+    {
+      "id": "mod/0003-efc514",
+      "file": "records/mod/0003-efc514.json"
+    },
+    {
+      "id": "mod/agents-fbe908",
+      "file": "records/mod/agents-fbe908.json"
+    },
+    {
+      "id": "mod/blockrectangle-070b27",
+      "file": "records/mod/blockrectangle-070b27.json"
+    },
+    {
+      "id": "mod/blockrectangle-23cda4",
+      "file": "records/mod/blockrectangle-23cda4.json"
+    },
+    {
+      "id": "mod/blockrectangle-382b54",
+      "file": "records/mod/blockrectangle-382b54.json"
+    },
+    {
+      "id": "mod/blockrectangle-3cb94a",
+      "file": "records/mod/blockrectangle-3cb94a.json"
+    },
+    {
+      "id": "mod/blockrectangle-48a12e",
+      "file": "records/mod/blockrectangle-48a12e.json"
+    },
+    {
+      "id": "mod/blockrectangle-5c75f2",
+      "file": "records/mod/blockrectangle-5c75f2.json"
+    },
+    {
+      "id": "mod/blockrectangle-6aaab9",
+      "file": "records/mod/blockrectangle-6aaab9.json"
+    },
+    {
+      "id": "mod/blockrectangle-6b1601",
+      "file": "records/mod/blockrectangle-6b1601.json"
+    },
+    {
+      "id": "mod/blockrectangle-7fc480",
+      "file": "records/mod/blockrectangle-7fc480.json"
+    },
+    {
+      "id": "mod/blockrectangle-86988a",
+      "file": "records/mod/blockrectangle-86988a.json"
+    },
+    {
+      "id": "mod/blockrectangle-8fc5db",
+      "file": "records/mod/blockrectangle-8fc5db.json"
+    },
+    {
+      "id": "mod/blockrectangle-a0af1c",
+      "file": "records/mod/blockrectangle-a0af1c.json"
+    },
+    {
+      "id": "mod/blockrectangle-caed3e",
+      "file": "records/mod/blockrectangle-caed3e.json"
+    },
+    {
+      "id": "mod/blockrectangle-eaadbf",
+      "file": "records/mod/blockrectangle-eaadbf.json"
+    },
+    {
+      "id": "mod/blockrectangle-fcb63a",
+      "file": "records/mod/blockrectangle-fcb63a.json"
+    },
+    {
+      "id": "mod/blocksquare-088170",
+      "file": "records/mod/blocksquare-088170.json"
+    },
+    {
+      "id": "mod/blocksquare-08e717",
+      "file": "records/mod/blocksquare-08e717.json"
+    },
+    {
+      "id": "mod/blocksquare-0a0d00",
+      "file": "records/mod/blocksquare-0a0d00.json"
+    },
+    {
+      "id": "mod/blocksquare-196f36",
+      "file": "records/mod/blocksquare-196f36.json"
+    },
+    {
+      "id": "mod/blocksquare-23ad11",
+      "file": "records/mod/blocksquare-23ad11.json"
+    },
+    {
+      "id": "mod/blocksquare-25e958",
+      "file": "records/mod/blocksquare-25e958.json"
+    },
+    {
+      "id": "mod/blocksquare-27acbe",
+      "file": "records/mod/blocksquare-27acbe.json"
+    },
+    {
+      "id": "mod/blocksquare-2a9c99",
+      "file": "records/mod/blocksquare-2a9c99.json"
+    },
+    {
+      "id": "mod/blocksquare-2fba07",
+      "file": "records/mod/blocksquare-2fba07.json"
+    },
+    {
+      "id": "mod/blocksquare-37c278",
+      "file": "records/mod/blocksquare-37c278.json"
+    },
+    {
+      "id": "mod/blocksquare-7a165a",
+      "file": "records/mod/blocksquare-7a165a.json"
+    },
+    {
+      "id": "mod/blocksquare-7ca46f",
+      "file": "records/mod/blocksquare-7ca46f.json"
+    },
+    {
+      "id": "mod/blocksquare-887240",
+      "file": "records/mod/blocksquare-887240.json"
+    },
+    {
+      "id": "mod/blocksquare-8fe833",
+      "file": "records/mod/blocksquare-8fe833.json"
+    },
+    {
+      "id": "mod/blocksquare-a475c3",
+      "file": "records/mod/blocksquare-a475c3.json"
+    },
+    {
+      "id": "mod/blocksquare-a942e1",
+      "file": "records/mod/blocksquare-a942e1.json"
+    },
+    {
+      "id": "mod/blocksquare-a998bb",
+      "file": "records/mod/blocksquare-a998bb.json"
+    },
+    {
+      "id": "mod/blocksquare-b54dea",
+      "file": "records/mod/blocksquare-b54dea.json"
+    },
+    {
+      "id": "mod/blocksquare-bd79cf",
+      "file": "records/mod/blocksquare-bd79cf.json"
+    },
+    {
+      "id": "mod/blocksquare-c4977b",
+      "file": "records/mod/blocksquare-c4977b.json"
+    },
+    {
+      "id": "mod/blocksquare-c882ae",
+      "file": "records/mod/blocksquare-c882ae.json"
+    },
+    {
+      "id": "mod/blocksquare-d15c52",
+      "file": "records/mod/blocksquare-d15c52.json"
+    },
+    {
+      "id": "mod/blocksquare-d405fd",
+      "file": "records/mod/blocksquare-d405fd.json"
+    },
+    {
+      "id": "mod/blocksquare-eab441",
+      "file": "records/mod/blocksquare-eab441.json"
+    },
+    {
+      "id": "mod/blocksquare-eabd08",
+      "file": "records/mod/blocksquare-eabd08.json"
+    },
+    {
+      "id": "mod/blocksquare-fa0655",
+      "file": "records/mod/blocksquare-fa0655.json"
+    },
+    {
+      "id": "mod/blocksquare-fd5d1e",
+      "file": "records/mod/blocksquare-fd5d1e.json"
+    },
+    {
+      "id": "mod/blocksquare-ff9454",
+      "file": "records/mod/blocksquare-ff9454.json"
+    },
+    {
+      "id": "mod/handtrigger-0c5e99",
+      "file": "records/mod/handtrigger-0c5e99.json"
+    },
+    {
+      "id": "mod/handtrigger-3cf5ff",
+      "file": "records/mod/handtrigger-3cf5ff.json"
+    },
+    {
+      "id": "mod/handtrigger-3f13c2",
+      "file": "records/mod/handtrigger-3f13c2.json"
+    },
+    {
+      "id": "mod/handtrigger-72ae4b",
+      "file": "records/mod/handtrigger-72ae4b.json"
+    },
+    {
+      "id": "mod/incidents-98a304",
+      "file": "records/mod/incidents-98a304.json"
+    },
+    {
+      "id": "mod/incidents-c17585",
+      "file": "records/mod/incidents-c17585.json"
+    },
+    {
+      "id": "mod/introduction",
+      "file": "records/mod/introduction.json"
+    },
+    {
+      "id": "mod/modding-utilities-6b0c01",
+      "file": "records/mod/modding-utilities-6b0c01.json"
+    },
+    {
+      "id": "mod/model-0c7e07",
+      "file": "records/mod/model-0c7e07.json"
+    },
+    {
+      "id": "mod/model-6fb3f7",
+      "file": "records/mod/model-6fb3f7.json"
+    },
+    {
+      "id": "mod/model-d3e0e9",
+      "file": "records/mod/model-d3e0e9.json"
+    },
+    {
+      "id": "mod/rules-after",
+      "file": "records/mod/rules-after.json"
+    },
+    {
+      "id": "mod/rules-book",
+      "file": "records/mod/rules-book.json"
+    },
+    {
+      "id": "mod/rules-incidents",
+      "file": "records/mod/rules-incidents.json"
+    },
+    {
+      "id": "mod/rules-setup",
+      "file": "records/mod/rules-setup.json"
+    },
+    {
+      "id": "mod/rules-targets",
+      "file": "records/mod/rules-targets.json"
+    },
+    {
+      "id": "mod/rules-turns",
+      "file": "records/mod/rules-turns.json"
+    },
+    {
+      "id": "mod/safehouses-99865c",
+      "file": "records/mod/safehouses-99865c.json"
+    },
+    {
+      "id": "mod/sky",
+      "file": "records/mod/sky.json"
+    },
+    {
+      "id": "note/read-me",
+      "file": "records/note/read-me.json"
+    },
+    {
+      "id": "note/read-me-2",
+      "file": "records/note/read-me-2.json"
+    },
+    {
+      "id": "note/read-me-3",
+      "file": "records/note/read-me-3.json"
+    },
+    {
+      "id": "note/read-me-4",
+      "file": "records/note/read-me-4.json"
+    },
+    {
+      "id": "note/read-me-5",
+      "file": "records/note/read-me-5.json"
+    },
+    {
+      "id": "note/read-me-6",
+      "file": "records/note/read-me-6.json"
+    },
+    {
+      "id": "note/read-me-7",
+      "file": "records/note/read-me-7.json"
+    },
+    {
+      "id": "note/read-me-8",
+      "file": "records/note/read-me-8.json"
+    },
+    {
+      "id": "note/read-me-9",
+      "file": "records/note/read-me-9.json"
+    },
+    {
+      "id": "operations/i00",
+      "file": "records/operations/i00.json"
+    },
+    {
+      "id": "operations/i06",
+      "file": "records/operations/i06.json"
+    },
+    {
+      "id": "operations/i07",
+      "file": "records/operations/i07.json"
+    },
+    {
+      "id": "operations/i08",
+      "file": "records/operations/i08.json"
+    },
+    {
+      "id": "operations/i09",
+      "file": "records/operations/i09.json"
+    },
+    {
+      "id": "operations/i10",
+      "file": "records/operations/i10.json"
+    },
+    {
+      "id": "operations/i11",
+      "file": "records/operations/i11.json"
+    },
+    {
+      "id": "operations/i12",
+      "file": "records/operations/i12.json"
+    },
+    {
+      "id": "operations/i13",
+      "file": "records/operations/i13.json"
+    },
+    {
+      "id": "operations/i14",
+      "file": "records/operations/i14.json"
+    },
+    {
+      "id": "operations/i15",
+      "file": "records/operations/i15.json"
+    },
+    {
+      "id": "operations/i16",
+      "file": "records/operations/i16.json"
+    },
+    {
+      "id": "operations/i17",
+      "file": "records/operations/i17.json"
+    },
+    {
+      "id": "operations/i18",
+      "file": "records/operations/i18.json"
+    },
+    {
+      "id": "operations/i19",
+      "file": "records/operations/i19.json"
+    },
+    {
+      "id": "operations/i20",
+      "file": "records/operations/i20.json"
+    },
+    {
+      "id": "operations/i21",
+      "file": "records/operations/i21.json"
+    },
+    {
+      "id": "operations/i22",
+      "file": "records/operations/i22.json"
+    },
+    {
+      "id": "operations/i23",
+      "file": "records/operations/i23.json"
+    },
+    {
+      "id": "operations/i24",
+      "file": "records/operations/i24.json"
+    },
+    {
+      "id": "operations/i25",
+      "file": "records/operations/i25.json"
+    },
+    {
+      "id": "operations/i26",
+      "file": "records/operations/i26.json"
+    },
+    {
+      "id": "operations/i27",
+      "file": "records/operations/i27.json"
+    },
+    {
+      "id": "operations/i28",
+      "file": "records/operations/i28.json"
+    },
+    {
+      "id": "operations/i29",
+      "file": "records/operations/i29.json"
+    },
+    {
+      "id": "operations/i30",
+      "file": "records/operations/i30.json"
+    },
+    {
+      "id": "operations/i31",
+      "file": "records/operations/i31.json"
+    },
+    {
+      "id": "operations/i32",
+      "file": "records/operations/i32.json"
+    },
+    {
+      "id": "operations/i33",
+      "file": "records/operations/i33.json"
+    },
+    {
+      "id": "operations/i34",
+      "file": "records/operations/i34.json"
+    },
+    {
+      "id": "operations/i35",
+      "file": "records/operations/i35.json"
+    },
+    {
+      "id": "operations/i36",
+      "file": "records/operations/i36.json"
+    },
+    {
+      "id": "operations/i37",
+      "file": "records/operations/i37.json"
+    },
+    {
+      "id": "operations/i38",
+      "file": "records/operations/i38.json"
+    },
+    {
+      "id": "operations/i39",
+      "file": "records/operations/i39.json"
+    },
+    {
+      "id": "operations/i40",
+      "file": "records/operations/i40.json"
+    },
+    {
+      "id": "operations/i41",
+      "file": "records/operations/i41.json"
+    },
+    {
+      "id": "operations/ops-85f",
+      "file": "records/operations/ops-85f.json"
+    },
+    {
+      "id": "operations/ops-86f",
+      "file": "records/operations/ops-86f.json"
+    },
+    {
+      "id": "operations/ops-87f",
+      "file": "records/operations/ops-87f.json"
+    },
+    {
+      "id": "operations/ops-88f",
+      "file": "records/operations/ops-88f.json"
+    },
+    {
+      "id": "operations/ops-89f",
+      "file": "records/operations/ops-89f.json"
+    },
+    {
+      "id": "overlay/confidential-alias",
+      "file": "records/overlay/confidential-alias.json"
+    },
+    {
+      "id": "overlay/game-calendar",
+      "file": "records/overlay/game-calendar.json"
+    },
+    {
+      "id": "overlay/player-calendar",
+      "file": "records/overlay/player-calendar.json"
+    },
+    {
+      "id": "overlay/player-calendar-2",
+      "file": "records/overlay/player-calendar-2.json"
+    },
+    {
+      "id": "overlay/player-calendar-3",
+      "file": "records/overlay/player-calendar-3.json"
+    },
+    {
+      "id": "overlay/player-calendar-4",
+      "file": "records/overlay/player-calendar-4.json"
+    },
+    {
+      "id": "passport/black-allied",
+      "file": "records/passport/black-allied.json"
+    },
+    {
+      "id": "passport/black-neutral",
+      "file": "records/passport/black-neutral.json"
+    },
+    {
+      "id": "passport/black-soviet",
+      "file": "records/passport/black-soviet.json"
+    },
+    {
+      "id": "passport/green-allied",
+      "file": "records/passport/green-allied.json"
+    },
+    {
+      "id": "passport/green-neutral",
+      "file": "records/passport/green-neutral.json"
+    },
+    {
+      "id": "passport/green-soviet",
+      "file": "records/passport/green-soviet.json"
+    },
+    {
+      "id": "passport/pink-allied",
+      "file": "records/passport/pink-allied.json"
+    },
+    {
+      "id": "passport/pink-neutral",
+      "file": "records/passport/pink-neutral.json"
+    },
+    {
+      "id": "passport/pink-soviet",
+      "file": "records/passport/pink-soviet.json"
+    },
+    {
+      "id": "passport/white-allied",
+      "file": "records/passport/white-allied.json"
+    },
+    {
+      "id": "passport/white-neutral",
+      "file": "records/passport/white-neutral.json"
+    },
+    {
+      "id": "passport/white-soviet",
+      "file": "records/passport/white-soviet.json"
+    },
+    {
+      "id": "pawn/0.0-0.0-0.0",
+      "file": "records/pawn/0.0-0.0-0.0.json"
+    },
+    {
+      "id": "pawn/0.129-0.694-0.607",
+      "file": "records/pawn/0.129-0.694-0.607.json"
+    },
+    {
+      "id": "pawn/0.86-0.86-0.86",
+      "file": "records/pawn/0.86-0.86-0.86.json"
+    },
+    {
+      "id": "pawn/0.96-0.439-0.807",
+      "file": "records/pawn/0.96-0.439-0.807.json"
+    },
+    {
+      "id": "pearl/1-800bd2",
+      "file": "records/pearl/1-800bd2.json"
+    },
+    {
+      "id": "pearl/10-07228e",
+      "file": "records/pearl/10-07228e.json"
+    },
+    {
+      "id": "pearl/10-af50c9",
+      "file": "records/pearl/10-af50c9.json"
+    },
+    {
+      "id": "pearl/11-4b4164",
+      "file": "records/pearl/11-4b4164.json"
+    },
+    {
+      "id": "pearl/11-d2762a",
+      "file": "records/pearl/11-d2762a.json"
+    },
+    {
+      "id": "pearl/12-0e2ff7",
+      "file": "records/pearl/12-0e2ff7.json"
+    },
+    {
+      "id": "pearl/12-b04c52",
+      "file": "records/pearl/12-b04c52.json"
+    },
+    {
+      "id": "pearl/13-87e2cd",
+      "file": "records/pearl/13-87e2cd.json"
+    },
+    {
+      "id": "pearl/13-a39c19",
+      "file": "records/pearl/13-a39c19.json"
+    },
+    {
+      "id": "pearl/14-b55856",
+      "file": "records/pearl/14-b55856.json"
+    },
+    {
+      "id": "pearl/14-fd5882",
+      "file": "records/pearl/14-fd5882.json"
+    },
+    {
+      "id": "pearl/2-b938d7",
+      "file": "records/pearl/2-b938d7.json"
+    },
+    {
+      "id": "pearl/2-f25a19",
+      "file": "records/pearl/2-f25a19.json"
+    },
+    {
+      "id": "pearl/3-78fe12",
+      "file": "records/pearl/3-78fe12.json"
+    },
+    {
+      "id": "pearl/3-e4bda8",
+      "file": "records/pearl/3-e4bda8.json"
+    },
+    {
+      "id": "pearl/4-363fcf",
+      "file": "records/pearl/4-363fcf.json"
+    },
+    {
+      "id": "pearl/4-694a38",
+      "file": "records/pearl/4-694a38.json"
+    },
+    {
+      "id": "pearl/5-1fdf01",
+      "file": "records/pearl/5-1fdf01.json"
+    },
+    {
+      "id": "pearl/5-2d2696",
+      "file": "records/pearl/5-2d2696.json"
+    },
+    {
+      "id": "pearl/6-84e5d1",
+      "file": "records/pearl/6-84e5d1.json"
+    },
+    {
+      "id": "pearl/6-f94656",
+      "file": "records/pearl/6-f94656.json"
+    },
+    {
+      "id": "pearl/7-58f185",
+      "file": "records/pearl/7-58f185.json"
+    },
+    {
+      "id": "pearl/7-a40847",
+      "file": "records/pearl/7-a40847.json"
+    },
+    {
+      "id": "pearl/8-459a26",
+      "file": "records/pearl/8-459a26.json"
+    },
+    {
+      "id": "pearl/8-ba32bf",
+      "file": "records/pearl/8-ba32bf.json"
+    },
+    {
+      "id": "pearl/9-1ca7ae",
+      "file": "records/pearl/9-1ca7ae.json"
+    },
+    {
+      "id": "pearl/9-595792",
+      "file": "records/pearl/9-595792.json"
+    },
+    {
+      "id": "pearl/piece-05452e",
+      "file": "records/pearl/piece-05452e.json"
+    },
+    {
+      "id": "pearl/piece-05b55c",
+      "file": "records/pearl/piece-05b55c.json"
+    },
+    {
+      "id": "pearl/piece-1b53df",
+      "file": "records/pearl/piece-1b53df.json"
+    },
+    {
+      "id": "pearl/piece-212d27",
+      "file": "records/pearl/piece-212d27.json"
+    },
+    {
+      "id": "pearl/piece-391431",
+      "file": "records/pearl/piece-391431.json"
+    },
+    {
+      "id": "pearl/piece-3cba65",
+      "file": "records/pearl/piece-3cba65.json"
+    },
+    {
+      "id": "pearl/piece-3eacd2",
+      "file": "records/pearl/piece-3eacd2.json"
+    },
+    {
+      "id": "pearl/piece-413ef0",
+      "file": "records/pearl/piece-413ef0.json"
+    },
+    {
+      "id": "pearl/piece-505dfe",
+      "file": "records/pearl/piece-505dfe.json"
+    },
+    {
+      "id": "pearl/piece-533297",
+      "file": "records/pearl/piece-533297.json"
+    },
+    {
+      "id": "pearl/piece-58a5ac",
+      "file": "records/pearl/piece-58a5ac.json"
+    },
+    {
+      "id": "pearl/piece-5f0011",
+      "file": "records/pearl/piece-5f0011.json"
+    },
+    {
+      "id": "pearl/piece-60c7a4",
+      "file": "records/pearl/piece-60c7a4.json"
+    },
+    {
+      "id": "pearl/piece-765c62",
+      "file": "records/pearl/piece-765c62.json"
+    },
+    {
+      "id": "pearl/piece-776af6",
+      "file": "records/pearl/piece-776af6.json"
+    },
+    {
+      "id": "pearl/piece-7bdd56",
+      "file": "records/pearl/piece-7bdd56.json"
+    },
+    {
+      "id": "pearl/piece-8e1560",
+      "file": "records/pearl/piece-8e1560.json"
+    },
+    {
+      "id": "pearl/piece-92135e",
+      "file": "records/pearl/piece-92135e.json"
+    },
+    {
+      "id": "pearl/piece-a1ae01",
+      "file": "records/pearl/piece-a1ae01.json"
+    },
+    {
+      "id": "pearl/piece-aff6db",
+      "file": "records/pearl/piece-aff6db.json"
+    },
+    {
+      "id": "pearl/piece-b01bb6",
+      "file": "records/pearl/piece-b01bb6.json"
+    },
+    {
+      "id": "pearl/piece-c4723a",
+      "file": "records/pearl/piece-c4723a.json"
+    },
+    {
+      "id": "pearl/piece-c5d91c",
+      "file": "records/pearl/piece-c5d91c.json"
+    },
+    {
+      "id": "pearl/piece-caff6e",
+      "file": "records/pearl/piece-caff6e.json"
+    },
+    {
+      "id": "pearl/piece-e607d3",
+      "file": "records/pearl/piece-e607d3.json"
+    },
+    {
+      "id": "pearl/piece-fb729c",
+      "file": "records/pearl/piece-fb729c.json"
+    },
+    {
+      "id": "player/1800",
+      "file": "records/player/1800.json"
+    },
+    {
+      "id": "player/1801",
+      "file": "records/player/1801.json"
+    },
+    {
+      "id": "player/1802",
+      "file": "records/player/1802.json"
+    },
+    {
+      "id": "player/1803",
+      "file": "records/player/1803.json"
+    },
+    {
+      "id": "player/1804",
+      "file": "records/player/1804.json"
+    },
+    {
+      "id": "player/1805",
+      "file": "records/player/1805.json"
+    },
+    {
+      "id": "player/algiers",
+      "file": "records/player/algiers.json"
+    },
+    {
+      "id": "player/atlanta",
+      "file": "records/player/atlanta.json"
+    },
+    {
+      "id": "player/baghdad",
+      "file": "records/player/baghdad.json"
+    },
+    {
+      "id": "player/bangkok",
+      "file": "records/player/bangkok.json"
+    },
+    {
+      "id": "player/bogota",
+      "file": "records/player/bogota.json"
+    },
+    {
+      "id": "player/bombay",
+      "file": "records/player/bombay.json"
+    },
+    {
+      "id": "player/buenos-aires",
+      "file": "records/player/buenos-aires.json"
+    },
+    {
+      "id": "player/cairo",
+      "file": "records/player/cairo.json"
+    },
+    {
+      "id": "player/calcutta",
+      "file": "records/player/calcutta.json"
+    },
+    {
+      "id": "player/delhi",
+      "file": "records/player/delhi.json"
+    },
+    {
+      "id": "player/east-berlin",
+      "file": "records/player/east-berlin.json"
+    },
+    {
+      "id": "player/escalation",
+      "file": "records/player/escalation.json"
+    },
+    {
+      "id": "player/hanoi",
+      "file": "records/player/hanoi.json"
+    },
+    {
+      "id": "player/havana",
+      "file": "records/player/havana.json"
+    },
+    {
+      "id": "player/istanbul",
+      "file": "records/player/istanbul.json"
+    },
+    {
+      "id": "player/jakarta",
+      "file": "records/player/jakarta.json"
+    },
+    {
+      "id": "player/johannesburg",
+      "file": "records/player/johannesburg.json"
+    },
+    {
+      "id": "player/karachi",
+      "file": "records/player/karachi.json"
+    },
+    {
+      "id": "player/khartoum",
+      "file": "records/player/khartoum.json"
+    },
+    {
+      "id": "player/kiev",
+      "file": "records/player/kiev.json"
+    },
+    {
+      "id": "player/lagos",
+      "file": "records/player/lagos.json"
+    },
+    {
+      "id": "player/leningrad",
+      "file": "records/player/leningrad.json"
+    },
+    {
+      "id": "player/leopoldville",
+      "file": "records/player/leopoldville.json"
+    },
+    {
+      "id": "player/lima",
+      "file": "records/player/lima.json"
+    },
+    {
+      "id": "player/london",
+      "file": "records/player/london.json"
+    },
+    {
+      "id": "player/los-angeles",
+      "file": "records/player/los-angeles.json"
+    },
+    {
+      "id": "player/madrid",
+      "file": "records/player/madrid.json"
+    },
+    {
+      "id": "player/manila",
+      "file": "records/player/manila.json"
+    },
+    {
+      "id": "player/mexico-city",
+      "file": "records/player/mexico-city.json"
+    },
+    {
+      "id": "player/moscow",
+      "file": "records/player/moscow.json"
+    },
+    {
+      "id": "player/new-york",
+      "file": "records/player/new-york.json"
+    },
+    {
+      "id": "player/novosibirsk",
+      "file": "records/player/novosibirsk.json"
+    },
+    {
+      "id": "player/osaka",
+      "file": "records/player/osaka.json"
+    },
+    {
+      "id": "player/paris",
+      "file": "records/player/paris.json"
+    },
+    {
+      "id": "player/peking",
+      "file": "records/player/peking.json"
+    },
+    {
+      "id": "player/prague",
+      "file": "records/player/prague.json"
+    },
+    {
+      "id": "player/pyongyang",
+      "file": "records/player/pyongyang.json"
+    },
+    {
+      "id": "player/riyadh",
+      "file": "records/player/riyadh.json"
+    },
+    {
+      "id": "player/rome",
+      "file": "records/player/rome.json"
+    },
+    {
+      "id": "player/saigon",
+      "file": "records/player/saigon.json"
+    },
+    {
+      "id": "player/san-francisco",
+      "file": "records/player/san-francisco.json"
+    },
+    {
+      "id": "player/santiago",
+      "file": "records/player/santiago.json"
+    },
+    {
+      "id": "player/sao-paulo",
+      "file": "records/player/sao-paulo.json"
+    },
+    {
+      "id": "player/shanghai",
+      "file": "records/player/shanghai.json"
+    },
+    {
+      "id": "player/sydney",
+      "file": "records/player/sydney.json"
+    },
+    {
+      "id": "player/tokyo",
+      "file": "records/player/tokyo.json"
+    },
+    {
+      "id": "player/toronto",
+      "file": "records/player/toronto.json"
+    },
+    {
+      "id": "player/warsaw",
+      "file": "records/player/warsaw.json"
+    },
+    {
+      "id": "player/washington",
+      "file": "records/player/washington.json"
+    },
+    {
+      "id": "reference/1",
+      "file": "records/reference/1.json"
+    },
+    {
+      "id": "reference/2",
+      "file": "records/reference/2.json"
+    },
+    {
+      "id": "reference/3",
+      "file": "records/reference/3.json"
+    },
+    {
+      "id": "reference/4",
+      "file": "records/reference/4.json"
+    },
+    {
+      "id": "rulebook",
+      "file": "records/rulebook.json"
+    },
+    {
+      "id": "sheet/a8716e1c/00",
+      "file": "records/sheet/a8716e1c/00.json"
+    },
+    {
+      "id": "sheet/a8716e1c/01",
+      "file": "records/sheet/a8716e1c/01.json"
+    },
+    {
+      "id": "sheet/a8716e1c/02",
+      "file": "records/sheet/a8716e1c/02.json"
+    },
+    {
+      "id": "sheet/a8716e1c/03",
+      "file": "records/sheet/a8716e1c/03.json"
+    },
+    {
+      "id": "shell/0001",
+      "file": "records/shell/0001.json"
+    },
+    {
+      "id": "shell/0002",
+      "file": "records/shell/0002.json"
+    },
+    {
+      "id": "shell/0003",
+      "file": "records/shell/0003.json"
+    },
+    {
+      "id": "shell/0004",
+      "file": "records/shell/0004.json"
+    },
+    {
+      "id": "shell/0005",
+      "file": "records/shell/0005.json"
+    },
+    {
+      "id": "shell/0006",
+      "file": "records/shell/0006.json"
+    },
+    {
+      "id": "shell/0007",
+      "file": "records/shell/0007.json"
+    },
+    {
+      "id": "shell/0008",
+      "file": "records/shell/0008.json"
+    },
+    {
+      "id": "shell/11",
+      "file": "records/shell/11.json"
+    },
+    {
+      "id": "shell/12",
+      "file": "records/shell/12.json"
+    },
+    {
+      "id": "shell/13",
+      "file": "records/shell/13.json"
+    },
+    {
+      "id": "shell/14",
+      "file": "records/shell/14.json"
+    },
+    {
+      "id": "shell/15",
+      "file": "records/shell/15.json"
+    },
+    {
+      "id": "shell/16",
+      "file": "records/shell/16.json"
+    },
+    {
+      "id": "shell/17",
+      "file": "records/shell/17.json"
+    },
+    {
+      "id": "shell/18",
+      "file": "records/shell/18.json"
+    },
+    {
+      "id": "shell/19",
+      "file": "records/shell/19.json"
+    },
+    {
+      "id": "shell/1a6103",
+      "file": "records/shell/1a6103.json"
+    },
+    {
+      "id": "shell/20",
+      "file": "records/shell/20.json"
+    },
+    {
+      "id": "shell/21",
+      "file": "records/shell/21.json"
+    },
+    {
+      "id": "shell/22",
+      "file": "records/shell/22.json"
+    },
+    {
+      "id": "shell/23",
+      "file": "records/shell/23.json"
+    },
+    {
+      "id": "shell/24",
+      "file": "records/shell/24.json"
+    },
+    {
+      "id": "shell/25",
+      "file": "records/shell/25.json"
+    },
+    {
+      "id": "shell/26",
+      "file": "records/shell/26.json"
+    },
+    {
+      "id": "shell/27",
+      "file": "records/shell/27.json"
+    },
+    {
+      "id": "shell/28",
+      "file": "records/shell/28.json"
+    },
+    {
+      "id": "shell/29",
+      "file": "records/shell/29.json"
+    },
+    {
+      "id": "shell/30",
+      "file": "records/shell/30.json"
+    },
+    {
+      "id": "shell/35",
+      "file": "records/shell/35.json"
+    },
+    {
+      "id": "shell/36",
+      "file": "records/shell/36.json"
+    },
+    {
+      "id": "shell/37",
+      "file": "records/shell/37.json"
+    },
+    {
+      "id": "shell/38",
+      "file": "records/shell/38.json"
+    },
+    {
+      "id": "shell/39",
+      "file": "records/shell/39.json"
+    },
+    {
+      "id": "shell/40",
+      "file": "records/shell/40.json"
+    },
+    {
+      "id": "shell/41",
+      "file": "records/shell/41.json"
+    },
+    {
+      "id": "shell/42",
+      "file": "records/shell/42.json"
+    },
+    {
+      "id": "shell/43",
+      "file": "records/shell/43.json"
+    },
+    {
+      "id": "shell/44",
+      "file": "records/shell/44.json"
+    },
+    {
+      "id": "shell/46",
+      "file": "records/shell/46.json"
+    },
+    {
+      "id": "shell/7b6f27",
+      "file": "records/shell/7b6f27.json"
+    },
+    {
+      "id": "shell/a",
+      "file": "records/shell/a.json"
+    },
+    {
+      "id": "shell/c",
+      "file": "records/shell/c.json"
+    },
+    {
+      "id": "shell/empty-0003",
+      "file": "records/shell/empty-0003.json"
+    },
+    {
+      "id": "shell/empty-0003-2",
+      "file": "records/shell/empty-0003-2.json"
+    },
+    {
+      "id": "shell/escalations",
+      "file": "records/shell/escalations.json"
+    },
+    {
+      "id": "shell/event-cards",
+      "file": "records/shell/event-cards.json"
+    },
+    {
+      "id": "shell/f",
+      "file": "records/shell/f.json"
+    },
+    {
+      "id": "shell/g",
+      "file": "records/shell/g.json"
+    },
+    {
+      "id": "shell/h",
+      "file": "records/shell/h.json"
+    },
+    {
+      "id": "shell/j",
+      "file": "records/shell/j.json"
+    },
+    {
+      "id": "shell/l",
+      "file": "records/shell/l.json"
+    },
+    {
+      "id": "shell/o",
+      "file": "records/shell/o.json"
+    },
+    {
+      "id": "shell/player-cards",
+      "file": "records/shell/player-cards.json"
+    },
+    {
+      "id": "shell/s",
+      "file": "records/shell/s.json"
+    },
+    {
+      "id": "shell/t",
+      "file": "records/shell/t.json"
+    },
+    {
+      "id": "shell/u",
+      "file": "records/shell/u.json"
+    },
+    {
+      "id": "sticker-sheet/allied-upgrades",
+      "file": "records/sticker-sheet/allied-upgrades.json"
+    },
+    {
+      "id": "sticker-sheet/liabilities",
+      "file": "records/sticker-sheet/liabilities.json"
+    },
+    {
+      "id": "sticker-sheet/portraits",
+      "file": "records/sticker-sheet/portraits.json"
+    },
+    {
+      "id": "sticker/alias-burned-0e87ae",
+      "file": "records/sticker/alias-burned-0e87ae.json"
+    },
+    {
+      "id": "sticker/alias-burned-1f47f1",
+      "file": "records/sticker/alias-burned-1f47f1.json"
+    },
+    {
+      "id": "sticker/alias-burned-2d6438",
+      "file": "records/sticker/alias-burned-2d6438.json"
+    },
+    {
+      "id": "sticker/alias-burned-833c54",
+      "file": "records/sticker/alias-burned-833c54.json"
+    },
+    {
+      "id": "sticker/alias-burned-8c3ac6",
+      "file": "records/sticker/alias-burned-8c3ac6.json"
+    },
+    {
+      "id": "sticker/alias-burned-c252a6",
+      "file": "records/sticker/alias-burned-c252a6.json"
+    },
+    {
+      "id": "sticker/alias-burned-e88ba8",
+      "file": "records/sticker/alias-burned-e88ba8.json"
+    },
+    {
+      "id": "sticker/alias-burned-ff211b",
+      "file": "records/sticker/alias-burned-ff211b.json"
+    },
+    {
+      "id": "sticker/contact-1d6c80",
+      "file": "records/sticker/contact-1d6c80.json"
+    },
+    {
+      "id": "sticker/contact-b93eb1",
+      "file": "records/sticker/contact-b93eb1.json"
+    },
+    {
+      "id": "sticker/contact-e021d8",
+      "file": "records/sticker/contact-e021d8.json"
+    },
+    {
+      "id": "sticker/portrait-174815",
+      "file": "records/sticker/portrait-174815.json"
+    },
+    {
+      "id": "sticker/portrait-1bca8a",
+      "file": "records/sticker/portrait-1bca8a.json"
+    },
+    {
+      "id": "sticker/portrait-2223ec",
+      "file": "records/sticker/portrait-2223ec.json"
+    },
+    {
+      "id": "sticker/portrait-383a23",
+      "file": "records/sticker/portrait-383a23.json"
+    },
+    {
+      "id": "sticker/portrait-41ced2",
+      "file": "records/sticker/portrait-41ced2.json"
+    },
+    {
+      "id": "sticker/portrait-5d88f0",
+      "file": "records/sticker/portrait-5d88f0.json"
+    },
+    {
+      "id": "sticker/portrait-648d48",
+      "file": "records/sticker/portrait-648d48.json"
+    },
+    {
+      "id": "sticker/portrait-7b70ee",
+      "file": "records/sticker/portrait-7b70ee.json"
+    },
+    {
+      "id": "sticker/portrait-8be751",
+      "file": "records/sticker/portrait-8be751.json"
+    },
+    {
+      "id": "sticker/portrait-912657",
+      "file": "records/sticker/portrait-912657.json"
+    },
+    {
+      "id": "sticker/portrait-94a354",
+      "file": "records/sticker/portrait-94a354.json"
+    },
+    {
+      "id": "sticker/portrait-954b66",
+      "file": "records/sticker/portrait-954b66.json"
+    },
+    {
+      "id": "sticker/portrait-96be61",
+      "file": "records/sticker/portrait-96be61.json"
+    },
+    {
+      "id": "sticker/portrait-9ae991",
+      "file": "records/sticker/portrait-9ae991.json"
+    },
+    {
+      "id": "sticker/portrait-9d9295",
+      "file": "records/sticker/portrait-9d9295.json"
+    },
+    {
+      "id": "sticker/portrait-c5d66a",
+      "file": "records/sticker/portrait-c5d66a.json"
+    },
+    {
+      "id": "sticker/portrait-d65fbc",
+      "file": "records/sticker/portrait-d65fbc.json"
+    },
+    {
+      "id": "sticker/portrait-e272cf",
+      "file": "records/sticker/portrait-e272cf.json"
+    },
+    {
+      "id": "sticker/portrait-e37e27",
+      "file": "records/sticker/portrait-e37e27.json"
+    },
+    {
+      "id": "sticker/portrait-e64c1a",
+      "file": "records/sticker/portrait-e64c1a.json"
+    },
+    {
+      "id": "sticker/portrait-eb5dae",
+      "file": "records/sticker/portrait-eb5dae.json"
+    },
+    {
+      "id": "sticker/portrait-ed504f",
+      "file": "records/sticker/portrait-ed504f.json"
+    },
+    {
+      "id": "sticker/portrait-f65f38",
+      "file": "records/sticker/portrait-f65f38.json"
+    },
+    {
+      "id": "sticker/portrait-f68a7b",
+      "file": "records/sticker/portrait-f68a7b.json"
+    },
+    {
+      "id": "team/allied",
+      "file": "records/team/allied.json"
+    },
+    {
+      "id": "team/neutral",
+      "file": "records/team/neutral.json"
+    },
+    {
+      "id": "team/soviet",
+      "file": "records/team/soviet.json"
+    },
+    {
+      "id": "threat/algiers",
+      "file": "records/threat/algiers.json"
+    },
+    {
+      "id": "threat/atlanta",
+      "file": "records/threat/atlanta.json"
+    },
+    {
+      "id": "threat/baghdad",
+      "file": "records/threat/baghdad.json"
+    },
+    {
+      "id": "threat/bangkok",
+      "file": "records/threat/bangkok.json"
+    },
+    {
+      "id": "threat/bogota",
+      "file": "records/threat/bogota.json"
+    },
+    {
+      "id": "threat/bombay",
+      "file": "records/threat/bombay.json"
+    },
+    {
+      "id": "threat/buenos-aires",
+      "file": "records/threat/buenos-aires.json"
+    },
+    {
+      "id": "threat/cairo",
+      "file": "records/threat/cairo.json"
+    },
+    {
+      "id": "threat/calcutta",
+      "file": "records/threat/calcutta.json"
+    },
+    {
+      "id": "threat/delhi",
+      "file": "records/threat/delhi.json"
+    },
+    {
+      "id": "threat/east-berlin",
+      "file": "records/threat/east-berlin.json"
+    },
+    {
+      "id": "threat/hanoi",
+      "file": "records/threat/hanoi.json"
+    },
+    {
+      "id": "threat/havana",
+      "file": "records/threat/havana.json"
+    },
+    {
+      "id": "threat/istanbul",
+      "file": "records/threat/istanbul.json"
+    },
+    {
+      "id": "threat/jakarta",
+      "file": "records/threat/jakarta.json"
+    },
+    {
+      "id": "threat/johannesburg",
+      "file": "records/threat/johannesburg.json"
+    },
+    {
+      "id": "threat/karachi",
+      "file": "records/threat/karachi.json"
+    },
+    {
+      "id": "threat/khartoum",
+      "file": "records/threat/khartoum.json"
+    },
+    {
+      "id": "threat/kiev",
+      "file": "records/threat/kiev.json"
+    },
+    {
+      "id": "threat/lagos",
+      "file": "records/threat/lagos.json"
+    },
+    {
+      "id": "threat/leningrad",
+      "file": "records/threat/leningrad.json"
+    },
+    {
+      "id": "threat/leopoldville",
+      "file": "records/threat/leopoldville.json"
+    },
+    {
+      "id": "threat/lima",
+      "file": "records/threat/lima.json"
+    },
+    {
+      "id": "threat/london",
+      "file": "records/threat/london.json"
+    },
+    {
+      "id": "threat/los-angeles",
+      "file": "records/threat/los-angeles.json"
+    },
+    {
+      "id": "threat/madrid",
+      "file": "records/threat/madrid.json"
+    },
+    {
+      "id": "threat/manila",
+      "file": "records/threat/manila.json"
+    },
+    {
+      "id": "threat/mexico-city",
+      "file": "records/threat/mexico-city.json"
+    },
+    {
+      "id": "threat/moscow",
+      "file": "records/threat/moscow.json"
+    },
+    {
+      "id": "threat/new-york",
+      "file": "records/threat/new-york.json"
+    },
+    {
+      "id": "threat/novosibirsk",
+      "file": "records/threat/novosibirsk.json"
+    },
+    {
+      "id": "threat/osaka",
+      "file": "records/threat/osaka.json"
+    },
+    {
+      "id": "threat/paris",
+      "file": "records/threat/paris.json"
+    },
+    {
+      "id": "threat/peking",
+      "file": "records/threat/peking.json"
+    },
+    {
+      "id": "threat/prague",
+      "file": "records/threat/prague.json"
+    },
+    {
+      "id": "threat/pyongyang",
+      "file": "records/threat/pyongyang.json"
+    },
+    {
+      "id": "threat/riyadh",
+      "file": "records/threat/riyadh.json"
+    },
+    {
+      "id": "threat/rome",
+      "file": "records/threat/rome.json"
+    },
+    {
+      "id": "threat/saigon",
+      "file": "records/threat/saigon.json"
+    },
+    {
+      "id": "threat/san-francisco",
+      "file": "records/threat/san-francisco.json"
+    },
+    {
+      "id": "threat/santiago",
+      "file": "records/threat/santiago.json"
+    },
+    {
+      "id": "threat/sao-paulo",
+      "file": "records/threat/sao-paulo.json"
+    },
+    {
+      "id": "threat/shanghai",
+      "file": "records/threat/shanghai.json"
+    },
+    {
+      "id": "threat/sydney",
+      "file": "records/threat/sydney.json"
+    },
+    {
+      "id": "threat/tokyo",
+      "file": "records/threat/tokyo.json"
+    },
+    {
+      "id": "threat/toronto",
+      "file": "records/threat/toronto.json"
+    },
+    {
+      "id": "threat/warsaw",
+      "file": "records/threat/warsaw.json"
+    },
+    {
+      "id": "threat/washington",
+      "file": "records/threat/washington.json"
+    },
+    {
+      "id": "tile/00d520",
+      "file": "records/tile/00d520.json"
+    },
+    {
+      "id": "tile/017214",
+      "file": "records/tile/017214.json"
+    },
+    {
+      "id": "tile/01ed7a",
+      "file": "records/tile/01ed7a.json"
+    },
+    {
+      "id": "tile/023b84",
+      "file": "records/tile/023b84.json"
+    },
+    {
+      "id": "tile/0272bf",
+      "file": "records/tile/0272bf.json"
+    },
+    {
+      "id": "tile/029342",
+      "file": "records/tile/029342.json"
+    },
+    {
+      "id": "tile/02bd01",
+      "file": "records/tile/02bd01.json"
+    },
+    {
+      "id": "tile/02c4a0",
+      "file": "records/tile/02c4a0.json"
+    },
+    {
+      "id": "tile/03e9d0",
+      "file": "records/tile/03e9d0.json"
+    },
+    {
+      "id": "tile/03eadd",
+      "file": "records/tile/03eadd.json"
+    },
+    {
+      "id": "tile/040160",
+      "file": "records/tile/040160.json"
+    },
+    {
+      "id": "tile/0505b5",
+      "file": "records/tile/0505b5.json"
+    },
+    {
+      "id": "tile/06119c",
+      "file": "records/tile/06119c.json"
+    },
+    {
+      "id": "tile/064706",
+      "file": "records/tile/064706.json"
+    },
+    {
+      "id": "tile/0767f7",
+      "file": "records/tile/0767f7.json"
+    },
+    {
+      "id": "tile/0a09f8",
+      "file": "records/tile/0a09f8.json"
+    },
+    {
+      "id": "tile/0aa4f1",
+      "file": "records/tile/0aa4f1.json"
+    },
+    {
+      "id": "tile/0ac850",
+      "file": "records/tile/0ac850.json"
+    },
+    {
+      "id": "tile/0b03f3",
+      "file": "records/tile/0b03f3.json"
+    },
+    {
+      "id": "tile/0b0fac",
+      "file": "records/tile/0b0fac.json"
+    },
+    {
+      "id": "tile/0b5233",
+      "file": "records/tile/0b5233.json"
+    },
+    {
+      "id": "tile/0bc0c3",
+      "file": "records/tile/0bc0c3.json"
+    },
+    {
+      "id": "tile/0c9269",
+      "file": "records/tile/0c9269.json"
+    },
+    {
+      "id": "tile/0db745",
+      "file": "records/tile/0db745.json"
+    },
+    {
+      "id": "tile/0dd49f",
+      "file": "records/tile/0dd49f.json"
+    },
+    {
+      "id": "tile/0f2512",
+      "file": "records/tile/0f2512.json"
+    },
+    {
+      "id": "tile/10685e",
+      "file": "records/tile/10685e.json"
+    },
+    {
+      "id": "tile/1075a9",
+      "file": "records/tile/1075a9.json"
+    },
+    {
+      "id": "tile/10939d",
+      "file": "records/tile/10939d.json"
+    },
+    {
+      "id": "tile/10c815",
+      "file": "records/tile/10c815.json"
+    },
+    {
+      "id": "tile/110972",
+      "file": "records/tile/110972.json"
+    },
+    {
+      "id": "tile/111049",
+      "file": "records/tile/111049.json"
+    },
+    {
+      "id": "tile/120144",
+      "file": "records/tile/120144.json"
+    },
+    {
+      "id": "tile/15bf27",
+      "file": "records/tile/15bf27.json"
+    },
+    {
+      "id": "tile/165cdb",
+      "file": "records/tile/165cdb.json"
+    },
+    {
+      "id": "tile/1696da",
+      "file": "records/tile/1696da.json"
+    },
+    {
+      "id": "tile/16d1cc",
+      "file": "records/tile/16d1cc.json"
+    },
+    {
+      "id": "tile/17751d",
+      "file": "records/tile/17751d.json"
+    },
+    {
+      "id": "tile/192314",
+      "file": "records/tile/192314.json"
+    },
+    {
+      "id": "tile/1a1a0f",
+      "file": "records/tile/1a1a0f.json"
+    },
+    {
+      "id": "tile/1a1ad6",
+      "file": "records/tile/1a1ad6.json"
+    },
+    {
+      "id": "tile/1a8231",
+      "file": "records/tile/1a8231.json"
+    },
+    {
+      "id": "tile/1b568f",
+      "file": "records/tile/1b568f.json"
+    },
+    {
+      "id": "tile/1b6513",
+      "file": "records/tile/1b6513.json"
+    },
+    {
+      "id": "tile/1bc01c",
+      "file": "records/tile/1bc01c.json"
+    },
+    {
+      "id": "tile/1be6cc",
+      "file": "records/tile/1be6cc.json"
+    },
+    {
+      "id": "tile/1c0b63",
+      "file": "records/tile/1c0b63.json"
+    },
+    {
+      "id": "tile/1c6b4a",
+      "file": "records/tile/1c6b4a.json"
+    },
+    {
+      "id": "tile/1d586d",
+      "file": "records/tile/1d586d.json"
+    },
+    {
+      "id": "tile/1d688c",
+      "file": "records/tile/1d688c.json"
+    },
+    {
+      "id": "tile/1f6ff6",
+      "file": "records/tile/1f6ff6.json"
+    },
+    {
+      "id": "tile/1f7195",
+      "file": "records/tile/1f7195.json"
+    },
+    {
+      "id": "tile/1fdabd",
+      "file": "records/tile/1fdabd.json"
+    },
+    {
+      "id": "tile/205c1c",
+      "file": "records/tile/205c1c.json"
+    },
+    {
+      "id": "tile/211506",
+      "file": "records/tile/211506.json"
+    },
+    {
+      "id": "tile/221b28",
+      "file": "records/tile/221b28.json"
+    },
+    {
+      "id": "tile/22f676",
+      "file": "records/tile/22f676.json"
+    },
+    {
+      "id": "tile/235906",
+      "file": "records/tile/235906.json"
+    },
+    {
+      "id": "tile/243435",
+      "file": "records/tile/243435.json"
+    },
+    {
+      "id": "tile/24dc7e",
+      "file": "records/tile/24dc7e.json"
+    },
+    {
+      "id": "tile/2509a7",
+      "file": "records/tile/2509a7.json"
+    },
+    {
+      "id": "tile/256642",
+      "file": "records/tile/256642.json"
+    },
+    {
+      "id": "tile/266718",
+      "file": "records/tile/266718.json"
+    },
+    {
+      "id": "tile/26f2c9",
+      "file": "records/tile/26f2c9.json"
+    },
+    {
+      "id": "tile/27a898",
+      "file": "records/tile/27a898.json"
+    },
+    {
+      "id": "tile/28311e",
+      "file": "records/tile/28311e.json"
+    },
+    {
+      "id": "tile/286627",
+      "file": "records/tile/286627.json"
+    },
+    {
+      "id": "tile/2880da",
+      "file": "records/tile/2880da.json"
+    },
+    {
+      "id": "tile/2ad294",
+      "file": "records/tile/2ad294.json"
+    },
+    {
+      "id": "tile/2b3b70",
+      "file": "records/tile/2b3b70.json"
+    },
+    {
+      "id": "tile/2bbea8",
+      "file": "records/tile/2bbea8.json"
+    },
+    {
+      "id": "tile/2be357",
+      "file": "records/tile/2be357.json"
+    },
+    {
+      "id": "tile/2c12e3",
+      "file": "records/tile/2c12e3.json"
+    },
+    {
+      "id": "tile/2ca66b",
+      "file": "records/tile/2ca66b.json"
+    },
+    {
+      "id": "tile/2ce56d",
+      "file": "records/tile/2ce56d.json"
+    },
+    {
+      "id": "tile/2d0e98",
+      "file": "records/tile/2d0e98.json"
+    },
+    {
+      "id": "tile/2d5eab",
+      "file": "records/tile/2d5eab.json"
+    },
+    {
+      "id": "tile/2dff5e",
+      "file": "records/tile/2dff5e.json"
+    },
+    {
+      "id": "tile/2f0ece",
+      "file": "records/tile/2f0ece.json"
+    },
+    {
+      "id": "tile/2f9ba1",
+      "file": "records/tile/2f9ba1.json"
+    },
+    {
+      "id": "tile/2fc3a2",
+      "file": "records/tile/2fc3a2.json"
+    },
+    {
+      "id": "tile/308d0e",
+      "file": "records/tile/308d0e.json"
+    },
+    {
+      "id": "tile/3189e5",
+      "file": "records/tile/3189e5.json"
+    },
+    {
+      "id": "tile/319f4c",
+      "file": "records/tile/319f4c.json"
+    },
+    {
+      "id": "tile/31cc0e",
+      "file": "records/tile/31cc0e.json"
+    },
+    {
+      "id": "tile/31d5d0",
+      "file": "records/tile/31d5d0.json"
+    },
+    {
+      "id": "tile/31efe6",
+      "file": "records/tile/31efe6.json"
+    },
+    {
+      "id": "tile/327579",
+      "file": "records/tile/327579.json"
+    },
+    {
+      "id": "tile/331f2c",
+      "file": "records/tile/331f2c.json"
+    },
+    {
+      "id": "tile/33cae0",
+      "file": "records/tile/33cae0.json"
+    },
+    {
+      "id": "tile/34d208",
+      "file": "records/tile/34d208.json"
+    },
+    {
+      "id": "tile/35b633",
+      "file": "records/tile/35b633.json"
+    },
+    {
+      "id": "tile/3629af",
+      "file": "records/tile/3629af.json"
+    },
+    {
+      "id": "tile/36443a",
+      "file": "records/tile/36443a.json"
+    },
+    {
+      "id": "tile/36cce8",
+      "file": "records/tile/36cce8.json"
+    },
+    {
+      "id": "tile/3787a3",
+      "file": "records/tile/3787a3.json"
+    },
+    {
+      "id": "tile/379b30",
+      "file": "records/tile/379b30.json"
+    },
+    {
+      "id": "tile/39d6a7",
+      "file": "records/tile/39d6a7.json"
+    },
+    {
+      "id": "tile/3a3578",
+      "file": "records/tile/3a3578.json"
+    },
+    {
+      "id": "tile/3b4275",
+      "file": "records/tile/3b4275.json"
+    },
+    {
+      "id": "tile/3b7efd",
+      "file": "records/tile/3b7efd.json"
+    },
+    {
+      "id": "tile/3d660d",
+      "file": "records/tile/3d660d.json"
+    },
+    {
+      "id": "tile/3e1ab3",
+      "file": "records/tile/3e1ab3.json"
+    },
+    {
+      "id": "tile/3e4f3b",
+      "file": "records/tile/3e4f3b.json"
+    },
+    {
+      "id": "tile/3eb450",
+      "file": "records/tile/3eb450.json"
+    },
+    {
+      "id": "tile/3fa29d",
+      "file": "records/tile/3fa29d.json"
+    },
+    {
+      "id": "tile/3fb948",
+      "file": "records/tile/3fb948.json"
+    },
+    {
+      "id": "tile/401feb",
+      "file": "records/tile/401feb.json"
+    },
+    {
+      "id": "tile/406e3d",
+      "file": "records/tile/406e3d.json"
+    },
+    {
+      "id": "tile/41e06b",
+      "file": "records/tile/41e06b.json"
+    },
+    {
+      "id": "tile/420f2a",
+      "file": "records/tile/420f2a.json"
+    },
+    {
+      "id": "tile/42701c",
+      "file": "records/tile/42701c.json"
+    },
+    {
+      "id": "tile/428bb0",
+      "file": "records/tile/428bb0.json"
+    },
+    {
+      "id": "tile/42cd11",
+      "file": "records/tile/42cd11.json"
+    },
+    {
+      "id": "tile/4498ea",
+      "file": "records/tile/4498ea.json"
+    },
+    {
+      "id": "tile/458df6",
+      "file": "records/tile/458df6.json"
+    },
+    {
+      "id": "tile/465fb8",
+      "file": "records/tile/465fb8.json"
+    },
+    {
+      "id": "tile/47c641",
+      "file": "records/tile/47c641.json"
+    },
+    {
+      "id": "tile/4a0aa3",
+      "file": "records/tile/4a0aa3.json"
+    },
+    {
+      "id": "tile/4a2049",
+      "file": "records/tile/4a2049.json"
+    },
+    {
+      "id": "tile/4acc1d",
+      "file": "records/tile/4acc1d.json"
+    },
+    {
+      "id": "tile/4c1647",
+      "file": "records/tile/4c1647.json"
+    },
+    {
+      "id": "tile/4cd231",
+      "file": "records/tile/4cd231.json"
+    },
+    {
+      "id": "tile/4d49c7",
+      "file": "records/tile/4d49c7.json"
+    },
+    {
+      "id": "tile/4d4fce",
+      "file": "records/tile/4d4fce.json"
+    },
+    {
+      "id": "tile/4d73f8",
+      "file": "records/tile/4d73f8.json"
+    },
+    {
+      "id": "tile/4e722d",
+      "file": "records/tile/4e722d.json"
+    },
+    {
+      "id": "tile/4e8412",
+      "file": "records/tile/4e8412.json"
+    },
+    {
+      "id": "tile/4f1efe",
+      "file": "records/tile/4f1efe.json"
+    },
+    {
+      "id": "tile/4f83b2",
+      "file": "records/tile/4f83b2.json"
+    },
+    {
+      "id": "tile/4fb897",
+      "file": "records/tile/4fb897.json"
+    },
+    {
+      "id": "tile/4fe7d5",
+      "file": "records/tile/4fe7d5.json"
+    },
+    {
+      "id": "tile/502257",
+      "file": "records/tile/502257.json"
+    },
+    {
+      "id": "tile/505211",
+      "file": "records/tile/505211.json"
+    },
+    {
+      "id": "tile/5086e6",
+      "file": "records/tile/5086e6.json"
+    },
+    {
+      "id": "tile/50b867",
+      "file": "records/tile/50b867.json"
+    },
+    {
+      "id": "tile/520b1f",
+      "file": "records/tile/520b1f.json"
+    },
+    {
+      "id": "tile/522d8b",
+      "file": "records/tile/522d8b.json"
+    },
+    {
+      "id": "tile/522ebf",
+      "file": "records/tile/522ebf.json"
+    },
+    {
+      "id": "tile/529f02",
+      "file": "records/tile/529f02.json"
+    },
+    {
+      "id": "tile/52b4a7",
+      "file": "records/tile/52b4a7.json"
+    },
+    {
+      "id": "tile/53548f",
+      "file": "records/tile/53548f.json"
+    },
+    {
+      "id": "tile/537788",
+      "file": "records/tile/537788.json"
+    },
+    {
+      "id": "tile/53d274",
+      "file": "records/tile/53d274.json"
+    },
+    {
+      "id": "tile/54c607",
+      "file": "records/tile/54c607.json"
+    },
+    {
+      "id": "tile/558269",
+      "file": "records/tile/558269.json"
+    },
+    {
+      "id": "tile/55cd12",
+      "file": "records/tile/55cd12.json"
+    },
+    {
+      "id": "tile/564211",
+      "file": "records/tile/564211.json"
+    },
+    {
+      "id": "tile/56b66e",
+      "file": "records/tile/56b66e.json"
+    },
+    {
+      "id": "tile/56e8b8",
+      "file": "records/tile/56e8b8.json"
+    },
+    {
+      "id": "tile/573bcb",
+      "file": "records/tile/573bcb.json"
+    },
+    {
+      "id": "tile/574909",
+      "file": "records/tile/574909.json"
+    },
+    {
+      "id": "tile/57ec44",
+      "file": "records/tile/57ec44.json"
+    },
+    {
+      "id": "tile/583d03",
+      "file": "records/tile/583d03.json"
+    },
+    {
+      "id": "tile/585e81",
+      "file": "records/tile/585e81.json"
+    },
+    {
+      "id": "tile/5891f9",
+      "file": "records/tile/5891f9.json"
+    },
+    {
+      "id": "tile/58d4ef",
+      "file": "records/tile/58d4ef.json"
+    },
+    {
+      "id": "tile/593596",
+      "file": "records/tile/593596.json"
+    },
+    {
+      "id": "tile/59fdc3",
+      "file": "records/tile/59fdc3.json"
+    },
+    {
+      "id": "tile/5a4f7d",
+      "file": "records/tile/5a4f7d.json"
+    },
+    {
+      "id": "tile/5a6c07",
+      "file": "records/tile/5a6c07.json"
+    },
+    {
+      "id": "tile/5a70ea",
+      "file": "records/tile/5a70ea.json"
+    },
+    {
+      "id": "tile/5c0a96",
+      "file": "records/tile/5c0a96.json"
+    },
+    {
+      "id": "tile/5df45e",
+      "file": "records/tile/5df45e.json"
+    },
+    {
+      "id": "tile/5dffee",
+      "file": "records/tile/5dffee.json"
+    },
+    {
+      "id": "tile/5e0070",
+      "file": "records/tile/5e0070.json"
+    },
+    {
+      "id": "tile/5ea23a",
+      "file": "records/tile/5ea23a.json"
+    },
+    {
+      "id": "tile/5eb00b",
+      "file": "records/tile/5eb00b.json"
+    },
+    {
+      "id": "tile/5ec0d3",
+      "file": "records/tile/5ec0d3.json"
+    },
+    {
+      "id": "tile/5f32e4",
+      "file": "records/tile/5f32e4.json"
+    },
+    {
+      "id": "tile/5faa5c",
+      "file": "records/tile/5faa5c.json"
+    },
+    {
+      "id": "tile/610606",
+      "file": "records/tile/610606.json"
+    },
+    {
+      "id": "tile/618806",
+      "file": "records/tile/618806.json"
+    },
+    {
+      "id": "tile/619d94",
+      "file": "records/tile/619d94.json"
+    },
+    {
+      "id": "tile/635f5a",
+      "file": "records/tile/635f5a.json"
+    },
+    {
+      "id": "tile/63b12d",
+      "file": "records/tile/63b12d.json"
+    },
+    {
+      "id": "tile/649c64",
+      "file": "records/tile/649c64.json"
+    },
+    {
+      "id": "tile/64b2fc",
+      "file": "records/tile/64b2fc.json"
+    },
+    {
+      "id": "tile/651f1a",
+      "file": "records/tile/651f1a.json"
+    },
+    {
+      "id": "tile/659c5f",
+      "file": "records/tile/659c5f.json"
+    },
+    {
+      "id": "tile/65a6aa",
+      "file": "records/tile/65a6aa.json"
+    },
+    {
+      "id": "tile/65bc0a",
+      "file": "records/tile/65bc0a.json"
+    },
+    {
+      "id": "tile/65bd69",
+      "file": "records/tile/65bd69.json"
+    },
+    {
+      "id": "tile/65c06b",
+      "file": "records/tile/65c06b.json"
+    },
+    {
+      "id": "tile/65d1e5",
+      "file": "records/tile/65d1e5.json"
+    },
+    {
+      "id": "tile/6744d5",
+      "file": "records/tile/6744d5.json"
+    },
+    {
+      "id": "tile/68562d",
+      "file": "records/tile/68562d.json"
+    },
+    {
+      "id": "tile/68ff0f",
+      "file": "records/tile/68ff0f.json"
+    },
+    {
+      "id": "tile/693b23",
+      "file": "records/tile/693b23.json"
+    },
+    {
+      "id": "tile/69b515",
+      "file": "records/tile/69b515.json"
+    },
+    {
+      "id": "tile/69b6f4",
+      "file": "records/tile/69b6f4.json"
+    },
+    {
+      "id": "tile/6a2697",
+      "file": "records/tile/6a2697.json"
+    },
+    {
+      "id": "tile/6b924b",
+      "file": "records/tile/6b924b.json"
+    },
+    {
+      "id": "tile/6bb0e3",
+      "file": "records/tile/6bb0e3.json"
+    },
+    {
+      "id": "tile/6c6b52",
+      "file": "records/tile/6c6b52.json"
+    },
+    {
+      "id": "tile/6cbc6f",
+      "file": "records/tile/6cbc6f.json"
+    },
+    {
+      "id": "tile/6e24e3",
+      "file": "records/tile/6e24e3.json"
+    },
+    {
+      "id": "tile/6f95c9",
+      "file": "records/tile/6f95c9.json"
+    },
+    {
+      "id": "tile/702ea2",
+      "file": "records/tile/702ea2.json"
+    },
+    {
+      "id": "tile/70abb3",
+      "file": "records/tile/70abb3.json"
+    },
+    {
+      "id": "tile/70aec0",
+      "file": "records/tile/70aec0.json"
+    },
+    {
+      "id": "tile/71649e",
+      "file": "records/tile/71649e.json"
+    },
+    {
+      "id": "tile/724202",
+      "file": "records/tile/724202.json"
+    },
+    {
+      "id": "tile/72f716",
+      "file": "records/tile/72f716.json"
+    },
+    {
+      "id": "tile/733e09",
+      "file": "records/tile/733e09.json"
+    },
+    {
+      "id": "tile/73897f",
+      "file": "records/tile/73897f.json"
+    },
+    {
+      "id": "tile/74d4de",
+      "file": "records/tile/74d4de.json"
+    },
+    {
+      "id": "tile/74e10a",
+      "file": "records/tile/74e10a.json"
+    },
+    {
+      "id": "tile/7505ce",
+      "file": "records/tile/7505ce.json"
+    },
+    {
+      "id": "tile/7573a6",
+      "file": "records/tile/7573a6.json"
+    },
+    {
+      "id": "tile/76a2d6",
+      "file": "records/tile/76a2d6.json"
+    },
+    {
+      "id": "tile/76b8d7",
+      "file": "records/tile/76b8d7.json"
+    },
+    {
+      "id": "tile/76c46b",
+      "file": "records/tile/76c46b.json"
+    },
+    {
+      "id": "tile/777afd",
+      "file": "records/tile/777afd.json"
+    },
+    {
+      "id": "tile/77aa24",
+      "file": "records/tile/77aa24.json"
+    },
+    {
+      "id": "tile/7843b9",
+      "file": "records/tile/7843b9.json"
+    },
+    {
+      "id": "tile/787734",
+      "file": "records/tile/787734.json"
+    },
+    {
+      "id": "tile/78b695",
+      "file": "records/tile/78b695.json"
+    },
+    {
+      "id": "tile/791fd3",
+      "file": "records/tile/791fd3.json"
+    },
+    {
+      "id": "tile/7938e3",
+      "file": "records/tile/7938e3.json"
+    },
+    {
+      "id": "tile/79f3f3",
+      "file": "records/tile/79f3f3.json"
+    },
+    {
+      "id": "tile/7a056c",
+      "file": "records/tile/7a056c.json"
+    },
+    {
+      "id": "tile/7ac84a",
+      "file": "records/tile/7ac84a.json"
+    },
+    {
+      "id": "tile/7aeb3b",
+      "file": "records/tile/7aeb3b.json"
+    },
+    {
+      "id": "tile/7afdaf",
+      "file": "records/tile/7afdaf.json"
+    },
+    {
+      "id": "tile/7cbf98",
+      "file": "records/tile/7cbf98.json"
+    },
+    {
+      "id": "tile/7cc27b",
+      "file": "records/tile/7cc27b.json"
+    },
+    {
+      "id": "tile/7d14b9",
+      "file": "records/tile/7d14b9.json"
+    },
+    {
+      "id": "tile/7f791c",
+      "file": "records/tile/7f791c.json"
+    },
+    {
+      "id": "tile/8004f3",
+      "file": "records/tile/8004f3.json"
+    },
+    {
+      "id": "tile/8087fa",
+      "file": "records/tile/8087fa.json"
+    },
+    {
+      "id": "tile/808dbb",
+      "file": "records/tile/808dbb.json"
+    },
+    {
+      "id": "tile/80fccd",
+      "file": "records/tile/80fccd.json"
+    },
+    {
+      "id": "tile/810b88",
+      "file": "records/tile/810b88.json"
+    },
+    {
+      "id": "tile/8370a1",
+      "file": "records/tile/8370a1.json"
+    },
+    {
+      "id": "tile/837da3",
+      "file": "records/tile/837da3.json"
+    },
+    {
+      "id": "tile/839b99",
+      "file": "records/tile/839b99.json"
+    },
+    {
+      "id": "tile/839d56",
+      "file": "records/tile/839d56.json"
+    },
+    {
+      "id": "tile/84edbb",
+      "file": "records/tile/84edbb.json"
+    },
+    {
+      "id": "tile/8559db",
+      "file": "records/tile/8559db.json"
+    },
+    {
+      "id": "tile/85a7f7",
+      "file": "records/tile/85a7f7.json"
+    },
+    {
+      "id": "tile/85c59b",
+      "file": "records/tile/85c59b.json"
+    },
+    {
+      "id": "tile/85f90a",
+      "file": "records/tile/85f90a.json"
+    },
+    {
+      "id": "tile/8610d8",
+      "file": "records/tile/8610d8.json"
+    },
+    {
+      "id": "tile/862ad7",
+      "file": "records/tile/862ad7.json"
+    },
+    {
+      "id": "tile/869fb7",
+      "file": "records/tile/869fb7.json"
+    },
+    {
+      "id": "tile/872679",
+      "file": "records/tile/872679.json"
+    },
+    {
+      "id": "tile/874003",
+      "file": "records/tile/874003.json"
+    },
+    {
+      "id": "tile/880361",
+      "file": "records/tile/880361.json"
+    },
+    {
+      "id": "tile/88b3d9",
+      "file": "records/tile/88b3d9.json"
+    },
+    {
+      "id": "tile/8a74cf",
+      "file": "records/tile/8a74cf.json"
+    },
+    {
+      "id": "tile/8a8f9c",
+      "file": "records/tile/8a8f9c.json"
+    },
+    {
+      "id": "tile/8a9ce1",
+      "file": "records/tile/8a9ce1.json"
+    },
+    {
+      "id": "tile/8b988e",
+      "file": "records/tile/8b988e.json"
+    },
+    {
+      "id": "tile/8bf104",
+      "file": "records/tile/8bf104.json"
+    },
+    {
+      "id": "tile/8ce16f",
+      "file": "records/tile/8ce16f.json"
+    },
+    {
+      "id": "tile/8d160f",
+      "file": "records/tile/8d160f.json"
+    },
+    {
+      "id": "tile/8eb8bb",
+      "file": "records/tile/8eb8bb.json"
+    },
+    {
+      "id": "tile/8f3646",
+      "file": "records/tile/8f3646.json"
+    },
+    {
+      "id": "tile/8f39d5",
+      "file": "records/tile/8f39d5.json"
+    },
+    {
+      "id": "tile/8fc007",
+      "file": "records/tile/8fc007.json"
+    },
+    {
+      "id": "tile/909271",
+      "file": "records/tile/909271.json"
+    },
+    {
+      "id": "tile/91dfd5",
+      "file": "records/tile/91dfd5.json"
+    },
+    {
+      "id": "tile/929aaa",
+      "file": "records/tile/929aaa.json"
+    },
+    {
+      "id": "tile/933749",
+      "file": "records/tile/933749.json"
+    },
+    {
+      "id": "tile/93de82",
+      "file": "records/tile/93de82.json"
+    },
+    {
+      "id": "tile/93eda7",
+      "file": "records/tile/93eda7.json"
+    },
+    {
+      "id": "tile/95a9ca",
+      "file": "records/tile/95a9ca.json"
+    },
+    {
+      "id": "tile/9755ab",
+      "file": "records/tile/9755ab.json"
+    },
+    {
+      "id": "tile/978c18",
+      "file": "records/tile/978c18.json"
+    },
+    {
+      "id": "tile/978d96",
+      "file": "records/tile/978d96.json"
+    },
+    {
+      "id": "tile/9908f7",
+      "file": "records/tile/9908f7.json"
+    },
+    {
+      "id": "tile/996e5e",
+      "file": "records/tile/996e5e.json"
+    },
+    {
+      "id": "tile/99ef95",
+      "file": "records/tile/99ef95.json"
+    },
+    {
+      "id": "tile/9a2f30",
+      "file": "records/tile/9a2f30.json"
+    },
+    {
+      "id": "tile/9b22c1",
+      "file": "records/tile/9b22c1.json"
+    },
+    {
+      "id": "tile/9b330a",
+      "file": "records/tile/9b330a.json"
+    },
+    {
+      "id": "tile/9bd994",
+      "file": "records/tile/9bd994.json"
+    },
+    {
+      "id": "tile/9bedc1",
+      "file": "records/tile/9bedc1.json"
+    },
+    {
+      "id": "tile/9bfb21",
+      "file": "records/tile/9bfb21.json"
+    },
+    {
+      "id": "tile/9c672b",
+      "file": "records/tile/9c672b.json"
+    },
+    {
+      "id": "tile/9c6b84",
+      "file": "records/tile/9c6b84.json"
+    },
+    {
+      "id": "tile/9d99a2",
+      "file": "records/tile/9d99a2.json"
+    },
+    {
+      "id": "tile/9dd3a5",
+      "file": "records/tile/9dd3a5.json"
+    },
+    {
+      "id": "tile/9efe49",
+      "file": "records/tile/9efe49.json"
+    },
+    {
+      "id": "tile/9f0b1d",
+      "file": "records/tile/9f0b1d.json"
+    },
+    {
+      "id": "tile/9f16b0",
+      "file": "records/tile/9f16b0.json"
+    },
+    {
+      "id": "tile/a04ccf",
+      "file": "records/tile/a04ccf.json"
+    },
+    {
+      "id": "tile/a17770",
+      "file": "records/tile/a17770.json"
+    },
+    {
+      "id": "tile/a1a9f2",
+      "file": "records/tile/a1a9f2.json"
+    },
+    {
+      "id": "tile/a24963",
+      "file": "records/tile/a24963.json"
+    },
+    {
+      "id": "tile/a24fcc",
+      "file": "records/tile/a24fcc.json"
+    },
+    {
+      "id": "tile/a44b42",
+      "file": "records/tile/a44b42.json"
+    },
+    {
+      "id": "tile/a4cc8d",
+      "file": "records/tile/a4cc8d.json"
+    },
+    {
+      "id": "tile/a5ab67",
+      "file": "records/tile/a5ab67.json"
+    },
+    {
+      "id": "tile/a76b07",
+      "file": "records/tile/a76b07.json"
+    },
+    {
+      "id": "tile/a7754a",
+      "file": "records/tile/a7754a.json"
+    },
+    {
+      "id": "tile/a78d72",
+      "file": "records/tile/a78d72.json"
+    },
+    {
+      "id": "tile/a7fd52",
+      "file": "records/tile/a7fd52.json"
+    },
+    {
+      "id": "tile/a83389",
+      "file": "records/tile/a83389.json"
+    },
+    {
+      "id": "tile/a928fb",
+      "file": "records/tile/a928fb.json"
+    },
+    {
+      "id": "tile/a9b619",
+      "file": "records/tile/a9b619.json"
+    },
+    {
+      "id": "tile/a9c9c5",
+      "file": "records/tile/a9c9c5.json"
+    },
+    {
+      "id": "tile/abf3e0",
+      "file": "records/tile/abf3e0.json"
+    },
+    {
+      "id": "tile/ac1b47",
+      "file": "records/tile/ac1b47.json"
+    },
+    {
+      "id": "tile/ac76ac",
+      "file": "records/tile/ac76ac.json"
+    },
+    {
+      "id": "tile/acf449",
+      "file": "records/tile/acf449.json"
+    },
+    {
+      "id": "tile/acfca4",
+      "file": "records/tile/acfca4.json"
+    },
+    {
+      "id": "tile/ad57de",
+      "file": "records/tile/ad57de.json"
+    },
+    {
+      "id": "tile/add460",
+      "file": "records/tile/add460.json"
+    },
+    {
+      "id": "tile/ae2159",
+      "file": "records/tile/ae2159.json"
+    },
+    {
+      "id": "tile/ae24f6",
+      "file": "records/tile/ae24f6.json"
+    },
+    {
+      "id": "tile/ae7ef2",
+      "file": "records/tile/ae7ef2.json"
+    },
+    {
+      "id": "tile/af1744",
+      "file": "records/tile/af1744.json"
+    },
+    {
+      "id": "tile/af6b93",
+      "file": "records/tile/af6b93.json"
+    },
+    {
+      "id": "tile/affacb",
+      "file": "records/tile/affacb.json"
+    },
+    {
+      "id": "tile/b03c11",
+      "file": "records/tile/b03c11.json"
+    },
+    {
+      "id": "tile/b06c3d",
+      "file": "records/tile/b06c3d.json"
+    },
+    {
+      "id": "tile/b1c3c2",
+      "file": "records/tile/b1c3c2.json"
+    },
+    {
+      "id": "tile/b20902",
+      "file": "records/tile/b20902.json"
+    },
+    {
+      "id": "tile/b2cf40",
+      "file": "records/tile/b2cf40.json"
+    },
+    {
+      "id": "tile/b32963",
+      "file": "records/tile/b32963.json"
+    },
+    {
+      "id": "tile/b3493a",
+      "file": "records/tile/b3493a.json"
+    },
+    {
+      "id": "tile/b3dee3",
+      "file": "records/tile/b3dee3.json"
+    },
+    {
+      "id": "tile/b446e4",
+      "file": "records/tile/b446e4.json"
+    },
+    {
+      "id": "tile/b4a180",
+      "file": "records/tile/b4a180.json"
+    },
+    {
+      "id": "tile/b4a807",
+      "file": "records/tile/b4a807.json"
+    },
+    {
+      "id": "tile/b568c7",
+      "file": "records/tile/b568c7.json"
+    },
+    {
+      "id": "tile/b6006c",
+      "file": "records/tile/b6006c.json"
+    },
+    {
+      "id": "tile/b643d6",
+      "file": "records/tile/b643d6.json"
+    },
+    {
+      "id": "tile/b6752b",
+      "file": "records/tile/b6752b.json"
+    },
+    {
+      "id": "tile/b6efd3",
+      "file": "records/tile/b6efd3.json"
+    },
+    {
+      "id": "tile/b78718",
+      "file": "records/tile/b78718.json"
+    },
+    {
+      "id": "tile/b7947b",
+      "file": "records/tile/b7947b.json"
+    },
+    {
+      "id": "tile/b84270",
+      "file": "records/tile/b84270.json"
+    },
+    {
+      "id": "tile/b84863",
+      "file": "records/tile/b84863.json"
+    },
+    {
+      "id": "tile/b88207",
+      "file": "records/tile/b88207.json"
+    },
+    {
+      "id": "tile/b8c625",
+      "file": "records/tile/b8c625.json"
+    },
+    {
+      "id": "tile/b906ef",
+      "file": "records/tile/b906ef.json"
+    },
+    {
+      "id": "tile/b922b7",
+      "file": "records/tile/b922b7.json"
+    },
+    {
+      "id": "tile/b943e7",
+      "file": "records/tile/b943e7.json"
+    },
+    {
+      "id": "tile/b9ee67",
+      "file": "records/tile/b9ee67.json"
+    },
+    {
+      "id": "tile/ba6c5b",
+      "file": "records/tile/ba6c5b.json"
+    },
+    {
+      "id": "tile/bb5bb4",
+      "file": "records/tile/bb5bb4.json"
+    },
+    {
+      "id": "tile/bb6833",
+      "file": "records/tile/bb6833.json"
+    },
+    {
+      "id": "tile/bbaef0",
+      "file": "records/tile/bbaef0.json"
+    },
+    {
+      "id": "tile/be1e83",
+      "file": "records/tile/be1e83.json"
+    },
+    {
+      "id": "tile/be4d28",
+      "file": "records/tile/be4d28.json"
+    },
+    {
+      "id": "tile/be5163",
+      "file": "records/tile/be5163.json"
+    },
+    {
+      "id": "tile/be9aee",
+      "file": "records/tile/be9aee.json"
+    },
+    {
+      "id": "tile/bebfac",
+      "file": "records/tile/bebfac.json"
+    },
+    {
+      "id": "tile/c018d3",
+      "file": "records/tile/c018d3.json"
+    },
+    {
+      "id": "tile/c1e902",
+      "file": "records/tile/c1e902.json"
+    },
+    {
+      "id": "tile/c28507",
+      "file": "records/tile/c28507.json"
+    },
+    {
+      "id": "tile/c29112",
+      "file": "records/tile/c29112.json"
+    },
+    {
+      "id": "tile/c339b5",
+      "file": "records/tile/c339b5.json"
+    },
+    {
+      "id": "tile/c356f9",
+      "file": "records/tile/c356f9.json"
+    },
+    {
+      "id": "tile/c376a5",
+      "file": "records/tile/c376a5.json"
+    },
+    {
+      "id": "tile/c3f1cd",
+      "file": "records/tile/c3f1cd.json"
+    },
+    {
+      "id": "tile/c5e999",
+      "file": "records/tile/c5e999.json"
+    },
+    {
+      "id": "tile/c63b06",
+      "file": "records/tile/c63b06.json"
+    },
+    {
+      "id": "tile/c71e6c",
+      "file": "records/tile/c71e6c.json"
+    },
+    {
+      "id": "tile/c75b8a",
+      "file": "records/tile/c75b8a.json"
+    },
+    {
+      "id": "tile/c8161d",
+      "file": "records/tile/c8161d.json"
+    },
+    {
+      "id": "tile/c8759b",
+      "file": "records/tile/c8759b.json"
+    },
+    {
+      "id": "tile/c8835c",
+      "file": "records/tile/c8835c.json"
+    },
+    {
+      "id": "tile/c88479",
+      "file": "records/tile/c88479.json"
+    },
+    {
+      "id": "tile/ca010d",
+      "file": "records/tile/ca010d.json"
+    },
+    {
+      "id": "tile/ca492a",
+      "file": "records/tile/ca492a.json"
+    },
+    {
+      "id": "tile/cb43ea",
+      "file": "records/tile/cb43ea.json"
+    },
+    {
+      "id": "tile/cc9832",
+      "file": "records/tile/cc9832.json"
+    },
+    {
+      "id": "tile/cd4131",
+      "file": "records/tile/cd4131.json"
+    },
+    {
+      "id": "tile/cdc77d",
+      "file": "records/tile/cdc77d.json"
+    },
+    {
+      "id": "tile/ce3107",
+      "file": "records/tile/ce3107.json"
+    },
+    {
+      "id": "tile/cf4e0e",
+      "file": "records/tile/cf4e0e.json"
+    },
+    {
+      "id": "tile/d04bad",
+      "file": "records/tile/d04bad.json"
+    },
+    {
+      "id": "tile/d06bb8",
+      "file": "records/tile/d06bb8.json"
+    },
+    {
+      "id": "tile/d24c43",
+      "file": "records/tile/d24c43.json"
+    },
+    {
+      "id": "tile/d264c3",
+      "file": "records/tile/d264c3.json"
+    },
+    {
+      "id": "tile/d3d503",
+      "file": "records/tile/d3d503.json"
+    },
+    {
+      "id": "tile/d401fc",
+      "file": "records/tile/d401fc.json"
+    },
+    {
+      "id": "tile/d499f0",
+      "file": "records/tile/d499f0.json"
+    },
+    {
+      "id": "tile/d6a1e5",
+      "file": "records/tile/d6a1e5.json"
+    },
+    {
+      "id": "tile/d7567b",
+      "file": "records/tile/d7567b.json"
+    },
+    {
+      "id": "tile/d78cb7",
+      "file": "records/tile/d78cb7.json"
+    },
+    {
+      "id": "tile/d79ea0",
+      "file": "records/tile/d79ea0.json"
+    },
+    {
+      "id": "tile/d7bbc7",
+      "file": "records/tile/d7bbc7.json"
+    },
+    {
+      "id": "tile/d80568",
+      "file": "records/tile/d80568.json"
+    },
+    {
+      "id": "tile/d8af51",
+      "file": "records/tile/d8af51.json"
+    },
+    {
+      "id": "tile/d92ecf",
+      "file": "records/tile/d92ecf.json"
+    },
+    {
+      "id": "tile/d94300",
+      "file": "records/tile/d94300.json"
+    },
+    {
+      "id": "tile/d9d393",
+      "file": "records/tile/d9d393.json"
+    },
+    {
+      "id": "tile/dac218",
+      "file": "records/tile/dac218.json"
+    },
+    {
+      "id": "tile/dadbda",
+      "file": "records/tile/dadbda.json"
+    },
+    {
+      "id": "tile/dae3a7",
+      "file": "records/tile/dae3a7.json"
+    },
+    {
+      "id": "tile/db6091",
+      "file": "records/tile/db6091.json"
+    },
+    {
+      "id": "tile/dd6100",
+      "file": "records/tile/dd6100.json"
+    },
+    {
+      "id": "tile/de9893",
+      "file": "records/tile/de9893.json"
+    },
+    {
+      "id": "tile/dfe27e",
+      "file": "records/tile/dfe27e.json"
+    },
+    {
+      "id": "tile/e0f448",
+      "file": "records/tile/e0f448.json"
+    },
+    {
+      "id": "tile/e11f42",
+      "file": "records/tile/e11f42.json"
+    },
+    {
+      "id": "tile/e22a36",
+      "file": "records/tile/e22a36.json"
+    },
+    {
+      "id": "tile/e27d0f",
+      "file": "records/tile/e27d0f.json"
+    },
+    {
+      "id": "tile/e2bb5f",
+      "file": "records/tile/e2bb5f.json"
+    },
+    {
+      "id": "tile/e36e55",
+      "file": "records/tile/e36e55.json"
+    },
+    {
+      "id": "tile/e4bab0",
+      "file": "records/tile/e4bab0.json"
+    },
+    {
+      "id": "tile/e5595b",
+      "file": "records/tile/e5595b.json"
+    },
+    {
+      "id": "tile/e62723",
+      "file": "records/tile/e62723.json"
+    },
+    {
+      "id": "tile/e627a0",
+      "file": "records/tile/e627a0.json"
+    },
+    {
+      "id": "tile/e68ef8",
+      "file": "records/tile/e68ef8.json"
+    },
+    {
+      "id": "tile/e6f240",
+      "file": "records/tile/e6f240.json"
+    },
+    {
+      "id": "tile/e78749",
+      "file": "records/tile/e78749.json"
+    },
+    {
+      "id": "tile/e9055a",
+      "file": "records/tile/e9055a.json"
+    },
+    {
+      "id": "tile/e99322",
+      "file": "records/tile/e99322.json"
+    },
+    {
+      "id": "tile/ea67dd",
+      "file": "records/tile/ea67dd.json"
+    },
+    {
+      "id": "tile/eb474e",
+      "file": "records/tile/eb474e.json"
+    },
+    {
+      "id": "tile/eb811d",
+      "file": "records/tile/eb811d.json"
+    },
+    {
+      "id": "tile/ebddf3",
+      "file": "records/tile/ebddf3.json"
+    },
+    {
+      "id": "tile/ec3a2e",
+      "file": "records/tile/ec3a2e.json"
+    },
+    {
+      "id": "tile/ec6972",
+      "file": "records/tile/ec6972.json"
+    },
+    {
+      "id": "tile/ec6b0f",
+      "file": "records/tile/ec6b0f.json"
+    },
+    {
+      "id": "tile/ecaa03",
+      "file": "records/tile/ecaa03.json"
+    },
+    {
+      "id": "tile/ed22d3",
+      "file": "records/tile/ed22d3.json"
+    },
+    {
+      "id": "tile/ed8cd0",
+      "file": "records/tile/ed8cd0.json"
+    },
+    {
+      "id": "tile/ee7ecf",
+      "file": "records/tile/ee7ecf.json"
+    },
+    {
+      "id": "tile/eea012",
+      "file": "records/tile/eea012.json"
+    },
+    {
+      "id": "tile/ef5903",
+      "file": "records/tile/ef5903.json"
+    },
+    {
+      "id": "tile/efd160",
+      "file": "records/tile/efd160.json"
+    },
+    {
+      "id": "tile/f16e74",
+      "file": "records/tile/f16e74.json"
+    },
+    {
+      "id": "tile/f24d54",
+      "file": "records/tile/f24d54.json"
+    },
+    {
+      "id": "tile/f297cd",
+      "file": "records/tile/f297cd.json"
+    },
+    {
+      "id": "tile/f2f1c5",
+      "file": "records/tile/f2f1c5.json"
+    },
+    {
+      "id": "tile/f2f8a2",
+      "file": "records/tile/f2f8a2.json"
+    },
+    {
+      "id": "tile/f3a1e3",
+      "file": "records/tile/f3a1e3.json"
+    },
+    {
+      "id": "tile/f3dd7d",
+      "file": "records/tile/f3dd7d.json"
+    },
+    {
+      "id": "tile/f401b3",
+      "file": "records/tile/f401b3.json"
+    },
+    {
+      "id": "tile/f4c70f",
+      "file": "records/tile/f4c70f.json"
+    },
+    {
+      "id": "tile/f5adb7",
+      "file": "records/tile/f5adb7.json"
+    },
+    {
+      "id": "tile/f5b1b1",
+      "file": "records/tile/f5b1b1.json"
+    },
+    {
+      "id": "tile/f65d19",
+      "file": "records/tile/f65d19.json"
+    },
+    {
+      "id": "tile/f67102",
+      "file": "records/tile/f67102.json"
+    },
+    {
+      "id": "tile/f7195e",
+      "file": "records/tile/f7195e.json"
+    },
+    {
+      "id": "tile/f79aa1",
+      "file": "records/tile/f79aa1.json"
+    },
+    {
+      "id": "tile/f83261",
+      "file": "records/tile/f83261.json"
+    },
+    {
+      "id": "tile/f93d6a",
+      "file": "records/tile/f93d6a.json"
+    },
+    {
+      "id": "tile/fbbb6b",
+      "file": "records/tile/fbbb6b.json"
+    },
+    {
+      "id": "tile/fc3a02",
+      "file": "records/tile/fc3a02.json"
+    },
+    {
+      "id": "tile/fc51be",
+      "file": "records/tile/fc51be.json"
+    },
+    {
+      "id": "tile/fc7793",
+      "file": "records/tile/fc7793.json"
+    },
+    {
+      "id": "tile/fc89b3",
+      "file": "records/tile/fc89b3.json"
+    },
+    {
+      "id": "tile/fce739",
+      "file": "records/tile/fce739.json"
+    },
+    {
+      "id": "tile/fdf72e",
+      "file": "records/tile/fdf72e.json"
+    },
+    {
+      "id": "tile/ff5d50",
+      "file": "records/tile/ff5d50.json"
+    },
+    {
+      "id": "tile/ff8a8b",
+      "file": "records/tile/ff8a8b.json"
+    },
+    {
+      "id": "token/agent",
+      "file": "records/token/agent.json"
+    },
+    {
+      "id": "token/incident",
+      "file": "records/token/incident.json"
+    },
+    {
+      "id": "token/incident-2",
+      "file": "records/token/incident-2.json"
+    },
+    {
+      "id": "token/objective",
+      "file": "records/token/objective.json"
+    },
+    {
+      "id": "token/safehouse",
+      "file": "records/token/safehouse.json"
+    },
+    {
+      "id": "token/threat-marker",
+      "file": "records/token/threat-marker.json"
+    },
+    {
+      "id": "token/tracker",
+      "file": "records/token/tracker.json"
+    }
+  ]
+}

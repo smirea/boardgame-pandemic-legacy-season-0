@@ -1,0 +1,54 @@
+{
+  "id": "legacy/04-20",
+  "printedCode": "04-20",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "f997ae",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/27",
+    "duplicatePaths": [
+      "352/27"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "f997ae"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 11 Europe City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Europe cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-27.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "APRIL OBJECTIVE 2\n\nBUG CONTROL CENTER\n\nAcquire Target in:\n1 UNKNOWN CITY IN EUROPE\n\nCompleted: Read Debrief 165\nFailed: Read Debrief 193",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-27.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/165",
+      "label": "Debrief 165"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/193",
+      "label": "Debrief 193"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

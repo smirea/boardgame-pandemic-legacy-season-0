@@ -1,0 +1,33 @@
+{
+  "id": "pearl/piece-e607d3",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "e607d3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/33",
+    "duplicatePaths": [],
+    "note": "PEARL compound piece e607d3. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "e607d3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/46e9ea051042554b337bd1513d1520d0a744285d.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

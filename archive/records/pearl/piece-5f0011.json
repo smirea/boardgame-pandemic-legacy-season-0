@@ -1,0 +1,33 @@
+{
+  "id": "pearl/piece-5f0011",
+  "printedCode": null,
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "5f0011",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/51",
+    "duplicatePaths": [],
+    "note": "PEARL compound piece 5f0011. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "5f0011"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RULE R\nWhen Infiltrating, you may use multiple symbols (region, affiliation, keypad number) on the same Player card at the same time.\nDISCOVERING NEW AREAS OF PEARL\nWhen you move into a new area in PEARL, open the Dossier door for the new area and place your pawn in the connected room. Turn Security tokens adjacent to your room faceup, then read any text in the room.\nSome areas in PEARL have more than 1 room under a single Dossier door.\nThese rooms are not connected to each other.\nHATCHWAYS\nHatchways in PEARL Compound may not be bypassed with the Infiltrate action.",
+      "flavor": "",
+      "image": "media/original/244ef986831840993cb762cf9b505f7652ab2be6.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

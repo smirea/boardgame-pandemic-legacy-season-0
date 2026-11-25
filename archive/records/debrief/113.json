@@ -1,0 +1,31 @@
+{
+  "id": "debrief/113",
+  "printedCode": "113",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Find card 80 in the Operations deck and place it in the Intelligence file. Anyone can look at it at any time.",
+      "flavor": "The team was too late. Dozens of civilians witnessed a messy execution in broad daylight. After a lot of effort, your team cooled the ire of local authorities and claimed what was left of the body. During examination, a document was found in a hidden compartment in the Soviet agent's billfold.",
+      "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

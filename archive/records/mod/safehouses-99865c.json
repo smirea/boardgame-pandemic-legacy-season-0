@@ -1,0 +1,33 @@
+{
+  "id": "mod/safehouses-99865c",
+  "printedCode": "Safehouses",
+  "kind": "mesh",
+  "censusKey": "mod-extra",
+  "sourceGuid": "99865c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "45",
+    "duplicatePaths": [],
+    "note": "Supply bag for the safehouses.",
+    "guids": [
+      "99865c"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "token/safehouse",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": {
+    "file": "media/original/a0514982ddf0a6bd9461daf1b583c62d08ad4281.obj",
+    "diffuse": "media/original/551fd5cba20e48d87500cdbae2b420eb9cc7f308.jpg"
+  }
+}

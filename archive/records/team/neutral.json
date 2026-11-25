@@ -1,0 +1,41 @@
+{
+  "id": "team/neutral",
+  "printedCode": null,
+  "kind": "team",
+  "censusKey": "team",
+  "sourceGuid": "6250c6",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "50",
+    "duplicatePaths": [
+      "51",
+      "52"
+    ],
+    "note": "Neutral team miniature. Three copies share this mesh.",
+    "guids": [
+      "6250c6",
+      "8f739f",
+      "b3c791"
+    ]
+  },
+  "count": 3,
+  "faces": [
+    {
+      "id": "diffuse",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/8005df0bacb3b0226b11ca042028cfbb8451e072.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/a2460123d1e0bbe96009679a47e883ccb1d8853f.obj",
+    "diffuse": "media/original/8005df0bacb3b0226b11ca042028cfbb8451e072.jpg"
+  }
+}

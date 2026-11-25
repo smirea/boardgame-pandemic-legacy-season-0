@@ -1,0 +1,182 @@
+{
+  "legacy/01-08": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EVENT\nENCODED MESSAGES\nChoose 2 players. They select 1 card from their hands and swap them.\nPlay any time. Not an action.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/01-09": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EVENT\nWEEKEND RENDEZVOUS\nYou may move any pawn(s) to a single city containing another pawn.\nPlay any time. Not an action.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/01-10": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EVENT\nSCRAMBLE TEAMS\nMove every team up to 3 cities away from their current locations.\nPlay any time. Not an action.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STOP\nDraw this card just before you set up your first game in February.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "flavor",
+        "transcription": "MISSION BRIEFING\n\"Okay team, listen up. First off, we got a couple of Soviet scientists nosin' around our home soil, and we gotta figure out what they're doin'.\nSecond thing: I'm told the current strain of the MEDUSA plague is non-lethal, but the Reds ain't gonna leave it at that. They're starting up trials, experimentin' on local populations in three different cities. We want you to stop it, all of it, but I got a word of advice:\nThings can get...real complicated out in the field. Sometimes you can't do everything for everyone. It shakes loose that way...just... just keep in mind savin' one city is better than savin' none, y'know?\"",
+        "flavor": "\"Okay team, listen up. First off, we got a couple of Soviet scientists nosin' around our home soil, and we gotta figure out what they're doin'.\nSecond thing: I'm told the current strain of the MEDUSA plague is non-lethal, but the Reds ain't gonna leave it at that. They're starting up trials, experimentin' on local populations in three different cities. We want you to stop it, all of it, but I got a word of advice:\nThings can get...real complicated out in the field. Sometimes you can't do everything for everyone. It shakes loose that way...just... just keep in mind savin' one city is better than savin' none, y'know?\""
+      }
+    }
+  },
+  "legacy/02-02": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\nOpen the following doors:\nL 35\nAdd the Disrupt Trial action to each reference sheet.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is your first disrupt trial objective.\nTo set it up, separate the 6 Africa City cards from the Player deck, shuffle them, and place 3 of them faceup into the Operations area. These are the 3 trial cities.\nThen, shuffle the remaining Africa cards back into the Player deck.\nFinally, put this card on top of the trial City cards and flip it over.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "FEBRUARY OBJECTIVE 1\nDISRUPT THE FIRST TRIAL\nDisrupt Trial in:\n1, 2, OR 3 KNOWN CITIES IN AFRICA AT THE SAME TIME\nCompleted: Read Debrief 174\nFailed: Read Debrief 169",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-04": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This objective has an unknown target city.\nTo set it up, separate the 8 North America City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\nThen, shuffle the remaining North America cards back into the Player deck without looking at them.\nFinally, flip this card over and place it on top of the unknown City card.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "FEBRUARY OBJECTIVE 2\nINVESTIGATE SOVIET SCIENTISTS\nAcquire Target in:\n1 UNKNOWN CITY IN NORTH AMERICA\nCompleted: Read Debrief 191\nFailed: Read Debrief 149",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-05": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial objective).",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\n1 Draw the next 3 cards in this deck.\n2 Turn each city where the trial was NOT disrupted into an Exposed city (following the rules for Marking Exposed Cities). These cities are now exposed to MEDUSA, and Disease cubes will appear on them when Infection cards are drawn for them.\n3 Destroy any unused Infection cards.\n4 Move the 3 City cards under the Disrupt Trial objective to the Player discard pile.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-06": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFECTION\nCITY NAME",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-07": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFECTION\nCITY NAME",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-08": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFECTION\nCITY NAME",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/02-09": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in February.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\nOpen the following door:\n12\nIf you received a FAILING evaluation for the first half of the month, read Debrief 163.\nFinally, add the following Event card to the pool of events that you select from when you set up the game (regardless of the evaluation you received).",
+        "flavor": ""
+      }
+    }
+  }
+}

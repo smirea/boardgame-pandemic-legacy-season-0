@@ -1,0 +1,45 @@
+{
+  "id": "legacy/06-06",
+  "printedCode": "06-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "185602",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/9",
+    "duplicatePaths": [
+      "351/0/9",
+      "352/9"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "185602",
+      "35f2cc"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "“Your first year evaluations continue. Remember that these are important.\nAny restrictions you receive will not necessarily reflect our opinion on the quality of your work. They are a time-tested method by which we train junior agents.”",
+      "flavor": "“Your first year evaluations continue. Remember that these are important.\nAny restrictions you receive will not necessarily reflect our opinion on the quality of your work. They are a time-tested method by which we train junior agents.”",
+      "image": "media/split/8ef8489d5a98-9.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Decide as a group, then fill in 1 bubble per question.\nStrongly Disagree\nStrongly Agree\n8. Things never look bleak or hopeless. 1 2 3 4 5\n9. We tend to believe all human beings are worthy of respect. 1 2 3 4 5\nAfter answering, put this card into your Personnel file.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-9.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

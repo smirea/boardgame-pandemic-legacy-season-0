@@ -1,0 +1,54 @@
+{
+  "id": "legacy/06-05",
+  "printedCode": "06-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "9861d8",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/10",
+    "duplicatePaths": [
+      "352/10"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "9861d8"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\nTo set it up, separate the 13 Asia City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\nThen, shuffle the remaining Asia cards back into the Player deck without looking at them.\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-10.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "JUNE OBJECTIVE 3\nBUG CONTROL CENTER\nAcquire Target in:\n1 UNKNOWN CITY IN ASIA\nCompleted: Read Debrief 229\nFailed: Read Debrief 111",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-10.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/111",
+      "label": "Debrief 111"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/229",
+      "label": "Debrief 229"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

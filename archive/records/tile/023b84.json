@@ -1,0 +1,33 @@
+{
+  "id": "tile/023b84",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "023b84",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "308/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "023b84"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "UNAPPROVED SUPPLEMENTS As an action, you may remove a Disease cube from an adjacent city.",
+      "flavor": "",
+      "image": "media/original/5128c17c2f27cf411224ef89a283f7ad5f8f5dce.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

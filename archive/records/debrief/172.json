@@ -1,0 +1,31 @@
+{
+  "id": "debrief/172",
+  "printedCode": "172",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Remove all Pursuit and Checkpoint tokens from the board.",
+      "flavor": "The target slipped through the network, safely into Soviet territory. He is a gardening contractor that deals in plants, seeds, and so on. It is unclear what he was carrying, but it looks like he's sending another shipment this month.",
+      "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

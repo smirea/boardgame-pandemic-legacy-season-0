@@ -1,0 +1,33 @@
+{
+  "id": "overlay/player-calendar",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "690942",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "32",
+    "duplicatePaths": [],
+    "note": "Red ink. Blank player log for January through December. The other three copies use the same words in gold, green, and black.",
+    "guids": [
+      "690942"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MONTH | PLAYER | RESULT | DATE | MONTH | PLAYER | RESULT | DATE\nJANUARY | JULY\nFEBRUARY | AUGUST\nMARCH | SEPTEMBER\nAPRIL | OCTOBER\nMAY | NOVEMBER\nJUNE | DECEMBER",
+      "flavor": "",
+      "image": "media/original/d6573f4659f5bae8abc57c8cd06b0b5a0f9b56c0.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

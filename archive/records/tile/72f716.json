@@ -1,0 +1,33 @@
+{
+  "id": "tile/72f716",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "72f716",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "221",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "72f716"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MONITORED: If you draw 2 Soviet City cards at the end of your turn, lose 1 cover.",
+      "flavor": "",
+      "image": "media/original/e30fa05210d1d76252e7588d7fcd5e98c53cf8f0.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

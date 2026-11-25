@@ -1,0 +1,33 @@
+{
+  "id": "tile/4fe7d5",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "4fe7d5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "241",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "4fe7d5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TOP SECRET\nCONFIDENTIAL ALIAS",
+      "flavor": "",
+      "image": "media/original/6fc5ca44fe056ff1a74a7cb7aa43aa1c8aef11ec.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

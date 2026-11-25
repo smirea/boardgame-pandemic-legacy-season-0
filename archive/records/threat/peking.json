@@ -1,0 +1,41 @@
+{
+  "id": "threat/peking",
+  "printedCode": "Peking",
+  "kind": "card",
+  "censusKey": "threat-card",
+  "sourceGuid": "5fff2b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "59/44",
+    "duplicatePaths": [],
+    "note": "Threat card. Drawing it from the bottom of the deck is the incident effect.",
+    "guids": [
+      "5fff2b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PEKING\nPEOPLE'S REPUBLIC OF CHINA\nINCIDENT\nSAFEHOUSE COMPROMISED\nRemove 1 safehouse in North America and return it to the supply.",
+      "flavor": "",
+      "image": "media/split/f50a156f5be0-13.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

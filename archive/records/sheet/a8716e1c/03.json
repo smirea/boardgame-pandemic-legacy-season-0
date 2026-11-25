@@ -1,0 +1,31 @@
+{
+  "id": "sheet/a8716e1c/03",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "mod-extra",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Sheet cell that no object in the save uses. Kept because the art is not blank.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ESCALATION\n1. INCREASE THREAT\nAdvance the Threat Level marker 1 space.\n2. ADD AGENTS\nDraw the bottom card from the Threat deck and add 3 agents to that city. Discard the card to the Threat discard pile.\n3. INTENSIFY\nShuffle the cards in the Threat discard pile and put them on top of the Threat deck.",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

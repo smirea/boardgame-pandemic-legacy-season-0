@@ -1,0 +1,43 @@
+{
+  "id": "legacy/06-12",
+  "printedCode": "06-12",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "dee809",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/3",
+    "duplicatePaths": [
+      "352/3"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "dee809"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "INFECTION\nCITY NAME\nSTARTING INTENSITY\n1\nDuring setup, put 1 disease cube into this city.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-3.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

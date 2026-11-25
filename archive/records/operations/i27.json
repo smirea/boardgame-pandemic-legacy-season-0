@@ -1,0 +1,43 @@
+{
+  "id": "operations/i27",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "98a0a5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/14",
+    "duplicatePaths": [
+      "347/14"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "98a0a5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "FIELD REPORT\nMAY, 1962\n\nSabik's operatives were planning assassination of Soviet operatives. Civilian casualties were \"acceptable, given the time of great need.\"\n\nHe insists he did not harm or abduct Cooper but blamed the CIA for making Cooper disappear. Said Cooper might have asked too many questions, or been caught misusing agency funds.",
+      "flavor": "Sabik's operatives were planning assassination of Soviet operatives. Civilian casualties were \"acceptable, given the time of great need.\"\n\nHe insists he did not harm or abduct Cooper but blamed the CIA for making Cooper disappear. Said Cooper might have asked too many questions, or been caught misusing agency funds.",
+      "image": "media/split/f7f847d898dc-27.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n63",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-27.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/91dfd5",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "91dfd5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "308/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "91dfd5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "INFRARED GOGGLES Once per turn, take 2 Action tokens when you do the Enter/Exit Infiltration Site action.",
+      "flavor": "",
+      "image": "media/original/798ace3030a8eb807aa961e49421c8f591ebbc1b.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

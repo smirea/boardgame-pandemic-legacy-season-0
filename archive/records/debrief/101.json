@@ -1,0 +1,31 @@
+{
+  "id": "debrief/101",
+  "printedCode": "101",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "You may immediately turn up to 2 Security tokens faceup in the PEARL Compound. Remove all Checkpoint tokens from the board.",
+      "flavor": "The exporter proved cooperative once cornered: \"I'm not in trouble, am I? I'm just shipping ragweed pollen and seeds. I don't know why they want it, but it's not a crime, right? It's just a weed; it can't really hurt anyone. I'll tell you where the shipment is headed, but that's all I know. I swear.\"",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

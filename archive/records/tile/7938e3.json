@@ -1,0 +1,33 @@
+{
+  "id": "tile/7938e3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "7938e3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "330/0/12",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "7938e3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ENTER/EXIT INFILTRATION SITE\nRULE P\nMove your pawn between an Infiltration city and the ENTRANCE room of its Infiltration site.\nYou must use an alias that matches the affiliation of the Infiltration city to do this action.\nWhenever you enter a room, reveal all facedown Security tokens adjacent to it.\nIf you exit an Infiltration site to a city with Disease cubes and/or a Contamination sticker, do not take any Symptom cards.",
+      "flavor": "",
+      "image": "media/original/247726c2afbca7fb86949b5b367e28bfea783d65.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

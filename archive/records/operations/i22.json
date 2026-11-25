@@ -1,0 +1,54 @@
+{
+  "id": "operations/i22",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "2d78e5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/19",
+    "duplicatePaths": [
+      "347/19"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "2d78e5"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AUGUST OBJECTIVE 1A\nQUARANTINE AN EXPOSED CITY IN ASIA\nAcquire Target in:\n1 EXPOSED CITY IN ASIA, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 233\nFailed: Read Debrief 185",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-22.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n68",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-22.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/185",
+      "label": "Debrief 185"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/233",
+      "label": "Debrief 233"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/2880da",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "2880da",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/24",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "2880da"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CONTAMINATION STICKERS\nAdd these stickers to the reserve.",
+      "flavor": "",
+      "image": "media/original/cd632d2f791ec2cdfe127598191094499f85950a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,710 @@
+{
+  "passport/black-allied": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. scratched, empty\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, empty\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, empty\n10. scratched, flame",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/black-neutral": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, empty\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, empty\n8. scratched, crossed card\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, empty\n8. scratched, crossed card\n9. scratched, crossed card\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, empty\n8. scratched, crossed card\n9. scratched, crossed card\n10. scratched, flame",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/black-soviet": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, handcuffs\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, handcuffs\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, crossed card\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, crossed card\n8. scratched, flame\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, crossed card\n8. scratched, flame\n9. scratched, empty\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Black pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, crossed card\n8. scratched, flame\n9. scratched, empty\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/green-allied": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, crossed card\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, crossed card\n9. scratched, empty\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, crossed card\n9. scratched, empty\n10. scratched, flame",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/green-neutral": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, handcuffs\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. scratched, flame\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. scratched, flame\n9. scratched, empty\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. scratched, flame\n9. scratched, empty\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/green-soviet": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. scratched, handcuffs\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. scratched, handcuffs\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, empty\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, empty\n8. scratched, flame\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, empty\n8. scratched, flame\n9. scratched, empty\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Green pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, empty\n3. scratched, crossed card\n4. scratched, handcuffs\n5. scratched, empty\n6. scratched, crossed card\n7. scratched, empty\n8. scratched, flame\n9. scratched, empty\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/pink-allied": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, crossed card\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, crossed card\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, flame\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, flame\n9. scratched, empty\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, crossed card\n2. scratched, empty\n3. scratched, handcuffs\n4. scratched, empty\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, flame\n9. scratched, empty\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/pink-neutral": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, crossed card\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, crossed card\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, empty\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, flame\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, handcuffs\n2. scratched, crossed card\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, crossed card\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, flame\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/pink-soviet": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. scratched, empty\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. scratched, empty\n9. scratched, empty\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, empty\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, flame\n8. scratched, empty\n9. scratched, empty\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/white-allied": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, empty\n7. scratched, handcuffs\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, empty\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, flame\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Allied, a blue compass rose on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, empty\n7. scratched, handcuffs\n8. scratched, empty\n9. scratched, flame\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/white-neutral": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, empty\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, empty\n9. scratched, flame\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Neutral, a gray globe on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, crossed card\n4. scratched, crossed card\n5. scratched, empty\n6. scratched, handcuffs\n7. scratched, empty\n8. scratched, empty\n9. scratched, flame\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  },
+  "passport/white-soviet": {
+    "faces": {
+      "state-1": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. unscratched\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-2": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. unscratched\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-3": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. unscratched\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-4": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. unscratched\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-5": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. unscratched\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-6": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. unscratched\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-7": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. unscratched\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-8": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. unscratched\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-9": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. scratched, empty\n9. unscratched\n10. unscratched",
+        "flavor": ""
+      },
+      "state-10": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. scratched, empty\n9. scratched, flame\n10. unscratched",
+        "flavor": ""
+      },
+      "state-11": {
+        "role": "rules",
+        "transcription": "White pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.\n\nNAME\nCOVER OCCUPATION\nSPECIALIZATION\nASSET\nASSET\nASSET\nLIABILITY\nLIABILITY\nCOVER\n\nCover pips, left to right:\n1. scratched, empty\n2. scratched, handcuffs\n3. scratched, empty\n4. scratched, crossed card\n5. scratched, handcuffs\n6. scratched, empty\n7. scratched, crossed card\n8. scratched, empty\n9. scratched, flame\n10. scratched, empty",
+        "flavor": ""
+      }
+    }
+  }
+}

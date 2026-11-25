@@ -1,0 +1,54 @@
+{
+  "id": "legacy/01-04",
+  "printedCode": "01-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "34c97b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/72",
+    "duplicatePaths": [
+      "352/72"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "34c97b"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 13 Asia City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Asia cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-16.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "JANUARY OBJECTIVE 2\nFIND AGENT SABIK\nAcquire Target in:\n1 UNKNOWN CITY IN ASIA\nCompleted: Read Debrief 210\nFailed: Read Debrief 195",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-16.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/195",
+      "label": "Debrief 195"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/210",
+      "label": "Debrief 210"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tile/8a9ce1",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8a9ce1",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/32",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "8a9ce1"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "THE TRIALS\n\"There have been plague flareups in the cities where the MEDUSA trials were held. Hey, y'all were trained as doctors, remember? Time to put that bedside manner to good use and help some victims.\"\nRIGHT NOW\n1 Put the 6 enclosed Disease cubes to the side of the board to form a supply.\n2 Add the enclosed stickers to the Incident tokens, game board, and rulebook.\n3 Add the Treat stickers to the Specialization spot in the first alias of each passport.\n4 Add the Contamination stickers to the reserve. Contamination stickers on the board do not have any gameplay effect...yet.",
+      "flavor": "\"There have been plague flareups in the cities where the MEDUSA trials were held. Hey, y'all were trained as doctors, remember? Time to put that bedside manner to good use and help some victims.\"",
+      "image": "media/original/3e6ccbef077de9fbc8528052b04a2b101a8880a1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "places",
+      "targetId": "board",
+      "label": "On the board"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

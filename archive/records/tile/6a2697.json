@@ -1,0 +1,33 @@
+{
+  "id": "tile/6a2697",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "6a2697",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/10",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "6a2697"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RULE AA\nYou need to add an Outbreak token but there aren't any in the supply.\nYou need to add a Disease cube to the board but there aren't any in the supply.",
+      "flavor": "",
+      "image": "media/original/ed0edde38986a6ae6d944a971ef9ea3d89eb21a3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

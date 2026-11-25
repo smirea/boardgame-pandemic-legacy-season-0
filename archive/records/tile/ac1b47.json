@@ -1,0 +1,33 @@
+{
+  "id": "tile/ac1b47",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ac1b47",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "321/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "ac1b47"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RECORDS ROOM When you enter this room, reveal the City card underneath the Stop Operation Lion’s Tooth objective.",
+      "flavor": "",
+      "image": "media/original/eb2c4097fddbfaa23198880bc9b075a72b8fab88.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

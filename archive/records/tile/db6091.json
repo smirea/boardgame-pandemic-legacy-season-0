@@ -1,0 +1,33 @@
+{
+  "id": "tile/db6091",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "db6091",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "302/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "db6091"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SHORTWAVE RADIO\nYou may do the Identify Target City action from any safehouse (regardless of region).",
+      "flavor": "",
+      "image": "media/original/df0fdb645bf2e83dc77bad3731088fe47f21c591.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "debrief/116",
+  "printedCode": "116",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and replace it with card 66 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).\n\nIf you failed the objective \"Disrupt the Third Trial,\" destroy it and replace it with card 89 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+      "flavor": "\"The work of a field agent is not easy. Use the remainder of the month to refocus.\"",
+      "image": "media/original/04ac3e31f4b1b8b9b5a2418f778a50fd6ae9829a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

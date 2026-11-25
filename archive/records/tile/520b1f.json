@@ -1,0 +1,33 @@
+{
+  "id": "tile/520b1f",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "520b1f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "309/0/1",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "520b1f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEST PILOT While in the Test Pilot's city, spend an action to remove a Satellite token from the game. CITY:",
+      "flavor": "",
+      "image": "media/original/20322e2e99ac2e6e9f430f8e12f3d7d23fae2fc8.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

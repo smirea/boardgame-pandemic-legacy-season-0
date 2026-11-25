@@ -1,0 +1,41 @@
+{
+  "id": "legacy/11-02",
+  "printedCode": "11-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "3e32b4",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/14",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "3e32b4"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back when instructed.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-14.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "MISSION BRIEFING\n“I understand that you declined Sabik’s offer—yes, we were watching you, don’t be too surprised.\nYou made the correct choice; with his deteriorating mental state, only a fool would trust him. This display of loyalty has allowed me to push through an early end to your probationary period.\nCongratulations, you are now full agents.”\nDestroy all of your restrictions.\nRaise your funding by 2.",
+      "flavor": "“I understand that you declined Sabik’s offer—yes, we were watching you, don’t be too surprised.\nYou made the correct choice; with his deteriorating mental state, only a fool would trust him. This display of loyalty has allowed me to push through an early end to your probationary period.\nCongratulations, you are now full agents.”",
+      "image": "media/split/1aaabc2decc1-14.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

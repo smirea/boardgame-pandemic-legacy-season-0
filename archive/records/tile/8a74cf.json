@@ -1,0 +1,33 @@
+{
+  "id": "tile/8a74cf",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8a74cf",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "286/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "8a74cf"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "BLACK BOOK\nAs an action, discard a City card to place a safehouse into the matching city.",
+      "flavor": "",
+      "image": "media/original/aa6caa5e92264435f2b2b6ad997b1bbcae552936.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

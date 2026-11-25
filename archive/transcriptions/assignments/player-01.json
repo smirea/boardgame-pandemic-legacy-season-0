@@ -1,0 +1,230 @@
+{
+  "batch": "player-01",
+  "output": "archive/transcriptions/batches/player-01.json",
+  "items": [
+    {
+      "id": "event/a-holdover-from-the-war",
+      "printedCode": "A Holdover from the War",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-8.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "event/airlift",
+      "printedCode": "Airlift",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-9.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "event/counter-intelligence",
+      "printedCode": "Counter-Intelligence",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-7.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "event/cover-of-darkness",
+      "printedCode": "Cover of Darkness",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-6.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "event/forecast",
+      "printedCode": "Forecast",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-5.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/1800",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/eab2a5816522-0.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/1801",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/eab2a5816522-1.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/1802",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/eab2a5816522-2.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/1803",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/eab2a5816522-3.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/1804",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/eab2a5816522-4.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/1805",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/eab2a5816522-5.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/algiers",
+      "printedCode": "Algiers",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-57.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/atlanta",
+      "printedCode": "Atlanta",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-56.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/baghdad",
+      "printedCode": "Baghdad",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-55.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/bangkok",
+      "printedCode": "Bangkok",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-54.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "player/bogota",
+      "printedCode": "Bogota",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a8716e1c667f-53.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+        }
+      ]
+    }
+  ]
+}

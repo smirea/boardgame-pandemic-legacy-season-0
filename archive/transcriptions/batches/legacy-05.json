@@ -1,0 +1,182 @@
+{
+  "legacy/04-15": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "SYMPTOM\nRadiating Back Pain\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "SYMPTOM\nRadiating Back Pain\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-16": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFECTION\nCITY NAME",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-17": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFECTION\nCITY NAME",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-18": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "INFECTION\nCITY NAME",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-19": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is a disrupt trial objective.\n\nTo set it up, separate the 5 South America City cards from the Player deck, shuffle them, and place 3 of them faceup into the Operations area. These are the 3 trial cities.\n\nThen, shuffle the remaining South America cards back into the Player deck.\n\nFinally, flip this card over and place it on top of the 3 trial City cards.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "APRIL OBJECTIVE 1\n\nDISRUPT THE SECOND TRIAL\n\nDisrupt Trial in:\n1, 2, OR 3 KNOWN CITIES IN SOUTH AMERICA AT THE SAME TIME\n\nCompleted: Read Debrief 224\nFailed: Read Debrief 156",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-20": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 11 Europe City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Europe cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "APRIL OBJECTIVE 2\n\nBUG CONTROL CENTER\n\nAcquire Target in:\n1 UNKNOWN CITY IN EUROPE\n\nCompleted: Read Debrief 165\nFailed: Read Debrief 193",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-21": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\n\nDraw this card and read the back during step 3 at the end of the first game in April.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\n\nOpen the following doors:\n11 16 18\n\nIf you received a FAILING evaluation for the first half of the month, read Debrief 227.\n\nFinally, add the following Event cards to the pool of events that you select from when you set up the game.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-22": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EVENT\n\nUNDOCUMENTED ACTIONS\n\nRESTRICTION\n\nMove a Restriction card to the reserve. It is no longer in effect this game.\n\nPlay any time. Not an action.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/04-23": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "EVENT\n\nEXTENDED TIME\n\nGive 2 Action Tokens to the current player.\n\nPlay any time. Not an action.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/05-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STOP\n\nDraw this card just before you set up your first game in May.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "UPDATE\n\n\"Greetings agents. I am Dr. Helen Morris. You may call me Dr. Morris, and I bring tragic news. Former Agent Charles Sabik raided this facility last night to steal data, weaponry, and other key items. During this raid, several individuals were killed, including your CMO, John Cooper.\"\n\nIf the Discretionary Budget card is in the reserve, destroy it.\n\n\"I will admit that John Cooper and I rarely saw eye to eye. His disregard for protocol resulted in numerous mistakes over the years, but he remained a deeply loyal and dedicated agent. He will be missed.\"",
+        "flavor": "\"Greetings agents. I am Dr. Helen Morris. You may call me Dr. Morris, and I bring tragic news. Former Agent Charles Sabik raided this facility last night to steal data, weaponry, and other key items. During this raid, several individuals were killed, including your CMO, John Cooper.\"\n\n\"I will admit that John Cooper and I rarely saw eye to eye. His disregard for protocol resulted in numerous mistakes over the years, but he remained a deeply loyal and dedicated agent. He will be missed.\""
+      }
+    }
+  },
+  "legacy/05-02": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "MISSION BRIEFING\n\n\"This operation and your continued development falls to me. Be aware that I have high expectations.\n\nYou now have three objectives; events are accelerating, and we must adapt. First, MEDUSA research materials are being smuggled out of Johannesburg. Second, Sabik must be brought to heel; he plans to use the materials he stole from Langley in an operation near Istanbul and Peking. Third, the Soviets are building another control center.\"\n\nOPEN 0004 and read its contents.",
+        "flavor": "\"This operation and your continued development falls to me. Be aware that I have high expectations.\n\nYou now have three objectives; events are accelerating, and we must adapt. First, MEDUSA research materials are being smuggled out of Johannesburg. Second, Sabik must be brought to heel; he plans to use the materials he stole from Langley in an operation near Istanbul and Peking. Third, the Soviets are building another control center.\""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/05-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is a pursuit objective.\n\nTo set it up, place a Pursuit token in Johannesburg.\n\nThen, place this card onto the board in the Operations area and flip it over.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "MAY OBJECTIVE 1\n\nINTERRUPT THE SOVIET DELIVERY\n\nRemove the last Pursuit token from the board\n\nSTARTING CITY: JOHANNESBURG\nDESTINATION: ANY SOVIET CITY\n\nCompleted: Read Debrief 146\nFailed (First half of month): Read Debrief 202\nFailed (Second half of month): Read Debrief 148",
+        "flavor": ""
+      }
+    }
+  }
+}

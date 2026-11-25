@@ -1,0 +1,33 @@
+{
+  "id": "tile/9f16b0",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "9f16b0",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/26",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "9f16b0"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PLASTICS TECHNICIAN:\nIf you begin your turn with this alias, take 1 Action token.",
+      "flavor": "",
+      "image": "media/original/e27c1c2c987fb2b811463bcc759684eaad142341.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

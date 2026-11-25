@@ -1,0 +1,50 @@
+{
+  "id": "deck/3ad2e3",
+  "printedCode": null,
+  "kind": "deck",
+  "censusKey": "mod-extra",
+  "sourceGuid": "3ad2e3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "342/0",
+    "duplicatePaths": [],
+    "note": "Deck container. The cards are their own records.",
+    "guids": [
+      "3ad2e3"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "event/a-holdover-from-the-war",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "event/airlift",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "event/counter-intelligence",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "event/cover-of-darkness",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "event/forecast",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

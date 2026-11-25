@@ -1,0 +1,43 @@
+{
+  "id": "legacy/03-05",
+  "printedCode": "03-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "1b842c",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/51",
+    "duplicatePaths": [
+      "352/51"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "1b842c"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "flavor",
+      "transcription": "\"Once you take care of that question, we'll crunch some numbers and figure out what you might need to develop further as agents.\"",
+      "flavor": "\"Once you take care of that question, we'll crunch some numbers and figure out what you might need to develop further as agents.\"",
+      "image": "media/split/8ef8489d5a98-51.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-51.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

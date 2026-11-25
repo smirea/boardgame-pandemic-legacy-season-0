@@ -1,0 +1,54 @@
+{
+  "id": "operations/i24",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "4753ac",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/17",
+    "duplicatePaths": [
+      "347/17"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "4753ac"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "JUNE OBJECTIVE 3A\nBUG COMPLETED CONTROL CENTER IN ASIA\nAcquire Target in:\nTHE CITY IN ASIA CONTAINING A CONTROL CENTER, USING 2 ACTIVE TEAMS AT THE SAME TIME\nCompleted: Read Debrief 187\nFailed: Read Debrief 204",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-24.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n66",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-24.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/187",
+      "label": "Debrief 187"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/204",
+      "label": "Debrief 204"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

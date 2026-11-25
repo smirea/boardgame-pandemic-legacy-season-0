@@ -1,0 +1,41 @@
+{
+  "id": "player/1802",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "6b286d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "332/0/20/2",
+    "duplicatePaths": [],
+    "note": "Player card. Sealed in safe deposit box 0008, not in the prologue player deck.",
+    "guids": [
+      "6b286d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SATELLITE LAUNCH\nOVER AFRICA\n\nAdd a Satellite token to Africa.\nEvery city in Africa: + surveillance",
+      "flavor": "",
+      "image": "media/split/eab2a5816522-2.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

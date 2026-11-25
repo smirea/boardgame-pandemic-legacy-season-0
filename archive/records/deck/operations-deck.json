@@ -1,0 +1,237 @@
+{
+  "id": "deck/operations-deck",
+  "printedCode": "Operations Deck",
+  "kind": "deck",
+  "censusKey": "mod-extra",
+  "sourceGuid": "54e8c5",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0",
+    "duplicatePaths": [
+      "347"
+    ],
+    "note": "Deck container. The cards are their own records.",
+    "guids": [
+      "54e8c5"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "operations/i00",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i06",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i09",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i10",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i11",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i12",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i13",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i14",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i15",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i16",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i17",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i18",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i19",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i20",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i21",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i22",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i23",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i24",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i25",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i26",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i27",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i28",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i29",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i30",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i31",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i32",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i33",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i34",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i35",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i36",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i37",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i38",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i39",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i40",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i41",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/ops-85f",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/ops-86f",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/ops-87f",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/ops-88f",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/ops-89f",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/31cc0e",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "31cc0e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "301/0/6",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "31cc0e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "DOOR 24\nYou blow up the briefcase.\nIn the wreckage of the case, you find smoldering currency and electronic surveillance equipment. It seems the case was bugged.\nImmediately add these Counter Surveillance stickers to the board.",
+      "flavor": "You blow up the briefcase.\nIn the wreckage of the case, you find smoldering currency and electronic surveillance equipment. It seems the case was bugged.",
+      "image": "media/original/06a8a5956dca30fea273acd377e67b1fc0cbdef7.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

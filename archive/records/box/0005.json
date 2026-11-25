@@ -1,0 +1,36 @@
+{
+  "id": "box/0005",
+  "printedCode": "0005",
+  "kind": "box",
+  "censusKey": "safe-deposit-box",
+  "sourceGuid": "e7a573",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "253",
+    "duplicatePaths": [
+      "329/0"
+    ],
+    "note": "Safe deposit box. The model and the bag that holds its contents are one record.",
+    "guids": [
+      "56ad1b",
+      "e7a573"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "deck/legacy-sealed",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/bcb1b4b06415eadcd4691468e369028a4921c30a.obj",
+    "diffuse": "media/original/ce37bf0c5b5f019dae4ee1abb79329955032b2b3.jpg"
+  }
+}

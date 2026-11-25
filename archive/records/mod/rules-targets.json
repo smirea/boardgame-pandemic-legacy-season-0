@@ -1,0 +1,33 @@
+{
+  "id": "mod/rules-targets",
+  "printedCode": null,
+  "kind": "rule-page",
+  "censusKey": "mod-extra",
+  "sourceGuid": "629330",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "26",
+    "duplicatePaths": [],
+    "note": "In-mod copy of the unknown-target and threat-draw spread.",
+    "guids": [
+      "629330"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/251cd696401fed98a923c25756847c47b2683dc2.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

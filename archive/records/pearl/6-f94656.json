@@ -1,0 +1,36 @@
+{
+  "id": "pearl/6-f94656",
+  "printedCode": "6",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "f94656",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/16",
+    "duplicatePaths": [
+      "356/16",
+      "357/16"
+    ],
+    "note": "PEARL compound piece 6. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "f94656"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "??",
+      "flavor": "",
+      "image": "media/original/ffe927cf256c191059b521886a9f7ec64b971a6b.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

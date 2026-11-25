@@ -1,0 +1,54 @@
+{
+  "id": "legacy/05-05",
+  "printedCode": "05-05",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "91a7d7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/19",
+    "duplicatePaths": [
+      "352/19"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "91a7d7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This objective has an unknown target city.\nTo set it up, separate the 5 South America City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\nThen, shuffle the remaining South America cards back into the Player deck without looking at them.\nFinally, flip this card over and place it on top of the unknown City card.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-19.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "MAY OBJECTIVE 3\nBUG CONTROL CENTER\nAcquire Target in:\n1 UNKNOWN CITY IN SOUTH AMERICA\nCompleted: Read Debrief 167\nFailed: Read Debrief 136",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-19.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/136",
+      "label": "Debrief 136"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/167",
+      "label": "Debrief 167"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

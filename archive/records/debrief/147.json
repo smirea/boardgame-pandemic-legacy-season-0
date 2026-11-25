@@ -1,0 +1,31 @@
+{
+  "id": "debrief/147",
+  "printedCode": "147",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "No further information.",
+      "flavor": "After cornering the scientists, you learned that the plague is called MEDUSA due to its paralytic effect. The current MEDUSA strain is mild, but the Soviets are confident that they can develop a lethal and fully weaponized strain.",
+      "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

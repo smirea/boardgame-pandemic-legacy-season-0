@@ -1,0 +1,31 @@
+{
+  "id": "debrief/160",
+  "printedCode": "160",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Take the target City card under the objective and add it to the hand of the player who completed this objective.",
+      "flavor": "You intercepted the courier and secured the MEDUSA sample. Before your team could interrogate, the courier took a cyanide pill. Analysis of the MEDUSA sample revealed it's biological, but nothing you've seen before. Not COdA. Not Smallpox. Not Anthrax.",
+      "image": "media/original/9be86c8eb36107c16ad15a59bc1c704260fa3a26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

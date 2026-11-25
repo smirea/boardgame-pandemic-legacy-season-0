@@ -1,0 +1,31 @@
+{
+  "id": "debrief/144",
+  "printedCode": "144",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Mark this objective as complete. No further information.",
+      "flavor": "You did what you had to, and Charles Sabik is no more. The brutality he suffered in Soviet hands left him unstable, filled with anger. Nothing could have brought him back from that. You return Cooper to the CIA for debriefing and medical attention. You're told that, physically, he should make a full recovery.",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

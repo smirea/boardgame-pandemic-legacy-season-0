@@ -1,0 +1,31 @@
+{
+  "id": "debrief/100",
+  "printedCode": "100",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Create Infection cards for all four trial cities and place them in the game end area. Then move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+      "flavor": "No trials were disrupted in Asia. MEDUSA is spreading, but you did manage to discover something interesting. The Soviets had been buying a considerable amount of a rare jellyfish called Diplulmaris Antarctica, but they stopped last fall, seemingly without reason.",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

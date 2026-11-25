@@ -1,0 +1,42 @@
+{
+  "id": "debrief/206",
+  "printedCode": "206",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "One player may return one Symptom card to the supply.\nOpen Doors 38, G, and C. Apply the rules stickers to the rulebook and read them. Draw the Pause card of the Legacy deck and read the back.\nThen, turn each city where the trial was NOT disrupted into an Exposed City using the new Infection cards (following the rules for Marking Exposed Cities). Place these Infection cards into the Game End area and destroy any unused Infection cards. Move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+      "flavor": "The trial was disrupted, and the teams picked up an infected Soviet soldier with a medical kit labeled \"PEARL Compound, Medical Ward: MEDUSA Treatment.\" Analysis of both soldier and kit should prove useful.",
+      "image": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/38",
+      "label": "Open door 38"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/G",
+      "label": "Open door G"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

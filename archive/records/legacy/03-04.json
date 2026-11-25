@@ -1,0 +1,43 @@
+{
+  "id": "legacy/03-04",
+  "printedCode": "03-04",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "a187a3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/52",
+    "duplicatePaths": [
+      "352/52"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "a187a3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "\"Got another question for your personnel file; answer it as honestly as you can.\"\nFill out the other side of this card as a group, then place this card into your Personnel file.",
+      "flavor": "\"Got another question for your personnel file; answer it as honestly as you can.\"",
+      "image": "media/split/8ef8489d5a98-52.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Decide as a group, then fill in 1 bubble per question.\n4. We have emotional attachments to our friends.\nAGREE\nDISAGREE\nAfter answering, put this card into your Personnel file.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-52.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

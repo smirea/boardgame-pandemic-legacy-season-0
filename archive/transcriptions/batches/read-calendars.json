@@ -1,0 +1,230 @@
+{
+  "overlay/game-calendar": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "GAME CALENDAR – 1962\n\nNumber of Failed Objectives | Game End Evaluation | Funding | Your Next Game\n0 | SUCCEEDING | −1 | Advance to the next month.\n1 | ADEQUATE | +1 | Advance to the next month.\n2 or more | FAILING | +2 | If this was the first time playing this month, replay it. Otherwise advance to the next month.\n\nMONTH | FUNDING* | PLAYERS & CHARACTERS | DATE PLAYED | GAME END EVALUATION\nPrologue | All | 5\nJanuary | Early | 5\nJanuary | Late\nFebruary | Early\nFebruary | Late\nMarch | Early\nMarch | Late\nApril | Early\nApril | Late\nMay | Early\nMay | Late\nJune | Early\nJune | Late\nJuly | Early\nJuly | Late\nAugust | Early\nAugust | Late\nSeptember | Early\nSeptember | Late\nOctober | Early\nOctober | Late\nNovember | Early\nNovember | Late\nDecember | Early\nDecember | Late\n\n* Funding cannot go above 10 or below 1. The first time funding would go above 10, record it as 10 and then open Door 14.\n\nNotes:",
+        "flavor": ""
+      }
+    }
+  },
+  "overlay/player-calendar": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MONTH | PLAYER | RESULT | DATE | MONTH | PLAYER | RESULT | DATE\nJANUARY | JULY\nFEBRUARY | AUGUST\nMARCH | SEPTEMBER\nAPRIL | OCTOBER\nMAY | NOVEMBER\nJUNE | DECEMBER",
+        "flavor": ""
+      }
+    },
+    "note": "Red ink. Blank player log for January through December. The other three copies use the same words in gold, green, and black."
+  },
+  "overlay/player-calendar-2": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MONTH | PLAYER | RESULT | DATE | MONTH | PLAYER | RESULT | DATE\nJANUARY | JULY\nFEBRUARY | AUGUST\nMARCH | SEPTEMBER\nAPRIL | OCTOBER\nMAY | NOVEMBER\nJUNE | DECEMBER",
+        "flavor": ""
+      }
+    },
+    "note": "Gold ink. Blank player log. Same words as the other three player calendars."
+  },
+  "overlay/player-calendar-3": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MONTH | PLAYER | RESULT | DATE | MONTH | PLAYER | RESULT | DATE\nJANUARY | JULY\nFEBRUARY | AUGUST\nMARCH | SEPTEMBER\nAPRIL | OCTOBER\nMAY | NOVEMBER\nJUNE | DECEMBER",
+        "flavor": ""
+      }
+    },
+    "note": "Green ink. Blank player log. Same words as the other three player calendars."
+  },
+  "overlay/player-calendar-4": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "MONTH | PLAYER | RESULT | DATE | MONTH | PLAYER | RESULT | DATE\nJANUARY | JULY\nFEBRUARY | AUGUST\nMARCH | SEPTEMBER\nAPRIL | OCTOBER\nMAY | NOVEMBER\nJUNE | DECEMBER",
+        "flavor": ""
+      }
+    },
+    "note": "Black ink. Blank player log. Same words as the other three player calendars."
+  },
+  "tile/10939d": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "King | Date\n# | House | Secret Agenda | Open Agenda | Coins | Power | Tot.",
+        "flavor": ""
+      }
+    },
+    "note": "Score sheet from another game, left in the mod save. Columns: King, Date, House, Secret Agenda, Open Agenda, Coins, Power, Tot. Not a Season 0 component. Nickname: I am the king."
+  },
+  "tile/de9893": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "DISGUISES can be located using the Decals tool",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/abf3e0": {
+    "note": "Solid color texture with no printed text.",
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/bebfac": {
+    "note": "Solid color texture with no printed text.",
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/17751d": {
+    "note": "Solid color texture with no printed text.",
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "tile/e36e55": {
+    "note": "Solid color texture with no printed text.",
+    "faces": {
+      "front": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "sheet/a8716e1c/00": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ESCALATION\n1. INCREASE THREAT\nAdvance the Threat Level marker 1 space.\n2. ADD AGENTS\nDraw the bottom card from the Threat deck and add 3 agents to that city. Discard the card to the Threat discard pile.\n3. INTENSIFY\nShuffle the cards in the Threat discard pile and put them on top of the Threat deck.",
+        "flavor": ""
+      }
+    }
+  },
+  "sheet/a8716e1c/01": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ESCALATION\n1. INCREASE THREAT\nAdvance the Threat Level marker 1 space.\n2. ADD AGENTS\nDraw the bottom card from the Threat deck and add 3 agents to that city. Discard the card to the Threat discard pile.\n3. INTENSIFY\nShuffle the cards in the Threat discard pile and put them on top of the Threat deck.",
+        "flavor": ""
+      }
+    }
+  },
+  "sheet/a8716e1c/02": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ESCALATION\n1. INCREASE THREAT\nAdvance the Threat Level marker 1 space.\n2. ADD AGENTS\nDraw the bottom card from the Threat deck and add 3 agents to that city. Discard the card to the Threat discard pile.\n3. INTENSIFY\nShuffle the cards in the Threat discard pile and put them on top of the Threat deck.",
+        "flavor": ""
+      }
+    }
+  },
+  "sheet/a8716e1c/03": {
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "ESCALATION\n1. INCREASE THREAT\nAdvance the Threat Level marker 1 space.\n2. ADD AGENTS\nDraw the bottom card from the Threat deck and add 3 agents to that city. Discard the card to the Threat discard pile.\n3. INTENSIFY\nShuffle the cards in the Threat discard pile and put them on top of the Threat deck.",
+        "flavor": ""
+      }
+    }
+  },
+  "rulebook": {
+    "faces": {
+      "page-01": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-02": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-03": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-04": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-05": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-06": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-07": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-08": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-09": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-10": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-11": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-12": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-13": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-14": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-15": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      },
+      "page-16": {
+        "role": "rules",
+        "transcription": "Page photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the field-manual face.",
+        "flavor": ""
+      }
+    }
+  }
+}

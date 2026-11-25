@@ -1,0 +1,39 @@
+{
+  "id": "tile/b03c11",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b03c11",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "92",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b03c11"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TEMPORARY ALIAS\n\nClinic Planner:\nWhen you do the Build Safehouse action, you do not need a City card.\nAs an action, while at a safehouse, discard a City card to move to any city on the board.\n\nCover\nWhen playing with a temporary alias, for every cover you would scratch, discard 1 card (if you have any) instead.",
+      "flavor": "",
+      "image": "media/original/e4821cfc2b71d202682a231478a6f3880ccab776.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "places",
+      "targetId": "board",
+      "label": "On the board"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

@@ -1,0 +1,65 @@
+{
+  "id": "mod/rules-book",
+  "printedCode": null,
+  "kind": "rule-page",
+  "censusKey": "mod-extra",
+  "sourceGuid": "72b7c7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "244",
+    "duplicatePaths": [],
+    "note": "In-mod rulebook cover. Further pages are TTS states of this tile.",
+    "guids": [
+      "29a9cb",
+      "506d72",
+      "72b7c7",
+      "98d559"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "state-1",
+      "ttsState": 1,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/345acc2dadb4d87bf1292059337402c861826deb.jpg"
+    },
+    {
+      "id": "state-2",
+      "ttsState": 2,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/8b2eb10e90215e93390eca7471b6835176634a78.jpg"
+    },
+    {
+      "id": "state-3",
+      "ttsState": 3,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/90971e809e39bda864e6f023afe97ef733926947.jpg"
+    },
+    {
+      "id": "state-4",
+      "ttsState": 4,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/d34ec28fb3703cee03a342df6303ce1a91ffb258.jpg"
+    }
+  ],
+  "states": [
+    "state-1",
+    "state-2",
+    "state-3",
+    "state-4"
+  ],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "debrief/index",
+  "printedCode": null,
+  "kind": "reference",
+  "censusKey": "debrief-page",
+  "sourceGuid": "3d3e0f",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "30",
+    "duplicatePaths": [],
+    "note": "Index sheet for the debrief book.",
+    "guids": [
+      "3d3e0f"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "DEBRIEF BOOK\nNO. N4245.4\nS-E-C-R-E-T\nSection 100\nSection 101\nSection 102\nSection 103\nSection 104\nSection 105\nSection 106\nSection 107\nSection 108\nSection 109\nSection 110\nSection 111\nSection 112\nSection 113\nSection 114\nSection 115\nSection 116\nSection 117\nSection 118\nSection 119\nSection 120\nSection 121\nSection 122\nSection 123\nSection 124\nSection 125\nSection 126\nSection 127\nSection 128\nSection 129\nSection 130\nSection 131\nSection 132\nSection 133\nSection 134\nSection 135\nSection 136\nSection 137\nSection 138\nSection 139\nSection 140\nSection 141\nSection 142\nSection 143\nSection 144\nSection 145\nSection 146\nSection 147\nSection 148\nSection 149\nSection 150\nSection 151\nSection 152\nSection 153\nSection 154\nSection 155\nSection 156\nSection 157\nSection 158\nSection 159\nSection 160\nSection 161\nSection 162\nSection 163\nSection 164\nSection 165\nSection 166\nSection 167\nSection 168\nSection 169\nSection 170\nSection 171\nSection 172\nSection 173\nSection 174\nSection 175\nSection 176\nSection 177\nSection 178\nSection 179\nSection 180\nSection 181\nSection 182\nSection 183\nSection 184\nSection 185\nSection 186\nSection 187\nSection 188\nSection 189\nSection 190\nSection 191\nSection 192\nSection 193\nSection 194\nSection 195\nSection 196\nSection 197\nSection 198\nSection 199\nSection 200\nSection 201\nSection 202\nSection 203\nSection 204\nSection 205\nSection 206\nSection 207\nSection 208\nSection 209\nSection 210\nSection 211\nSection 212\nSection 213\nSection 214\nSection 215\nSection 216\nSection 217\nSection 218\nSection 219\nSection 220\nSection 221\nSection 222\nSection 223\nSection 224\nSection 225\nSection 226\nSection 227\nSection 228\nSection 229\nSection 230\nSection 231\nSection 232\nSection 233\nSection 234\nSection 235\nSection 236\nSection 237\nSection 238\nSection 239\nSection 240\nSection 241\nSection 242\nSection 243\nSection 244\nSection 245\nSection 246\nSection 247\nSection 248\nSection 249\nSection 250\nSection 251\nSection 252\nS-E-C-R-E-T\nZ-MAN 2020 [unreadable]",
+      "flavor": "",
+      "image": "media/original/4cb30bb6a4e3afccf2e844301c3385f3d80ce4fd.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tile/5e0070",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "5e0070",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "296/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "5e0070"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "DOOR 19\nYou open the briefcase.\nInside you find stacks of New Zealand pounds and a bag of valuable opals.\nAt the end of this game, you have 6 additional budgetary units to spend.\nDestroy this card after the Spend Budget step.",
+      "flavor": "You open the briefcase.\nInside you find stacks of New Zealand pounds and a bag of valuable opals.",
+      "image": "media/original/e92969231f630ca136a894a3a64d26af275c14bf.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "destroys",
+      "targetId": "tile/5e0070",
+      "label": "Destroy this card"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

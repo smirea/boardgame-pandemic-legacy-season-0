@@ -1,0 +1,31 @@
+{
+  "id": "debrief/104",
+  "printedCode": "104",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Return the player pawn in Sabik's Safehouse to Mexico City. Find card 79 in the Operations deck. Place it in the Intelligence file. Anyone can look at it at any time.",
+      "flavor": "Sabik is not present, but you find a wealth of information inside the safehouse. Documents, photographs, and papers lie scattered throughout the interior, mingling with forgery supplies, several currencies, and spoiled food.\n\nFrom what you can piece together, Sabik has been tracking the Soviet progress with MEDUSA. He has multiple half-sketched operations to prevent MEDUSA deployment, some of which feature shocking amounts of violence and collateral damage.",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

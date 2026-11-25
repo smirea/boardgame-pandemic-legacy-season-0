@@ -1,0 +1,31 @@
+{
+  "id": "debrief/176",
+  "printedCode": "176",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Place a Bug sticker on the corner of the Control Center sticker in South America to show that it was bugged.",
+      "flavor": "The bug was successfully planted. So far, you've heard nondescript chatter about a Siberian compound, but nothing actionable.",
+      "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "debrief/133",
+  "printedCode": "133",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Find card 54 from the Operations deck and place it faceup in the Operations area.",
+      "flavor": "\"Your answers have been reviewed, and I have a restriction to implement. Deceit and elusive cunning are critical tools for field agents, but remember that you must trust your superiors. I look forward to seeing your progress.\"",
+      "image": "media/original/1899e986649ab2fd7288283a9a4a74b9a14ae7ee.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

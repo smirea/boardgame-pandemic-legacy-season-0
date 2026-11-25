@@ -1,0 +1,33 @@
+{
+  "id": "tile/0ac850",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "0ac850",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "298/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "0ac850"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AIRPORTS ALERTED: You may not do the Unrecorded Flight action from an Allied city.",
+      "flavor": "",
+      "image": "media/original/023bf2fb10c6b029b5d00fb2e4593d07b1eae6ed.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

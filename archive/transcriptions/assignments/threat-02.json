@@ -1,0 +1,230 @@
+{
+  "batch": "threat-02",
+  "output": "archive/transcriptions/batches/threat-02.json",
+  "items": [
+    {
+      "id": "threat/karachi",
+      "printedCode": "Karachi",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-31.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/khartoum",
+      "printedCode": "Khartoum",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-30.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/kiev",
+      "printedCode": "Kiev",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-29.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/lagos",
+      "printedCode": "Lagos",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-28.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/leningrad",
+      "printedCode": "Leningrad",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-27.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/leopoldville",
+      "printedCode": "Leopoldville",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-26.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/lima",
+      "printedCode": "Lima",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-25.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/london",
+      "printedCode": "London",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-24.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/los-angeles",
+      "printedCode": "Los Angeles",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-22.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/madrid",
+      "printedCode": "Madrid",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-23.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/manila",
+      "printedCode": "Manila",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-21.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/mexico-city",
+      "printedCode": "Mexico City",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-19.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/moscow",
+      "printedCode": "Moscow",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-20.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/new-york",
+      "printedCode": "New York",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-18.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/novosibirsk",
+      "printedCode": "Novosibirsk",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-16.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "threat/osaka",
+      "printedCode": "Osaka",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/f50a156f5be0-17.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/original/aa482b9d84bb83f3f3e4fd9d3fdd13fb6f68103e.jpg"
+        }
+      ]
+    }
+  ]
+}

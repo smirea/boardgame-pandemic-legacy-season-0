@@ -1,0 +1,33 @@
+{
+  "id": "tile/693b23",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "693b23",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/28",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "693b23"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ELECTRICIAN:\nWhen you do the Identify Target City action, reveal the required cards instead of discarding them.",
+      "flavor": "",
+      "image": "media/original/a669f52b15f3ffc1b2e28344734b283296d3b331.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

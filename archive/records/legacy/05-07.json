@@ -1,0 +1,45 @@
+{
+  "id": "legacy/05-07",
+  "printedCode": "05-07",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "99d8e2",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/8",
+    "duplicatePaths": [
+      "351/0/17",
+      "352/17"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "7e51f4",
+      "99d8e2"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "“To facilitate your continued development as junior agents, we have additional questions for you.\nAnswer legibly, and ensure that all members agree upon your responses.”",
+      "flavor": "“To facilitate your continued development as junior agents, we have additional questions for you.\nAnswer legibly, and ensure that all members agree upon your responses.”",
+      "image": "media/split/8ef8489d5a98-17.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "Decide as a group, then fill in 1 bubble per question.\nStrongly Disagree\nStrongly Agree\n5. We are superior to others who have the same role as us. 1 2 3 4 5\n6. We find it easy to motivate those reluctant to comply. 1 2 3 4 5\n7. We find it easy to complete multiple objectives at once. 1 2 3 4 5\nAfter answering, put this card into your Personnel file.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-17.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

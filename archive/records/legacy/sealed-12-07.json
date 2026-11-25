@@ -1,0 +1,62 @@
+{
+  "id": "legacy/sealed-12-07",
+  "printedCode": "12-07",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "87018e",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "329/0/0/2",
+    "duplicatePaths": [],
+    "note": "Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Same printed code as a deck card is a second copy the mod left in the box.",
+    "guids": [
+      "87018e"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AT LAST\n\nIf you completed both Steal the MEDUSA Genome and Stop Operation LION'S TOOTH, read Debrief 246.\n\nIf you completed Steal the MEDUSA Genome, but failed Stop Operation LION'S TOOTH, read Debrief 244.\n\nIf you failed Steal the MEDUSA Genome but completed Stop Operation LION'S TOOTH, read Debrief 248.\n\nIf you failed both Steal the MEDUSA Genome and Stop Operation LION'S TOOTH, read Debrief 250.",
+      "flavor": "",
+      "image": "media/split/a3ad9647d9f9-2.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/0755b549db50-2.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/244",
+      "label": "Debrief 244"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/246",
+      "label": "Debrief 246"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/248",
+      "label": "Debrief 248"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/250",
+      "label": "Debrief 250"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

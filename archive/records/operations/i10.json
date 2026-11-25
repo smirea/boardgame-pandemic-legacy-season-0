@@ -1,0 +1,49 @@
+{
+  "id": "operations/i10",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "operations-card",
+  "sourceGuid": "e35477",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "346/0/31",
+    "duplicatePaths": [
+      "347/31"
+    ],
+    "note": "Operations card. The book numbers operations 50–89 and counts 42 cards.",
+    "guids": [
+      "e35477"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "1. DEBRIEF NUMBER\n113\n2. DATE\nJULY, 1962\nKeep this in the intelligence file.",
+      "flavor": "",
+      "image": "media/split/f7f847d898dc-10.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "OPERATIONS\n80",
+      "flavor": "",
+      "image": "media/split/a09b11f8464a-10.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/113",
+      "label": "DEBRIEF NUMBER 113"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

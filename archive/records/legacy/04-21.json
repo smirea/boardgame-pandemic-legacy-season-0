@@ -1,0 +1,64 @@
+{
+  "id": "legacy/04-21",
+  "printedCode": "04-21",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "7a77a2",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/26",
+    "duplicatePaths": [
+      "352/26"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "7a77a2"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\n\nDraw this card and read the back during step 3 at the end of the first game in April.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-26.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\n\nOpen the following doors:\n11 16 18\n\nIf you received a FAILING evaluation for the first half of the month, read Debrief 227.\n\nFinally, add the following Event cards to the pool of events that you select from when you set up the game.",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-26.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/11",
+      "label": "Open door 11"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/16",
+      "label": "Open door 16"
+    },
+    {
+      "type": "opens",
+      "targetId": "door/18",
+      "label": "Open door 18"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/227",
+      "label": "Debrief 227"
+    }
+  ],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

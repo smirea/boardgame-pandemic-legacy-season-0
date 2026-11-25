@@ -1,0 +1,33 @@
+{
+  "id": "tile/ee7ecf",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ee7ecf",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/8",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "ee7ecf"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RULE BB\nAdd a Contamination sticker to cities that contain one or more Outbreak tokens. (Add only 1 sticker regardless of how many Outbreak tokens are in the city.) Each city can have at most 1 Contamination sticker. Do not add additional Contamination stickers to cities that already have 1, even if there are Outbreak tokens on them. If there are no Contamination stickers left in the supply, do not add any more.",
+      "flavor": "",
+      "image": "media/original/aad480e58e56c573b8a2c8525e2ac498d842caa2.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

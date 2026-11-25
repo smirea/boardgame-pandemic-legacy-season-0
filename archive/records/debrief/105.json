@@ -1,0 +1,37 @@
+{
+  "id": "debrief/105",
+  "printedCode": "105",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Open Door 43 (if it hasn't been opened already). Place a Chronic Infection sticker on the front cover of your passport. Passports may have multiple Chronic Infection stickers. Chronic Infection stickers don't have any effect. For now.\n\nIf this is the third time you have visited the Loading Docks this game and there are no City cards under the Disrupt Trial Objective, mark that Objective as complete.",
+      "flavor": "Sample of MEDUSA destroyed, but at great personal cost. You were exposed to the pathogen...",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "opens",
+      "targetId": "door/43",
+      "label": "Open door 43"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

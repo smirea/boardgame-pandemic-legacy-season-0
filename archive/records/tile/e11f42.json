@@ -1,0 +1,33 @@
+{
+  "id": "tile/e11f42",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "e11f42",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "327/0/6",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "e11f42"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "COLLECTIVE MANAGER: For each cover you would lose, you may instead discard 1 City card.",
+      "flavor": "",
+      "image": "media/original/3ed523167a94574cc056f606e89211775558db60.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

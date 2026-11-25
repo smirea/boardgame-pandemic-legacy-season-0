@@ -1,0 +1,33 @@
+{
+  "id": "tile/b4a807",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b4a807",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "330/0/21",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "b4a807"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "INFILTRATION\n\"Delicate infiltration work holds the highest level of operational security; you will need to resolve these objectives personally, without the support of a team.\"\nRIGHT NOW\n1 Get Operations Cards 70 and 71; place them side-by-side next to the board to form an Infiltration site.\n2 Put the 9 enclosed Security tokens by the side of the board. You’ll use them when you set up infiltration objectives. The keypad numbers on these tokens relate to the keypad numbers on the City cards.\n3 Add the enclosed stickers to the rulebook and Reference cards.",
+      "flavor": "\"Delicate infiltration work holds the highest level of operational security; you will need to resolve these objectives personally, without the support of a team.\"",
+      "image": "media/original/a1c7c0e7f6452ff407598550d0b1b71ac16a4510.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

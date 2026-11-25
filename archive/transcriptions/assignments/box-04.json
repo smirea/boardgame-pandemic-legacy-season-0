@@ -1,0 +1,306 @@
+{
+  "batch": "box-04",
+  "output": "archive/transcriptions/batches/box-04.json",
+  "items": [
+    {
+      "id": "pearl/piece-caff6e",
+      "box": "box/0003",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/46e9ea051042554b337bd1513d1520d0a744285d.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pearl/piece-e607d3",
+      "box": "box/0003",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/46e9ea051042554b337bd1513d1520d0a744285d.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pearl/piece-fb729c",
+      "box": "box/0003",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/4c11ed65eeaab60ffd8ad91d5719cec838978612.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/0272bf",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/d1afd887960ad0a5872cf0f12caa03c65c1000ef.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/0505b5",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/10685e",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/1bc01c",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/1c0b63",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/1c6b4a",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/15949210b4d84cb63ab1a942968ea1df7a5bc25e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/243435",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/308d0e",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/a6f33b3aa66bcd06e0d2ac3c5a9f6e10ce7b390f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/3b4275",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/42cd11",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/0cea28fd5b24316a6adde1e625539a99a28faa09.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/4498ea",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/558269",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/5891f9",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/65bd69",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/6b924b",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/ecb8bf3faeaf0ecf6044e84a71ccf8466e2b5670.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/7cc27b",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/85c59b",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/8f3646",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/929aaa",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/15949210b4d84cb63ab1a942968ea1df7a5bc25e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/978d96",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/af6b93",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/9521a5c9f6eb70798c38033be8190403919dfde6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/b3493a",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/15949210b4d84cb63ab1a942968ea1df7a5bc25e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/b8c625",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/bbaef0",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/002a0de6deb6977a696507b11abf9112ca49af42.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/be1e83",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/c376a5",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/90f6ddca65311d13e57e5a43de628a7d6cfe8934.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/d04bad",
+      "box": "box/0004",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/7a372799a7b5046580cf5e537764544ec3667011.jpg"
+        }
+      ]
+    }
+  ]
+}

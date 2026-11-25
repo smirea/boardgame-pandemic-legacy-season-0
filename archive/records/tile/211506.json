@@ -1,0 +1,33 @@
+{
+  "id": "tile/211506",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "211506",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "331/0/29",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "211506"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "CARGO PILOT:\nAs an action, you may move to a city with a safehouse.",
+      "flavor": "",
+      "image": "media/original/006c1367d47c6db6bca7f832163d6a0cfee5f7a1.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

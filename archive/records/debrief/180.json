@@ -1,0 +1,37 @@
+{
+  "id": "debrief/180",
+  "printedCode": "180",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "If the objective \"Hunt Down Soviet Exporter\" is incomplete, you may immediately place 1 Checkpoint token on the board. Return the player pawn in the PEARL Compound to Novosibirsk. Players may still Infiltrate PEARL if they wish.",
+      "flavor": "There is no cure. All you find are records of empty promises from PEARL scientists to the Kremlin about viable treatment before December: no data, no samples, no progress.\n\nThe Soviets will not be able to insulate themselves from the plague. The scientists are hiding their failure while the world hangs in the balance. If the Soviets launch the fully-weaponized MEDUSA plague, there will be no cure. For anyone.",
+      "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "places",
+      "targetId": "board",
+      "label": "On the board"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

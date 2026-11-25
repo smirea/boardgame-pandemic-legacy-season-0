@@ -1,0 +1,33 @@
+{
+  "id": "tile/8087fa",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "8087fa",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/28",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "8087fa"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "TREAT\nAs an action, return 1 Disease cube in your city to the supply.",
+      "flavor": "",
+      "image": "media/original/c3c83101c42a6080297846412876a5b5e8b33156.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/10939d",
+  "printedCode": "I am the king",
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "10939d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "85/11",
+    "duplicatePaths": [],
+    "note": "Score sheet from another game, left in the mod save. Columns: King, Date, House, Secret Agenda, Open Agenda, Coins, Power, Tot. Not a Season 0 component. Nickname: I am the king.",
+    "guids": [
+      "10939d"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "King | Date\n# | House | Secret Agenda | Open Agenda | Coins | Power | Tot.",
+      "flavor": "",
+      "image": "media/original/c33e883bfc9828c7ffecfd217dfe33e09645e8d8.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

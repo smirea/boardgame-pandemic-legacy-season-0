@@ -1,0 +1,33 @@
+{
+  "id": "tile/ce3107",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "ce3107",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "292/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "ce3107"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RULE G\n1\n2\n3\nWhen you put an Exposed City sticker on a city, use an Exposed City sticker with a number matching the Infection card's starting intensity.",
+      "flavor": "",
+      "image": "media/original/5d30ed5bed33f6671d10432f249eafb46a1061bf.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

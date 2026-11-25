@@ -1,0 +1,43 @@
+{
+  "id": "legacy/00-02",
+  "printedCode": "00-02",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "68c073",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/79",
+    "duplicatePaths": [
+      "352/79"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "68c073"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\nDraw the next 2 cards. They are your prologue objectives. Set up these objectives following the instructions printed on them.\n\nWhen you complete or fail an objective, remember to immediately read its debrief entry in the Debrief book (even if it is the end of the game).\n\nAlso remember that the number of cities in each region and of each affiliation are shown in the reference area of the game board.",
+      "flavor": "",
+      "image": "media/split/ff910e2efc70-23.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/split/6bdabf12abfb-23.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

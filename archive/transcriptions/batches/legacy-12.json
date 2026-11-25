@@ -1,0 +1,182 @@
+{
+  "legacy/12-08": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "Annual Review\nTally your score, then review your final evaluation on the back of this card.\n85 pts per SUCCEEDING evaluation\n55 pts per ADEQUATE evaluation\n-40 pts per FAILING evaluation (beginning of the month)\n0 pts per FAILING evaluation (end of the month)\n25 pts for stopping LION'S TOOTH\n25 pts for stealing the MEDUSA genome\n-10 pts per Exposed City\n-10 pts per Contaminated City\nTOTAL",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "FINAL EVALUATION\nTotal result is:\n800 or higher\nRead Debrief 236.\n650-799\nRead Debrief 237.\n450-649\nRead Debrief 238.\n300-449\nRead Debrief 239.\n299 or lower\nRead Debrief 240.\nKeep this card in your Personnel file. It will become part of your permanent record.",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/end-of-legacy-deck": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "WARNING!\nEND OF LEGACY DECK",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "WARNING!\nEND OF LEGACY DECK",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/sealed-11-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "RIGHT NOW\n1 Destroy the remaining cards in the Legacy Deck without looking at them.\n2 Immediately replace them with this new Legacy deck.\n3 You're allied with Sabik. Turn this card over and continue reading.\nPlay it cool.",
+        "flavor": "Play it cool."
+      },
+      "back": {
+        "role": "both",
+        "transcription": "UPDATE FROM CIA\n\"Congratulations are evidently in order. Someone higher in the organization has decided to end your probationary period. Frankly, I do not believe you are ready, but I was overruled.\nOne of our loyal agents caught up with Charles Sabik last night, and in the ensuing struggle, Sabik was killed. I would have liked to bring him in alive, but it cannot be helped.\"\nDestroy all the Restriction cards in the game.",
+        "flavor": "\"Congratulations are evidently in order. Someone higher in the organization has decided to end your probationary period. Frankly, I do not believe you are ready, but I was overruled.\nOne of our loyal agents caught up with Charles Sabik last night, and in the ensuing struggle, Sabik was killed. I would have liked to bring him in alive, but it cannot be helped.\""
+      }
+    }
+  },
+  "legacy/sealed-11-02": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "MISSION BRIEFING\n\"With Sabik gone, our focus can shift entirely to MEDUSA and the Soviets. We are close to understanding how the plague will be dispersed; Soviets are calling it Operation LION'S TOOTH, but we need more than just a name. A Soviet spy posing as a businessman, last seen in Sydney, has this information.\nIn addition, you must dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment.\"\nOpen the following doors:\nU 39 42 S",
+        "flavor": "\"With Sabik gone, our focus can shift entirely to MEDUSA and the Soviets. We are close to understanding how the plague will be dispersed; Soviets are calling it Operation LION'S TOOTH, but we need more than just a name. A Soviet spy posing as a businessman, last seen in Sydney, has this information.\nIn addition, you must dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment.\""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/sealed-11-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "This is an infiltration objective.\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and put one facedown on each circle on the Infiltration site. Set aside the other Security tokens without looking at them.\nFlip this card over and place it onto the board in the Operations area.\n\"This is where I was held. I know the place.\"\nImmediately turn over any 4 Security tokens.",
+        "flavor": "\"This is where I was held. I know the place.\""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "NOVEMBER OBJECTIVE 1\nSABOTAGE THE MANUFACTURING FACILITY\nInfiltration City: Novosibirsk\nWHILE IN THE MANUFACTURING FACILITY OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 4 CITY CARDS\nCompleted: Read Debrief 102\nFailed: Read Debrief 235",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/sealed-11-04": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "This is a pursuit objective.\nTo set it up, place a Pursuit token in Sydney.\nThen, place this card onto the board in the Operations area and flip it over.\n\"I've been tracking this Soviet agent since June. An old pal down under is already in position.\"\nImmediately place 1 Checkpoint token on the board.",
+        "flavor": "\"I've been tracking this Soviet agent since June. An old pal down under is already in position.\""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "NOVEMBER OBJECTIVE 2\nLEARN ABOUT MEDUSA DEPLOYMENT PLAN\nRemove the last Pursuit token from the board\nSTARTING CITY: SYDNEY\nDESTINATION: ANY SOVIET CITY\nCompleted: Read Debrief 188\nFailed: Read Debrief 137",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/sealed-11-05": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "flavor",
+        "transcription": "SABIK'S BRIEFING\n\"Good, that little deception I created paid off, and they think I'm dead. Definitely handle Doc Morris's two objectives; I'm all about stopping MEDUSA and LION'S TOOTH.\nHere's what she didn't tell you. She sent another team into PEARL last month and stole a virus called COdA. It's another bioweapon; the Soviets used it to give me this pretty face. Well, the CIA plans to experiment with it, and we can't let that happen. You need to get into the Langley restricted section and steal it.\"",
+        "flavor": "\"Good, that little deception I created paid off, and they think I'm dead. Definitely handle Doc Morris's two objectives; I'm all about stopping MEDUSA and LION'S TOOTH.\nHere's what she didn't tell you. She sent another team into PEARL last month and stole a virus called COdA. It's another bioweapon; the Soviets used it to give me this pretty face. Well, the CIA plans to experiment with it, and we can't let that happen. You need to get into the Langley restricted section and steal it.\""
+      },
+      "back": {
+        "role": "art",
+        "transcription": "",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/sealed-11-06": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "This is an infiltration objective.\nTo set it up, find cards 74 and 75 in the Operations deck and place them faceup next to each other to form the infiltration site Langley.\nMix all the remaining Security tokens and put one facedown on each circle on the Infiltration site. Return the leftover Security tokens to the reserve without looking at them.\nFlip this card over and place it onto the board in the Operations area.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "NOVEMBER OBJECTIVE 3\nRECOVER THE COdA SAMPLE\nInfiltration City: Washington\nWHILE IN COLD STORAGE OF LANGLEY, SPEND AN ACTION AND DISCARD ANY 3 CITY CARDS\nCompleted: Read Debrief 226\nFailed (First half of month): Read Debrief 130\nFailed (Second half of month): Read Debrief 119",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/sealed-11-07": {
+    "marker": "PAUSE",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in November.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "RIGHT NOW\nOpen the following door:\n28",
+        "flavor": ""
+      }
+    }
+  },
+  "legacy/sealed-12-01": {
+    "marker": "STOP",
+    "faces": {
+      "front": {
+        "role": "rules",
+        "transcription": "STOP\nDraw this card just before you set up your first game in December.",
+        "flavor": ""
+      },
+      "back": {
+        "role": "both",
+        "transcription": "FOLLOWING UP\n\"We followed your leads on Operation LION'S TOOTH. Here's what we discovered.\"\nTake your MEDUSA Deployment report out of your Intelligence file.\nNote your answer, then read the appropriate debrief:\nJellyfish: Read Debrief 126\nAgent Sabik: Read Debrief 109\nPollen: Read Debrief 140\nWe Don't Know: Read Debrief 120",
+        "flavor": "\"We followed your leads on Operation LION'S TOOTH. Here's what we discovered.\""
+      }
+    }
+  },
+  "legacy/sealed-12-02": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "flavor",
+        "transcription": "MISSION BRIEFING\n\"The time has come. You must steal the MEDUSA genome from PEARL. Without it, they cannot create more of the plague.\nAdditionally, Operation LION'S TOOTH is about to commence; one of their control centers is launching weather balloons containing pollen coated in the MEDUSA plague. Find out which control center it is, and stop it at all costs.\nThere will be only one chance to succeed at this.\"",
+        "flavor": "\"The time has come. You must steal the MEDUSA genome from PEARL. Without it, they cannot create more of the plague.\nAdditionally, Operation LION'S TOOTH is about to commence; one of their control centers is launching weather balloons containing pollen coated in the MEDUSA plague. Find out which control center it is, and stop it at all costs.\nThere will be only one chance to succeed at this.\""
+      },
+      "back": {
+        "role": "flavor",
+        "transcription": "SABIK'S BRIEFING\n\"Prioritize MEDUSA and LION'S TOOTH, no question, but if you can manage it, I have a favor to ask.\nYou saw what the Soviets did to me. John Cooper, your good buddy Coop, called off the extraction when I was caught. He let them turn me into a monster, and I just found out he's not dead.\nThe CIA has him in protective custody. Either they were worried that I might catch up with him, or they were trying to blame me for his death so that you wouldn't trust me.\nSo I'm asking: can you...can you bring him to me? I don't want to hurt him or anything, I just...I really need to see him. I need him to know what he did to me.\"",
+        "flavor": "\"Prioritize MEDUSA and LION'S TOOTH, no question, but if you can manage it, I have a favor to ask.\nYou saw what the Soviets did to me. John Cooper, your good buddy Coop, called off the extraction when I was caught. He let them turn me into a monster, and I just found out he's not dead.\nThe CIA has him in protective custody. Either they were worried that I might catch up with him, or they were trying to blame me for his death so that you wouldn't trust me.\nSo I'm asking: can you...can you bring him to me? I don't want to hurt him or anything, I just...I really need to see him. I need him to know what he did to me.\""
+      }
+    }
+  },
+  "legacy/sealed-12-03": {
+    "marker": "continue",
+    "faces": {
+      "front": {
+        "role": "both",
+        "transcription": "This is an infiltration objective.\nUse the PEARL Compound Infiltration site.\nTo set it up, mix all the Security tokens and put one facedown on each circle on the Infiltration site. Set aside the other Security tokens without looking at them.\nFlip the card over and place it onto the board in the Operations area.\n\"The Laboratory is in the southeast corner of the compound.\"",
+        "flavor": "\"The Laboratory is in the southeast corner of the compound.\""
+      },
+      "back": {
+        "role": "rules",
+        "transcription": "DECEMBER OBJECTIVE 1\nSTEAL THE MEDUSA GENOME\nInfiltration City: Novosibirsk\nWHILE IN THE LABORATORY OF PEARL COMPOUND, SPEND AN ACTION AND DISCARD ANY 5 CITY CARDS\nCompleted: Read Debrief 107\nFailed: Read Debrief 196",
+        "flavor": ""
+      }
+    }
+  }
+}

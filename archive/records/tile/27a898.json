@@ -1,0 +1,33 @@
+{
+  "id": "tile/27a898",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "27a898",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "327/0/11",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "27a898"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "COVER OCCUPATIONS\nUse these stickers to create new (Soviet) aliases.",
+      "flavor": "",
+      "image": "media/original/e53631ee4737416244bd4e83d3ba56c4fbf24718.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

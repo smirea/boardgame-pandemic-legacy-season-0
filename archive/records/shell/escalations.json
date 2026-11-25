@@ -1,0 +1,30 @@
+{
+  "id": "shell/escalations",
+  "printedCode": "Escalations",
+  "kind": "note",
+  "censusKey": "duplicate-shell",
+  "sourceGuid": "ec9a5b",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "343",
+    "duplicatePaths": [],
+    "note": "Infinite bag. The mod tells you to click a door once; the bag respawns its contents. The inner object is the real component.",
+    "guids": [
+      "ec9a5b"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "player/escalation",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

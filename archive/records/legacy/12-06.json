@@ -1,0 +1,41 @@
+{
+  "id": "legacy/12-06",
+  "printedCode": "12-06",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "b05fe7",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "333/3",
+    "duplicatePaths": [],
+    "note": "Legacy deck part 2. The save leaves these nicknames empty; the code is read from the card.",
+    "guids": [
+      "b05fe7"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in December.",
+      "flavor": "",
+      "image": "media/split/cc2c7c586e0d-3.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RIGHT NOW\n\nTHE CAMPAIGN IS OVER.\n\nEven if you received an evaluation of FAILING, do not play the second half of December.\n\nIT'S OVER.\n\nDo not spend budgetary units.\nContinue reading from the Legacy deck.",
+      "flavor": "",
+      "image": "media/split/1aaabc2decc1-3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": "PAUSE",
+  "unreferenced": false,
+  "mesh": null
+}

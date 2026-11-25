@@ -1,0 +1,36 @@
+{
+  "id": "door/47",
+  "printedCode": "47",
+  "kind": "door",
+  "censusKey": "mod-extra",
+  "sourceGuid": "b68e82",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/26",
+    "duplicatePaths": [
+      "356/26",
+      "357/26"
+    ],
+    "note": "Door 47, the PEARL entrance card. The mod keeps it in bag 0003 instead of a clickable dossier door. Workshop 2608806457 is not available.",
+    "guids": [
+      "b68e82"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "47",
+      "flavor": "",
+      "image": "media/original/741da7f6009d8841eeba16f2e92451cd030fb4de.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

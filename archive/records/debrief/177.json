@@ -1,0 +1,31 @@
+{
+  "id": "debrief/177",
+  "printedCode": "177",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and find card 88 in the Operations deck. Use this objective as your third objective for the second half of May. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+      "flavor": "\"We must do better than this. If we allow ourselves to fall too far behind the Soviets, we risk losing everything.\"",
+      "image": "media/original/317178ebc71d05f231bf28b126f8094049bc8078.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

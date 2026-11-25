@@ -1,0 +1,33 @@
+{
+  "id": "tile/d264c3",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d264c3",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "290/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "d264c3"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ADD DISEASE CUBES TO CITIES WITH A STARTING INTENSITY\nRULE C\n1\n2\n3\nIn each city with a starting intensity, add Disease cubes equal to its starting intensity.\n(For example, if Paris has a starting intensity of 1, put 1 Disease cube in Paris during setup.)",
+      "flavor": "",
+      "image": "media/original/423c1c8ed608626c17376899bc491459134211e3.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

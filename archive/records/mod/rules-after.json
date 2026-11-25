@@ -1,0 +1,33 @@
+{
+  "id": "mod/rules-after",
+  "printedCode": null,
+  "kind": "rule-page",
+  "censusKey": "mod-extra",
+  "sourceGuid": "eccabf",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "28",
+    "duplicatePaths": [],
+    "note": "In-mod copy of the after-the-game spread.",
+    "guids": [
+      "eccabf"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "In-mod photograph of Department of Sabotage Field Manual No. N4245.3. The cleaned text is the rulebook record.",
+      "flavor": "",
+      "image": "media/original/2a050990ae88dd810abdbe025a18b5b1836d0765.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

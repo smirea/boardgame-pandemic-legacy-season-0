@@ -1,0 +1,36 @@
+{
+  "id": "pearl/11-d2762a",
+  "printedCode": "11",
+  "kind": "token",
+  "censusKey": "mod-extra",
+  "sourceGuid": "d2762a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "355/0/7",
+    "duplicatePaths": [
+      "356/7",
+      "357/7"
+    ],
+    "note": "PEARL compound piece 11. Taken from this mod's bag 0003. Workshop 2608806457 is not available.",
+    "guids": [
+      "d2762a"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "ACCESS PANEL\nWhen you enter this room, you may swap 2 faceup Security tokens.\n\nMANUFACTURING FACILITY\nWhen you enter this room, take 1 Action token.",
+      "flavor": "",
+      "image": "media/original/2ef3c3989c43629683d4001bf6b46bcd3f824a3a.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

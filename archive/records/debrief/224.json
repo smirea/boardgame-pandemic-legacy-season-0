@@ -1,0 +1,31 @@
+{
+  "id": "debrief/224",
+  "printedCode": "224",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Take Operations card 78.\nTurn each city where the trial was NOT disrupted into an Exposed City (following the rules for Marking Exposed Cities). Place these Infection cards into the Game End area and destroy any unused Infection cards. Then move all three City cards under the Disrupt Trial objective to the Player discard pile.",
+      "flavor": "While disrupting the trial, the team caught a talkative Soviet soldier. He mentioned that his unit picked up MEDUSA samples from a compound in Siberia. Their access was limited, and they were closely monitored from a nearby building. Even though the unit went no deeper than a courtyard, the soldier still noticed enough to provide a rough sketch.",
+      "image": "media/original/482d39e8044028839c2571513f62325722c70271.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

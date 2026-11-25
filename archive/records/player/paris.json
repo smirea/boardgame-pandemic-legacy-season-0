@@ -1,0 +1,41 @@
+{
+  "id": "player/paris",
+  "printedCode": "Paris",
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "747707",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "341/0/17",
+    "duplicatePaths": [],
+    "note": "Player card. Region: europe.",
+    "guids": [
+      "747707"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PARIS\nFRANCE\nEUROPE\n5",
+      "flavor": "",
+      "image": "media/split/a8716e1c667f-25.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

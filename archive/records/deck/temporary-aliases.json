@@ -1,0 +1,45 @@
+{
+  "id": "deck/temporary-aliases",
+  "printedCode": "Temporary Aliases",
+  "kind": "deck",
+  "censusKey": "mod-extra",
+  "sourceGuid": "16f42d",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "2",
+    "duplicatePaths": [],
+    "note": "Deck container. The cards are their own records.",
+    "guids": [
+      "16f42d"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "alias/temporary-1",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "alias/temporary-2",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "alias/temporary-3",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "alias/temporary-4",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

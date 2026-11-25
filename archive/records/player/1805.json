@@ -1,0 +1,41 @@
+{
+  "id": "player/1805",
+  "printedCode": null,
+  "kind": "card",
+  "censusKey": "player-card",
+  "sourceGuid": "03b8ae",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "332/0/20/5",
+    "duplicatePaths": [],
+    "note": "Player card. Sealed in safe deposit box 0008, not in the prologue player deck.",
+    "guids": [
+      "03b8ae"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "SATELLITE LAUNCH\nOVER NORTH AMERICA\n\nAdd a Satellite token to North America.\nEvery city in North America: + surveillance",
+      "flavor": "",
+      "image": "media/split/eab2a5816522-5.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "art",
+      "transcription": "",
+      "flavor": "",
+      "image": "media/original/6caaa24bc4429d8f7e294b63515eaf3bfc387f8f.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

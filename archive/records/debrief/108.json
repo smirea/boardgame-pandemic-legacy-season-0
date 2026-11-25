@@ -1,0 +1,31 @@
+{
+  "id": "debrief/108",
+  "printedCode": "108",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "If you failed the objective \"Bug the Control Center,\" destroy it and replace it with card 67 in the Operations deck for the second half of the month. If you succeeded with that objective, mark it as complete at the start of the next game (as normal).",
+      "flavor": "\"The effort is appreciated, but you're falling short. Fix what you can.\"",
+      "image": "media/original/f193752c9be15df0899f7771ba8abe8773f46c32.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

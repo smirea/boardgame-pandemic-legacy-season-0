@@ -1,0 +1,141 @@
+{
+  "id": "box/0008",
+  "printedCode": "0008",
+  "kind": "box",
+  "censusKey": "safe-deposit-box",
+  "sourceGuid": "db670a",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "256",
+    "duplicatePaths": [
+      "332/0"
+    ],
+    "note": "Safe deposit box. The model and the bag that holds its contents are one record.",
+    "guids": [
+      "97d704",
+      "db670a"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "deck/player-cards",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-088170",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-2a9c99",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-2fba07",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-7a165a",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-8fe833",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-a942e1",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-c882ae",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-d15c52",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-d405fd",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-eab441",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-eabd08",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "mod/blocksquare-ff9454",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/0f2512",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/7d14b9",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/95a9ca",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/a9c9c5",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b20902",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b32963",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b568c7",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/b6efd3",
+      "label": "Contains"
+    },
+    {
+      "type": "adds",
+      "targetId": "tile/f5b1b1",
+      "label": "Contains"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": {
+    "file": "media/original/bcb1b4b06415eadcd4691468e369028a4921c30a.obj",
+    "diffuse": "media/original/d16b95a5ae74cd07ef50703cdfe98c6ad186a82e.jpg"
+  }
+}

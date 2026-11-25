@@ -1,0 +1,33 @@
+{
+  "id": "tile/6f95c9",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "6f95c9",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "223",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "6f95c9"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "AUTHORITIES WATCHING: You may not do the Neutralize Agent action while in a city with an Incident token.",
+      "flavor": "",
+      "image": "media/original/748800654c4c25bd9d1e22d2ab2e8151fd646096.png"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

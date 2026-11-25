@@ -1,0 +1,31 @@
+{
+  "id": "debrief/182",
+  "printedCode": "182",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Return the player pawn in the PEARL Compound to Novosibirsk. Players may still infiltrate PEARL Compound.",
+      "flavor": "August 10, 1961. Testing of Chuma 0 - Diplulmaris Antarctica (C0dA). Subject Alpha: Sabik. American. Early test of the Diplulmaris Antarctica collagen gene to evaluate weakening the vasculature in mammals: making the skin translucent.\n\nDay 1, trial 1. 45cc C0dA at 0300. Violent seizures. Slight transparentization of dermis from genome, as hoped, and severe fever. Note: Restrain subject in future trials.\n\nDay 10, trial 2. 75cc C0dA at 0430. Further seizures, but subject restrained. Additional transparentization, revealing viscera, muscular systems, and arteries, in particular near eyes, mouth, back of hands. Emotional extremes in subject, including periods of lethargy and violent outbursts. Note: C0dA virus must pass the blood-brain barrier to effect aggression and seizures.\n\nDay 30, trial 3. 200cc C0dA at 0415. Physical reaction led to cardiac arrest. Subject revived and stabilized. Near complete transparentization of dermis. Editorial note: Subject features the \"sufficiently horrific appearance\" requested by the KGB. A population suffering from its effects would surely experience significant unrest.\n\nDay 40, further trials suspended. C0dA ineffective at low dosage, and insufficient supply for the necessary higher dosage. Decades of testing and refinement will be required to weaponize it. Proceed with pathogen retrieved from Lake Baikal for PROJEKT MEDUSA.",
+      "image": "media/original/78cef06989636e23edd6cfe2d015183c21e52899.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tile/15bf27",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "15bf27",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "309/0/0",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "15bf27"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "PRESCRIPTION PILLS Your hand limit is increased by 1 card while this alias is active. (When you change aliases, discard cards if necessary.)",
+      "flavor": "",
+      "image": "media/original/23a8958b2bf23ec37cdc5b4fd21b066cf0e7ed21.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "debrief/245",
+  "printedCode": "245",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Turn to entry 249.",
+      "flavor": "With LION’S TOOTH stopped, there was a brief lull as both sides reevaluated the situation. The Soviets had the lethal strain of the MEDUSA genome but knew the CIA would stop at nothing to get it. PEARL was abandoned and the project moved elsewhere. They may plan another attack sometime in the future, but the CIA will not rest until this deadly strain of MEDUSA is out of Soviet hands and safe in deep storage at the CDC.",
+      "image": "media/original/1a42516e77b7419b5ffc267b38e89eb9f7ed961a.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/249",
+      "label": "entry 249"
+    }
+  ],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

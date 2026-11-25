@@ -1,0 +1,54 @@
+{
+  "id": "legacy/06-03",
+  "printedCode": "06-03",
+  "kind": "card",
+  "censusKey": "legacy-card",
+  "sourceGuid": "ab57e2",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "351/0/12",
+    "duplicatePaths": [
+      "352/12"
+    ],
+    "note": "Legacy deck part 1.",
+    "guids": [
+      "ab57e2"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "This is a disrupt trial objective.\nTo set it up, separate the 11 Europe City cards from the Player deck, shuffle them, and place 4 of them faceup into the Operations area. These are the 4 trial cities.\nThen, shuffle the remaining Europe cards back into the Player deck.\nFinally, flip this card over and place it on top of the 4 trial City cards.",
+      "flavor": "",
+      "image": "media/split/8ef8489d5a98-12.jpg"
+    },
+    {
+      "id": "back",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "JUNE OBJECTIVE 1\nDISRUPT THE THIRD TRIAL\nDisrupt Trial in:\n1, 2, 3 OR 4 KNOWN CITIES IN EUROPE AT THE SAME TIME\nCompleted: Read Debrief 206\nFailed: Read Debrief 190",
+      "flavor": "",
+      "image": "media/split/70bec37606e4-12.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "debrief/190",
+      "label": "Debrief 190"
+    },
+    {
+      "type": "reads",
+      "targetId": "debrief/206",
+      "label": "Debrief 206"
+    }
+  ],
+  "marker": "continue",
+  "unreferenced": false,
+  "mesh": null
+}

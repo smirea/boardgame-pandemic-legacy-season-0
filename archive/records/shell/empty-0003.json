@@ -1,0 +1,24 @@
+{
+  "id": "shell/empty-0003",
+  "printedCode": "0003",
+  "kind": "note",
+  "censusKey": "duplicate-shell",
+  "sourceGuid": "600884",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "358",
+    "duplicatePaths": [],
+    "note": "Empty extra bag.",
+    "guids": [
+      "600884"
+    ]
+  },
+  "count": 1,
+  "faces": [],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": true,
+  "mesh": null
+}

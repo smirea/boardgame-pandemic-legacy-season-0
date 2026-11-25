@@ -1,0 +1,31 @@
+{
+  "id": "debrief/139",
+  "printedCode": "139",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Choose one contact on any one alias and cross it out. That contact is dead and can no longer be used.\n\nDraw the Pause card in the Legacy deck and read the back of it.",
+      "flavor": "Sabik's teeth grind together behind closed lips, his ghoulish features flushing with anger. \"You...you're just like them. I swear you'll regret this.\"",
+      "image": "media/original/ffe680b75f30eeb5548705d789a5494b440da166.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

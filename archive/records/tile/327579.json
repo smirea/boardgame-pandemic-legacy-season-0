@@ -1,0 +1,33 @@
+{
+  "id": "tile/327579",
+  "printedCode": null,
+  "kind": "overlay",
+  "censusKey": "mod-extra",
+  "sourceGuid": "327579",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "326/0/6",
+    "duplicatePaths": [],
+    "note": "Unclassified tile.",
+    "guids": [
+      "327579"
+    ]
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "rules",
+      "transcription": "RULE Z\nIf any connected city already has 3 Disease cubes, do not place a 4th cube in those cities. Instead, in each connected city, a chain reaction outbreak occurs after the current outbreak is done.\n\nWhen a chain reaction outbreak occurs, place Outbreak tokens and Disease cubes as above, except do not add a token or cube to cities that have already had an outbreak (or a chain reaction outbreak) as part of resolving the current Infection card.",
+      "flavor": "",
+      "image": "media/original/3e52935b0ed2426ace5f8059bf4679ca6d94bd76.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}

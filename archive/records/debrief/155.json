@@ -1,0 +1,31 @@
+{
+  "id": "debrief/155",
+  "printedCode": "155",
+  "kind": "rule-page",
+  "censusKey": "debrief-page",
+  "sourceGuid": "",
+  "provenance": {
+    "workshopId": "2618224591",
+    "version": "1.17.1",
+    "savePath": "",
+    "duplicatePaths": [],
+    "note": "Debrief entry. Text is the reviewed transcription; the image is the book page it is printed on.",
+    "guids": []
+  },
+  "count": 1,
+  "faces": [
+    {
+      "id": "front",
+      "ttsState": null,
+      "role": "both",
+      "transcription": "Stopping LION'S TOOTH has given you renewed purpose. If you have not completed all objectives, take 2 Action tokens and distribute them among the players as you like. Then, take the target City card under the objective and add it to the hand of the player who completed the objective.",
+      "flavor": "Crisis averted. The team infiltrated the control center just before launch and destroyed the balloons containing the MEDUSA-laced pollen. Operation LION'S TOOTH has been stopped.",
+      "image": "media/original/1cc09452491bdb4f484eee2ef5bf4e953d5f8770.jpg"
+    }
+  ],
+  "states": [],
+  "edges": [],
+  "marker": null,
+  "unreferenced": false,
+  "mesh": null
+}
