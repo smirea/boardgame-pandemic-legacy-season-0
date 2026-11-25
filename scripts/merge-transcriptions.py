@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT / "archive"
+ARCHIVE = ROOT / "docs" / "game"
 BATCHES = ARCHIVE / "transcriptions" / "batches"
 ASSIGNMENTS = ARCHIVE / "transcriptions" / "assignments"
 ROLES = {"rules", "flavor", "both", "art", "blank"}

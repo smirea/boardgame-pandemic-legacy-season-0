@@ -322,10 +322,10 @@ export function checkArchive(archiveDir: string): CheckReport {
 export function findArchiveDir(startDir: string): string {
   let dir = startDir;
   for (let i = 0; i < 8; i++) {
-    if (existsSync(join(dir, "archive", "index.json"))) return join(dir, "archive");
+    if (existsSync(join(dir, "docs", "game", "index.json"))) return join(dir, "docs", "game");
     const parent = dirname(dir);
     if (parent === dir) break;
     dir = parent;
   }
-  return join(startDir, "archive");
+  return join(startDir, "docs", "game");
 }

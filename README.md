@@ -1,8 +1,6 @@
-<!--
-Agents: this README is the scaffold's placeholder. Once the project is fleshed out, rewrite it for this project: what it is, how to run it, and the few things a newcomer must know. Keep it short, move component details into nested READMEs, and delete this comment.
--->
-
 # boardgame-pandemic-legacy-season-0
+
+The extracted Pandemic Legacy: Season 0 game lives in [docs/game](docs/game/README.md): every workshop component, the rulebook, the images, and the meshes, one record per piece. That README is the map.
 
 Created on 2026-11-25 with [setup-new-app](https://github.com/smirea/stefan-utils/tree/master/scripts/setup-new-app) (`--type client-server`). `.github/CI.md` describes the CI checks.
 

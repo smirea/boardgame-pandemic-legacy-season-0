@@ -1,0 +1,266 @@
+{
+  "batch": "door-04",
+  "output": "transcriptions/batches/door-04.json",
+  "items": [
+    {
+      "id": "tile/7573a6",
+      "door": "door/35",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/e5fad03040cb6c40b46c9e3e87055297fd4dbba7.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/99ef95",
+      "door": "door/35",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/e5fad03040cb6c40b46c9e3e87055297fd4dbba7.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/9dd3a5",
+      "door": "door/35",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/8666cf75ad930da02dfdc8ac39e09305a0393c5a.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/1a8231",
+      "door": "door/36",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/e38bfe866aad03bcc678014a03c1c6c34439209e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/659c5f",
+      "door": "door/36",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/e38bfe866aad03bcc678014a03c1c6c34439209e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/874003",
+      "door": "door/36",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/e38bfe866aad03bcc678014a03c1c6c34439209e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/ae2159",
+      "door": "door/36",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/e38bfe866aad03bcc678014a03c1c6c34439209e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/affacb",
+      "door": "door/36",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/3641e103fd98efb41462a99e464445848c610ac4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/3629af",
+      "door": "door/37",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/cf6d2cd55bed43574d0e1fd0853ade56c6d57f2d.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/522d8b",
+      "door": "door/37",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/f5ec8b4f53ddb67a5b1e44459155f4d5e1ced0a4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/7505ce",
+      "door": "door/37",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/f5ec8b4f53ddb67a5b1e44459155f4d5e1ced0a4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/791fd3",
+      "door": "door/37",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/f5ec8b4f53ddb67a5b1e44459155f4d5e1ced0a4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/a9b619",
+      "door": "door/37",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/f5ec8b4f53ddb67a5b1e44459155f4d5e1ced0a4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/3787a3",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/085f58871ef7cb967f64ca2babb6d9ac42a1a294.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/458df6",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/6bebbc3c3157c4188079ac2cc00ef1630599d7f3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/4d4fce",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/085f58871ef7cb967f64ca2babb6d9ac42a1a294.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/4f83b2",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/6bebbc3c3157c4188079ac2cc00ef1630599d7f3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/50b867",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/b0c0d82da8912c95bc6bb214dc30846ebe2c2116.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/55cd12",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/6bebbc3c3157c4188079ac2cc00ef1630599d7f3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/5a6c07",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/6bebbc3c3157c4188079ac2cc00ef1630599d7f3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/733e09",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/36500b33c2eda9bed6bd09a451b50a1080c05143.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/996e5e",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/085f58871ef7cb967f64ca2babb6d9ac42a1a294.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/c8759b",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/085f58871ef7cb967f64ca2babb6d9ac42a1a294.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/eb811d",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/b0c0d82da8912c95bc6bb214dc30846ebe2c2116.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/f5adb7",
+      "door": "door/38",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/b0c0d82da8912c95bc6bb214dc30846ebe2c2116.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tile/03e9d0",
+      "door": "door/39",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/e4e2ebec86b8a83b4825d560420d12059ebc1e5f.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "debrief-05",
+  "output": "transcriptions/batches/debrief-05.json",
+  "pages": [
+    {
+      "pageFace": "state-10",
+      "pageImage": "media/original/9a6be2de5878e590cc05371225d8c3cc31c215e6.jpg",
+      "left": "media/debrief-columns/state-10-left.jpg",
+      "right": "media/debrief-columns/state-10-right.jpg"
+    },
+    {
+      "pageFace": "state-11",
+      "pageImage": "media/original/0810a72a8dbb6747662cbff99cde4d9fec61c094.jpg",
+      "left": "media/debrief-columns/state-11-left.jpg",
+      "right": "media/debrief-columns/state-11-right.jpg"
+    }
+  ]
+}

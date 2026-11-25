@@ -1,0 +1,86 @@
+{
+  "batch": "sheets-01",
+  "output": "transcriptions/batches/sheets-01.json",
+  "items": [
+    {
+      "id": "reference/1",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/cbbe8deb28ff96660d038cbe4468bb590bf4c66a.jpg"
+        }
+      ]
+    },
+    {
+      "id": "reference/2",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/571dd983af3cc1de36f9a08447ae8ccf07cbc81c.jpg"
+        }
+      ]
+    },
+    {
+      "id": "reference/3",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/5ea45b99e3939d564ea23710da308158a5910ee1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "reference/4",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/6aeff54d4dd564b61b7f4a79db4023d41678883b.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sticker-sheet/allied-upgrades",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/89959675adec8a66181cb4e8ab925f64e6238758.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sticker-sheet/liabilities",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/05ea0088d22c672eb33b5b219f00820288ed4a58.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sticker-sheet/portraits",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/65badf19132484259fcabb0cbf1e4c5f616b254c.jpg"
+        }
+      ]
+    },
+    {
+      "id": "debrief/index",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/original/4cb30bb6a4e3afccf2e844301c3385f3d80ce4fd.jpg"
+        }
+      ]
+    }
+  ]
+}

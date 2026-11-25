@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build archive/ records from the Pandemic Legacy Season 0 workshop save.
+"""Build docs/game records from the Pandemic Legacy Season 0 workshop save.
 
 The checker in packages/archive reads the JSON this writes. Images are cropped
-from the sheet files already in archive/media/original. Transcriptions are OCR,
+from the sheet files already in docs/game/media/original. Transcriptions are OCR,
 then card codes and STOP/PAUSE markers are read off those faces.
 """
 
@@ -18,19 +18,8 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT / "archive"
-WORKSHOP = Path(
-    os.environ.get(
-        "WORKSHOP_JSON",
-        "/var/folders/77/zldz5fqx1cl4bh67jk8m060m0000gn/T/grok-goal-97b008dd21f0/implementer/sources/workshop.json",
-    )
-)
-SCRATCH = Path(
-    os.environ.get(
-        "EXTRACT_SCRATCH",
-        "/var/folders/77/zldz5fqx1cl4bh67jk8m060m0000gn/T/grok-goal-97b008dd21f0/implementer",
-    )
-)
+ARCHIVE = ROOT / "docs" / "game"
+WORKSHOP = Path(os.environ.get("WORKSHOP_JSON", str(ARCHIVE / "source" / "workshop.json")))
 WORKSHOP_ID = "2618224591"
 VERSION = "1.17.1"
 
@@ -318,16 +307,19 @@ def deck_of(obj: dict, ancestors: list[dict]) -> tuple[str | None, dict | None, 
     return None, None, None
 
 
+def ocr_cache_path() -> Path:
+    return ARCHIVE / "transcriptions" / "ocr-cache.json"
+
+
 def load_ocr_cache() -> dict[str, str]:
-    path = SCRATCH / "ocr-cache.json"
+    path = ocr_cache_path()
     if path.exists():
         return json.loads(path.read_text())
     return {}
 
 
 def save_ocr_cache(cache: dict[str, str]) -> None:
-    SCRATCH.mkdir(parents=True, exist_ok=True)
-    (SCRATCH / "ocr-cache.json").write_text(json.dumps(cache))
+    ocr_cache_path().write_text(json.dumps(cache))
 
 
 def main() -> None:
@@ -461,7 +453,7 @@ def main() -> None:
             if plan["deck"] in ("8", "9", "11", "12", "17", "2192", "18"):
                 pending.append(guid)
         # The printed code is a small top-right pill. Tesseract cannot read it.
-        # archive/transcriptions/codes.json maps a split-image path to "NN-NN".
+        # docs/game/transcriptions/codes.json maps a split-image path to "NN-NN".
         code_overlay: dict[str, str] = {}
         code_path = ARCHIVE / "transcriptions" / "codes.json"
         if code_path.exists():
@@ -1671,9 +1663,8 @@ def main() -> None:
     print("workshop order", len(deck_order["workshopOrder"]))
     print("unclaimed", len(missing))
     print("dropped edges", len(dropped))
-    (SCRATCH / "dropped-edges.txt").write_text(
-        "\n".join(f"{item[0]}\t{item[1]}\t{item[2]}\t{item[3]}" for item in dropped[:800])
-    )
+    for item in dropped[:20]:
+        print("dropped", "\t".join(item))
 
 
 def render_markdown(record: dict) -> str:

@@ -1,0 +1,174 @@
+{
+  "batch": "legacy-12",
+  "output": "transcriptions/batches/legacy-12.json",
+  "items": [
+    {
+      "id": "legacy/12-08",
+      "printedCode": "12-08",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/cc2c7c586e0d-1.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/1aaabc2decc1-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/end-of-legacy-deck",
+      "printedCode": null,
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/cc2c7c586e0d-0.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/1aaabc2decc1-0.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-11-01",
+      "printedCode": "11-01",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-15.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-15.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-11-02",
+      "printedCode": "11-02",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-14.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-14.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-11-03",
+      "printedCode": "11-03",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-13.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-13.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-11-04",
+      "printedCode": "11-04",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-12.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-12.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-11-05",
+      "printedCode": "11-05",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-11.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-11.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-11-06",
+      "printedCode": "11-06",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-10.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-10.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-11-07",
+      "printedCode": "11-07",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-9.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-9.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-12-01",
+      "printedCode": "12-01",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-8.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-8.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-12-02",
+      "printedCode": "12-02",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-7.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-7.jpg"
+        }
+      ]
+    },
+    {
+      "id": "legacy/sealed-12-03",
+      "printedCode": "12-03",
+      "faces": [
+        {
+          "id": "front",
+          "image": "media/split/a3ad9647d9f9-6.jpg"
+        },
+        {
+          "id": "back",
+          "image": "media/split/0755b549db50-6.jpg"
+        }
+      ]
+    }
+  ]
+}
