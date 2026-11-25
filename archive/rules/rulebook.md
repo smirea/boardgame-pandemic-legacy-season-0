@@ -4,11 +4,37 @@ Department of Sabotage Field Manual No. N4245.3. Rulebook transcription of the 1
 
 Designers: Matt Leacock and Rob Daviau. Story: Rob Daviau and Justin Kemppainen. The game calendar printed on the back of the Debrief Book is included below, because the rulebook tells you to use it and the manual's own funding rules match that sheet.
 
+## Sticker slots in the manual
+
+Empty when the book is new. Letters, in the order they appear:
+
+| Slot | Where it sits |
+| --- | --- |
+| A | Setup, after preparing the board |
+| B | Setup, after adding agents |
+| C | Setup, after slot B |
+| D | Setup, with Escalation cards |
+| E, F, G, H | Player turns, left column. There is no slot I. |
+| J | Beside Check Surveillance |
+| K | Under Drive / Ferry a team |
+| L, M, N, O, P | Left column of the unknown-target example page |
+| Q, R, S, T, U | Right column of that page |
+| V | Under Mop Up |
+| W | Under Draw 2 Player Cards |
+| X | Beside Escalation cards |
+| Y, Z | Under Incidents |
+| AA | Under Game End. Distinct from A. |
+| BB | Beside After the Game. Distinct from B. |
+
+<!-- page: 01 -->
+
 ## Cover
 
 N4245.3. Department of Sabotage Field Manual. Rulebook.
 
 Regraded unclassified by authority of DoD Dir. 5200.1 R, by John Cooper. Prepared under direction of the Director of Strategic Services. Stamped DECLASSIFIED.
+
+<!-- page: 02 -->
 
 ## Starting components
 
@@ -39,7 +65,9 @@ Campaign materials, which the book says not to open or examine until instructed:
 - 1 deck of 42 operations cards
 - 8 safe deposit boxes
 
-## You were chosen to serve
+<!-- page: 03 -->
+
+## You were chosen to serve. You were willing to lead.
 
 December, 1961.
 
@@ -49,7 +77,9 @@ Meanwhile, a fanatical research group within the Soviet Union has been developin
 
 Your training has ended, and it is time to take the field.
 
-The book points at a briefing to read aloud, `www.zmangames.com/legacy-season-0`. The briefing printed in the manual:
+Listen to the briefing read aloud on the Z-Man Games website: www.zmangames.com/legacy-season-0
+
+### Mission briefing
 
 Welcome agents, glad to see you made it through Swampy. I'm your Collection Management Officer: your handler, basically. John Cooper's the name, but you can call me 'Coop.' There's a lot to talk about, so I'm gonna dive right in.
 
@@ -64,6 +94,8 @@ Last thing I have is a bit of fair warning. The CIA is a peerless organization d
 All that said, don't worry too much about the red tape; your buddy Coop will keep the worst of it off your back. You focus on MEDUSA and Sabik. No problem for Swampy's top of '61, am I right?
 
 CMO John Cooper. File photo: Charles Sabik, circa March 1960.
+
+<!-- page: 04 -->
 
 ## Playing a legacy game
 
@@ -122,6 +154,8 @@ The Legacy deck is a one-way trip. Even if you repeat a month, do not put Legacy
 If the Legacy decks get out of order, have someone who is not playing the game put the cards back in order using the numbers in the top-right corner of each card.
 
 The first set of digits indicate the in-game month ("00" for the prologue). The second set of digits indicate the order of cards for that month ("f" for the front of the card and "b" for the back). The example printed in the book is `00-01f`.
+
+<!-- page: 05 -->
 
 ## Other legacy components
 
@@ -210,6 +244,8 @@ At the end of each game, you are given an evaluation (SUCCEEDING, ADEQUATE, FAIL
 
 The campaign ends after you finish December. At that point, you are scored on your final results. Your score will largely be based on your evaluations each month as well as the final state of the world.
 
+<!-- page: 06 -->
+
 ## Key concepts
 
 It is 1962, the height of the Cold War. Fanatical elements of the Soviet Union seek to create a bioweapon to destroy the West. You are trained in both medicine and field operations, so you must travel across the world, neutralizing Soviet agents and achieving specific objectives while setting up teams of CIA operatives to assist with both.
@@ -232,7 +268,7 @@ Objectives must be completed in specific cities on the board. To complete most o
 
 Sometimes, you have an unknown target city for your objective and must deduce its location during the game (or use certain actions, see "Identify Target City").
 
-Objectives are different in every month, so feel free to destroy any old objectives from previous months.
+Note: Objectives are different in every month, so feel free to destroy any old objectives from previous months.
 
 ### Teams
 
@@ -248,6 +284,8 @@ A team is active only while in a city matching its affiliation. (i.e., Allied te
 
 Example printed in the book: an Allied team starts the turn in Cairo. Since Cairo is a Soviet city, the team is inactive (and set on its side). During the turn it is moved to Algiers. Algiers is an Allied city, so the figure is set upright to indicate that it is active.
 
+<!-- page: 07 -->
+
 ## Characters
 
 To accomplish your goals, you must travel the world using passports with different aliases. Eventually, each character will have three aliases (Allied, Neutral, and Soviet) but can use only one at a time.
@@ -262,7 +300,7 @@ This alias has no cover; when you would lose cover, discard a Player card instea
 
 ### Creating aliases
 
-You create Allied aliases in January of the campaign for all four of the passports. You will be instructed how to create an alias by cards in the Legacy deck.
+You create Allied aliases in January of the campaign for all four of the passports. You will be instructed how to create an alias by cards in the Legacy deck (also below for reference).
 
 ### Alias details
 
@@ -292,7 +330,7 @@ Surveillance represents how closely the Soviets are monitoring a city and is rep
 
 At the start of your turn, you lose one cover for each surveillance icon in your city unless there is a safehouse in your city.
 
-Example: Samuel (Bridget's Allied alias) begins his turn in Cairo, which has 1 surveillance. He scratches 1 cover from the Allied alias and reveals a liability icon. He chooses a liability from those available and puts it on an empty space on his Allied alias.
+Surveillance example. Samuel (Bridget's Allied alias) begins his turn in Cairo, which has 1 surveillance. He scratches 1 cover from the Allied alias and reveals a liability icon. The passport in the example is filled in as Samuel Hale, Medical Conference Coordinator: as an action, you may move a team or a different player's pawn up to 3 cities away from its current city. (The team's pawn does not enter any cities in between.) He chooses a liability from those available and puts it on an empty space on his Allied alias. The liability shown is MONITORED: If you draw 2 Soviet City cards at the end of your turn, lose 1 cover.
 
 ### Liabilities and getting burned
 
@@ -305,6 +343,8 @@ Each time you lose cover, if there is an icon under the scratched-off space, res
 When you start your next turn, choose a temporary alias. Use that temporary alias for the rest of that game.
 
 When choosing characters at the start of a game, if all the active aliases of a character are burned, you must use either a different character or a temporary alias instead.
+
+<!-- page: 08 -->
 
 ## Setup
 
@@ -339,6 +379,8 @@ PLACE RULE STICKER HERE WHEN INSTRUCTED.
 ### 6. Sticker slot C
 
 PLACE RULE STICKER HERE WHEN INSTRUCTED.
+
+<!-- page: 09 -->
 
 ### 7. Prepare the Player deck and deal cards
 
@@ -382,7 +424,9 @@ Gather all of the pawns and randomly select one. That player takes the first tur
 
 Six regions are printed on the board: North America, South America, Europe, Africa, Asia, and Pacific Rim.
 
-Each city is Allied, Neutral, or Soviet. The legend on the board uses blue for Allied, grey for Neutral, and red for Soviet. North America is blue, South America is yellow on the region key, Europe is green, Africa is orange, Asia is pink, and the Pacific Rim is purple. Region color and allegiance are different marks. The full city, connection, and allegiance tally is the board record in the archive, read off the board image. Washington is the only city with a printed permanent safehouse in the prologue and in January.
+The setup pages print the board. Across the top of that diagram: 1962 – OBJECTIVES. Cross off months as you complete them. The months are Prologue, January, February, March, April, May, June, July, August, September, October, November, December.
+
+Each city is Allied, Neutral, or Soviet. The legend on the board uses blue for Allied, grey for Neutral, and red for Soviet. North America is blue, South America is yellow on the region key, Europe is green, Africa is orange, Asia is pink, and the Pacific Rim is purple. Region color and allegiance are different marks. Washington is the only city with a printed permanent safehouse in the prologue and in January. The city, connection, and allegiance list read off the board image is `archive/board.md`.
 
 The board also prints the Threat Level track (spaces 2, 3, and 4), a Game End area, the five protocol words, an incident reminder, a surveillance reminder, and the player-turn order.
 
@@ -392,7 +436,7 @@ Game End area, as printed on the board:
 2. Check Cities
 3. Check Legacy Deck
 4. Check Game End Area
-5. Spend Budget. The budget equals the number of players, and the board notes the bonus if all objectives are complete. The rule that governs the bonus is step 5 of After the Game.
+5. Spend Budget. The board prints a line for 2 Players, 3 Players, and 4 Players, and +1 if all objectives complete. Step 5 of After the Game is the rule for that bonus.
 6. Clean Up
 
 Incident reminder printed on the board. Instead of adding a 4th agent to a city: place an Incident token into the city, draw the bottom card of the Threat deck and read the incident effect, and put that Threat card into the Game End Area.
@@ -402,6 +446,8 @@ Incident tokens reminder printed on the board: if an Incident token is added to 
 Surveillance reminder printed on the board: if you begin your turn in a city with surveillance, scratch 1 cover for each surveillance symbol in the city (max 3). If there is a safehouse in your city, ignore this effect.
 
 Player-turn reminder printed on the board: 1. Check Surveillance. 2. Do 4 Actions. 3. Mop Up. 4. Draw 2 Player Cards. 5. Draw Threat Cards. Hand limit applies at all times (usually 7 cards).
+
+<!-- page: 10 -->
 
 ## Player turns
 
@@ -459,6 +505,8 @@ This action varies as follows:
 
 Discard the City card matching your city to move to any city on the board (including a Soviet city).
 
+<!-- page: 11 -->
+
 #### Neutralize agent
 
 Remove an agent from your city and return it to the supply.
@@ -490,7 +538,7 @@ While at a safehouse, discard 5 City cards matching the affiliation of your city
 
 If all of the teams of that affiliation are already on the board, you may relocate a team of that affiliation from a different city to your city.
 
-#### Drive / Ferry a team
+#### Drive / Ferry Team (drive/ferry a team)
 
 Move a team to an adjacent city. You do not have to be in the city of the team you are moving. Multiple teams can be in the same city. Teams are not affected by surveillance (except through certain Incident effects).
 
@@ -524,9 +572,17 @@ Acquiring targets in an unknown city. To acquire targets in an unknown city, you
 
 If you have an active team positioned in that city, mark the objective with a "Complete" token. Otherwise, mark it with a "Failed" token. In either case, immediately read the appropriate debrief entry.
 
-You can place teams in multiple possible cities to increase your odds. As long as there is an active team in the correct city, the objective is complete.
+Important! You can place teams in multiple possible cities to increase your odds. As long as there is an active team in the correct city, the objective is complete.
+
+<!-- page: 12 -->
 
 Unknown target city example. Players have narrowed the possible target cities in Europe to Paris, Rome, and Prague: two Allied cities and one Soviet. They position their Soviet team in Prague. They can position their Allied team in Paris or Rome. On a gamble, they place their Allied team in Rome and then do the Acquire Targets action. If the target city is either Prague or Rome, they'll successfully complete the objective. If it is Paris, they will fail. Given how the game was going, they didn't believe they would be able to assemble and position another Allied team in Paris to guarantee success. Ultimately, they decided it was worth the risk.
+
+### Sticker slots L, M, N, O, P, Q, R, S, T, U
+
+The rest of the unknown-target example page is empty sticker slots. Each one prints PLACE RULE STICKER HERE WHEN INSTRUCTED. Left column, top to bottom: L, M, N, O, P. Right column, top to bottom: Q, R, S, T, U.
+
+<!-- page: 13 -->
 
 ### 3. Mop up
 
@@ -560,7 +616,7 @@ If your draw includes any Escalation cards, do not add them to your hand (and do
 2. Add Agents. Draw the bottom card from the Threat deck. Place three agents in that city. Discard the drawn card to the Threat discard pile.
 3. Intensify. Shuffle all cards in the Threat discard pile (including the one just drawn) and place them facedown on top of the Threat deck.
 
-When resolving an Escalation card, draw from the bottom of the Threat deck and shuffle only the cards in the Threat discard pile, placing them on top of the existing Threat deck.
+Remember: When resolving an Escalation card, draw from the bottom of the Threat deck and shuffle only the cards in the Threat discard pile, placing them on top of the existing Threat deck.
 
 It is rare but possible to draw 2 Escalation cards at once. In this case, do all the steps above once and then again.
 
@@ -577,6 +633,8 @@ The Soviets dispatch agents to infiltrate cities and cause incidents.
 One at a time, flip over as many Threat cards from the top of the Threat deck as the current Threat level (indicated by the Threat Level track on the board). For each card flipped over, place 1 agent on the matching city and discard the card to the Threat discard pile.
 
 If you would place a fourth agent on a city, an incident occurs instead. (Agents do not spread like disease outbreaks in other Pandemic games.)
+
+<!-- page: 14 -->
 
 ## Incidents
 
@@ -619,6 +677,8 @@ The game ends immediately, even if it is the middle of a player's turn. You cann
 
 After the game ends, proceed to "After the Game".
 
+<!-- page: 15 -->
+
 ## Hand limit
 
 If you ever have more than your hand limit (after first resolving any Escalation cards you may have drawn), discard cards or play Event cards until you are at your hand limit. Normally, the hand limit is 7 cards.
@@ -651,6 +711,30 @@ Also, you can look at any cards in the reserve, the Personnel and Intelligence f
 In most cases, it won't matter. A little rule confusion here or there, a card left out of a deck, or something forgotten will not greatly affect your game. Just acknowledge it and move on.
 
 In some cases, a missed or confused rule will result in a whole game being too easy or too hard. In this case, the group should decide whether to increase their funding for the next game (if you accidentally made a game too hard) or reduce their funding for the next game (if you made a game too easy).
+
+## Credits
+
+- Game design: Matt Leacock and Rob Daviau
+- Story writers: Rob Daviau and Justin Kemppainen
+- Producer: Michael Sanfilippo
+- Managing game designer: Justin Kemppainen
+- Editing: Alexander Ortloff
+- Proofreading: Christopher Meyer
+- Graphic design: Monica Helland
+- Illustration: Atha Kanaani and Monica Helland with Samuel R. Shimota and Dan Gerlach
+- Plastic sculpting: Monica Helland and Samuel R. Shimota
+- Art direction: Bree Lindsoe and Samuel R. Shimota
+- Managing art director: Samuel R. Shimota
+- Voice of John Cooper: Clint McElroy
+- Publisher: Steven Kimball
+
+Playtesters named in the book: Erik Arneson, Alan Bach, Shelia Bainbridge, Tricia Brooke, Marc Brousseau, Eric Burgess, Bayard Catron, Jason Cooper, Jeroen Domen, Alain Dubourst, Bianca van Duijl, Chris Earley, Dan Egnor, Kathleen Engle, Beth Erikson, Jon Fromm, Kevin Gale, Dan Gerlach, Jennifer Geske, Mark Goetz, Sarah Graybill, Joe Grossman, Beth Heile, David Heron, Amanda Houts, Gil Hova, Randy Hoyt, Wei-Hwa Huang, Brian Jewkes, Sasha Shen Johfre, Jeff Kayati, John Knoerzer, Donna Leacock, Hamilton Longyear, Dan Luxenberg, Julie Luxenberg, Benjamin May, Brittany May, James Miller, Chris Mitsinikos, Owen Mitsinikos, Brianna Neiderman, Siew Siang Neo, Elizabeth Neveu, David Nolin, Kevin O'Hare, Debbie Ohi, Erik Oliver, Alexander Ortloff, Jeff Ridpath, Maureen Riley, Jen Schefer, John Schefer, Lindsay Schulte, Richard Shall, Hannah Johfre Shen, John Shulters, Jenn Skahen, Rob Smolka, Sarah Swindle, Shruti Thombare, Colin Thom, Mae Thornstrom, Lisa Towell, Ana Ulin, Rik Van Horn, Greg Wason, Chris Wray, Rudy Yeung, Kit Yona, Lola Yona, Rob Zacny, Michelle Zenlis.
+
+Z-Man Games is committed to diverse representation and accessible gaming for all. If you have any concerns or suggestions, please contact us through our website.
+
+Z-Man Games, 1995 County Road B2 West, Roseville MN 55113 USA, (651) 639-1905, info@ZManGames.com. © 2020 Z-Man Games. Pandemic and Z-Man Games are ® of Z-Man Games. Actual components may vary from those shown.
+
+<!-- page: 16 -->
 
 ## After the game
 
@@ -717,45 +801,3 @@ Discard all Player cards and clear the board of all game pieces (but not sticker
 ### Sticker slot BB
 
 PLACE RULE STICKER HERE WHEN INSTRUCTED. BB is a different slot from B.
-
-## Sticker slots in the manual
-
-Empty when the book is new. Letters, in the order they appear:
-
-| Slot | Where it sits |
-| --- | --- |
-| A | Setup, after preparing the board |
-| B | Setup, after adding agents |
-| C | Setup, after slot B |
-| D | Setup, with Escalation cards |
-| E, F, G, H | Player turns, left column. There is no slot I. |
-| J | Beside Check Surveillance |
-| K | Under Drive / Ferry a team |
-| L, M, N, O, P | Left column of the unknown-target example page |
-| Q, R, S, T, U | Right column of that page |
-| V | Under Mop Up |
-| W | Under Draw 2 Player Cards |
-| X | Beside Escalation cards |
-| Y, Z | Under Incidents |
-| AA | Under Game End. Distinct from A. |
-| BB | Beside After the Game. Distinct from B. |
-
-## Credits
-
-- Game design: Matt Leacock and Rob Daviau
-- Story writers: Rob Daviau and Justin Kemppainen
-- Producer: Michael Sanfilippo
-- Managing game designer: Justin Kemppainen
-- Editing: Alexander Ortloff
-- Proofreading: Christopher Meyer
-- Graphic design: Monica Helland
-- Illustration: Atha Kanaani and Monica Helland with Samuel R. Shimota and Dan Gerlach
-- Plastic sculpting: Monica Helland and Samuel R. Shimota
-- Art direction: Bree Lindsoe and Samuel R. Shimota
-- Managing art director: Samuel R. Shimota
-- Voice of John Cooper: Clint McElroy
-- Publisher: Steven Kimball
-
-Playtesters named in the book: Erik Arneson, Alan Bach, Shelia Bainbridge, Tricia Brooke, Marc Brousseau, Eric Burgess, Bayard Catron, Jason Cooper, Jeroen Domen, Alain Dubourst, Bianca van Duijl, Chris Earley, Dan Egnor, Kathleen Engle, Beth Erikson, Jon Fromm, Kevin Gale, Dan Gerlach, Jennifer Geske, Mark Goetz, Sarah Graybill, Joe Grossman, Beth Heile, David Heron, Amanda Houts, Gil Hova, Randy Hoyt, Wei-Hwa Huang, Brian Jewkes, Sasha Shen Johfre, Jeff Kayati, John Knoerzer, Donna Leacock, Hamilton Longyear, Dan Luxenberg, Julie Luxenberg, Benjamin May, Brittany May, James Miller, Chris Mitsinikos, Owen Mitsinikos, Brianna Neiderman, Siew Siang Neo, Elizabeth Neveu, David Nolin, Kevin O'Hare, Debbie Ohi, Erik Oliver, Alexander Ortloff, Jeff Ridpath, Maureen Riley, Jen Schefer, John Schefer, Lindsay Schulte, Richard Shall, Hannah Johfre Shen, John Shulters, Jenn Skahen, Rob Smolka, Sarah Swindle, Shruti Thombare, Colin Thom, Mae Thornstrom, Lisa Towell, Ana Ulin, Rik Van Horn, Greg Wason, Chris Wray, Rudy Yeung, Kit Yona, Lola Yona, Rob Zacny, Michelle Zenlis.
-
-Z-Man Games, 1995 County Road B2 West, Roseville MN 55113 USA, (651) 639-1905, info@ZManGames.com. © 2020 Z-Man Games. Pandemic and Z-Man Games are trademarks of Z-Man Games. Actual components may vary from those shown.

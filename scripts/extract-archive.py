@@ -1105,6 +1105,17 @@ def main() -> None:
 
     # Rulebook and sky are not TTS objects with a component GUID.
     rulebook_md = (ARCHIVE / "rules" / "rulebook.md").read_text()
+    rulebook_pages = {
+        number: body.strip()
+        for number, body in re.findall(
+            r"<!-- page: (\d{2}) -->\n(.*?)(?=<!-- page: \d{2} -->|\Z)",
+            rulebook_md,
+            re.S,
+        )
+    }
+    if set(rulebook_pages) != {f"{number:02d}" for number in range(1, 17)}:
+        raise SystemExit(f"rulebook page split is {sorted(rulebook_pages)}")
+    rulebook_clean = re.sub(r"<!-- page: \d{2} -->\n?", "", rulebook_md).strip()
     rulebook = base_record(
         "rulebook",
         "rule-page",
@@ -1120,7 +1131,7 @@ def main() -> None:
             "id": "field-manual",
             "ttsState": None,
             "role": "both",
-            "transcription": rulebook_md.strip(),
+            "transcription": rulebook_clean,
             "flavor": "December 1961. Camp Swampy. Project MEDUSA. You were chosen to serve.",
             "image": "rules/pages/page-01.png",
         }
@@ -1131,7 +1142,7 @@ def main() -> None:
                 "id": f"page-{number:02d}",
                 "ttsState": None,
                 "role": "rules",
-                "transcription": "",
+                "transcription": rulebook_pages[f"{number:02d}"],
                 "flavor": "",
                 "image": f"rules/pages/page-{number:02d}.png",
             }
