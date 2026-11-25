@@ -24,7 +24,13 @@
     }
   ],
   "states": [],
-  "edges": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "operations/i12",
+      "label": "Operations card 78"
+    }
+  ],
   "marker": null,
   "unreferenced": false,
   "mesh": null

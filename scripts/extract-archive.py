@@ -132,7 +132,12 @@ DOOR_RE = re.compile(r"\bdoor\s+([0-9]{1,2}|[A-HJ-Z])\b", re.I)
 BOX_RE = re.compile(r"\bbox\s+(000[1-8])\b", re.I)
 ENTRY_RE = re.compile(r"\b(?:debrief\s+)?entry\s+(\d{3})\b", re.I)
 DEBRIEF_NUM_RE = re.compile(r"\bdebrief(?:\s+number)?\s+(\d{3})\b", re.I)
-DOOR_TOKEN_RE = re.compile(r"(?i)\s*(?:,\s*|\band\b\s*|&\s*)?([0-9]{1,2}|[A-HJ-Z])\b")
+# A list may be "38, G, and C". Separators can stack (", and"), and the scan stops at the first word that is not a code.
+DOOR_TOKEN_RE = re.compile(r"(?i)\s*(?:(?:,|\band\b|&)\s*)*([0-9]{1,2}|[A-HJ-Z])\b")
+OPS_NUM = r"(?:5\d|6\d|7\d|8\d)"
+OPS_LIST = rf"({OPS_NUM}(?:(?:\s*(?:,|&|\band\b)\s*)+{OPS_NUM})*)"
+OPS_FROM_DECK_RE = re.compile(rf"(?i)\bcards?\s+{OPS_LIST}\s+(?:from|in)\s+the\s+operations\s+deck\b")
+OPS_CARD_RE = re.compile(rf"(?i)\boperations\s+cards?\s*:?\s+{OPS_LIST}\b")
 ENTRY_SPLIT_RE = re.compile(r"(?m)^[^\S\n]{0,4}(\d{3})\b")
 
 
@@ -150,6 +155,27 @@ def door_codes(text: str) -> list[str]:
         codes.append(token)
         pos = match.end()
     return codes
+
+
+def operations_back_number(record: dict) -> str | None:
+    """The number printed on an operations back, or None for the two unnumbered deck ends."""
+    back = next((face for face in record["faces"] if face["id"] == "back"), None)
+    if not back:
+        return None
+    text = back.get("transcription") or ""
+    if not re.search(r"\boperations\b", text, re.I):
+        return None
+    numbers = set(re.findall(rf"\b{OPS_NUM}\b", text))
+    if len(numbers) != 1:
+        return None
+    return numbers.pop()
+
+
+def operations_edge_kind(window: str) -> str:
+    """Find, take, get, place, and replace put the card into play. A bare mention is a read."""
+    if re.search(r"(?i)\b(?:find|take|get|place|replace)\b", window):
+        return "adds"
+    return "reads"
 
 
 def slug(text: str) -> str:
@@ -1122,7 +1148,7 @@ def main() -> None:
         "rulebook",
         "N4245.3",
         1,
-        "Department of Sabotage Field Manual No. N4245.3. Cleaned text is archive/rules/rulebook.md. Page images are the faces.",
+        "Department of Sabotage Field Manual No. N4245.3. Cleaned text is rules/rulebook.md. Page images are the faces.",
     )
     rulebook["sourceGuid"] = ""
     rulebook["provenance"]["guids"] = []
@@ -1378,6 +1404,25 @@ def main() -> None:
         )
         records["door/47"] = entrance
 
+    # The number is printed on the back. Nicknames only exist for 85–89, so they are not the code.
+    ops_by_number: dict[str, str] = {}
+    for record in records.values():
+        if record["censusKey"] != "operations-card":
+            continue
+        number = operations_back_number(record)
+        record["printedCode"] = number
+        if number is None:
+            continue
+        previous = ops_by_number.get(number)
+        if previous:
+            raise SystemExit(f"operations {number} is both {previous} and {record['id']}")
+        ops_by_number[number] = record["id"]
+    expected_ops = {str(number) for number in range(50, 90)}
+    if set(ops_by_number) != expected_ops:
+        missing = sorted(expected_ops - set(ops_by_number))
+        extra = sorted(set(ops_by_number) - expected_ops)
+        raise SystemExit(f"operations numbers missing {missing} extra {extra}")
+
     # Structural edges, then text edges.
     id_by_guid = {}
     for record in records.values():
@@ -1461,6 +1506,12 @@ def main() -> None:
                 text_edge("adds", "pearl/piece-3cba65", "Take the secret dossier")
             if re.search(r"open this door if your funding", flat, re.I):
                 text_edge("opens", "door/14", "Open this door if your funding would ever go above 10")
+            for pattern in (OPS_FROM_DECK_RE, OPS_CARD_RE):
+                for match in pattern.finditer(flat):
+                    window = flat[max(0, match.start() - 96) : match.end()]
+                    kind = operations_edge_kind(window)
+                    for number in re.findall(OPS_NUM, match.group(1)):
+                        text_edge(kind, ops_by_number[number], match.group(0))
 
     # Referenced set.
     pointed = set()

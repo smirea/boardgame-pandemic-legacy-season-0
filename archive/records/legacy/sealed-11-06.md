@@ -32,6 +32,8 @@ Failed (Second half of month): Read Debrief 119
 
 ## Edges
 
+- adds `operations/i15` — cards 74 and 75 in the Operations deck
+- adds `operations/i16` — cards 74 and 75 in the Operations deck
 - reads `debrief/119` — Debrief 119
 - reads `debrief/130` — Debrief 130
 - reads `debrief/226` — Debrief 226

@@ -32,6 +32,11 @@
     },
     {
       "type": "opens",
+      "targetId": "door/C",
+      "label": "Open door C"
+    },
+    {
+      "type": "opens",
       "targetId": "door/G",
       "label": "Open door G"
     }

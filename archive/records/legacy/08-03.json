@@ -36,6 +36,16 @@
   "states": [],
   "edges": [
     {
+      "type": "adds",
+      "targetId": "operations/i17",
+      "label": "cards 72 and 73 in the Operations deck"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i18",
+      "label": "cards 72 and 73 in the Operations deck"
+    },
+    {
       "type": "reads",
       "targetId": "debrief/123",
       "label": "Debrief 123"

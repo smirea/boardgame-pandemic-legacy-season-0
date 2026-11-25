@@ -24,7 +24,13 @@
     }
   ],
   "states": [],
-  "edges": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "operations/i39",
+      "label": "card 51 from the Operations deck"
+    }
+  ],
   "marker": null,
   "unreferenced": false,
   "mesh": null

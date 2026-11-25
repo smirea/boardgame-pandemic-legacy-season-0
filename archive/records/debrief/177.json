@@ -24,7 +24,13 @@
     }
   ],
   "states": [],
-  "edges": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "operations/ops-88f",
+      "label": "card 88 in the Operations deck"
+    }
+  ],
   "marker": null,
   "unreferenced": false,
   "mesh": null

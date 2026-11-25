@@ -34,7 +34,13 @@
     }
   ],
   "states": [],
-  "edges": [],
+  "edges": [
+    {
+      "type": "reads",
+      "targetId": "operations/i14",
+      "label": "Operations card: 76"
+    }
+  ],
   "marker": "STOP",
   "unreferenced": false,
   "mesh": null

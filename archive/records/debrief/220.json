@@ -24,7 +24,18 @@
     }
   ],
   "states": [],
-  "edges": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "operations/i06",
+      "label": "card 84 in the Operations deck"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i07",
+      "label": "card 83 in the Operations deck"
+    }
+  ],
   "marker": null,
   "unreferenced": false,
   "mesh": null

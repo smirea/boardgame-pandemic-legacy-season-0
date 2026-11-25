@@ -53,6 +53,11 @@
       "type": "reads",
       "targetId": "debrief/228",
       "label": "Debrief 228"
+    },
+    {
+      "type": "reads",
+      "targetId": "operations/i29",
+      "label": "Operations card 61"
     }
   ],
   "marker": "continue",

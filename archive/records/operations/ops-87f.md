@@ -2,7 +2,7 @@
 
 - Kind: card
 - Census: operations-card × 1
-- Printed code: Ops 87f
+- Printed code: 87
 - Marker: —
 - Source GUID: bc144b
 - Unreferenced: no

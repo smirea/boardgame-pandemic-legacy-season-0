@@ -2,7 +2,7 @@
 
 - Kind: card
 - Census: operations-card × 1
-- Printed code: Ops 88f
+- Printed code: 88
 - Marker: —
 - Source GUID: c9240b
 - Unreferenced: no

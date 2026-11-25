@@ -2,7 +2,7 @@
 
 - Kind: card
 - Census: operations-card × 1
-- Printed code: Ops 85f
+- Printed code: 85
 - Marker: —
 - Source GUID: 02decd
 - Unreferenced: no

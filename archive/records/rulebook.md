@@ -7,7 +7,7 @@
 - Source GUID: —
 - Unreferenced: no
 
-Department of Sabotage Field Manual No. N4245.3. Cleaned text is archive/rules/rulebook.md. Page images are the faces.
+Department of Sabotage Field Manual No. N4245.3. Cleaned text is rules/rulebook.md. Page images are the faces.
 
 ## field-manual
 
@@ -432,7 +432,7 @@ Six regions are printed on the board: North America, South America, Europe, Afri
 
 The setup pages print the board. Across the top of that diagram: 1962 – OBJECTIVES. Cross off months as you complete them. The months are Prologue, January, February, March, April, May, June, July, August, September, October, November, December.
 
-Each city is Allied, Neutral, or Soviet. The legend on the board uses blue for Allied, grey for Neutral, and red for Soviet. North America is blue, South America is yellow on the region key, Europe is green, Africa is orange, Asia is pink, and the Pacific Rim is purple. Region color and allegiance are different marks. Washington is the only city with a printed permanent safehouse in the prologue and in January. The city, connection, and allegiance list read off the board image is `archive/board.md`.
+Each city is Allied, Neutral, or Soviet. The legend on the board uses blue for Allied, grey for Neutral, and red for Soviet. North America is blue, South America is yellow on the region key, Europe is green, Africa is orange, Asia is pink, and the Pacific Rim is purple. Region color and allegiance are different marks. Washington is the only city with a printed permanent safehouse in the prologue and in January. The city, connection, and allegiance list read off the board image is `board.md`.
 
 The board also prints the Threat Level track (spaces 2, 3, and 4), a Game End area, the five protocol words, an incident reminder, a surveillance reminder, and the player-turn order.
 
@@ -1221,7 +1221,7 @@ Six regions are printed on the board: North America, South America, Europe, Afri
 
 The setup pages print the board. Across the top of that diagram: 1962 – OBJECTIVES. Cross off months as you complete them. The months are Prologue, January, February, March, April, May, June, July, August, September, October, November, December.
 
-Each city is Allied, Neutral, or Soviet. The legend on the board uses blue for Allied, grey for Neutral, and red for Soviet. North America is blue, South America is yellow on the region key, Europe is green, Africa is orange, Asia is pink, and the Pacific Rim is purple. Region color and allegiance are different marks. Washington is the only city with a printed permanent safehouse in the prologue and in January. The city, connection, and allegiance list read off the board image is `archive/board.md`.
+Each city is Allied, Neutral, or Soviet. The legend on the board uses blue for Allied, grey for Neutral, and red for Soviet. North America is blue, South America is yellow on the region key, Europe is green, Africa is orange, Asia is pink, and the Pacific Rim is purple. Region color and allegiance are different marks. Washington is the only city with a printed permanent safehouse in the prologue and in January. The city, connection, and allegiance list read off the board image is `board.md`.
 
 The board also prints the Threat Level track (spaces 2, 3, and 4), a Game End area, the five protocol words, an incident reminder, a surveillance reminder, and the player-turn order.
 

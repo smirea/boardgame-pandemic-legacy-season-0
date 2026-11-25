@@ -501,47 +501,47 @@ One record per component in workshop 2618224591, plus the field manual. The chec
 | `note/read-me-8` | note | READ ME! |  |
 | `note/read-me-9` | note | READ ME! |  |
 | `operations/i00` | card |  |  |
-| `operations/i06` | card |  |  |
-| `operations/i07` | card |  |  |
-| `operations/i08` | card |  |  |
-| `operations/i09` | card |  |  |
-| `operations/i10` | card |  |  |
-| `operations/i11` | card |  |  |
-| `operations/i12` | card |  |  |
-| `operations/i13` | card |  |  |
-| `operations/i14` | card |  |  |
-| `operations/i15` | card |  |  |
-| `operations/i16` | card |  |  |
-| `operations/i17` | card |  |  |
-| `operations/i18` | card |  |  |
-| `operations/i19` | card |  |  |
-| `operations/i20` | card |  |  |
-| `operations/i21` | card |  |  |
-| `operations/i22` | card |  |  |
-| `operations/i23` | card |  |  |
-| `operations/i24` | card |  |  |
-| `operations/i25` | card |  |  |
-| `operations/i26` | card |  |  |
-| `operations/i27` | card |  |  |
-| `operations/i28` | card |  |  |
-| `operations/i29` | card |  |  |
-| `operations/i30` | card |  |  |
-| `operations/i31` | card |  |  |
-| `operations/i32` | card |  |  |
-| `operations/i33` | card |  |  |
-| `operations/i34` | card |  |  |
-| `operations/i35` | card |  |  |
-| `operations/i36` | card |  |  |
-| `operations/i37` | card |  |  |
-| `operations/i38` | card |  |  |
-| `operations/i39` | card |  |  |
-| `operations/i40` | card |  |  |
+| `operations/i06` | card | 84 |  |
+| `operations/i07` | card | 83 |  |
+| `operations/i08` | card | 82 |  |
+| `operations/i09` | card | 81 |  |
+| `operations/i10` | card | 80 |  |
+| `operations/i11` | card | 79 |  |
+| `operations/i12` | card | 78 |  |
+| `operations/i13` | card | 77 |  |
+| `operations/i14` | card | 76 |  |
+| `operations/i15` | card | 75 |  |
+| `operations/i16` | card | 74 |  |
+| `operations/i17` | card | 73 |  |
+| `operations/i18` | card | 72 |  |
+| `operations/i19` | card | 71 |  |
+| `operations/i20` | card | 70 |  |
+| `operations/i21` | card | 69 |  |
+| `operations/i22` | card | 68 |  |
+| `operations/i23` | card | 67 |  |
+| `operations/i24` | card | 66 |  |
+| `operations/i25` | card | 65 |  |
+| `operations/i26` | card | 64 |  |
+| `operations/i27` | card | 63 |  |
+| `operations/i28` | card | 62 |  |
+| `operations/i29` | card | 61 |  |
+| `operations/i30` | card | 60 |  |
+| `operations/i31` | card | 59 |  |
+| `operations/i32` | card | 58 |  |
+| `operations/i33` | card | 57 |  |
+| `operations/i34` | card | 56 |  |
+| `operations/i35` | card | 55 |  |
+| `operations/i36` | card | 54 |  |
+| `operations/i37` | card | 53 |  |
+| `operations/i38` | card | 52 |  |
+| `operations/i39` | card | 51 |  |
+| `operations/i40` | card | 50 |  |
 | `operations/i41` | card |  |  |
-| `operations/ops-85f` | card | Ops 85f |  |
-| `operations/ops-86f` | card | Ops 86f |  |
-| `operations/ops-87f` | card | Ops 87f |  |
-| `operations/ops-88f` | card | Ops 88f |  |
-| `operations/ops-89f` | card | Ops 89f |  |
+| `operations/ops-85f` | card | 85 |  |
+| `operations/ops-86f` | card | 86 |  |
+| `operations/ops-87f` | card | 87 |  |
+| `operations/ops-88f` | card | 88 |  |
+| `operations/ops-89f` | card | 89 |  |
 | `overlay/confidential-alias` | overlay |  |  |
 | `overlay/game-calendar` | overlay |  |  |
 | `overlay/player-calendar` | overlay |  |  |

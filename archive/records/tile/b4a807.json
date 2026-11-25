@@ -26,7 +26,18 @@
     }
   ],
   "states": [],
-  "edges": [],
+  "edges": [
+    {
+      "type": "adds",
+      "targetId": "operations/i19",
+      "label": "Operations Cards 70 and 71"
+    },
+    {
+      "type": "adds",
+      "targetId": "operations/i20",
+      "label": "Operations Cards 70 and 71"
+    }
+  ],
   "marker": null,
   "unreferenced": false,
   "mesh": null

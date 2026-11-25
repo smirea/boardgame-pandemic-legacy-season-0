@@ -2,7 +2,7 @@
 
 - Kind: card
 - Census: operations-card × 1
-- Printed code: Ops 86f
+- Printed code: 86
 - Marker: —
 - Source GUID: 000aa6
 - Unreferenced: no
