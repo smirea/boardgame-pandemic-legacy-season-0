@@ -19,7 +19,7 @@ Workshop save and rulebook used for this archive. Nothing here is a substitute m
 - Save date stored in the file: `2/18/2023 7:19:12 AM`. `EpochTime` 1676698176. TTS `VersionNumber` `v13.2.2`
 - Download: Steam `GetPublishedFileDetails` `file_url` `https://cdn.steamusercontent.com/ugc/2057618944672246448/FF7C5056CCEB84172DBB5051B75F4AD57C26BCF9/` (1,725,692 bytes)
 - The upload is one BSON document (the first four bytes are the document length). Stored as `source/workshop-2618224591.bson`
-- `source/workshop.json` is that document decoded to JSON. `scripts/extract-archive.py` reads it. Set `WORKSHOP_JSON` to point the script at another file
+- `source/workshop.json` is that document decoded to JSON
 - Asset URLs inside the save use `http://cloud-3.steamusercontent.com/ugc/...`. Those hosts return 403 to a plain fetch. The same path on `https://cdn.steamusercontent.com/ugc/...` returned every file. `media/url-map.json` keys are the original save URLs
 - 500 unique asset URLs, 0 failures: 424 JPEG, 69 PNG, 7 OBJ
 - September helper workshop `2608806457` is not available (`GetPublishedFileDetails` result 9, no `file_url`). The PEARL compound tiles numbered 1–14 plus Entrance are already inside this mod's bag `0003`. They are labeled as that bag, not imported from the other workshop

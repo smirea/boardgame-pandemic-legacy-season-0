@@ -24,16 +24,13 @@ Opening a door or a safe deposit box is an `opens` edge. The door or box record 
 | `rules/rulebook.md` | Cleaned field manual. `<!-- page: NN -->` marks the 16 pages. |
 | `rules/pages/` | Those pages as PNG. |
 | `source/workshop-2618224591.bson` | The workshop file as downloaded. |
-| `source/workshop.json` | That file decoded. The extractor reads this. |
+| `source/workshop.json` | That file decoded to JSON. |
 | `source/rulebook-1j1ju.pdf` | The rulebook PDF. |
 | `source/guids.json` | Every Tabletop Simulator GUID the save contains. Each one is claimed by a record. |
 | `media/original/` | The 500 downloaded files: images and the 7 custom `.obj` meshes. |
 | `media/split/` | One image per card cell. Shared backs are not split. |
-| `media/board/` | The board image cut into four quadrants. |
-| `media/debrief-columns/` | Column crops used while reading the debrief book. The entry record points at the full page. |
 | `media/url-map.json` | Save URL → file under `media/original/`. Keys are the original `cloud-3` URLs. |
 | `records/` | One JSON file and one Markdown file per component. |
-| `transcriptions/` | Readings of the printed images. The extractor applies `faces.json` and `debrief.json` over any OCR. |
 | `SOURCES.md` | Where the PDF and the workshop file came from, and what was not downloaded. |
 
 `records/` is grouped by kind: `legacy/`, `door/`, `box/`, `debrief/`, `operations/`, `player/`, `threat/`, `passport/`, `pearl/`, `dossier/`, `tile/`, `sticker/`, and the rest. A Tabletop Simulator scroll state is a face on the same record (`state-1` is the face in the save, then `state-2` onward), not a second record. Cards have `front` and `back`. Only the rulebook, the twelve passports, and the debrief book use state lists.
@@ -63,12 +60,3 @@ bun test packages/archive/src/check.test.ts
 ```
 
 `packages/archive/src/check.ts` walks up from its file until it finds `docs/game/index.json`, then checks that archive. It fails when an edge points at a missing id, a rules or flavor face has no transcription, an image or mesh file is missing, a GUID in `source/guids.json` is unclaimed, or a census total does not match a recount of the index. It does not contain card text. The test prints the counts and runs the check twice.
-
-## Rebuild
-
-```sh
-python3 scripts/merge-transcriptions.py
-python3 scripts/extract-archive.py
-```
-
-The merge writes `transcriptions/faces.json` and `transcriptions/debrief.json` from `transcriptions/batches/`. The extractor reads `source/workshop.json`, crops sheets that are not already split, and rewrites `records/`, `index.json`, `census.json`, `deck-order.json`, `source/guids.json`, and `CATALOG.md`. It does not download files. OCR for a face the batches have not replaced is cached in `transcriptions/ocr-cache.json`.
