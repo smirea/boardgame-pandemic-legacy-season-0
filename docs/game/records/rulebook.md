@@ -7,7 +7,7 @@
 - Source GUID: —
 - Unreferenced: no
 
-Department of Sabotage Field Manual No. N4245.3. Cleaned text of the unstickered book is rules/rulebook-unfilled.md. The book with every rule sticker in its slot is rules/rulebook.md. Page images are the faces.
+Department of Sabotage Field Manual No. N4245.3. The book with every rule sticker in its slot is rules/rulebook.md. A comment before each sticker says which card unlocks it. Page images are the faces of the unstickered book.
 
 ## field-manual
 

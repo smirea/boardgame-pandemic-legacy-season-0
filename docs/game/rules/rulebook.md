@@ -1,12 +1,12 @@
 # Pandemic Legacy: Season 0
 
-Department of Sabotage Field Manual No. N4245.3, with every rule sticker in its slot. The manual before those stickers is `rulebook-unfilled.md`. Page images of that unstickered book are `page-01.png` through `page-16.png`. Headings follow the book. Each sticker keeps the letter printed in its corner. There is no sticker I. Stickers that belong on the board, a passport, or a reference card are not in this file.
+Department of Sabotage Field Manual No. N4245.3, with every rule sticker in its slot. Page images of the unstickered book are `page-01.png` through `page-16.png`. Headings follow the book. Each sticker keeps the letter printed in its corner. There is no sticker I. An HTML comment before a sticker says which card unlocks it. Stickers that belong on the board, a passport, or a reference card are not in this file.
 
 Designers: Matt Leacock and Rob Daviau. Story: Rob Daviau and Justin Kemppainen. The game calendar printed on the back of the Debrief Book is included below, because the rulebook tells you to use it and the manual's own funding rules match that sheet.
 
 ## Rules from the stickers
 
-The letters below are the stickers, in the order they sit in the book. The rule is written at that place.
+The letters below are the stickers, in the order they sit in the book. The comment before each rule says how that sticker is unlocked.
 
 | Sticker | Rule |
 | --- | --- |
@@ -376,19 +376,29 @@ Place the Threat Level marker on the leftmost space of the Threat Level track.
 
 Place the agents, Incident tokens, objective tokens, tracking tokens, teams, and remaining safehouses in separate supplies near the board.
 
+<!-- sticker A: Legacy card 03-08 says to open door A. The door holds this sticker. Place it in slot A. -->
+
 ### 3. Put out restrictions (A)
 
 Put all of the Restriction cards you have received into the Operations area of the board.
 
 The sticker shows a sample Restriction card, EVALUATION: CURIOUS. The card reads: This "restriction" was in fact an elaborate test to determine if you were too curious for your own good. You have failed.
 
+<!-- /sticker A -->
+
 ### 4. Add agents to the board
 
 Shuffle the Threat cards and flip over 3 of them. Place 3 agents into each city shown. Then flip 3 more cards and place 2 agents into each city shown. Finally, flip 3 more cards and place 1 agent into each city shown. Place the flipped cards faceup into the Threat discard pile.
 
+<!-- sticker B: Legacy card 03-01 says STOP, and to draw it just before the first game in March. Its back says to open safe deposit box 0001. The card inside, The Trials, says to add the enclosed stickers to the rulebook. This is slot B. -->
+
 ### 5. Infection cards (B)
 
 Add all Infection cards with city names written on them faceup into the Threat discard pile.
+
+<!-- /sticker B -->
+
+<!-- sticker C: Debrief 206, or debrief 190 if that is the entry the trial gives you, says to open doors 38, G, and C and apply the rules stickers. Door C holds this sticker. -->
 
 ### 6. Starting intensity (C)
 
@@ -397,6 +407,8 @@ Add Disease cubes to cities with a starting intensity.
 In each city with a starting intensity, add Disease cubes equal to its starting intensity.
 
 (For example, if Paris has a starting intensity of 1, put 1 Disease cube in Paris during setup.)
+
+<!-- /sticker C -->
 
 <!-- page: 09 -->
 
@@ -418,12 +430,16 @@ Players keep their hands faceup at all times.
 
 Divide the remaining Player cards into 5 facedown piles, as equal in size as possible. Place smaller piles toward the right side of the row. Shuffle 1 Escalation card facedown into each pile.
 
+<!-- sticker D: Legacy card 07-01 says STOP, and to draw it just before the first game in July. Its back says to open safe deposit box 0008. The card inside, A Watchful Sky, says to add the enclosed stickers to the rulebook. This is slot D. -->
+
 ### Add satellite cards to the piles (D)
 
 a. Take the Satellite card for each region that has at least 1 Control Center sticker. (Return the other Satellite cards to the reserve.)
 b. Shuffle these Satellite cards.
 c. Shuffle 1 Satellite card into each Player card pile, starting from the right. If you have fewer than 5 Satellite cards, not all piles will have one. (Satellites appear toward the bottom of the deck.)
 d. If you have a 6th Satellite card, put it into the reserve without looking at it.
+
+<!-- /sticker D -->
 
 ### 9. Reassemble the Player deck
 
@@ -486,11 +502,17 @@ Players should freely give each other advice. Let everyone offer opinions and id
 
 Your hand can have City and Event cards in it. City cards are used in some actions and Event cards can be played without using an action and even on other players' turns.
 
+<!-- sticker E: Legacy card 04-02 says to open safe deposit box 0007. The card inside, A Second Alias, says to add the new stickers to the rules and the reference cards. This is slot E. -->
+
 ### Action tokens (E)
 
 For each Action token you spend, you may do 1 additional action during the Do Actions step of your turn.
 
 At the end of the Mop Up step on your turn, if you have more than 3 Action tokens, discard down to 3.
+
+<!-- /sticker E -->
+
+<!-- sticker F: Debrief 174, or debrief 169 if that is the entry you are given, says to open door 46, then open door F and place that rule in the rulebook. -->
 
 ### Marking exposed cities (F)
 
@@ -499,15 +521,25 @@ For each city that becomes exposed:
 1. Write the name of the exposed city on a blank Infection card and put it into the Game End area.
 2. Put an Exposed City sticker on the city.
 
+<!-- /sticker F -->
+
+<!-- sticker G: Opened with sticker C. Debrief 206 or debrief 190 says to open doors 38, G, and C and apply the rules stickers. Door G holds this sticker. -->
+
 ### Exposed City stickers (G)
 
 When you put an Exposed City sticker on a city, use an Exposed City sticker with a number matching the Infection card's starting intensity. The sticker shows those intensities as 1, 2, and 3.
+
+<!-- /sticker G -->
+
+<!-- sticker H: Legacy card 04-03 says to open doors H, 29, J, and 40. Door H holds this sticker. -->
 
 ### Disease cubes (H)
 
 When you enter a city containing one or more Disease cubes, take 1 Symptom card into your hand.
 
 (After the game, during step 6, return all Symptom cards to the reserve.)
+
+<!-- /sticker H -->
 
 ### 1. Check surveillance
 
@@ -517,9 +549,13 @@ If you start your turn in a city with surveillance, lose 1 cover for each survei
 
 Ignore this if there is a safehouse in your city.
 
+<!-- sticker J: Opened with sticker H. Legacy card 04-03 says to open doors H, 29, J, and 40. Door J holds this sticker. -->
+
 ### Contamination stickers (J)
 
 When you enter a city with a Contamination sticker, take 1 Symptom card, in addition to the Symptom card you take due to any Disease cubes in that city.
+
+<!-- /sticker J -->
 
 ### 2. Do actions
 
@@ -582,11 +618,15 @@ If all of the teams of that affiliation are already on the board, you may reloca
 
 Move a team to an adjacent city. You do not have to be in the city of the team you are moving. Multiple teams can be in the same city. Teams are not affected by surveillance (except through certain Incident effects).
 
+<!-- sticker K: Legacy card 05-02 says to open safe deposit box 0004. The card inside, On the Run, says to add the enclosed stickers to the board, the rulebook, and the reference cards. This is slot K. -->
+
 ### Removing pursuit tokens (K)
 
 When an active team enters (or is built in) a city with a Pursuit token, remove the Pursuit token.
 
 Pursuit tokens are removed in this way whenever an active team enters their city, even if the team was moved by some other card or ability.
+
+<!-- /sticker K -->
 
 #### Acquire targets
 
@@ -620,15 +660,25 @@ Important! You can place teams in multiple possible cities to increase your odds
 
 Unknown target city example. Players have narrowed the possible target cities in Europe to Paris, Rome, and Prague: two Allied cities and one Soviet. They position their Soviet team in Prague. They can position their Allied team in Paris or Rome. On a gamble, they place their Allied team in Rome and then do the Acquire Targets action. If the target city is either Prague or Rome, they'll successfully complete the objective. If it is Paris, they will fail. Given how the game was going, they didn't believe they would be able to assemble and position another Allied team in Paris to guarantee success. Ultimately, they decided it was worth the risk.
 
+<!-- sticker L: Legacy card 02-02 says to open doors L and 35, and to add the Disrupt Trial action to each reference sheet. Door L holds this sticker. -->
+
 #### Disrupt trial (L)
 
 When you do this action, disrupt the trial in each city that has an active team.
 
 You must have an active team in at least 1 trial city to do this action.
 
+<!-- /sticker L -->
+
+<!-- sticker M: Opened with sticker E. Legacy card 04-02 opens safe deposit box 0007, and A Second Alias says to add the new stickers to the rules. This is slot M. -->
+
 #### Change alias (M)
 
 While in a city with a safehouse, open your passport to a different page. This switches the cover occupation, specialization, assets, and liabilities available to your character. Your hand of cards and your Action tokens are not affected when you do the Change Alias action.
+
+<!-- /sticker M -->
+
+<!-- sticker N: Opened with sticker K. Legacy card 05-02 opens safe deposit box 0004, and On the Run says to add the enclosed stickers to the rulebook. This is slot N. -->
 
 #### Create checkpoint (N)
 
@@ -636,9 +686,17 @@ Discard a City card matching your city's affiliation to add a Checkpoint token b
 
 If all 12 Checkpoint tokens have been used, take one from the board to add.
 
+<!-- /sticker N -->
+
+<!-- sticker O: Legacy card 06-13 says PAUSE, and to read its back during step 3 at the end of the first game in June. The back says to open doors O, 36, 17, and 22. Door O holds this sticker. -->
+
 #### Get treatment (O)
 
 While in a safehouse, return 1 Symptom card from your hand to the supply.
+
+<!-- /sticker O -->
+
+<!-- sticker P: Legacy card 06-02 says to open safe deposit box 0006. The card inside, Infiltration, says to add the enclosed stickers to the rulebook and the reference cards. This is slot P. -->
 
 #### Enter / exit infiltration site (P)
 
@@ -650,6 +708,10 @@ Whenever you enter a room, reveal all facedown Security tokens adjacent to it.
 
 If you exit an Infiltration site to a city with Disease cubes and/or a Contamination sticker, do not take any Symptom cards.
 
+<!-- /sticker P -->
+
+<!-- sticker Q: Opened with sticker P. Safe deposit box 0006, from legacy card 06-02. This is slot Q. -->
+
 #### Infiltrate (Q)
 
 While at an Infiltration site, reveal cards from your hand matching the symbols on Security tokens for an adjacent room to move your pawn to that adjacent room. You must cross a Security token in order to move to an adjacent room.
@@ -659,6 +721,10 @@ Whenever you enter a room, reveal all facedown Security tokens adjacent to it.
 While at an Infiltration site, you may do only the Infiltrate and Enter/Exit Infiltration Site actions, and are not considered to be in any city.
 
 Security tokens are not removed during the game, but are reset at the start of each game with an Infiltration objective.
+
+<!-- /sticker Q -->
+
+<!-- sticker R: Legacy card 09-01 says STOP, and to draw it just before the first game in September. Its back says to open safe deposit box 0003. The card inside says to add the enclosed sticker to the rulebook. This is that sticker, slot R. -->
 
 #### Infiltrate with several symbols (R)
 
@@ -674,19 +740,33 @@ Some areas in PEARL have more than 1 room under a single Dossier door. These roo
 
 Hatchways in PEARL Compound may not be bypassed with the Infiltrate action.
 
+<!-- /sticker R -->
+
+<!-- sticker S: Legacy card 11-03 says to open doors U, 39, 42, and S. Door S holds this sticker. -->
+
 #### Infiltration update (S)
 
 You may now use the Infiltrate action to pass through a hatchway that has a Tunnel sticker adjacent to it.
 
 To do the Infiltrate action through a tunnel, reveal any 1 City card to move into the adjacent room.
 
+<!-- /sticker S -->
+
+<!-- sticker T: Legacy card 07-06 says PAUSE, and to read its back during step 3 at the end of the first game in July. The back says to open doors T, 37, 25, and 30. Door T holds this sticker. -->
+
 #### Disable satellite (T)
 
 If in a city with a Control Center that contains a Bug sticker, return that region's Satellite token to the reserve for the remainder of this game.
 
+<!-- /sticker T -->
+
+<!-- sticker U: Opened with sticker S. Legacy card 11-03 says to open doors U, 39, 42, and S. Door U holds this sticker. -->
+
 #### Unlock hatchway (U)
 
 Choose a hatchway in your room. Then, discard City cards whose keypad numbers total 10 or more to place a Tunnel sticker adjacent to that hatchway. Put the sticker on the dossier between the two rooms.
+
+<!-- /sticker U -->
 
 <!-- page: 13 -->
 
@@ -696,9 +776,13 @@ Your teams do what they were sent to do.
 
 Remove all agents in each city with an active team.
 
+<!-- sticker V: Opened with sticker P. Safe deposit box 0006, from legacy card 06-02. This is slot V. -->
+
 ### Get out! (V)
 
 At the end of the Mop Up step, if your pawn is at an Infiltration site, you must shift it back to its Infiltration city.
+
+<!-- /sticker V -->
 
 ### 4. Draw 2 Player cards
 
@@ -710,6 +794,8 @@ When you are about to draw, if there are fewer than 2 cards left in the Player d
 
 Hand limit: if you are over your hand limit (usually 7 cards), immediately discard cards or play Event cards until you are at your limit.
 
+<!-- sticker W: Opened with sticker D. Safe deposit box 0008, from legacy card 07-01. A Watchful Sky says to add the enclosed stickers to the rulebook. This is slot W. -->
+
 ### Satellite cards (W)
 
 When you draw a Satellite card, put a Satellite token in the matching region, then discard the card.
@@ -718,6 +804,8 @@ Each city in this region has +1 surveillance while the satellite token is in it 
 
 If you draw a Satellite card and an Escalation card at the same time, resolve the Satellite card first.
 
+<!-- /sticker W -->
+
 #### Escalation cards
 
 If your draw includes any Escalation cards, do not add them to your hand (and do not draw replacement cards for them). Instead, immediately do the following:
@@ -725,6 +813,8 @@ If your draw includes any Escalation cards, do not add them to your hand (and do
 1. Increase Threat. Move the Threat Level marker 1 space to the right on the Threat Level track.
 2. Add Agents. Draw the bottom card from the Threat deck. Place three agents in that city. Discard the drawn card to the Threat discard pile.
 3. Intensify. Shuffle all cards in the Threat discard pile (including the one just drawn) and place them facedown on top of the Threat deck.
+<!-- sticker X: Opened with sticker K. Safe deposit box 0004, from legacy card 05-02. On the Run says to add the enclosed stickers to the rulebook. This is escalation step 4. -->
+
 4. Add a Pursuit token to every city adjacent to a city already containing a Pursuit token. (X)
 
 Do not place a Pursuit token when:
@@ -736,6 +826,8 @@ You fail a pursuit objective if:
 
 - You add a Pursuit token to a Soviet city, or
 - You need to place a Pursuit token but there are no more left in the supply.
+
+<!-- /sticker X -->
 
 Remember: When resolving an Escalation card, draw from the bottom of the Threat deck and shuffle only the cards in the Threat discard pile, placing them on top of the existing Threat deck.
 
@@ -769,6 +861,8 @@ Place an Incident token into each of the affected cities (players in those citie
 
 If you must place an Incident token and there are none left in the supply, the game immediately ends. See "Game End" to the right.
 
+<!-- sticker Y: Opened with sticker B. Safe deposit box 0001, from legacy card 03-01. The Trials says to add the enclosed stickers to the rulebook. This is slot Y. -->
+
 ### Drawing infection cards (Y)
 
 (These infection rules are very similar to Pandemic.)
@@ -777,11 +871,17 @@ When you draw an Infection card, put 1 Disease cube into the city named on the c
 
 If the city already has 3 cubes, do not add one. An outbreak occurs in that city instead. Add a Disease cube to each connected city and place an Outbreak token into the city. Use an Incident/Outbreak token, Outbreak side up.
 
+<!-- /sticker Y -->
+
+<!-- sticker Z: Opened with sticker Y, from the same box. This is slot Z. -->
+
 ### Chain reaction outbreaks (Z)
 
 If any connected city already has 3 Disease cubes, do not place a 4th cube in those cities. Instead, in each connected city, a chain reaction outbreak occurs after the current outbreak is done.
 
 When a chain reaction outbreak occurs, place Outbreak tokens and Disease cubes as above, except do not add a token or cube to cities that have already had an outbreak (or a chain reaction outbreak) as part of resolving the current Infection card.
+
+<!-- /sticker Z -->
 
 ## Turn end
 
@@ -795,8 +895,12 @@ The game ends when any of the following occurs:
 - You cannot draw 2 Player cards because there are not enough cards left in the Player deck.
 - You need to place an agent, but the supply is empty.
 - You need to place an Incident token, but the supply is empty.
+<!-- sticker AA: Opened with sticker B. Safe deposit box 0001, from legacy card 03-01. These two lines are sticker AA, added to the ways the game can end. -->
+
 - You need to add an Outbreak token but there aren't any in the supply. (AA)
 - You need to add a Disease cube to the board but there aren't any in the supply. (AA)
+
+<!-- /sticker AA -->
 
 The game ends immediately, even if it is the middle of a player's turn. You cannot finish your turn, even if you would like to.
 
@@ -923,6 +1027,10 @@ Place a counter surveillance sticker over a surveillance symbol on a city (eithe
 
 Discard all Player cards and clear the board of all game pieces (but not stickers — those are permanent). These all reset for the start of the next game.
 
+<!-- sticker BB: Opened with sticker B. Safe deposit box 0001, from legacy card 03-01. The Trials says to add the enclosed stickers to the rulebook. This is slot BB. -->
+
 ### Contamination (BB)
 
 Add a Contamination sticker to cities that contain one or more Outbreak tokens. Add only 1 sticker regardless of how many Outbreak tokens are in the city. Each city can have at most 1 Contamination sticker. Do not add additional Contamination stickers to cities that already have 1, even if there are Outbreak tokens on them. If there are no Contamination stickers left in the supply, do not add any more.
+
+<!-- /sticker BB -->

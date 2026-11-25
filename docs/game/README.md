@@ -21,8 +21,7 @@ Opening a door or a safe deposit box is an `opens` edge. The door or box record 
 | `CATALOG.md` | The same census, then one row per record. |
 | `deck-order.json` | Legacy deck order, as above. |
 | `board.md` | The 48 cities: region, allegiance, connections, and the one printed safehouse (Washington). |
-| `rules/rulebook.md` | The field manual with every rule sticker in its slot. `<!-- page: NN -->` marks the 16 pages. |
-| `rules/rulebook-unfilled.md` | The same manual before those stickers, with the slots still blank. |
+| `rules/rulebook.md` | The field manual with every rule sticker in its slot. A comment before each sticker says which card unlocks it. `<!-- page: NN -->` marks the 16 pages. |
 | `rules/pages/` | Those pages as PNG. |
 | `source/workshop-2618224591.bson` | The workshop file as downloaded. |
 | `source/workshop.json` | That file decoded to JSON. |
