@@ -273,9 +273,9 @@ Each city on the board has a matching Threat card, and when that card is drawn, 
 
 Your primary goal in each game is to complete a unique set of objectives given to you at the start of each month (as well as the prologue).
 
-Objectives must be completed in specific cities on the board. To complete most objectives, you must create a team matching that city's affiliation (see "Teams" to the right), position the team in that city, and then resolve an action (see "Acquire Targets").
+Objectives must be completed in specific cities on the board. To complete most objectives, you must create a team matching that city's affiliation (see "Teams" to the right), position the team in that city, and then resolve an action (see "Acquire Targets" on page 11).
 
-Sometimes, you have an unknown target city for your objective and must deduce its location during the game (or use certain actions, see "Identify Target City").
+Sometimes, you have an unknown target city for your objective and must deduce its location during the game (or use certain actions, see "Identify Target City" on page 11).
 
 Note: Objectives are different in every month, so feel free to destroy any old objectives from previous months.
 
@@ -291,7 +291,7 @@ After a team has been created, any player can use it. Teams are required to comp
 
 A team is active only while in a city matching its affiliation. (i.e., Allied teams are active only in Allied cities.) A team in a city not matching its affiliation is inactive. When a team is inactive, set the figure on its side as a reminder.
 
-Example printed in the book: an Allied team starts the turn in Cairo. Since Cairo is a Soviet city, the team is inactive (and set on its side). During the turn it is moved to Algiers. Algiers is an Allied city, so the figure is set upright to indicate that it is active.
+Active team example. An Allied team starts the turn in Cairo. Since it is in a Soviet city, the team is inactive (and set on its side). During the turn it is moved to Algiers. Algiers is an Allied city, so the figure is set upright to indicate that it is active.
 
 
 ## Characters
@@ -602,7 +602,7 @@ We will try to help you. Sometimes the Soviets disrupt our plans.
 
 Draw the top 2 cards together from the Player deck.
 
-When you are about to draw, if there are fewer than 2 cards left in the Player deck, the game ends. Do not reshuffle the discard pile to form a new deck. See "Game End".
+When you are about to draw, if there are fewer than 2 cards left in the Player deck, the game ends. Do not reshuffle the discard pile to form a new deck. See "Game End" on page 14.
 
 Hand limit: if you are over your hand limit (usually 7 cards), immediately discard cards or play Event cards until you are at your limit.
 
@@ -651,7 +651,7 @@ Some incident effects require you to place agents. If you would place a fourth a
 
 Place an Incident token into each of the affected cities (players in those cities lose cover as normal). Draw another Threat card from the bottom of the Threat deck and apply its incident effect. You draw only one Threat card, even if the previous incident effect placed multiple Incident tokens.
 
-If you must place an Incident token and there are none left in the supply, the game immediately ends. See "Game End".
+If you must place an Incident token and there are none left in the supply, the game immediately ends. See "Game End" to the right.
 
 ### Sticker slots Y and Z
 
@@ -676,7 +676,7 @@ PLACE RULE STICKER HERE WHEN INSTRUCTED. AA is a different slot from A.
 
 The game ends immediately, even if it is the middle of a player's turn. You cannot finish your turn, even if you would like to.
 
-After the game ends, proceed to "After the Game".
+After the game ends, proceed to "After the Game" on page 16.
 
 
 ## Hand limit
@@ -1053,9 +1053,9 @@ Each city on the board has a matching Threat card, and when that card is drawn, 
 
 Your primary goal in each game is to complete a unique set of objectives given to you at the start of each month (as well as the prologue).
 
-Objectives must be completed in specific cities on the board. To complete most objectives, you must create a team matching that city's affiliation (see "Teams" to the right), position the team in that city, and then resolve an action (see "Acquire Targets").
+Objectives must be completed in specific cities on the board. To complete most objectives, you must create a team matching that city's affiliation (see "Teams" to the right), position the team in that city, and then resolve an action (see "Acquire Targets" on page 11).
 
-Sometimes, you have an unknown target city for your objective and must deduce its location during the game (or use certain actions, see "Identify Target City").
+Sometimes, you have an unknown target city for your objective and must deduce its location during the game (or use certain actions, see "Identify Target City" on page 11).
 
 Note: Objectives are different in every month, so feel free to destroy any old objectives from previous months.
 
@@ -1071,7 +1071,7 @@ After a team has been created, any player can use it. Teams are required to comp
 
 A team is active only while in a city matching its affiliation. (i.e., Allied teams are active only in Allied cities.) A team in a city not matching its affiliation is inactive. When a team is inactive, set the figure on its side as a reminder.
 
-Example printed in the book: an Allied team starts the turn in Cairo. Since Cairo is a Soviet city, the team is inactive (and set on its side). During the turn it is moved to Algiers. Algiers is an Allied city, so the figure is set upright to indicate that it is active.
+Active team example. An Allied team starts the turn in Cairo. Since it is in a Soviet city, the team is inactive (and set on its side). During the turn it is moved to Algiers. Algiers is an Allied city, so the figure is set upright to indicate that it is active.
 
 ## page-07
 
@@ -1403,7 +1403,7 @@ We will try to help you. Sometimes the Soviets disrupt our plans.
 
 Draw the top 2 cards together from the Player deck.
 
-When you are about to draw, if there are fewer than 2 cards left in the Player deck, the game ends. Do not reshuffle the discard pile to form a new deck. See "Game End".
+When you are about to draw, if there are fewer than 2 cards left in the Player deck, the game ends. Do not reshuffle the discard pile to form a new deck. See "Game End" on page 14.
 
 Hand limit: if you are over your hand limit (usually 7 cards), immediately discard cards or play Event cards until you are at your limit.
 
@@ -1455,7 +1455,7 @@ Some incident effects require you to place agents. If you would place a fourth a
 
 Place an Incident token into each of the affected cities (players in those cities lose cover as normal). Draw another Threat card from the bottom of the Threat deck and apply its incident effect. You draw only one Threat card, even if the previous incident effect placed multiple Incident tokens.
 
-If you must place an Incident token and there are none left in the supply, the game immediately ends. See "Game End".
+If you must place an Incident token and there are none left in the supply, the game immediately ends. See "Game End" to the right.
 
 ### Sticker slots Y and Z
 
@@ -1480,7 +1480,7 @@ PLACE RULE STICKER HERE WHEN INSTRUCTED. AA is a different slot from A.
 
 The game ends immediately, even if it is the middle of a player's turn. You cannot finish your turn, even if you would like to.
 
-After the game ends, proceed to "After the Game".
+After the game ends, proceed to "After the Game" on page 16.
 
 ## page-15
 
