@@ -75,6 +75,7 @@ export type PlayerView = {
     helpFromSabikBoxesLeft: number | null;
     door14State: Campaign["door14State"];
     diseaseCubeSupplyMax: number;
+    unlockedEvents: Campaign["unlockedEvents"];
     availableAssets: Campaign["availableAssets"];
     availableLiabilities: Campaign["availableLiabilities"];
     availablePermanentSafehouses: number;
@@ -175,6 +176,7 @@ export function viewFor(world: World, phase: Phase, viewer: PlayerId, recentLogL
       helpFromSabikBoxesLeft: c.helpFromSabikBoxesLeft,
       door14State: c.door14State,
       diseaseCubeSupplyMax: c.diseaseCubeSupplyMax,
+      unlockedEvents: c.unlockedEvents,
       availableAssets: c.availableAssets,
       availableLiabilities: c.availableLiabilities,
       availablePermanentSafehouses: c.availablePermanentSafehouses,

@@ -13,6 +13,12 @@
         "typescript": "^7.0.2",
       },
     },
+    "apps/playtest": {
+      "name": "@repo/playtest",
+      "dependencies": {
+        "@repo/game": "workspace:*",
+      },
+    },
     "apps/server": {
       "name": "@repo/server",
       "dependencies": {
@@ -123,6 +129,8 @@
     "@repo/archive": ["@repo/archive@workspace:packages/archive"],
 
     "@repo/game": ["@repo/game@workspace:packages/game"],
+
+    "@repo/playtest": ["@repo/playtest@workspace:apps/playtest"],
 
     "@repo/server": ["@repo/server@workspace:apps/server"],
 

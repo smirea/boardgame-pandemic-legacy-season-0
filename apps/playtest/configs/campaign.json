@@ -1,0 +1,32 @@
+{
+  "run": "campaign-main",
+  "seed": 1962,
+  "model": "grok-4.7-build-fast",
+  "reasoningEffort": "medium",
+  "players": [
+    {
+      "id": "p1",
+      "name": "Maya (Lead)",
+      "seat": "seat-1",
+      "passport": "black",
+      "persona": "apps/playtest/personas/p1.md",
+      "lead": true
+    },
+    {
+      "id": "p2",
+      "name": "Devon (Ops)",
+      "seat": "seat-2",
+      "passport": "green",
+      "persona": "apps/playtest/personas/p2.md",
+      "lead": false
+    },
+    {
+      "id": "p3",
+      "name": "Sora (Intel)",
+      "seat": "seat-3",
+      "passport": "pink",
+      "persona": "apps/playtest/personas/p3.md",
+      "lead": false
+    }
+  ]
+}

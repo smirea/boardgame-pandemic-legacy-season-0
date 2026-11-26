@@ -1,0 +1,11 @@
+{
+  "name": "@repo/playtest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "dependencies": {
+    "@repo/game": "workspace:*"
+  }
+}
