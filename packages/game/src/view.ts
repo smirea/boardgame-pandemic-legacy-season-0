@@ -268,8 +268,9 @@ export function viewFor(world: World, phase: Phase, viewer: PlayerId, recentLogL
             unknownAffiliation: o.unknownAffiliation,
             unknownControlCentersOnly: o.unknownControlCentersOnly,
             targetRevealed: o.targetRevealed,
-            revealedTargetCity:
-              o.targetRevealed && o.hiddenCardId ? cityOfCard(g, o.hiddenCardId) : null,
+            revealedTargetCity: o.targetRevealed
+              ? (o.revealedTargetCity ?? (o.hiddenCardId ? cityOfCard(g, o.hiddenCardId) : null))
+              : null,
             trialCities: o.trialCardIds
               .map((id) => cityOfCard(g, id))
               .filter((ct): ct is CityId => ct !== null),

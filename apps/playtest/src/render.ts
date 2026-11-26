@@ -278,10 +278,10 @@ export function renderStatus(
         teamCities.has(ct.id);
       if (!interesting) continue;
       const tags: string[] = [];
-      if (st.agents > 0) tags.push(`A:${st.agents}`);
-      if (st.diseaseCubes > 0) tags.push(`D:${st.diseaseCubes}`);
+      if (st.agents > 0) tags.push(`ag:${st.agents}`);
+      if (st.diseaseCubes > 0) tags.push(`dis:${st.diseaseCubes}`);
       if (st.safehouse) tags.push(st.permanentSafehouse ? "SH*" : "SH");
-      if (st.effectiveSurveillance > 0) tags.push(`S:${st.effectiveSurveillance}`);
+      if (st.effectiveSurveillance > 0) tags.push(`surv:${st.effectiveSurveillance}`);
       if (st.incidents > 0) tags.push(`INC:${st.incidents}`);
       if (st.outbreaks > 0) tags.push(`OUT:${st.outbreaks}`);
       if (st.pursuit) tags.push("PURSUIT");
@@ -332,17 +332,34 @@ export function renderStatus(
     }
   }
 
-  // Legal Options
+  // Legal Options (compactly group wide city-destination families so all legal destinations show without crowding)
   lines.push(`\n--- OPTIONS (${options.length}) ---`);
   if (options.length === 0) {
     lines.push(`  (No moves right now — run 'wait' to wait for your turn or teammate updates)`);
   } else {
-    const shown = options.slice(0, 60);
+    const grouped = new Map<string, string[]>();
+    const standalone: OptionItem[] = [];
+    for (const o of options) {
+      const m = /^(coord-pawn:[^:]+|coord-team:[^:]+|unrecorded|clinic-fly):(.+)$/.exec(o.key);
+      if (m) {
+        const prefix = m[1]!;
+        const dest = m[2]!;
+        const list = grouped.get(prefix) ?? [];
+        list.push(dest);
+        grouped.set(prefix, list);
+      } else {
+        standalone.push(o);
+      }
+    }
+    const shown = standalone.slice(0, 60);
     for (const o of shown) {
       lines.push(`  ${o.key}  —  ${o.label}`);
     }
-    if (options.length > shown.length) {
-      lines.push(`  ... +${options.length - shown.length} more options (use specific syntax from GUIDE.md)`);
+    for (const [prefix, dests] of grouped.entries()) {
+      lines.push(`  ${prefix}:<city>  —  ${dests.length} legal cities: ${dests.join(", ")}`);
+    }
+    if (standalone.length > shown.length) {
+      lines.push(`  ... +${standalone.length - shown.length} more options (use specific syntax from GUIDE.md)`);
     }
   }
 
@@ -410,9 +427,9 @@ export function renderBoard(view: PlayerView): string {
         continue;
       }
       const flags: string[] = [];
-      if (st.agents) flags.push(`A:${st.agents}`);
-      if (st.diseaseCubes) flags.push(`D:${st.diseaseCubes}`);
-      if (st.effectiveSurveillance) flags.push(`S:${st.effectiveSurveillance}`);
+      if (st.agents) flags.push(`ag:${st.agents}`);
+      if (st.diseaseCubes) flags.push(`dis:${st.diseaseCubes}`);
+      if (st.effectiveSurveillance) flags.push(`surv:${st.effectiveSurveillance}`);
       if (st.safehouse) flags.push(st.permanentSafehouse ? "SH*" : "SH");
       if (st.incidents) flags.push(`INC:${st.incidents}`);
       if (st.outbreaks) flags.push(`OUT:${st.outbreaks}`);

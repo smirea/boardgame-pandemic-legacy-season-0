@@ -982,11 +982,15 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
       fromHand.splice(fromHand.indexOf(action.card), 1);
       game.players[to].hand.push(action.card);
       if (action.extraDiscard) discardFromHand(game, seat, action.extraDiscard);
+      const sharedCityName = cityDef(cityOfCard(game, action.card)!).name;
       log(game, {
         t: "action",
         seat,
         action: action.a,
-        detail: `${from} gave ${cityDef(cityOfCard(game, action.card)!).name} to ${to}`,
+        detail:
+          action.direction === "give"
+            ? `Gave ${sharedCityName} to ${action.target}`
+            : `Took ${sharedCityName} from ${action.target}`,
         cost,
       });
       ensureHandLimitDecisions(world);
@@ -1020,6 +1024,7 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
       }
       obj.targetRevealed = true;
       const targetCity = obj.hiddenCardId ? cityOfCard(game, obj.hiddenCardId) : null;
+      if (targetCity) obj.revealedTargetCity = targetCity;
       log(game, {
         t: "action",
         seat,
@@ -1065,6 +1070,7 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
       if (obj.kind === "unknown-city") {
         const targetCity = obj.hiddenCardId ? cityOfCard(game, obj.hiddenCardId)! : undefined;
         obj.targetRevealed = true;
+        if (targetCity) obj.revealedTargetCity = targetCity;
         const ok = targetCity !== undefined && activeTeamsInCity(game, targetCity).length >= (obj.requiredTeamsPerCity ?? 1);
         obj.status = ok ? "completed" : "failed";
         log(game, {

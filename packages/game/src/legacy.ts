@@ -2,6 +2,7 @@ import { pack } from "./content/pack";
 import {
   activeContactsList,
   cityDef,
+  cityOfCard,
   discardFromHand,
   ensureHandLimitDecisions,
   hasRule,
@@ -589,6 +590,8 @@ function finalizeUnknownTargetCard(world: World, obj: ActiveObjective, toSeat: S
   const game = world.game!;
   if (!obj.hiddenCardId) return;
   const cardId = obj.hiddenCardId;
+  const revealed = cityOfCard(game, cardId);
+  if (revealed) obj.revealedTargetCity = revealed;
   obj.hiddenCardId = null;
   obj.targetRevealed = true;
   if (toSeat) {
@@ -2682,6 +2685,44 @@ export function resolveGameEndSteps(world: World): void {
 
   // Prologue: Steps 1, 4, 6 only (no permanent changes, no surveillance, no budget!)
   if (c.month === 0) {
+    const fundingNote =
+      evaluation === "SUCCEEDING"
+        ? "In a regular month, SUCCEEDING reduces Funding by 1."
+        : evaluation === "ADEQUATE"
+          ? "In a regular month, ADEQUATE increases Funding by 1."
+          : "In a regular month, FAILING increases Funding by 2 and gives a second attempt.";
+    log(game, { t: "end", reason: game.outcome.reason, evaluation });
+    pushReading(
+      world,
+      "rule",
+      "prologue-end",
+      `Prologue Evaluation: ${evaluation}`,
+      [
+        `Step 1 (Check Objectives): ${completedCount} completed, ${failedCount} failed -> ${evaluation}.`,
+        `${fundingNote} Because this is the Prologue (Rulebook p. 16), Steps 2 (Check Cities), 3 (Check Legacy Deck), and 5 (Prepare/Spend Budget) are skipped: no permanent changes are made, no Surveillance stickers are added, and January starts at Funding 5.`,
+        `Step 4 (Check Game End Area): Returned ${game.gameEndArea.length} card(s) to the Threat deck.`,
+        `Step 6 (Clean Up): Ready to play the Prologue again or advance to January.`,
+      ].join("\n"),
+    );
+    c.results.push({
+      month: 0,
+      attempt: 1,
+      evaluation,
+      completedObjectives: completedCount,
+      failedObjectives: failedCount,
+      fundingBefore: c.funding,
+      fundingAfter: c.funding,
+      reason: game.outcome.reason,
+      turns: game.turn,
+      incidents: game.stats.incidents,
+      outbreaks: game.stats.outbreaks,
+      escalations: game.stats.escalations,
+      seats: game.seats.map((seat) => {
+        const p = game.players[seat];
+        const alias = p.tempAlias ? pack.occupationById[p.tempAlias].name : "Temp";
+        return { seat, passport: null, alias };
+      }),
+    });
     game.threatDiscard.push(...game.gameEndArea);
     game.gameEndArea = [];
     game.upkeep = null;
@@ -2944,7 +2985,7 @@ export function closeGame(world: World): void {
   const game = world.game!;
   const c = world.campaign;
 
-  // Prologue rollback: preserve RNG, readings, and Coop's Notes (00-05), restore clean pre-prologue state
+  // Prologue rollback: preserve RNG, readings, results, and Coop's Notes (00-05), restore clean pre-prologue state
   if (c.month === 0 && game.prologueRestore) {
     const rng = c.rng;
     const readings = c.readings;
@@ -2952,6 +2993,7 @@ export function closeGame(world: World): void {
     const intelFile = c.intelFile;
     const legacyIndex = c.legacyIndex;
     const seating = c.seating;
+    const results = c.results;
     world.campaign = {
       ...(JSON.parse(JSON.stringify(game.prologueRestore)) as Campaign),
       rng,
@@ -2960,6 +3002,7 @@ export function closeGame(world: World): void {
       intelFile,
       legacyIndex,
       seating,
+      results,
     };
     world.game = null;
     world.table.ready = {};

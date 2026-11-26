@@ -148,14 +148,25 @@ export function parseDoCommand(
   }
 
   if (head === "create-aliases") {
-    // Format: create-aliases <aff> black=<name>:<occ> green=<name>:<occ> pink=<name>:<occ> white=<name>:<occ>
+    // Accept either keyed: create-aliases [<aff>] black=<name>:<occ> green=<name>:<occ> pink=<name>:<occ> white=<name>:<occ>
+    // or positional (GUIDE.md): create-aliases <aff> <blackName>:<occ> <greenName>:<occ> <pinkName>:<occ> <whiteName>:<occ>
     const entries = {} as Record<PassportColor, { name: string; occupation: OccupationId }>;
+    const positional: { name: string; occupation: OccupationId }[] = [];
     for (const tok of args.slice(1)) {
-      if (!tok.includes("=")) continue;
-      const [color, rest] = tok.split("=") as [PassportColor, string];
-      if (!PASSPORT_COLORS.includes(color) || !rest) continue;
-      const [name, occ] = rest.split(":");
-      if (name && occ) entries[color] = { name, occupation: occ as OccupationId };
+      if (tok.includes("=")) {
+        const [color, rest] = tok.split("=") as [PassportColor, string];
+        if (!PASSPORT_COLORS.includes(color) || !rest) continue;
+        const [name, occ] = rest.split(":");
+        if (name && occ) entries[color] = { name, occupation: occ as OccupationId };
+      } else if (tok.includes(":")) {
+        const [name, occ] = tok.split(":");
+        if (name && occ) positional.push({ name, occupation: occ as OccupationId });
+      }
+    }
+    if (Object.keys(entries).length === 0 && positional.length === PASSPORT_COLORS.length) {
+      PASSPORT_COLORS.forEach((color, idx) => {
+        entries[color] = positional[idx]!;
+      });
     }
     return {
       kind: "single",

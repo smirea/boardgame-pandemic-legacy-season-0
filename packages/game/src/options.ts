@@ -1234,7 +1234,7 @@ function addActionOptions(
   if (currentOccupation(world, seat) === "medical-conference-coordinator") {
     for (const team of Object.values(game.teams)) {
       if (!team.city) continue;
-      for (const dest of citiesWithin(team.city, 3).slice(0, 8)) {
+      for (const dest of citiesWithin(team.city, 3)) {
         pushAct(
           `coord-team:${team.id}:${dest}`,
           `Coordinator: move ${team.id} to ${cityDef(dest).name}`,
@@ -1244,7 +1244,7 @@ function addActionOptions(
     }
     for (const otherSeat of game.seats) {
       if (otherSeat === seat || game.players[otherSeat].infiltration) continue;
-      for (const dest of citiesWithin(game.players[otherSeat].location, 3).slice(0, 6)) {
+      for (const dest of citiesWithin(game.players[otherSeat].location, 3)) {
         pushAct(
           `coord-pawn:${otherSeat}:${dest}`,
           `Coordinator: move ${otherSeat} to ${cityDef(dest).name}`,

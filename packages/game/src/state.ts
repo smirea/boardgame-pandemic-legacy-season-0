@@ -288,6 +288,8 @@ export type ActiveObjective = ActiveObjectiveTemplate & {
   hiddenCardId: CardId | null;
   /** True once revealed via Identify Target City or Records Room (Door 41). */
   targetRevealed: boolean;
+  /** Remembered target city after reveal/completion even once hiddenCardId moves to hand/discard. */
+  revealedTargetCity?: CityId;
   /** Faceup trial City cards placed under a disrupt-trial objective. */
   trialCardIds: CardId[];
   /** Cities eliminated via drawing Player cards (for UI/bot tracking). */

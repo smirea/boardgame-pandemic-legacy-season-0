@@ -12,6 +12,7 @@ import {
   evaluatePsych1,
   evaluatePsych4,
   giveSymptomCard,
+  optionsFor,
   pack,
   phaseOf,
   reject,
@@ -20,6 +21,7 @@ import {
   resolveIncidentWave,
   seatsOverHandLimit,
   toSave,
+  viewFor,
   violations,
 } from "./index";
 import type { SecuritySymbol } from "./ids";
@@ -887,5 +889,54 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     const after = actor.getSnapshot().context.world;
     const cues2 = buildAnimationCues(mid, phaseMid, after, phaseOf(actor.getSnapshot().value));
     expect(cues2.some((c) => c.cue === "pawn-move" && c.from === "washington" && c.to === "new-york")).toBe(true);
+  });
+
+  test("Prologue end emits Step 1 evaluation reading without permanent changes, and revealed targets & 3-hop coordinator moves remain visible", () => {
+    const actor = startPlayingGame(29);
+    const s = toSave(actor);
+    const g = s.world.game!;
+    // Put seat-1 (Research Assistant) and seat-2 (Medical Conference Coordinator) in Washington with a card to take
+    g.active = "seat-2";
+    g.players["seat-1"].location = "washington";
+    g.players["seat-2"].location = "washington";
+    g.players["seat-1"].hand = ["city:cairo"];
+    g.players["seat-2"].hand = [];
+    // Complete unknown-city objective pro-1 (Kiev) and known objective pro-2 (Novosibirsk)
+    const pro1 = g.objectives[0]!;
+    pro1.hiddenCardId = "city:kiev";
+    pro1.targetRevealed = true;
+    g.teams["soviet-1"]!.city = "kiev";
+    g.teams["soviet-2"]!.city = "novosibirsk";
+    const a = createGameActor({ save: { ...s, phase: "playing.actions" } });
+
+    // Coordinator options include 3-hop destinations (Washington -> New York -> London -> Paris = 3 hops)
+    const opts = optionsFor(a.getSnapshot().context.world, phaseOf(a.getSnapshot().value), "p2");
+    expect(opts.some((o) => o.key === "coord-pawn:seat-1:paris")).toBe(true);
+
+    // Taking a card logs "Took ..." rather than "gave"
+    a.send({
+      type: "ACTION",
+      player: "p2",
+      action: { a: "share-intel", target: "seat-1", card: "city:cairo", direction: "take" },
+    });
+    const shareLog = a.getSnapshot().context.world.game!.log.at(-1);
+    expect(shareLog?.t === "action" && shareLog.detail.startsWith("Took Cairo from seat-1")).toBe(true);
+
+    // Completing unknown-city objective retains revealedTargetCity in view even after Debrief 160 moves card to hand
+    a.send({ type: "ACTION", player: "p2", action: { a: "acquire-targets", objective: pro1.id } });
+    const v = viewFor(a.getSnapshot().context.world, phaseOf(a.getSnapshot().value), "p2");
+    expect(v.game!.objectives[0]!.revealedTargetCity).toBe("kiev");
+
+    // Completing second objective and continuing ends Prologue with evaluation reading, result entry, and Funding unchanged at 5
+    a.send({ type: "ACTION", player: "p2", action: { a: "acquire-targets", objective: g.objectives[1]!.id } });
+    expect(phaseOf(a.getSnapshot().value)).toBe("over");
+    a.send({ type: "CONTINUE", player: "p1" });
+    expect(phaseOf(a.getSnapshot().value)).toBe("lobby");
+    const c = a.getSnapshot().context.world.campaign;
+    expect(c.funding).toBe(5);
+    expect(c.results).toHaveLength(1);
+    expect(c.results[0]!.month).toBe(0);
+    expect(c.results[0]!.evaluation).toBe("SUCCEEDING");
+    expect(c.readings.some((r) => r.ref === "prologue-end" && r.text.includes("SUCCEEDING"))).toBe(true);
   });
 });

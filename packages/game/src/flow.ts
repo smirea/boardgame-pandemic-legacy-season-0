@@ -1372,6 +1372,7 @@ export function enterInfiltrationRoom(
         if (lion && !lion.targetRevealed) {
           lion.targetRevealed = true;
           const hidden = lion.hiddenCardId ? game.playerCards[lion.hiddenCardId] : null;
+          if (hidden?.kind === "city") lion.revealedTargetCity = hidden.city;
           const cityName = hidden?.kind === "city" ? cityDef(hidden.city).name : "unknown";
           log(game, {
             t: "note",
