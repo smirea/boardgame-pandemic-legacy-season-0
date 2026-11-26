@@ -3042,7 +3042,7 @@ export function applyPurchase(world: World, purchase: Purchase): void {
       c.availableCounterSurveillance -= 1;
       log(world.game!, {
         t: "note",
-        text: `Spend Budget: bought Counter-Surveillance in ${cityDef(purchase.city).name} (surv -> ${c.cities[purchase.city].surveillance}, -${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
+        text: `Spend Budget: bought Counter-Surveillance in ${cityDef(purchase.city).name} (sticker surv ${c.cities[purchase.city].surveillance + 1} -> ${c.cities[purchase.city].surveillance}, -${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
       });
       break;
     case "asset": {

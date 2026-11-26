@@ -21,6 +21,7 @@ import {
   ensureHandLimitDecisions,
   enterCity,
   findAsset,
+  formatSecuritySymbol,
   giveActionTokens,
   handLimit,
   hasCheckpoint,
@@ -1210,7 +1211,7 @@ export function applyDecide(world: World, answer: Answer): void {
       top.remaining -= 1;
       log(game, {
         t: "note",
-        text: `${top.source}: revealed PEARL Security token ${tok.id} (${tok.symbol.kind})`,
+        text: `${top.source}: revealed PEARL Security token ${tok.id} (${formatSecuritySymbol(tok.symbol)})`,
       });
       const anyLeft = game.infiltrationSites.pearl!.tokens.some((t) => !t.revealed);
       if (top.remaining <= 0 || !anyLeft) game.pending.shift();

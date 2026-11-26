@@ -1449,12 +1449,13 @@ function addActionOptions(
   }
   if (findAsset(world, seat, "shop-owner") && handCityCards.length >= 2) {
     const pair: [CardId, CardId] = [handCityCards[0]!, handCityCards[1]!];
-    for (const id of game.playerDiscard.slice(-6)) {
+    const pairNames = `${cityCardShort(world, pair[0])}+${cityCardShort(world, pair[1])}`;
+    for (const id of game.playerDiscard) {
       const ct = cityOfCard(game, id);
       if (ct) {
         pushAct(
           `shop-owner:${ct}`,
-          `Shop Owner: discard 2 City cards for ${cityDef(ct).name}`,
+          `Shop Owner: discard ${pairNames} for ${cityDef(ct).name} (or 'shop-owner:<c1>,<c2>-><discardCity>')`,
           { a: "shop-owner-swap", discardCards: pair, takeCard: id },
         );
       }
@@ -1598,7 +1599,7 @@ function addUpkeepOptions(
       if (c.cities[ct.id].surveillance > 0) {
         pushBuy(
           `buy:counter-surv:${ct.id}`,
-          `Buy Counter Surveillance in ${ct.name} (1 budget; surv ${c.cities[ct.id].surveillance})`,
+          `Buy Counter Surveillance in ${ct.name} (1 budget; sticker surv ${c.cities[ct.id].surveillance} -> ${c.cities[ct.id].surveillance - 1})`,
           { t: "counter-surveillance", city: ct.id },
         );
       }

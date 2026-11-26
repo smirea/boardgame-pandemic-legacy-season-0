@@ -281,7 +281,13 @@ export function renderStatus(
       if (st.agents > 0) tags.push(`ag:${st.agents}`);
       if (st.diseaseCubes > 0) tags.push(`dis:${st.diseaseCubes}`);
       if (st.safehouse) tags.push(st.permanentSafehouse ? "SH*" : "SH");
-      if (st.effectiveSurveillance > 0) tags.push(`surv:${st.effectiveSurveillance}`);
+      if (st.effectiveSurveillance > 0) {
+        tags.push(
+          st.effectiveSurveillance !== st.surveillance
+            ? `surv:${st.surveillance}+1sat`
+            : `surv:${st.surveillance}`,
+        );
+      }
       if (st.incidents > 0) tags.push(`INC:${st.incidents}`);
       if (st.outbreaks > 0) tags.push(`OUT:${st.outbreaks}`);
       if (st.pursuit) tags.push("PURSUIT");
@@ -470,7 +476,13 @@ export function renderBoard(view: PlayerView): string {
       const flags: string[] = [];
       if (st.agents) flags.push(`ag:${st.agents}`);
       if (st.diseaseCubes) flags.push(`dis:${st.diseaseCubes}`);
-      if (st.effectiveSurveillance) flags.push(`surv:${st.effectiveSurveillance}`);
+      if (st.effectiveSurveillance) {
+        flags.push(
+          st.effectiveSurveillance !== st.surveillance
+            ? `surv:${st.surveillance}+1sat`
+            : `surv:${st.surveillance}`,
+        );
+      }
       if (st.safehouse) flags.push(st.permanentSafehouse ? "SH*" : "SH");
       if (st.incidents) flags.push(`INC:${st.incidents}`);
       if (st.outbreaks) flags.push(`OUT:${st.outbreaks}`);
