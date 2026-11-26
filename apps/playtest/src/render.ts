@@ -290,7 +290,11 @@ export function renderStatus(
       if (st.controlCenter) tags.push(st.bugged ? "CC(BUG)" : "CC");
       const cityTeams = deployedTeams.filter((t) => t.city === ct.id);
       if (cityTeams.length > 0) tags.push(`T:${cityTeams.map((t) => t.id).join("+")}`);
-      hotspots.push(`${ct.id}[${ct.affiliation[0]!.toUpperCase()}](${tags.join(",")})`);
+      hotspots.push(
+        tags.length > 0
+          ? `${ct.id}[${ct.affiliation[0]!.toUpperCase()}](${tags.join(",")})`
+          : `${ct.id}[${ct.affiliation[0]!.toUpperCase()}]`,
+      );
     }
     lines.push(`\nBoard Hotspots (${hotspots.length}; run 'board' for all 48): ${hotspots.join(" | ")}`);
 

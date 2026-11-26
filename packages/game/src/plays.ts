@@ -1330,6 +1330,13 @@ export function applyDecide(world: World, answer: Answer): void {
       const curSeat = top.seatsLeft[0]!;
       const loc = game.players[curSeat].location;
       if (ans.done || !ans.neighbor) {
+        log(game, {
+          t: "note",
+          text:
+            top.placedByCurrent === 0
+              ? `Border Security (${curSeat}): passed (0 checkpoints placed in ${cityDef(loc).name})`
+              : `Border Security (${curSeat}): done (${top.placedByCurrent} checkpoint(s) placed in ${cityDef(loc).name})`,
+        });
         top.seatsLeft.shift();
         top.placedByCurrent = 0;
         if (top.seatsLeft.length === 0) game.pending.shift();

@@ -650,7 +650,7 @@ export function parseDoCommand(
       .split(",")
       .filter(Boolean)
       .map((pair) => {
-        const [team, to] = pair.split("=");
+        const [team, to] = pair.includes("=") ? pair.split("=") : pair.split(":");
         return { team: team!, to: to as CityId };
       });
     return {

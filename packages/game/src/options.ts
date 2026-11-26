@@ -888,8 +888,8 @@ function addEventOptions(
           const t = activeTeams[0]!;
           const nb = cityDef(t.city!).connections[0]!;
           pushPlay(
-            `play:scramble-teams:${t.id}:${nb}`,
-            `Play Scramble Teams (example: ${t.id}->${cityDef(nb).name}; customize in CLI)`,
+            `play:scramble-teams:${t.id}=${nb}`,
+            `Play Scramble Teams (example: ${t.id}=${nb}; use 'play:scramble-teams:<team>=<city>,...' to move any teams up to 3 hops)`,
             { e: "scramble-teams", moves: [{ team: t.id, to: nb }] },
           );
         }
@@ -1583,10 +1583,12 @@ function addUpkeepOptions(
             { t: "asset", passport: color, affiliation: aff, asset: assetId },
           );
         } else {
-          const sampleCity: CityId = def.sovietOnly ? "moscow" : "washington";
+          const sampleCity: CityId = def.sovietOnly
+            ? (pack.cities.find((ct) => ct.affiliation === "soviet" && c.cities[ct.id].permanentSafehouse)?.id ?? "moscow")
+            : "washington";
           pushBuy(
             `buy:asset:${assetId}:${color}:${aff}:${sampleCity}`,
-            `Buy ${def.name} (${def.cost}b) for ${color} ${aff} in ${cityDef(sampleCity).name} (any valid city works)`,
+            `Buy ${def.name} (${def.cost}b) for ${color} ${aff} in ${cityDef(sampleCity).name} (or 'buy:asset:${assetId}:${color}:${aff}:<city>' for any valid${def.sovietOnly ? " Soviet" : ""} city)`,
             { t: "asset", passport: color, affiliation: aff, asset: assetId, city: sampleCity },
           );
         }
