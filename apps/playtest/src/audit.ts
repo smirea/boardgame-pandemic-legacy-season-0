@@ -311,7 +311,7 @@ export function formatAuditSummary(audit: AuditState, world: World): string {
   lines.push(`Decisions resolved (${Object.keys(audit.decisions).length}/26): ${Object.keys(audit.decisions).sort().join(", ") || "none"}`);
   lines.push(`Occupations used (${Object.keys(audit.occupationsUsed).length}/12): ${Object.keys(audit.occupationsUsed).sort().join(", ") || "none"}`);
   lines.push(`Specializations used (${Object.keys(audit.specializationsUsed).length}/3): ${Object.keys(audit.specializationsUsed).sort().join(", ") || "none"}`);
-  lines.push(`Assets used (${Object.keys(audit.assetsUsed).length}/29): ${Object.keys(audit.assetsUsed).sort().join(", ") || "none"}`);
+  lines.push(`Assets used (${Object.keys(audit.assetsUsed).length}/${pack.assets.length}): ${Object.keys(audit.assetsUsed).sort().join(", ") || "none"}`);
   lines.push(`Liabilities gained (${Object.keys(audit.liabilitiesGained).length}/24): ${Object.keys(audit.liabilitiesGained).sort().join(", ") || "none"}`);
   lines.push(`Boxes opened (${audit.boxesOpened.length}/8): ${audit.boxesOpened.join(", ") || "none"}`);
   lines.push(`Doors opened (${audit.doorsOpened.length}/43): ${audit.doorsOpened.join(", ") || "none"}`);
