@@ -29,7 +29,7 @@ Opening a door or a safe deposit box is an `opens` edge. The door or box record 
 | `source/guids.json` | Every Tabletop Simulator GUID the save contains. Each one is claimed by a record. |
 | `media/original/` | The downloaded files: images and the 7 custom `.obj` meshes. The 15 Tabletop Simulator card sheets are not kept; `media/split/` has every cell. |
 | `media/split/` | One image per card-sheet cell, `<sheet hash prefix>-<cell>.jpg`, cells counted left to right, top to bottom. Shared backs are not split. |
-| `media/url-map.json` | Save URL → file under `media/original/` (`path`), or for a card sheet the split cells (`split`, `columns`, `rows`). Keys are the original `cloud-3` URLs. |
+| `media/url-map.json` | Save URL → file under `media/original/` (`path`), or for a card sheet the split cells (`split`, `columns`, `rows`). `path` is null for the one unused image that was not kept. Keys are the original `cloud-3` URLs. |
 | `records/` | One JSON file and one Markdown file per component. |
 | `SOURCES.md` | Where the PDF and the workshop file came from, and what was not downloaded. |
 

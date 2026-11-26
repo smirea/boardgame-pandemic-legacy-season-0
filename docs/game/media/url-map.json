@@ -1022,7 +1022,8 @@
     "bytes": 134806
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942140636/94BEFC365601076AE2EE9AABB538A87E107B6C91/": {
-    "path": "media/original/c9e4842ec7e26830d2f26445739d94347984b957.png",
+    "path": null,
+    "unused": "Secondary image of an object no record shows; not kept.",
     "bytes": 25397550
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832151080610318/1DD7F6E6FE3BCABEDDAD66F7716222F8945DD9DB/": {
