@@ -457,10 +457,14 @@ function addDecisionOptions(
     case "forecast": {
       const keep = top.cards.map((card) => card.id);
       const reverse = [...keep].reverse();
-      push("forecast:keep", `Keep Threat order (${top.cards.map((x) => x.city).join(" -> ")})`, {
-        t: "forecast",
-        order: keep,
-      });
+      push(
+        "forecast:keep",
+        `Keep Threat order (${top.cards.map((x) => x.city).join(" -> ")}; or 'forecast:<id1>,<id2>,...' for any custom order)`,
+        {
+          t: "forecast",
+          order: keep,
+        },
+      );
       if (keep.length > 1) {
         push(
           "forecast:reverse",
@@ -574,18 +578,43 @@ function addDecisionOptions(
             choice: { room: "pearl-access-panel", skip: true },
           });
           const faceup = (game.infiltrationSites.pearl?.tokens ?? []).filter((t) => t.revealed);
-          if (faceup.length >= 2) {
+          const symLabel = (sym: (typeof faceup)[number]["symbol"]) =>
+            sym.kind === "keypad"
+              ? `#${sym.value}`
+              : sym.kind === "region"
+                ? pack.regionNames[sym.region]
+                : sym.affiliation.toUpperCase();
+          let pushed = 0;
+          for (let i = 0; i < faceup.length && pushed < 30; i++) {
+            for (let j = i + 1; j < faceup.length && pushed < 30; j++) {
+              const a = faceup[i]!;
+              const b = faceup[j]!;
+              if (a.edgeId === b.edgeId) continue;
+              push(
+                `room:swap:${a.id}|${b.id}`,
+                `Swap ${a.id} (${symLabel(a.symbol)}) <-> ${b.id} (${symLabel(b.symbol)})`,
+                {
+                  t: "room-choice",
+                  choice: {
+                    room: "pearl-access-panel",
+                    skip: false,
+                    tokenA: a.id,
+                    tokenB: b.id,
+                  },
+                },
+              );
+              pushed += 1;
+            }
+          }
+          if (pushed === 0 && faceup.length >= 2) {
+            const a = faceup[0]!;
+            const b = faceup[1]!;
             push(
-              `room:swap:${faceup[0]!.id}:${faceup[1]!.id}`,
-              `Swap ${faceup[0]!.id} and ${faceup[1]!.id}`,
+              `room:swap:${a.id}|${b.id}`,
+              `Swap ${a.id} (${symLabel(a.symbol)}) <-> ${b.id} (${symLabel(b.symbol)})`,
               {
                 t: "room-choice",
-                choice: {
-                  room: "pearl-access-panel",
-                  skip: false,
-                  tokenA: faceup[0]!.id,
-                  tokenB: faceup[1]!.id,
-                },
+                choice: { room: "pearl-access-panel", skip: false, tokenA: a.id, tokenB: b.id },
               },
             );
           }

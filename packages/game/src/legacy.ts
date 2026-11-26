@@ -190,12 +190,16 @@ export function openDoor(world: World, door: DoorId): void {
   c.openedDoors.push(door);
 
   const texts = pack.doorArchive[door] ?? [];
+  const fallbackText =
+    door === "47"
+      ? "Opened Dossier Door 47 — PEARL Compound Entrance (Novosibirsk) is now accessible."
+      : `Opened Dossier Door ${door}.`;
   pushReading(
     world,
     "door",
     `door/${door}`,
     `Dossier Door ${door}`,
-    texts.join("\n\n---\n\n") || `Opened Dossier Door ${door}.`,
+    texts.join("\n\n---\n\n") || fallbackText,
   );
 
   // Rule doors
@@ -2442,6 +2446,16 @@ function applyLegacyCard(world: World, cardId: string): boolean {
           log(game, {
             t: "note",
             text: "Relapse (09-11) added to Player discard pile (and Player deck for all future games)",
+          });
+        }
+      } else {
+        if (c.legacyOrder[c.legacyIndex] === "legacy/09-11") {
+          c.legacyIndex += 1;
+        }
+        if (game) {
+          log(game, {
+            t: "note",
+            text: "Legacy 09-10: No passport has a Chronic Infection sticker — Relapse (09-11) destroyed",
           });
         }
       }

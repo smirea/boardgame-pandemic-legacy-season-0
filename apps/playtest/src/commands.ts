@@ -794,7 +794,9 @@ export function parseDoCommand(
   }
 
   if (head.startsWith("room:swap:")) {
-    const [, , tokenA, tokenB] = head.split(":");
+    const body = head.slice("room:swap:".length);
+    const sep = body.includes("|") ? "|" : body.includes("<->") ? "<->" : ",";
+    const [tokenA, tokenB] = body.split(sep).map((s) => s.trim());
     return {
       kind: "single",
       command: {
