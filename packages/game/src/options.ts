@@ -1020,22 +1020,12 @@ function addActionOptions(
 
   const ownCityCard = handCityCards.find((id) => cityOfCard(game, id) === loc);
   if (ownCityCard) {
-    // Surface top useful unrecorded flight destinations (objectives, safehouses, high-agent cities, teammates)
-    const dests = new Set<CityId>();
-    for (const s of game.seats) if (s !== seat) dests.add(game.players[s].location);
-    for (const obj of game.objectives) {
-      for (const tc of obj.targetCities ?? []) dests.add(tc);
-      if (obj.infiltrationSite) dests.add(pack.sites[obj.infiltrationSite].city);
-    }
     for (const ct of pack.cities) {
-      if (game.locations[ct.id].agents >= 2 || game.locations[ct.id].safehouse) dests.add(ct.id);
-    }
-    dests.delete(loc);
-    for (const to of [...dests].slice(0, 12)) {
-      pushAct(`unrecorded:${to}`, `Unrecorded Flight to ${cityDef(to).name} (discard ${loc})`, {
+      if (ct.id === loc) continue;
+      pushAct(`unrecorded:${ct.id}`, `Unrecorded Flight to ${ct.name} (discard ${loc})`, {
         a: "unrecorded-flight",
         card: ownCityCard,
-        to,
+        to: ct.id,
       });
     }
   }
@@ -1253,14 +1243,17 @@ function addActionOptions(
       }
     }
   }
-  if (currentOccupation(world, seat) === "clinic-planner" && handCityCards.length > 0) {
-    const c0 = handCityCards[0]!;
-    for (const ct of pack.cities.filter((x) => x.id !== loc).slice(0, 6)) {
-      pushAct(
-        `clinic-fly:${ct.id}`,
-        `Clinic Planner Flight to ${ct.name} (discard ${cityCardShort(world, c0)})`,
-        { a: "clinic-planner-flight", card: c0, to: ct.id },
-      );
+  if (currentOccupation(world, seat) === "clinic-planner" && handCityCards.length > 0 && game.locations[loc].safehouse) {
+    for (const cardId of handCityCards) {
+      const cardCity = cityOfCard(game, cardId)!;
+      for (const ct of pack.cities) {
+        if (ct.id === loc) continue;
+        pushAct(
+          `clinic-fly:${cardCity}:${ct.id}`,
+          `Clinic Planner Flight to ${ct.name} (discard ${cityCardShort(world, cardId)})`,
+          { a: "clinic-planner-flight", card: cardId, to: ct.id },
+        );
+      }
     }
   }
   if (currentOccupation(world, seat) === "aluminum-salesperson") {

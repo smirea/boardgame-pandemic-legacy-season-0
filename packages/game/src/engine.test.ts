@@ -939,4 +939,33 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     expect(c.results[0]!.evaluation).toBe("SUCCEEDING");
     expect(c.readings.some((r) => r.ref === "prologue-end" && r.text.includes("SUCCEEDING"))).toBe(true);
   });
+
+  test("PlayerView hides unscratched scratch-off cover pips, and unrecorded / clinic flights expose all 47 other cities", () => {
+    const actor = startPlayingGame(30);
+    const s = toSave(actor);
+    const c = s.world.campaign;
+    const g = s.world.game!;
+    c.passports.pink.aliases.allied.created = true;
+    c.passports.pink.aliases.allied.name = "Naomi Chen";
+    c.passports.pink.aliases.allied.occupation = "clinic-planner";
+    c.passports.pink.aliases.allied.coverScratched = 2;
+    g.active = "seat-3";
+    g.players["seat-3"].passport = "pink";
+    g.players["seat-3"].activeAlias = "allied";
+    g.players["seat-3"].tempAlias = null;
+    g.players["seat-3"].location = "washington";
+    g.players["seat-3"].hand = ["city:washington", "city:paris"];
+    const a = createGameActor({ save: { ...s, phase: "playing.actions" } });
+
+    const v = viewFor(a.getSnapshot().context.world, "playing.actions", "p3");
+    const pinkAllied = v.campaign.passports.pink.aliases.allied;
+    expect(pinkAllied.revealedCoverTrack).toHaveLength(2);
+    expect(pinkAllied.coverTrackLength).toBe(10);
+    expect("coverTrack" in pinkAllied).toBe(false);
+
+    const opts = optionsFor(a.getSnapshot().context.world, "playing.actions", "p3");
+    expect(opts.filter((o) => o.key.startsWith("unrecorded:")).length).toBe(47);
+    expect(opts.filter((o) => o.key.startsWith("clinic-fly:washington:")).length).toBe(47);
+    expect(opts.filter((o) => o.key.startsWith("clinic-fly:paris:")).length).toBe(47);
+  });
 });

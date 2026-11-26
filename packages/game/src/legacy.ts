@@ -2731,6 +2731,11 @@ export function resolveGameEndSteps(world: World): void {
 
   const fundingBefore = c.funding;
   const fundingDelta = evaluation === "SUCCEEDING" ? -1 : evaluation === "ADEQUATE" ? 1 : 2;
+  log(game, {
+    t: "end",
+    reason: `Step 1 (Check Objectives): ${completedCount} completed, ${failedCount} failed -> ${evaluation}`,
+    evaluation,
+  });
   adjustFunding(world, fundingDelta, `${evaluation} in ${pack.monthNames[c.month]}`);
 
   // If FAILING attempt 1 (months 1..11), prepare replay objectives carrying over any completed objectives!
@@ -2813,6 +2818,11 @@ export function resolveGameEndSteps(world: World): void {
       contaminationAdded.push(city.id);
     }
   }
+
+  log(game, {
+    t: "note",
+    text: `Step 2 (Check Cities): +1 Surveillance in ${surveillanceAdded.length ? surveillanceAdded.map((id) => cityDef(id).name).join(", ") : "none"}${hasRule(c, "BB") ? `; +Contamination in ${contaminationAdded.length ? contaminationAdded.map((id) => cityDef(id).name).join(", ") : "none"}` : ""}`,
+  });
 
   // Step 3: Check Legacy Deck (PAUSE cards at end of attempt 1!)
   if (c.attempt === 1) {

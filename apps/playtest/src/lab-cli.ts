@@ -152,17 +152,24 @@ async function main(): Promise<void> {
     const meta = readActiveDaemon(argv[1]);
     const recDir = join(runDirOf(meta.run), "records");
     const files = existsSync(recDir) ? readdirSync(recDir).filter((f) => f.endsWith(".json")).sort() : [];
+    let failed = 0;
     for (const file of files) {
-      const rec = JSON.parse(readFileSync(join(recDir, file), "utf8")) as GameRecording;
-      const out = replayRecording(rec);
-      const errs = violations(out.world);
-      console.log(`${file}: replayed ${out.stepCount} steps -> ${out.phase} (violations: ${errs.length})`);
-      if (errs.length > 0) {
-        console.error(errs.join("\n"));
-        process.exit(1);
+      try {
+        const rec = JSON.parse(readFileSync(join(recDir, file), "utf8")) as GameRecording;
+        const out = replayRecording(rec);
+        const errs = violations(out.world);
+        console.log(`PASS ${file}: replayed ${out.stepCount} steps -> ${out.phase} (violations: ${errs.length})`);
+        if (errs.length > 0) {
+          console.error(errs.join("\n"));
+          failed += 1;
+        }
+      } catch (err) {
+        console.error(`FAIL ${file}: ${String(err)}`);
+        failed += 1;
       }
     }
     if (files.length === 0) console.log("No recorded games yet.");
+    if (failed > 0) process.exit(1);
     return;
   }
 

@@ -4,19 +4,23 @@ import type {
   Affiliation,
   CityId,
   InfiltrationSiteId,
+  PassportColor,
   PlayerId,
   RegionId,
   RoomId,
   SeatId,
   SecuritySymbol,
 } from "./ids";
+import { PASSPORT_COLORS } from "./ids";
 import type { Phase } from "./machine";
 import { seatOfPlayer } from "./machine";
 import type {
+  AliasPage,
   Campaign,
   Decision,
   GameCity,
   LogEntry,
+  Passport,
   PlayerCard,
   ReadingEntry,
   TeamPiece,
@@ -24,6 +28,16 @@ import type {
   UpkeepState,
   World,
 } from "./state";
+
+export type AliasView = Omit<AliasPage, "coverTrack"> & {
+  coverTrackLength: number;
+  /** Only already-scratched cover pips are visible; unscratched spaces stay hidden under scratch-off silver. */
+  revealedCoverTrack: AliasPage["coverTrack"];
+};
+
+export type PassportView = Omit<Passport, "aliases"> & {
+  aliases: Record<Affiliation, AliasView>;
+};
 
 export type ObjectiveView = {
   id: string;
@@ -84,7 +98,7 @@ export type PlayerView = {
     pearlOpenedDoors: Campaign["pearlOpenedDoors"];
     pearlTunnels: string[];
     pearlDoor41Placed: boolean;
-    passports: Campaign["passports"];
+    passports: Record<PassportColor, PassportView>;
     intelFile: Campaign["intelFile"];
     personnelFile: Campaign["personnelFile"];
     results: Campaign["results"];
@@ -186,7 +200,25 @@ export function viewFor(world: World, phase: Phase, viewer: PlayerId, recentLogL
       pearlOpenedDoors: c.pearlOpenedDoors,
       pearlTunnels: c.pearlTunnels,
       pearlDoor41Placed: c.pearlDoor41Placed,
-      passports: c.passports,
+      passports: Object.fromEntries(
+        PASSPORT_COLORS.map((color) => {
+          const p = c.passports[color];
+          const aliases = Object.fromEntries(
+            pack.affiliations.map((aff) => {
+              const { coverTrack, ...rest } = p.aliases[aff];
+              return [
+                aff,
+                {
+                  ...rest,
+                  coverTrackLength: coverTrack.length,
+                  revealedCoverTrack: coverTrack.slice(0, rest.coverScratched),
+                },
+              ];
+            }),
+          ) as Record<Affiliation, AliasView>;
+          return [color, { ...p, aliases }];
+        }),
+      ) as Record<PassportColor, PassportView>,
       intelFile: c.intelFile,
       personnelFile: c.personnelFile,
       results: c.results,

@@ -217,8 +217,7 @@ export function renderStatus(
         const al = c.passports[p.passport].aliases[p.activeAlias];
         const occName = al.occupation ? pack.occupationById[al.occupation].name : "?";
         const specStr = al.specialization ? `+${al.specialization}` : "";
-        const coverLeft = al.coverTrack.length - al.coverScratched;
-        const nextPip = al.coverTrack[al.coverScratched] ?? "BURNED";
+        const coverLeft = al.coverTrackLength - al.coverScratched;
         const assetsStr = al.assets
           .filter((a) => !a.dead)
           .map((a) => `${a.id}${a.city ? `@${a.city}` : ""}${a.id === "suitcase-full-of-money" ? `(${a.boxesChecked}/3)` : ""}`)
@@ -226,7 +225,7 @@ export function renderStatus(
         const libsStr = al.liabilities
           .map((l) => `${l.id}${l.region ? `@${l.region}` : ""}`)
           .join(",");
-        aliasStr = `${p.passport}/${p.activeAlias} "${al.name}" [${occName}${specStr}] cover=${coverLeft}/${al.coverTrack.length}(next:${nextPip})${assetsStr ? ` assets=[${assetsStr}]` : ""}${libsStr ? ` libs=[${libsStr}]` : ""}`;
+        aliasStr = `${p.passport}/${p.activeAlias} "${al.name}" [${occName}${specStr}] cover=${coverLeft}/${al.coverTrackLength}${assetsStr ? ` assets=[${assetsStr}]` : ""}${libsStr ? ` libs=[${libsStr}]` : ""}`;
       } else if (p.needsTempAlias) {
         aliasStr = "BURNED (picking temp alias next turn)";
       }
@@ -309,8 +308,9 @@ export function renderStatus(
       lines.push(
         `Budget: ${g.upkeep.budget - g.upkeep.spent} left (${g.upkeep.spent}/${g.upkeep.budget} spent) | Confirmed: [${g.upkeep.done.join(", ") || "none"}]`,
       );
+      const remainingSafehouseCities = g.upkeep.safehouseCities.filter((ct) => !g.cities[ct].permanentSafehouse);
       lines.push(
-        `Eligible Permanent Safehouse cities (3b, ${c.availablePermanentSafehouses} stickers left): ${g.upkeep.safehouseCities.join(", ") || "none"}`,
+        `Eligible Permanent Safehouse cities (3b, ${c.availablePermanentSafehouses} stickers left): ${remainingSafehouseCities.join(", ") || "none"}`,
       );
       lines.push(`Counter-Surveillance stickers left (1b): ${c.availableCounterSurveillance}`);
       lines.push(
@@ -338,22 +338,45 @@ export function renderStatus(
     lines.push(`  (No moves right now — run 'wait' to wait for your turn or teammate updates)`);
   } else {
     const grouped = new Map<string, string[]>();
+    const clinicCards = new Set<string>();
+    const clinicDests = new Set<string>();
+    const unrecordedDests: string[] = [];
     const standalone: OptionItem[] = [];
     for (const o of options) {
-      const m = /^(coord-pawn:[^:]+|coord-team:[^:]+|unrecorded|clinic-fly):(.+)$/.exec(o.key);
-      if (m) {
-        const prefix = m[1]!;
-        const dest = m[2]!;
+      const mCoord = /^(coord-pawn:[^:]+|coord-team:[^:]+):(.+)$/.exec(o.key);
+      if (mCoord) {
+        const prefix = mCoord[1]!;
         const list = grouped.get(prefix) ?? [];
-        list.push(dest);
+        list.push(mCoord[2]!);
         grouped.set(prefix, list);
-      } else {
-        standalone.push(o);
+        continue;
       }
+      const mUnrec = /^unrecorded:(.+)$/.exec(o.key);
+      if (mUnrec) {
+        unrecordedDests.push(mUnrec[1]!);
+        continue;
+      }
+      const mClinic = /^clinic-fly:([^:]+):(.+)$/.exec(o.key);
+      if (mClinic) {
+        clinicCards.add(mClinic[1]!);
+        clinicDests.add(mClinic[2]!);
+        continue;
+      }
+      standalone.push(o);
     }
     const shown = standalone.slice(0, 60);
     for (const o of shown) {
       lines.push(`  ${o.key}  —  ${o.label}`);
+    }
+    if (unrecordedDests.length > 0) {
+      lines.push(
+        `  unrecorded:<city>  —  Unrecorded Flight: discard current city card to fly to ANY of ${unrecordedDests.length} other cities`,
+      );
+    }
+    if (clinicDests.size > 0) {
+      lines.push(
+        `  clinic-fly:<cardCity>:<destCity>  —  Clinic Planner Flight: discard any City card in hand (${[...clinicCards].join(", ")}) to fly to ANY of ${clinicDests.size} other cities`,
+      );
     }
     for (const [prefix, dests] of grouped.entries()) {
       lines.push(`  ${prefix}:<city>  —  ${dests.length} legal cities: ${dests.join(", ")}`);
@@ -520,7 +543,7 @@ export function renderFiles(view: PlayerView): string {
       }
       const occ = al.occupation ? `${pack.occupationById[al.occupation].name} — ${pack.occupationById[al.occupation].text}` : "none";
       const spec = al.specialization ? `${pack.specializationById[al.specialization].name} — ${pack.specializationById[al.specialization].text}` : "none";
-      const cover = `${al.coverScratched}/${al.coverTrack.length} scratched [${al.coverTrack.slice(al.coverScratched).join(",")}]`;
+      const cover = `${al.coverScratched}/${al.coverTrackLength} scratched (revealed: [${al.revealedCoverTrack.join(",") || "none"}]; ${al.coverTrackLength - al.coverScratched} hidden)`;
       const assets = al.assets
         .map((a) => `${a.id}${a.city ? `@${a.city}` : ""}${a.dead ? "(DEAD)" : ""}${a.id === "suitcase-full-of-money" ? `(${a.boxesChecked}/3)` : ""}`)
         .join(", ");

@@ -329,9 +329,18 @@ export function parseDoCommand(
   }
 
   if (head.startsWith("clinic-fly:")) {
-    const [, cardCity, to] = head.split(":");
-    const card = findCityCardInHand(world, seat, cardCity!);
-    if (!card) return { kind: "error", message: `Card ${cardCity} not in hand` };
+    const parts = head.split(":");
+    let card: CardId | null = null;
+    let to: string | undefined;
+    if (parts.length >= 3) {
+      card = findCityCardInHand(world, seat, parts[1]!);
+      to = parts[2];
+    } else if (parts.length === 2 && seat && g) {
+      // Shorthand clinic-fly:<dest> defaults to first city card in hand
+      card = g.players[seat].hand.find((id) => g.playerCards[id]?.kind === "city") ?? null;
+      to = parts[1];
+    }
+    if (!card) return { kind: "error", message: `Card ${parts[1] ?? ""} not in hand` };
     return {
       kind: "single",
       command: { type: "ACTION", player, action: { a: "clinic-planner-flight", card, to: to as CityId } },
@@ -368,6 +377,30 @@ export function parseDoCommand(
     return {
       kind: "single",
       command: { type: "ACTION", player, action: { a: "cobbler-convert", team: team!, cards } },
+    };
+  }
+
+  if (head.startsWith("buy:safehouse:")) {
+    const city = head.slice("buy:safehouse:".length) as CityId;
+    return {
+      kind: "single",
+      command: { type: "PURCHASE", player, purchase: { t: "permanent-safehouse", city } },
+    };
+  }
+
+  if (head.startsWith("buy:counter-surv:")) {
+    const city = head.slice("buy:counter-surv:".length) as CityId;
+    return {
+      kind: "single",
+      command: { type: "PURCHASE", player, purchase: { t: "counter-surveillance", city } },
+    };
+  }
+
+  if (head.startsWith("refund:")) {
+    const index = Number(head.slice("refund:".length));
+    return {
+      kind: "single",
+      command: { type: "REFUND", player, index },
     };
   }
 
