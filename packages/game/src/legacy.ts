@@ -596,9 +596,17 @@ function finalizeUnknownTargetCard(world: World, obj: ActiveObjective, toSeat: S
   obj.targetRevealed = true;
   if (toSeat) {
     game.players[toSeat].hand.push(cardId);
+    log(game, {
+      t: "note",
+      text: `Added hidden target card ${revealed ? cityDef(revealed).name : cardId} to ${toSeat}'s hand`,
+    });
     ensureHandLimitDecisions(world);
   } else {
     game.playerDiscard.push(cardId);
+    log(game, {
+      t: "note",
+      text: `Moved hidden target card ${revealed ? cityDef(revealed).name : cardId} to Player discard`,
+    });
   }
 }
 

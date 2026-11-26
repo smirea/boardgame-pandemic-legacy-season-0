@@ -190,7 +190,26 @@ export function parseDoCommand(
     return { kind: "error", message: `Unknown or currently unavailable option '${head}'` };
   }
 
-  // Action shortcuts with custom parameters
+  // Action shortcuts with custom parameters (also route stale action keys to reject() instead of parse error)
+  if (head === "neutralize") {
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "neutralize-agent" } } };
+  }
+  if (head === "build-safehouse") {
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "build-safehouse" } } };
+  }
+  if (head === "treat") {
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "treat" } } };
+  }
+  if (head === "disable-satellite") {
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "disable-satellite" } } };
+  }
+  if (head === "spend-action-token") {
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "spend-action-token" } } };
+  }
+  if (head.startsWith("drive:")) {
+    const to = head.slice("drive:".length) as CityId;
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "drive", to } } };
+  }
   if (head.startsWith("drive-carry:")) {
     const [, to, teamsRaw] = head.split(":");
     const carryTeams = (teamsRaw ?? "")
