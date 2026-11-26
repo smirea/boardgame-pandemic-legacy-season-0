@@ -43,7 +43,9 @@ export function generateBriefs(config: PlaytestConfig): string[] {
     const reportPath = join(runDir, "reports", `${gameTag}-${player.id}.md`);
     const briefPath = join(runDir, "briefs", `${player.id}.md`);
 
-    const passportObj = c.passports[player.passport];
+    const livePassport =
+      c.seating.find((s) => s.seat === player.seat)?.passport ?? player.passport;
+    const passportObj = c.passports[livePassport];
     const aliasLines = (["allied", "neutral", "soviet"] as const)
       .map((aff) => {
         const al = passportObj.aliases[aff];
@@ -68,7 +70,7 @@ Write your post-game report to: \`${reportPath}\`.
 ## Your Persona
 ${personaText}
 
-## Your Passport (${player.passport.toUpperCase()}, Chronic Infections: ${passportObj.chronicInfections})
+## Your Passport (${livePassport.toUpperCase()}, Chronic Infections: ${passportObj.chronicInfections})
 ${aliasLines.length > 0 ? aliasLines.join("\n") : "(No permanent aliases created yet — Allied aliases are created in January.)"}
 
 ## Current Campaign State
