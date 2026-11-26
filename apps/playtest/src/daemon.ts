@@ -431,9 +431,21 @@ const server = Bun.serve({
         };
         chatLog.push(msg);
         appendFileSync(chatPath, JSON.stringify(msg) + "\n");
+        const lastChat = cursors.chat[body.player] ?? 0;
+        const missed = chatLog.filter(
+          (m) => m.seq > lastChat && m.seq < msg.seq && m.player !== body.player,
+        );
         cursors.chat[body.player] = msg.seq;
         writeFileSync(cursorsPath, JSON.stringify(cursors, null, 2));
         wakeWaiters();
+        if (missed.length > 0) {
+          const lines = missed
+            .map((m) => `  #${m.seq} [${m.player} ${m.name}]: ${m.text}`)
+            .join("\n");
+          return new Response(
+            `Posted chat #${msg.seq}.\n\n=== NEW TABLE CHAT (arrived before your post) ===\n${lines}`,
+          );
+        }
         return new Response(`Posted chat #${msg.seq}.`);
       }
 

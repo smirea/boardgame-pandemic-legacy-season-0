@@ -1018,9 +1018,22 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
 
     case "identify-target-city": {
       const obj = game.objectives.find((o) => o.id === action.objective)!;
-      // Electrician reveals instead of discarding! (Wait: Evasive extra card is still discarded if Electrician? Actually Electrician says "reveal the required cards instead of discarding them" — reveal all required!)
-      if (currentOccupation(world, seat) !== "electrician") {
+      const isElectrician = currentOccupation(world, seat) === "electrician";
+      let cardNote = "";
+      if (!isElectrician) {
         for (const id of action.cards) discardFromHand(game, seat, id);
+      } else if (isRestrictionActive(game, "evasive") && action.cards.length > 0) {
+        // Electrician replaces discarding the required region cards with revealing them,
+        // but Evasive's additional City card must still be discarded.
+        const extraCard =
+          action.cards.find(
+            (id) => !obj.unknownRegion || cityDef(cityOfCard(game, id)!).region !== obj.unknownRegion,
+          ) ?? action.cards[action.cards.length - 1]!;
+        discardFromHand(game, seat, extraCard);
+        const extraCity = cityOfCard(game, extraCard);
+        cardNote = ` (Electrician revealed region cards; discarded ${extraCity ? cityDef(extraCity).name : extraCard} for Evasive)`;
+      } else {
+        cardNote = " (Electrician revealed cards)";
       }
       obj.targetRevealed = true;
       const targetCity = obj.hiddenCardId ? cityOfCard(game, obj.hiddenCardId) : null;
@@ -1029,7 +1042,7 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
         t: "action",
         seat,
         action: action.a,
-        detail: `Identified target city for ${obj.title}: ${targetCity ? cityDef(targetCity).name : "unknown"}`,
+        detail: `Identified target city for ${obj.title}: ${targetCity ? cityDef(targetCity).name : "unknown"}${cardNote}`,
         cost,
       });
       break;

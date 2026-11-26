@@ -223,6 +223,40 @@ export function parseDoCommand(
   if (head === "exit-infiltration") {
     return { kind: "single", command: { type: "ACTION", player, action: { a: "exit-infiltration" } } };
   }
+  if (head.startsWith("help-from-sabik:")) {
+    const restriction = head.slice("help-from-sabik:".length) as import("@repo/game").RestrictionId;
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "use-help-from-sabik", restriction } },
+    };
+  }
+  if (head.startsWith("share-give:")) {
+    const [, target, cityRaw] = head.split(":");
+    const card = findCityCardInHand(world, seat, cityRaw ?? "") ?? `city:${cityRaw ?? ""}`;
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "share-intel", target: target as SeatId, card, direction: "give" },
+      },
+    };
+  }
+  if (head.startsWith("share-take:")) {
+    const [, target, cityRaw] = head.split(":");
+    const targetSeat = target as SeatId;
+    const card =
+      (g.seats.includes(targetSeat) ? findCityCardInHand(world, targetSeat, cityRaw ?? "") : null) ??
+      `city:${cityRaw ?? ""}`;
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "share-intel", target: targetSeat, card, direction: "take" },
+      },
+    };
+  }
   if (head.startsWith("enter-infiltration:")) {
     const site = head.slice("enter-infiltration:".length) as InfiltrationSiteId;
     return { kind: "single", command: { type: "ACTION", player, action: { a: "enter-infiltration", site } } };

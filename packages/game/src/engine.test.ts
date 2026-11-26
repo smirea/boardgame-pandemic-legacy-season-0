@@ -1063,5 +1063,63 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     expect(phaseOf(cActor.getSnapshot().value)).toBe("over");
     const infThreatLog = cActor.getSnapshot().context.world.game!.log.filter((e) => e.t === "threat").at(-1);
     expect(infThreatLog?.t === "threat" && infThreatLog.effect).toBe("FAILED (Incident/Outbreak supply empty)");
+
+    // Electrician reveals region cards on Identify Target City, but still discards the extra City card for Evasive
+    const s4 = toSave(a);
+    s4.world.campaign.passports.pink.aliases.neutral = {
+      affiliation: "neutral",
+      created: true,
+      name: "Elec",
+      occupation: "electrician",
+      specialization: "transport-crew",
+      coverTrack: ["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"],
+      coverScratched: 0,
+      burned: false,
+      assets: [{ id: "code-book", city: null, boxesChecked: 0, dead: false }],
+      liabilities: [],
+    };
+    s4.world.game!.active = "seat-3";
+    s4.world.game!.actionsLeft = 4;
+    s4.world.game!.pending = [];
+    s4.world.game!.activeRestrictions = ["evasive"];
+    s4.world.game!.players["seat-3"].passport = "pink";
+    s4.world.game!.players["seat-3"].activeAlias = "neutral";
+    s4.world.game!.players["seat-3"].location = "bangkok";
+    s4.world.game!.locations.bangkok.safehouse = true;
+    s4.world.game!.players["seat-3"].hand = ["city:delhi", "city:novosibirsk", "city:algiers"];
+    s4.world.game!.playerCards["city:delhi"] = { id: "city:delhi", kind: "city", city: "delhi" };
+    s4.world.game!.playerCards["city:novosibirsk"] = { id: "city:novosibirsk", kind: "city", city: "novosibirsk" };
+    s4.world.game!.playerCards["city:algiers"] = { id: "city:algiers", kind: "city", city: "algiers" };
+    s4.world.game!.playerCards["city:pyongyang"] = { id: "city:pyongyang", kind: "city", city: "pyongyang" };
+    s4.world.game!.objectives = [
+      {
+        id: "jun-3",
+        cardCode: "06-05",
+        title: "Bug Control Center",
+        description: "",
+        kind: "unknown-city",
+        status: "active",
+        unknownRegion: "asia",
+        debriefComplete: 110,
+        debriefFail: 111,
+        hiddenCardId: "city:pyongyang",
+        targetRevealed: false,
+        trialCardIds: [],
+        eliminatedCities: [],
+      },
+    ];
+    const eActor = createGameActor({ save: { ...s4, phase: "playing.actions" } });
+    eActor.send({
+      type: "ACTION",
+      player: "p3",
+      action: {
+        a: "identify-target-city",
+        objective: "jun-3",
+        cards: ["city:delhi", "city:novosibirsk", "city:algiers"],
+      },
+    });
+    const handAfter = eActor.getSnapshot().context.world.game!.players["seat-3"].hand;
+    expect(handAfter).toEqual(["city:delhi", "city:novosibirsk"]);
+    expect(eActor.getSnapshot().context.world.game!.playerDiscard).toContain("city:algiers");
   });
 });
