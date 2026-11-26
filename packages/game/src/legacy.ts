@@ -287,12 +287,16 @@ export function openBox(world: World, box: BoxId): void {
   c.openedBoxes.push(box);
 
   const texts = pack.boxArchive[box] ?? [];
+  const fallback =
+    box === "0005"
+      ? "Opened Safe Deposit Box 0005 (contains the sealed Sabik Legacy deck, replacing the remaining CIA Legacy deck)."
+      : `Opened Safe Deposit Box ${box}.`;
   pushReading(
     world,
     "box",
     `box/${box}`,
     `Safe Deposit Box ${box}`,
-    texts.join("\n\n---\n\n") || `Opened Safe Deposit Box ${box}.`,
+    texts.join("\n\n---\n\n") || fallback,
   );
 
   switch (box) {
@@ -2532,7 +2536,11 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       return false;
     case "legacy/sealed-11-03":
     case "legacy/sealed-11-04":
+      game?.objectives.push(makeObjectiveFromTemplate(legacyObjectiveTemplate(cardId)));
+      return false;
     case "legacy/sealed-11-06":
+      readOperationsCard(world, 74);
+      readOperationsCard(world, 75);
       game?.objectives.push(makeObjectiveFromTemplate(legacyObjectiveTemplate(cardId)));
       return false;
     case "legacy/sealed-11-05":

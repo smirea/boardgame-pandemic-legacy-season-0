@@ -575,6 +575,21 @@ export function parseDoCommand(
     };
   }
 
+  if (head.startsWith("free-checkpoint:")) {
+    const [, a, b] = head.split(":");
+    if (a && b) {
+      const rel = g.supplies.checkpointTokens <= 0 ? g.checkpoints[0] : undefined;
+      return {
+        kind: "single",
+        command: {
+          type: "DECIDE",
+          player,
+          answer: { t: "place-free-checkpoint", a: a as CityId, b: b as CityId, relocateFrom: rel },
+        },
+      };
+    }
+  }
+
   if (head.startsWith("crime-boss:")) {
     const city = head.slice("crime-boss:".length) as CityId;
     return {
