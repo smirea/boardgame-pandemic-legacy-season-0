@@ -136,6 +136,20 @@ export function renderStatus(
           `  Current top->bottom: ${g.pendingTop.cards.map((t) => `${t.id}(${t.kind === "infection" ? "INF:" : ""}${t.city})`).join(", ")}`,
         );
       }
+      if (g.pendingTop.t === "free-infrared-goggles") {
+        const fullAliases: string[] = [];
+        for (const color of PASSPORT_COLORS) {
+          for (const aff of ["allied", "neutral", "soviet"] as const) {
+            const al = c.passports[color].aliases[aff];
+            if (al.created && !al.burned && al.assets.length >= 3) {
+              fullAliases.push(`${color}/${aff}`);
+            }
+          }
+        }
+        if (fullAliases.length > 0) {
+          lines.push(`  Full aliases (3/3 assets, ineligible): ${fullAliases.join(", ")}`);
+        }
+      }
       if (g.pendingTop.t === "create-aliases") {
         const aff = g.pendingTop.affiliation;
         const occs = pack.occupations.filter((o) => o.affiliation === aff);
@@ -282,9 +296,12 @@ export function renderStatus(
       if (st.diseaseCubes > 0) tags.push(`dis:${st.diseaseCubes}`);
       if (st.safehouse) tags.push(st.permanentSafehouse ? "SH*" : "SH");
       if (st.effectiveSurveillance > 0) {
+        const hasSat = g.satellites.includes(ct.region);
         tags.push(
-          st.effectiveSurveillance !== st.surveillance
-            ? `surv:${st.surveillance}+1sat`
+          hasSat
+            ? st.surveillance >= 3
+              ? `surv:3(+sat)`
+              : `surv:${st.surveillance}+1sat`
             : `surv:${st.surveillance}`,
         );
       }
@@ -329,6 +346,18 @@ export function renderStatus(
       lines.push(
         `Available Assets: ${c.availableAssets.map((a) => `${a}(${pack.assetById[a].cost}b)`).join(", ") || "none"}`,
       );
+      const fullAliases: string[] = [];
+      for (const color of PASSPORT_COLORS) {
+        for (const aff of ["allied", "neutral", "soviet"] as const) {
+          const al = c.passports[color].aliases[aff];
+          if (al.created && !al.burned && al.assets.length >= 3) {
+            fullAliases.push(`${color}/${aff}`);
+          }
+        }
+      }
+      if (fullAliases.length > 0) {
+        lines.push(`Full aliases (3/3 assets, cannot add more): ${fullAliases.join(", ")}`);
+      }
       if (g.upkeep.bought.length > 0) {
         lines.push(
           `Bought this upkeep: ${g.upkeep.bought.map((b, i) => `#${i}:${JSON.stringify(b.purchase)}(${b.cost}b)`).join("; ")}`,
@@ -477,9 +506,12 @@ export function renderBoard(view: PlayerView): string {
       if (st.agents) flags.push(`ag:${st.agents}`);
       if (st.diseaseCubes) flags.push(`dis:${st.diseaseCubes}`);
       if (st.effectiveSurveillance) {
+        const hasSat = g.satellites.includes(ct.region);
         flags.push(
-          st.effectiveSurveillance !== st.surveillance
-            ? `surv:${st.surveillance}+1sat`
+          hasSat
+            ? st.surveillance >= 3
+              ? `surv:3(+sat)`
+              : `surv:${st.surveillance}+1sat`
             : `surv:${st.surveillance}`,
         );
       }

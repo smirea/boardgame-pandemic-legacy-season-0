@@ -571,6 +571,38 @@ export function parseDoCommand(
     };
   }
 
+  if (head.startsWith("crime-boss:")) {
+    const city = head.slice("crime-boss:".length) as CityId;
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "crime-boss-remove", city } },
+    };
+  }
+
+  if (head.startsWith("field-medic:")) {
+    const city = head.slice("field-medic:".length) as CityId;
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "field-medic-treat", city } },
+    };
+  }
+
+  if (head.startsWith("supplements:")) {
+    const city = head.slice("supplements:".length) as CityId;
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "unapproved-supplements-treat", city } },
+    };
+  }
+
+  if (head.startsWith("test-pilot:")) {
+    const region = head.slice("test-pilot:".length) as RegionId;
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "test-pilot-remove-satellite", region } },
+    };
+  }
+
   if (head.startsWith("buy:safehouse:")) {
     const city = head.slice("buy:safehouse:".length) as CityId;
     return {
