@@ -614,6 +614,13 @@ export function parseDoCommand(
   }
 
   // Event cards with custom targets
+  if (head.startsWith("play:counter-intelligence:")) {
+    const threatCardId = head.slice("play:counter-intelligence:".length);
+    return {
+      kind: "single",
+      command: { type: "PLAY", player, play: { e: "counter-intelligence", threatCardId } },
+    };
+  }
   if (head.startsWith("play:holdover:")) {
     const city = head.slice("play:holdover:".length) as CityId;
     const relTok = args.find((a) => a.startsWith("relocate:"));

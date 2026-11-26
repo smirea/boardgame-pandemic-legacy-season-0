@@ -214,6 +214,9 @@ export function openDoor(world: World, door: DoorId): void {
   };
   if (ruleDoors[door]) {
     addRule(c, ruleDoors[door]!);
+    if (door === "H" && world.game && world.game.supplies.symptoms.length === 0) {
+      world.game.supplies.symptoms = [...pack.symptomNames];
+    }
   }
 
   // Asset & Liability doors
@@ -360,6 +363,7 @@ export function openBox(world: World, box: BoxId): void {
       addRule(c, "W");
       if (world.game) {
         world.game.supplies.diseaseCubes = c.diseaseCubeSupplyMax;
+        world.game.supplies.satellites = pack.supplies.satellites;
       }
       break;
     }

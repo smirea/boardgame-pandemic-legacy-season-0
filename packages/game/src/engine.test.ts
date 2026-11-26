@@ -26,6 +26,7 @@ import {
   violations,
 } from "./index";
 import type { SecuritySymbol } from "./ids";
+import { openBox } from "./legacy";
 
 function startPlayingGame(seed = 10, playerCount: 2 | 3 | 4 = 3) {
   const actor = createSeatedCampaign(playerCount, seed);
@@ -1121,5 +1122,11 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     const handAfter = eActor.getSnapshot().context.world.game!.players["seat-3"].hand;
     expect(handAfter).toEqual(["city:delhi", "city:novosibirsk"]);
     expect(eActor.getSnapshot().context.world.game!.playerDiscard).toContain("city:algiers");
+
+    // Opening Box 0008 during setup immediately populates satellite & disease cube supplies with 0 invariant violations
+    const wBox8 = structuredClone(startPlayingGame(99, 3).getSnapshot().context.world);
+    openBox(wBox8, "0008");
+    expect(wBox8.game!.supplies.satellites).toBe(5);
+    expect(violations(wBox8)).toEqual([]);
   });
 });
