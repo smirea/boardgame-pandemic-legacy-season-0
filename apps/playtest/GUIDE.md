@@ -80,7 +80,7 @@ In addition, these helpers and parameterized commands are available:
 - `do forecast:<id1>,<id2>,...` — Reorder Forecast Threat cards top-to-bottom.
 - `do room:armory:<assetId>[:<city>]` — Langley Armory free Asset in any valid city.
 - `do room:directors-office:<city1>[,<city2>]` — Director's Office specific discard picks.
-- `do room:swap:<tokenA>:<tokenB>` — Access Panel specific Security token swap.
+- `do room:swap:<tokenA>|<tokenB>` — Access Panel specific Security token swap (use `|` delimiter because token IDs contain colons).
 - `do raw '<JSON Command>'` — Send any exact `@repo/game` `Command` object directly.
 
 ## Bug & Rules Hunting Mandate

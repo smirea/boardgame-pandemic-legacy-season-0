@@ -575,6 +575,14 @@ export function parseDoCommand(
     };
   }
 
+  if (head.startsWith("remove-safehouse:")) {
+    const city = head.slice("remove-safehouse:".length) as CityId;
+    return {
+      kind: "single",
+      command: { type: "DECIDE", player, answer: { t: "remove-safehouse", city } },
+    };
+  }
+
   if (head.startsWith("free-checkpoint:")) {
     const [, a, b] = head.split(":");
     if (a && b) {
