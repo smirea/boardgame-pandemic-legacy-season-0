@@ -579,11 +579,16 @@ export const gameMachine = setup({
       if (event.type !== "ACTION") return context;
       const seat = seatOfPlayer(context.world, event.player)!;
       const reveals = actionReveals(context.world, event.action);
-      const nextUndo = reveals ? [] : [...context.undo, context.world];
+      const prevLogLen = context.world.game?.log.length ?? 0;
       const nextWorld = mutateWorld(context.world, (w) => {
         applyAction(w, seat, event.action);
         autoResolve(w);
       });
+      const drewSymptom =
+        nextWorld.game?.log
+          .slice(prevLogLen)
+          .some((e) => e.t === "symptom" && e.action === "gained") ?? false;
+      const nextUndo = reveals || drewSymptom ? [] : [...context.undo, context.world];
       return { world: nextWorld, undo: nextUndo };
     }),
     doPlay: assign(({ context, event }, params: { phase: Phase }) => {

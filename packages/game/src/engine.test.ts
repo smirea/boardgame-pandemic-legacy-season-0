@@ -1172,4 +1172,67 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     const afterEsc = a2.getSnapshot().context.world.game!;
     expect(afterEsc.pending[0]).toEqual({ t: "hand-limit", seat: activeSeat });
   });
+
+  test("clears undo history when an action draws a hidden Symptom card", () => {
+    const actor = startPlayingGame(106, 3);
+    const w = structuredClone(actor.getSnapshot().context.world);
+    const g = w.game!;
+    const seat = g.active;
+    const player = w.table.seats.find((s) => s.seat === seat)!.player;
+    w.campaign.rules.push("H");
+    g.supplies.symptoms = ["Lack of Coordination", "Memory Loss"];
+    g.players[seat].location = "washington";
+    g.locations["new-york"].diseaseCubes = 2;
+
+    const a2 = createGameActor({ save: { version: 1, phase: "playing.actions", world: w } });
+    a2.send({ type: "ACTION", player, action: { a: "drive", to: "new-york" } });
+    const snap = a2.getSnapshot();
+    expect(snap.context.world.game!.supplies.symptoms.length).toBe(1);
+    expect(snap.context.undo.length).toBe(0);
+  });
+
+  test("exiting an infiltration site returns to the host city without firing city-entry occupation triggers", () => {
+    const actor = startPlayingGame(107, 3);
+    const w = structuredClone(actor.getSnapshot().context.world);
+    const g = w.game!;
+    const seat = g.active;
+    const player = w.table.seats.find((s) => s.seat === seat)!.player;
+    w.campaign.rules.push("P", "Q");
+    g.supplies.symptoms = ["Mild Paralysis", "Difficulty Breathing"];
+    const passport = "pink";
+    g.players[seat].passport = passport;
+    w.campaign.passports[passport].aliases.soviet = {
+      affiliation: "soviet",
+      created: true,
+      name: "Pavel",
+      occupation: "red-army-doctor",
+      specialization: "deep-cover",
+      coverTrack: ["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"],
+      coverScratched: 0,
+      burned: false,
+      assets: [],
+      liabilities: [],
+    };
+    g.players[seat].activeAlias = "soviet";
+    g.players[seat].location = "novosibirsk";
+    g.players[seat].infiltration = { site: "pearl", room: "pearl-entrance" };
+    giveSymptomCard(w, seat);
+    const symBefore = g.players[seat].hand.filter((id) => g.playerCards[id]?.kind === "symptom").length;
+    expect(symBefore).toBe(1);
+
+    const a2 = createGameActor({ save: { version: 1, phase: "playing.actions", world: w } });
+    a2.send({ type: "ACTION", player, action: { a: "exit-infiltration" } });
+    const after = a2.getSnapshot().context.world.game!;
+    expect(after.players[seat].infiltration).toBeNull();
+    expect(after.players[seat].location).toBe("novosibirsk");
+    expect(after.players[seat].hand.filter((id) => after.playerCards[id]?.kind === "symptom").length).toBe(1);
+
+    // Street Cleaner also must not clear agents when exiting an infiltration site
+    const w2 = structuredClone(w);
+    w2.campaign.passports[passport].aliases.soviet.occupation = "street-cleaner";
+    w2.game!.locations.novosibirsk.agents = 2;
+    const a3 = createGameActor({ save: { version: 1, phase: "playing.actions", world: w2 } });
+    a3.send({ type: "ACTION", player, action: { a: "exit-infiltration" } });
+    expect(a3.getSnapshot().context.world.game!.locations.novosibirsk.agents).toBe(2);
+  });
 });

@@ -322,7 +322,7 @@ export function checkPursuitComplete(world: World): boolean {
 
 /**
  * Handles moving a player's pawn into `to`, firing all entry effects:
- * - Disease cubes (Rule H) & Contamination (Rule J) Symptom cards (skipped when exiting an infiltration site per Rule P)
+ * - Disease cubes (Rule H) & Contamination (Rule J) Symptom cards
  * - Red Army Doctor (return all Symptoms on entering Soviet city)
  * - Army Doctor contact (return all Symptoms on entering contact's city)
  * - Street Cleaner (remove all agents on entering Soviet city)
@@ -335,7 +335,6 @@ export function enterCity(
   to: CityId,
   options: {
     by: string;
-    fromInfiltration?: boolean;
     carryTeams?: TeamId[];
   },
 ): void {
@@ -348,13 +347,11 @@ export function enterCity(
   const loc = game.locations[to];
   const cCity = world.campaign.cities[to];
 
-  if (!options.fromInfiltration) {
-    if (hasRule(world.campaign, "H") && loc.diseaseCubes > 0) {
-      giveSymptomCard(world, seat);
-    }
-    if (hasRule(world.campaign, "J") && cCity.contaminated) {
-      giveSymptomCard(world, seat);
-    }
+  if (hasRule(world.campaign, "H") && loc.diseaseCubes > 0) {
+    giveSymptomCard(world, seat);
+  }
+  if (hasRule(world.campaign, "J") && cCity.contaminated) {
+    giveSymptomCard(world, seat);
   }
 
   // Red Army Doctor: when entering a Soviet city, return all Symptom cards

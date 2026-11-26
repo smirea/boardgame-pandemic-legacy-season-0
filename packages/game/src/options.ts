@@ -1036,7 +1036,7 @@ function addActionOptions(
           if (cards) {
             pushAct(
               `unlock-hatchway:${edge.id}`,
-              `Unlock Hatchway ${edge.id} -> ${pack.roomById[dest].name} (discard ${cards.map((id) => cityCardShort(world, id)).join("+")})`,
+              `Unlock Hatchway ${edge.id} -> ${pack.roomById[dest].name} (discard ${cards.map((id) => cityCardShort(world, id)).join("+")}; or 'unlock-hatchway:${edge.id}:<c1>,<c2>')`,
               { a: "unlock-hatchway", edgeId: edge.id, cards },
             );
           }

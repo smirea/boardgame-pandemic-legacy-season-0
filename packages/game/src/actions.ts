@@ -1305,6 +1305,7 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
     case "exit-infiltration": {
       const siteDef = pack.sites[player.infiltration!.site];
       player.infiltration = null;
+      player.location = siteDef.city;
       log(game, {
         t: "action",
         seat,
@@ -1312,7 +1313,6 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
         detail: `Exited ${siteDef.name} back to ${cityDef(siteDef.city).name}`,
         cost,
       });
-      enterCity(world, seat, siteDef.city, { by: "exit-infiltration", fromInfiltration: true });
       if (hasAsset(world, seat, "infrared-goggles") && !player.usedThisTurn.includes("infrared-goggles")) {
         player.usedThisTurn.push("infrared-goggles");
         const got = giveActionTokens(game, seat, 2);
