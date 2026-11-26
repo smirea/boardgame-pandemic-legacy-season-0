@@ -213,7 +213,7 @@ export function recordCommandAudit(
       bump(audit.roomsEntered, entry.room);
     } else if (entry.t === "satellite") {
       if (entry.action === "launched") audit.satellitesLaunched += 1;
-      if (entry.action === "disabled") audit.satellitesDisabled += 1;
+      if (entry.action === "disabled" || entry.action === "removed") audit.satellitesDisabled += 1;
       if (entry.action === "destroyed") audit.satellitesDestroyed += 1;
     }
   }

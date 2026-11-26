@@ -202,7 +202,10 @@ export function checkPlay(
 
     case "counter-intelligence": {
       const found = game.threatDiscard.find((t) => t.id === play.threatCardId);
-      if (!found) return "That card is not in the Threat discard pile";
+      if (!found) {
+        const live = game.threatDiscard.map((t) => t.id).join(", ") || "empty";
+        return `That card is not in the Threat discard pile (discard holds: ${live})`;
+      }
       return null;
     }
 
@@ -576,7 +579,7 @@ export function applyPlay(world: World, seat: SeatId, phase: string, play: Play)
       for (const r of play.regions) {
         game.satellites = game.satellites.filter((x) => x !== r);
         game.supplies.satellites += 1;
-        log(game, { t: "satellite", region: r, action: "disabled" });
+        log(game, { t: "satellite", region: r, action: "removed" });
       }
       log(game, {
         t: "event",

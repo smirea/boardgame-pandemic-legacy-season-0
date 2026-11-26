@@ -460,7 +460,7 @@ export type LogEntry = { seq: number } & (
   | { t: "team-move"; team: TeamId; from: CityId | null; to: CityId; by: string }
   | { t: "draw"; seat: SeatId; cards: CardId[] }
   | { t: "escalation"; step: string; detail: string }
-  | { t: "satellite"; region: RegionId; action: "launched" | "disabled" | "destroyed" }
+  | { t: "satellite"; region: RegionId; action: "launched" | "disabled" | "removed" | "destroyed" }
   | { t: "threat"; card: string; city: CityId; effect: string }
   | { t: "incident"; city: CityId; bottomCard: string; title: string; detail: string }
   | { t: "outbreak"; city: CityId; chain: boolean }

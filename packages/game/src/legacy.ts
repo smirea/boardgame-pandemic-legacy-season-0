@@ -1023,8 +1023,9 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       }
       break;
     case 112:
-    case 232:
       clearPursuitAndCheckpoints(world, true);
+      break;
+    case 232:
       break;
     case 198:
     case 113:

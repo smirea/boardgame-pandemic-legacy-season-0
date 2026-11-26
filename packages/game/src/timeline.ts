@@ -26,7 +26,7 @@ export type AnimationCue =
   | { cue: "incident"; city: CityId; bottomCard: string; title: string; detail: string }
   | { cue: "outbreak"; city: CityId; chain: boolean }
   | { cue: "escalation"; step: string; detail: string }
-  | { cue: "satellite"; region: RegionId; action: "launched" | "disabled" | "destroyed" }
+  | { cue: "satellite"; region: RegionId; action: "launched" | "disabled" | "removed" | "destroyed" }
   | { cue: "cover-scratch"; seat: SeatId; result: string; source: string }
   | { cue: "alias-burned"; seat: SeatId; passport: PassportColor; alias: Affiliation }
   | { cue: "infiltration-step"; seat: SeatId; site: InfiltrationSiteId; room: RoomId; detail: string }

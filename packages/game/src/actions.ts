@@ -559,8 +559,11 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
         return "Bad Cover Story liability prevents Disable Satellite";
       }
       const cc = world.campaign.cities[loc];
-      if (!cc.controlCenter || !cc.bugged) {
-        return "Must be in a city with a bugged Control Center";
+      if (!cc.controlCenter) {
+        return `${locDef.name} does not have a Control Center`;
+      }
+      if (!cc.bugged) {
+        return `Control Center in ${locDef.name} is not bugged`;
       }
       if (!game.satellites.includes(locDef.region)) {
         return `No active Satellite token in ${pack.regionNames[locDef.region]}`;
@@ -1507,7 +1510,7 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
         detail: `Test Pilot removed Satellite in ${pack.regionNames[action.region]}`,
         cost,
       });
-      log(game, { t: "satellite", region: action.region, action: "disabled" });
+      log(game, { t: "satellite", region: action.region, action: "removed" });
       break;
 
     case "spy-camera-draw": {
