@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-1.jpg)
+![](media/split/a3ad9647d9f9-1.webp)
 
 Annual Review
 Tally your score, then review your final evaluation on the back of this card.
@@ -28,7 +28,7 @@ TOTAL
 
 ## back
 
-![](media/split/0755b549db50-1.jpg)
+![](media/split/0755b549db50-1.webp)
 
 FINAL EVALUATION
 Total result is:

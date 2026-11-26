@@ -11,7 +11,7 @@ Player card. Region: pacific rim.
 
 ## front
 
-![](media/split/a8716e1c667f-26.jpg)
+![](media/split/a8716e1c667f-26.webp)
 
 OSAKA
 JAPAN

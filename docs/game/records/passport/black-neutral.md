@@ -39,7 +39,7 @@ Cover pips, left to right:
 
 ## state-2
 
-![](media/original/809535eabdca568e72638b7be90cca7c789dc2ec.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -67,7 +67,7 @@ Cover pips, left to right:
 
 ## state-3
 
-![](media/original/94a3d5f9c9943d76a94a7e3764cadaa0567571e0.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -95,7 +95,7 @@ Cover pips, left to right:
 
 ## state-4
 
-![](media/original/59d30496f649a6db9d88655dda0dbede8f08e99d.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -123,7 +123,7 @@ Cover pips, left to right:
 
 ## state-5
 
-![](media/original/8d93c544e0466714d6d331b0a354283640df281b.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -151,7 +151,7 @@ Cover pips, left to right:
 
 ## state-6
 
-![](media/original/fafa1f7e4b2a7e7e9ea91f81eaee2546a0a6a19c.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -179,7 +179,7 @@ Cover pips, left to right:
 
 ## state-7
 
-![](media/original/33b262daef0ba87406a2a4439e61d4fd605fd7db.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -207,7 +207,7 @@ Cover pips, left to right:
 
 ## state-8
 
-![](media/original/e03f6ec59e1df753103770358333e714fec34086.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -235,7 +235,7 @@ Cover pips, left to right:
 
 ## state-9
 
-![](media/original/d21cadb62182983f74624b194194f660bf69e521.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -263,7 +263,7 @@ Cover pips, left to right:
 
 ## state-10
 
-![](media/original/049f0d5520a0cdd170013ebf10db97519145d48a.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 
@@ -291,7 +291,7 @@ Cover pips, left to right:
 
 ## state-11
 
-![](media/original/625197153eb227dc2596d561347642fec87ca961.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Black pawn. Emblem: Neutral, a gray globe on a black circle.
 

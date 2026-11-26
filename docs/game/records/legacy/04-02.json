@@ -24,7 +24,7 @@
       "role": "both",
       "transcription": "MISSION BRIEFING\n\"No news on Sabik, but the Reds'll keep us plenty busy. They're buildin' something in Europe; their chatter is callin' it a ‘control center.’ We want to know what it's for, so figure out where it's bein' built and send a team to bug it.\nThere's another MEDUSA trial as well; try to help as many cities as you can.\"\nOPEN\n0007\nand read its contents.",
       "flavor": "\"No news on Sabik, but the Reds'll keep us plenty busy. They're buildin' something in Europe; their chatter is callin' it a ‘control center.’ We want to know what it's for, so figure out where it's bein' built and send a team to bug it.\nThere's another MEDUSA trial as well; try to help as many cities as you can.\"",
-      "image": "media/split/8ef8489d5a98-45.jpg"
+      "image": "media/split/8ef8489d5a98-45.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/70bec37606e4-45.jpg"
+      "image": "media/split/70bec37606e4-45.webp"
     }
   ],
   "states": [],

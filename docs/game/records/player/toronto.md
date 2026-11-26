@@ -11,7 +11,7 @@ Player card. Region: north america.
 
 ## front
 
-![](media/split/a8716e1c667f-12.jpg)
+![](media/split/a8716e1c667f-12.webp)
 
 TORONTO
 CANADA

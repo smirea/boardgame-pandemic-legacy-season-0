@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-15.jpg)
+![](media/split/a3ad9647d9f9-15.webp)
 
 RIGHT NOW
 1 Destroy the remaining cards in the Legacy Deck without looking at them.
@@ -23,7 +23,7 @@ Flavor: Play it cool.
 
 ## back
 
-![](media/split/0755b549db50-15.jpg)
+![](media/split/0755b549db50-15.webp)
 
 UPDATE FROM CIA
 "Congratulations are evidently in order. Someone higher in the organization has decided to end your probationary period. Frankly, I do not believe you are ready, but I was overruled.

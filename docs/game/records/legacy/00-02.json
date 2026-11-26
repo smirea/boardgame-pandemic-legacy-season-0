@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "RIGHT NOW\nDraw the next 2 cards. They are your prologue objectives. Set up these objectives following the instructions printed on them.\n\nWhen you complete or fail an objective, remember to immediately read its debrief entry in the Debrief book (even if it is the end of the game).\n\nAlso remember that the number of cities in each region and of each affiliation are shown in the reference area of the game board.",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-23.jpg"
+      "image": "media/split/ff910e2efc70-23.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-23.jpg"
+      "image": "media/split/6bdabf12abfb-23.webp"
     }
   ],
   "states": [],

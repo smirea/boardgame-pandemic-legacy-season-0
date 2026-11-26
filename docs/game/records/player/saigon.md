@@ -11,7 +11,7 @@ Player card. Region: asia.
 
 ## front
 
-![](media/split/a8716e1c667f-20.jpg)
+![](media/split/a8716e1c667f-20.webp)
 
 SAIGON
 REPUBLIC OF VIETNAM

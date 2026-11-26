@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 11 Europe City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen shuffle the remaining Europe cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-22.jpg"
+      "image": "media/split/ff910e2efc70-22.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "PROLOGUE OBJECTIVE 1\nRETRIEVE PROJECT MEDUSA SAMPLE\nAcquire Target in:\n1 UNKNOWN CITY IN EUROPE\nCompleted: Read Debrief 160\nFailed: Read Debrief 166",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-22.jpg"
+      "image": "media/split/6bdabf12abfb-22.webp"
     }
   ],
   "states": [],

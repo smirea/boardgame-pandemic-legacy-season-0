@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "Annual Review\nTally your score, then review your final evaluation on the back of this card.\n\n85 pts per SUCCEEDING evaluation\n55 pts per ADEQUATE evaluation\n-40 pts per FAILING evaluation (beginning of the month)\n0 pts per FAILING evaluation (end of the month)\n25 pts for stopping LION'S TOOTH\n25 pts for stealing the MEDUSA genome\n-10 pts per Exposed City\n-10 pts per Contaminated City\nTOTAL",
       "flavor": "",
-      "image": "media/split/a3ad9647d9f9-1.jpg"
+      "image": "media/split/a3ad9647d9f9-1.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "rules",
       "transcription": "FINAL EVALUATION\nTotal result is:\n\n800 or higher\nRead Debrief 236.\n\n650-799\nRead Debrief 237.\n\n450-649\nRead Debrief 238.\n\n300-449\nRead Debrief 239.\n\n299 or lower\nRead Debrief 240.\n\nKeep this card in your Personnel file. It will become part of your permanent record.",
       "flavor": "",
-      "image": "media/split/0755b549db50-1.jpg"
+      "image": "media/split/0755b549db50-1.webp"
     }
   ],
   "states": [],

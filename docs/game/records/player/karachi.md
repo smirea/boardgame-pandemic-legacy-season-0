@@ -11,7 +11,7 @@ Player card. Region: asia.
 
 ## front
 
-![](media/split/a8716e1c667f-41.jpg)
+![](media/split/a8716e1c667f-41.webp)
 
 KARACHI PAKISTAN ASIA 8
 

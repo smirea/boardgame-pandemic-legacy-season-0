@@ -11,14 +11,14 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-3.jpg)
+![](media/split/a3ad9647d9f9-3.webp)
 
 PAUSE
 Draw this card and read the back during step 3 at the end of the first game in December.
 
 ## back
 
-![](media/split/0755b549db50-3.jpg)
+![](media/split/0755b549db50-3.webp)
 
 RIGHT NOW
 THE CAMPAIGN IS OVER.

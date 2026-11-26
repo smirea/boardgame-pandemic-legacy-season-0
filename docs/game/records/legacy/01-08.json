@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\nENCODED MESSAGES\nChoose 2 players. They select 1 card from their hands and swap them.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-12.jpg"
+      "image": "media/split/ff910e2efc70-12.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-12.jpg"
+      "image": "media/split/6bdabf12abfb-12.webp"
     }
   ],
   "states": [],

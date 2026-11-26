@@ -8,7 +8,7 @@ Workshop save and rulebook used for this archive. Nothing here is a substitute m
 - Fetched from `https://cdn.1j1ju.com/medias/d3/af/a2-pandemic-legacy-saison-0-rulebook.pdf`
 - PDF 1.7, 16 pages, A4, dated 2020-12-06 in the file metadata
 - Printed identity: Department of Sabotage Field Manual No. N4245.3, Pandemic Legacy Season 0, © 2020 Z-Man Games
-- Page images: `rules/pages/page-01.png` through `page-16.png` (rendered at 140 dpi)
+- Page images are the PDF's own pages: a record points at `source/rulebook-1j1ju.pdf#page=<n>`
 - The file has almost no text layer on the early pages. `rules/rulebook.md` is the cleaned manual with every rule sticker in its slot. A comment before each sticker says which card unlocks it. The page images are the book before those stickers
 - Publisher contents cross-check: `https://www.zmangames.com/game/pandemic-legacy-season-0/` (same component list as page 2)
 
@@ -24,7 +24,8 @@ Workshop save and rulebook used for this archive. Nothing here is a substitute m
 - 500 unique asset URLs, 0 failures: 424 JPEG, 69 PNG, 7 OBJ
 - The 15 card sheets (Tabletop Simulator `CustomDeck` faces and unique backs, up to 7250×7154 PNG) were split into `media/split/` and then deleted, about 700 MB. Every cell was checked against its crop of the sheet before deletion. To get a sheet back, fetch its URL from `media/url-map.json` on `cdn.steamusercontent.com`
 - The images are for reading, not for the product. Files in `media/original/` are capped at 2000 px on the long edge and re-encoded (JPEG quality 85, PNG kept as PNG), so `bytes` in `url-map.json` is the downloaded size, not the stored one. Full resolution is the same URL on the CDN
-- The secondary image `c9e4842e…png` is not kept. No record uses it
+- Card-sheet cells in `media/split/` are WebP at quality 85
+- Not kept, each marked `dropped` in `url-map.json`: the secondary image `c9e4842e…png`, which no record uses, and the passport scratch states 2–11, which differ from state 1 only in the scratched pips their records list
 - September helper workshop `2608806457` is not available (`GetPublishedFileDetails` result 9, no `file_url`). The PEARL compound tiles numbered 1–14 plus Entrance are already inside this mod's bag `0003`. They are labeled as that bag, not imported from the other workshop
 
 ## Not the corpus

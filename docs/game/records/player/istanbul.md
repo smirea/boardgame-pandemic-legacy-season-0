@@ -11,7 +11,7 @@ Player card. Region: europe.
 
 ## front
 
-![](media/split/a8716e1c667f-43.jpg)
+![](media/split/a8716e1c667f-43.webp)
 
 ISTANBUL TURKEY EUROPE 2
 

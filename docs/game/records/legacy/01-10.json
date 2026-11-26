@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\nSCRAMBLE TEAMS\nMove every team up to 3 cities away from their current locations.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-10.jpg"
+      "image": "media/split/ff910e2efc70-10.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-10.jpg"
+      "image": "media/split/6bdabf12abfb-10.webp"
     }
   ],
   "states": [],

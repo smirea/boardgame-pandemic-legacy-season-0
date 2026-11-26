@@ -11,7 +11,7 @@ Player card. Region: africa.
 
 ## front
 
-![](media/split/a8716e1c667f-40.jpg)
+![](media/split/a8716e1c667f-40.webp)
 
 KHARTOUM SUDAN AFRICA 4
 

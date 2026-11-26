@@ -11,13 +11,13 @@ Operations card. The book numbers operations 50–89 and counts 42 cards.
 
 ## front
 
-![](media/split/f7f847d898dc-5.jpg)
+![](media/split/f7f847d898dc-5.webp)
 
 FEBRUARY OBJECTIVE 1A QUARANTINE AN EXPOSED CITY IN AFRICA Acquire Target in: 1 EXPOSED CITY IN AFRICA, USING 2 ACTIVE TEAMS AT THE SAME TIME Completed: Read Debrief 175 Failed: Read Debrief 162
 
 ## back
 
-![](media/split/a09b11f8464a-5.jpg)
+![](media/split/a09b11f8464a-5.webp)
 
 85 85 OPERATIONS 85
 

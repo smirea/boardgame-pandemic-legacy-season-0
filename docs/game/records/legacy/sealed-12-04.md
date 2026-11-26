@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-5.jpg)
+![](media/split/a3ad9647d9f9-5.webp)
 
 This objective has an unknown target city.
 
@@ -23,7 +23,7 @@ Finally, flip this card over and place it on top of the unknown City card.
 
 ## back
 
-![](media/split/0755b549db50-5.jpg)
+![](media/split/0755b549db50-5.webp)
 
 DECEMBER OBJECTIVE 2
 STOP OPERATION LION'S TOOTH

@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "RIGHT NOW\n\nOpen the following doors:\n20 21 26\n\nIf you received a FAILING evaluation for the first half of the month, read Debrief 212.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-35.jpg"
+      "image": "media/split/cc2c7c586e0d-35.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/1aaabc2decc1-35.jpg"
+      "image": "media/split/1aaabc2decc1-35.webp"
     }
   ],
   "states": [],

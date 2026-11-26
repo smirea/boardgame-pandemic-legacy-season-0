@@ -24,7 +24,7 @@
       "role": "both",
       "transcription": "\"Got another question for your personnel file; answer it as honestly as you can.\"\nFill out the other side of this card as a group, then place this card into your Personnel file.",
       "flavor": "\"Got another question for your personnel file; answer it as honestly as you can.\"",
-      "image": "media/split/8ef8489d5a98-52.jpg"
+      "image": "media/split/8ef8489d5a98-52.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "Decide as a group, then fill in 1 bubble per question.\n4. We have emotional attachments to our friends.\nAGREE\nDISAGREE\nAfter answering, put this card into your Personnel file.",
       "flavor": "",
-      "image": "media/split/70bec37606e4-52.jpg"
+      "image": "media/split/70bec37606e4-52.webp"
     }
   ],
   "states": [],

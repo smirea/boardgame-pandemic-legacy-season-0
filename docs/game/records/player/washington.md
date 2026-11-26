@@ -11,7 +11,7 @@ Player card. Region: north america.
 
 ## front
 
-![](media/split/a8716e1c667f-11.jpg)
+![](media/split/a8716e1c667f-11.webp)
 
 WASHINGTON
 UNITED STATES

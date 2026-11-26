@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "PAUSE\n\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial objective).",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-7.jpg"
+      "image": "media/split/8ef8489d5a98-7.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "RIGHT NOW\n\nDraw the next 4 cards and continue reading the debrief entry.",
       "flavor": "",
-      "image": "media/split/70bec37606e4-7.jpg"
+      "image": "media/split/70bec37606e4-7.webp"
     }
   ],
   "states": [],

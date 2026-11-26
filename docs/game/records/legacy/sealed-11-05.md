@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-11.jpg)
+![](media/split/a3ad9647d9f9-11.webp)
 
 SABIK'S BRIEFING
 "Good, that little deception I created paid off, and they think I'm dead. Definitely handle Doc Morris's two objectives; I'm all about stopping MEDUSA and LION'S TOOTH.
@@ -22,4 +22,4 @@ Here's what she didn't tell you. She sent another team into PEARL last month and
 
 ## back
 
-![](media/split/0755b549db50-11.jpg)
+![](media/split/0755b549db50-11.webp)

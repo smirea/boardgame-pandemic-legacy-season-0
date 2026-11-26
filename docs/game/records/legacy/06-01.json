@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "STOP\nDraw this card just before you set up your first game in June.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-14.jpg"
+      "image": "media/split/8ef8489d5a98-14.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "both",
       "transcription": "WE NEED TO TALK\n“I was reviewing your files, looking at the work you did last month tracking down Sabik's operatives.\nI have questions for you.”\nIf Operation card 62 is in the Intelligence file, read Debrief 189.\nIf Operation card 63 is in the Intelligence file, read Debrief 200.\nIf neither card is there, read Debrief 221.",
       "flavor": "“I was reviewing your files, looking at the work you did last month tracking down Sabik's operatives.\nI have questions for you.”",
-      "image": "media/split/70bec37606e4-14.jpg"
+      "image": "media/split/70bec37606e4-14.webp"
     }
   ],
   "states": [],

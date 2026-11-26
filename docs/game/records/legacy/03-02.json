@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "This objective has an unknown target city.\nTo set it up, separate the 5 Pacific Rim City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\nThen, shuffle the remaining Pacific Rim cards back into the Player deck without looking at them.\nFinally, flip this card over and place it on top of the unknown City card.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-54.jpg"
+      "image": "media/split/8ef8489d5a98-54.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "MARCH OBJECTIVE 1\nINVESTIGATE SOVIET MANUFACTURING\nAcquire Target in:\n1 UNKNOWN CITY IN THE PACIFIC RIM\nCompleted: Read Debrief 205\nFailed: Read Debrief 161",
       "flavor": "",
-      "image": "media/split/70bec37606e4-54.jpg"
+      "image": "media/split/70bec37606e4-54.webp"
     }
   ],
   "states": [],

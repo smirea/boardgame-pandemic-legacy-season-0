@@ -39,7 +39,7 @@ Cover pips, left to right:
 
 ## state-2
 
-![](media/original/a7b297956fa1b49468d68a6efe80c3f82e5a34ab.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -67,7 +67,7 @@ Cover pips, left to right:
 
 ## state-3
 
-![](media/original/f795a969e417a6e61d02e695bfb35144ff4ced92.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -95,7 +95,7 @@ Cover pips, left to right:
 
 ## state-4
 
-![](media/original/722b6275bd91e617787563937adcb006c0cbf83b.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -123,7 +123,7 @@ Cover pips, left to right:
 
 ## state-5
 
-![](media/original/141879cc79cc2a770eba087595b3f2c4837270e2.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -151,7 +151,7 @@ Cover pips, left to right:
 
 ## state-6
 
-![](media/original/994513e2202a6273facab8f03605456275b9af9f.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -179,7 +179,7 @@ Cover pips, left to right:
 
 ## state-7
 
-![](media/original/3a9d23fc244e5383a0c7d18254c0e11f96f251f2.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -207,7 +207,7 @@ Cover pips, left to right:
 
 ## state-8
 
-![](media/original/1aa5d60b3f809beb34a727377741fd51e9ebe641.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -235,7 +235,7 @@ Cover pips, left to right:
 
 ## state-9
 
-![](media/original/b4ecb80a735f1845c72307ba20c515a6e9a34e7c.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -263,7 +263,7 @@ Cover pips, left to right:
 
 ## state-10
 
-![](media/original/2a3366339a2c4e56e1ea981d3b030c081817c530.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 
@@ -291,7 +291,7 @@ Cover pips, left to right:
 
 ## state-11
 
-![](media/original/35a2168ba79a84175a1ba967e5462dc945c180fa.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Pink pawn. Emblem: Soviet, an orange hammer and sickle on a black circle.
 

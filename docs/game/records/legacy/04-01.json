@@ -26,7 +26,7 @@
       "role": "rules",
       "transcription": "STOP\nDraw this card just before you set up your first game in April.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-46.jpg"
+      "image": "media/split/8ef8489d5a98-46.webp"
     },
     {
       "id": "back",
@@ -34,7 +34,7 @@
       "role": "both",
       "transcription": "REPORT:\nTRANSMISSION METHOD\n\"The eggheads are lookin' to figure out how the Soviets plan to deploy MEDUSA. You've been out in the field; can you give them some direction?\"\nCheck one box and place this card in your Intelligence file:\nTransmission Method:\nAirborne\nAnimal Contact\nSaliva\nWaterborne",
       "flavor": "\"The eggheads are lookin' to figure out how the Soviets plan to deploy MEDUSA. You've been out in the field; can you give them some direction?\"",
-      "image": "media/split/70bec37606e4-46.jpg"
+      "image": "media/split/70bec37606e4-46.webp"
     }
   ],
   "states": [],

@@ -11,7 +11,7 @@ Player card. Region: asia.
 
 ## front
 
-![](media/split/a8716e1c667f-47.jpg)
+![](media/split/a8716e1c667f-47.webp)
 
 DELHI INDIA ASIA 4
 

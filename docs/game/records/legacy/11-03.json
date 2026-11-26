@@ -22,7 +22,7 @@
       "role": "both",
       "transcription": "MISSION BRIEFING\n\n\"'Operation LION'S TOOTH.' This is what the Soviets call their MEDUSA deployment plan, and we need to know more. A Soviet spy posing as a businessman, last seen in Sydney, has this information. Find him.\n\nYour second objective is to dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment. Finally, Sabik is laying low, but many of his allies are parting ways with him. Find one.\"\n\nOpen the following doors:\nU 39 42 S",
       "flavor": "\"'Operation LION'S TOOTH.' This is what the Soviets call their MEDUSA deployment plan, and we need to know more. A Soviet spy posing as a businessman, last seen in Sydney, has this information. Find him.\n\nYour second objective is to dig deeper into PEARL compound; locate and sabotage the MEDUSA manufacturing equipment. Finally, Sabik is laying low, but many of his allies are parting ways with him. Find one.\"",
-      "image": "media/split/cc2c7c586e0d-13.jpg"
+      "image": "media/split/cc2c7c586e0d-13.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "both",
       "transcription": "MISSION BRIEFING\n\n\"One more thing...\"\n\nIf the \"Help from Sabik\" card is in the Operations Area, read Debrief 231.",
       "flavor": "\"One more thing...\"",
-      "image": "media/split/1aaabc2decc1-13.jpg"
+      "image": "media/split/1aaabc2decc1-13.webp"
     }
   ],
   "states": [],

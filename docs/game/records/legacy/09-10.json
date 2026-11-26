@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "PAUSE\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial Objective).",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-25.jpg"
+      "image": "media/split/cc2c7c586e0d-25.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "rules",
       "transcription": "RIGHT NOW\nIf any player has at least 1 Chronic Infection sticker on their passport, take the following Relapse card and add it to the Player discard pile. (Keep this card in the Player deck for all future games.)\nIf no passports have Chronic Infection stickers, destroy the Relapse card.",
       "flavor": "",
-      "image": "media/split/1aaabc2decc1-25.jpg"
+      "image": "media/split/1aaabc2decc1-25.webp"
     }
   ],
   "states": [],

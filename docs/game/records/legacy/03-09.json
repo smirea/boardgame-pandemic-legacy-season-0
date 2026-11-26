@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\nONE QUIET NIGHT\nSkip the Draw Threat Cards step this turn.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-47.jpg"
+      "image": "media/split/8ef8489d5a98-47.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/70bec37606e4-47.jpg"
+      "image": "media/split/70bec37606e4-47.webp"
     }
   ],
   "states": [],

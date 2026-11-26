@@ -11,7 +11,7 @@ Player card. Region: europe.
 
 ## front
 
-![](media/split/a8716e1c667f-39.jpg)
+![](media/split/a8716e1c667f-39.webp)
 
 LENINGRAD
 SOVIET UNION

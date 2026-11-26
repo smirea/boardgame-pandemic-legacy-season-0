@@ -11,7 +11,7 @@ Player card. Region: pacific rim.
 
 ## front
 
-![](media/split/a8716e1c667f-44.jpg)
+![](media/split/a8716e1c667f-44.webp)
 
 JAKARTA INDONESIA PACIFIC RIM 6
 

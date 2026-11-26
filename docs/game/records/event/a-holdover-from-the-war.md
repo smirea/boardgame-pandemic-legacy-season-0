@@ -11,7 +11,7 @@ Event. Part of the 58 player cards. Playable any time it is your turn, not betwe
 
 ## front
 
-![](media/split/a8716e1c667f-8.jpg)
+![](media/split/a8716e1c667f-8.webp)
 
 EVENT
 

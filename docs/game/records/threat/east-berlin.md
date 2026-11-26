@@ -11,7 +11,7 @@ Threat card. Drawing it from the bottom of the deck is the incident effect.
 
 ## front
 
-![](media/split/f50a156f5be0-37.jpg)
+![](media/split/f50a156f5be0-37.webp)
 
 EAST BERLIN
 GERMAN DEMOCRATIC REPUBLIC

@@ -11,7 +11,7 @@ Escalation card. Setup puts one in each of the five player-deck piles. The save 
 
 ## front
 
-![](media/split/a8716e1c667f-4.jpg)
+![](media/split/a8716e1c667f-4.webp)
 
 ESCALATION 1. INCREASE THREAT Advance the Threat Level marker 1 space. 2. ADD AGENTS Draw the bottom card from the Threat deck and add 3 agents to that city. Discard the card to the Threat discard pile. 3. INTENSIFY Shuffle the cards in the Threat discard pile and put them on top of the Threat deck.
 

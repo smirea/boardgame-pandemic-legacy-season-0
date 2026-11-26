@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-12.jpg)
+![](media/split/a3ad9647d9f9-12.webp)
 
 This is a pursuit objective.
 To set it up, place a Pursuit token in Sydney.
@@ -23,7 +23,7 @@ Flavor: "I've been tracking this Soviet agent since June. An old pal down under 
 
 ## back
 
-![](media/split/0755b549db50-12.jpg)
+![](media/split/0755b549db50-12.webp)
 
 NOVEMBER OBJECTIVE 2
 LEARN ABOUT MEDUSA DEPLOYMENT PLAN

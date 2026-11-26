@@ -26,7 +26,7 @@
       "role": "rules",
       "transcription": "PSYCHOLOGICAL EVALUATION\nReview your responses to questions 1–4 from the tests in your Personnel file. Circle the number for each question then total your results.\nAGREE DISAGREE\nQuestion 1 1 0\nQuestion 2 1 0\nQuestion 3 0 1\nQuestion 4 0 1\nSUBTOTAL:\nIf Operations card 61 is in your Intelligence file, add 2 to this total.\nTOTAL:\nFlip this card over for your test results.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-50.jpg"
+      "image": "media/split/8ef8489d5a98-50.webp"
     },
     {
       "id": "back",
@@ -34,7 +34,7 @@
       "role": "rules",
       "transcription": "TEST RESULTS\nRead the debrief corresponding to your total:\n0–2: Read Debrief 143\n3–4: Read Debrief 207\n5–6: Read Debrief 228\nIf you receive a Restriction card, put it into the Operations area of the board, and continue to do so at the start of each game.\nKeep this card in your Personnel file.",
       "flavor": "",
-      "image": "media/split/70bec37606e4-50.jpg"
+      "image": "media/split/70bec37606e4-50.webp"
     }
   ],
   "states": [],

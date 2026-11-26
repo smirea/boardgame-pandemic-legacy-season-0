@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\n\nEXTENDED TIME\n\nGive 2 Action Tokens to the current player.\n\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-24.jpg"
+      "image": "media/split/8ef8489d5a98-24.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/70bec37606e4-24.jpg"
+      "image": "media/split/70bec37606e4-24.webp"
     }
   ],
   "states": [],

@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "EVENT\n\nSPECTRUM INTERFERENCE\n\nReturn up to 2 Satellite tokens (that are currently in play) back to the reserve.\n\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-46.jpg"
+      "image": "media/split/cc2c7c586e0d-46.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/1aaabc2decc1-46.jpg"
+      "image": "media/split/1aaabc2decc1-46.webp"
     }
   ],
   "states": [],

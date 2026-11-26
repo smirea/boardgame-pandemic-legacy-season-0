@@ -7,15 +7,15 @@
 - Source GUID: —
 - Unreferenced: no
 
-Department of Sabotage Field Manual No. N4245.3. The book with every rule sticker in its slot is rules/rulebook.md. A comment before each sticker says which card unlocks it. Page images are the faces of the unstickered book.
+Department of Sabotage Field Manual No. N4245.3. The book with every rule sticker in its slot is rules/rulebook.md. A comment before each sticker says which card unlocks it. The PDF pages are the unstickered book.
 
 ## field-manual
 
-![](rules/pages/page-01.png)
+Page: `source/rulebook-1j1ju.pdf#page=1`
 
 # Pandemic Legacy: Season 0
 
-Department of Sabotage Field Manual No. N4245.3. Rulebook transcription of the 16-page Z-Man book (© 2020 Z-Man Games). Page images are `page-01.png` through `page-16.png` beside this file. Headings follow the book. A sticker slot is quoted as printed: the page is blank until a sticker is placed there.
+Department of Sabotage Field Manual No. N4245.3. Rulebook transcription of the 16-page Z-Man book (© 2020 Z-Man Games). Each page's image is that page of `source/rulebook-1j1ju.pdf`. Headings follow the book. A sticker slot is quoted as printed: the page is blank until a sticker is placed there.
 
 Designers: Matt Leacock and Rob Daviau. Story: Rob Daviau and Justin Kemppainen. The game calendar printed on the back of the Debrief Book is included below, because the rulebook tells you to use it and the manual's own funding rules match that sheet.
 
@@ -805,7 +805,7 @@ Flavor: December 1961. Camp Swampy. Project MEDUSA. You were chosen to serve.
 
 ## page-01
 
-![](rules/pages/page-01.png)
+Page: `source/rulebook-1j1ju.pdf#page=1`
 
 ## Cover
 
@@ -815,7 +815,7 @@ Regraded unclassified by authority of DoD Dir. 5200.1 R, by John Cooper. Prepare
 
 ## page-02
 
-![](rules/pages/page-02.png)
+Page: `source/rulebook-1j1ju.pdf#page=2`
 
 ## Starting components
 
@@ -848,7 +848,7 @@ Campaign materials, which the book says not to open or examine until instructed:
 
 ## page-03
 
-![](rules/pages/page-03.png)
+Page: `source/rulebook-1j1ju.pdf#page=3`
 
 ## You were chosen to serve. You were willing to lead.
 
@@ -880,7 +880,7 @@ CMO John Cooper. File photo: Charles Sabik, circa March 1960.
 
 ## page-04
 
-![](rules/pages/page-04.png)
+Page: `source/rulebook-1j1ju.pdf#page=4`
 
 ## Playing a legacy game
 
@@ -942,7 +942,7 @@ The first set of digits indicate the in-game month ("00" for the prologue). The 
 
 ## page-05
 
-![](rules/pages/page-05.png)
+Page: `source/rulebook-1j1ju.pdf#page=5`
 
 ## Other legacy components
 
@@ -1033,7 +1033,7 @@ The campaign ends after you finish December. At that point, you are scored on yo
 
 ## page-06
 
-![](rules/pages/page-06.png)
+Page: `source/rulebook-1j1ju.pdf#page=6`
 
 ## Key concepts
 
@@ -1075,7 +1075,7 @@ Active team example. An Allied team starts the turn in Cairo. Since it is in a S
 
 ## page-07
 
-![](rules/pages/page-07.png)
+Page: `source/rulebook-1j1ju.pdf#page=7`
 
 ## Characters
 
@@ -1137,7 +1137,7 @@ When choosing characters at the start of a game, if all the active aliases of a 
 
 ## page-08
 
-![](rules/pages/page-08.png)
+Page: `source/rulebook-1j1ju.pdf#page=8`
 
 ## Setup
 
@@ -1175,7 +1175,7 @@ PLACE RULE STICKER HERE WHEN INSTRUCTED.
 
 ## page-09
 
-![](rules/pages/page-09.png)
+Page: `source/rulebook-1j1ju.pdf#page=9`
 
 ### 7. Prepare the Player deck and deal cards
 
@@ -1244,7 +1244,7 @@ Player-turn reminder printed on the board: 1. Check Surveillance. 2. Do 4 Action
 
 ## page-10
 
-![](rules/pages/page-10.png)
+Page: `source/rulebook-1j1ju.pdf#page=10`
 
 ## Player turns
 
@@ -1304,7 +1304,7 @@ Discard the City card matching your city to move to any city on the board (inclu
 
 ## page-11
 
-![](rules/pages/page-11.png)
+Page: `source/rulebook-1j1ju.pdf#page=11`
 
 #### Neutralize agent
 
@@ -1375,7 +1375,7 @@ Important! You can place teams in multiple possible cities to increase your odds
 
 ## page-12
 
-![](rules/pages/page-12.png)
+Page: `source/rulebook-1j1ju.pdf#page=12`
 
 Unknown target city example. Players have narrowed the possible target cities in Europe to Paris, Rome, and Prague: two Allied cities and one Soviet. They position their Soviet team in Prague. They can position their Allied team in Paris or Rome. On a gamble, they place their Allied team in Rome and then do the Acquire Targets action. If the target city is either Prague or Rome, they'll successfully complete the objective. If it is Paris, they will fail. Given how the game was going, they didn't believe they would be able to assemble and position another Allied team in Paris to guarantee success. Ultimately, they decided it was worth the risk.
 
@@ -1385,7 +1385,7 @@ The rest of the unknown-target example page is empty sticker slots. Each one pri
 
 ## page-13
 
-![](rules/pages/page-13.png)
+Page: `source/rulebook-1j1ju.pdf#page=13`
 
 ### 3. Mop up
 
@@ -1439,7 +1439,7 @@ If you would place a fourth agent on a city, an incident occurs instead. (Agents
 
 ## page-14
 
-![](rules/pages/page-14.png)
+Page: `source/rulebook-1j1ju.pdf#page=14`
 
 ## Incidents
 
@@ -1484,7 +1484,7 @@ After the game ends, proceed to "After the Game" on page 16.
 
 ## page-15
 
-![](rules/pages/page-15.png)
+Page: `source/rulebook-1j1ju.pdf#page=15`
 
 ## Hand limit
 
@@ -1543,7 +1543,7 @@ Z-Man Games, 1995 County Road B2 West, Roseville MN 55113 USA, (651) 639-1905, i
 
 ## page-16
 
-![](rules/pages/page-16.png)
+Page: `source/rulebook-1j1ju.pdf#page=16`
 
 ## After the game
 

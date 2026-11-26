@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\nBORDER SECURITY\nEach player may add up to 2 checkpoint tokens to the board on connections adjacent to their current city.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-15.jpg"
+      "image": "media/split/8ef8489d5a98-15.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/70bec37606e4-15.jpg"
+      "image": "media/split/70bec37606e4-15.webp"
     }
   ],
   "states": [],

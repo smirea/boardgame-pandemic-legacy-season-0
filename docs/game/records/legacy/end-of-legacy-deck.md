@@ -11,14 +11,14 @@ Warning card at the end of the legacy deck. It has no NN-NN code.
 
 ## front
 
-![](media/split/cc2c7c586e0d-0.jpg)
+![](media/split/cc2c7c586e0d-0.webp)
 
 WARNING!
 END OF LEGACY DECK
 
 ## back
 
-![](media/split/1aaabc2decc1-0.jpg)
+![](media/split/1aaabc2decc1-0.webp)
 
 WARNING!
 END OF LEGACY DECK

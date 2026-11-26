@@ -11,7 +11,7 @@ Player card. Region: africa.
 
 ## front
 
-![](media/split/a8716e1c667f-37.jpg)
+![](media/split/a8716e1c667f-37.webp)
 
 LAGOS NIGERIA AFRICA 2
 

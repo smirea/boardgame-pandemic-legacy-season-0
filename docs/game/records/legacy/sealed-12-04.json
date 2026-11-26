@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the City cards matching cities with a Control Center sticker from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the other cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
       "flavor": "",
-      "image": "media/split/a3ad9647d9f9-5.jpg"
+      "image": "media/split/a3ad9647d9f9-5.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "rules",
       "transcription": "DECEMBER OBJECTIVE 2\nSTOP OPERATION LION'S TOOTH\nAcquire Target in:\n1 UNKNOWN CITY WITH A CONTROL CENTER\nYOU MAY NOT USE THE IDENTIFY TARGET CITY ACTION\nCompleted: Read Debrief 155\nFailed: Read Debrief 117",
       "flavor": "",
-      "image": "media/split/0755b549db50-5.jpg"
+      "image": "media/split/0755b549db50-5.webp"
     }
   ],
   "states": [],

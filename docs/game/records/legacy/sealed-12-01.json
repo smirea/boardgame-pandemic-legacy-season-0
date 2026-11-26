@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "STOP\nDraw this card just before you set up your first game in December.",
       "flavor": "",
-      "image": "media/split/a3ad9647d9f9-8.jpg"
+      "image": "media/split/a3ad9647d9f9-8.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "both",
       "transcription": "FOLLOWING UP\n\"We followed your leads on Operation LION'S TOOTH. Here's what we discovered.\"\nTake your MEDUSA Deployment report out of your Intelligence file.\nNote your answer, then read the appropriate debrief:\nJellyfish: Read Debrief 126\nAgent Sabik: Read Debrief 109\nPollen: Read Debrief 140\nWe Don't Know: Read Debrief 120",
       "flavor": "\"We followed your leads on Operation LION'S TOOTH. Here's what we discovered.\"",
-      "image": "media/split/0755b549db50-8.jpg"
+      "image": "media/split/0755b549db50-8.webp"
     }
   ],
   "states": [],

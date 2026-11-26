@@ -11,13 +11,13 @@ Operations card. The book numbers operations 50–89 and counts 42 cards.
 
 ## front
 
-![](media/split/f7f847d898dc-1.jpg)
+![](media/split/f7f847d898dc-1.webp)
 
 JUNE OBJECTIVE 1A QUARANTINE AN EXPOSED CITY IN EUROPE Acquire Target in: 1 EXPOSED CITY IN EUROPE, USING 2 ACTIVE TEAMS AT THE SAME TIME Completed: Read Debrief 132 Failed: Read Debrief 211
 
 ## back
 
-![](media/split/a09b11f8464a-1.jpg)
+![](media/split/a09b11f8464a-1.webp)
 
 89 89 OPERATIONS 89
 

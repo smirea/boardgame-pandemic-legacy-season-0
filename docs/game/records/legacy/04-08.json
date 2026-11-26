@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "SYMPTOM\nTremors\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-39.jpg"
+      "image": "media/split/8ef8489d5a98-39.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "SYMPTOM\nTremors\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
       "flavor": "",
-      "image": "media/split/70bec37606e4-39.jpg"
+      "image": "media/split/70bec37606e4-39.webp"
     }
   ],
   "states": [],

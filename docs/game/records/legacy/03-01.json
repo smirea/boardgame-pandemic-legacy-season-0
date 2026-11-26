@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "STOP\nDraw this card just before you set up your first game in March.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-55.jpg"
+      "image": "media/split/8ef8489d5a98-55.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "both",
       "transcription": "MISSION BRIEFING\n\"I was hopin' that we'd be able to work this thing out with Agent Sabik, but...he's got someone in Prague selling CIA secrets, and we can't let that slide. While I wish you could just focus on Sabik, Soviets are nosing around manufacturing sites and we gotta know why.\nFinally, some good news: the folks in the lab cooked up a partial treatment for some of the MEDUSA symptoms, which has come just in time.\"\nOPEN\n0001\nand read its contents.",
       "flavor": "\"I was hopin' that we'd be able to work this thing out with Agent Sabik, but...he's got someone in Prague selling CIA secrets, and we can't let that slide. While I wish you could just focus on Sabik, Soviets are nosing around manufacturing sites and we gotta know why.\nFinally, some good news: the folks in the lab cooked up a partial treatment for some of the MEDUSA symptoms, which has come just in time.\"",
-      "image": "media/split/70bec37606e4-55.jpg"
+      "image": "media/split/70bec37606e4-55.webp"
     }
   ],
   "states": [],

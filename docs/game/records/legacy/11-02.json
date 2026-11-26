@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "PAUSE\nDraw this card and read the back when instructed.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-14.jpg"
+      "image": "media/split/cc2c7c586e0d-14.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "both",
       "transcription": "MISSION BRIEFING\n“I understand that you declined Sabik’s offer—yes, we were watching you, don’t be too surprised.\nYou made the correct choice; with his deteriorating mental state, only a fool would trust him. This display of loyalty has allowed me to push through an early end to your probationary period.\nCongratulations, you are now full agents.”\nDestroy all of your restrictions.\nRaise your funding by 2.",
       "flavor": "“I understand that you declined Sabik’s offer—yes, we were watching you, don’t be too surprised.\nYou made the correct choice; with his deteriorating mental state, only a fool would trust him. This display of loyalty has allowed me to push through an early end to your probationary period.\nCongratulations, you are now full agents.”",
-      "image": "media/split/1aaabc2decc1-14.jpg"
+      "image": "media/split/1aaabc2decc1-14.webp"
     }
   ],
   "states": [],

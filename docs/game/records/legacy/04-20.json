@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 11 Europe City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Europe cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-27.jpg"
+      "image": "media/split/8ef8489d5a98-27.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "APRIL OBJECTIVE 2\n\nBUG CONTROL CENTER\n\nAcquire Target in:\n1 UNKNOWN CITY IN EUROPE\n\nCompleted: Read Debrief 165\nFailed: Read Debrief 193",
       "flavor": "",
-      "image": "media/split/70bec37606e4-27.jpg"
+      "image": "media/split/70bec37606e4-27.webp"
     }
   ],
   "states": [],

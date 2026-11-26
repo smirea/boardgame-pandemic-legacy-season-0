@@ -232,7 +232,7 @@
     "bytes": 2004158
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941572656/85CD7D2900972D2FA2A9E3C3DB0271756612BDB7/": {
-    "split": "media/split/6bdabf12abfb-<cell>.jpg",
+    "split": "media/split/6bdabf12abfb-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 29908270
@@ -250,7 +250,7 @@
     "bytes": 4448028
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941572045/56382E0243828F18D398FE55CDCF6CAC20A3B963/": {
-    "split": "media/split/ff910e2efc70-<cell>.jpg",
+    "split": "media/split/ff910e2efc70-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 37551356
@@ -296,7 +296,7 @@
     "bytes": 1270961
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941565692/0409E6B549968E8D64D191D43E210C7E78047782/": {
-    "split": "media/split/8ef8489d5a98-<cell>.jpg",
+    "split": "media/split/8ef8489d5a98-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 85589581
@@ -310,7 +310,8 @@
     "bytes": 334889
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941803270/86394CEE64780A0CB410EDDC41E5322CA073F2AC/": {
-    "path": "media/original/49d2eb8c4f788b9c5b4b7f844c5859ff40040aff.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1277251
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941761520/1519D9996AC150358FCAD46351352C955A7F9026/": {
@@ -318,15 +319,18 @@
     "bytes": 5594639
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941802416/587FA4A6F09802C28585FE5DB2C54F0BB1B4E186/": {
-    "path": "media/original/351e6c334a6789e7a57186ad9f6e176d98129322.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1274448
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941804132/9E7BA3F043C429D241E6A81EAB5EBE5535796EDB/": {
-    "path": "media/original/67299f6a7a673c46e74c182c4f39625202f409b9.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1278209
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941804669/0B73360EF85EA484524DD6E811F3D5199B158896/": {
-    "path": "media/original/2f981effe9c1c4efee493f42178faea15fdd6722.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1280604
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941767137/C984E144EAA3F5D87C70B9712B400A9E687EB9A9/": {
@@ -334,7 +338,8 @@
     "bytes": 5796222
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941805303/6A161CABFEF53DAC2CB67C530CF7C287196DD47E/": {
-    "path": "media/original/a1ef3fb1d1f3613ad8052801f6302474b7a9aeb5.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1281779
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941768946/178B9242EFD3BF0106360EC5E770D458F4720418/": {
@@ -342,19 +347,23 @@
     "bytes": 5204014
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941807173/8123BDEB7C96CE701492275DE300E8AD52809552/": {
-    "path": "media/original/288ce439738b8793f8dd8033f6edbeac821ee030.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1289643
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941805855/68C48EE24D871022297671BC5F253423C49ABF36/": {
-    "path": "media/original/62421dcc10b44917451a04559e26a83e27dee903.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1284805
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941806397/6CF0011F05B80D6506AE6E58BD78F34A16704CE7/": {
-    "path": "media/original/fd1518397f4deae9637332a5db1915af0de3ae74.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1288434
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941807965/5FD5947F5AD52B564A7941D7C5BB4DBD387F4999/": {
-    "path": "media/original/406bc6eb8d2ffdab27b0edad68731d6f992ea7a8.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1291127
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941809271/FD508EEC98EEDB12C37A96DC61112DC7A8E2EB95/": {
@@ -362,43 +371,53 @@
     "bytes": 1265883
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941809976/4AF25E4F7016198173811003E76493B7A2EE66A3/": {
-    "path": "media/original/c172c37b73834935e8830e316cae4757171e4b0e.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1268464
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941811916/895BFBC149CC7872DE8713D33B14836F617AECE6/": {
-    "path": "media/original/5fcdf2626c98557abd2cb5f19d11c24cb111037f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1274535
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941813953/150D2756BB3CC1E0002250334C6D2F1BB5208E55/": {
-    "path": "media/original/f290c5665efc80e75e9f17b752a19e0dc81bbd55.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1281352
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941811305/DC47210FAB883BC337314D957C8F505D24629EBA/": {
-    "path": "media/original/1bcda3bbfb544179ea99f5bfe88960ca95f1cf13.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1272040
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941810635/C62DC431FC4527F208ECCE195EAB9CCC8F1B38F2/": {
-    "path": "media/original/df40b0e99ff675118e2ad8a5add40c0cff5232af.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1270923
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941812558/7345571810C43A8695BB7FC5B6296A364D236210/": {
-    "path": "media/original/f10f25133ec0422ed8372c06f0181e8a4b70652b.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1277147
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941815297/C5BD1933DF2032C26C5B930CCFBC5C2B61B7E45F/": {
-    "path": "media/original/8346731766d842c945fb063fb0fd8b5daf9ca86c.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1286286
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941814627/A3D9840CDAF962666B7346619AFEE992ABAE12FD/": {
-    "path": "media/original/bff42babc38868f7bd611c14016bb6162a40fc12.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1282322
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941816098/91C19BD89967D636F47B8D5348EA5ECE1DFFBEB7/": {
-    "path": "media/original/ce8806f9f41c6476cf1a6f5f45d24ec5fa38c6b1.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1287722
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941813369/5E7108F5DF7AFDE2E58171EDE9CE877B1A583DB6/": {
-    "path": "media/original/75d8b24d7e6b7aa7554c27f3b3e182ffbe15d210.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1278280
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941817254/0F58592C9C85C2921F5FB00D08906DF18B33642B/": {
@@ -406,43 +425,53 @@
     "bytes": 1269556
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941817971/D972D0664818988AAEA0E4CB6C0EA28649BA1EE5/": {
-    "path": "media/original/a7b297956fa1b49468d68a6efe80c3f82e5a34ab.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1270619
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941818664/070D41CAC859E4697D70029906BD350EEEBCB29F/": {
-    "path": "media/original/f795a969e417a6e61d02e695bfb35144ff4ced92.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1273686
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941820794/CEBB208FB26EA421E521757E8EC175DE9AAC1564/": {
-    "path": "media/original/994513e2202a6273facab8f03605456275b9af9f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1278725
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941819264/C9234C47EECE6E5C0F510023E360E09C0A31B370/": {
-    "path": "media/original/722b6275bd91e617787563937adcb006c0cbf83b.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1274769
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941822121/0C0EA223A04353C1490CF12EEA7E9DF340E2F121/": {
-    "path": "media/original/1aa5d60b3f809beb34a727377741fd51e9ebe641.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1283312
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941823808/054D600B13C2A6FEDDC0B85D7DE01D5BB4FA3F26/": {
-    "path": "media/original/35a2168ba79a84175a1ba967e5462dc945c180fa.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1287256
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941821503/F8560F09D48995BC9685FEE2A36A9A5958C78689/": {
-    "path": "media/original/3a9d23fc244e5383a0c7d18254c0e11f96f251f2.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1279943
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941823229/2149A811D570B4DA67F46253C3AB4E073A739E7F/": {
-    "path": "media/original/2a3366339a2c4e56e1ea981d3b030c081817c530.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1285755
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941822737/AD69B943CE4E43F492F97C885671290FB80D61D0/": {
-    "path": "media/original/b4ecb80a735f1845c72307ba20c515a6e9a34e7c.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1284468
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941857640/BD7085B41FD5E6CE37298D318411F902D5AEEB7A/": {
-    "path": "media/original/18f947ca95eaf4ddf0a4781500c013ab0611820b.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1231399
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941856823/079F26C3637479FCDB5DBECB9C94C704227E4F42/": {
@@ -450,49 +479,59 @@
     "bytes": 1230631
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941858202/B56CCA3A621D9863ED09D447D4852E62F991ECD8/": {
-    "path": "media/original/472bdcf6fe211d7a1684f595db9f70cd6ecc4c26.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1234332
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941566732/CA95C6DAF07666173227D7B01E8A976D5A858A4D/": {
-    "split": "media/split/70bec37606e4-<cell>.jpg",
+    "split": "media/split/70bec37606e4-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 75787411
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941820136/5094312E3E3B02FAF6F3BC7F29F668A769837676/": {
-    "path": "media/original/141879cc79cc2a770eba087595b3f2c4837270e2.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1275687
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941859403/FEF3EDFC8F42837AB23321125CD34A1C42BEB9D2/": {
-    "path": "media/original/b9ec86d8c912d55516580e8fc9420b9c3bd2d20a.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1239398
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941858799/9A7F43E143F207A684533385B7A87843D44EF165/": {
-    "path": "media/original/d2dee7a0131d35bcf40638bc87cb4afbda06c415.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1236914
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941860869/CE2B335CDC052EFAA9A04521E8965ACECB127DAE/": {
-    "path": "media/original/180ab45ded81d9afb3adb77777b007d8f2154b60.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1241556
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941860315/56ADAED88C5F5DE70F787BCCDCC0EB05B2F035C7/": {
-    "path": "media/original/cfc953264835748694d96f3d5ced112c3e2d76bb.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1240478
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941861573/509F14B5BBE97690A2C270475E72708A03E530E3/": {
-    "path": "media/original/f3e057fc2237d15d4045a1f7c59b93d986dc0f7c.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1244835
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941867846/41A1A1BC88D137965AEFA79CA2F171509D61771B/": {
-    "path": "media/original/33e1a3b1e1da22b2e196cec77b280488243e8b70.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1229102
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941868540/D9E1FF287295564C5556C002E4993FB210A95C91/": {
-    "path": "media/original/61ff34421e88be47a41094dc565bed8746971a00.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1231664
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941864021/8DD9B122B915647EC6ED5B621F7D0EC8A818FB7D/": {
-    "path": "media/original/693d3ba352d97f92f471a732e259ddbaa541278f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1250457
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941865356/4AE9E1D7380C61EFA38DEDA1A34FAC0DCAED8EAC/": {
@@ -500,43 +539,53 @@
     "bytes": 1222700
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941866704/769C511CFB3359E033E17763662596F55EBE04D9/": {
-    "path": "media/original/a88528dab79a1e2a3ff13d0a08e4807f241512c9.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1223600
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941862380/FAC5B88DBA877A425AA61ECEF05F4215400F3EEB/": {
-    "path": "media/original/3bdfe8e2463e2559ab7c800afd36431ba8d59ef5.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1245675
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941867247/A473452C4D9E7AE04874E86BEB0B644A59F68198/": {
-    "path": "media/original/3260fc8eb19466569fbaedb99a4a7c5fdb29fac1.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1226463
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941863481/C9C08C3DD419DFEF1B0E02B1647B2199874BC55E/": {
-    "path": "media/original/5e4d42c04df6020797e7b76da79726b040cf2bc2.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1249161
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941869186/8FE63F8C7B0BB6A5A0B2A9FDB2FDB0ECBFC84815/": {
-    "path": "media/original/ccdc9824a9133a5483834c5a3a9b0f23d3afce15.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1232733
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941871157/D1394FC79A843D078071E19FC15D84A08C75B67E/": {
-    "path": "media/original/4a3ab102115fdd36ec3ec057aeebc14d365cdc4f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1236657
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941869981/8AA59B6C687762759EA84A3082346B2B627A086F/": {
-    "path": "media/original/b2e8b13dfc08ac220c4f7a87bc4d1c499be46921.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1235492
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941872509/ECF1FA4CF9908258F88890B7B63C7218C082B4DD/": {
-    "path": "media/original/49ebefe68983214c8b71d05aedb63bd8e1de618a.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1241064
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941878778/EA0F72C5FF05F39A4D4F993C6B9D9E8CD766B47B/": {
-    "path": "media/original/1cae615f11bbfd7cb61804a5dba252c3bbd7b308.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1240828
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941871781/9D33F63C76A4C70BEA084A4FAC78430B5C800F5B/": {
-    "path": "media/original/40142091f08f86b8a53d47d43dde6c5c5b542d46.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1237581
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941873968/8AE2E28979AA1AD33D87D34727C82B8A01600907/": {
@@ -544,35 +593,43 @@
     "bytes": 1230267
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941877364/C56BCC4925D8EC8355915438159369A7BB259C74/": {
-    "path": "media/original/3a8a793add376bdf2d0196e6b6561f90c42fa897.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1235068
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941875102/9491D9F31CBA04E0543D5958C0E6F031C025416F/": {
-    "path": "media/original/082283119a2fe1ea234717af4c9f28f0b0474302.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1231097
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941879769/9761D14044D4E52E5687B18526E4533CCEFA2B33/": {
-    "path": "media/original/a30a432a010d8cf5e6be9a5cd944652f655f24ab.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1242013
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941873208/5F9343C02DC2DF4BCD2CD2059C5FC42B612EFB1A/": {
-    "path": "media/original/8088fa18b421df4ebe54ccf45cb3f6bb8616d00c.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1242339
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941875688/52994C44C4E3F954D3139B7C9717866D2DE28E62/": {
-    "path": "media/original/b2eeae2c3bd3dba04630dffc47f49e7d2bd08f23.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1234102
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941881867/8C37537BEC6260587152C84A1393A212E6B31ED3/": {
-    "path": "media/original/a94cc79d64c335e818cb87267393208449424deb.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1249179
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941878198/88B4D4B9F7F15E2ABC8FDE15A11355C48948A0F4/": {
-    "path": "media/original/1c2380fd1d5a03f547c8463298e0348c9aa117d3.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1237680
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941880606/2E12CBC8F4008BEAA7212A5279E728A1CBBF7850/": {
-    "path": "media/original/7346b0c87981f3619b6ed83a2b8e0fde58165b16.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1244586
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941894085/8B7D2FDF1F6A2B7F812A160E8AB04429295A64BB/": {
@@ -580,19 +637,23 @@
     "bytes": 316249
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941881277/23749ECF946101F039995A32DA54DD9E8E6C5F11/": {
-    "path": "media/original/2399480026a784f1ddaef0a981ce31559d9a41fd.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1245544
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941902807/A7468F23447849B50712D011F8E83E05DF45D52E/": {
-    "path": "media/original/e39acedb486a6e7f61acad60fb4968301444c4cf.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1225029
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941882576/356EF89E4C04BA17D7869026749FD3DAB42092F8/": {
-    "path": "media/original/650182df7965fe500989d3b53766c54c456ef365.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1250487
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941903383/13C885BA5D31C56D42BF17F1AB02FD689E4E490C/": {
-    "path": "media/original/7769f2154a6c83b26c944aece3fbdeadc0b5ff30.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1227519
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941898488/8F127291721BD99F13C8EADFF73A47437C2B204C/": {
@@ -600,51 +661,63 @@
     "bytes": 1219597
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941902224/C83FC882E68D6E27B4C26F774F732D196BCCD970/": {
-    "path": "media/original/736ce3af91863aacedadb4a588c61c8a4304c045.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1223939
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941901556/31DE07D39DF26470CE17BC6FD8B18F9022CF595E/": {
-    "path": "media/original/a134fbc84cf48579f0fdff69ea71e0e82c4b972b.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1220780
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941904813/E1573D5F9341EEDF67E5C58AE6B0D1874FBF9B46/": {
-    "path": "media/original/77e17f361955893b4432a96624645e5f6e7b6151.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1231352
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941904001/458F0662B6473D432A98BF8C1430EF6973FBEA87/": {
-    "path": "media/original/a60f3eb1d90e7bb56f25d34f1597b4ea88030fc2.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1228459
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941997623/C8BF499FDB248FE4DB3BFBF7457154CAD81CA44F/": {
-    "path": "media/original/498977bcf0707389d90ecebacfa211eb45e28fed.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1235007
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941996934/4868EDF90CB7D1D539A127F7F0480B58750004FB/": {
-    "path": "media/original/798160e7d3000b9076d1d385ac7382cf6e86f55d.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1232342
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941999071/799C10B5267EBEE42B31873F0AF287E53E1420DA/": {
-    "path": "media/original/03d99f4367f814edb35a6df4c072f3495f273dd7.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1239619
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941998495/6D173D6DEBD93934CF8E364451CB256CED316CC1/": {
-    "path": "media/original/64f7f61d9455034f414edf80baba1f68575624be.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1235960
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942001237/BF219111B5F645918C227CE848F02D56F7519688/": {
-    "path": "media/original/e122dd135d69240c2f513af55a499331322c5c39.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1216563
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942002021/1A0DD8DE6C1896AA8702C7249F8871B209169920/": {
-    "path": "media/original/da9061c3a50d40421a26d386524bbbc1bdd500d2.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1217603
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942007309/C491B973C1DB9D9D2499E8266389EA8164C9F5BD/": {
-    "path": "media/original/d76a632833cf6ee4648918c8afe28155412ea852.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1232823
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942002914/98A5B5C21DDBD1F215B9358A934E1E8291CEF14E/": {
-    "path": "media/original/4c4600192e06e6f430b2c93f3c577ccaa3693527.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1220693
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942000482/9E9457001DC79635AC1496C25AE58ADCF731D476/": {
@@ -652,23 +725,28 @@
     "bytes": 1213867
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942004166/5E8D175C12D08086A9B807DD91593D45971D3C71/": {
-    "path": "media/original/7a37c24f4da7d0bdc806d9137a2ad30f43ddbe9f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1224709
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942005148/9575F580C128E97FA5BC5402DE657F536A823EA8/": {
-    "path": "media/original/fba0cb89373e2e0620af6398cccbb2b5cedb3fc7.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1225638
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942007922/C3D0894A29082E460C747A1720E5CDC4A6634F27/": {
-    "path": "media/original/6e93857368dcc2b9d54116de95e34d1eada0d7dc.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1233877
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942005792/4B36F13D9DB7B5BEE200AE79883511C1A80F89F5/": {
-    "path": "media/original/a8d54837304d71fbdd5dadf34364a0458d70a985.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1228225
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942003430/7C8052CC3462A5C8D7629184947F7992B430035F/": {
-    "path": "media/original/6197020e71a747eeb54041ddde8b76f576010b1a.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1221668
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942009160/785247B1CA33D9696E2F35D494C36B8638E3C946/": {
@@ -676,19 +754,23 @@
     "bytes": 1217840
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942006480/9D6B2C5B2D3649F3BB46CA6F191950A4FF264B7C/": {
-    "path": "media/original/ac30af451cb8d03b297cb721f145c46a97ed3f4f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1231802
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942010470/324AB3D5BA60A08A079FEC8D0773D54012E12ACB/": {
-    "path": "media/original/25e1737f7e8ec3f7010ce69c72f963210ae92f7f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1222002
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942009842/782C90556583E5A5E0261936073F1AE57C7CC376/": {
-    "path": "media/original/d9522d5dfeda6908b64c1944d7e273fe4af9a2f7.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1220945
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942011228/21BE96B9ABB0C9D4434CFF9EEBB5BB0DB6358C30/": {
-    "path": "media/original/393ee0f26e05ee5db0f44985fca86272ac5ac3c0.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1224715
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942039251/208A77A62410171E810528C0E007BCF86F92C082/": {
@@ -696,27 +778,33 @@
     "bytes": 317596
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942014067/748745F1596F0A974FCF9C46629478813E4B260C/": {
-    "path": "media/original/b00c9c6f648c855627bd8b602249225a2db15975.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1231745
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942012353/92386431629862166018DD7D78791A1513CCA7D5/": {
-    "path": "media/original/0ee880dbdb8ef49d430b39c6107f282e579d92a7.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1228528
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942015968/E47BB31DD0C3BC74F838B919649EFA655E2A7B34/": {
-    "path": "media/original/4bc1614371831f79b90da6375f1c40300f490060.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1237292
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942015374/B69AC41206933ADEDD02031CAE8EDA723AA854B2/": {
-    "path": "media/original/5d1732bb67b7b325147012435d1837f10faa0c4c.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1236258
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942011802/5FD9D22DBA006324507E70C8DF0E9F0A7F1A0861/": {
-    "path": "media/original/a1c6563353cd726f907128debdb9a34225cfdbb6.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1227740
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942014785/DE3072703993F15B8BD94DC15E1D3F6CD55B7D45/": {
-    "path": "media/original/653f7ee4d219a892c5035cc0e27fd50810fd4bd6.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1235320
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942041677/E7E5B698A5A542FAE9F596BFF0EF3E0CCCA160C7/": {
@@ -724,51 +812,63 @@
     "bytes": 1228508
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942045851/65D121EA84D9E11A694A3293833096480B59298E/": {
-    "path": "media/original/0ae7c79f5026ad3c1dfc6648fbf3a5a3f3cd6ce8.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1229614
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942013422/3FCC885EE9AE4F459056F9663E3646593ACC2559/": {
-    "path": "media/original/7d101563c065414e37e0afe022615e8f14ce6f56.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1230694
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942046486/B04AC704540421D3B1D79C88189A3232737F2BC6/": {
-    "path": "media/original/3f2a9a40b22925603816a9aa9da2be93bbfc9915.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1230504
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942047561/F46E52A8DE124394C16067B97283AC2E5CD7B65F/": {
-    "path": "media/original/143ef4afa564a7ed92a3e0ebfd8de5f4497e3a89.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1236084
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942047013/2D6D48BBAE68BD801F69CE9B69A604E06C6465C7/": {
-    "path": "media/original/49c9bcc87d694e392099e0f164a8ebdbefd0bacf.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1233616
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942048120/DCBA54B44F3E252DD3378ACABCBC615028B07D3E/": {
-    "path": "media/original/7e15b8e0f63e05a14021cda3208706065e5f5c10.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1237100
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942050809/E433F0662F9020AE78A884516A1169328BF0898B/": {
-    "path": "media/original/1bc699e927f3fdb0aefeabb2e671a1c5098556d0.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1245105
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942048658/3F7ACB087227D6E22CD0A5496AA07EAE7CEB7FC0/": {
-    "path": "media/original/69c975a1c7795b5c66502ff6227364e7e208121f.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1239570
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942049436/6C7A0E9AE53FC9704B0E3240ACFAEBD0C3913795/": {
-    "path": "media/original/08e5bb322110d3b995cce2f58fe452eb0b06db19.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1242860
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942056434/AD592144EFA067784E2DFE91ADDF6C478E57B9C1/": {
-    "path": "media/original/8d93c544e0466714d6d331b0a354283640df281b.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1231622
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942054416/EB4745DF37287E85DD3BDAC2106AFA6121E86701/": {
-    "path": "media/original/59d30496f649a6db9d88655dda0dbede8f08e99d.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1229042
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942049984/09B96E2747D43461C1D8E929E20AE010CEAC4244/": {
-    "path": "media/original/992b56fdd0d18021b0de65a6e373f80d9d54d33d.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1243973
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942052572/E8060F179D2434726850B5A45798485657789F29/": {
@@ -776,47 +876,58 @@
     "bytes": 1224013
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942051350/9873CAE958C70755904586FDDDD33993038F63BF/": {
-    "path": "media/original/6a016285c18144adda12c7491577514d12392c4b.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1248876
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942053694/6746F834A21B19B334FA447B414BAC3EA7EC8E9A/": {
-    "path": "media/original/94a3d5f9c9943d76a94a7e3764cadaa0567571e0.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1228017
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942058194/47AEE536B2D3EB51D48097C1CEC945392ACF46F5/": {
-    "path": "media/original/33b262daef0ba87406a2a4439e61d4fd605fd7db.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1235827
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942053184/3FE5C4345FFFE34950FB179A1FF91B8FBC5E2922/": {
-    "path": "media/original/809535eabdca568e72638b7be90cca7c789dc2ec.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1225025
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942058830/7791EA2E7DEEF945261649FAB20C1B9983529D38/": {
-    "path": "media/original/e03f6ec59e1df753103770358333e714fec34086.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1236831
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942057161/8976B239A5F482451EBA149B35597E0B4A05FA24/": {
-    "path": "media/original/fafa1f7e4b2a7e7e9ea91f81eaee2546a0a6a19c.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1234863
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942059291/01634EA7696AB44DB07D24F48E2CD7D44CBD0091/": {
-    "path": "media/original/d21cadb62182983f74624b194194f660bf69e521.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1239525
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942064582/34F2B6ED6CB0404C8574FC2F1A09E815B4C42D76/": {
-    "path": "media/original/894fe80b2db0378d195f323b83f388bf0ef6e900.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1240057
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942059924/340C4DDC2263ACBD97180634A20CE7C343A0BFAD/": {
-    "path": "media/original/049f0d5520a0cdd170013ebf10db97519145d48a.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1242240
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942063054/78979AC20EC2D76ECB48BC60D14EC3F648A89ED0/": {
-    "path": "media/original/cb84cc1ec9d424f5eaa91398a0224ed5dcf5c2db.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1236869
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942062364/3FDB7DCF45307078C1534D55DAE31697B61745EC/": {
-    "path": "media/original/2a1a7411394110d96411ea6de231a36f0db0af4e.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1232751
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942061572/12CF04E74ADF10303D47C1E1D94B257D692948BF/": {
@@ -824,41 +935,49 @@
     "bytes": 1231725
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942063851/2BCF0851DBB41B71A11677B1B61C3A7A207803AF/": {
-    "path": "media/original/03edbf89cdaa9491ff30b34f31e73b15b53c9b32.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1233644
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942067022/19A31E4A142328449BEEE639687C31FD54657D27/": {
-    "path": "media/original/8ac60b79db5aa10d284de462264f6ee2f0ebac6e.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1250136
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942065818/86815E191E85478B088FE5DC8408964141348272/": {
-    "path": "media/original/d278b63fc25e7f5cb4d6ec941f8ac072d11af3ef.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1243781
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942065143/A6555958AAEAD1D3C2C42C51CCF3F683D0499B94/": {
-    "path": "media/original/994fd7b1fd351d3de05e9592a2fc2618575a2004.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1241042
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942060529/7C90E666569216CD396A6CE7F2BD291EF482CFF2/": {
-    "path": "media/original/625197153eb227dc2596d561347642fec87ca961.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1245959
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942067665/D192C6D953544DEA914F6DF9D230408A9B06E195/": {
-    "path": "media/original/be7232508d69bd47afb6567d3559198fce5c00c7.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1251335
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942066422/C8A45900E96D153B0F189A092F3F7057181D979D/": {
-    "path": "media/original/cdfbbccfbfe589fa056328d9b7712098e02c774d.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1246521
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942102620/63BC401CF4B90A7940582EFBE49277896865529E/": {
-    "split": "media/split/27f7af8d6d05-<cell>.jpg",
+    "split": "media/split/27f7af8d6d05-<cell>.webp",
     "columns": 1,
     "rows": 1,
     "bytes": 690776
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942068172/B3B01C93D1F10BB17F4FE3A4A6730EA759C47DE1/": {
-    "path": "media/original/a3431cc0cbc722e96d3653d776c7c78de58badfb.jpg",
+    "path": null,
+    "dropped": "Passport scratch state; the record keeps state-1 and lists the pips.",
     "bytes": 1252684
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942122198/D4E13A96EE8B9F634AAF9262C1E6EC94F9BA4CE1/": {
@@ -914,7 +1033,7 @@
     "bytes": 935224
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942174496/6C330365BB09B21222C2D61B83E5AAE83769C2A3/": {
-    "split": "media/split/1c2d9f958d4e-<cell>.jpg",
+    "split": "media/split/1c2d9f958d4e-<cell>.webp",
     "columns": 3,
     "rows": 2,
     "bytes": 1970904
@@ -996,7 +1115,7 @@
     "bytes": 133927
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942511916/4DDAAE6C034DD4C8951578202937728A3D81A7D4/": {
-    "split": "media/split/1aaabc2decc1-<cell>.jpg",
+    "split": "media/split/1aaabc2decc1-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 68060715
@@ -1023,7 +1142,7 @@
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942140636/94BEFC365601076AE2EE9AABB538A87E107B6C91/": {
     "path": null,
-    "unused": "Secondary image of an object no record shows; not kept.",
+    "dropped": "Secondary image of an object no record shows; not kept.",
     "bytes": 25397550
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832151080610318/1DD7F6E6FE3BCABEDDAD66F7716222F8945DD9DB/": {
@@ -1159,7 +1278,7 @@
     "bytes": 97551
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942511257/3A1F6E9C1E1D8CC250C9FDF5C997F83590201836/": {
-    "split": "media/split/cc2c7c586e0d-<cell>.jpg",
+    "split": "media/split/cc2c7c586e0d-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 80176124
@@ -1201,7 +1320,7 @@
     "bytes": 87602
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942673154/56C126711F4170F5D0027E1D582796903F693AD2/": {
-    "split": "media/split/f50a156f5be0-<cell>.jpg",
+    "split": "media/split/f50a156f5be0-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 62071003
@@ -1211,7 +1330,7 @@
     "bytes": 89163
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942857839/4925C51C22A63C94D394B962C21F2A753D960593/": {
-    "split": "media/split/a09b11f8464a-<cell>.jpg",
+    "split": "media/split/a09b11f8464a-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 55347443
@@ -1261,7 +1380,7 @@
     "bytes": 36624
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942664448/3B39F60A9340A471B71A5BB08CDA5741324B71EA/": {
-    "split": "media/split/a8716e1c667f-<cell>.jpg",
+    "split": "media/split/a8716e1c667f-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 73869137
@@ -1363,7 +1482,7 @@
     "bytes": 70016
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942857378/0CC50DCB01741CA75AB4AACABB82F538B9883F6C/": {
-    "split": "media/split/f7f847d898dc-<cell>.jpg",
+    "split": "media/split/f7f847d898dc-<cell>.webp",
     "columns": 10,
     "rows": 7,
     "bytes": 63086829
@@ -1937,7 +2056,7 @@
     "bytes": 91146
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590244161/C4723EDC342F8DE659E2E3DEC974984B88E6DC76/": {
-    "split": "media/split/a3ad9647d9f9-<cell>.jpg",
+    "split": "media/split/a3ad9647d9f9-<cell>.webp",
     "columns": 10,
     "rows": 2,
     "bytes": 24171711
@@ -1947,7 +2066,7 @@
     "bytes": 187857
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590244594/C75AF0F513DC682CF309551B92083084A7DA5624/": {
-    "split": "media/split/0755b549db50-<cell>.jpg",
+    "split": "media/split/0755b549db50-<cell>.webp",
     "columns": 10,
     "rows": 2,
     "bytes": 23938732
@@ -2025,7 +2144,7 @@
     "bytes": 735631
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590335532/FB0C0A72123841C36C83818E69A2A52BBAF4BB75/": {
-    "split": "media/split/eab2a5816522-<cell>.jpg",
+    "split": "media/split/eab2a5816522-<cell>.webp",
     "columns": 4,
     "rows": 2,
     "bytes": 9395536

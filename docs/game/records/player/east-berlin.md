@@ -11,7 +11,7 @@ Player card. Region: europe.
 
 ## front
 
-![](media/split/a8716e1c667f-48.jpg)
+![](media/split/a8716e1c667f-48.webp)
 
 EAST BERLIN GERMAN DEMOCRATIC REPUBLIC EUROPE 9
 

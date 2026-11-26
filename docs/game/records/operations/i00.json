@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "WARNING!\nTHIS IS THE BOTTOM OF THE OPERATIONS DECK.\nTURN THIS DECK OVER.",
       "flavor": "",
-      "image": "media/split/f7f847d898dc-0.jpg"
+      "image": "media/split/f7f847d898dc-0.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "WARNING!\nTHIS IS THE BOTTOM OF THE OPERATIONS DECK.\nTURN THIS DECK OVER.",
       "flavor": "",
-      "image": "media/split/a09b11f8464a-0.jpg"
+      "image": "media/split/a09b11f8464a-0.webp"
     }
   ],
   "states": [],

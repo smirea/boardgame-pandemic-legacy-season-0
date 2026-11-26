@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "STOP\n\nDraw this card just before you set up your first game in August.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-45.jpg"
+      "image": "media/split/cc2c7c586e0d-45.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "both",
       "transcription": "MISSION BRIEFING\n\n\"The Soviets are holding more trials and building upon their surveillance network.\n\nWe've also found the location of Sabik's primary base of operations. You'll be given a Soviet alias to infiltrate it. Find out what he's hiding, and apprehend him if possible.\"\n\nOPEN 0002 and read its contents.",
       "flavor": "\"The Soviets are holding more trials and building upon their surveillance network.\n\nWe've also found the location of Sabik's primary base of operations. You'll be given a Soviet alias to infiltrate it. Find out what he's hiding, and apprehend him if possible.\"",
-      "image": "media/split/1aaabc2decc1-45.jpg"
+      "image": "media/split/1aaabc2decc1-45.webp"
     }
   ],
   "states": [],

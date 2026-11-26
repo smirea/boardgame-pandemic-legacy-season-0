@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\nWEEKEND RENDEZVOUS\nYou may move any pawn(s) to a single city containing another pawn.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-11.jpg"
+      "image": "media/split/ff910e2efc70-11.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-11.jpg"
+      "image": "media/split/6bdabf12abfb-11.webp"
     }
   ],
   "states": [],

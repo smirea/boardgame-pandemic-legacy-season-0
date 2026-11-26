@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\nDIVERSION\nMove up to 3 incident tokens to 1 city on the board.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-0.jpg"
+      "image": "media/split/ff910e2efc70-0.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-0.jpg"
+      "image": "media/split/6bdabf12abfb-0.webp"
     }
   ],
   "states": [],

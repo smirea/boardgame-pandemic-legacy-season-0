@@ -11,7 +11,7 @@ Player card. Region: asia.
 
 ## front
 
-![](media/split/a8716e1c667f-52.jpg)
+![](media/split/a8716e1c667f-52.webp)
 
 BOMBAY INDIA ASIA 2
 

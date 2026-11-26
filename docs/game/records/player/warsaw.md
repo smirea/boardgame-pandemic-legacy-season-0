@@ -11,7 +11,7 @@ Player card. Region: europe.
 
 ## front
 
-![](media/split/a8716e1c667f-10.jpg)
+![](media/split/a8716e1c667f-10.webp)
 
 WARSAW
 POLAND

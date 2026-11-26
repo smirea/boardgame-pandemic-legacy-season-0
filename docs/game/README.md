@@ -21,21 +21,20 @@ Opening a door or a safe deposit box is an `opens` edge. The door or box record 
 | `CATALOG.md` | The same census, then one row per record. |
 | `deck-order.json` | Legacy deck order, as above. |
 | `board.md` | The 48 cities: region, allegiance, connections, and the one printed safehouse (Washington). |
-| `rules/rulebook.md` | The field manual with every rule sticker in its slot. A comment before each sticker says which card unlocks it. `<!-- page: NN -->` marks the 16 pages. |
-| `rules/pages/` | Those pages as PNG. |
+| `rules/rulebook.md` | The field manual with every rule sticker in its slot. A comment before each sticker says which card unlocks it. `<!-- page: NN -->` marks the 16 pages, which are the same pages of `source/rulebook-1j1ju.pdf`. |
 | `source/workshop-2618224591.bson` | The workshop file as downloaded. |
 | `source/workshop.json` | That file decoded to JSON. |
 | `source/rulebook-1j1ju.pdf` | The rulebook PDF. |
 | `source/guids.json` | Every Tabletop Simulator GUID the save contains. Each one is claimed by a record. |
 | `media/original/` | The downloaded files: images and the 7 custom `.obj` meshes. The 15 Tabletop Simulator card sheets are not kept; `media/split/` has every cell. |
-| `media/split/` | One image per card-sheet cell, `<sheet hash prefix>-<cell>.jpg`, cells counted left to right, top to bottom. Shared backs are not split. |
-| `media/url-map.json` | Save URL → file under `media/original/` (`path`), or for a card sheet the split cells (`split`, `columns`, `rows`). `path` is null for the one unused image that was not kept. Keys are the original `cloud-3` URLs. |
+| `media/split/` | One WebP image per card-sheet cell, `<sheet hash prefix>-<cell>.webp`, cells counted left to right, top to bottom. Shared backs are not split. |
+| `media/url-map.json` | Save URL → file under `media/original/` (`path`), or for a card sheet the split cells (`split`, `columns`, `rows`). `path` is null, with `dropped` saying why, for a downloaded image that was not kept. Keys are the original `cloud-3` URLs. |
 | `records/` | One JSON file and one Markdown file per component. |
 | `SOURCES.md` | Where the PDF and the workshop file came from, and what was not downloaded. |
 
 `records/` is grouped by kind: `legacy/`, `door/`, `box/`, `debrief/`, `operations/`, `player/`, `threat/`, `passport/`, `pearl/`, `dossier/`, `tile/`, `sticker/`, and the rest. A Tabletop Simulator scroll state is a face on the same record (`state-1` is the face in the save, then `state-2` onward), not a second record. Cards have `front` and `back`. Only the rulebook, the twelve passports, and the debrief book use state lists.
 
-An image path on a face, such as `media/split/ff910e2efc70-24.jpg`, is relative to this directory. A custom mesh is `mesh.file` on the record, the same way.
+An image path on a face, such as `media/split/ff910e2efc70-24.webp`, is relative to this directory. A custom mesh is `mesh.file` on the record, the same way.
 
 ## Census
 

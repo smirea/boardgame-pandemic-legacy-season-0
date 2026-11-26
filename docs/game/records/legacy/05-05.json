@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "This objective has an unknown target city.\nTo set it up, separate the 5 South America City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\nThen, shuffle the remaining South America cards back into the Player deck without looking at them.\nFinally, flip this card over and place it on top of the unknown City card.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-19.jpg"
+      "image": "media/split/8ef8489d5a98-19.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "MAY OBJECTIVE 3\nBUG CONTROL CENTER\nAcquire Target in:\n1 UNKNOWN CITY IN SOUTH AMERICA\nCompleted: Read Debrief 167\nFailed: Read Debrief 136",
       "flavor": "",
-      "image": "media/split/70bec37606e4-19.jpg"
+      "image": "media/split/70bec37606e4-19.webp"
     }
   ],
   "states": [],

@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-13.jpg)
+![](media/split/a3ad9647d9f9-13.webp)
 
 This is an infiltration objective.
 Use the PEARL Compound Infiltration site.
@@ -24,7 +24,7 @@ Flavor: "This is where I was held. I know the place."
 
 ## back
 
-![](media/split/0755b549db50-13.jpg)
+![](media/split/0755b549db50-13.webp)
 
 NOVEMBER OBJECTIVE 1
 SABOTAGE THE MANUFACTURING FACILITY

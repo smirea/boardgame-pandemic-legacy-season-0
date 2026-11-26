@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-10.jpg)
+![](media/split/a3ad9647d9f9-10.webp)
 
 This is an infiltration objective.
 To set it up, find cards 74 and 75 in the Operations deck and place them faceup next to each other to form the infiltration site Langley.
@@ -20,7 +20,7 @@ Flip this card over and place it onto the board in the Operations area.
 
 ## back
 
-![](media/split/0755b549db50-10.jpg)
+![](media/split/0755b549db50-10.webp)
 
 NOVEMBER OBJECTIVE 3
 RECOVER THE COdA SAMPLE

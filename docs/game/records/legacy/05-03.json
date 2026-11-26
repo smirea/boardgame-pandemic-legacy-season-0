@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "This is a pursuit objective.\n\nTo set it up, place a Pursuit token in Johannesburg.\n\nThen, place this card onto the board in the Operations area and flip it over.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-21.jpg"
+      "image": "media/split/8ef8489d5a98-21.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "MAY OBJECTIVE 1\n\nINTERRUPT THE SOVIET DELIVERY\n\nRemove the last Pursuit token from the board\n\nSTARTING CITY: JOHANNESBURG\nDESTINATION: ANY SOVIET CITY\n\nCompleted: Read Debrief 146\nFailed (First half of month): Read Debrief 202\nFailed (Second half of month): Read Debrief 148",
       "flavor": "",
-      "image": "media/split/70bec37606e4-21.jpg"
+      "image": "media/split/70bec37606e4-21.webp"
     }
   ],
   "states": [],

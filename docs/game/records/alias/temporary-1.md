@@ -11,7 +11,7 @@ Temporary alias, used in the prologue before passports are created.
 
 ## front
 
-![](media/split/1c2d9f958d4e-0.jpg)
+![](media/split/1c2d9f958d4e-0.webp)
 
 TEMPORARY ALIAS
 

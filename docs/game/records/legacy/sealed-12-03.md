@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-6.jpg)
+![](media/split/a3ad9647d9f9-6.webp)
 
 This is an infiltration objective.
 Use the PEARL Compound Infiltration site.
@@ -23,7 +23,7 @@ Flavor: "The Laboratory is in the southeast corner of the compound."
 
 ## back
 
-![](media/split/0755b549db50-6.jpg)
+![](media/split/0755b549db50-6.webp)
 
 DECEMBER OBJECTIVE 1
 STEAL THE MEDUSA GENOME

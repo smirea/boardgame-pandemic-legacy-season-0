@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "This objective has an unknown target city.\n\nTo set it up, separate the 14 Allied City cards from the Player deck, shuffle them, and place 1 of them facedown into the Operations area.\n\nThen, shuffle the remaining Allied cards back into the Player deck without looking at them.\n\nFinally, flip this card over and place it on top of the unknown City card.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-11.jpg"
+      "image": "media/split/cc2c7c586e0d-11.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "rules",
       "transcription": "NOVEMBER OBJECTIVE 2\nBRIBE SABIK'S ALLY\n\nAcquire Target in:\n1 UNKNOWN ALLIED CITY\nYOU MAY NOT USE THE IDENTIFY TARGET CITY ACTION\n\nCompleted: Read Debrief 201\nFailed: Read Debrief 134",
       "flavor": "",
-      "image": "media/split/1aaabc2decc1-11.jpg"
+      "image": "media/split/1aaabc2decc1-11.webp"
     }
   ],
   "states": [],

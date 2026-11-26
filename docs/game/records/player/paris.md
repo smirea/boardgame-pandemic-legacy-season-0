@@ -11,7 +11,7 @@ Player card. Region: europe.
 
 ## front
 
-![](media/split/a8716e1c667f-25.jpg)
+![](media/split/a8716e1c667f-25.webp)
 
 PARIS
 FRANCE

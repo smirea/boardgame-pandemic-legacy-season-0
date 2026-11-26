@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "This is a pursuit objective.\n\nTo set it up, place a Pursuit token in San Francisco.\nThen, place this card onto the board in the Operations area and flip it over.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-5.jpg"
+      "image": "media/split/cc2c7c586e0d-5.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "rules",
       "transcription": "DECEMBER OBJECTIVE 2\nCAPTURE SABIK\n\nRemove the last Pursuit token from the board\nSTARTING CITY: SAN FRANCISCO\nDESTINATION: ANY SOVIET CITY\n\nCompleted: Read Debrief 181\nFailed: Read Debrief 179",
       "flavor": "",
-      "image": "media/split/1aaabc2decc1-5.jpg"
+      "image": "media/split/1aaabc2decc1-5.webp"
     }
   ],
   "states": [],

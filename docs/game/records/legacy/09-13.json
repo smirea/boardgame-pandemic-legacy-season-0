@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "EVENT\nDECRYPTION BOOK\nReveal 4 security tokens in the PEARL Compound.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-22.jpg"
+      "image": "media/split/cc2c7c586e0d-22.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/1aaabc2decc1-22.jpg"
+      "image": "media/split/1aaabc2decc1-22.webp"
     }
   ],
   "states": [],

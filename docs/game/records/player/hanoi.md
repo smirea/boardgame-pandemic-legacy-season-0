@@ -11,7 +11,7 @@ Player card. Region: asia.
 
 ## front
 
-![](media/split/a8716e1c667f-46.jpg)
+![](media/split/a8716e1c667f-46.webp)
 
 HANOI DEM. REPUBLIC OF VIETNAM ASIA 1
 

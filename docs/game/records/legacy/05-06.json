@@ -26,7 +26,7 @@
       "role": "both",
       "transcription": "FOLLOWING UP\n“We investigated your lead on how MEDUSA is going to be transmitted. Here is what we found.”\nTake your Transmission Method report out of your Intelligence file.\nNote your answer and then turn this card over.",
       "flavor": "“We investigated your lead on how MEDUSA is going to be transmitted. Here is what we found.”",
-      "image": "media/split/8ef8489d5a98-18.jpg"
+      "image": "media/split/8ef8489d5a98-18.webp"
     },
     {
       "id": "back",
@@ -34,7 +34,7 @@
       "role": "rules",
       "transcription": "IF YOU ANSWERED...\nAnimal Contact: Read Debrief 121\nAirborne: Read Debrief 154\nSaliva: Read Debrief 135\nWaterborne: Read Debrief 213\nAfter reading the debrief entry, destroy this card.",
       "flavor": "",
-      "image": "media/split/70bec37606e4-18.jpg"
+      "image": "media/split/70bec37606e4-18.webp"
     }
   ],
   "states": [],

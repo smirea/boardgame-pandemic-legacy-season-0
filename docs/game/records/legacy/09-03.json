@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "This is a disrupt trial objective.\n\nTo set it up, separate the 8 North America City cards from the Player deck, shuffle them, and place 3 of them faceup into the Operations area. These are the 3 trial cities.\n\nThen shuffle the remaining North America cards back into the Player deck.\n\nFinally, flip this card over and place it on top of the 3 trial city cards.",
       "flavor": "",
-      "image": "media/split/cc2c7c586e0d-32.jpg"
+      "image": "media/split/cc2c7c586e0d-32.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "rules",
       "transcription": "SEPTEMBER OBJECTIVE 1\n\nDISRUPT OR PREVENT ALL TRIALS\n\nDisrupt Trial in:\nALL KNOWN TRIAL CITIES IN NORTH AMERICA AT THE SAME TIME (OR PREVENT THEM FROM HAPPENING)\n\nCompleted: Read Debrief 230\nFailed: Read Debrief 178",
       "flavor": "",
-      "image": "media/split/1aaabc2decc1-32.jpg"
+      "image": "media/split/1aaabc2decc1-32.webp"
     }
   ],
   "states": [],

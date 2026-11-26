@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-2.jpg)
+![](media/split/a3ad9647d9f9-2.webp)
 
 AT LAST
 
@@ -25,7 +25,7 @@ If you failed both Steal the MEDUSA Genome and Stop Operation LION'S TOOTH, read
 
 ## back
 
-![](media/split/0755b549db50-2.jpg)
+![](media/split/0755b549db50-2.webp)
 
 ## Edges
 

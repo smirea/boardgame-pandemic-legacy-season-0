@@ -11,7 +11,7 @@ Player card. Region: asia.
 
 ## front
 
-![](media/split/a8716e1c667f-15.jpg)
+![](media/split/a8716e1c667f-15.webp)
 
 SHANGHAI
 PEOPLE'S REPUBLIC OF CHINA

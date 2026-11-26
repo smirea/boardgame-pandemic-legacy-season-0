@@ -11,7 +11,7 @@ Mod introduction card. The object description says it is OK to delete.
 
 ## front
 
-![](media/split/27f7af8d6d05-0.jpg)
+![](media/split/27f7af8d6d05-0.webp)
 
 PANDEMIC LEGACY SEASON 0
 
@@ -36,7 +36,7 @@ Flavor: Hello agent,
 
 ## back
 
-![](media/split/27f7af8d6d05-0.jpg)
+![](media/split/27f7af8d6d05-0.webp)
 
 PANDEMIC LEGACY SEASON 0
 

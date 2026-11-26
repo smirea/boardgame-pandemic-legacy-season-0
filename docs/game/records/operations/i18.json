@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "INFILTRATION SITE:\nSABIK'S HQ\nLENINGRAD\nENTRANCE\nA Soviet alias is required to enter this infiltration site.\nOFFICE\nWhen you enter this room, take 1 Action token.",
       "flavor": "",
-      "image": "media/split/f7f847d898dc-18.jpg"
+      "image": "media/split/f7f847d898dc-18.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "OPERATIONS\n72",
       "flavor": "",
-      "image": "media/split/a09b11f8464a-18.jpg"
+      "image": "media/split/a09b11f8464a-18.webp"
     }
   ],
   "states": [],

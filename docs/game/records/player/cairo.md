@@ -11,7 +11,7 @@ Player card. Region: africa.
 
 ## front
 
-![](media/split/a8716e1c667f-50.jpg)
+![](media/split/a8716e1c667f-50.webp)
 
 CAIRO EGYPT AFRICA 7
 

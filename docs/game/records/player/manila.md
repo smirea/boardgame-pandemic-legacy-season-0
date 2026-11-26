@@ -11,7 +11,7 @@ Player card. Region: pacific rim.
 
 ## front
 
-![](media/split/a8716e1c667f-32.jpg)
+![](media/split/a8716e1c667f-32.webp)
 
 MANILA
 PHILIPPINES

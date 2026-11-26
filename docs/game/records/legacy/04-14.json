@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "SYMPTOM\nPersistent Headache\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-33.jpg"
+      "image": "media/split/8ef8489d5a98-33.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "SYMPTOM\nPersistent Headache\nThis card counts as a card in your hand. You cannot discard this card when you exceed your hand limit.",
       "flavor": "",
-      "image": "media/split/70bec37606e4-33.jpg"
+      "image": "media/split/70bec37606e4-33.webp"
     }
   ],
   "states": [],

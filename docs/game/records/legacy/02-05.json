@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "PAUSE\nDraw this card and read the back when instructed (when you complete or fail the Disrupt Trial objective).",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-5.jpg"
+      "image": "media/split/ff910e2efc70-5.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "RIGHT NOW\n1 Draw the next 3 cards in this deck.\n2 Turn each city where the trial was NOT disrupted into an Exposed city (following the rules for Marking Exposed Cities). These cities are now exposed to MEDUSA, and Disease cubes will appear on them when Infection cards are drawn for them.\n3 Destroy any unused Infection cards.\n4 Move the 3 City cards under the Disrupt Trial objective to the Player discard pile.",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-5.jpg"
+      "image": "media/split/6bdabf12abfb-5.webp"
     }
   ],
   "states": [],

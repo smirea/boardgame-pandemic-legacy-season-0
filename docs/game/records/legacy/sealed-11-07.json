@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "PAUSE\nDraw this card and read the back during step 3 at the end of the first game in November.",
       "flavor": "",
-      "image": "media/split/a3ad9647d9f9-9.jpg"
+      "image": "media/split/a3ad9647d9f9-9.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "rules",
       "transcription": "RIGHT NOW\nOpen the following door:\n28",
       "flavor": "",
-      "image": "media/split/0755b549db50-9.jpg"
+      "image": "media/split/0755b549db50-9.webp"
     }
   ],
   "states": [],

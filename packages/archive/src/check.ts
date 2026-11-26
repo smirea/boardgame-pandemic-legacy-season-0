@@ -74,6 +74,7 @@ type Face = {
   transcription?: string;
   flavor?: string;
   image?: string | null;
+  imageNote?: string;
 };
 
 type Edge = { type?: string; targetId?: string; label?: string };
@@ -254,8 +255,9 @@ export function checkArchive(archiveDir: string): CheckReport {
         report.emptyTranscriptions += 1;
       }
       if (face.image == null) {
-        if ((record.provenance?.note ?? "").trim() === "") report.missingImages += 1;
-      } else if (!fileExists(archiveDir, face.image)) {
+        const reason = face.imageNote ?? record.provenance?.note ?? "";
+        if (reason.trim() === "") report.missingImages += 1;
+      } else if (!fileExists(archiveDir, face.image.replace(/\.pdf#page=\d+$/, ".pdf"))) {
         report.missingImages += 1;
       }
     }

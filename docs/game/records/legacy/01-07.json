@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "EVENT\nBUREAUCRATIC ENTANGLEMENTS\nRemove 1 or 2 agents from the board.\nPlay any time. Not an action.",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-13.jpg"
+      "image": "media/split/ff910e2efc70-13.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-13.jpg"
+      "image": "media/split/6bdabf12abfb-13.webp"
     }
   ],
   "states": [],

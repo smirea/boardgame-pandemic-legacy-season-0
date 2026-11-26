@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "This objective has a known target city.\n\nFlip this card over and place it onto the board in the Operations area. (Remember: You do not need to put the Novosibirsk City card under this card.)",
       "flavor": "",
-      "image": "media/split/ff910e2efc70-21.jpg"
+      "image": "media/split/ff910e2efc70-21.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "PROLOGUE OBJECTIVE 2\nSEARCH FOR AGENT SABIK\nAcquire Target in:\nNOVOSIBIRSK\nCompleted: Read Debrief 214\nFailed: Read Debrief 150",
       "flavor": "",
-      "image": "media/split/6bdabf12abfb-21.jpg"
+      "image": "media/split/6bdabf12abfb-21.webp"
     }
   ],
   "states": [],

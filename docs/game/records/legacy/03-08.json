@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "RIGHT NOW\nOpen the following doors:\nA 13\nThen, add the following Event card to the pool of events that you select from when you set up the game.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-48.jpg"
+      "image": "media/split/8ef8489d5a98-48.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/70bec37606e4-48.jpg"
+      "image": "media/split/70bec37606e4-48.webp"
     }
   ],
   "states": [],

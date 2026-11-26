@@ -11,7 +11,7 @@ Player card. Region: asia.
 
 ## front
 
-![](media/split/a8716e1c667f-49.jpg)
+![](media/split/a8716e1c667f-49.webp)
 
 CALCUTTA INDIA ASIA 7
 

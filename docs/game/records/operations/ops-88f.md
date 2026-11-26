@@ -11,13 +11,13 @@ Operations card. The book numbers operations 50–89 and counts 42 cards.
 
 ## front
 
-![](media/split/f7f847d898dc-2.jpg)
+![](media/split/f7f847d898dc-2.webp)
 
 MAY OBJECTIVE 3A BUG COMPLETED CONTROL CENTER IN SOUTH AMERICA Acquire Target in: THE CITY IN SOUTH AMERICA CONTAINING A CONTROL CENTER, USING 2 ACTIVE TEAMS AT THE SAME TIME Completed: Read Debrief 176 Failed: Read Debrief 118
 
 ## back
 
-![](media/split/a09b11f8464a-2.jpg)
+![](media/split/a09b11f8464a-2.webp)
 
 88 88 OPERATIONS 88
 

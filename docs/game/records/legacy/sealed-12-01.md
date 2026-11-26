@@ -11,14 +11,14 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-8.jpg)
+![](media/split/a3ad9647d9f9-8.webp)
 
 STOP
 Draw this card just before you set up your first game in December.
 
 ## back
 
-![](media/split/0755b549db50-8.jpg)
+![](media/split/0755b549db50-8.webp)
 
 FOLLOWING UP
 "We followed your leads on Operation LION'S TOOTH. Here's what we discovered."

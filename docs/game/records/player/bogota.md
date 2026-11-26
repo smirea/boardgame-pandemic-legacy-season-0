@@ -11,7 +11,7 @@ Player card. Region: south america.
 
 ## front
 
-![](media/split/a8716e1c667f-53.jpg)
+![](media/split/a8716e1c667f-53.webp)
 
 BOGOTÁ
 COLOMBIA

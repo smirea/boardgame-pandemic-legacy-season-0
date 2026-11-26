@@ -39,7 +39,7 @@ Cover pips, left to right:
 
 ## state-2
 
-![](media/original/a134fbc84cf48579f0fdff69ea71e0e82c4b972b.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -67,7 +67,7 @@ Cover pips, left to right:
 
 ## state-3
 
-![](media/original/736ce3af91863aacedadb4a588c61c8a4304c045.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -95,7 +95,7 @@ Cover pips, left to right:
 
 ## state-4
 
-![](media/original/e39acedb486a6e7f61acad60fb4968301444c4cf.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -123,7 +123,7 @@ Cover pips, left to right:
 
 ## state-5
 
-![](media/original/7769f2154a6c83b26c944aece3fbdeadc0b5ff30.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -151,7 +151,7 @@ Cover pips, left to right:
 
 ## state-6
 
-![](media/original/a60f3eb1d90e7bb56f25d34f1597b4ea88030fc2.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -179,7 +179,7 @@ Cover pips, left to right:
 
 ## state-7
 
-![](media/original/77e17f361955893b4432a96624645e5f6e7b6151.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -207,7 +207,7 @@ Cover pips, left to right:
 
 ## state-8
 
-![](media/original/798160e7d3000b9076d1d385ac7382cf6e86f55d.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -235,7 +235,7 @@ Cover pips, left to right:
 
 ## state-9
 
-![](media/original/498977bcf0707389d90ecebacfa211eb45e28fed.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -263,7 +263,7 @@ Cover pips, left to right:
 
 ## state-10
 
-![](media/original/64f7f61d9455034f414edf80baba1f68575624be.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 
@@ -291,7 +291,7 @@ Cover pips, left to right:
 
 ## state-11
 
-![](media/original/03d99f4367f814edb35a6df4c072f3495f273dd7.jpg)
+Image: Same page as state-1 with the cover pips scratched as listed.
 
 Green pawn. Emblem: Allied, a blue compass rose on a black circle.
 

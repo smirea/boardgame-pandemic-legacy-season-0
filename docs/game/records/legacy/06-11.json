@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "INFECTION\nCITY NAME\nSTARTING INTENSITY\n1\nDuring setup, put 1 disease cube into this city.",
       "flavor": "",
-      "image": "media/split/8ef8489d5a98-4.jpg"
+      "image": "media/split/8ef8489d5a98-4.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/70bec37606e4-4.jpg"
+      "image": "media/split/70bec37606e4-4.webp"
     }
   ],
   "states": [],

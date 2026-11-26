@@ -22,7 +22,7 @@
       "role": "rules",
       "transcription": "AT LAST\n\nIf you completed both Steal the MEDUSA Genome and Stop Operation LION'S TOOTH, read Debrief 246.\n\nIf you completed Steal the MEDUSA Genome, but failed Stop Operation LION'S TOOTH, read Debrief 244.\n\nIf you failed Steal the MEDUSA Genome but completed Stop Operation LION'S TOOTH, read Debrief 248.\n\nIf you failed both Steal the MEDUSA Genome and Stop Operation LION'S TOOTH, read Debrief 250.",
       "flavor": "",
-      "image": "media/split/a3ad9647d9f9-2.jpg"
+      "image": "media/split/a3ad9647d9f9-2.webp"
     },
     {
       "id": "back",
@@ -30,7 +30,7 @@
       "role": "art",
       "transcription": "",
       "flavor": "",
-      "image": "media/split/0755b549db50-2.jpg"
+      "image": "media/split/0755b549db50-2.webp"
     }
   ],
   "states": [],

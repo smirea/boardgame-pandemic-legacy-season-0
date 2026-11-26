@@ -24,7 +24,7 @@
       "role": "rules",
       "transcription": "INFILTRATION SITE:\nLANGLEY\nWASHINGTON\nENTRANCE\nAn Allied alias is required to enter this infiltration site.\nBRIEFING ROOM\nWhen you enter this room, you may scratch 2 cover to add an Event card of your choice from the reserve to your hand.",
       "flavor": "",
-      "image": "media/split/f7f847d898dc-16.jpg"
+      "image": "media/split/f7f847d898dc-16.webp"
     },
     {
       "id": "back",
@@ -32,7 +32,7 @@
       "role": "rules",
       "transcription": "OPERATIONS\n74",
       "flavor": "",
-      "image": "media/split/a09b11f8464a-16.jpg"
+      "image": "media/split/a09b11f8464a-16.webp"
     }
   ],
   "states": [],

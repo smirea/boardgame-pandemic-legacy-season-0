@@ -11,7 +11,7 @@ Legacy card sealed in safe deposit box 0005, not in the starting legacy deck. Sa
 
 ## front
 
-![](media/split/a3ad9647d9f9-7.jpg)
+![](media/split/a3ad9647d9f9-7.webp)
 
 MISSION BRIEFING
 "The time has come. You must steal the MEDUSA genome from PEARL. Without it, they cannot create more of the plague.
@@ -24,7 +24,7 @@ There will be only one chance to succeed at this."
 
 ## back
 
-![](media/split/0755b549db50-7.jpg)
+![](media/split/0755b549db50-7.webp)
 
 SABIK'S BRIEFING
 "Prioritize MEDUSA and LION'S TOOTH, no question, but if you can manage it, I have a favor to ask.
