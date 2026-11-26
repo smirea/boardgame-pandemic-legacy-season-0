@@ -666,11 +666,17 @@ export function setupPlayerDeck(world: World): void {
 
   // Consume checked Discretionary Budget boxes
   if (game.discretionaryCheckedThisGame > 0 && c.discretionaryBudgetBoxesLeft !== null) {
+    const before = c.discretionaryBudgetBoxesLeft;
     c.discretionaryBudgetBoxesLeft = Math.max(
       0,
       c.discretionaryBudgetBoxesLeft - game.discretionaryCheckedThisGame,
     );
+    const remaining = c.discretionaryBudgetBoxesLeft;
     if (c.discretionaryBudgetBoxesLeft === 0) c.discretionaryBudgetBoxesLeft = null;
+    log(game, {
+      t: "note",
+      text: `Discretionary Budget: checked ${game.discretionaryCheckedThisGame} box(es) (${before} → ${remaining} left${remaining === 0 ? "; card destroyed" : ""})`,
+    });
   }
 
   // Create the 48 City Player cards

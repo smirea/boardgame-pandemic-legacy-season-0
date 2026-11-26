@@ -174,6 +174,19 @@ export function parseDoCommand(
     };
   }
 
+  if (head.startsWith("assign-passport:")) {
+    const [, targetSeat, color] = head.split(":");
+    return {
+      kind: "single",
+      command: {
+        type: "ASSIGN_PASSPORT",
+        player,
+        seat: targetSeat as SeatId,
+        passport: color as PassportColor,
+      },
+    };
+  }
+
   if (head === "assign-passport" && args.length >= 3) {
     return {
       kind: "single",

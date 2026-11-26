@@ -431,7 +431,8 @@ function addDecisionOptions(
     case "choose-liability":
       for (const lib of c.availableLiabilities) {
         const def = pack.liabilityById[lib];
-        push(`liability:${lib}`, `Take Liability: ${def.name} — ${def.text}`, {
+        const regNote = def.needsRegion ? ` [stamps region: ${pack.regionNames[top.region]}]` : "";
+        push(`liability:${lib}`, `Take Liability: ${def.name}${regNote} — ${def.text}`, {
           t: "choose-liability",
           liability: lib,
         });
@@ -1548,6 +1549,20 @@ export function optionsFor(
           category: "lobby",
           command: { type: "BEGIN_JANUARY", player },
         });
+      }
+      if (world.campaign.month >= 1) {
+        for (const ts of world.table.seats) {
+          const cur = world.campaign.seating.find((s) => s.seat === ts.seat)?.passport ?? null;
+          for (const color of PASSPORT_COLORS) {
+            if (color === cur) continue;
+            addIfLegal(out, world, phase, undoDepth, {
+              key: `assign-passport:${ts.seat}:${color}`,
+              label: `Assign ${color} passport to ${ts.seat} (${ts.player})`,
+              category: "lobby",
+              command: { type: "ASSIGN_PASSPORT", player, seat: ts.seat, passport: color },
+            });
+          }
+        }
       }
       if (world.campaign.door14State === "ignored") {
         addIfLegal(out, world, phase, undoDepth, {

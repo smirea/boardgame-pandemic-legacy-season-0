@@ -175,10 +175,11 @@ function adjustFunding(world: World, delta: number, reason: string): void {
     return;
   }
   c.funding = Math.max(1, Math.min(10, raw));
+  const capNote = raw > 10 ? " (capped at 10)" : raw < 1 ? " (floored at 1)" : "";
   if (world.game) {
     log(world.game, {
       t: "note",
-      text: `Funding ${delta >= 0 ? `+${delta}` : delta} → ${c.funding} (${reason})`,
+      text: `Funding ${delta >= 0 ? `+${delta}` : delta} → ${c.funding}${capNote} (${reason})`,
     });
   }
 }
@@ -2919,6 +2920,13 @@ export function resolveGameEndSteps(world: World): void {
   const bonusDoor19 = c.door19BonusPending ? 6 : 0;
   c.door19BonusPending = false;
   const budget = game.seats.length + bonusAll + bonusDoor19;
+  const budgetParts = [`${game.seats.length} players`];
+  if (bonusAll > 0) budgetParts.push(`+${bonusAll} SUCCEEDING`);
+  if (bonusDoor19 > 0) budgetParts.push(`+${bonusDoor19} Door 19`);
+  log(game, {
+    t: "note",
+    text: `Step 5 (Prepare Budget): ${budget} budgetary units (${budgetParts.join(" ")})`,
+  });
 
   const safehouseCities = pack.cities
     .filter((ct) => game.locations[ct.id].safehouse && !c.cities[ct.id].permanentSafehouse)
@@ -3069,7 +3077,7 @@ export function refundPurchase(world: World, index: number): void {
       if (idx !== -1) alias.assets.splice(idx, 1);
       log(world.game!, {
         t: "note",
-        text: `Spend Budget: refunded ${pack.assetById[purchase.asset].name} on ${purchase.passport}/${purchase.affiliation} (+${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
+        text: `Spend Budget: refunded ${pack.assetById[purchase.asset].name}${purchase.city ? ` (${cityDef(purchase.city).name})` : ""} on ${purchase.passport}/${purchase.affiliation} (+${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
       });
       break;
     }
