@@ -725,7 +725,7 @@ export function setupPlayerDeck(world: World): void {
         game.playerDiscard.push(cardId);
       } else {
         game.players[seat].hand.push(cardId);
-        if (card.kind === "city") markUnknownElimination(game, card.city);
+        if (card.kind === "city") markUnknownElimination(world, card.city);
       }
     }
   }
@@ -942,7 +942,7 @@ export function drawTwoPlayerCards(world: World): void {
       game.players[seat].hand.push(cardId);
       if (card.kind === "city") {
         drawnCities.push(card.city);
-        markUnknownElimination(game, card.city);
+        markUnknownElimination(world, card.city);
       }
     }
   }
@@ -1240,6 +1240,7 @@ export function drawOneThreatCard(world: World): void {
 
   const endedBefore = game.outcome !== null;
   const inc = addAgentsToCity(world, card.city, 1);
+  const incidentSupplyEmpty = inc.length > 0 && game.supplies.incidentOutbreakTokens <= 0;
   log(game, {
     t: "threat",
     card: card.id,
@@ -1247,9 +1248,11 @@ export function drawOneThreatCard(world: World): void {
     effect:
       !endedBefore && game.outcome
         ? "FAILED (agent supply empty)"
-        : inc.length > 0
-          ? "INCIDENT (4th agent)"
-          : "+1 agent",
+        : incidentSupplyEmpty
+          ? "FAILED (Incident supply empty)"
+          : inc.length > 0
+            ? "INCIDENT (4th agent)"
+            : "+1 agent",
   });
   if (inc.length > 0) {
     resolveIncidentWave(world, inc);

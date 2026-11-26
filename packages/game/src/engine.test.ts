@@ -12,6 +12,7 @@ import {
   evaluatePsych1,
   evaluatePsych4,
   giveSymptomCard,
+  markUnknownElimination,
   optionsFor,
   pack,
   phaseOf,
@@ -988,5 +989,32 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     expect(phaseOf(b.getSnapshot().value)).toBe("over");
     const threatLog = b.getSnapshot().context.world.game!.log.filter((e) => e.t === "threat").at(-1);
     expect(threatLog?.t === "threat" && threatLog.effect).toBe("FAILED (agent supply empty)");
+
+    // markUnknownElimination ANDs filters and checks campaign controlCenter state
+    const w3 = structuredClone(b.getSnapshot().context.world);
+    w3.campaign.cities.paris.controlCenter = true;
+    w3.campaign.cities.london.controlCenter = false;
+    w3.game!.objectives = [
+      {
+        id: "cc-test",
+        cardCode: "test",
+        title: "CC Test",
+        description: "",
+        kind: "unknown-city",
+        status: "active",
+        unknownRegion: "europe",
+        unknownControlCentersOnly: true,
+        debriefComplete: 100,
+        debriefFail: 100,
+        hiddenCardId: null,
+        targetRevealed: false,
+        trialCardIds: [],
+        eliminatedCities: [],
+      },
+    ];
+    markUnknownElimination(w3, "london");
+    markUnknownElimination(w3, "paris");
+    markUnknownElimination(w3, "new-york");
+    expect(w3.game!.objectives[0]!.eliminatedCities).toEqual(["paris"]);
   });
 });

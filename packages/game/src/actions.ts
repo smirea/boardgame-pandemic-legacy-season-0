@@ -923,8 +923,8 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
     case "commercial-flight": {
       const dest = cityOfCard(game, action.card)!;
       const destAff = cityDef(dest).affiliation;
-      // Allied card is REVEALED unless Restriction 57 (Unpredictable) is active; Neutral & Soviet (Forged Papers) are discarded!
-      if (destAff !== "allied" || isRestrictionActive(game, "unpredictable")) {
+      const keptCard = destAff === "allied" && !isRestrictionActive(game, "unpredictable");
+      if (!keptCard) {
         discardFromHand(game, seat, action.card);
       }
       if (action.extraCard) discardFromHand(game, seat, action.extraCard);
@@ -932,7 +932,7 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
         t: "action",
         seat,
         action: action.a,
-        detail: `Commercial Flight to ${cityDef(dest).name}`,
+        detail: `Commercial Flight to ${cityDef(dest).name} (${keptCard ? "revealed & kept" : "discarded"} ${cityDef(dest).name})`,
         cost,
       });
       enterCity(world, seat, dest, { by: "commercial-flight", carryTeams: action.carryTeams });

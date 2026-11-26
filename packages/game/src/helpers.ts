@@ -274,14 +274,18 @@ export function giveActionTokens(game: Game, seat: SeatId, count: number): numbe
   return given;
 }
 
-export function markUnknownElimination(game: Game, city: CityId): void {
+export function markUnknownElimination(world: World, city: CityId): void {
+  const game = world.game;
+  if (!game) return;
   for (const obj of game.objectives) {
     if (obj.kind !== "unknown-city" || obj.status !== "active" || obj.targetRevealed) continue;
     const def = cityDef(city);
+    const hasFilter = Boolean(obj.unknownRegion || obj.unknownAffiliation || obj.unknownControlCentersOnly);
+    if (!hasFilter) continue;
     const matches =
-      (obj.unknownRegion && def.region === obj.unknownRegion) ||
-      (obj.unknownAffiliation && def.affiliation === obj.unknownAffiliation) ||
-      obj.unknownControlCentersOnly;
+      (!obj.unknownRegion || def.region === obj.unknownRegion) &&
+      (!obj.unknownAffiliation || def.affiliation === obj.unknownAffiliation) &&
+      (!obj.unknownControlCentersOnly || world.campaign.cities[city].controlCenter);
     if (matches && !obj.eliminatedCities.includes(city)) {
       obj.eliminatedCities.push(city);
     }

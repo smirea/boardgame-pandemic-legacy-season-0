@@ -574,14 +574,25 @@ function finalizeDisruptTrial(
 ): void {
   const game = world.game!;
   const disruptedSet = new Set(disruptedCities);
+  const discardedNames: string[] = [];
+  let destroyedBlankInfectionCards = 0;
   for (const cardId of obj.trialCardIds) {
     const card = game.playerCards[cardId];
     if (card?.kind === "city") {
       if (!disruptedSet.has(card.city)) {
         exposeCity(world, card.city, intensity);
+      } else {
+        destroyedBlankInfectionCards += 1;
       }
       game.playerDiscard.push(cardId);
+      discardedNames.push(cityDef(card.city).name);
     }
+  }
+  if (discardedNames.length > 0) {
+    log(game, {
+      t: "note",
+      text: `Disrupt Trial cleanup: moved trial City cards (${discardedNames.join(", ")}) to Player discard${destroyedBlankInfectionCards > 0 ? `; destroyed ${destroyedBlankInfectionCards} unused blank Infection card(s)` : ""}`,
+    });
   }
   obj.trialCardIds = [];
 }
@@ -2852,9 +2863,15 @@ export function resolveGameEndSteps(world: World): void {
     if (pauseId) readLegacyPause(world, pauseId);
   }
 
-  // Step 4: Check Game End Area
-  game.threatDiscard.push(...game.gameEndArea);
+  // Step 4: Check Game End Area (return Threat cards; Infection cards stay in campaign.infectionCards for future games)
+  const threatBack = game.gameEndArea.filter((t) => t.kind === "city");
+  const infectionCount = game.gameEndArea.length - threatBack.length;
+  game.threatDiscard.push(...threatBack);
   game.gameEndArea = [];
+  log(game, {
+    t: "note",
+    text: `Step 4 (Check Game End Area): returned ${threatBack.length} Threat card(s) to Threat discard${infectionCount > 0 ? `; retained ${infectionCount} Infection card(s) for future games` : ""}`,
+  });
 
   // Step 5: Prepare Budget (skipped in December!)
   if (c.month === 12) {

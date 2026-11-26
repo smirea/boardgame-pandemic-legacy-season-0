@@ -766,14 +766,21 @@ function addEventOptions(
           .sort((a, b) => game.locations[b.id].agents - game.locations[a.id].agents);
         if (hot.length > 0) {
           const first = hot[0]!.id;
-          const second =
-            game.locations[first].agents >= 2 ? first : hot[1]?.id;
-          const targets = second ? [first, second] : [first];
+          const secondSame = game.locations[first].agents >= 2 ? first : hot[1]?.id;
+          const targets = secondSame ? [first, secondSame] : [first];
           pushPlay(
             `play:bureaucratic:${targets.join("+")}`,
             `Play Bureaucratic Entanglements (remove agents: ${targets.map((c) => cityDef(c).name).join(", ")})`,
             { e: "bureaucratic-entanglements", targets },
           );
+          if (hot.length >= 2 && secondSame === first) {
+            const split: CityId[] = [first, hot[1]!.id];
+            pushPlay(
+              `play:bureaucratic:${split.join("+")}`,
+              `Play Bureaucratic Entanglements (split: ${split.map((c) => cityDef(c).name).join(", ")})`,
+              { e: "bureaucratic-entanglements", targets: split },
+            );
+          }
         }
         break;
       }
