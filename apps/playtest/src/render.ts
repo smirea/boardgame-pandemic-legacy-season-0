@@ -341,6 +341,7 @@ export function renderStatus(
     const clinicCards = new Set<string>();
     const clinicDests = new Set<string>();
     const unrecordedDests: string[] = [];
+    const unrecordedCarryDests: string[] = [];
     const standalone: OptionItem[] = [];
     for (const o of options) {
       const mCoord = /^(coord-pawn:[^:]+|coord-team:[^:]+):(.+)$/.exec(o.key);
@@ -354,6 +355,11 @@ export function renderStatus(
       const mUnrec = /^unrecorded:(.+)$/.exec(o.key);
       if (mUnrec) {
         unrecordedDests.push(mUnrec[1]!);
+        continue;
+      }
+      const mUnrecCarry = /^unrecorded-carry:(.+)$/.exec(o.key);
+      if (mUnrecCarry) {
+        unrecordedCarryDests.push(mUnrecCarry[1]!);
         continue;
       }
       const mClinic = /^clinic-fly:([^:]+):(.+)$/.exec(o.key);
@@ -371,6 +377,11 @@ export function renderStatus(
     if (unrecordedDests.length > 0) {
       lines.push(
         `  unrecorded:<city>  —  Unrecorded Flight: discard current city card to fly to ANY of ${unrecordedDests.length} other cities`,
+      );
+    }
+    if (unrecordedCarryDests.length > 0) {
+      lines.push(
+        `  unrecorded-carry:<city>  —  Unrecorded Flight carrying teams in your city to ANY of ${unrecordedCarryDests.length} other cities`,
       );
     }
     if (clinicDests.size > 0) {

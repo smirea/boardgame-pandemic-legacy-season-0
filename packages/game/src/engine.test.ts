@@ -1018,5 +1018,34 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     markUnknownElimination(w3, "paris");
     markUnknownElimination(w3, "new-york");
     expect(w3.game!.objectives[0]!.eliminatedCities).toEqual(["paris"]);
+
+    // Transport Crew carry variants appear for visa, commercial flight, unrecorded flight, and cargo pilot
+    const w4 = structuredClone(a.getSnapshot().context.world);
+    w4.campaign.passports.pink.aliases.neutral = {
+      affiliation: "neutral",
+      created: true,
+      name: "Carrier",
+      occupation: "cargo-pilot",
+      specialization: "transport-crew",
+      coverTrack: ["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"],
+      coverScratched: 0,
+      burned: false,
+      assets: [{ id: "visa-4", city: "rome", boxesChecked: 0, dead: false }],
+      liabilities: [],
+    };
+    w4.game!.active = "seat-3";
+    w4.game!.actionsLeft = 4;
+    w4.game!.pending = [];
+    w4.game!.players["seat-3"].passport = "pink";
+    w4.game!.players["seat-3"].activeAlias = "neutral";
+    w4.game!.players["seat-3"].location = "washington";
+    w4.game!.players["seat-3"].hand = ["city:washington", "city:london"];
+    w4.game!.locations.bangkok.safehouse = true;
+    w4.game!.teams["allied-1"].city = "washington";
+    const carryOpts = optionsFor(w4, "playing.actions", "p3", 0).map((o) => o.key);
+    expect(carryOpts).toContain("visa-carry:visa-4");
+    expect(carryOpts).toContain("fly-carry:london");
+    expect(carryOpts).toContain("unrecorded-carry:rome");
+    expect(carryOpts).toContain("cargo-fly-carry:bangkok");
   });
 });

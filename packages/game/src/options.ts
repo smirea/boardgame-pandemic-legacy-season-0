@@ -707,18 +707,51 @@ function addEventOptions(
         const rel = game.supplies.safehouses <= 0
           ? pack.cities.find((ct) => game.locations[ct.id].safehouse)?.id
           : undefined;
-        // Surface current city + cities with pawns/teams + key hubs (all cities remain legal via CLI!)
-        const highlights = new Set<CityId>([p.location]);
-        for (const s of game.seats) highlights.add(game.players[s].location);
-        for (const ct of pack.cities) {
-          if (!game.locations[ct.id].safehouse && game.locations[ct.id].agents > 0) {
-            highlights.add(ct.id);
+        // Prioritize objective/exposed/control-center cities, then pawns/teams, then high-agent cities (all 48 cities remain legal via CLI)
+        const highlights = new Set<CityId>();
+        const addIfEligible = (cid: CityId) => {
+          if (!game.locations[cid].safehouse) highlights.add(cid);
+        };
+        for (const obj of game.objectives) {
+          if (obj.status !== "active") continue;
+          for (const tc of obj.targetCities ?? []) addIfEligible(tc);
+          for (const tc of obj.trialCardIds ?? []) {
+            const c = cityOfCard(game, tc);
+            if (c) addIfEligible(c);
+          }
+          if (obj.targetRevealed && obj.hiddenCardId) {
+            const c = cityOfCard(game, obj.hiddenCardId);
+            if (c) addIfEligible(c);
+          }
+          if (obj.kind === "quarantine-exposed") {
+            for (const ct of pack.cities) {
+              if (ct.region === obj.region && world.campaign.cities[ct.id].exposedIntensity !== null) {
+                addIfEligible(ct.id);
+              }
+            }
+          }
+          if (obj.kind === "bug-existing-control-center") {
+            for (const ct of pack.cities) {
+              if (ct.region === obj.region && world.campaign.cities[ct.id].controlCenter) {
+                addIfEligible(ct.id);
+              }
+            }
           }
         }
-        for (const city of [...highlights].slice(0, 12)) {
+        addIfEligible(p.location);
+        for (const s of game.seats) addIfEligible(game.players[s].location);
+        for (const t of Object.values(game.teams)) {
+          if (t.city) addIfEligible(t.city);
+        }
+        for (const ct of [...pack.cities].sort(
+          (a, b) => game.locations[b.id].agents - game.locations[a.id].agents,
+        )) {
+          if (game.locations[ct.id].agents > 0) addIfEligible(ct.id);
+        }
+        for (const city of [...highlights].slice(0, 16)) {
           pushPlay(
             `play:holdover:${city}`,
-            `Play A Holdover from the War -> safehouse in ${cityDef(city).name}`,
+            `Play A Holdover from the War -> safehouse in ${cityDef(city).name} (or 'play:holdover:<city>' for any city)`,
             { e: "a-holdover-from-the-war", city, relocateFrom: rel },
           );
         }
@@ -769,9 +802,13 @@ function addEventOptions(
           const first = hot[0]!.id;
           const secondSame = game.locations[first].agents >= 2 ? first : hot[1]?.id;
           const targets = secondSame ? [first, secondSame] : [first];
+          const desc =
+            targets.length === 2 && targets[0] === targets[1]
+              ? `2 agents from ${cityDef(first).name}`
+              : targets.map((c) => cityDef(c).name).join(", ");
           pushPlay(
             `play:bureaucratic:${targets.join("+")}`,
-            `Play Bureaucratic Entanglements (remove agents: ${targets.map((c) => cityDef(c).name).join(", ")})`,
+            `Play Bureaucratic Entanglements (remove ${desc})`,
             { e: "bureaucratic-entanglements", targets },
           );
           if (hot.length >= 2 && secondSame === first) {
@@ -1042,6 +1079,13 @@ function addActionOptions(
       card: id,
       extraCard,
     });
+    if (carryAll && carryAll.length > 0) {
+      pushAct(
+        `fly-carry:${dest}`,
+        `Commercial Flight to ${cityDef(dest).name} carrying ${carryAll.join("+")}`,
+        { a: "commercial-flight", card: id, extraCard, carryTeams: carryAll },
+      );
+    }
   }
 
   const ownCityCard = handCityCards.find((id) => cityOfCard(game, id) === loc);
@@ -1053,6 +1097,13 @@ function addActionOptions(
         card: ownCityCard,
         to: ct.id,
       });
+      if (carryAll && carryAll.length > 0) {
+        pushAct(
+          `unrecorded-carry:${ct.id}`,
+          `Unrecorded Flight to ${ct.name} carrying ${carryAll.join("+")} (discard ${loc})`,
+          { a: "unrecorded-flight", card: ownCityCard, to: ct.id, carryTeams: carryAll },
+        );
+      }
     }
   }
 
@@ -1308,6 +1359,13 @@ function addActionOptions(
           a: "cargo-pilot-flight",
           to: ct.id,
         });
+        if (carryAll && carryAll.length > 0) {
+          pushAct(
+            `cargo-fly-carry:${ct.id}`,
+            `Cargo Pilot: fly to safehouse in ${ct.name} carrying ${carryAll.join("+")}`,
+            { a: "cargo-pilot-flight", to: ct.id, carryTeams: carryAll },
+          );
+        }
       }
     }
   }
@@ -1332,6 +1390,13 @@ function addActionOptions(
         a: "visa-move",
         asset: visaId,
       });
+      if (carryAll && carryAll.length > 0) {
+        pushAct(
+          `visa-carry:${visaId}`,
+          `Use Visa to move to ${cityDef(v.city).name} carrying ${carryAll.join("+")}`,
+          { a: "visa-move", asset: visaId, carryTeams: carryAll },
+        );
+      }
     }
   }
   if (findAsset(world, seat, "shop-owner") && handCityCards.length >= 2) {

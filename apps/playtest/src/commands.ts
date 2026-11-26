@@ -240,15 +240,91 @@ export function parseDoCommand(
     const to = head.slice("drive:".length) as CityId;
     return { kind: "single", command: { type: "ACTION", player, action: { a: "drive", to } } };
   }
+  const parseCarry = (teamsRaw?: string): TeamId[] => {
+    if (teamsRaw && teamsRaw.trim().length > 0) {
+      return teamsRaw
+        .split(",")
+        .map((s) => s.trim())
+        .filter(Boolean) as TeamId[];
+    }
+    const loc = g.players[seat].location;
+    return Object.values(g.teams)
+      .filter((t) => t.city === loc)
+      .map((t) => t.id);
+  };
   if (head.startsWith("drive-carry:")) {
     const [, to, teamsRaw] = head.split(":");
-    const carryTeams = (teamsRaw ?? "")
-      .split(",")
-      .map((s) => s.trim())
-      .filter(Boolean) as TeamId[];
     return {
       kind: "single",
-      command: { type: "ACTION", player, action: { a: "drive", to: to as CityId, carryTeams } },
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "drive", to: to as CityId, carryTeams: parseCarry(teamsRaw) },
+      },
+    };
+  }
+  if (head.startsWith("unrecorded-carry:")) {
+    const [, to, teamsRaw] = head.split(":");
+    const ownCard = findCityCardInHand(world, seat, g.players[seat].location);
+    if (!ownCard) return { kind: "error", message: "You do not hold your current city's card" };
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "unrecorded-flight", card: ownCard, to: to as CityId, carryTeams: parseCarry(teamsRaw) },
+      },
+    };
+  }
+  if (head.startsWith("fly-carry:")) {
+    const [, to, teamsRaw] = head.split(":");
+    const card = findCityCardInHand(world, seat, to ?? "");
+    if (!card) return { kind: "error", message: `You do not hold the City card for ${to ?? ""}` };
+    const extraTok = args.find((a) => a.startsWith("extra:"));
+    const extraCard = extraTok ? findCardInHand(world, seat, extraTok.slice(6)) ?? undefined : undefined;
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "commercial-flight", card, extraCard, carryTeams: parseCarry(teamsRaw) },
+      },
+    };
+  }
+  if (head.startsWith("cargo-fly-carry:")) {
+    const [, to, teamsRaw] = head.split(":");
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "cargo-pilot-flight", to: to as CityId, carryTeams: parseCarry(teamsRaw) },
+      },
+    };
+  }
+  if (head.startsWith("cargo-fly:")) {
+    const to = head.slice("cargo-fly:".length) as CityId;
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "cargo-pilot-flight", to } },
+    };
+  }
+  if (head.startsWith("visa-carry:")) {
+    const [, asset, teamsRaw] = head.split(":");
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "visa-move", asset: asset as AssetId, carryTeams: parseCarry(teamsRaw) },
+      },
+    };
+  }
+  if (head.startsWith("visa:")) {
+    const asset = head.slice("visa:".length) as AssetId;
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "visa-move", asset } },
     };
   }
 

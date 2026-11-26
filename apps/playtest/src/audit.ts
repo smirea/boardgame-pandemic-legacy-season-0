@@ -121,6 +121,9 @@ export function recordCommandAudit(
     if (cmd.action.a === "cargo-pilot-flight" && cmd.action.carryTeams?.length) {
       bump(audit.specializationsUsed, "transport-crew");
     }
+    if (cmd.action.a === "visa-move" && cmd.action.carryTeams?.length) {
+      bump(audit.specializationsUsed, "transport-crew");
+    }
     if (cmd.action.a === "visa-move") bump(audit.assetsUsed, cmd.action.asset);
     const assetActionMap: Record<string, string> = {
       "shop-owner-swap": "shop-owner",
