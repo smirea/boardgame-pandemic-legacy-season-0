@@ -5,6 +5,7 @@ import type {
   CityId,
   Command,
   EventId,
+  InfiltrationSiteId,
   OccupationId,
   PassportColor,
   Phase,
@@ -218,6 +219,22 @@ export function parseDoCommand(
   }
   if (head === "spend-action-token") {
     return { kind: "single", command: { type: "ACTION", player, action: { a: "spend-action-token" } } };
+  }
+  if (head === "exit-infiltration") {
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "exit-infiltration" } } };
+  }
+  if (head.startsWith("enter-infiltration:")) {
+    const site = head.slice("enter-infiltration:".length) as InfiltrationSiteId;
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "enter-infiltration", site } } };
+  }
+  if (head.startsWith("change-alias:")) {
+    const affiliation = head.slice("change-alias:".length) as Affiliation;
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "change-alias", affiliation } } };
+  }
+  if (head.startsWith("get-treatment:")) {
+    const cardRaw = head.slice("get-treatment:".length);
+    const card = findCardInHand(world, seat, cardRaw) ?? cardRaw;
+    return { kind: "single", command: { type: "ACTION", player, action: { a: "get-treatment", card } } };
   }
   if (head.startsWith("drive:")) {
     const to = head.slice("drive:".length) as CityId;

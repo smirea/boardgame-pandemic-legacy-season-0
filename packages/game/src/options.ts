@@ -808,9 +808,11 @@ function addEventOptions(
         break;
       }
       case "weekend-rendezvous": {
+        const seenAnchorCities = new Set<CityId>();
         for (const anchor of game.seats) {
           const ap = game.players[anchor];
-          if (ap.infiltration) continue;
+          if (ap.infiltration || seenAnchorCities.has(ap.location)) continue;
+          seenAnchorCities.add(ap.location);
           const movers = game.seats.filter(
             (s) => s !== anchor && !game.players[s].infiltration && game.players[s].location !== ap.location,
           );
@@ -820,6 +822,15 @@ function addEventOptions(
               `Play Weekend Rendezvous: move ${movers.join(", ")} to ${cityDef(ap.location).name}`,
               { e: "weekend-rendezvous", to: ap.location, seats: movers },
             );
+            if (movers.length > 1) {
+              for (const m of movers) {
+                pushPlay(
+                  `play:weekend-rendezvous:${ap.location}:${m}`,
+                  `Play Weekend Rendezvous: move only ${m} to ${cityDef(ap.location).name}`,
+                  { e: "weekend-rendezvous", to: ap.location, seats: [m] },
+                );
+              }
+            }
           }
         }
         break;
@@ -841,12 +852,19 @@ function addEventOptions(
         const incCities = pack.cities.filter((ct) => game.locations[ct.id].incidents > 0);
         if (incCities.length > 0) {
           const src = incCities[0]!.id;
-          const dest = pack.cities.find(
-            (ct) => ct.id !== src && world.campaign.cities[ct.id].surveillance === 3,
-          )?.id ?? (src === "moscow" ? "havana" : "moscow");
+          // Prefer a destination already at max surveillance (3) with lowest agent count, else lowest-agent city
+          const candidates = pack.cities
+            .filter((ct) => ct.id !== src)
+            .sort((a, b) => {
+              const aMax = world.campaign.cities[a.id].surveillance === 3 ? 0 : 1;
+              const bMax = world.campaign.cities[b.id].surveillance === 3 ? 0 : 1;
+              if (aMax !== bMax) return aMax - bMax;
+              return game.locations[a.id].agents - game.locations[b.id].agents;
+            });
+          const dest = candidates[0]!.id;
           pushPlay(
-            `play:diversion:${src}:${dest}`,
-            `Play Diversion: move Incident from ${cityDef(src).name} to ${cityDef(dest).name}`,
+            `play:diversion:${src}->${dest}`,
+            `Play Diversion: move Incident from ${cityDef(src).name} to ${cityDef(dest).name} (or 'play:diversion:<src1>,<src2>-><dest>' for any cities)`,
             { e: "diversion", sources: [src], to: dest },
           );
         }

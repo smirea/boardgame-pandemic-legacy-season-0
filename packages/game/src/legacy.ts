@@ -665,6 +665,9 @@ function quarantineCity(world: World, city: CityId): void {
       world.game.gameEndArea = world.game.gameEndArea.filter(
         (t) => !(t.kind === "infection" && t.infectionId === removed.id),
       );
+      world.game.peekedThreatCards = world.game.peekedThreatCards.filter(
+        (t) => !(t.kind === "infection" && t.infectionId === removed.id),
+      );
     }
   }
   if (world.game) {
