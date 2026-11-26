@@ -232,7 +232,9 @@
     "bytes": 2004158
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941572656/85CD7D2900972D2FA2A9E3C3DB0271756612BDB7/": {
-    "path": "media/original/6bdabf12abfb2ebd10fba9ad75fb6927656fef48.png",
+    "split": "media/split/6bdabf12abfb-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 29908270
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941755425/BD22CD03EFA0C33AF211381EC7952CD78C5AA4A7/": {
@@ -248,7 +250,9 @@
     "bytes": 4448028
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941572045/56382E0243828F18D398FE55CDCF6CAC20A3B963/": {
-    "path": "media/original/ff910e2efc70ef4d09c87761b6b168e6b032e2ba.png",
+    "split": "media/split/ff910e2efc70-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 37551356
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941758933/15F37D79B3B3815984137416EA08FDD12D30B29C/": {
@@ -292,7 +296,9 @@
     "bytes": 1270961
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941565692/0409E6B549968E8D64D191D43E210C7E78047782/": {
-    "path": "media/original/8ef8489d5a98874b2128b0c8c2053b2ea734e9aa.png",
+    "split": "media/split/8ef8489d5a98-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 85589581
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941766196/2234303B8BA09103AA708E25AAED1A9F4501D914/": {
@@ -448,7 +454,9 @@
     "bytes": 1234332
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941566732/CA95C6DAF07666173227D7B01E8A976D5A858A4D/": {
-    "path": "media/original/70bec37606e4da22dcd5bf150ad7078f3099a349.png",
+    "split": "media/split/70bec37606e4-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 75787411
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988941820136/5094312E3E3B02FAF6F3BC7F29F668A769837676/": {
@@ -844,7 +852,9 @@
     "bytes": 1246521
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942102620/63BC401CF4B90A7940582EFBE49277896865529E/": {
-    "path": "media/original/27f7af8d6d0503a81ba9dea3a2b88b5e81b0b4c5.jpg",
+    "split": "media/split/27f7af8d6d05-<cell>.jpg",
+    "columns": 1,
+    "rows": 1,
     "bytes": 690776
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942068172/B3B01C93D1F10BB17F4FE3A4A6730EA759C47DE1/": {
@@ -904,7 +914,9 @@
     "bytes": 935224
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942174496/6C330365BB09B21222C2D61B83E5AAE83769C2A3/": {
-    "path": "media/original/1c2d9f958d4ea80dc9dbf24962375412bd05e10a.jpg",
+    "split": "media/split/1c2d9f958d4e-<cell>.jpg",
+    "columns": 3,
+    "rows": 2,
     "bytes": 1970904
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942188476/530A81F736E72D4C18E2FCB838EE91C52D93A7EA/": {
@@ -984,7 +996,9 @@
     "bytes": 133927
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942511916/4DDAAE6C034DD4C8951578202937728A3D81A7D4/": {
-    "path": "media/original/1aaabc2decc10e3038b3fa3239a00f7fa23113f7.png",
+    "split": "media/split/1aaabc2decc1-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 68060715
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832151080607687/2E5D90CCB3151D509D11F79E9BAECD32E88CE73C/": {
@@ -1144,7 +1158,9 @@
     "bytes": 97551
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942511257/3A1F6E9C1E1D8CC250C9FDF5C997F83590201836/": {
-    "path": "media/original/cc2c7c586e0d2b7ac78cde66152fb3df0e705eab.png",
+    "split": "media/split/cc2c7c586e0d-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 80176124
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832151081852889/27C200BF0C8086C9C6DCF8292455CB6B07BEF0F5/": {
@@ -1184,7 +1200,9 @@
     "bytes": 87602
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942673154/56C126711F4170F5D0027E1D582796903F693AD2/": {
-    "path": "media/original/f50a156f5be04fa74b3c8e840f8e73110d8f6023.png",
+    "split": "media/split/f50a156f5be0-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 62071003
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832151081890699/92442B1ACCB844A8A55FCEE38A938E502C7BFE9E/": {
@@ -1192,7 +1210,9 @@
     "bytes": 89163
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942857839/4925C51C22A63C94D394B962C21F2A753D960593/": {
-    "path": "media/original/a09b11f8464a519446732179d495c385b4f0d1ed.png",
+    "split": "media/split/a09b11f8464a-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 55347443
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832262405374131/C07EBD38626E07FA5ADC4E4F5689E8F0E895B15E/": {
@@ -1240,7 +1260,9 @@
     "bytes": 36624
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942664448/3B39F60A9340A471B71A5BB08CDA5741324B71EA/": {
-    "path": "media/original/a8716e1c667fc71ab55a261d354aa1b8e16c9107.png",
+    "split": "media/split/a8716e1c667f-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 73869137
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832262405417942/CA09193A77BFB1DB0FB79EBB07A0A0BF8514931B/": {
@@ -1340,7 +1362,9 @@
     "bytes": 70016
   },
   "http://cloud-3.steamusercontent.com/ugc/1773831988942857378/0CC50DCB01741CA75AB4AACABB82F538B9883F6C/": {
-    "path": "media/original/f7f847d898dc51f34b48e9809403a90d07c98108.png",
+    "split": "media/split/f7f847d898dc-<cell>.jpg",
+    "columns": 10,
+    "rows": 7,
     "bytes": 63086829
   },
   "http://cloud-3.steamusercontent.com/ugc/1773832262405552272/FB36F795A0DD48DA6510C0AF399DA03C9DD2C799/": {
@@ -1912,7 +1936,9 @@
     "bytes": 91146
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590244161/C4723EDC342F8DE659E2E3DEC974984B88E6DC76/": {
-    "path": "media/original/a3ad9647d9f989243eb979b6a6e9e764f42d07b0.png",
+    "split": "media/split/a3ad9647d9f9-<cell>.jpg",
+    "columns": 10,
+    "rows": 2,
     "bytes": 24171711
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590301729/628C6A166F88C2CE9B0E799163D3AC34DABDABF1/": {
@@ -1920,7 +1946,9 @@
     "bytes": 187857
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590244594/C75AF0F513DC682CF309551B92083084A7DA5624/": {
-    "path": "media/original/0755b549db509c86b00956941c79abeff22aed2d.png",
+    "split": "media/split/0755b549db50-<cell>.jpg",
+    "columns": 10,
+    "rows": 2,
     "bytes": 23938732
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590294233/CA8971CA8C6DFB53682B294EB0B9645D925F083B/": {
@@ -1996,7 +2024,9 @@
     "bytes": 735631
   },
   "http://cloud-3.steamusercontent.com/ugc/1799728700590335532/FB0C0A72123841C36C83818E69A2A52BBAF4BB75/": {
-    "path": "media/original/eab2a5816522861399173ecaed798015961471b7.png",
+    "split": "media/split/eab2a5816522-<cell>.jpg",
+    "columns": 4,
+    "rows": 2,
     "bytes": 9395536
   }
 }

@@ -22,6 +22,7 @@ Workshop save and rulebook used for this archive. Nothing here is a substitute m
 - `source/workshop.json` is that document decoded to JSON
 - Asset URLs inside the save use `http://cloud-3.steamusercontent.com/ugc/...`. Those hosts return 403 to a plain fetch. The same path on `https://cdn.steamusercontent.com/ugc/...` returned every file. `media/url-map.json` keys are the original save URLs
 - 500 unique asset URLs, 0 failures: 424 JPEG, 69 PNG, 7 OBJ
+- The 15 card sheets (Tabletop Simulator `CustomDeck` faces and unique backs, up to 7250×7154 PNG) were split into `media/split/` and then deleted, about 700 MB. Every cell was checked against its crop of the sheet before deletion. To get a sheet back, fetch its URL from `media/url-map.json` on `cdn.steamusercontent.com`
 - September helper workshop `2608806457` is not available (`GetPublishedFileDetails` result 9, no `file_url`). The PEARL compound tiles numbered 1–14 plus Entrance are already inside this mod's bag `0003`. They are labeled as that bag, not imported from the other workshop
 
 ## Not the corpus
