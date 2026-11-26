@@ -173,8 +173,17 @@ export function checkPlay(
     return "Cover of Darkness may only be played during the Do Actions step";
   }
 
+  const badCity = (city: CityId | undefined): string | null =>
+    !city || !(city in pack.cityById) ? `Unknown city '${String(city ?? "")}'` : null;
+
   switch (play.e) {
     case "a-holdover-from-the-war": {
+      const cityErr = badCity(play.city);
+      if (cityErr) return cityErr;
+      if (play.relocateFrom) {
+        const relErr = badCity(play.relocateFrom);
+        if (relErr) return relErr;
+      }
       if (game.locations[play.city].safehouse) return `${cityDef(play.city).name} already has a safehouse`;
       if (game.supplies.safehouses <= 0) {
         if (!play.relocateFrom || !game.locations[play.relocateFrom].safehouse) {
@@ -187,6 +196,8 @@ export function checkPlay(
     }
 
     case "airlift": {
+      const cityErr = badCity(play.to);
+      if (cityErr) return cityErr;
       if (play.target.kind === "pawn") {
         if (!game.seats.includes(play.target.seat)) return "Invalid seat";
         const p = game.players[play.target.seat];
@@ -222,7 +233,11 @@ export function checkPlay(
         return "Choose 1 or 2 agents to remove";
       }
       const counts = new Map<CityId, number>();
-      for (const c of play.targets) counts.set(c, (counts.get(c) ?? 0) + 1);
+      for (const c of play.targets) {
+        const cityErr = badCity(c);
+        if (cityErr) return cityErr;
+        counts.set(c, (counts.get(c) ?? 0) + 1);
+      }
       for (const [city, need] of counts) {
         if (game.locations[city].agents < need) {
           return `${cityDef(city).name} does not have ${need} agent(s)`;
@@ -249,6 +264,8 @@ export function checkPlay(
     }
 
     case "weekend-rendezvous": {
+      const cityErr = badCity(play.to);
+      if (cityErr) return cityErr;
       const hasAnchor = game.seats.some(
         (s) => !game.players[s].infiltration && game.players[s].location === play.to,
       );
@@ -268,6 +285,8 @@ export function checkPlay(
       if (play.moves.length === 0) return "Specify at least 1 team to move";
       const seen = new Set<TeamId>();
       for (const m of play.moves) {
+        const cityErr = badCity(m.to);
+        if (cityErr) return cityErr;
         if (seen.has(m.team)) return "Duplicate team in moves";
         seen.add(m.team);
         const team = game.teams[m.team];
@@ -279,11 +298,15 @@ export function checkPlay(
     }
 
     case "diversion": {
+      const destErr = badCity(play.to);
+      if (destErr) return destErr;
       if (play.sources.length < 1 || play.sources.length > 3) {
         return "Move between 1 and 3 Incident tokens";
       }
       const counts = new Map<CityId, number>();
       for (const src of play.sources) {
+        const srcErr = badCity(src);
+        if (srcErr) return srcErr;
         if (src === play.to) return "Source city must differ from destination city";
         counts.set(src, (counts.get(src) ?? 0) + 1);
       }

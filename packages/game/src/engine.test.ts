@@ -1128,5 +1128,15 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     openBox(wBox8, "0008");
     expect(wBox8.game!.supplies.satellites).toBe(5);
     expect(violations(wBox8)).toEqual([]);
+
+    // Malformed city IDs reject cleanly instead of throwing
+    const activePlayer = wBox8.table.seats.find((s) => s.seat === wBox8.game!.active)!.player;
+    expect(
+      reject(wBox8, "playing.actions", {
+        type: "ACTION",
+        player: activePlayer,
+        action: { a: "drive", to: "not-a-city" as never },
+      }),
+    ).toContain("Unknown city");
   });
 });

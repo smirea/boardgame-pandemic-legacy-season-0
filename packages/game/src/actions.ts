@@ -140,6 +140,11 @@ function checkCarryTeams(world: World, seat: SeatId, carryTeams?: TeamId[]): str
   return null;
 }
 
+function badCity(city: CityId | undefined): string | null {
+  if (!city || !(city in pack.cityById)) return `Unknown city '${String(city ?? "")}'`;
+  return null;
+}
+
 function checkUniqueCityCardsInHand(
   world: World,
   seat: SeatId,
@@ -216,6 +221,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
       return null;
 
     case "drive": {
+      const cityErr = badCity(action.to);
+      if (cityErr) return cityErr;
       if (!areAdjacent(loc, action.to)) return `${cityDef(action.to).name} is not adjacent to ${locDef.name}`;
       return checkCarryTeams(world, seat, action.carryTeams);
     }
@@ -248,6 +255,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
     }
 
     case "unrecorded-flight": {
+      const cityErr = badCity(action.to);
+      if (cityErr) return cityErr;
       if (!player.hand.includes(action.card)) return "Card is not in your hand";
       if (cityOfCard(game, action.card) !== loc) return "Must discard the City card matching your current city";
       if (action.to === loc) return "Already in that city";
@@ -411,6 +420,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
     }
 
     case "drive-team": {
+      const cityErr = badCity(action.to);
+      if (cityErr) return cityErr;
       const team = game.teams[action.team];
       if (!team || !team.city) return "That team is not on the board";
       if (!areAdjacent(team.city, action.to)) return `${cityDef(action.to).name} is not adjacent to team's location`;
@@ -468,6 +479,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
       if (obj.kind === "quarantine-exposed") {
         const target = action.targetCity;
         if (!target) return "Specify which Exposed City to quarantine";
+        const cityErr = badCity(target);
+        if (cityErr) return cityErr;
         if (cityDef(target).region !== obj.region) return "Target city is not in the objective region";
         if (world.campaign.cities[target].exposedIntensity === null) return "That city is not Exposed";
         if (activeTeamsInCity(game, target).length < (obj.requiredTeamsPerCity ?? 2)) {
@@ -527,6 +540,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
       if (hasLiability(world, seat, "marginalized")) {
         return "Marginalized liability prevents Create Checkpoint";
       }
+      const cityErr = badCity(action.neighbor);
+      if (cityErr) return cityErr;
       if (!areAdjacent(loc, action.neighbor)) return `${cityDef(action.neighbor).name} is not adjacent`;
       if (hasCheckpoint(game, loc, action.neighbor)) return "Checkpoint already exists on that connection";
       if (!player.hand.includes(action.card)) return "Card not in hand";
@@ -665,6 +680,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
       if (occ !== "medical-conference-coordinator") {
         return "Requires Medical Conference Coordinator occupation";
       }
+      const cityErr = badCity(action.to);
+      if (cityErr) return cityErr;
       if (action.target.kind === "team") {
         const team = game.teams[action.target.team];
         if (!team || !team.city) return "Team is not on the board";
@@ -684,6 +701,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
 
     case "clinic-planner-flight": {
       if (occ !== "clinic-planner") return "Requires Clinic Planner occupation";
+      const cityErr = badCity(action.to);
+      if (cityErr) return cityErr;
       if (!gameLoc.safehouse) return "Must be at a safehouse";
       if (!player.hand.includes(action.card) || !cityOfCard(game, action.card)) {
         return "Must discard a City card from your hand";
@@ -706,6 +725,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
 
     case "cargo-pilot-flight": {
       if (occ !== "cargo-pilot") return "Requires Cargo Pilot occupation";
+      const cityErr = badCity(action.to);
+      if (cityErr) return cityErr;
       if (action.to === loc) return "Already in that city";
       if (!game.locations[action.to].safehouse) return "Destination must have a safehouse";
       return checkCarryTeams(world, seat, action.carryTeams);
@@ -745,6 +766,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
     case "crime-boss-remove": {
       const contact = findAsset(world, seat, "crime-boss");
       if (!contact || !contact.city) return "Requires active Crime Boss contact";
+      const cityErr = badCity(action.city);
+      if (cityErr) return cityErr;
       if (player.usedThisTurn.includes("crime-boss")) return "Already used Crime Boss this turn";
       if (action.city !== contact.city && !areAdjacent(contact.city, action.city)) {
         return `City must be ${cityDef(contact.city).name} or adjacent to it`;
@@ -768,6 +791,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
     case "field-medic-treat": {
       const contact = findAsset(world, seat, "field-medic");
       if (!contact || !contact.city) return "Requires active Field Medic contact";
+      const cityErr = badCity(action.city);
+      if (cityErr) return cityErr;
       if (action.city !== contact.city && !areAdjacent(contact.city, action.city)) {
         return `City must be ${cityDef(contact.city).name} or adjacent to it`;
       }
@@ -814,6 +839,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
 
     case "auth-424-remove": {
       if (!hasAsset(world, seat, "auth-424")) return "Requires Authorization Code 424";
+      const cityErr = badCity(action.city);
+      if (cityErr) return cityErr;
       if (player.usedThisTurn.includes("auth-424")) return "Already used Authorization Code 424 this turn";
       if (!areAdjacent(loc, action.city)) return "Target city must be adjacent";
       if (game.locations[action.city].agents <= 0) return "No agents in that city";
@@ -822,6 +849,8 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
 
     case "auth-715-clear": {
       if (!hasAsset(world, seat, "auth-715")) return "Requires Authorization Code 715";
+      const cityErr = badCity(action.city);
+      if (cityErr) return cityErr;
       if (activeTeamsInCity(game, action.city).length === 0) {
         return "City must contain an active team";
       }

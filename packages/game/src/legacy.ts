@@ -1085,6 +1085,15 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       }
       break;
     case 142:
+      if (game) {
+        delete game.infiltrationSites["sabik-hq"];
+        for (const s of game.seats) {
+          if (game.players[s].infiltration?.site === "sabik-hq") {
+            game.players[s].infiltration = null;
+            game.players[s].location = "leningrad";
+          }
+        }
+      }
       break;
     case 151: // Aug Obj 3 complete: Control Center + Bug in NA, card to hand, Ops 82 to Intel
       if (ctx.targetCity) {

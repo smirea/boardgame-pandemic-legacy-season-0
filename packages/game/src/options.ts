@@ -1084,7 +1084,10 @@ function addActionOptions(
     const extraCard = extraNeeded
       ? p.hand.find((cid) => cid !== id && !isSymptomCard(game, cid))
       : undefined;
-    pushAct(`fly:${dest}`, `Commercial Flight to ${cityDef(dest).name}`, {
+    const hesitantNote = extraCard
+      ? ` (Hesitant: also discards ${cityCardShort(world, extraCard)}; or 'fly:${dest} extra:<card>')`
+      : "";
+    pushAct(`fly:${dest}`, `Commercial Flight to ${cityDef(dest).name}${hesitantNote}`, {
       a: "commercial-flight",
       card: id,
       extraCard,
@@ -1092,7 +1095,7 @@ function addActionOptions(
     if (carryAll && carryAll.length > 0) {
       pushAct(
         `fly-carry:${dest}`,
-        `Commercial Flight to ${cityDef(dest).name} carrying ${carryAll.join("+")}`,
+        `Commercial Flight to ${cityDef(dest).name} carrying ${carryAll.join("+")}${hesitantNote}`,
         { a: "commercial-flight", card: id, extraCard, carryTeams: carryAll },
       );
     }
@@ -1139,9 +1142,10 @@ function addActionOptions(
     const soft = isRestrictionActive(game, "soft");
     for (const id of handCityCards) {
       const extraDiscard = soft ? handCityCards.find((cid) => cid !== id) : undefined;
+      const softNote = extraDiscard ? ` (Soft: also discards ${cityCardShort(world, extraDiscard)})` : "";
       pushAct(
         `share-give:${otherSeat}:${cityOfCard(game, id)}`,
-        `Give ${cityDef(cityOfCard(game, id)!).name} to ${otherSeat}`,
+        `Give ${cityDef(cityOfCard(game, id)!).name} to ${otherSeat}${softNote}`,
         { a: "share-intel", target: otherSeat, card: id, direction: "give", extraDiscard },
       );
     }
@@ -1149,9 +1153,10 @@ function addActionOptions(
       const ct = cityOfCard(game, id);
       if (!ct) continue;
       const extraDiscard = soft ? handCityCards[0] : undefined;
+      const softNote = extraDiscard ? ` (Soft: also discards ${cityCardShort(world, extraDiscard)})` : "";
       pushAct(
         `share-take:${otherSeat}:${ct}`,
-        `Take ${cityDef(ct).name} from ${otherSeat}`,
+        `Take ${cityDef(ct).name} from ${otherSeat}${softNote}`,
         { a: "share-intel", target: otherSeat, card: id, direction: "take", extraDiscard },
       );
     }
@@ -1166,7 +1171,8 @@ function addActionOptions(
   const passiveCard = isRestrictionActive(game, "passive")
     ? handCityCards.find((id) => id !== ownCityCard)
     : undefined;
-  pushAct("build-safehouse", `Build Safehouse in ${locDef.name}`, {
+  const passiveNote = passiveCard ? ` (Passive: also discards ${cityCardShort(world, passiveCard)})` : "";
+  pushAct("build-safehouse", `Build Safehouse in ${locDef.name}${passiveNote}`, {
     a: "build-safehouse",
     card: currentOccupation(world, seat) === "clinic-planner" ? undefined : ownCityCard,
     extraCard: passiveCard,
