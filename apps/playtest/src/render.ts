@@ -225,7 +225,7 @@ export function renderStatus(
         const libsStr = al.liabilities
           .map((l) => `${l.id}${l.region ? `@${l.region}` : ""}`)
           .join(",");
-        aliasStr = `${p.passport}/${p.activeAlias} "${al.name}" [${occName}${specStr}] cover=${coverLeft}/${al.coverTrackLength}${assetsStr ? ` assets=[${assetsStr}]` : ""}${libsStr ? ` libs=[${libsStr}]` : ""}`;
+        aliasStr = `${p.passport}/${p.activeAlias} "${al.name}" [${occName}${specStr}] unscratched=${coverLeft}/${al.coverTrackLength}${assetsStr ? ` assets=[${assetsStr}]` : ""}${libsStr ? ` libs=[${libsStr}]` : ""}`;
       } else if (p.needsTempAlias) {
         aliasStr = "BURNED (picking temp alias next turn)";
       }

@@ -959,12 +959,23 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
       if (!keptCard) {
         discardFromHand(game, seat, action.card);
       }
-      if (action.extraCard) discardFromHand(game, seat, action.extraCard);
+      let extraNote = "";
+      if (action.extraCard) {
+        const extraCity = cityOfCard(game, action.extraCard);
+        const extraCardObj = game.playerCards[action.extraCard];
+        const extraName = extraCity
+          ? cityDef(extraCity).name
+          : extraCardObj?.kind === "event"
+            ? pack.eventById[extraCardObj.event].name
+            : action.extraCard;
+        discardFromHand(game, seat, action.extraCard);
+        extraNote = `; Hesitant discarded ${extraName}`;
+      }
       log(game, {
         t: "action",
         seat,
         action: action.a,
-        detail: `Commercial Flight to ${cityDef(dest).name} (${keptCard ? "revealed & kept" : "discarded"} ${cityDef(dest).name})`,
+        detail: `Commercial Flight to ${cityDef(dest).name} (${keptCard ? "revealed & kept" : "discarded"} ${cityDef(dest).name}${extraNote})`,
         cost,
       });
       enterCity(world, seat, dest, { by: "commercial-flight", carryTeams: action.carryTeams });

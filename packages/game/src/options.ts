@@ -1602,9 +1602,16 @@ function addUpkeepOptions(
     }
   }
   game.upkeep.bought.forEach((b, idx) => {
+    const p = b.purchase;
+    const desc =
+      p.t === "permanent-safehouse"
+        ? `Permanent Safehouse in ${cityDef(p.city).name}`
+        : p.t === "counter-surveillance"
+          ? `Counter-Surveillance in ${cityDef(p.city).name}`
+          : `${pack.assetById[p.asset].name}${p.city ? ` (${cityDef(p.city).name})` : ""} on ${p.passport}/${p.affiliation}`;
     addIfLegal(out, world, phase, undoDepth, {
       key: `refund:${idx}`,
-      label: `Refund purchase #${idx} (${b.purchase.t}, ${b.cost} budget)`,
+      label: `Refund #${idx}: ${desc} (${b.cost}b)`,
       category: "upkeep",
       command: { type: "REFUND", player, index: idx },
     });

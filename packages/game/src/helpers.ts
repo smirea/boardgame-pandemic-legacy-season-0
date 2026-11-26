@@ -436,8 +436,19 @@ export function burnActiveAlias(world: World, seat: SeatId): void {
   log(game, { t: "burned", seat, passport: passportColor, alias: affiliation });
 
   // Discard all cards in hand (symptoms return to supply, others to Player discard)
+  const discardedNames: string[] = [];
   while (player.hand.length > 0) {
-    discardFromHand(game, seat, player.hand[0]!);
+    const cid = player.hand[0]!;
+    const card = game.playerCards[cid];
+    if (card?.kind === "city") discardedNames.push(cityDef(card.city).name);
+    else if (card?.kind === "event") discardedNames.push(pack.eventById[card.event].name);
+    discardFromHand(game, seat, cid);
+  }
+  if (discardedNames.length > 0) {
+    log(game, {
+      t: "note",
+      text: `Burned alias (${passportColor}/${affiliation}) discarded hand: ${discardedNames.join(", ")}`,
+    });
   }
   // Lose any remaining actions if it is currently this player's turn
   if (game.active === seat) {
