@@ -105,7 +105,7 @@ export function renderStatus(
     }
   } else {
     lines.push(
-      `Turn ${g.turn} | Active: ${g.active} | Actions left: ${g.actionsLeft} | Threat Level: ${g.threatLevel} | Player Deck: ${g.playerDeckCount} | Threat Deck: ${g.threatDeckCount} (Discard: ${g.threatDiscard.length}, GameEndArea: ${g.gameEndArea.length})`,
+      `Turn ${g.turn} | Active: ${g.active} | Actions left: ${g.actionsLeft} | Threat Level: ${g.threatLevel} (slot ${g.threatLevelIndex + 1}/6) | Player Deck: ${g.playerDeckCount} | Threat Deck: ${g.threatDeckCount} (Discard: ${g.threatDiscard.length}, GameEndArea: ${g.gameEndArea.length})`,
     );
     if (g.coverOfDarknessActive) lines.push(`ACTIVE EFFECT: Cover of Darkness is active this turn!`);
     if (g.skipThreat) lines.push(`ACTIVE EFFECT: One Quiet Night — Threat step will be skipped!`);

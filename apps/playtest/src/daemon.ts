@@ -188,12 +188,18 @@ function isPlayerActionable(world: World, phase: Phase, player: PlayerId): boole
   return false;
 }
 
-function hasUnreadFor(world: World, player: PlayerId): boolean {
+function hasUnreadFor(world: World, phase: Phase, player: PlayerId): boolean {
   const lastRead = cursors.reading[player] ?? 0;
   if (readingsSince(world, lastRead).length > 0) return true;
   const lastChat = cursors.chat[player] ?? 0;
-  if (chatLog.some((m) => m.seq > lastChat && m.player !== player)) return true;
-  return false;
+  const unread = chatLog.filter((m) => m.seq > lastChat && m.player !== player);
+  if (unread.length === 0) return false;
+  // In setup/lobby/postgame/upkeep, always wake for teammate chat; during playing.*, wake on direct pings (@id, @all, or '?')
+  if (!phase.startsWith("playing.")) return true;
+  const tag = `@${player}`;
+  return unread.some(
+    (m) => m.text.includes(tag) || m.text.includes("@all") || m.text.includes("?"),
+  );
 }
 
 function wakeWaiters(): void {
@@ -203,7 +209,7 @@ function wakeWaiters(): void {
   const world = snap.context.world;
   for (let i = waiters.length - 1; i >= 0; i--) {
     const w = waiters[i]!;
-    if (isPlayerActionable(world, phase, w.player) || hasUnreadFor(world, w.player)) {
+    if (isPlayerActionable(world, phase, w.player) || hasUnreadFor(world, phase, w.player)) {
       clearTimeout(w.timer);
       waiters.splice(i, 1);
       w.resolve();
@@ -454,7 +460,7 @@ const server = Bun.serve({
         const phaseNow = phaseOf(snapNow.value);
         if (
           !isPlayerActionable(snapNow.context.world, phaseNow, player) &&
-          !hasUnreadFor(snapNow.context.world, player)
+          !hasUnreadFor(snapNow.context.world, phaseNow, player)
         ) {
           await new Promise<void>((resolve) => {
             const w: Waiter = {

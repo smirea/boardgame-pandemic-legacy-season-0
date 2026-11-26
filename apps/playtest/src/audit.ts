@@ -16,6 +16,9 @@ export type AuditState = {
   boxesOpened: string[];
   doorsOpened: string[];
   rulesUnlocked: string[];
+  legacyCardsRead: string[];
+  debriefsRead: string[];
+  operationsCardsRead: string[];
   sitesEntered: string[];
   roomsEntered: Record<string, number>;
   pearlDoorsOpened: number[];
@@ -61,6 +64,9 @@ export function createAuditState(): AuditState {
     boxesOpened: [],
     doorsOpened: [],
     rulesUnlocked: [],
+    legacyCardsRead: [],
+    debriefsRead: [],
+    operationsCardsRead: [],
     sitesEntered: [],
     roomsEntered: {},
     pearlDoorsOpened: [],
@@ -152,6 +158,14 @@ export function recordCommandAudit(
 
   // Sync campaign unlocks & active player occupations/assets
   const c = world.campaign;
+  if (!audit.legacyCardsRead) audit.legacyCardsRead = [];
+  if (!audit.debriefsRead) audit.debriefsRead = [];
+  if (!audit.operationsCardsRead) audit.operationsCardsRead = [];
+  for (const r of c.readings) {
+    if (r.kind === "legacy") addUnique(audit.legacyCardsRead, r.ref);
+    else if (r.kind === "debrief") addUnique(audit.debriefsRead, r.ref);
+    else if (r.kind === "operations") addUnique(audit.operationsCardsRead, r.ref);
+  }
   for (const b of c.openedBoxes) addUnique(audit.boxesOpened, b);
   for (const d of c.openedDoors) addUnique(audit.doorsOpened, d);
   for (const r of c.rules) addUnique(audit.rulesUnlocked, r);
@@ -299,6 +313,9 @@ export function formatAuditSummary(audit: AuditState, world: World): string {
   lines.push(`Boxes opened (${audit.boxesOpened.length}/8): ${audit.boxesOpened.join(", ") || "none"}`);
   lines.push(`Doors opened (${audit.doorsOpened.length}/43): ${audit.doorsOpened.join(", ") || "none"}`);
   lines.push(`Rules unlocked (${audit.rulesUnlocked.length}/27): ${audit.rulesUnlocked.join(", ") || "none"}`);
+  lines.push(
+    `Verbatim readings delivered: ${c.readings.length} total (Legacy=${audit.legacyCardsRead?.length ?? 0}, Debriefs=${audit.debriefsRead?.length ?? 0}, Ops=${audit.operationsCardsRead?.length ?? 0})`,
+  );
   lines.push(`Sites entered (${audit.sitesEntered.length}/4): ${audit.sitesEntered.join(", ") || "none"} | Rooms (${Object.keys(audit.roomsEntered).length}/28): ${Object.keys(audit.roomsEntered).sort().join(", ") || "none"}`);
   lines.push(`PEARL doors opened (${audit.pearlDoorsOpened.length}/14): ${audit.pearlDoorsOpened.join(", ") || "none"} | Tunnels: ${audit.tunnelsUnlocked.join(", ") || "none"}`);
   lines.push(

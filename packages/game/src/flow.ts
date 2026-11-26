@@ -1002,7 +1002,11 @@ export function advanceEscalationStep(world: World): void {
       game.threatLevelIndex += 1;
     }
     const level = pack.threatTrack[game.threatLevelIndex]!;
-    log(game, { t: "escalation", step: "increase", detail: `Threat Level increased to ${level}` });
+    log(game, {
+      t: "escalation",
+      step: "increase",
+      detail: `Threat Level marker advanced to slot ${game.threatLevelIndex + 1}/${pack.threatTrack.length} (Threat Level ${level})`,
+    });
     dec.step = "add-agents";
     return;
   }

@@ -17,6 +17,7 @@ Always pass your player id with `--as <id>` (e.g. `./apps/playtest/play --as p1 
    ```bash
    ./apps/playtest/play --as <id> say "I can meet you in London to share Europe cards, or fly to Moscow."
    ```
+   During active gameplay, `wait` wakes teammates immediately if your chat message contains `@p1`/`@p2`/`@p3`, `@all`, or `?` (e.g. if you want someone to play an Event card now or answer a question). Otherwise teammates read your message automatically on their next turn — avoid unnecessary back-and-forth acknowledgments on another player's turn!
 5. Execute moves with `do`:
    ```bash
    ./apps/playtest/play --as <id> do <key> why: "<short rationale>"

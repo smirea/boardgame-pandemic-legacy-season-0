@@ -98,6 +98,7 @@ export type PlayerView = {
     turn: number;
     actionsLeft: number;
     threatLevel: number;
+    threatLevelIndex: number;
     openingThreatsLeft: number;
     threatsLeft: number;
     skipThreat: boolean;
@@ -200,6 +201,7 @@ export function viewFor(world: World, phase: Phase, viewer: PlayerId, recentLogL
           turn: g.turn,
           actionsLeft: g.actionsLeft,
           threatLevel: pack.threatTrack[g.threatLevelIndex]!,
+          threatLevelIndex: g.threatLevelIndex,
           openingThreatsLeft: g.openingThreatsLeft,
           threatsLeft: g.threatsLeft,
           skipThreat: g.skipThreat,

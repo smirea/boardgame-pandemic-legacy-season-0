@@ -43,6 +43,19 @@ export function generateBriefs(config: PlaytestConfig): string[] {
     const reportPath = join(runDir, "reports", `${gameTag}-${player.id}.md`);
     const briefPath = join(runDir, "briefs", `${player.id}.md`);
 
+    const passportObj = c.passports[player.passport];
+    const aliasLines = (["allied", "neutral", "soviet"] as const)
+      .map((aff) => {
+        const al = passportObj.aliases[aff];
+        if (!al.created) return null;
+        const occ = al.occupation ? pack.occupationById[al.occupation].name : "?";
+        const spec = al.specialization ? ` + ${al.specialization}` : "";
+        const assets = al.assets.filter((a) => !a.dead).map((a) => `${a.id}${a.city ? `@${a.city}` : ""}`).join(", ");
+        const libs = al.liabilities.map((l) => `${l.id}${l.region ? `@${l.region}` : ""}`).join(", ");
+        return `- **${aff}${al.burned ? " [BURNED]" : ""}**: "${al.name}" (${occ}${spec}) | Cover left: ${al.coverTrack.length - al.coverScratched}/${al.coverTrack.length} | Assets: ${assets || "none"} | Liabilities: ${libs || "none"}`;
+      })
+      .filter((x): x is string => x !== null);
+
     const content = `# Playtest Session Brief — ${player.name} (${player.id})
 
 ## Mission
@@ -54,6 +67,9 @@ Write your post-game report to: \`${reportPath}\`.
 
 ## Your Persona
 ${personaText}
+
+## Your Passport (${player.passport.toUpperCase()}, Chronic Infections: ${passportObj.chronicInfections})
+${aliasLines.length > 0 ? aliasLines.join("\n") : "(No permanent aliases created yet — Allied aliases are created in January.)"}
 
 ## Current Campaign State
 - **Month / Attempt**: ${monthName}${c.month > 0 ? ` (Attempt ${c.attempt})` : ""} (Phase: \`${save.phase}\`)
@@ -70,13 +86,14 @@ ${historyLines.join("\n")}
 ${targets.rooms.length > 0 ? `- **Unvisited PEARL rooms**: ${targets.rooms.join(", ")}` : ""}
 ${targets.misc.length > 0 ? `- **Extra checks**: ${targets.misc.join("; ")}` : ""}
 
-## Session Rules
+## Session Rules & Pacing
 1. Start by reading your memory file and running \`./apps/playtest/play --as ${player.id} status\`.
 ${player.lead ? `2. You are the **Lead** (\`${player.id}\`): start the game (\`do start-game\`), coordinate setup steps (\`do flip-all-threats\`, \`do pick-events ...\`, \`do confirm-events\`), and drive shared legacy/game-end prompts after consulting teammates in chat.` : `2. Wait for Maya (\`p1\`) to start the game with \`./apps/playtest/play --as ${player.id} wait\`. Coordinate in chat and take your turns promptly!`}
 3. **Read every verbatim Legacy card, Debrief entry, Box, Door, Operations card, and PEARL room** printed by the CLI!
-4. Play to win while deliberately exercising varied Event cards, occupations, assets, infiltration rooms, and edge cases from the Coverage Targets above.
-5. Report ANY bug, rules mismatch, missing text, or UX friction immediately with \`./apps/playtest/play --as ${player.id} report "..."\`.
-6. **STOP when the CLI prints \`SESSION COMPLETE\`** (back in \`lobby\` after upkeep, or \`finished\` after December). Do NOT start the next month! Update \`${memoryPath}\`, write \`${reportPath}\` (covering: outcome, strategy/choices, mechanics exercised, bugs/friction found, verbatim text quality), and finish your turn.
+4. **Stay brisk**: chain known sequential actions in one shell command with \`&&\` (e.g. \`play --as ${player.id} do begin-turn && play --as ${player.id} do drive:paris && play --as ${player.id} do neutralize\`), keep chat to ~1 concise note per turn, and include \`@p1\`/\`@p2\`/\`@p3\`/\`@all\` or \`?\` when you need a teammate to wake up immediately.
+5. Play to win while deliberately exercising varied Event cards, occupations, assets, infiltration rooms, and edge cases from the Coverage Targets above.
+6. Report ANY bug, rules mismatch, missing text, or UX friction immediately with \`./apps/playtest/play --as ${player.id} report "..."\`.
+7. **STOP when the CLI prints \`SESSION COMPLETE\`** (back in \`lobby\` after upkeep, or \`finished\` after December). Do NOT start the next month! Update \`${memoryPath}\`, write \`${reportPath}\` (covering: outcome, strategy/choices, mechanics exercised, bugs/friction found, verbatim text quality), and finish your turn.
 `;
 
     writeFileSync(briefPath, content);
