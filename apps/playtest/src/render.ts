@@ -32,7 +32,7 @@ function formatCard(card: PlayerCard): string {
     const ev = pack.eventById[card.event];
     return `EVENT:${ev.id} ["${ev.name}"]`;
   }
-  if (card.kind === "symptom") return `SYMPTOM:${card.name}`;
+  if (card.kind === "symptom") return `SYMPTOM:${card.name} [${card.id}]`;
   if (card.kind === "satellite") return `SATELLITE:${card.region}`;
   return card.kind.toUpperCase();
 }
@@ -606,5 +606,13 @@ export function renderInfo(id: string): string {
   if (id in pack.doorArchive) {
     return `DOOR ${id}:\n${pack.doorArchive[id]!.join("\n\n")}`;
   }
-  return `No entry found for '${id}'. Try an event, asset, liability, occupation, specialization, restriction, city, or door ID.`;
+  const normSymptom = id.trim().toLowerCase().replace(/\s+/g, "-");
+  const matchedSymptom = pack.symptomNames.find((name) => {
+    const slug = name.toLowerCase().replace(/\s+/g, "-");
+    return normSymptom === "symptom" || normSymptom === slug || normSymptom.endsWith(`-${slug}`);
+  });
+  if (matchedSymptom) {
+    return `SYMPTOM — ${matchedSymptom}\nThis card counts as a card in your hand and cannot be discarded to meet the hand limit.`;
+  }
+  return `No entry found for '${id}'. Try an event, asset, liability, occupation, specialization, restriction, city, symptom, or door ID.`;
 }

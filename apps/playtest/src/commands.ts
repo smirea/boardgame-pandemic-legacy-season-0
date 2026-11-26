@@ -39,6 +39,14 @@ function findCardInHand(world: World, seat: SeatId, token: string): CardId | nul
   if (hand.includes(token)) return token;
   if (hand.includes(`city:${token}`)) return `city:${token}`;
   if (hand.includes(`event:${token}`)) return `event:${token}`;
+  const norm = token.trim().toLowerCase().replace(/\s+/g, "-");
+  for (const id of hand) {
+    const c = g.playerCards[id];
+    if (c?.kind === "symptom") {
+      const nameNorm = c.name.toLowerCase().replace(/\s+/g, "-");
+      if (id.toLowerCase() === norm || nameNorm === norm) return id;
+    }
+  }
   return null;
 }
 
