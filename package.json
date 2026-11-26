@@ -6,6 +6,7 @@
     "build": "bun --filter @repo/ui build && bun --filter @repo/server build",
     "dev": "concurrently --raw -k -s first \"bun --filter @repo/server dev\" \"bun --filter @repo/ui dev --host 127.0.0.1\"",
     "env:generate": "env-manager gen --local",
+    "gen:content": "bun scripts/gen-content.ts",
     "lint": "oxlint --fix",
     "lint:ci": "oxlint",
     "postinstall": "[ ! -d .git ] || lefthook install",
