@@ -777,7 +777,7 @@ function addEventOptions(
             const split: CityId[] = [first, hot[1]!.id];
             pushPlay(
               `play:bureaucratic:${split.join("+")}`,
-              `Play Bureaucratic Entanglements (split: ${split.map((c) => cityDef(c).name).join(", ")})`,
+              `Play Bureaucratic Entanglements (split: ${split.map((c) => cityDef(c).name).join(", ")}; or 'play:bureaucratic:<c1>,<c2>' for any cities with agents)`,
               { e: "bureaucratic-entanglements", targets: split },
             );
           }

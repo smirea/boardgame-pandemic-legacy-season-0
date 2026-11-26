@@ -156,6 +156,8 @@ export type Campaign = {
   door14State: "unopened" | "pending" | "ignored" | "opened-19" | "blown-24";
   /** +6 budget units from opening Door 19 for the next Spend Budget step. */
   door19BonusPending: boolean;
+  /** Pending Door 24 counter-surveillance placements if blown up from lobby (no active game). */
+  door24CounterSurvPending?: number;
   /** Relapse (09-11) permanently added to Player deck if any passport had Chronic Infection. */
   relapseInDeck: boolean;
   /** Number of available Disease cubes in the campaign supply (0 -> 6 -> 16 -> 28). */

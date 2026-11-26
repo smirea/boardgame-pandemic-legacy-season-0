@@ -398,14 +398,16 @@ describe("Pandemic Legacy: Season 0 rules", () => {
       remaining: 6,
     });
 
-    // Branch B: open now -> Door 19 sets door19BonusPending (+6 on next Spend Budget)
+    // Branch B: open now -> Door 19 immediately adds +6 budgetary units to THIS game's Spend Budget
     overActor.send({
       type: "DECIDE",
       player: "p1",
       answer: { t: "door14-briefcase", choice: "open" },
     });
     expect(overActor.getSnapshot().context.world.campaign.openedDoors).toContain("19");
-    expect(overActor.getSnapshot().context.world.campaign.door19BonusPending).toBe(true);
+    expect(phaseOf(overActor.getSnapshot().value)).toBe("upkeep");
+    expect(overActor.getSnapshot().context.world.game!.upkeep!.budget).toBe(9);
+    expect(overActor.getSnapshot().context.world.campaign.door19BonusPending).toBe(false);
     expect(violations(overActor.getSnapshot().context.world)).toEqual([]);
   });
 

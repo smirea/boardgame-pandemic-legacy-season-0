@@ -946,7 +946,7 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
         t: "action",
         seat,
         action: action.a,
-        detail: `Unrecorded Flight to ${cityDef(action.to).name}`,
+        detail: `Unrecorded Flight to ${cityDef(action.to).name} (discarded ${cityDef(loc).name})`,
         cost,
       });
       enterCity(world, seat, action.to, { by: "unrecorded-flight", carryTeams: action.carryTeams });

@@ -448,6 +448,17 @@ export function createGame(world: World, seating: SeatingInput[]): void {
   });
 
   // Step 1 of Setup: Check Legacy Deck & prepare objectives
+  if (c.door24CounterSurvPending && c.door24CounterSurvPending > 0) {
+    const targetable = pack.cities.filter((ct) => c.cities[ct.id].surveillance > 0).length;
+    if (targetable > 0) {
+      game.pending.push({
+        t: "place-counter-surveillance",
+        remaining: c.door24CounterSurvPending,
+        source: "Door 24 (New Zealand Briefcase)",
+      });
+    }
+    c.door24CounterSurvPending = 0;
+  }
   readLegacySetup(world);
 }
 
@@ -484,7 +495,7 @@ export function prepareThreatAndBoardSetup(world: World): void {
   game.openingThreatsLeft = 9;
 
   // Rule B: Add all named Infection cards faceup to Threat discard pile
-  if (hasRule(c, "B")) {
+  if (hasRule(c, "B") && c.infectionCards.length > 0) {
     for (const inf of c.infectionCards) {
       game.threatDiscard.push({
         id: inf.id,
@@ -494,10 +505,15 @@ export function prepareThreatAndBoardSetup(world: World): void {
         startingIntensity: inf.startingIntensity,
       });
     }
+    log(game, {
+      t: "note",
+      text: `Rule B setup: added ${c.infectionCards.length} Infection card(s) faceup to Threat discard (${c.infectionCards.map((inf) => cityDef(inf.city).name).join(", ")})`,
+    });
   }
 
   // Rule C: Add Disease cubes to cities with a starting intensity
   if (hasRule(c, "C")) {
+    const seeded: string[] = [];
     for (const inf of c.infectionCards) {
       if (inf.startingIntensity <= 0) continue;
       for (let i = 0; i < inf.startingIntensity; i++) {
@@ -508,6 +524,13 @@ export function prepareThreatAndBoardSetup(world: World): void {
         game.locations[inf.city].diseaseCubes += 1;
         game.supplies.diseaseCubes -= 1;
       }
+      seeded.push(`${cityDef(inf.city).name}(+${inf.startingIntensity})`);
+    }
+    if (seeded.length > 0) {
+      log(game, {
+        t: "note",
+        text: `Rule C setup: placed starting-intensity Disease cubes in ${seeded.join(", ")}`,
+      });
     }
   }
 

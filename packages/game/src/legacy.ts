@@ -227,17 +227,29 @@ export function openDoor(world: World, door: DoorId): void {
       break;
     case "19":
       c.door14State = "opened-19";
-      c.door19BonusPending = true;
+      if (world.game?.upkeep) {
+        world.game.upkeep.budget += 6;
+        log(world.game, {
+          t: "note",
+          text: `Door 19: added +6 budgetary units to Spend Budget (budget now ${world.game.upkeep.budget})`,
+        });
+      } else {
+        c.door19BonusPending = true;
+      }
       break;
     case "24": {
       c.door14State = "blown-24";
       const targetable = pack.cities.filter((ct) => c.cities[ct.id].surveillance > 0).length;
-      if (world.game && targetable > 0) {
-        world.game.pending.push({
-          t: "place-counter-surveillance",
-          remaining: 6,
-          source: "Door 24 (New Zealand Briefcase)",
-        });
+      if (targetable > 0) {
+        if (world.game) {
+          world.game.pending.push({
+            t: "place-counter-surveillance",
+            remaining: 6,
+            source: "Door 24 (New Zealand Briefcase)",
+          });
+        } else {
+          c.door24CounterSurvPending = 6;
+        }
       }
       break;
     }
@@ -2588,6 +2600,12 @@ export function evaluatePsych1(world: World): void {
     title: `Psychological Evaluation 1 (Total: ${total})`,
     text: `Q1=${c.psychAnswers[1]}, Q2=${c.psychAnswers[2]}, Q3=${c.psychAnswers[3]}, Q4=${c.psychAnswers[4]}, Ops61 bonus=${bonus} -> Total ${total} -> Debrief ${debrief}`,
   });
+  if (world.game) {
+    log(world.game, {
+      t: "note",
+      text: `Psych Eval 1 scored: Q1=${c.psychAnswers[1]}(${q1}), Q2=${c.psychAnswers[2]}(${q2}), Q3=${c.psychAnswers[3]}(${q3}), Q4=${c.psychAnswers[4]}(${q4}), Ops61=+${bonus} -> Total ${total} -> Debrief ${debrief}`,
+    });
+  }
   readDebrief(world, debrief);
 }
 
@@ -2605,6 +2623,12 @@ export function evaluatePsych2(world: World): void {
     title: `Psychological Evaluation 2 (Total: ${total})`,
     text: `Q5-Q9 sum = ${total} -> Debrief ${debrief}`,
   });
+  if (world.game) {
+    log(world.game, {
+      t: "note",
+      text: `Psych Eval 2 scored: Q5–Q9 sum = ${total} -> Debrief ${debrief}`,
+    });
+  }
   readDebrief(world, debrief);
 }
 
@@ -2617,6 +2641,12 @@ export function evaluatePsych3(world: World): void {
     title: `Psychological Evaluation 3 (Total: ${total})`,
     text: `Q10-Q11 sum = ${total} -> Debrief ${debrief}`,
   });
+  if (world.game) {
+    log(world.game, {
+      t: "note",
+      text: `Psych Eval 3 scored: Q10–Q11 sum = ${total} -> Debrief ${debrief}`,
+    });
+  }
   readDebrief(world, debrief);
 }
 
@@ -2631,6 +2661,12 @@ export function evaluatePsych4(world: World): void {
     title: `Psychological Evaluation 4 (Total: ${total})`,
     text: `Q12=${base} + Ops65 bonus ${bonus} = ${total} -> Debrief ${debrief}`,
   });
+  if (world.game) {
+    log(world.game, {
+      t: "note",
+      text: `Psych Eval 4 scored: Q12=${base} + Ops65(+${bonus}) = ${total} -> Debrief ${debrief}`,
+    });
+  }
   readDebrief(world, debrief);
 }
 
@@ -2957,10 +2993,18 @@ export function applyPurchase(world: World, purchase: Purchase): void {
     case "permanent-safehouse":
       c.cities[purchase.city].permanentSafehouse = true;
       c.availablePermanentSafehouses -= 1;
+      log(world.game!, {
+        t: "note",
+        text: `Spend Budget: bought Permanent Safehouse in ${cityDef(purchase.city).name} (-${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
+      });
       break;
     case "counter-surveillance":
       c.cities[purchase.city].surveillance -= 1;
       c.availableCounterSurveillance -= 1;
+      log(world.game!, {
+        t: "note",
+        text: `Spend Budget: bought Counter-Surveillance in ${cityDef(purchase.city).name} (surv -> ${c.cities[purchase.city].surveillance}, -${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
+      });
       break;
     case "asset": {
       const idx = c.availableAssets.indexOf(purchase.asset);
@@ -2971,6 +3015,10 @@ export function applyPurchase(world: World, purchase: Purchase): void {
         city: purchase.city ?? null,
         dead: false,
         boxesChecked: 0,
+      });
+      log(world.game!, {
+        t: "note",
+        text: `Spend Budget: bought ${pack.assetById[purchase.asset].name}${purchase.city ? ` (${cityDef(purchase.city).name})` : ""} for ${purchase.passport}/${purchase.affiliation} (-${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
       });
       break;
     }
@@ -2999,10 +3047,18 @@ export function refundPurchase(world: World, index: number): void {
     case "permanent-safehouse":
       c.cities[purchase.city].permanentSafehouse = false;
       c.availablePermanentSafehouses += 1;
+      log(world.game!, {
+        t: "note",
+        text: `Spend Budget: refunded Permanent Safehouse in ${cityDef(purchase.city).name} (+${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
+      });
       break;
     case "counter-surveillance":
       c.cities[purchase.city].surveillance += 1;
       c.availableCounterSurveillance += 1;
+      log(world.game!, {
+        t: "note",
+        text: `Spend Budget: refunded Counter-Surveillance in ${cityDef(purchase.city).name} (+${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
+      });
       break;
     case "asset": {
       c.availableAssets.push(purchase.asset);
@@ -3011,6 +3067,10 @@ export function refundPurchase(world: World, index: number): void {
         (a) => a.id === purchase.asset && a.city === (purchase.city ?? null),
       );
       if (idx !== -1) alias.assets.splice(idx, 1);
+      log(world.game!, {
+        t: "note",
+        text: `Spend Budget: refunded ${pack.assetById[purchase.asset].name} on ${purchase.passport}/${purchase.affiliation} (+${cost}b, ${upkeep.budget - upkeep.spent}b left)`,
+      });
       break;
     }
   }
