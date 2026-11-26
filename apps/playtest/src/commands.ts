@@ -86,6 +86,27 @@ export function parseDoCommand(
     if (exact) return { kind: "single", command: exact.command };
   }
 
+  // Known static command keys so stale/out-of-turn attempts hit reject() with a clear reason
+  const staticCommands: Record<string, Command> = {
+    "start-game": { type: "START_GAME", player },
+    "begin-january": { type: "BEGIN_JANUARY", player },
+    "flip-threat": { type: "FLIP_OPENING_THREAT", player },
+    "confirm-events": { type: "CONFIRM_EVENTS", player },
+    "begin-turn": { type: "BEGIN_TURN", player },
+    undo: { type: "UNDO", player },
+    "end-actions": { type: "END_ACTIONS", player },
+    "draw-cards": { type: "DRAW_PLAYER_CARDS", player },
+    "draw-threat": { type: "DRAW_THREAT", player },
+    continue: { type: "CONTINUE", player },
+    "finish-upkeep": { type: "FINISH_UPKEEP", player },
+  };
+  if (head in staticCommands) {
+    return { kind: "single", command: staticCommands[head]! };
+  }
+  if (head.startsWith("escalation:")) {
+    return { kind: "single", command: { type: "DECIDE", player, answer: { t: "escalation" } } };
+  }
+
   const seat = seatOfPlayer(world, player);
   const g = world.game;
 
@@ -303,6 +324,39 @@ export function parseDoCommand(
     return {
       kind: "single",
       command: { type: "ACTION", player, action: { a: "clinic-planner-flight", card, to: to as CityId } },
+    };
+  }
+
+  if (head.startsWith("shop-owner:") && head.includes("->")) {
+    const body = head.slice("shop-owner:".length);
+    const [discRaw, takeRaw] = body.split("->");
+    const disc = (discRaw ?? "")
+      .split(",")
+      .map((c) => findCityCardInHand(world, seat, c.trim()))
+      .filter((x): x is CardId => x !== null);
+    const takeCard = findCityCardInDiscard(world, (takeRaw ?? "").trim());
+    if (disc.length !== 2 || !takeCard) {
+      return { kind: "error", message: "Usage: shop-owner:<city1>,<city2>-><discardCity>" };
+    }
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: { a: "shop-owner-swap", discardCards: [disc[0]!, disc[1]!], takeCard },
+      },
+    };
+  }
+
+  if (head.startsWith("cobbler:") && head.includes(",")) {
+    const [, team, cardsRaw] = head.split(":");
+    const cards = (cardsRaw ?? "")
+      .split(",")
+      .map((c) => findCityCardInHand(world, seat, c.trim()))
+      .filter((x): x is CardId => x !== null);
+    return {
+      kind: "single",
+      command: { type: "ACTION", player, action: { a: "cobbler-convert", team: team!, cards } },
     };
   }
 

@@ -65,6 +65,8 @@ export function isOver(world: World): boolean {
 export function checkAllObjectivesResolved(world: World): void {
   const game = world.game;
   if (!game || game.outcome || game.objectives.length === 0) return;
+  // Wait for any Debrief decisions (e.g. file-report Ops 60/61, december-choice) before ending the game
+  if (game.pending.length > 0 || game.coverQueue.length > 0) return;
   if (game.objectives.every((o) => o.status !== "active")) {
     endGameNow(world, "All objectives have been completed or failed");
   }
@@ -255,6 +257,7 @@ export function resolveIncidentWave(world: World, initialCities: CityId[]): void
             if (hasRule(world.campaign, "K") && isTeamActive(team) && game.locations.washington.pursuit) {
               game.locations.washington.pursuit = false;
               game.supplies.pursuitTokens += 1;
+              checkAndCompletePursuitObjective(world, game.active);
             }
           }
         }

@@ -12,4 +12,5 @@ export * from "./options";
 export * from "./invariants";
 export * from "./record";
 export * from "./view";
+export * from "./timeline";
 export * from "./scenarios";

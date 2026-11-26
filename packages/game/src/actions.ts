@@ -174,6 +174,7 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
       "complete-infiltration-objective",
       "unlock-hatchway",
       "spend-action-token",
+      "tracking-device-peek",
       "use-help-from-sabik",
     ]);
     if (!allowedInSite.has(action.a)) {

@@ -21,7 +21,7 @@ Always pass your player id with `--as <id>` (e.g. `./apps/playtest/play --as p1 
    ```bash
    ./apps/playtest/play --as <id> do <key> why: "<short rationale>"
    ```
-   `do` executes the move and immediately prints the updated status, your next options, any newly revealed verbatim printed text, and any new chat messages.
+   `do` executes the move and immediately prints the updated status, your next options, any newly revealed verbatim printed text, and any new chat messages. You may chain sequential known moves in one shell call with `&&` (e.g. `play --as p2 do begin-turn && play --as p2 do neutralize && play --as p2 do drive:london`) and keep chat to 1 concise message per turn so turns flow briskly.
 
 ## Stopping Rule (One Game Per Session)
 

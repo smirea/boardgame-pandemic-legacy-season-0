@@ -103,6 +103,7 @@ type Waiter = {
   timer: ReturnType<typeof setTimeout>;
 };
 const waiters: Waiter[] = [];
+const sessionEndWaiters: (() => void)[] = [];
 
 function persistAll(): void {
   const save = toSave(actor);
@@ -159,6 +160,16 @@ function isPlayerActionable(world: World, phase: Phase, player: PlayerId): boole
   if (!g) return false;
 
   if (g.pending.length > 0) {
+    const top = g.pending[0]!;
+    if (
+      top.t === "escalation" &&
+      top.step === "intensify" &&
+      g.players[seat].hand.some(
+        (id) => g.playerCards[id]?.kind === "event" && g.playerCards[id]?.event === "counter-intelligence",
+      )
+    ) {
+      return true;
+    }
     const owner = decisionOwner(world);
     return owner === null ? player === lead : owner === seat;
   }
@@ -196,6 +207,11 @@ function wakeWaiters(): void {
       clearTimeout(w.timer);
       waiters.splice(i, 1);
       w.resolve();
+    }
+  }
+  if (sessionGameFinished) {
+    while (sessionEndWaiters.length > 0) {
+      sessionEndWaiters.shift()!();
     }
   }
 }
@@ -329,6 +345,7 @@ persistAll();
 const server = Bun.serve({
   hostname: "127.0.0.1",
   port: requestedPort,
+  idleTimeout: 255,
   async fetch(req) {
     const url = new URL(req.url);
     const path = url.pathname;
@@ -559,6 +576,35 @@ const server = Bun.serve({
             consumeStatusPayload(body.player, `Advanced ${count} Escalation step(s).`),
           );
         }
+      }
+
+      if (path === "/admin/wait-session-end") {
+        let timedOut = false;
+        if (!sessionGameFinished) {
+          await new Promise<void>((resolve) => {
+            const onDone = () => {
+              clearTimeout(timer);
+              resolve();
+            };
+            const timer = setTimeout(() => {
+              const idx = sessionEndWaiters.indexOf(onDone);
+              if (idx !== -1) sessionEndWaiters.splice(idx, 1);
+              timedOut = true;
+              resolve();
+            }, 180_000);
+            sessionEndWaiters.push(onDone);
+          });
+        }
+        const snap = actor.getSnapshot();
+        return Response.json({
+          ok: true,
+          timedOut,
+          phase: phaseOf(snap.value),
+          month: snap.context.world.campaign.month,
+          attempt: snap.context.world.campaign.attempt,
+          sessionGameFinished,
+          violations: audit.invariantViolations.length,
+        });
       }
 
       if (path === "/admin/next-game" && req.method === "POST") {

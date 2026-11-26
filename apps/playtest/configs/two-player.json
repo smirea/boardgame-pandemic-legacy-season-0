@@ -1,0 +1,24 @@
+{
+  "run": "campaign-2p",
+  "seed": 2022,
+  "model": "grok-4.7-build-fast",
+  "reasoningEffort": "medium",
+  "players": [
+    {
+      "id": "p1",
+      "name": "Maya (Lead)",
+      "seat": "seat-1",
+      "passport": "black",
+      "persona": "apps/playtest/personas/p1.md",
+      "lead": true
+    },
+    {
+      "id": "p2",
+      "name": "Devon (Ops)",
+      "seat": "seat-2",
+      "passport": "green",
+      "persona": "apps/playtest/personas/p2.md",
+      "lead": false
+    }
+  ]
+}

@@ -631,6 +631,8 @@ export function decisionOwner(world: World): SeatId | null {
       return top.seat;
     case "border-security":
       return top.seatsLeft[0] ?? null;
+    case "escalation":
+      return world.game?.active ?? null;
     default:
       return null;
   }
@@ -1371,7 +1373,6 @@ export function applyDecide(world: World, answer: Answer): void {
           if (idx !== -1) {
             const [cardId] = trialObj.trialCardIds.splice(idx, 1) as [CardId];
             p.hand.push(cardId);
-            game.loadingDockVisitsThisGame += 1;
             log(game, {
               t: "infiltration",
               seat,

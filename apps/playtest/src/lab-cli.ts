@@ -1,6 +1,8 @@
-import { existsSync, openSync, unlinkSync } from "node:fs";
+import { existsSync, openSync, readdirSync, readFileSync, unlinkSync } from "node:fs";
 import { join } from "node:path";
 import { spawn } from "node:child_process";
+import type { GameRecording } from "@repo/game";
+import { replayRecording, violations } from "@repo/game";
 import { generateBriefs } from "./brief";
 import {
   ACTIVE_RUN_FILE,
@@ -131,6 +133,36 @@ async function main(): Promise<void> {
     const res = await fetch(`${meta.url}/admin/advance-january`, { method: "POST" });
     console.log(await res.text());
     if (!res.ok) process.exit(1);
+    return;
+  }
+
+  if (sub === "wait-game") {
+    const meta = readActiveDaemon(argv[1]);
+    while (true) {
+      const res = await fetch(`${meta.url}/admin/wait-session-end`);
+      const data = (await res.json()) as { sessionGameFinished?: boolean };
+      if (data.sessionGameFinished) {
+        console.log(JSON.stringify(data));
+        return;
+      }
+    }
+  }
+
+  if (sub === "replay-all") {
+    const meta = readActiveDaemon(argv[1]);
+    const recDir = join(runDirOf(meta.run), "records");
+    const files = existsSync(recDir) ? readdirSync(recDir).filter((f) => f.endsWith(".json")).sort() : [];
+    for (const file of files) {
+      const rec = JSON.parse(readFileSync(join(recDir, file), "utf8")) as GameRecording;
+      const out = replayRecording(rec);
+      const errs = violations(out.world);
+      console.log(`${file}: replayed ${out.stepCount} steps -> ${out.phase} (violations: ${errs.length})`);
+      if (errs.length > 0) {
+        console.error(errs.join("\n"));
+        process.exit(1);
+      }
+    }
+    if (files.length === 0) console.log("No recorded games yet.");
     return;
   }
 

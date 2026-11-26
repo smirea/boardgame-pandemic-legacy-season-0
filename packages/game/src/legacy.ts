@@ -1279,11 +1279,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
     case 137: // Nov Pursuit failed
       clearPursuitAndCheckpoints(world, true);
       break;
-    case 226: // Nov Sabik Obj 3 complete (Langley Cold Storage): return pawn to Washington
-      if (game && seat && game.players[seat].infiltration?.site === "langley") {
-        game.players[seat].infiltration = null;
-        game.players[seat].location = "washington";
-      }
+    case 226: // Nov Sabik Obj 3 complete (Langley Cold Storage): "No further information" (pawn exits manually or at Mop Up)
       break;
     case 130: // Nov Sabik Obj 3 failed attempt 1: cross out 1 contact
       if (game && activeContactsList(c).length > 0) {
