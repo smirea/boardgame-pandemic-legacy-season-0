@@ -761,6 +761,7 @@ function addEventOptions(
         // Show sample pawn & team airlifts; CLI accepts any seat/team and any city
         const targetCities = new Set<CityId>();
         for (const obj of game.objectives) {
+          if (obj.status !== "active") continue;
           for (const tc of obj.targetCities ?? []) targetCities.add(tc);
           if (obj.targetRevealed && obj.hiddenCardId) {
             const c = cityOfCard(game, obj.hiddenCardId);
@@ -768,18 +769,27 @@ function addEventOptions(
           }
         }
         for (const ct of pack.cities) {
-          if (game.locations[ct.id].agents >= 3 || game.locations[ct.id].safehouse) {
+          if (game.locations[ct.id].pursuit || game.locations[ct.id].safehouse) {
             targetCities.add(ct.id);
           }
         }
-        const cityList = [...targetCities].slice(0, 6);
+        for (const ct of pack.cities) {
+          if (game.locations[ct.id].agents >= 3 || game.locations[ct.id].diseaseCubes >= 2) {
+            targetCities.add(ct.id);
+          }
+        }
+        const cityList = [...targetCities].slice(0, 8);
         for (const s of game.seats) {
           for (const to of cityList) {
-            pushPlay(`play:airlift:${s}:${to}`, `Play Airlift: move ${s} to ${cityDef(to).name}`, {
-              e: "airlift",
-              target: { kind: "pawn", seat: s },
-              to,
-            });
+            pushPlay(
+              `play:airlift:${s}:${to}`,
+              `Play Airlift: move ${s} to ${cityDef(to).name} (or 'play:airlift:<seat|team>:<any-city>')`,
+              {
+                e: "airlift",
+                target: { kind: "pawn", seat: s },
+                to,
+              },
+            );
           }
         }
         for (const team of Object.values(game.teams)) {
@@ -787,7 +797,7 @@ function addEventOptions(
           for (const to of cityList) {
             pushPlay(
               `play:airlift:${team.id}:${to}`,
-              `Play Airlift: move ${team.id} to ${cityDef(to).name}`,
+              `Play Airlift: move ${team.id} to ${cityDef(to).name} (or 'play:airlift:<seat|team>:<any-city>')`,
               { e: "airlift", target: { kind: "team", team: team.id }, to },
             );
           }
@@ -836,7 +846,7 @@ function addEventOptions(
             if (ca && cb) {
               pushPlay(
                 `play:encoded-messages:${sa}:${cityCardShort(world, ca)}:${sb}:${cityCardShort(world, cb)}`,
-                `Play Encoded Messages: swap ${sa}'s ${cityCardShort(world, ca)} <-> ${sb}'s ${cityCardShort(world, cb)}`,
+                `Play Encoded Messages: swap ${sa}'s ${cityCardShort(world, ca)} <-> ${sb}'s ${cityCardShort(world, cb)} (or 'play:encoded-messages:<seatA>:<cardA>:<seatB>:<cardB>' for any non-Symptom pair)`,
                 { e: "encoded-messages", seatA: sa, cardA: ca, seatB: sb, cardB: cb },
               );
             }
@@ -1270,17 +1280,20 @@ function addActionOptions(
   for (const aff of ["allied", "neutral", "soviet"] as const) {
     pushAct(`change-alias:${aff}`, `Change Alias to ${aff}`, { a: "change-alias", affiliation: aff });
   }
-  const matchingAffCard = handCityCards.find(
+  const matchingAffCards = handCityCards.filter(
     (id) => cityDef(cityOfCard(game, id)!).affiliation === locDef.affiliation,
   );
-  if (matchingAffCard) {
+  if (matchingAffCards.length > 0) {
     const relCp = game.supplies.checkpointTokens <= 0 ? game.checkpoints[0] : undefined;
     for (const nb of locDef.connections) {
-      pushAct(
-        `checkpoint:${nb}`,
-        `Create Checkpoint ${locDef.name} <-> ${cityDef(nb).name} (discard ${cityCardShort(world, matchingAffCard)})`,
-        { a: "create-checkpoint", card: matchingAffCard, neighbor: nb, relocateFrom: relCp },
-      );
+      for (const cardId of matchingAffCards) {
+        const short = cityCardShort(world, cardId);
+        pushAct(
+          `checkpoint:${nb}:${short}`,
+          `Create Checkpoint ${locDef.name} <-> ${cityDef(nb).name} (discard ${short})`,
+          { a: "create-checkpoint", card: cardId, neighbor: nb, relocateFrom: relCp },
+        );
+      }
     }
   }
   for (const id of p.hand) {

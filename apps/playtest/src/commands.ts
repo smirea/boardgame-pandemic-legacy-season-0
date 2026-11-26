@@ -320,6 +320,30 @@ export function parseDoCommand(
       },
     };
   }
+  if (head.startsWith("checkpoint:")) {
+    const [, nb, cardRaw] = head.split(":");
+    const locAff = pack.cityById[g.players[seat].location].affiliation;
+    const card = cardRaw
+      ? findCityCardInHand(world, seat, cardRaw)
+      : g.players[seat].hand.find((id) => {
+          const ct = cityOfCard(g, id);
+          return ct !== null && pack.cityById[ct].affiliation === locAff;
+        }) ?? null;
+    const relCp = g.supplies.checkpointTokens <= 0 ? g.checkpoints[0] : undefined;
+    return {
+      kind: "single",
+      command: {
+        type: "ACTION",
+        player,
+        action: {
+          a: "create-checkpoint",
+          neighbor: nb as CityId,
+          card: card ?? (cardRaw ?? ""),
+          relocateFrom: relCp,
+        },
+      },
+    };
+  }
   if (head.startsWith("visa:")) {
     const asset = head.slice("visa:".length) as AssetId;
     return {

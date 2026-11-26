@@ -266,6 +266,7 @@ export function renderStatus(
       const interesting =
         st.agents > 0 ||
         st.diseaseCubes > 0 ||
+        st.effectiveSurveillance > 0 ||
         st.incidents > 0 ||
         st.outbreaks > 0 ||
         st.safehouse ||
@@ -287,6 +288,8 @@ export function renderStatus(
       if (st.exposedIntensity !== null) tags.push(`EXP(${st.exposedIntensity})`);
       if (st.contaminated) tags.push("CONTAM");
       if (st.controlCenter) tags.push(st.bugged ? "CC(BUG)" : "CC");
+      const cityTeams = deployedTeams.filter((t) => t.city === ct.id);
+      if (cityTeams.length > 0) tags.push(`T:${cityTeams.map((t) => t.id).join("+")}`);
       hotspots.push(`${ct.id}[${ct.affiliation[0]!.toUpperCase()}](${tags.join(",")})`);
     }
     lines.push(`\nBoard Hotspots (${hotspots.length}; run 'board' for all 48): ${hotspots.join(" | ")}`);

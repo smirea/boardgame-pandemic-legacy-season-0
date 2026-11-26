@@ -1047,5 +1047,21 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     expect(carryOpts).toContain("fly-carry:london");
     expect(carryOpts).toContain("unrecorded-carry:rome");
     expect(carryOpts).toContain("cargo-fly-carry:bangkok");
+
+    // Infection outbreak on empty Incident/Outbreak supply logs FAILED (Incident/Outbreak supply empty), not Disease cube supply
+    const s3 = toSave(b);
+    s3.world.game!.outcome = null;
+    s3.world.game!.supplies.diseaseCubes = 9;
+    s3.world.game!.supplies.incidentOutbreakTokens = 0;
+    s3.world.game!.locations.bogota.diseaseCubes = 3;
+    s3.world.game!.threatsLeft = 1;
+    s3.world.game!.threatDeck = [
+      { id: "inf-bogota", kind: "infection", infectionId: "inf-bogota", city: "bogota", startingIntensity: 0 },
+    ];
+    const cActor = createGameActor({ save: { ...s3, phase: "playing.threat" } });
+    cActor.send({ type: "DRAW_THREAT", player: "p3" });
+    expect(phaseOf(cActor.getSnapshot().value)).toBe("over");
+    const infThreatLog = cActor.getSnapshot().context.world.game!.log.filter((e) => e.t === "threat").at(-1);
+    expect(infThreatLog?.t === "threat" && infThreatLog.effect).toBe("FAILED (Incident/Outbreak supply empty)");
   });
 });

@@ -1142,14 +1142,22 @@ function resolveEscalationPursuitStep(world: World): void {
 
   const existing = pack.cities.filter((ct) => game.locations[ct.id].pursuit).map((ct) => ct.id);
   const toAdd = new Set<CityId>();
+  const blocked = new Map<CityId, "checkpoint" | "active team">();
   for (const city of existing) {
     for (const neighbor of cityDef(city).connections) {
       if (game.locations[neighbor].pursuit) continue;
-      if (hasCheckpoint(game, city, neighbor)) continue;
-      if (activeTeamsInCity(game, neighbor).length > 0) continue;
+      if (hasCheckpoint(game, city, neighbor)) {
+        if (!blocked.has(neighbor)) blocked.set(neighbor, "checkpoint");
+        continue;
+      }
+      if (activeTeamsInCity(game, neighbor).length > 0) {
+        blocked.set(neighbor, "active team");
+        continue;
+      }
       toAdd.add(neighbor);
     }
   }
+  for (const city of toAdd) blocked.delete(city);
 
   let failedReason: string | null = null;
   const placed: CityId[] = [];
@@ -1166,9 +1174,13 @@ function resolveEscalationPursuitStep(world: World): void {
     }
   }
 
+  const blockedNote =
+    blocked.size > 0
+      ? ` (blocked: ${[...blocked.entries()].map(([c, why]) => `${cityDef(c).name} [${why}]`).join(", ")})`
+      : "";
   log(game, {
     t: "pursuit",
-    detail: `Escalation Pursuit spread to: ${placed.map((c) => cityDef(c).name).join(", ") || "none"}${failedReason ? ` -> FAILED (${failedReason})` : ""}`,
+    detail: `Escalation Pursuit spread to: ${placed.map((c) => cityDef(c).name).join(", ") || "none"}${blockedNote}${failedReason ? ` -> FAILED (${failedReason})` : ""}`,
   });
 
   if (failedReason) {
@@ -1253,13 +1265,16 @@ export function drawOneThreatCard(world: World): void {
     const beforeOutbreaks = game.stats.outbreaks;
     const endedBefore = game.outcome !== null;
     resolveDiseaseInfection(world, card.city);
+    const outcomeAfter = world.game!.outcome;
     log(game, {
       t: "threat",
       card: card.id,
       city: card.city,
       effect:
-        !endedBefore && game.outcome
-          ? "FAILED (Disease cube supply empty)"
+        !endedBefore && outcomeAfter
+          ? outcomeAfter.reason.includes("Incident/Outbreak")
+            ? "FAILED (Incident/Outbreak supply empty)"
+            : "FAILED (Disease cube supply empty)"
           : game.stats.outbreaks > beforeOutbreaks
             ? "INFECTION -> OUTBREAK"
             : "INFECTION (+1 Disease cube)",
