@@ -224,6 +224,8 @@ export function seatsOverHandLimit(world: World): SeatId[] {
 export function ensureHandLimitDecisions(world: World): void {
   const game = world.game;
   if (!game) return;
+  // Rulebook p. 15: resolve all Escalation cards before checking hand limit (preserving the Counter-Intelligence Intensify window)
+  if (game.pending.some((d) => d.t === "escalation")) return;
   for (const seat of seatsOverHandLimit(world)) {
     const already = game.pending.some((d) => d.t === "hand-limit" && d.seat === seat);
     if (!already) {

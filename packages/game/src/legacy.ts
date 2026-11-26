@@ -2607,6 +2607,12 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       c.finalScore = score;
       const evalDebrief =
         score >= 800 ? 236 : score >= 650 ? 237 : score >= 450 ? 238 : score >= 300 ? 239 : 240;
+      if (world.game) {
+        log(world.game, {
+          t: "note",
+          text: `Annual Review Final Score: ${score} -> Debrief ${evalDebrief}`,
+        });
+      }
       readDebrief(world, evalDebrief);
       c.personnelFile.push({
         id: cardId,

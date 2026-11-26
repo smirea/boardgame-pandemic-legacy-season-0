@@ -68,6 +68,9 @@ export function renderStatus(
     lines.push(
       `\n*** SESSION COMPLETE (${c.month === 12 && view.phase === "finished" ? "CAMPAIGN FINISHED" : "GAME COMPLETE — BACK IN LOBBY"}) ***`,
     );
+    if (view.phase === "finished" && c.finalScore !== null) {
+      lines.push(`FINAL CAMPAIGN SCORE (Annual Review): ${c.finalScore}`);
+    }
     lines.push(
       `Do NOT start the next game! Update your memory file, write your post-game report, and end your turn.`,
     );

@@ -1139,4 +1139,37 @@ describe("Pandemic Legacy: Season 0 rules", () => {
       }),
     ).toContain("Unknown city");
   });
+
+  test("resolves Escalation cards before hand-limit discards when drawing at full hand (rulebook p. 15)", () => {
+    const actor = startPlayingGame(105, 3);
+    const snap = actor.getSnapshot();
+    const w = structuredClone(snap.context.world);
+    const g = w.game!;
+    const activeSeat = g.active;
+    const activePlayer = w.table.seats.find((s) => s.seat === activeSeat)!.player;
+    const hand = g.players[activeSeat].hand;
+    while (hand.length < 7) {
+      const nextCity = g.playerDeck.findIndex((id) => g.playerCards[id]?.kind === "city");
+      hand.push(g.playerDeck.splice(nextCity, 1)[0]!);
+    }
+    const escIdx = g.playerDeck.findIndex((id) => g.playerCards[id]?.kind === "escalation");
+    const cityIdx = g.playerDeck.findIndex((id) => g.playerCards[id]?.kind === "city");
+    const escId = g.playerDeck.splice(escIdx, 1)[0]!;
+    const cityId = g.playerDeck.splice(cityIdx > escIdx ? cityIdx - 1 : cityIdx, 1)[0]!;
+    g.playerDeck.unshift(escId, cityId);
+
+    const a2 = createGameActor({ save: { version: 1, phase: "playing.draw", world: w } });
+    a2.send({ type: "DRAW_PLAYER_CARDS", player: activePlayer });
+    const afterDraw = a2.getSnapshot().context.world.game!;
+    expect(afterDraw.players[activeSeat].hand.length).toBe(8);
+    expect(afterDraw.pending[0]?.t).toBe("escalation");
+    expect(afterDraw.pending.some((d) => d.t === "hand-limit")).toBe(false);
+
+    // Finish the 3 Escalation steps; hand-limit appears immediately after Intensify
+    a2.send({ type: "DECIDE", player: activePlayer, answer: { t: "escalation" } });
+    a2.send({ type: "DECIDE", player: activePlayer, answer: { t: "escalation" } });
+    a2.send({ type: "DECIDE", player: activePlayer, answer: { t: "escalation" } });
+    const afterEsc = a2.getSnapshot().context.world.game!;
+    expect(afterEsc.pending[0]).toEqual({ t: "hand-limit", seat: activeSeat });
+  });
 });
