@@ -1333,17 +1333,19 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
       break;
     }
 
-    case "clinic-planner-flight":
+    case "clinic-planner-flight": {
+      const discCity = cityOfCard(game, action.card);
       discardFromHand(game, seat, action.card);
       log(game, {
         t: "action",
         seat,
         action: action.a,
-        detail: `Clinic Planner flew to ${cityDef(action.to).name}`,
+        detail: `Clinic Planner flew to ${cityDef(action.to).name}${discCity ? ` (discarded ${cityDef(discCity).name})` : ""}`,
         cost,
       });
       enterCity(world, seat, action.to, { by: "clinic-planner" });
       break;
+    }
 
     case "aluminum-take": {
       player.usedThisTurn.push("aluminum-take");

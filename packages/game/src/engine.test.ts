@@ -967,5 +967,26 @@ describe("Pandemic Legacy: Season 0 rules", () => {
     expect(opts.filter((o) => o.key.startsWith("unrecorded:")).length).toBe(47);
     expect(opts.filter((o) => o.key.startsWith("clinic-fly:washington:")).length).toBe(47);
     expect(opts.filter((o) => o.key.startsWith("clinic-fly:paris:")).length).toBe(47);
+
+    // Clinic Planner flight log names the discarded card
+    a.send({
+      type: "ACTION",
+      player: "p3",
+      action: { a: "clinic-planner-flight", card: "city:paris", to: "bangkok" },
+    });
+    const flyLog = a.getSnapshot().context.world.game!.log.filter((e) => e.t === "action").at(-1);
+    expect(flyLog?.t === "action" && flyLog.detail.includes("discarded Paris")).toBe(true);
+
+    // Empty agent supply on Threat draw logs FAILED instead of "+1 agent"
+    const s2 = toSave(a);
+    s2.world.game!.supplies.agents = 0;
+    s2.world.game!.threatsLeft = 1;
+    s2.world.game!.threatDeck = [{ id: "threat:bogota", kind: "city", city: "bogota" }];
+    s2.world.game!.cardsDrawn = true;
+    const b = createGameActor({ save: { ...s2, phase: "playing.threat" } });
+    b.send({ type: "DRAW_THREAT", player: "p3" });
+    expect(phaseOf(b.getSnapshot().value)).toBe("over");
+    const threatLog = b.getSnapshot().context.world.game!.log.filter((e) => e.t === "threat").at(-1);
+    expect(threatLog?.t === "threat" && threatLog.effect).toBe("FAILED (agent supply empty)");
   });
 });

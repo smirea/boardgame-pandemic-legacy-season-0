@@ -1177,7 +1177,11 @@ function addActionOptions(
       obj.kind === "unknown-city" ||
       obj.kind === "bug-existing-control-center"
     ) {
-      pushAct(`acquire:${obj.id}`, `Acquire Targets: ${obj.title}`, {
+      const blindWarn =
+        obj.kind === "unknown-city" && !obj.targetRevealed
+          ? " (BLIND GUESS — fails if active team is not in hidden target!)"
+          : "";
+      pushAct(`acquire:${obj.id}`, `Acquire Targets${blindWarn}: ${obj.title}`, {
         a: "acquire-targets",
         objective: obj.id,
       });

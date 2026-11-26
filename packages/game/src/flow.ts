@@ -1222,25 +1222,34 @@ export function drawOneThreatCard(world: World): void {
 
   if (card.kind === "infection") {
     const beforeOutbreaks = game.stats.outbreaks;
+    const endedBefore = game.outcome !== null;
     resolveDiseaseInfection(world, card.city);
     log(game, {
       t: "threat",
       card: card.id,
       city: card.city,
       effect:
-        game.stats.outbreaks > beforeOutbreaks
-          ? "INFECTION -> OUTBREAK"
-          : "INFECTION (+1 Disease cube)",
+        !endedBefore && game.outcome
+          ? "FAILED (Disease cube supply empty)"
+          : game.stats.outbreaks > beforeOutbreaks
+            ? "INFECTION -> OUTBREAK"
+            : "INFECTION (+1 Disease cube)",
     });
     return;
   }
 
+  const endedBefore = game.outcome !== null;
   const inc = addAgentsToCity(world, card.city, 1);
   log(game, {
     t: "threat",
     card: card.id,
     city: card.city,
-    effect: inc.length > 0 ? "INCIDENT (4th agent)" : "+1 agent",
+    effect:
+      !endedBefore && game.outcome
+        ? "FAILED (agent supply empty)"
+        : inc.length > 0
+          ? "INCIDENT (4th agent)"
+          : "+1 agent",
   });
   if (inc.length > 0) {
     resolveIncidentWave(world, inc);
