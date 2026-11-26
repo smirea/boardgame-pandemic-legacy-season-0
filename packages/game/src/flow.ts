@@ -1061,6 +1061,11 @@ export function advanceEscalationStep(world: World): void {
           break;
         }
         if (game.supplies.agents <= 0) {
+          log(game, {
+            t: "escalation",
+            step: "add-agents",
+            detail: `Bottom Threat card ${cityDef(bottom.city).name}: +${added} agent(s) (agent supply empty)`,
+          });
           endGameNow(
             world,
             `Needed to place an agent in ${cityDef(bottom.city).name} during Escalation but supply is empty`,

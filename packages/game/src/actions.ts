@@ -1024,16 +1024,22 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
       const fromHand = game.players[from].hand;
       fromHand.splice(fromHand.indexOf(action.card), 1);
       game.players[to].hand.push(action.card);
+      const extraName = action.extraDiscard
+        ? cityOfCard(game, action.extraDiscard)
+          ? cityDef(cityOfCard(game, action.extraDiscard)!).name
+          : action.extraDiscard
+        : null;
       if (action.extraDiscard) discardFromHand(game, seat, action.extraDiscard);
       const sharedCityName = cityDef(cityOfCard(game, action.card)!).name;
+      const baseDetail =
+        action.direction === "give"
+          ? `Gave ${sharedCityName} to ${action.target}`
+          : `Took ${sharedCityName} from ${action.target}`;
       log(game, {
         t: "action",
         seat,
         action: action.a,
-        detail:
-          action.direction === "give"
-            ? `Gave ${sharedCityName} to ${action.target}`
-            : `Took ${sharedCityName} from ${action.target}`,
+        detail: extraName ? `${baseDetail} (Soft: discarded ${extraName})` : baseDetail,
         cost,
       });
       ensureHandLimitDecisions(world);

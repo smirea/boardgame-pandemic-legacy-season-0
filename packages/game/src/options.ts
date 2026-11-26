@@ -1171,10 +1171,13 @@ function addActionOptions(
     const soft = isRestrictionActive(game, "soft");
     for (const id of handCityCards) {
       const extraDiscard = soft ? handCityCards.find((cid) => cid !== id) : undefined;
-      const softNote = extraDiscard ? ` (Soft: also discards ${cityCardShort(world, extraDiscard)})` : "";
+      const cityId = cityOfCard(game, id)!;
+      const softNote = extraDiscard
+        ? ` (Soft: also discards ${cityCardShort(world, extraDiscard)}; or 'share-give:${otherSeat}:${cityId} extra:<card>')`
+        : "";
       pushAct(
-        `share-give:${otherSeat}:${cityOfCard(game, id)}`,
-        `Give ${cityDef(cityOfCard(game, id)!).name} to ${otherSeat}${softNote}`,
+        `share-give:${otherSeat}:${cityId}`,
+        `Give ${cityDef(cityId).name} to ${otherSeat}${softNote}`,
         { a: "share-intel", target: otherSeat, card: id, direction: "give", extraDiscard },
       );
     }
@@ -1182,7 +1185,9 @@ function addActionOptions(
       const ct = cityOfCard(game, id);
       if (!ct) continue;
       const extraDiscard = soft ? handCityCards[0] : undefined;
-      const softNote = extraDiscard ? ` (Soft: also discards ${cityCardShort(world, extraDiscard)})` : "";
+      const softNote = extraDiscard
+        ? ` (Soft: also discards ${cityCardShort(world, extraDiscard)}; or 'share-take:${otherSeat}:${ct} extra:<card>')`
+        : "";
       pushAct(
         `share-take:${otherSeat}:${ct}`,
         `Take ${cityDef(ct).name} from ${otherSeat}${softNote}`,

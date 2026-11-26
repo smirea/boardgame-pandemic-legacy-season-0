@@ -1278,8 +1278,10 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     }
     case 172:
-    case 241:
       clearPursuitAndCheckpoints(world, true);
+      break;
+    case 241:
+      // Second-half Pursuit fail prints "No further information."
       break;
     case 199:
       addRestriction(world, 58);

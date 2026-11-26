@@ -241,12 +241,14 @@ export function parseDoCommand(
   if (head.startsWith("share-give:")) {
     const [, target, cityRaw] = head.split(":");
     const card = findCityCardInHand(world, seat, cityRaw ?? "") ?? `city:${cityRaw ?? ""}`;
+    const extraTok = args.find((a) => a.startsWith("extra:"));
+    const extraDiscard = extraTok ? findCityCardInHand(world, seat, extraTok.slice(6)) ?? undefined : undefined;
     return {
       kind: "single",
       command: {
         type: "ACTION",
         player,
-        action: { a: "share-intel", target: target as SeatId, card, direction: "give" },
+        action: { a: "share-intel", target: target as SeatId, card, direction: "give", extraDiscard },
       },
     };
   }
@@ -256,12 +258,14 @@ export function parseDoCommand(
     const card =
       (g.seats.includes(targetSeat) ? findCityCardInHand(world, targetSeat, cityRaw ?? "") : null) ??
       `city:${cityRaw ?? ""}`;
+    const extraTok = args.find((a) => a.startsWith("extra:"));
+    const extraDiscard = extraTok ? findCityCardInHand(world, seat, extraTok.slice(6)) ?? undefined : undefined;
     return {
       kind: "single",
       command: {
         type: "ACTION",
         player,
-        action: { a: "share-intel", target: targetSeat, card, direction: "take" },
+        action: { a: "share-intel", target: targetSeat, card, direction: "take", extraDiscard },
       },
     };
   }
