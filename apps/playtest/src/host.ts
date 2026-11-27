@@ -60,7 +60,6 @@ export type GameHostOptions = {
   seed?: number;
   startMonth?: number;
   savePath?: string;
-  port?: number;
 };
 
 export type CommandApiResult = {
@@ -160,7 +159,6 @@ export class GameHost {
   private sessionGameFinished = false;
   private activeRecording: GameRecording | null = null;
   private lastGameTag: string | null = null;
-  private server: ReturnType<typeof Bun.serve> | null = null;
   private readonly latestSavePath: string;
   private readonly auditPath: string;
   private readonly chatPath: string;
@@ -291,11 +289,6 @@ export class GameHost {
     return this.sessionGameFinished;
   }
 
-  get url(): string {
-    if (!this.server) throw new Error("GameHost HTTP server has not been started");
-    return `http://127.0.0.1:${this.server.port}`;
-  }
-
   memoryPathOf(playerId: PlayerId): string {
     return join(this.memoryDir, `${playerId}.md`);
   }
@@ -305,18 +298,21 @@ export class GameHost {
     return existsSync(p) ? readFileSync(p, "utf8") : "";
   }
 
-  writeMemory(playerId: PlayerId, content: string): void {
-    writeFileSync(this.memoryPathOf(playerId), content.trimEnd() + "\n");
+  writeMemory(playerId: PlayerId, content: string): string {
+    const outPath = this.memoryPathOf(playerId);
+    writeFileSync(outPath, content.trimEnd() + "\n");
+    return outPath;
   }
 
   readStrategy(): string {
     return existsSync(this.strategyPath) ? readFileSync(this.strategyPath, "utf8") : "";
   }
 
-  writeStrategy(author: PlayerId, content: string): void {
+  writeStrategy(author: PlayerId, content: string): string {
     writeFileSync(this.strategyPath, content.trimEnd() + "\n");
     this.strategyVersion += 1;
     this.cursors.strategyVersion[author] = this.strategyVersion;
+    return this.strategyPath;
   }
 
   writeGameReport(playerId: PlayerId, content: string, tag?: string): string {
@@ -863,173 +859,18 @@ export class GameHost {
     this.persistAudit();
   }
 
-  startServer(port = 0): string {
-    if (this.server) return this.url;
+  auditSummary(): string {
+    return formatAuditSummary(this.audit, this.world);
+  }
 
-    this.server = Bun.serve({
-      hostname: "127.0.0.1",
-      port,
-      idleTimeout: 120,
-      fetch: async (req) => {
-        const url = new URL(req.url);
-        const path = url.pathname;
-
-        try {
-          if (path === "/api/health") {
-            return Response.json({
-              ok: true,
-              phase: phaseOf(this.world),
-              month: this.world.campaign.month,
-              monthName: pack.monthNames[this.world.campaign.month] ?? `Month ${this.world.campaign.month}`,
-              attempt: this.world.campaign.attempt,
-              sessionGameFinished: this.sessionGameFinished,
-              players: this.players.map((p) => ({
-                id: p.id,
-                name: p.name,
-                seat: p.seat,
-                harness: p.harness,
-                model: p.model,
-              })),
-            });
-          }
-
-          if (path === "/api/state") {
-            const player = url.searchParams.get("player") ?? this.leadPlayer.id;
-            const format = url.searchParams.get("format") ?? "json";
-            const consume = url.searchParams.get("consume") !== "0";
-            const feedback = url.searchParams.get("feedback");
-            const notice = url.searchParams.get("notice");
-            const packet = this.getStatePacket(player, {
-              consume,
-              actionFeedback: feedback,
-              notice,
-            });
-            if (format === "compact") return new Response(packet.compactText);
-            return Response.json(packet);
-          }
-
-          if (path === "/api/command" && req.method === "POST") {
-            const body = (await req.json()) as {
-              player: PlayerId;
-              expr?: string;
-              command?: Command;
-              why?: string;
-            };
-            const res = this.executeExpression(body.player, body);
-            return Response.json(res, { status: res.ok ? 200 : 400 });
-          }
-
-          if (path === "/api/chat" && req.method === "POST") {
-            const body = (await req.json()) as { player: PlayerId; text: string };
-            if (!body.text?.trim()) {
-              return Response.json({ ok: false, error: "Empty chat message" }, { status: 400 });
-            }
-            const msg = this.postChat(body.player, body.text);
-            return Response.json({ ok: true, message: msg });
-          }
-
-          if (path === "/api/inspect") {
-            const player = url.searchParams.get("player") ?? this.leadPlayer.id;
-            const query = url.searchParams.get("query") ?? "board";
-            return Response.json({
-              ok: true,
-              query,
-              content: this.inspect(player, query),
-            });
-          }
-
-          if (path === "/api/memory") {
-            if (req.method === "GET") {
-              const player = url.searchParams.get("player") ?? this.leadPlayer.id;
-              return Response.json({ ok: true, player, content: this.readMemory(player) });
-            }
-            if (req.method === "PUT") {
-              const body = (await req.json()) as { player: PlayerId; content: string };
-              this.writeMemory(body.player, body.content);
-              return Response.json({ ok: true, path: this.memoryPathOf(body.player) });
-            }
-          }
-
-          if (path === "/api/strategy") {
-            if (req.method === "GET") {
-              return Response.json({ ok: true, version: this.strategyVersion, content: this.readStrategy() });
-            }
-            if (req.method === "PUT") {
-              const body = (await req.json()) as { player: PlayerId; content: string };
-              this.writeStrategy(body.player, body.content);
-              return Response.json({ ok: true, version: this.strategyVersion, path: this.strategyPath });
-            }
-          }
-
-          if (path === "/api/report" && req.method === "POST") {
-            const body = (await req.json()) as {
-              player: PlayerId;
-              text: string;
-              gameReport?: boolean;
-              tag?: string;
-            };
-            if (body.gameReport) {
-              const pathSaved = this.writeGameReport(body.player, body.text, body.tag);
-              return Response.json({ ok: true, path: pathSaved });
-            }
-            this.postIssue(body.player, body.text);
-            return Response.json({ ok: true, path: this.issuesPath });
-          }
-
-          if (path === "/api/audit") {
-            const format = url.searchParams.get("format") ?? "text";
-            if (format === "json") return Response.json(this.audit);
-            return new Response(formatAuditSummary(this.audit, this.world));
-          }
-
-          if (path === "/api/save") {
-            return Response.json(toSave(this.session));
-          }
-
-          if (path === "/api/admin/next-game" && req.method === "POST") {
-            this.resetForNextGame();
-            return Response.json({
-              ok: true,
-              month: this.world.campaign.month,
-              attempt: this.world.campaign.attempt,
-              phase: phaseOf(this.world),
-            });
-          }
-
-          if (path === "/api/admin/advance-january" && req.method === "POST") {
-            const res = this.executeExpression(this.leadPlayer.id, {
-              command: { type: "BEGIN_JANUARY", player: this.leadPlayer.id },
-            });
-            if (!res.ok) return Response.json(res, { status: 400 });
-            this.resetForNextGame();
-            return Response.json({ ok: true, month: this.world.campaign.month });
-          }
-
-          if (path === "/api/admin/stop" && req.method === "POST") {
-            this.persistAll();
-            setTimeout(() => this.stopServer(), 30);
-            return Response.json({ ok: true });
-          }
-
-          return Response.json({ ok: false, error: "Not Found" }, { status: 404 });
-        } catch (err) {
-          return Response.json({ ok: false, error: String(err) }, { status: 500 });
-        }
-      },
+  advanceToJanuary(): CommandApiResult {
+    const res = this.executeExpression(this.leadPlayer.id, {
+      command: { type: "BEGIN_JANUARY", player: this.leadPlayer.id },
     });
-
-    return this.url;
+    if (res.ok) this.resetForNextGame();
+    return res;
   }
 
-  stopServer(): void {
-    if (this.server) {
-      this.server.stop(true);
-      this.server = null;
-    }
-    this.persistAll();
-  }
-
-  /** Helper used by orchestrator to check if a seat has any actionable legal options right now. */
   hasLegalOptions(player: PlayerId): boolean {
     if (this.sessionGameFinished) return false;
     return optionsFor(this.world, player, this.undoDepth).length > 0;

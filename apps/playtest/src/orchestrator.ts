@@ -5,8 +5,7 @@ import { decisionOwner, effectiveSurveillance, optionsFor, pack, phaseOf, topDec
 import { REPO_ROOT } from "./config";
 import type { AgentTurnResponse, ThreadStats } from "./harnesses";
 import { AgentThread } from "./harnesses";
-import type { CommandApiResult, GameHost, HostPlayer } from "./host";
-import type { CompactStatePacket } from "./serialize";
+import type { GameHost, HostPlayer } from "./host";
 
 export type OrchestratorOptions = {
   maxWakesPerGame?: number;
@@ -106,7 +105,6 @@ function findMentionedTeammates(
 
 export class GameOrchestrator {
   private readonly host: GameHost;
-  private readonly apiBase: string;
   private readonly opts: Required<Omit<OrchestratorOptions, "onLog">>;
   private readonly logFn: (line: string) => void;
   private readonly threads = new Map<PlayerId, AgentThread>();
@@ -114,7 +112,6 @@ export class GameOrchestrator {
 
   constructor(host: GameHost, options: OrchestratorOptions = {}) {
     this.host = host;
-    this.apiBase = host.url;
     this.opts = {
       maxWakesPerGame: options.maxWakesPerGame ?? 400,
       maxDiscussionRounds: options.maxDiscussionRounds ?? 2,
@@ -143,88 +140,6 @@ export class GameOrchestrator {
       const sysPrompt = buildSystemPrompt(p, this.host.players, memory, strategy);
       this.threads.set(p.id, new AgentThread(p, sysPrompt, REPO_ROOT));
     }
-  }
-
-  private async apiGetState(
-    player: PlayerId,
-    params: { consume?: boolean; feedback?: string | null; notice?: string | null } = {},
-  ): Promise<CompactStatePacket> {
-    const qs = new URLSearchParams({
-      player,
-      format: "json",
-      consume: params.consume === false ? "0" : "1",
-    });
-    if (params.feedback) qs.set("feedback", params.feedback);
-    if (params.notice) qs.set("notice", params.notice);
-    const res = await fetch(`${this.apiBase}/api/state?${qs.toString()}`);
-    if (!res.ok) throw new Error(`GET /api/state failed (${res.status}): ${await res.text()}`);
-    return (await res.json()) as CompactStatePacket;
-  }
-
-  private async apiCommand(
-    player: PlayerId,
-    expr: string,
-    why?: string | null,
-  ): Promise<CommandApiResult> {
-    const res = await fetch(`${this.apiBase}/api/command`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ player, expr, why: why ?? undefined }),
-    });
-    return (await res.json()) as CommandApiResult;
-  }
-
-  private async apiChat(player: PlayerId, text: string): Promise<{ seq: number }> {
-    const res = await fetch(`${this.apiBase}/api/chat`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ player, text }),
-    });
-    const data = (await res.json()) as { ok: boolean; message?: { seq: number }; error?: string };
-    if (!data.ok) throw new Error(`POST /api/chat failed: ${data.error}`);
-    return { seq: data.message!.seq };
-  }
-
-  private async apiInspect(player: PlayerId, query: string): Promise<string> {
-    const qs = new URLSearchParams({ player, query });
-    const res = await fetch(`${this.apiBase}/api/inspect?${qs.toString()}`);
-    const data = (await res.json()) as { ok: boolean; content: string };
-    return data.content;
-  }
-
-  private async apiPutMemory(player: PlayerId, content: string): Promise<string> {
-    const res = await fetch(`${this.apiBase}/api/memory`, {
-      method: "PUT",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ player, content }),
-    });
-    const data = (await res.json()) as { ok: boolean; path: string };
-    return data.path;
-  }
-
-  private async apiPutStrategy(player: PlayerId, content: string): Promise<string> {
-    const res = await fetch(`${this.apiBase}/api/strategy`, {
-      method: "PUT",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ player, content }),
-    });
-    const data = (await res.json()) as { ok: boolean; path: string };
-    return data.path;
-  }
-
-  private async apiPostReport(
-    player: PlayerId,
-    text: string,
-    gameReport = false,
-    tag?: string,
-  ): Promise<string> {
-    const res = await fetch(`${this.apiBase}/api/report`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ player, text, gameReport, tag }),
-    });
-    const data = (await res.json()) as { ok: boolean; path: string };
-    return data.path;
   }
 
   private recordTranscript(
@@ -319,21 +234,21 @@ export class GameOrchestrator {
     return { player: active ?? this.host.leadPlayer, notice: null, isCounterIntelWindow: false };
   }
 
-  private async applySideEffects(player: HostPlayer, resp: AgentTurnResponse): Promise<void> {
+  private applySideEffects(player: HostPlayer, resp: AgentTurnResponse): void {
     if (resp.say) {
-      await this.apiChat(player.id, resp.say);
+      this.host.postChat(player.id, resp.say);
       this.logFn(`💬 ${this.tagPrefix()} ${player.name}: ${resp.say}`);
     }
     if (resp.strategy) {
-      await this.apiPutStrategy(player.id, resp.strategy);
+      this.host.writeStrategy(player.id, resp.strategy);
       this.logFn(`🗺️  ${this.tagPrefix()} ${player.name} updated shared strategy.md`);
     }
     if (resp.memory) {
-      await this.apiPutMemory(player.id, resp.memory);
+      this.host.writeMemory(player.id, resp.memory);
       this.logFn(`🧠 ${this.tagPrefix()} ${player.name} updated memory/${player.id}.md`);
     }
     if (resp.report) {
-      await this.apiPostReport(player.id, resp.report, false);
+      this.host.postIssue(player.id, resp.report);
       this.logFn(`🐞 ${this.tagPrefix()} ${player.name} filed issue report: ${resp.report.slice(0, 120)}`);
     }
   }
@@ -348,9 +263,9 @@ export class GameOrchestrator {
     } = {},
   ): Promise<AgentTurnResponse> {
     const thread = this.threads.get(player.id)!;
-    const packet = await this.apiGetState(player.id, {
+    const packet = this.host.getStatePacket(player.id, {
       consume: true,
-      feedback: options.feedback,
+      actionFeedback: options.feedback,
       notice: options.notice,
     });
 
@@ -420,7 +335,7 @@ export class GameOrchestrator {
    * Auto-advances truly mandatory single-choice mechanical steps (without skipping any real
    * tactical choice, Event window, decision, or setup/upkeep prompt). Cuts wakes per turn ~4x.
    */
-  private async tryAutoStepForced(counterIntelAsked: Set<string>): Promise<boolean> {
+  private tryAutoStepForced(counterIntelAsked: Set<string>): boolean {
     if (!this.opts.autoStepForced) return false;
     const w = this.host.world;
     const phase = phaseOf(w);
@@ -428,11 +343,11 @@ export class GameOrchestrator {
     const top = topDecision(w);
 
     if (phase === "lobby") {
-      // Wait for lead only if Door 14 is ignored; otherwise auto-start ONLY when not first lobby?
-      // Actually let lead start the game manually on lobby so they can confirm passports/start-game?
-      // Auto-starting fresh lobby saves 2 turns AND respects passports already set by CLI!
       if (w.campaign.door14State === "ignored") return false;
-      const res = await this.apiCommand(this.host.leadPlayer.id, "start-game", "auto-start");
+      const res = this.host.executeExpression(this.host.leadPlayer.id, {
+        expr: "start-game",
+        why: "auto-start",
+      });
       if (res.ok) {
         this.logFn(`⚙ ${this.tagPrefix()} auto -> start-game`);
         return true;
@@ -443,7 +358,10 @@ export class GameOrchestrator {
     if (!g) return false;
 
     if (phase === "setup.threat" && !top && g.openingThreatsLeft > 0) {
-      const res = await this.apiCommand(this.host.leadPlayer.id, "flip-all-threats", "auto-flip");
+      const res = this.host.executeExpression(this.host.leadPlayer.id, {
+        expr: "flip-all-threats",
+        why: "auto-flip",
+      });
       if (res.ok) {
         this.logFn(`⚙ ${this.tagPrefix()} auto -> flip-all-threats (${res.executedCount} flipped)`);
         return true;
@@ -452,7 +370,10 @@ export class GameOrchestrator {
     }
 
     if (phase === "over" && !top) {
-      const res = await this.apiCommand(this.host.leadPlayer.id, "continue", "auto-continue");
+      const res = this.host.executeExpression(this.host.leadPlayer.id, {
+        expr: "continue",
+        why: "auto-continue",
+      });
       if (res.ok) {
         this.logFn(`⚙ ${this.tagPrefix()} auto -> continue (game-end evaluation)`);
         return true;
@@ -465,7 +386,7 @@ export class GameOrchestrator {
         const active = this.host.players.find((p) => p.seat === g.active) ?? this.host.leadPlayer;
         if (top.step === "increase" || top.step === "add-agents") {
           const expr = `escalation:${top.step}`;
-          const res = await this.apiCommand(active.id, expr, "auto-escalation");
+          const res = this.host.executeExpression(active.id, { expr, why: "auto-escalation" });
           if (res.ok) {
             this.logFn(`⚠️  ${this.tagPrefix()} auto -> ${expr}`);
             return true;
@@ -480,7 +401,10 @@ export class GameOrchestrator {
             return holdsCI && !counterIntelAsked.has(ciKey);
           });
           if (!hasUnaskedCI) {
-            const res = await this.apiCommand(active.id, "escalation:intensify", "auto-escalation");
+            const res = this.host.executeExpression(active.id, {
+              expr: "escalation:intensify",
+              why: "auto-escalation",
+            });
             if (res.ok) {
               this.logFn(`⚠️  ${this.tagPrefix()} auto -> escalation:intensify`);
               return true;
@@ -501,11 +425,13 @@ export class GameOrchestrator {
         !pState.infiltration &&
         !g.locations[loc].safehouse &&
         effectiveSurveillance(w, loc) > 0;
-      // Don't auto-begin if active player would lose cover AND someone can rescue them with Airlift / Holdover!
       if (inDanger && this.someoneHoldsEvent(["airlift", "a-holdover-from-the-war"])) {
         return false;
       }
-      const res = await this.apiCommand(active.id, "begin-turn", "auto-begin-turn");
+      const res = this.host.executeExpression(active.id, {
+        expr: "begin-turn",
+        why: "auto-begin-turn",
+      });
       if (res.ok) {
         this.logFn(`⚙ ${this.tagPrefix()} auto -> begin-turn (${active.name})`);
         return true;
@@ -519,7 +445,10 @@ export class GameOrchestrator {
         (o) => o.key === "spend-action-token" || o.key.startsWith("help-from-sabik:"),
       );
       if (!hasFreeAction) {
-        const res = await this.apiCommand(active.id, "end-actions", "auto-end-actions");
+        const res = this.host.executeExpression(active.id, {
+          expr: "end-actions",
+          why: "auto-end-actions",
+        });
         if (res.ok) {
           this.logFn(`⚙ ${this.tagPrefix()} auto -> end-actions (${active.name})`);
           return true;
@@ -529,7 +458,10 @@ export class GameOrchestrator {
     }
 
     if (phase === "playing.draw") {
-      const res = await this.apiCommand(active.id, "draw-cards", "auto-draw-cards");
+      const res = this.host.executeExpression(active.id, {
+        expr: "draw-cards",
+        why: "auto-draw-cards",
+      });
       if (res.ok) {
         this.logFn(`⚙ ${this.tagPrefix()} auto -> draw-cards (${active.name})`);
         return true;
@@ -538,7 +470,10 @@ export class GameOrchestrator {
     }
 
     if (phase === "playing.threat" && !this.someoneHoldsEvent(["one-quiet-night", "forecast"])) {
-      const res = await this.apiCommand(active.id, "draw-all-threats", "auto-draw-threats");
+      const res = this.host.executeExpression(active.id, {
+        expr: "draw-all-threats",
+        why: "auto-draw-threats",
+      });
       if (res.ok) {
         this.logFn(`⚙ ${this.tagPrefix()} auto -> draw-all-threats (${active.name}, ${res.executedCount} card(s))`);
         return true;
@@ -580,7 +515,7 @@ export class GameOrchestrator {
         );
       }
 
-      if (!pendingFeedback && (await this.tryAutoStepForced(counterIntelAsked))) {
+      if (!pendingFeedback && this.tryAutoStepForced(counterIntelAsked)) {
         continue;
       }
 
@@ -604,13 +539,16 @@ export class GameOrchestrator {
         inspectResults: inspectItems,
       });
 
-      await this.applySideEffects(actor, resp);
+      this.applySideEffects(actor, resp);
 
       // Counter-Intelligence off-turn window: allow playing CI or passing cleanly
       if (pick.isCounterIntelWindow) {
         if (resp.commands.length > 0) {
           for (const expr of resp.commands) {
-            const res = await this.apiCommand(actor.id, expr, resp.why);
+            const res = this.host.executeExpression(actor.id, {
+              expr,
+              why: resp.why ?? undefined,
+            });
             if (res.ok) {
               this.logFn(`⚡ ${this.tagPrefix()} ${actor.name} -> ${expr} (${res.feedback})`);
             } else {
@@ -633,7 +571,7 @@ export class GameOrchestrator {
             }
             inspectedBoardByPlayer.add(actor.id);
           }
-          results.push({ query: q, content: await this.apiInspect(actor.id, q) });
+          results.push({ query: q, content: this.host.inspect(actor.id, q) });
         }
         this.logFn(`🔍 ${this.tagPrefix()} ${actor.name} inspected [${resp.inspect.join(", ")}]`);
         pendingInspect = { player: actor.id, items: results };
@@ -657,7 +595,10 @@ export class GameOrchestrator {
           const prevActive = this.host.world.game?.active ?? null;
           const prevPending = topDecision(this.host.world)?.t ?? null;
 
-          const res = await this.apiCommand(actor.id, expr, resp.why);
+          const res = this.host.executeExpression(actor.id, {
+            expr,
+            why: resp.why ?? undefined,
+          });
           if (!res.ok) {
             lastError = res.error ?? "Rejected";
             lastExpr = expr;
@@ -713,7 +654,7 @@ export class GameOrchestrator {
               if (inspectedBoardByPlayer.has(actor.id)) continue;
               inspectedBoardByPlayer.add(actor.id);
             }
-            results.push({ query: q, content: await this.apiInspect(actor.id, q) });
+            results.push({ query: q, content: this.host.inspect(actor.id, q) });
           }
           if (results.length > 0) {
             pendingInspect = { player: actor.id, items: results };
@@ -739,9 +680,12 @@ export class GameOrchestrator {
           const mateResp = await this.runPlayerWake(mate, {
             notice: `${actor.name} spoke to the table and is waiting for your input before acting. Reply concisely in 'say' (you may also play an off-turn Event card or upkeep purchase in 'commands' if helpful, otherwise leave commands: []).`,
           });
-          await this.applySideEffects(mate, mateResp);
+          this.applySideEffects(mate, mateResp);
           for (const expr of mateResp.commands) {
-            const r = await this.apiCommand(mate.id, expr, mateResp.why);
+            const r = this.host.executeExpression(mate.id, {
+              expr,
+              why: mateResp.why ?? undefined,
+            });
             if (r.ok) {
               this.logFn(`⚡ ${this.tagPrefix()} ${mate.name} -> ${expr}`);
               if (r.sessionGameFinished) break;
@@ -792,8 +736,8 @@ export class GameOrchestrator {
     }
     this.logFn(`📝 Running post-game debrief, strategy & memory updates...`);
 
-    const filesSnapshot = await this.apiInspect(this.host.leadPlayer.id, "files");
-    const auditText = await (await fetch(`${this.apiBase}/api/audit`)).text();
+    const filesSnapshot = this.host.inspect(this.host.leadPlayer.id, "files");
+    const auditText = this.host.auditSummary();
 
     for (const p of this.host.players) {
       const currentMem = this.host.readMemory(p.id);
@@ -814,19 +758,19 @@ export class GameOrchestrator {
 
       const resp = await this.runPlayerWake(p, { extraPrompt: debriefPrompt });
       if (resp.say) {
-        await this.apiChat(p.id, resp.say);
+        this.host.postChat(p.id, resp.say);
         this.logFn(`💬 [Debrief] ${p.name}: ${resp.say}`);
       }
       if (resp.memory) {
-        const memPath = await this.apiPutMemory(p.id, resp.memory);
+        const memPath = this.host.writeMemory(p.id, resp.memory);
         this.logFn(`🧠 Saved personal memory: ${memPath}`);
       }
       if (resp.strategy) {
-        const stratPath = await this.apiPutStrategy(p.id, resp.strategy);
+        const stratPath = this.host.writeStrategy(p.id, resp.strategy);
         this.logFn(`🗺️  Saved shared strategy: ${stratPath}`);
       }
       if (resp.report) {
-        const repPath = await this.apiPostReport(p.id, resp.report, true, gameTag);
+        const repPath = this.host.writeGameReport(p.id, resp.report, gameTag);
         this.logFn(`📄 Saved game report: ${repPath}`);
       }
     }
@@ -864,11 +808,10 @@ export class GameOrchestrator {
 
       if (gamesPlayed > 0) {
         if (curMonth === 0) {
-          const advRes = await fetch(`${this.apiBase}/api/admin/advance-january`, { method: "POST" });
-          if (!advRes.ok) throw new Error(`Failed to advance to January: ${await advRes.text()}`);
+          const advRes = this.host.advanceToJanuary();
+          if (!advRes.ok) throw new Error(`Failed to advance to January: ${advRes.error}`);
         } else {
-          const nextRes = await fetch(`${this.apiBase}/api/admin/next-game`, { method: "POST" });
-          if (!nextRes.ok) throw new Error(`Failed to reset for next game: ${await nextRes.text()}`);
+          this.host.resetForNextGame();
         }
       }
 

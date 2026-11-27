@@ -1,6 +1,6 @@
 # Pandemic Legacy: Season 0 — Multi-Agent Playtest Framework
 
-Runs a live `@repo/game` Effect Stack session over a local HTTP API so AI agents (across `claude`, `codex`, `agy`, and `grok` harnesses) can play single months, resume saves, or run full campaigns while coordinating in table chat, reading verbatim Legacy/Debrief/Box/Door cards, buying upkeep upgrades, and updating shared strategy and persistent personal memories.
+Runs a live `@repo/game` Effect Stack session directly in-process (no server required) so AI agents across `claude`, `codex`, `agy`, and `grok` harnesses can play single months, resume saves, or run full campaigns while coordinating in table chat, reading verbatim Legacy/Debrief/Box/Door cards, buying upkeep upgrades, and updating shared strategy and persistent personal memories.
 
 ## Automated Multi-Agent Runner (`./scripts/play-game.ts`)
 
@@ -23,25 +23,20 @@ Each player runs in its own persistent thread inside its chosen harness (default
   --player devon:codex/gpt-6-luna@medium \
   --player sora:agy/gemini-3.8-flash-medium \
   --player vex:grok/grok-4.7-build-fast@low
-
-# Start only the local HTTP state/command API (for external scripts or manual driving)
-./scripts/play-game.ts --month 1 --player maya --player devon --serve-only --port 4321
 ```
 
-### Local HTTP API (`apps/playtest/src/host.ts`)
+### In-Process Game API (`apps/playtest/src/host.ts` + `serialize.ts`)
 
-- `GET /api/health` — current month, attempt, phase, and seated players
-- `GET /api/state?player=<id>&format=compact|json` — low-token serialized state, unread verbatim readings, unread chat, delta event log, and exact available actions
-- `POST /api/command` — execute a compact `expr` (e.g. `{"player":"maya","expr":"drive:london"}`) or raw `@repo/game` `Command`
-- `POST /api/chat` — post a message to table chat
-- `GET /api/inspect?player=<id>&query=<board|files|sites|log|readings|info:id|strategy|memory>`
-- `GET|PUT /api/memory` & `GET|PUT /api/strategy` — persistent personal memories and shared `strategy.md`
-- `POST /api/report` — log bug reports (`issues.jsonl`) or per-game debrief reports
-- `GET /api/audit` & `GET /api/save` — live rules coverage, invariant violations, and v2 save snapshot
+`GameHost` drives `@repo/game` directly in memory with zero network/server overhead:
+
+- `getStatePacket(player)` — low-token compact & JSON state, unread verbatim readings, unread chat, delta event log, and exact available actions
+- `executeExpression(player, { expr | command, why })` — runs compact expressions (`drive:london`) or raw `@repo/game` `Command`s with live invariant checks, recording, and save persistence
+- `postChat(player, text)` & `inspect(player, query)` — table chat and on-demand `board`/`files`/`sites`/`log`/`readings`/`info:<id>` lookups
+- `readMemory`/`writeMemory`, `readStrategy`/`writeStrategy`, `postIssue`, `writeGameReport`, `auditSummary`
 
 ## Manual CLI Daemon (`lab` / `play`)
 
-For manually driving a daemon from separate terminals:
+For manually driving a session across separate terminal shells:
 
 ```bash
 ./apps/playtest/lab start apps/playtest/configs/campaign.json --fresh

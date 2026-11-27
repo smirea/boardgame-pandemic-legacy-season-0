@@ -74,10 +74,8 @@ Options:
   --memory-dir <path>        Persistent directory for agent memories & strategy.md (default: <runDir>/memory)
   --max-games <N>            Maximum games to play in this invocation
   --max-wakes <N>            Maximum agent wakes per game (default: 400)
-  --port <N>                 Local HTTP API port (default: 0 = ephemeral)
   --no-auto-step             Wake agents for every forced single-button step (begin-turn, draw-cards, etc.)
   --keep-threads             Reuse agent threads across months instead of starting fresh threads with memory handoff
-  --serve-only               Start the local HTTP API server without running AI agents
   --verbose                  Print per-turn token/cost telemetry
   -h, --help                 Show this help`;
 }
@@ -94,10 +92,8 @@ type ParsedCli = {
   memoryDir?: string;
   maxGames?: number;
   maxWakes: number;
-  port: number;
   autoStepForced: boolean;
   keepThreads: boolean;
-  serveOnly: boolean;
   verbose: boolean;
 };
 
@@ -118,10 +114,8 @@ function parseCli(argv: string[]): ParsedCli | null {
   let memoryDir: string | undefined;
   let maxGames: number | undefined;
   let maxWakes = 400;
-  let port = 0;
   let autoStepForced = true;
   let keepThreads = false;
-  let serveOnly = false;
   let verbose = false;
 
   for (let i = 0; i < argv.length; i++) {
@@ -187,18 +181,10 @@ function parseCli(argv: string[]): ParsedCli | null {
       }
       maxWakes = Number(next);
       i += 1;
-    } else if (arg === "--port") {
-      if (!next || !Number.isInteger(Number(next)) || Number(next) < 0) {
-        throw new Error("--port requires a valid port number");
-      }
-      port = Number(next);
-      i += 1;
     } else if (arg === "--no-auto-step") {
       autoStepForced = false;
     } else if (arg === "--keep-threads") {
       keepThreads = true;
-    } else if (arg === "--serve-only") {
-      serveOnly = true;
     } else if (arg === "--verbose" || arg === "-v") {
       verbose = true;
     } else {
@@ -233,10 +219,8 @@ function parseCli(argv: string[]): ParsedCli | null {
     memoryDir,
     maxGames,
     maxWakes,
-    port,
     autoStepForced,
     keepThreads,
-    serveOnly,
     verbose,
   };
 }
@@ -246,9 +230,7 @@ async function main(): Promise<void> {
   if (!cli) return;
 
   const players: PlayerSpec[] = cli.playerRaw.map((raw) => parsePlayerSpec(raw, cli.effort));
-  if (!cli.serveOnly) {
-    verifyHarnessesInstalled(players);
-  }
+  verifyHarnessesInstalled(players);
 
   const runDir = join(RUNS_ROOT, cli.runName);
   const memoryDir = cli.memoryDir ?? join(runDir, "memory");
@@ -260,38 +242,22 @@ async function main(): Promise<void> {
     seed: cli.seed,
     startMonth: cli.startMonth,
     savePath: cli.savePath,
-    port: cli.port,
   });
 
-  const apiUrl = host.startServer(cli.port);
-
   const shutdown = () => {
-    host.stopServer();
+    host.persistAll();
     process.exit(0);
   };
   process.on("SIGINT", shutdown);
   process.on("SIGTERM", shutdown);
 
   console.log(`Pandemic Legacy: Season 0 — Agent Game Runner`);
-  console.log(`  API:        ${apiUrl}`);
   console.log(`  Run dir:    ${runDir}`);
   console.log(`  Memory dir: ${memoryDir}`);
   console.log(`  Seed:       ${cli.seed}`);
   console.log(
     `  Players:    ${host.players.map((p) => `${p.name} (${p.seat}/${p.passport}) -> ${p.harness}/${p.model}@${p.effort}`).join(" | ")}`,
   );
-
-  if (cli.serveOnly) {
-    console.log(`\nLocal API server running (--serve-only). Endpoints:`);
-    console.log(`  GET  ${apiUrl}/api/health`);
-    console.log(`  GET  ${apiUrl}/api/state?player=${host.leadPlayer.id}&format=compact`);
-    console.log(`  POST ${apiUrl}/api/command  {"player":"${host.leadPlayer.id}","expr":"start-game"}`);
-    console.log(`  POST ${apiUrl}/api/chat     {"player":"${host.leadPlayer.id}","text":"..."}`);
-    console.log(`  GET  ${apiUrl}/api/inspect?player=${host.leadPlayer.id}&query=board`);
-    console.log(`Press Ctrl+C to stop.`);
-    await new Promise(() => {});
-    return;
-  }
 
   const orchestrator = new GameOrchestrator(host, {
     maxWakesPerGame: cli.maxWakes,
@@ -309,7 +275,7 @@ async function main(): Promise<void> {
       maxGames: cli.maxGames,
     });
   } finally {
-    host.stopServer();
+    host.persistAll();
   }
 
   const elapsedSec = ((performance.now() - t0) / 1000).toFixed(1);
