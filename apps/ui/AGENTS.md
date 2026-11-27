@@ -1,5 +1,6 @@
 # Web UI
 
+- **Design language:** Before building or changing any interface, interaction, or animation, inspect existing components here first to reuse established patterns, and follow root `DESIGN.md` for the 1962 visual language, palette/pattern truth, interaction feel, and tradeoffs. Keep `DESIGN.md` updated as the system evolves.
 - SvelteKit 5 SPA (`@sveltejs/adapter-static`) with TanStack Query configured in `src/routes/+layout.svelte`.
 - Tailwind CSS v4 is wired through `@tailwindcss/vite`. Global styles live in `src/routes/layout.css` and theme tokens in `src/routes/theme.css` (`html[data-theme]`). Prefer Svelte component CSS for styling; use Tailwind for small inline layout utilities.
 - Run `bun run ui:dev` from the root, or `bun run dev` here. Scripts pass `--env-file=.env.local` explicitly; `env.ts` is only for Node-side Vite configuration and must not be imported by browser code.
