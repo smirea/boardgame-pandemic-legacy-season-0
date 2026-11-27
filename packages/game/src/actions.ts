@@ -13,7 +13,6 @@ import {
   cityDef,
   cityDistance,
   cityOfCard,
-  createdUnburnedAliases,
   currentOccupation,
   currentSpecialization,
   discardFromHand,
@@ -26,14 +25,13 @@ import {
   hasAsset,
   hasCheckpoint,
   hasLiability,
+  hasPendingWork,
   hasRule,
   isRestrictionActive,
   isSymptomCard,
-  isTeamActive,
   liabilityRegion,
   log,
   moveTeam,
-  teamsInCity,
 } from "./helpers";
 import type {
   Affiliation,
@@ -164,7 +162,7 @@ export function checkAction(world: World, seat: SeatId, action: Action): string 
   const game = world.game;
   if (!game) return "No game in progress";
   if (game.active !== seat) return "Not your turn";
-  if (game.pending.length > 0) return "Resolve the pending choice first";
+  if (hasPendingWork(world)) return "Resolve the pending choice first";
   const player = game.players[seat];
   if (player.needsTempAlias) return "Alias was burned; no actions remaining this turn";
 
@@ -1661,8 +1659,4 @@ export function applyAction(world: World, seat: SeatId, action: Action): void {
       });
       break;
   }
-
-  void teamsInCity;
-  void createdUnburnedAliases;
-  void isTeamActive;
 }

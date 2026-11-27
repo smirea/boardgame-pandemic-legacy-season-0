@@ -1,6 +1,5 @@
 import { pack } from "./content/pack";
 import {
-  activeAssets,
   activeTeamsInCity,
   availableTempAliases,
   checkPursuitComplete,
@@ -19,6 +18,8 @@ import {
   liabilityRegion,
   log,
   markUnknownElimination,
+  pushDecision,
+  pushEffect,
   queueCoverLoss,
   revealAdjacentSecurityTokens,
 } from "./helpers";
@@ -39,6 +40,8 @@ import { nextInt, shuffle } from "./rng";
 import type {
   ActiveInfiltrationSite,
   ActiveObjective,
+  Decision,
+  EffectFrame,
   Game,
   GameCity,
   PlayerState,
@@ -53,8 +56,6 @@ export function endGameNow(world: World, reason: string): void {
   const game = world.game;
   if (!game || game.outcome) return;
   game.outcome = { ended: true, reason, evaluation: null };
-  game.pending = [];
-  game.coverQueue = [];
   log(game, { t: "end", evaluation: null, reason });
 }
 
@@ -62,11 +63,16 @@ export function isOver(world: World): boolean {
   return world.game?.outcome !== null && world.game?.outcome !== undefined;
 }
 
+/** Schedules an objective-completion check after any Debrief decisions already emitted in this step. */
 export function checkAllObjectivesResolved(world: World): void {
   const game = world.game;
   if (!game || game.outcome || game.objectives.length === 0) return;
-  // Wait for any Debrief decisions (e.g. file-report Ops 60/61, december-choice) before ending the game
-  if (game.pending.length > 0 || game.coverQueue.length > 0) return;
+  pushEffect(world, { t: "check-objectives-resolved" });
+}
+
+export function evaluateObjectivesResolved(world: World): void {
+  const game = world.game;
+  if (!game || game.outcome || game.objectives.length === 0) return;
   if (game.objectives.every((o) => o.status !== "active")) {
     endGameNow(world, "All objectives have been completed or failed");
   }
@@ -200,7 +206,7 @@ export function resolveIncidentWave(world: World, initialCities: CityId[]): void
             title: def.incidentTitle,
             detail: `${def.incidentText} (choose 1 safehouse in ${pack.regionNames[eff.region]} to remove)`,
           });
-          game.pending.push({
+          pushDecision(world, {
             t: "remove-safehouse",
             region: eff.region,
             source: `${def.name} (${def.incidentTitle})`,
@@ -391,14 +397,10 @@ export function createGame(world: World, seating: SeatingInput[]): void {
     actionsLeft: 4,
     coverOfDarknessActive: false,
     ignoredRestrictionThisTurn: null,
-    surveillanceChecked: false,
     openingThreatsLeft: 9,
     threatsLeft: 0,
     threatsDrawnThisTurn: 0,
-    cardsDrawn: false,
     skipThreat: false,
-    queuedEscalations: 0,
-    hassledChecked: false,
     peekedThreatCards: [],
     threatLevelIndex: 0,
     locations,
@@ -429,12 +431,8 @@ export function createGame(world: World, seating: SeatingInput[]): void {
     activeRestrictions: [...c.restrictions],
     infiltrationSites: {},
     loadingDockVisitsThisGame: 0,
-    coverQueue: [],
-    pending: [],
     stats: { incidents: 0, outbreaks: 0, escalations: 0 },
     outcome: null,
-    endedVotes: [],
-    postgameResolved: false,
     upkeep: null,
     log: [],
     nextSeq: 1,
@@ -446,12 +444,15 @@ export function createGame(world: World, seating: SeatingInput[]): void {
     t: "note",
     text: `Starting ${pack.monthNames[c.month]}${c.month > 0 ? ` (Attempt ${c.attempt})` : ""} with ${seats.length} players (Funding ${c.funding})`,
   });
+}
 
-  // Step 1 of Setup: Check Legacy Deck & prepare objectives
+/** Step 1 of Setup: apply any deferred Door 24 placements and read the month's Legacy Deck cards. */
+export function runLegacySetupStep(world: World): void {
+  const c = world.campaign;
   if (c.door24CounterSurvPending && c.door24CounterSurvPending > 0) {
     const targetable = pack.cities.filter((ct) => c.cities[ct.id].surveillance > 0).length;
     if (targetable > 0) {
-      game.pending.push({
+      pushDecision(world, {
         t: "place-counter-surveillance",
         remaining: c.door24CounterSurvPending,
         source: "Door 24 (New Zealand Briefcase)",
@@ -593,7 +594,7 @@ export function prepareThreatAndBoardSetup(world: World): void {
     game.objectives.some((o) => o.cardCode === "sealed-11-03" && o.status === "active") &&
     game.infiltrationSites.pearl
   ) {
-    game.pending.push({
+    pushDecision(world, {
       t: "reveal-pearl-tokens",
       seat: game.seats[0]!,
       remaining: 4,
@@ -605,7 +606,7 @@ export function prepareThreatAndBoardSetup(world: World): void {
     c.attempt === 1 &&
     game.objectives.some((o) => o.cardCode === "sealed-11-04" && o.status === "active")
   ) {
-    game.pending.push({
+    pushDecision(world, {
       t: "place-free-checkpoint",
       seat: game.seats[0]!,
       source: "Legacy sealed-11-04 (Sabik's Australian Contact)",
@@ -846,11 +847,10 @@ export function runCheckSurveillance(world: World): void {
   const player = game.players[seat];
 
   if (player.needsTempAlias) {
-    game.pending.unshift({ t: "pick-temp-alias", seat });
+    pushDecision(world, { t: "pick-temp-alias", seat });
     return;
   }
 
-  game.surveillanceChecked = true;
   log(game, { t: "turn", turn: game.turn, seat });
 
   // Plastics Technician: if you begin your turn with this alias, take 1 Action token
@@ -918,13 +918,9 @@ export function runMopUp(world: World): void {
     game.supplies.actionTokens += excess;
     log(game, { t: "note", text: `${seat} discarded ${excess} excess Action token(s) down to 3` });
   }
-
-  game.cardsDrawn = false;
-  game.hassledChecked = false;
-  game.queuedEscalations = 0;
 }
 
-function triggerRelapse(world: World, when: string): void {
+function triggerRelapse(world: World, when: string, deferHandLimit = false): void {
   const game = world.game!;
   log(game, { t: "note", text: `RELAPSE triggered (${when})!` });
   for (const seat of game.seats) {
@@ -935,14 +931,13 @@ function triggerRelapse(world: World, when: string): void {
       giveSymptomCard(world, seat);
     }
   }
-  ensureHandLimitDecisions(world);
+  if (!deferHandLimit) ensureHandLimitDecisions(world);
 }
 
 /** Step 4 of Player Turn: Draw 2 Player Cards together! */
 export function drawTwoPlayerCards(world: World): void {
   const game = world.game!;
   const seat = game.active;
-  game.cardsDrawn = true;
   if (game.playerDeck.length < 2) {
     endGameNow(world, "Cannot draw 2 Player cards — Player deck exhausted");
     return;
@@ -985,9 +980,9 @@ export function drawTwoPlayerCards(world: World): void {
     }
   }
 
-  // Resolve Relapse if drawn
+  // Resolve Relapse if drawn (hand limit runs via the stack's `check-hand-limit` frame after any Escalations)
   for (let i = 0; i < relapseCount; i++) {
-    triggerRelapse(world, "drawn from Player deck");
+    triggerRelapse(world, "drawn from Player deck", escalations > 0);
   }
 
   // Monitored liabilities: if you draw 2 City cards of matching affiliation at end of turn, lose 1 cover
@@ -1006,24 +1001,25 @@ export function drawTwoPlayerCards(world: World): void {
     }
   }
 
-  // Queue Escalations (resolved BEFORE hand limit per rulebook p. 15!)
+  // Queue Escalations directly on `world.stack` above `check-hand-limit` (rulebook p. 15)
   if (escalations > 0) {
-    game.queuedEscalations = escalations;
-    game.pending.unshift({
-      t: "escalation",
-      step: "increase",
-      escalationsLeft: escalations,
-    });
-  } else {
-    finalizePostDrawChecks(world);
+    const frames: EffectFrame[] = [];
+    for (let k = escalations; k >= 1; k--) {
+      frames.push({
+        t: "decide",
+        decision: { t: "escalation", step: "increase", escalationsLeft: k },
+      });
+    }
+    pushEffect(world, ...frames);
   }
 }
 
-/** Advances one explicit step of an Escalation card (so Counter-Intelligence can intervene before Intensify!). */
-export function advanceEscalationStep(world: World): void {
+/** Resolves one popped Escalation step and emits the next step (leaving Intensify open to Counter-Intelligence). */
+export function advanceEscalationStep(
+  world: World,
+  dec: Extract<Decision, { t: "escalation" }>,
+): void {
   const game = world.game!;
-  const dec = game.pending[0];
-  if (!dec || dec.t !== "escalation") return;
 
   if (dec.step === "increase") {
     game.stats.escalations += 1;
@@ -1036,7 +1032,11 @@ export function advanceEscalationStep(world: World): void {
       step: "increase",
       detail: `Threat Level marker advanced to slot ${game.threatLevelIndex + 1}/${pack.threatTrack.length} (Threat Level ${level})`,
     });
-    dec.step = "add-agents";
+    pushDecision(world, {
+      t: "escalation",
+      step: "add-agents",
+      escalationsLeft: dec.escalationsLeft,
+    });
     return;
   }
 
@@ -1044,13 +1044,16 @@ export function advanceEscalationStep(world: World): void {
     game.peekedThreatCards = [];
     if (game.threatDeck.length === 0) {
       log(game, { t: "escalation", step: "add-agents", detail: "Threat deck empty" });
-      dec.step = "intensify";
+      pushDecision(world, {
+        t: "escalation",
+        step: "intensify",
+        escalationsLeft: dec.escalationsLeft,
+      });
       return;
     }
     const bottom = game.threatDeck.pop()!;
     game.threatDiscard.push(bottom);
     if (bottom.kind === "city") {
-      dec.drawnBottomCity = bottom.city;
       const loc = game.locations[bottom.city];
       let added = 0;
       let incidentTriggered = false;
@@ -1081,19 +1084,31 @@ export function advanceEscalationStep(world: World): void {
         step: "add-agents",
         detail: `Bottom Threat card ${cityDef(bottom.city).name}: +${added} agent(s)${incidentTriggered ? " + INCIDENT" : ""}`,
       });
-      dec.step = "intensify";
       if (incidentTriggered) {
         resolveIncidentWave(world, [bottom.city]);
       }
+      if (!game.outcome) {
+        pushDecision(world, {
+          t: "escalation",
+          step: "intensify",
+          escalationsLeft: dec.escalationsLeft,
+          drawnBottomCity: bottom.city,
+        });
+      }
     } else {
-      // Bottom card was an Infection card (rare edge case if threat deck reshuffled oddly)
       log(game, {
         t: "escalation",
         step: "add-agents",
         detail: `Bottom card was Infection (${cityDef(bottom.city).name}); placed in Threat discard`,
       });
       resolveDiseaseInfection(world, bottom.city);
-      dec.step = "intensify";
+      if (!game.outcome) {
+        pushDecision(world, {
+          t: "escalation",
+          step: "intensify",
+          escalationsLeft: dec.escalationsLeft,
+        });
+      }
     }
     return;
   }
@@ -1110,33 +1125,22 @@ export function advanceEscalationStep(world: World): void {
     });
 
     if (hasRule(world.campaign, "X") && hasActivePursuitObjective(game)) {
-      dec.step = "pursuit";
-      return;
+      pushDecision(world, {
+        t: "escalation",
+        step: "pursuit",
+        escalationsLeft: dec.escalationsLeft,
+      });
     }
-    finishOneEscalation(world, dec.escalationsLeft);
     return;
   }
 
   if (dec.step === "pursuit") {
     resolveEscalationPursuitStep(world);
-    finishOneEscalation(world, dec.escalationsLeft);
   }
 }
 
 function hasActivePursuitObjective(game: Game): boolean {
   return game.objectives.some((o) => o.kind === "pursuit" && o.status === "active");
-}
-
-function finishOneEscalation(world: World, escalationsLeft: number): void {
-  const game = world.game!;
-  game.pending.shift();
-  const nextLeft = escalationsLeft - 1;
-  game.queuedEscalations = nextLeft;
-  if (nextLeft > 0 && !game.outcome) {
-    game.pending.unshift({ t: "escalation", step: "increase", escalationsLeft: nextLeft });
-  } else if (!game.outcome) {
-    finalizePostDrawChecks(world);
-  }
 }
 
 /** Rule X: Add a Pursuit token to every city adjacent to a city already containing a Pursuit token. */
@@ -1205,35 +1209,28 @@ function resolveEscalationPursuitStep(world: World): void {
   }
 }
 
-export function finalizePostDrawChecks(world: World): void {
-  const game = world.game!;
-  if (game.outcome) return;
-  // Hand limit applies after resolving any Escalation cards drawn
-  ensureHandLimitDecisions(world);
-  // Hassled liabilities: if you end turn in matching city without safehouse, discard 1 card (after Draw Cards step)
-  if (!game.hassledChecked) {
-    game.hassledChecked = true;
-    const seat = game.active;
-    const player = game.players[seat];
-    if (!player.infiltration && !game.locations[player.location].safehouse) {
-      const aff = cityDef(player.location).affiliation;
-      const libMap = {
-        soviet: "hassled-soviet",
-        neutral: "hassled-neutral",
-        allied: "hassled-allied",
-      } as const;
-      if (hasLiability(world, seat, libMap[aff])) {
-        const discardable = player.hand.filter((id) => game.playerCards[id]?.kind !== "symptom");
-        if (discardable.length > 0) {
-          game.pending.push({
-            t: "discard-card",
-            seat,
-            remaining: 1,
-            source: `Hassled (${aff}) liability`,
-          });
-        }
-      }
-    }
+/** Hassled liabilities: after Draw Cards, if in matching city without safehouse, discard 1 card. */
+export function runHassledCheck(world: World): void {
+  const game = world.game;
+  if (!game || game.outcome) return;
+  const seat = game.active;
+  const player = game.players[seat];
+  if (player.infiltration || game.locations[player.location].safehouse) return;
+  const aff = cityDef(player.location).affiliation;
+  const libMap = {
+    soviet: "hassled-soviet",
+    neutral: "hassled-neutral",
+    allied: "hassled-allied",
+  } as const;
+  if (!hasLiability(world, seat, libMap[aff])) return;
+  const discardable = player.hand.filter((id) => game.playerCards[id]?.kind !== "symptom");
+  if (discardable.length > 0) {
+    pushDecision(world, {
+      t: "discard-card",
+      seat,
+      remaining: 1,
+      source: `Hassled (${aff}) liability`,
+    });
   }
 }
 
@@ -1338,11 +1335,8 @@ export function finishTurn(world: World): void {
   game.actionsLeft = 4;
   game.coverOfDarknessActive = false;
   game.ignoredRestrictionThisTurn = null;
-  game.surveillanceChecked = false;
-  game.cardsDrawn = false;
   game.threatsDrawnThisTurn = 0;
   game.skipThreat = false;
-  game.hassledChecked = false;
   game.players[game.active].usedThisTurn = [];
 }
 
@@ -1455,7 +1449,7 @@ export function enterInfiltrationRoom(
     case "pearl-monitoring-room": {
       const unrevealed = game.infiltrationSites.pearl?.tokens.filter((t) => !t.revealed).length ?? 0;
       if (unrevealed > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "reveal-pearl-tokens",
           seat,
           remaining: Math.min(2, unrevealed),
@@ -1469,7 +1463,7 @@ export function enterInfiltrationRoom(
         (o) => o.kind === "disrupt-trial" && o.status === "active" && o.trialCardIds.length > 0,
       );
       if (hasTrialCards) {
-        game.pending.push({ t: "room-choice", seat, room: "pearl-loading-dock" });
+        pushDecision(world, { t: "room-choice", seat, room: "pearl-loading-dock" });
       }
       break;
     }
@@ -1481,34 +1475,34 @@ export function enterInfiltrationRoom(
         }),
       );
       if (canMatchSat) {
-        game.pending.push({ t: "room-choice", seat, room: "pearl-control-room" });
+        pushDecision(world, { t: "room-choice", seat, room: "pearl-control-room" });
       }
       break;
     }
     case "pearl-courtyard": {
       if (game.supplies.actionTokens > 0) {
-        game.pending.push({ t: "room-choice", seat, room: "pearl-courtyard" });
+        pushDecision(world, { t: "room-choice", seat, room: "pearl-courtyard" });
       }
       break;
     }
     case "pearl-archives": {
       const hasCityDiscard = game.playerDiscard.some((id) => game.playerCards[id]?.kind === "city");
       if (hasCityDiscard) {
-        game.pending.push({ t: "room-choice", seat, room: "pearl-archives" });
+        pushDecision(world, { t: "room-choice", seat, room: "pearl-archives" });
       }
       break;
     }
     case "pearl-directors-office": {
       const hasCityDiscard = game.playerDiscard.some((id) => game.playerCards[id]?.kind === "city");
       if (hasCityDiscard) {
-        game.pending.push({ t: "room-choice", seat, room: "pearl-directors-office" });
+        pushDecision(world, { t: "room-choice", seat, room: "pearl-directors-office" });
       }
       break;
     }
     case "pearl-access-panel": {
       const faceup = game.infiltrationSites.pearl?.tokens.filter((t) => t.revealed).length ?? 0;
       if (faceup >= 2) {
-        game.pending.push({ t: "room-choice", seat, room: "pearl-access-panel" });
+        pushDecision(world, { t: "room-choice", seat, room: "pearl-access-panel" });
       }
       break;
     }
@@ -1517,7 +1511,7 @@ export function enterInfiltrationRoom(
         (ev) => !Object.values(game.playerCards).some((pc) => pc.kind === "event" && pc.event === ev),
       );
       if (reserveEvents.length > 0) {
-        game.pending.push({ t: "room-choice", seat, room: "lg-briefing-room" });
+        pushDecision(world, { t: "room-choice", seat, room: "lg-briefing-room" });
       }
       break;
     }
@@ -1530,17 +1524,13 @@ export function enterInfiltrationRoom(
         alliedAlias.assets.length < 3 &&
         c.availableAssets.length > 0
       ) {
-        game.pending.push({ t: "room-choice", seat, room: "lg-armory" });
+        pushDecision(world, { t: "room-choice", seat, room: "lg-armory" });
       }
       break;
     }
     default:
       break;
   }
-}
-
-export function isPlayerInActiveSite(world: World, seat: SeatId): boolean {
-  return world.game?.players[seat]?.infiltration !== null;
 }
 
 export function activeEventsInReserve(world: World): EventId[] {
@@ -1550,14 +1540,4 @@ export function activeEventsInReserve(world: World): EventId[] {
   return c.unlockedEvents.filter(
     (ev) => !Object.values(game.playerCards).some((pc) => pc.kind === "event" && pc.event === ev),
   );
-}
-
-export function unusedAssetSlots(world: World, seat: SeatId): number {
-  const player = world.game?.players[seat];
-  if (!player?.passport || !player.activeAlias) return 0;
-  return Math.max(0, 3 - world.campaign.passports[player.passport].aliases[player.activeAlias].assets.length);
-}
-
-export function seatHasContact(world: World, seat: SeatId): boolean {
-  return activeAssets(world, seat).some((a) => pack.assetById[a.id].category === "contact");
 }

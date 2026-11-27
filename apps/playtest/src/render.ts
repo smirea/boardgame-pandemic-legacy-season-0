@@ -124,6 +124,9 @@ export function renderStatus(
     // Pending decision banner
     if (g.pendingTop) {
       lines.push(`\n!!! PENDING DECISION (${g.pendingCount} queued): ${g.pendingTop.t} !!!`);
+      if (view.stack.length > 1) {
+        lines.push(`Resolution Stack: ${view.stack.slice(0, 6).join(" -> ")}${view.stack.length > 6 ? " -> ..." : ""}`);
+      }
       lines.push(`Details: ${JSON.stringify(g.pendingTop)}`);
       if (g.pendingTop.t === "room-choice") {
         const r = pack.roomById[g.pendingTop.room];

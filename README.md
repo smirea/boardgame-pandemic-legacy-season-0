@@ -8,10 +8,10 @@ Created on 2026-11-25 with [setup-new-app](https://github.com/smirea/stefan-util
 
 SvelteKit UI, Bun API, and shared TypeScript contracts in a Bun workspace.
 
-- `packages/game/`: Full Pandemic Legacy: Season 0 XState v5 game engine (2–4 players, Prologue + Months 1–12, CIA & Sabik branches, all cards/boxes/doors/rules/infiltration sites)
+- `packages/game/`: Full Pandemic Legacy: Season 0 Effect Stack game engine (2–4 players, Prologue + Months 1–12, CIA & Sabik branches, all cards/boxes/doors/rules/infiltration sites)
 - `packages/archive/`: Extracted Season 0 archive verifier
 - `packages/shared/`: types and helpers shared across UI and server
-- `apps/playtest/`: Multi-agent playtest daemon, CLI, verbatim reading delivery, and state-machine coverage auditor
+- `apps/playtest/`: Multi-agent playtest daemon, CLI, verbatim reading delivery, and rules coverage auditor
 - `apps/ui/`: SvelteKit 5 SPA with TanStack Query and Tailwind CSS v4
 - `apps/server/`: Bun API that also serves the built UI
 

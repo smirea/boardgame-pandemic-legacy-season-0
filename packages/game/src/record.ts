@@ -1,5 +1,7 @@
-import type { Command, Phase, Save } from "./machine";
-import { createGameActor, phaseOf, reject } from "./machine";
+import type { Command, Save } from "./engine";
+import { createGameSession, parseSave } from "./engine";
+import { phaseOf } from "./helpers";
+import type { Phase } from "./state";
 
 export type RecordedStep = {
   index: number;
@@ -30,20 +32,18 @@ export function replayRecording(recording: GameRecording): {
   world: Save["world"];
   stepCount: number;
 } {
-  const actor = createGameActor({ save: recording.initial });
+  const initialSave = parseSave(recording.initial);
+  const session = createGameSession({ save: initialSave });
   for (const step of recording.steps) {
-    const snap = actor.getSnapshot();
-    const curPhase = phaseOf(snap.value);
-    const err = reject(snap.context.world, curPhase, step.command, snap.context.undo.length);
-    if (err) {
-      throw new Error(`Replay rejected at step ${step.index} (${curPhase}): ${err}`);
+    const curPhase = phaseOf(session.state.world);
+    const result = session.dispatch(step.command);
+    if (!result.ok) {
+      throw new Error(`Replay rejected at step ${step.index} (${curPhase}): ${result.error}`);
     }
-    actor.send(step.command);
   }
-  const finalSnap = actor.getSnapshot();
   return {
-    phase: phaseOf(finalSnap.value),
-    world: finalSnap.context.world,
+    phase: phaseOf(session.state.world),
+    world: session.state.world,
     stepCount: recording.steps.length,
   };
 }

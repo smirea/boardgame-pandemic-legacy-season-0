@@ -311,12 +311,6 @@ export type ActiveInfiltrationSite = {
   tokens: PlacedSecurityToken[];
 };
 
-export type PendingCoverLoss = {
-  seat: SeatId;
-  remaining: number;
-  source: string;
-};
-
 export type Decision =
   // Setup & Legacy decisions
   | {
@@ -500,6 +494,51 @@ export type UpkeepState = {
   done: PlayerId[];
 };
 
+export type Phase =
+  | "lobby"
+  | "setup.legacy"
+  | "setup.threat"
+  | "setup.events"
+  | "setup.aliases"
+  | "playing.surveillance"
+  | "playing.actions"
+  | "playing.draw"
+  | "playing.threat"
+  | "over"
+  | "postgame"
+  | "upkeep"
+  | "finished";
+
+export type EffectFrame =
+  | { t: "lobby" }
+  | { t: "read-legacy-setup" }
+  | { t: "prepare-threat-board" }
+  | { t: "wait-opening-threats" }
+  | { t: "wait-events" }
+  | { t: "setup-player-deck" }
+  | { t: "wait-aliases" }
+  | { t: "start-turn" }
+  | { t: "wait-begin-turn" }
+  | { t: "finish-surveillance" }
+  | { t: "wait-actions" }
+  | { t: "mop-up" }
+  | { t: "wait-draw-cards" }
+  | { t: "check-hand-limit" }
+  | { t: "check-hassled" }
+  | { t: "start-threat-step" }
+  | { t: "wait-draw-threat" }
+  | { t: "finish-turn" }
+  | { t: "scratch-cover"; seat: SeatId; source: string; more: number }
+  | { t: "check-objectives-resolved" }
+  | { t: "eval-psych"; which: 1 | 2 }
+  | { t: "decide"; decision: Decision }
+  | { t: "wait-continue" }
+  | { t: "resolve-postgame" }
+  | { t: "route-after-postgame" }
+  | { t: "wait-upkeep" }
+  | { t: "close-game" }
+  | { t: "finished" };
+
 export type Game = {
   seats: SeatId[];
   players: Record<SeatId, PlayerState>;
@@ -509,21 +548,13 @@ export type Game = {
   coverOfDarknessActive: boolean;
   /** Restriction currently ignored for the rest of the active player's turn via Help from Sabik. */
   ignoredRestrictionThisTurn: RestrictionId | null;
-  /** Whether Check Surveillance has already been resolved for the current turn. */
-  surveillanceChecked: boolean;
   /** Remaining opening Threat cards to flip during setup.threat (9 down to 0). */
   openingThreatsLeft: number;
   /** Remaining Threat cards to flip during playing.threat. */
   threatsLeft: number;
   /** How many Threat cards have already been flipped this turn. */
   threatsDrawnThisTurn: number;
-  /** Whether the 2 Player cards have been drawn in Step 4 this turn. */
-  cardsDrawn: boolean;
   skipThreat: boolean;
-  /** Escalations still queued for this Draw step if 2 Escalations were drawn together. */
-  queuedEscalations: number;
-  /** Whether Hassled check has run after Draw step. */
-  hassledChecked: boolean;
   /** Top Threat cards peeked via Tracking Device (cleared when Threat deck changes). */
   peekedThreatCards: ThreatCard[];
   threatLevelIndex: number;
@@ -557,10 +588,6 @@ export type Game = {
   activeRestrictions: RestrictionId[];
   infiltrationSites: Partial<Record<InfiltrationSiteId, ActiveInfiltrationSite>>;
   loadingDockVisitsThisGame: number;
-  /** Remaining cover losses queued behind an interactive decision (e.g. multi-cover loss from surveillance/Holding Cells). */
-  coverQueue: PendingCoverLoss[];
-  /** Remaining seats waiting for cover loss or liability resolution. */
-  pending: Decision[];
   /** Counters for game chronicle / audit. */
   stats: {
     incidents: number;
@@ -572,8 +599,6 @@ export type Game = {
     reason: string;
     evaluation: Evaluation | null;
   } | null;
-  endedVotes: PlayerId[];
-  postgameResolved: boolean;
   upkeep: UpkeepState | null;
   log: LogEntry[];
   nextSeq: number;
@@ -589,11 +614,12 @@ export type TableSeat = {
 
 export type Table = {
   seats: TableSeat[];
-  ready: Record<PlayerId, boolean>;
 };
 
 export type World = {
   campaign: Campaign;
   game: Game | null;
   table: Table;
+  /** LIFO resolution stack driving all phases, nested interrupts, cover scratches, and player prompts. */
+  stack: EffectFrame[];
 };

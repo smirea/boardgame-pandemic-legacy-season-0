@@ -3,10 +3,11 @@ import {
   activeContactsList,
   cityDef,
   cityOfCard,
-  discardFromHand,
   ensureHandLimitDecisions,
   hasRule,
   log,
+  pushDecision,
+  pushEffect,
   pushReading,
   queueCoverLoss,
   scratchAliasCoverDirect,
@@ -231,7 +232,7 @@ export function openDoor(world: World, door: DoorId): void {
   switch (door) {
     case "14":
       c.door14State = "pending";
-      if (world.game) world.game.pending.push({ t: "door14-briefcase" });
+      if (world.game) pushDecision(world, { t: "door14-briefcase" });
       break;
     case "19":
       c.door14State = "opened-19";
@@ -250,7 +251,7 @@ export function openDoor(world: World, door: DoorId): void {
       const targetable = pack.cities.filter((ct) => c.cities[ct.id].surveillance > 0).length;
       if (targetable > 0) {
         if (world.game) {
-          world.game.pending.push({
+          pushDecision(world, {
             t: "place-counter-surveillance",
             remaining: 6,
             source: "Door 24 (New Zealand Briefcase)",
@@ -318,7 +319,7 @@ export function openBox(world: World, box: BoxId): void {
       for (const color of PASSPORT_COLORS) {
         c.passports[color].aliases.soviet.specialization = "deep-cover";
       }
-      if (world.game) world.game.pending.push({ t: "create-aliases", affiliation: "soviet" });
+      if (world.game) pushDecision(world, { t: "create-aliases", affiliation: "soviet" });
       break;
     }
     case "0003": {
@@ -361,7 +362,7 @@ export function openBox(world: World, box: BoxId): void {
       }
       if (world.game) {
         world.game.supplies.actionTokens = pack.supplies.actionTokens;
-        world.game.pending.push({ t: "create-aliases", affiliation: "neutral" });
+        pushDecision(world, { t: "create-aliases", affiliation: "neutral" });
       }
       break;
     }
@@ -744,7 +745,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       readOperationsCard(world, 60);
       readOperationsCard(world, 61);
       if (game) {
-        game.pending.push({
+        pushDecision(world, {
           t: "file-report",
           options: [60, 61],
           prompt: "Decide which January Sabik Field Report (Operations 60 or 61) to file with the CIA; the other is destroyed.",
@@ -793,7 +794,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     case 114: // Mar Obj 2 complete: completing player removes 1 agent from board
       if (game && seat && Object.values(game.locations).some((l) => l.agents > 0)) {
-        game.pending.push({
+        pushDecision(world, {
           t: "remove-agents-board",
           seat,
           remaining: 1,
@@ -874,7 +875,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     case 223: // May Obj 2 complete: give 1 Action token + file Ops 62 or 63
       if (game && game.supplies.actionTokens > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "distribute-action-tokens",
           remaining: 1,
           source: "Debrief 223 (Find Sabik's Operatives)",
@@ -883,7 +884,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       readOperationsCard(world, 62);
       readOperationsCard(world, 63);
       if (game) {
-        game.pending.push({
+        pushDecision(world, {
           t: "file-report",
           options: [62, 63],
           prompt: "Decide which May Sabik Field Report (Operations 62 or 63) to file with the CIA; the other is destroyed.",
@@ -932,7 +933,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
         game &&
         game.seats.some((s) => game.players[s].hand.some((id) => game.playerCards[id]?.kind === "symptom"))
       ) {
-        game.pending.push({ t: "choose-return-symptom", source: "Debrief 206" });
+        pushDecision(world, { t: "choose-return-symptom", source: "Debrief 206" });
       }
       openDoor(world, "38");
       openDoor(world, "G");
@@ -1022,7 +1023,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
     case 141: // Jul Obj 1 complete: remove all Checkpoints + remove 2 agents from board
       clearPursuitAndCheckpoints(world, false);
       if (game && seat && Object.values(game.locations).some((l) => l.agents > 0)) {
-        game.pending.push({
+        pushDecision(world, {
           t: "remove-agents-board",
           seat,
           remaining: 2,
@@ -1085,7 +1086,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       readOperationsCard(world, 64);
       readOperationsCard(world, 65);
       if (game) {
-        game.pending.push({
+        pushDecision(world, {
           t: "file-report",
           options: [64, 65],
           prompt: "Decide which August Sabik's HQ Field Report (Operations 64 or 65) to file with the CIA; the other is destroyed.",
@@ -1174,6 +1175,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
             detail: "Prevented all trials via PEARL Loading Dock",
           });
           readDebrief(world, trialObj.debriefComplete, { seat, objective: trialObj });
+          pushEffect(world, { t: "check-objectives-resolved" });
         }
       }
       break;
@@ -1245,7 +1247,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
           (o) => o.kind === "pursuit" && o.status === "active",
         );
         if (pursuitActive) {
-          game.pending.push({
+          pushDecision(world, {
             t: "place-free-checkpoint",
             seat,
             source: "Debrief 180 (Find the Soviets' Cure for MEDUSA)",
@@ -1257,7 +1259,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     case 222: // Oct Obj 2 complete: give 1 Action token
       if (game && game.supplies.actionTokens > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "distribute-action-tokens",
           remaining: 1,
           source: "Debrief 222 (Interrogate the KGB Officer)",
@@ -1272,7 +1274,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       const pearlSite = game?.infiltrationSites.pearl;
       const unrevealed = pearlSite?.tokens.filter((t) => !t.revealed).length ?? 0;
       if (game && seat && unrevealed > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "reveal-pearl-tokens",
           seat,
           remaining: Math.min(2, unrevealed),
@@ -1297,7 +1299,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
     // --- November ---
     case 139: // Decline Sabik's offer: cross out 1 contact + read Pause 11-02
       if (game && activeContactsList(c).length > 0) {
-        game.pending.push({ t: "kill-contact", source: "Debrief 139 (Declined Sabik's Offer)" });
+        pushDecision(world, { t: "kill-contact", source: "Debrief 139 (Declined Sabik's Offer)" });
       }
       readLegacyPause(world, "legacy/11-02");
       break;
@@ -1313,7 +1315,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     case 102: // Nov Obj 1 complete (PEARL Manufacturing Facility): take 2 Action tokens and distribute
       if (game && game.supplies.actionTokens > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "distribute-action-tokens",
           remaining: Math.min(2, game.supplies.actionTokens),
           source: "Debrief 102 (Sabotage Manufacturing Facility)",
@@ -1331,7 +1333,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
     case 188: // Nov Pursuit complete: give 1 Action token + remove all Checkpoints
       clearPursuitAndCheckpoints(world, false);
       if (game && game.supplies.actionTokens > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "distribute-action-tokens",
           remaining: 1,
           source: "Debrief 188 (Learn About MEDUSA Deployment Plan)",
@@ -1345,7 +1347,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     case 130: // Nov Sabik Obj 3 failed attempt 1: cross out 1 contact
       if (game && activeContactsList(c).length > 0) {
-        game.pending.push({ t: "kill-contact", source: "Debrief 130 (Failed Recover COdA Sample)" });
+        pushDecision(world, { t: "kill-contact", source: "Debrief 130 (Failed Recover COdA Sample)" });
       }
       break;
     case 119:
@@ -1380,7 +1382,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     case 181: // Dec CIA Capture Sabik -> player chooses forceful (144) or talk (164)
       if (game && obj) {
-        game.pending.push({ t: "december-choice", variant: "cia-sabik", objectiveId: obj.id });
+        pushDecision(world, { t: "december-choice", variant: "cia-sabik", objectiveId: obj.id });
       }
       break;
     case 144: // Forcefully stop Sabik
@@ -1395,7 +1397,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       const pearlSite = game?.infiltrationSites.pearl;
       const unrevealed = pearlSite?.tokens.filter((t) => !t.revealed).length ?? 0;
       if (game && seat && genomeIncomplete && unrevealed > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "reveal-pearl-tokens",
           seat,
           remaining: Math.min(4, unrevealed),
@@ -1412,7 +1414,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       if (obj && seat) finalizeUnknownTargetCard(world, obj, seat);
       const allDone = game?.objectives.every((o) => o.status !== "active") ?? true;
       if (game && !allDone && game.supplies.actionTokens > 0) {
-        game.pending.push({
+        pushDecision(world, {
           t: "distribute-action-tokens",
           remaining: Math.min(2, game.supplies.actionTokens),
           source: "Debrief 155 (Stop Operation LION'S TOOTH)",
@@ -1425,7 +1427,7 @@ export function readDebrief(world: World, num: number, ctx: DebriefContext = {})
       break;
     case 184: // Dec Sabik Bring Cooper to Sabik -> choose allow (138) or stop (158)
       if (game && obj) {
-        game.pending.push({ t: "december-choice", variant: "sabik-cooper", objectiveId: obj.id });
+        pushDecision(world, { t: "december-choice", variant: "sabik-cooper", objectiveId: obj.id });
       }
       break;
     case 138:
@@ -2153,7 +2155,7 @@ function applyLegacyCard(world: World, cardId: string): boolean {
 
     // --- January ---
     case "legacy/01-01":
-      game?.pending.push({ t: "create-aliases", affiliation: "allied" });
+      if (game) pushDecision(world, { t: "create-aliases", affiliation: "allied" });
       return false;
     case "legacy/01-02":
       return false;
@@ -2162,15 +2164,17 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       game?.objectives.push(makeObjectiveFromTemplate(legacyObjectiveTemplate(cardId)));
       return false;
     case "legacy/01-05":
-      game?.pending.push({
-        t: "psych-questions",
-        cardId,
-        questions: [
-          { number: 1, prompt: "We often consider the consequences before we take action.", kind: "agree-disagree" },
-          { number: 2, prompt: "We tend to blame ourselves when something goes wrong.", kind: "agree-disagree" },
-          { number: 3, prompt: "We are willing to manipulate people to get what we want.", kind: "agree-disagree" },
-        ],
-      });
+      if (game) {
+        pushDecision(world, {
+          t: "psych-questions",
+          cardId,
+          questions: [
+            { number: 1, prompt: "We often consider the consequences before we take action.", kind: "agree-disagree" },
+            { number: 2, prompt: "We tend to blame ourselves when something goes wrong.", kind: "agree-disagree" },
+            { number: 3, prompt: "We are willing to manipulate people to get what we want.", kind: "agree-disagree" },
+          ],
+        });
+      }
       return false;
     case "legacy/01-06":
       return false;
@@ -2220,21 +2224,22 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       game?.objectives.push(makeObjectiveFromTemplate(legacyObjectiveTemplate(cardId)));
       return false;
     case "legacy/03-04":
-      game?.pending.push({
-        t: "psych-questions",
-        cardId,
-        questions: [
-          { number: 4, prompt: "We have emotional attachments to our friends.", kind: "agree-disagree" },
-        ],
-      });
+      if (game) {
+        pushDecision(world, {
+          t: "psych-questions",
+          cardId,
+          questions: [
+            { number: 4, prompt: "We have emotional attachments to our friends.", kind: "agree-disagree" },
+          ],
+        });
+      }
       return false;
     case "legacy/03-05":
       return false;
     case "legacy/03-06":
-      // Evaluated once Q4 is answered (if Q4 is still pending, resolvePsychEval1 runs right after Q4!)
-      if (!game?.pending.some((d) => d.t === "psych-questions")) {
-        evaluatePsych1(world);
-      }
+      // Scheduled on the stack right behind 03-04 so Q4 is answered before Evaluation 1 runs.
+      if (game) pushEffect(world, { t: "eval-psych", which: 1 });
+      else evaluatePsych1(world);
       return false;
     case "legacy/03-07":
       c.discretionaryBudgetBoxesLeft = 3;
@@ -2249,7 +2254,7 @@ function applyLegacyCard(world: World, cardId: string): boolean {
 
     // --- April ---
     case "legacy/04-01":
-      game?.pending.push({ t: "transmission-report", cardId });
+      if (game) pushDecision(world, { t: "transmission-report", cardId });
       return false;
     case "legacy/04-02":
       openBox(world, "0007");
@@ -2302,15 +2307,17 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       return false;
     }
     case "legacy/05-07":
-      game?.pending.push({
-        t: "psych-questions",
-        cardId,
-        questions: [
-          { number: 5, prompt: "We are superior to others who have the same role as us.", kind: "scale-1-5" },
-          { number: 6, prompt: "We find it easy to motivate those reluctant to comply.", kind: "scale-1-5" },
-          { number: 7, prompt: "We find it easy to complete multiple objectives at once.", kind: "scale-1-5" },
-        ],
-      });
+      if (game) {
+        pushDecision(world, {
+          t: "psych-questions",
+          cardId,
+          questions: [
+            { number: 5, prompt: "We are superior to others who have the same role as us.", kind: "scale-1-5" },
+            { number: 6, prompt: "We find it easy to motivate those reluctant to comply.", kind: "scale-1-5" },
+            { number: 7, prompt: "We find it easy to complete multiple objectives at once.", kind: "scale-1-5" },
+          ],
+        });
+      }
       return false;
     case "legacy/05-08":
       openDoor(world, "15");
@@ -2338,19 +2345,21 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       game?.objectives.push(makeObjectiveFromTemplate(legacyObjectiveTemplate(cardId)));
       return false;
     case "legacy/06-06":
-      game?.pending.push({
-        t: "psych-questions",
-        cardId,
-        questions: [
-          { number: 8, prompt: "Things never look bleak or hopeless.", kind: "scale-1-5" },
-          { number: 9, prompt: "We tend to believe all human beings are worthy of respect.", kind: "scale-1-5" },
-        ],
-      });
+      if (game) {
+        pushDecision(world, {
+          t: "psych-questions",
+          cardId,
+          questions: [
+            { number: 8, prompt: "Things never look bleak or hopeless.", kind: "scale-1-5" },
+            { number: 9, prompt: "We tend to believe all human beings are worthy of respect.", kind: "scale-1-5" },
+          ],
+        });
+      }
       return false;
     case "legacy/06-07":
-      if (!game?.pending.some((d) => d.t === "psych-questions")) {
-        evaluatePsych2(world);
-      }
+      // Scheduled on the stack right behind 06-06 so Q8-Q9 are answered before Evaluation 2 runs.
+      if (game) pushEffect(world, { t: "eval-psych", which: 2 });
+      else evaluatePsych2(world);
       return false;
     case "legacy/06-08":
     case "legacy/06-09":
@@ -2379,14 +2388,16 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       game?.objectives.push(makeObjectiveFromTemplate(legacyObjectiveTemplate(cardId)));
       return false;
     case "legacy/07-05":
-      game?.pending.push({
-        t: "psych-questions",
-        cardId,
-        questions: [
-          { number: 10, prompt: "In order for us to win, someone else must lose.", kind: "scale-1-5" },
-          { number: 11, prompt: "We believe that [REDACTED] is in our best interest.", kind: "scale-1-5" },
-        ],
-      });
+      if (game) {
+        pushDecision(world, {
+          t: "psych-questions",
+          cardId,
+          questions: [
+            { number: 10, prompt: "In order for us to win, someone else must lose.", kind: "scale-1-5" },
+            { number: 11, prompt: "We believe that [REDACTED] is in our best interest.", kind: "scale-1-5" },
+          ],
+        });
+      }
       return false;
     case "legacy/07-06":
       openDoor(world, "T");
@@ -2412,7 +2423,7 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       evaluatePsych3(world);
       return false;
     case "legacy/08-10":
-      game?.pending.push({ t: "deployment-report", cardId });
+      if (game) pushDecision(world, { t: "deployment-report", cardId });
       return false;
     case "legacy/08-11":
       openDoor(world, "20");
@@ -2433,13 +2444,15 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       game?.objectives.push(makeObjectiveFromTemplate(legacyObjectiveTemplate(cardId)));
       return false;
     case "legacy/09-09":
-      game?.pending.push({
-        t: "psych-questions",
-        cardId,
-        questions: [
-          { number: 12, prompt: "We believe the ends justify the means.", kind: "scale-1-5" },
-        ],
-      });
+      if (game) {
+        pushDecision(world, {
+          t: "psych-questions",
+          cardId,
+          questions: [
+            { number: 12, prompt: "We believe the ends justify the means.", kind: "scale-1-5" },
+          ],
+        });
+      }
       return false;
     case "legacy/09-10": {
       const anyChronic = PASSPORT_COLORS.some((color) => c.passports[color].chronicInfections > 0);
@@ -2490,13 +2503,13 @@ function applyLegacyCard(world: World, cardId: string): boolean {
       return false;
     case "legacy/10-06":
       openDoor(world, "27");
-      game?.pending.push({ t: "free-infrared-goggles" });
+      if (game) pushDecision(world, { t: "free-infrared-goggles" });
       return false;
 
     // --- November (CIA Branch & Offer Fork!) ---
     case "legacy/11-01":
       readOperationsCard(world, 76);
-      game?.pending.push({ t: "sabik-offer" });
+      if (game) pushDecision(world, { t: "sabik-offer" });
       // Pause reading legacy deck until players choose accept or decline!
       return true;
     case "legacy/11-02":
@@ -2752,8 +2765,6 @@ export function computeFinalScore(world: World): number {
 export function resolveGameEndSteps(world: World): void {
   const c = world.campaign;
   const game = world.game!;
-  if (game.postgameResolved) return;
-  game.postgameResolved = true;
 
   // Step 1: Check Objectives — fail any still-active objectives and read their failure debriefs!
   for (const obj of game.objectives) {
@@ -3155,7 +3166,6 @@ export function closeGame(world: World): void {
       results,
     };
     world.game = null;
-    world.table.ready = {};
     return;
   }
 
@@ -3171,11 +3181,6 @@ export function closeGame(world: World): void {
   }
 
   world.game = null;
-  world.table.ready = {};
-}
-
-export function campaignFinished(world: World): boolean {
-  return world.campaign.month === 12 && world.game?.postgameResolved === true;
 }
 
 export function assignFreeAsset(
@@ -3194,9 +3199,4 @@ export function assignFreeAsset(
     dead: false,
     boxesChecked: 0,
   });
-}
-
-export function discardHandIfNeededForAliasChange(world: World): void {
-  ensureHandLimitDecisions(world);
-  void discardFromHand;
 }

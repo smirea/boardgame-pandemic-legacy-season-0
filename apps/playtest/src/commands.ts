@@ -8,7 +8,6 @@ import type {
   InfiltrationSiteId,
   OccupationId,
   PassportColor,
-  Phase,
   PlayerId,
   RegionId,
   RoomId,
@@ -60,7 +59,6 @@ function findCityCardInDiscard(world: World, cityOrId: string): CardId | null {
 /** Parses a CLI `do <args...>` expression into a concrete @repo/game Command (or batch helper). */
 export function parseDoCommand(
   world: World,
-  phase: Phase,
   player: PlayerId,
   undoDepth: number,
   rawArgs: string[],
@@ -72,7 +70,7 @@ export function parseDoCommand(
 
   const head = args[0]!;
 
-  // 1. Batch convenience commands (still execute every individual XState transition!)
+  // 1. Batch convenience commands (each step runs an explicit engine command transition)
   if (head === "flip-all-threats") return { kind: "batch", batch: "flip-all-threats" };
   if (head === "draw-all-threats") return { kind: "batch", batch: "draw-all-threats" };
   if (head === "resolve-escalation") return { kind: "batch", batch: "resolve-escalation" };
@@ -90,7 +88,7 @@ export function parseDoCommand(
 
   // 3. Exact match against enumerated optionsFor keys!
   if (args.length === 1) {
-    const opts = optionsFor(world, phase, player, undoDepth);
+    const opts = optionsFor(world, player, undoDepth);
     const exact = opts.find((o) => o.key === head);
     if (exact) return { kind: "single", command: exact.command };
   }

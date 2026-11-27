@@ -10,6 +10,7 @@ import type {
   OccupationId,
   PassportColor,
   PearlDoorNumber,
+  PlayerId,
   RegionId,
   RestrictionId,
   RoomId,
@@ -19,17 +20,114 @@ import type {
   SpecializationId,
   TeamId,
 } from "./ids";
+import { emitFrames, findFrameTopDown, hasFrame, peekFrame } from "./stack";
 import type {
   AliasPage,
   AttachedAsset,
   Campaign,
+  Decision,
+  EffectFrame,
   Game,
   LogInput,
+  Phase,
   PlayerCard,
   ReadingKind,
   TeamPiece,
   World,
 } from "./state";
+
+export function seatOfPlayer(world: World, player: PlayerId): SeatId | null {
+  return world.table.seats.find((s) => s.player === player)?.seat ?? null;
+}
+
+export function pushEffect(world: World, ...frames: EffectFrame[]): void {
+  emitFrames(world.stack, ...frames);
+}
+
+export function pushDecision(world: World, decision: Decision): void {
+  emitFrames(world.stack, { t: "decide", decision });
+}
+
+export function topFrame(world: World): EffectFrame | undefined {
+  return peekFrame(world.stack);
+}
+
+export function topDecision(world: World): Decision | null {
+  const top = peekFrame(world.stack);
+  return top?.t === "decide" ? top.decision : null;
+}
+
+export function pendingDecisions(world: World): Decision[] {
+  const out: Decision[] = [];
+  for (let i = world.stack.length - 1; i >= 0; i--) {
+    const frame = world.stack[i]!;
+    if (frame.t === "decide") out.push(frame.decision);
+  }
+  return out;
+}
+
+export function hasPendingWork(world: World): boolean {
+  const top = peekFrame(world.stack);
+  return top?.t === "decide" || top?.t === "scratch-cover";
+}
+
+export function hasEscalationOnStack(world: World): boolean {
+  return hasFrame(world.stack, (f) => f.t === "decide" && f.decision.t === "escalation");
+}
+
+const TRANSIENT_FRAMES = new Set<EffectFrame["t"]>([
+  "decide",
+  "scratch-cover",
+  "check-objectives-resolved",
+  "eval-psych",
+]);
+
+/** Derives the coarse gameplay phase from the highest base frame on `world.stack`. */
+export function phaseOf(world: World): Phase {
+  const base = findFrameTopDown(world.stack, (f) => !TRANSIENT_FRAMES.has(f.t));
+  if (!base) return "lobby";
+  switch (base.t) {
+    case "lobby":
+      return "lobby";
+    case "read-legacy-setup":
+    case "prepare-threat-board":
+      return "setup.legacy";
+    case "wait-opening-threats":
+      return "setup.threat";
+    case "wait-events":
+    case "setup-player-deck":
+      return "setup.events";
+    case "wait-aliases":
+      return "setup.aliases";
+    case "start-turn":
+    case "wait-begin-turn":
+    case "finish-surveillance":
+      return "playing.surveillance";
+    case "wait-actions":
+    case "mop-up":
+      return "playing.actions";
+    case "wait-draw-cards":
+    case "check-hand-limit":
+    case "check-hassled":
+    case "start-threat-step":
+      return "playing.draw";
+    case "wait-draw-threat":
+    case "finish-turn":
+      return "playing.threat";
+    case "wait-continue":
+      return "over";
+    case "resolve-postgame":
+    case "route-after-postgame":
+      return "postgame";
+    case "wait-upkeep":
+    case "close-game":
+      return "upkeep";
+    case "finished":
+      return "finished";
+    default:
+      return "lobby";
+  }
+}
 
 export function cityDef(id: CityId): CityDef {
   return pack.cityById[id];
@@ -223,13 +321,16 @@ export function seatsOverHandLimit(world: World): SeatId[] {
 
 export function ensureHandLimitDecisions(world: World): void {
   const game = world.game;
-  if (!game) return;
+  if (!game || game.outcome) return;
   // Rulebook p. 15: resolve all Escalation cards before checking hand limit (preserving the Counter-Intelligence Intensify window)
-  if (game.pending.some((d) => d.t === "escalation")) return;
+  if (hasEscalationOnStack(world)) return;
   for (const seat of seatsOverHandLimit(world)) {
-    const already = game.pending.some((d) => d.t === "hand-limit" && d.seat === seat);
+    const already = hasFrame(
+      world.stack,
+      (f) => f.t === "decide" && f.decision.t === "hand-limit" && f.decision.seat === seat,
+    );
     if (!already) {
-      game.pending.unshift({ t: "hand-limit", seat });
+      pushDecision(world, { t: "hand-limit", seat });
     }
   }
 }
@@ -412,14 +513,36 @@ export function canMitigateCover(world: World, seat: SeatId): {
 }
 
 /**
- * Queues `count` cover losses for `seat`. Resolves immediately when no interactive choice is needed;
- * pauses with `cover-mitigation`, `discard-card`, or `choose-liability` when player input is required.
+ * Schedules `count` cover losses for `seat` on `world.stack`.
+ * Each `scratch-cover` frame resolves immediately unless mitigation, discard choice, or liability choice pauses it.
  */
 export function queueCoverLoss(world: World, seat: SeatId, count: number, source: string): void {
+  if (!world.game || count <= 0) return;
+  const frames: EffectFrame[] = [];
+  for (let i = 0; i < count; i++) {
+    frames.push({ t: "scratch-cover", seat, source, more: count - 1 - i });
+  }
+  pushEffect(world, ...frames);
+}
+
+/** Resolves a single `scratch-cover` frame popped from `world.stack`. */
+export function resolveOneCoverScratch(
+  world: World,
+  seat: SeatId,
+  source: string,
+  more: number,
+): void {
   const game = world.game;
-  if (!game || count <= 0) return;
-  game.coverQueue.push({ seat, remaining: count, source });
-  drainCoverQueue(world);
+  if (!game) return;
+  const player = game.players[seat];
+  // If the player was already burned earlier in the same burst, cancel remaining scratches on that burned alias
+  if (!player.tempAlias && (!player.passport || !player.activeAlias)) return;
+  const mit = canMitigateCover(world, seat);
+  if (mit.suitcase || mit.collectiveManager) {
+    pushDecision(world, { t: "cover-mitigation", seat, source, more });
+    return;
+  }
+  scratchOneCoverNow(world, seat, source);
 }
 
 /** Immediately burns `seat`'s active alias per rulebook p. 7. */
@@ -481,7 +604,7 @@ export function scratchOneCoverNow(world: World, seat: SeatId, source: string): 
       log(game, { t: "cover", seat, result: "temp-discard", source });
     } else {
       log(game, { t: "cover", seat, result: "temp-discard-choice", source });
-      game.pending.unshift({ t: "discard-card", seat, remaining: 1, source });
+      pushDecision(world, { t: "discard-card", seat, remaining: 1, source });
     }
     return;
   }
@@ -505,13 +628,13 @@ export function scratchOneCoverNow(world: World, seat: SeatId, source: string): 
     if (discardable.length === 1) {
       discardFromHand(game, seat, discardable[0]!);
     } else if (discardable.length > 1) {
-      game.pending.unshift({ t: "discard-card", seat, remaining: 1, source: `cover-pip:${source}` });
+      pushDecision(world, { t: "discard-card", seat, remaining: 1, source: `cover-pip:${source}` });
     }
     return;
   }
   if (pip === "liability") {
     if (alias.liabilities.length < 2 && world.campaign.availableLiabilities.length > 0) {
-      game.pending.unshift({
+      pushDecision(world, {
         t: "choose-liability",
         seat,
         region: cityDef(player.location).region,
@@ -524,42 +647,7 @@ export function scratchOneCoverNow(world: World, seat: SeatId, source: string): 
   }
 }
 
-/** Drains `game.coverQueue` until empty or an interactive decision is pushed to `game.pending`. */
-export function drainCoverQueue(world: World): void {
-  const game = world.game;
-  if (!game) return;
-  while (game.coverQueue.length > 0 && game.pending.length === 0) {
-    const head = game.coverQueue[0]!;
-    if (head.remaining <= 0) {
-      game.coverQueue.shift();
-      continue;
-    }
-    const player = game.players[head.seat];
-    // If the player was already burned earlier in the same burst, cancel remaining scratches on that burned alias
-    if (!player.tempAlias && (!player.passport || !player.activeAlias)) {
-      game.coverQueue.shift();
-      continue;
-    }
-    const mit = canMitigateCover(world, head.seat);
-    if (mit.suitcase || mit.collectiveManager) {
-      head.remaining -= 1;
-      const more = head.remaining;
-      if (head.remaining === 0) game.coverQueue.shift();
-      game.pending.unshift({
-        t: "cover-mitigation",
-        seat: head.seat,
-        source: head.source,
-        more,
-      });
-      return;
-    }
-    head.remaining -= 1;
-    if (head.remaining === 0) game.coverQueue.shift();
-    scratchOneCoverNow(world, head.seat, head.source);
-  }
-}
-
-/** Direct cover scratch on a specific passport alias outside normal turn coverQueue (e.g. Debrief 192 / 231). */
+/** Direct cover scratch on a specific passport alias (e.g. Debrief 192 / 231). */
 export function scratchAliasCoverDirect(
   world: World,
   passport: PassportColor,

@@ -7,7 +7,6 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "immer": "^11.2.10",
-    "xstate": "^5.33.4"
+    "immer": "^11.2.10"
   }
 }

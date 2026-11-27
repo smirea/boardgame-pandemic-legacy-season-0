@@ -1,7 +1,9 @@
 # Game engine (`@repo/game`)
 
-- Framework-free, deterministic Pandemic Legacy: Season 0 rules engine and XState v5 state machine.
-- All randomness lives in `world.campaign.rng`. Never call `Math.random()` or `Date.now()` inside the engine.
-- `reject(world, phase, command)` in `src/machine.ts` is the single legality source of truth used by XState guards, `src/options.ts`, playtest bots, and future UI.
+- Framework-free, deterministic Pandemic Legacy: Season 0 rules engine built on our own Effect Stack architecture (`src/stack.ts` + `src/engine.ts`).
+- **Architectural decision — No XState**: XState was deliberately removed from `@repo/game` because Season 0's rules are dominated by dynamic nested LIFO interrupts (Escalations, Incident waves, multi-pip cover scratches with mitigation/liabilities, hand-limit checks, Debrief chains, room choices) rather than a flat finite state graph. Do not reintroduce XState.
+- `src/stack.ts` provides reusable, game-agnostic Effect Stack primitives (`withFrameScope`, `emitFrames`, `pushSequence`, `resolveStack`, `createStackEngine`) with synchronous `step()`, `check()`, and observable `createSession()` transitions (`events`, `cues`, `trace`) so UI, servers, playtest daemons, and future animation sequencers compose on the same engine.
+- `world.stack` is the single source of truth for execution state and coarse phase (`phaseOf(world)`). All randomness lives in `world.campaign.rng`. Never call `Math.random()` or `Date.now()` inside the engine.
+- `reject(world, command, undoDepth)` in `src/engine.ts` is the single legality source of truth used by `gameEngine.step()`, `src/options.ts`, playtest bots, and future UI.
 - `src/content/archive.generated.ts` is generated from `docs/game/` by `bun scripts/gen-content.ts` so every legacy card, debrief entry, box, door, operations card, incident, event, and passport track carries verbatim printed text without runtime filesystem reads.
-- Every state-changing event appends structured, monotonic `LogEntry` items to `world.game.log` and full-text `ReadingEntry` items to `world.campaign.readings` so future UI and animations can drive off the log and replay diffs cleanly.
+- Every state-changing event appends structured, monotonic `LogEntry` items to `world.game.log` and full-text `ReadingEntry` items to `world.campaign.readings`, and `step()` / `session.dispatch()` return ordered `AnimationCue` arrays alongside `events` and `trace`.

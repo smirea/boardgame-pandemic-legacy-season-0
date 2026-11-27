@@ -2,7 +2,6 @@ import { pack } from "./content/pack";
 import {
   activeEventsInReserve,
   advanceEscalationStep,
-  checkAllObjectivesResolved,
   checkAndCompletePursuitObjective,
 } from "./flow";
 import {
@@ -17,7 +16,6 @@ import {
   cityOfCard,
   discardFromHand,
   discardableHandCards,
-  drainCoverQueue,
   ensureHandLimitDecisions,
   enterCity,
   findAsset,
@@ -29,8 +27,11 @@ import {
   isSymptomCard,
   log,
   moveTeam,
+  phaseOf,
+  pushDecision,
   queueCoverLoss,
   scratchOneCoverNow,
+  topDecision,
 } from "./helpers";
 import type {
   Affiliation,
@@ -50,11 +51,10 @@ import { PASSPORT_COLORS } from "./ids";
 import {
   addIntelCard,
   assignFreeAsset,
-  evaluatePsych1,
-  evaluatePsych2,
   openDoor,
   readDebrief,
 } from "./legacy";
+import { popFrame } from "./stack";
 import type { DeploymentAnswer, TransmissionMethod, World } from "./state";
 
 export type Play =
@@ -141,21 +141,21 @@ function findEventCardInHand(world: World, seat: SeatId, event: EventId): CardId
   return null;
 }
 
-/** Validates playing Event card `play` from `seat`'s hand during `phase`. */
+/** Validates playing Event card `play` from `seat`'s hand. */
 export function checkPlay(
   world: World,
   seat: SeatId,
-  phase: string,
   play: Play,
 ): string | null {
   const game = world.game;
   if (!game) return "No game in progress";
+  const phase = phaseOf(world);
   if (!phase.startsWith("playing.")) return "Events can only be played during gameplay";
 
   const cardId = findEventCardInHand(world, seat, play.e);
   if (!cardId) return `You do not hold ${pack.eventById[play.e].name}`;
 
-  const topPending = game.pending[0];
+  const topPending = topDecision(world);
   if (topPending) {
     // Two explicit Pandemic timing windows while a decision is pending:
     // 1. Counter-Intelligence between Add Agents and Intensify steps of an Escalation
@@ -387,8 +387,9 @@ export function checkPlay(
   }
 }
 
-export function applyPlay(world: World, seat: SeatId, phase: string, play: Play): void {
+export function applyPlay(world: World, seat: SeatId, play: Play): void {
   const game = world.game!;
+  const phase = phaseOf(world);
   const cardId = findEventCardInHand(world, seat, play.e)!;
   discardFromHand(game, seat, cardId);
 
@@ -462,7 +463,7 @@ export function applyPlay(world: World, seat: SeatId, phase: string, play: Play)
         event: play.e,
         detail: `Inspecting top ${top.length} Threat card(s)`,
       });
-      game.pending.unshift({ t: "forecast", seat, cards: top.map((c) => ({ ...c })) });
+      pushDecision(world, { t: "forecast", seat, cards: top.map((c) => ({ ...c })) });
       break;
     }
 
@@ -580,7 +581,7 @@ export function applyPlay(world: World, seat: SeatId, phase: string, play: Play)
       });
       const eligible = game.seats.filter((s) => !game.players[s].infiltration);
       if (eligible.length > 0) {
-        game.pending.unshift({ t: "border-security", seatsLeft: eligible, placedByCurrent: 0 });
+        pushDecision(world, { t: "border-security", seatsLeft: eligible, placedByCurrent: 0 });
       }
       break;
     }
@@ -623,7 +624,7 @@ export function applyPlay(world: World, seat: SeatId, phase: string, play: Play)
         event: play.e,
         detail: `Reveal ${count} Security token(s) in PEARL Compound`,
       });
-      game.pending.unshift({
+      pushDecision(world, {
         t: "reveal-pearl-tokens",
         seat,
         remaining: count,
@@ -632,8 +633,6 @@ export function applyPlay(world: World, seat: SeatId, phase: string, play: Play)
       break;
     }
   }
-
-  autoResolve(world);
 }
 
 // ============================================================================
@@ -642,7 +641,7 @@ export function applyPlay(world: World, seat: SeatId, phase: string, play: Play)
 
 /** Which seat owns the top pending decision (null = any seated player / team consensus). */
 export function decisionOwner(world: World): SeatId | null {
-  const top = world.game?.pending[0];
+  const top = topDecision(world);
   if (!top) return null;
   switch (top.t) {
     case "hand-limit":
@@ -668,7 +667,7 @@ export function decisionOwner(world: World): SeatId | null {
 export function checkDecide(world: World, seat: SeatId | null, answer: Answer): string | null {
   const game = world.game;
   if (!game) return "No game in progress";
-  const top = game.pending[0];
+  const top = topDecision(world);
   if (!top) return "No pending decision";
   if (answer.t !== top.t) return `Expected decision '${top.t}', got '${answer.t}'`;
 
@@ -1011,12 +1010,12 @@ export function checkDecide(world: World, seat: SeatId | null, answer: Answer): 
 export function applyDecide(world: World, answer: Answer): void {
   const game = world.game!;
   const c = world.campaign;
-  const top = game.pending[0]!;
+  const top = topDecision(world)!;
 
   switch (top.t) {
     case "create-aliases": {
       const ans = answer as Extract<Answer, { t: "create-aliases" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       for (const color of PASSPORT_COLORS) {
         const entry = ans.entries[color];
         const alias = c.passports[color].aliases[top.affiliation];
@@ -1033,7 +1032,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "psych-questions": {
       const ans = answer as Extract<Answer, { t: "psych-questions" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       for (const q of top.questions) {
         c.psychAnswers[q.number] = ans.answers[q.number]!;
       }
@@ -1046,15 +1045,12 @@ export function applyDecide(world: World, answer: Answer): void {
         t: "note",
         text: `Recorded Psych answers (${top.cardId}): ${top.questions.map((q) => `Q${q.number}=${ans.answers[q.number]}`).join(", ")}`,
       });
-      // Immediately trigger Evaluation 1 after 03-04 and Evaluation 2 after 06-06!
-      if (top.cardId === "legacy/03-04") evaluatePsych1(world);
-      if (top.cardId === "legacy/06-06") evaluatePsych2(world);
       break;
     }
 
     case "transmission-report": {
       const ans = answer as Extract<Answer, { t: "transmission-report" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       c.transmissionMethod = ans.method;
       c.intelFile.push({
         id: top.cardId,
@@ -1067,7 +1063,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "deployment-report": {
       const ans = answer as Extract<Answer, { t: "deployment-report" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       c.deploymentReport = ans.answer;
       c.intelFile.push({
         id: top.cardId,
@@ -1080,7 +1076,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "sabik-offer": {
       const ans = answer as Extract<Answer, { t: "sabik-offer" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       log(game, {
         t: "note",
         text: `Sabik's Offer (Operations 76): team chose to ${ans.choice.toUpperCase()}`,
@@ -1095,7 +1091,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "file-report": {
       const ans = answer as Extract<Answer, { t: "file-report" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       const other = top.options[0] === ans.chosen ? top.options[1] : top.options[0];
       addIntelCard(world, ans.chosen);
       if (!c.destroyedOpsCards.includes(other)) c.destroyedOpsCards.push(other);
@@ -1108,7 +1104,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "door14-briefcase": {
       const ans = answer as Extract<Answer, { t: "door14-briefcase" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       if (ans.choice === "open") {
         openDoor(world, "19");
       } else if (ans.choice === "blow-up") {
@@ -1129,13 +1125,13 @@ export function applyDecide(world: World, answer: Answer): void {
         text: `${top.source}: reduced Surveillance in ${cityDef(ans.city).name} to ${c.cities[ans.city].surveillance}`,
       });
       const anyLeft = pack.cities.some((ct) => c.cities[ct.id].surveillance > 0);
-      if (top.remaining <= 0 || !anyLeft) game.pending.shift();
+      if (top.remaining <= 0 || !anyLeft) popFrame(world.stack);
       break;
     }
 
     case "kill-contact": {
       const ans = answer as Extract<Answer, { t: "kill-contact" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       const asset = c.passports[ans.passport].aliases[ans.affiliation].assets[ans.assetIndex]!;
       asset.dead = true;
       log(game, {
@@ -1147,7 +1143,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "free-infrared-goggles": {
       const ans = answer as Extract<Answer, { t: "free-infrared-goggles" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       if (!ans.skip && ans.passport && ans.affiliation) {
         assignFreeAsset(world, ans.passport, ans.affiliation, "infrared-goggles");
         log(game, {
@@ -1160,7 +1156,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "december-choice": {
       const ans = answer as Extract<Answer, { t: "december-choice" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       const debriefNum =
         top.variant === "cia-sabik"
           ? ans.choice === "a"
@@ -1178,13 +1174,13 @@ export function applyDecide(world: World, answer: Answer): void {
       giveActionTokens(game, ans.seat, 1);
       top.remaining -= 1;
       log(game, { t: "note", text: `${top.source}: gave 1 Action token to ${ans.seat}` });
-      if (top.remaining <= 0 || game.supplies.actionTokens <= 0) game.pending.shift();
+      if (top.remaining <= 0 || game.supplies.actionTokens <= 0) popFrame(world.stack);
       break;
     }
 
     case "choose-return-symptom": {
       const ans = answer as Extract<Answer, { t: "choose-return-symptom" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       discardFromHand(game, ans.seat, ans.card);
       log(game, { t: "note", text: `${top.source}: returned Symptom card from ${ans.seat}` });
       break;
@@ -1200,7 +1196,7 @@ export function applyDecide(world: World, answer: Answer): void {
         text: `${top.source}: removed 1 agent from ${cityDef(ans.city).name}`,
       });
       const anyLeft = Object.values(game.locations).some((l) => l.agents > 0);
-      if (top.remaining <= 0 || !anyLeft) game.pending.shift();
+      if (top.remaining <= 0 || !anyLeft) popFrame(world.stack);
       break;
     }
 
@@ -1214,13 +1210,13 @@ export function applyDecide(world: World, answer: Answer): void {
         text: `${top.source}: revealed PEARL Security token ${tok.id} (${formatSecuritySymbol(tok.symbol)})`,
       });
       const anyLeft = game.infiltrationSites.pearl!.tokens.some((t) => !t.revealed);
-      if (top.remaining <= 0 || !anyLeft) game.pending.shift();
+      if (top.remaining <= 0 || !anyLeft) popFrame(world.stack);
       break;
     }
 
     case "place-free-checkpoint": {
       const ans = answer as Extract<Answer, { t: "place-free-checkpoint" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       if (ans.relocateFrom) {
         const [rx, ry] = canonicalEdge(ans.relocateFrom[0], ans.relocateFrom[1]);
         const idx = game.checkpoints.findIndex(([a, b]) => a === rx && b === ry);
@@ -1238,7 +1234,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "pick-temp-alias": {
       const ans = answer as Extract<Answer, { t: "pick-temp-alias" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       const player = game.players[top.seat];
       player.tempAlias = ans.occupation;
       player.needsTempAlias = false;
@@ -1246,8 +1242,7 @@ export function applyDecide(world: World, answer: Answer): void {
         t: "note",
         text: `${top.seat} took Temporary Alias: ${pack.occupationById[ans.occupation].name}`,
       });
-      // Immediately complete start-of-turn surveillance check (player is in Washington with safehouse -> 0 loss)
-      game.surveillanceChecked = true;
+      // Complete start-of-turn log (player is in Washington with safehouse -> 0 surveillance loss)
       log(game, { t: "turn", turn: game.turn, seat: top.seat });
       break;
     }
@@ -1260,7 +1255,7 @@ export function applyDecide(world: World, answer: Answer): void {
         game.players[top.seat].hand.length <= handLimit(world, top.seat) ||
         discardableHandCards(game, top.seat).length === 0
       ) {
-        game.pending.shift();
+        popFrame(world.stack);
       }
       break;
     }
@@ -1271,14 +1266,14 @@ export function applyDecide(world: World, answer: Answer): void {
       top.remaining -= 1;
       log(game, { t: "note", text: `${top.seat} discarded ${ans.card} (${top.source})` });
       if (top.remaining <= 0 || discardableHandCards(game, top.seat).length === 0) {
-        game.pending.shift();
+        popFrame(world.stack);
       }
       break;
     }
 
     case "cover-mitigation": {
       const ans = answer as Extract<Answer, { t: "cover-mitigation" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       if (ans.choice === "suitcase") {
         const suitcase = findAsset(world, top.seat, "suitcase-full-of-money")!;
         suitcase.boxesChecked += 1;
@@ -1304,7 +1299,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "choose-liability": {
       const ans = answer as Extract<Answer, { t: "choose-liability" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       const idx = c.availableLiabilities.indexOf(ans.liability);
       c.availableLiabilities.splice(idx, 1);
       const def = pack.liabilityById[ans.liability];
@@ -1323,12 +1318,13 @@ export function applyDecide(world: World, answer: Answer): void {
     }
 
     case "escalation":
-      advanceEscalationStep(world);
+      popFrame(world.stack);
+      advanceEscalationStep(world, top);
       break;
 
     case "remove-safehouse": {
       const ans = answer as Extract<Answer, { t: "remove-safehouse" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       game.locations[ans.city].safehouse = false;
       game.supplies.safehouses += 1;
       log(game, {
@@ -1340,7 +1336,7 @@ export function applyDecide(world: World, answer: Answer): void {
 
     case "forecast": {
       const ans = answer as Extract<Answer, { t: "forecast" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       const byId = new Map(top.cards.map((card) => [card.id, card]));
       const reordered = ans.order.map((id) => byId.get(id)!);
       game.threatDeck = [...reordered, ...game.threatDeck.slice(top.cards.length)];
@@ -1366,7 +1362,7 @@ export function applyDecide(world: World, answer: Answer): void {
         });
         top.seatsLeft.shift();
         top.placedByCurrent = 0;
-        if (top.seatsLeft.length === 0) game.pending.shift();
+        if (top.seatsLeft.length === 0) popFrame(world.stack);
         break;
       }
       if (ans.relocateFrom) {
@@ -1386,14 +1382,14 @@ export function applyDecide(world: World, answer: Answer): void {
       if (top.placedByCurrent >= 2 || !moreAdj) {
         top.seatsLeft.shift();
         top.placedByCurrent = 0;
-        if (top.seatsLeft.length === 0) game.pending.shift();
+        if (top.seatsLeft.length === 0) popFrame(world.stack);
       }
       break;
     }
 
     case "room-choice": {
       const ans = answer as Extract<Answer, { t: "room-choice" }>;
-      game.pending.shift();
+      popFrame(world.stack);
       const seat = top.seat;
       const p = game.players[seat];
       switch (ans.choice.room) {
@@ -1427,7 +1423,6 @@ export function applyDecide(world: World, answer: Answer): void {
           game.satellites = game.satellites.filter((r) => r !== reg);
           game.supplies.satellites += 1;
           if (!c.destroyedSatellites.includes(reg)) c.destroyedSatellites.push(reg);
-          // Also remove satellite card from player deck/discard if present
           const satId = `satellite:${reg}`;
           game.playerDeck = game.playerDeck.filter((id) => id !== satId);
           game.playerDiscard = game.playerDiscard.filter((id) => id !== satId);
@@ -1540,8 +1535,6 @@ export function applyDecide(world: World, answer: Answer): void {
       break;
     }
   }
-
-  autoResolve(world);
 }
 
 /** Resolves an ignored Door 14 briefcase later in lobby or upkeep. */
@@ -1551,25 +1544,4 @@ export function resolveIgnoredDoor14(world: World, choice: "open" | "blow-up"): 
   } else {
     openDoor(world, "24");
   }
-}
-
-/** Cleans up satisfied hand-limit prompts and drains any queued cover losses. */
-export function autoResolve(world: World): void {
-  const game = world.game;
-  if (!game) return;
-
-  // Drop hand-limit decisions that are already satisfied (or moot once the game has ended)
-  game.pending = game.pending.filter((d) => {
-    if (d.t !== "hand-limit") return true;
-    if (game.outcome) return false;
-    const p = game.players[d.seat];
-    return p.hand.length > handLimit(world, d.seat) && discardableHandCards(game, d.seat).length > 0;
-  });
-
-  // Always drain queued cover losses — including postgame debrief cover losses (e.g. Debrief 225, 231)
-  drainCoverQueue(world);
-
-  if (game.outcome) return;
-  ensureHandLimitDecisions(world);
-  checkAllObjectivesResolved(world);
 }

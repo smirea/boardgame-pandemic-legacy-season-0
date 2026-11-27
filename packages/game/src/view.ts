@@ -1,5 +1,14 @@
 import { pack } from "./content/pack";
-import { cityOfCard, effectiveSurveillance, handLimit } from "./helpers";
+import { stackSummary } from "./engine";
+import {
+  cityOfCard,
+  effectiveSurveillance,
+  handLimit,
+  pendingDecisions,
+  phaseOf,
+  seatOfPlayer,
+  topDecision,
+} from "./helpers";
 import type {
   Affiliation,
   CityId,
@@ -12,8 +21,6 @@ import type {
   SecuritySymbol,
 } from "./ids";
 import { PASSPORT_COLORS } from "./ids";
-import type { Phase } from "./machine";
-import { seatOfPlayer } from "./machine";
 import type {
   AliasPage,
   Campaign,
@@ -21,6 +28,7 @@ import type {
   GameCity,
   LogEntry,
   Passport,
+  Phase,
   PlayerCard,
   ReadingEntry,
   TeamPiece,
@@ -73,6 +81,7 @@ export type PublicTokenView = {
 
 export type PlayerView = {
   phase: Phase;
+  stack: string[];
   viewer: PlayerId;
   viewerSeat: SeatId | null;
   campaign: {
@@ -168,13 +177,15 @@ export type PlayerView = {
 };
 
 /** Projects the full World into a player-safe view (hiding unrevealed decks, unrevealed tokens, and unrevealed target cities). */
-export function viewFor(world: World, phase: Phase, viewer: PlayerId, recentLogLimit = 30): PlayerView {
+export function viewFor(world: World, viewer: PlayerId, recentLogLimit = 30): PlayerView {
   const c = world.campaign;
   const g = world.game;
   const viewerSeat = seatOfPlayer(world, viewer);
+  const pending = pendingDecisions(world);
 
   return {
-    phase,
+    phase: phaseOf(world),
+    stack: stackSummary(world),
     viewer,
     viewerSeat,
     campaign: {
@@ -329,8 +340,8 @@ export function viewFor(world: World, phase: Phase, viewer: PlayerId, recentLogL
               },
             ]),
           ),
-          pendingTop: g.pending[0] ?? null,
-          pendingCount: g.pending.length,
+          pendingTop: topDecision(world),
+          pendingCount: pending.length,
           outcome: g.outcome,
           upkeep: g.upkeep,
           recentLog: g.log.slice(-recentLogLimit),

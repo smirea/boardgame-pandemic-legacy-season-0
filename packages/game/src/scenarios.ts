@@ -1,7 +1,9 @@
-import type { GameActor, Phase } from "./machine";
-import { createGameActor, phaseOf } from "./machine";
-import { optionsFor } from "./options";
+import type { GameSession } from "./engine";
+import { createGameSession, stackSummary } from "./engine";
+import { phaseOf } from "./helpers";
 import type { PlayerId } from "./ids";
+import { optionsFor } from "./options";
+import type { Phase } from "./state";
 
 export type AutoSetupOptions = {
   seed?: number;
@@ -10,11 +12,11 @@ export type AutoSetupOptions = {
 };
 
 /**
- * Helper that runs any actor forward across setup / legacy / postgame / upkeep using legal options.
+ * Helper that runs any session forward across setup / legacy / postgame / upkeep using legal options.
  * Useful for staged testing of specific months, player counts (2p/3p/4p), and CIA vs Sabik branches.
  */
 export function advanceThroughMonth(
-  actor: GameActor,
+  session: GameSession,
   options: {
     sabikChoice?: "accept" | "decline";
     forceLose?: boolean;
@@ -25,10 +27,18 @@ export function advanceThroughMonth(
   let steps = 0;
   let started = false;
 
+  const dispatchOrThrow = (cmd: Parameters<GameSession["dispatch"]>[0]) => {
+    const res = session.dispatch(cmd);
+    if (!res.ok) {
+      throw new Error(
+        `advanceThroughMonth rejected ${cmd.type} in ${phaseOf(session.state.world)}: ${res.error}`,
+      );
+    }
+  };
+
   while (steps++ < maxSteps) {
-    const snap = actor.getSnapshot();
-    const phase = phaseOf(snap.value);
-    const world = snap.context.world;
+    const { world, undo } = session.state;
+    const phase = phaseOf(world);
     if (phase === "finished") return phase;
     if (started && phase === "lobby") return "lobby";
 
@@ -37,76 +47,76 @@ export function advanceThroughMonth(
 
     if (phase === "lobby") {
       started = true;
-      actor.send({ type: "START_GAME", player: lead });
+      dispatchOrThrow({ type: "START_GAME", player: lead });
       continue;
     }
 
     if (phase === "over") {
-      actor.send({ type: "CONTINUE", player: lead });
+      dispatchOrThrow({ type: "CONTINUE", player: lead });
       continue;
     }
 
     if (phase === "upkeep") {
       for (const s of world.table.seats) {
-        const opts = optionsFor(world, phase, s.player, snap.context.undo.length);
+        const opts = optionsFor(world, s.player, undo.length);
         const dec = opts.find((o) => o.category === "decision");
         if (dec) {
-          actor.send(dec.command);
+          dispatchOrThrow(dec.command);
           break;
         }
         const fin = opts.find((o) => o.key === "finish-upkeep");
         if (fin) {
-          actor.send(fin.command);
+          dispatchOrThrow(fin.command);
           break;
         }
       }
-      if (phaseOf(actor.getSnapshot().value) === "lobby") return "lobby";
+      if (phaseOf(session.state.world) === "lobby") return "lobby";
       continue;
     }
 
     if (phase === "postgame") {
       let acted = false;
       for (const ts of world.table.seats) {
-        const opts = optionsFor(world, phase, ts.player, snap.context.undo.length);
+        const opts = optionsFor(world, ts.player, undo.length);
         if (opts[0]) {
-          actor.send(opts[0].command);
+          dispatchOrThrow(opts[0].command);
           acted = true;
           break;
         }
       }
       if (acted) continue;
-      throw new Error(`Stuck in postgame: pending=${JSON.stringify(world.game?.pending[0])}, coverQueue=${world.game?.coverQueue.length}`);
+      throw new Error(`Stuck in postgame: stack=${JSON.stringify(stackSummary(world))}`);
     }
 
     if (phase === "setup.legacy") {
-      const opts = optionsFor(world, phase, lead, snap.context.undo.length);
+      const opts = optionsFor(world, lead, undo.length);
       const sabik =
         options.sabikChoice &&
         opts.find((o) => o.key === `sabik-offer:${options.sabikChoice}`);
       const pick = sabik ?? opts[0];
-      if (!pick) throw new Error(`Stuck in setup.legacy with no options`);
-      actor.send(pick.command);
+      if (!pick) throw new Error("Stuck in setup.legacy with no options");
+      dispatchOrThrow(pick.command);
       continue;
     }
 
     if (phase === "setup.threat") {
-      const opts = optionsFor(world, phase, lead, snap.context.undo.length);
+      const opts = optionsFor(world, lead, undo.length);
       const pick = opts.find((o) => o.category === "decision") ?? opts[0];
       if (!pick) throw new Error("Stuck in setup.threat");
-      actor.send(pick.command);
+      dispatchOrThrow(pick.command);
       continue;
     }
 
     if (phase === "setup.events") {
-      actor.send({ type: "CONFIRM_EVENTS", player: lead });
+      dispatchOrThrow({ type: "CONFIRM_EVENTS", player: lead });
       continue;
     }
 
     if (phase === "setup.aliases") {
       for (const ts of world.table.seats) {
-        const opts = optionsFor(world, phase, ts.player, snap.context.undo.length);
+        const opts = optionsFor(world, ts.player, undo.length);
         if (opts[0]) {
-          actor.send(opts[0].command);
+          dispatchOrThrow(opts[0].command);
           break;
         }
       }
@@ -115,13 +125,12 @@ export function advanceThroughMonth(
 
     if (phase.startsWith("playing.")) {
       const g = world.game!;
-      // Check if any player owns a pending decision first
       let acted = false;
       for (const ts of world.table.seats) {
-        const opts = optionsFor(world, phase, ts.player, snap.context.undo.length);
+        const opts = optionsFor(world, ts.player, undo.length);
         const dec = opts.find((o) => o.category === "decision");
         if (dec) {
-          actor.send(dec.command);
+          dispatchOrThrow(dec.command);
           acted = true;
           break;
         }
@@ -130,19 +139,19 @@ export function advanceThroughMonth(
 
       const activePlayer = world.table.seats.find((s) => s.seat === g.active)!.player;
       if (phase === "playing.surveillance") {
-        actor.send({ type: "BEGIN_TURN", player: activePlayer });
+        dispatchOrThrow({ type: "BEGIN_TURN", player: activePlayer });
         continue;
       }
       if (phase === "playing.actions") {
-        actor.send({ type: "END_ACTIONS", player: activePlayer });
+        dispatchOrThrow({ type: "END_ACTIONS", player: activePlayer });
         continue;
       }
       if (phase === "playing.draw") {
-        actor.send({ type: "DRAW_PLAYER_CARDS", player: activePlayer });
+        dispatchOrThrow({ type: "DRAW_PLAYER_CARDS", player: activePlayer });
         continue;
       }
       if (phase === "playing.threat") {
-        actor.send({ type: "DRAW_THREAT", player: activePlayer });
+        dispatchOrThrow({ type: "DRAW_THREAT", player: activePlayer });
         continue;
       }
     }
@@ -151,10 +160,11 @@ export function advanceThroughMonth(
 }
 
 /** Creates a fresh campaign with `playerCount` (2..4) players already seated in lobby. */
-export function createSeatedCampaign(playerCount: 2 | 3 | 4 = 3, seed = 1): GameActor {
-  const actor = createGameActor({ seed });
+export function createSeatedCampaign(playerCount: 2 | 3 | 4 = 3, seed = 1): GameSession {
+  const session = createGameSession({ seed });
   for (let i = 1; i <= playerCount; i++) {
-    actor.send({ type: "JOIN", player: `p${i}`, name: `Agent ${i}` });
+    const res = session.dispatch({ type: "JOIN", player: `p${i}`, name: `Agent ${i}` });
+    if (!res.ok) throw new Error(`Failed to join p${i}: ${res.error}`);
   }
-  return actor;
+  return session;
 }

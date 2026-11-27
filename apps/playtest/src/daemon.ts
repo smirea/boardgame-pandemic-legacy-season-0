@@ -1,8 +1,8 @@
 import { appendFileSync, existsSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import type { Command, GameActor, GameRecording, Phase, PlayerId, World } from "@repo/game";
+import type { Command, GameRecording, GameSession, Phase, PlayerId, World } from "@repo/game";
 import {
-  createGameActor,
+  createGameSession,
   createRecording,
   decisionOwner,
   optionsFor,
@@ -10,8 +10,8 @@ import {
   parseSave,
   phaseOf,
   readingsSince,
-  reject,
   seatOfPlayer,
+  topDecision,
   toSave,
   viewFor,
   violations,
@@ -63,15 +63,15 @@ if (fresh) {
   }
 }
 
-let actor: GameActor;
+let session: GameSession;
 if (!fresh && existsSync(latestSavePath)) {
   const save = parseSave(JSON.parse(readFileSync(latestSavePath, "utf8")));
-  actor = createGameActor({ save });
+  session = createGameSession({ save });
 } else {
-  actor = createGameActor({ seed: config.seed });
+  session = createGameSession({ seed: config.seed });
   for (const p of config.players) {
-    actor.send({ type: "JOIN", player: p.id, name: p.name, seat: p.seat });
-    actor.send({ type: "ASSIGN_PASSPORT", player: p.id, seat: p.seat, passport: p.passport });
+    session.dispatch({ type: "JOIN", player: p.id, name: p.name, seat: p.seat });
+    session.dispatch({ type: "ASSIGN_PASSPORT", player: p.id, seat: p.seat, passport: p.passport });
   }
 }
 
@@ -92,8 +92,8 @@ if (!fresh && existsSync(chatPath)) {
   }
 }
 
-let sessionGameStarted = phaseOf(actor.getSnapshot().value) !== "lobby";
-let sessionGameFinished = phaseOf(actor.getSnapshot().value) === "finished";
+let sessionGameStarted = phaseOf(session.state.world) !== "lobby";
+let sessionGameFinished = phaseOf(session.state.world) === "finished";
 let activeRecording: GameRecording | null = null;
 let versionSeq = 1;
 
@@ -106,7 +106,7 @@ const waiters: Waiter[] = [];
 const sessionEndWaiters: (() => void)[] = [];
 
 function persistAll(): void {
-  const save = toSave(actor);
+  const save = toSave(session);
   writeFileSync(latestSavePath, JSON.stringify(save, null, 2));
   writeFileSync(auditPath, JSON.stringify(audit, null, 2));
   writeFileSync(cursorsPath, JSON.stringify(cursors, null, 2));
@@ -123,13 +123,14 @@ function waitingForSummary(world: World, phase: Phase): string {
   const g = world.game;
   if (!g) return leadPlayerId();
 
-  if (g.pending.length > 0) {
+  const top = topDecision(world);
+  if (top) {
     const owner = decisionOwner(world);
     if (owner) {
       const p = world.table.seats.find((s) => s.seat === owner)?.player ?? owner;
-      return `${p} (${owner}) to resolve '${g.pending[0]!.t}'`;
+      return `${p} (${owner}) to resolve '${top.t}'`;
     }
-    return `Team (${leadPlayerId()} lead) to resolve '${g.pending[0]!.t}'`;
+    return `Team (${leadPlayerId()} lead) to resolve '${top.t}'`;
   }
   if (phase === "setup.threat") return `${leadPlayerId()} to flip opening Threat cards ('do flip-all-threats')`;
   if (phase === "setup.events") return `${leadPlayerId()} to pick/confirm Event cards`;
@@ -159,8 +160,8 @@ function isPlayerActionable(world: World, phase: Phase, player: PlayerId): boole
   if (phase === "lobby") return player === lead;
   if (!g) return false;
 
-  if (g.pending.length > 0) {
-    const top = g.pending[0]!;
+  const top = topDecision(world);
+  if (top) {
     if (
       top.t === "escalation" &&
       top.step === "intensify" &&
@@ -204,9 +205,8 @@ function hasUnreadFor(world: World, phase: Phase, player: PlayerId): boolean {
 
 function wakeWaiters(): void {
   versionSeq += 1;
-  const snap = actor.getSnapshot();
-  const phase = phaseOf(snap.value);
-  const world = snap.context.world;
+  const world = session.state.world;
+  const phase = phaseOf(world);
   for (let i = waiters.length - 1; i >= 0; i--) {
     const w = waiters[i]!;
     if (isPlayerActionable(world, phase, w.player) || hasUnreadFor(world, phase, w.player)) {
@@ -223,10 +223,8 @@ function wakeWaiters(): void {
 }
 
 function consumeStatusPayload(player: PlayerId, actionFeedback?: string): string {
-  const snap = actor.getSnapshot();
-  const phase = phaseOf(snap.value);
-  const world = snap.context.world;
-  const undoDepth = snap.context.undo.length;
+  const { world, undo } = session.state;
+  const phase = phaseOf(world);
 
   const lastRead = cursors.reading[player] ?? 0;
   const unreadReadings = readingsSince(world, lastRead);
@@ -242,8 +240,8 @@ function consumeStatusPayload(player: PlayerId, actionFeedback?: string): string
 
   writeFileSync(cursorsPath, JSON.stringify(cursors, null, 2));
 
-  const view = viewFor(world, phase, player, 30);
-  const opts = sessionGameFinished ? [] : optionsFor(world, phase, player, undoDepth);
+  const view = viewFor(world, player, 30);
+  const opts = sessionGameFinished ? [] : optionsFor(world, player, undo.length);
   return renderStatus(view, opts, unreadReadings, unreadChat, {
     sessionGameFinished,
     waitingFor: waitingForSummary(world, phase),
@@ -256,9 +254,8 @@ function executeSingleCommand(
   command: Command,
   why?: string,
 ): { ok: true; phaseAfter: Phase } | { ok: false; error: string } {
-  const snapBefore = actor.getSnapshot();
-  const phaseBefore = phaseOf(snapBefore.value);
-  const worldBefore = snapBefore.context.world;
+  const worldBefore = session.state.world;
+  const phaseBefore = phaseOf(worldBefore);
 
   if (sessionGameFinished && command.type === "START_GAME") {
     return {
@@ -268,36 +265,34 @@ function executeSingleCommand(
     };
   }
 
-  const err = reject(worldBefore, phaseBefore, command, snapBefore.context.undo.length);
-  if (err) {
-    audit.rejections.push({
-      at: new Date().toISOString(),
-      player,
-      expr: JSON.stringify(command),
-      reason: err,
-    });
-    writeFileSync(auditPath, JSON.stringify(audit, null, 2));
-    return { ok: false, error: err };
-  }
-
   const gameMonthBefore = worldBefore.campaign.month;
   const gameAttemptBefore = worldBefore.campaign.attempt;
   const gameCountBefore = worldBefore.campaign.results.length;
   const logStart = worldBefore.game?.log.length ?? 0;
+  const preSave = command.type === "START_GAME" ? toSave(session) : null;
 
-  if (command.type === "START_GAME") {
-    sessionGameStarted = true;
-    sessionGameFinished = false;
-    activeRecording = createRecording(toSave(actor));
+  const result = session.dispatch(command);
+  if (!result.ok) {
+    audit.rejections.push({
+      at: new Date().toISOString(),
+      player,
+      expr: JSON.stringify(command),
+      reason: result.error,
+    });
+    writeFileSync(auditPath, JSON.stringify(audit, null, 2));
+    return { ok: false, error: result.error };
   }
 
-  actor.send(command);
+  if (command.type === "START_GAME" && preSave) {
+    sessionGameStarted = true;
+    sessionGameFinished = false;
+    activeRecording = createRecording(preSave);
+  }
 
-  const snapAfter = actor.getSnapshot();
-  const phaseAfter = phaseOf(snapAfter.value);
-  const worldAfter = snapAfter.context.world;
+  const worldAfter = result.state.world;
+  const phaseAfter = phaseOf(worldAfter);
   const logEnd = worldAfter.game?.log.length ?? 0;
-  const newLogs = worldAfter.game ? worldAfter.game.log.slice(logStart, logEnd) : [];
+  const newLogs = result.events;
 
   if (activeRecording) {
     activeRecording.steps.push({
@@ -331,7 +326,7 @@ function executeSingleCommand(
   if (sessionGameStarted && (phaseAfter === "lobby" || phaseAfter === "finished")) {
     sessionGameFinished = true;
     const tag = `game-${String(gameCountBefore + (gameMonthBefore === 0 ? 0 : 1)).padStart(2, "0")}-${pack.monthNames[gameMonthBefore]?.toLowerCase() ?? gameMonthBefore}-a${gameAttemptBefore}`;
-    writeFileSync(join(runDir, "saves", `${tag}.json`), JSON.stringify(toSave(actor), null, 2));
+    writeFileSync(join(runDir, "saves", `${tag}.json`), JSON.stringify(toSave(session), null, 2));
     if (activeRecording) {
       writeFileSync(
         join(runDir, "records", `${tag}.json`),
@@ -358,13 +353,13 @@ const server = Bun.serve({
 
     try {
       if (path === "/health") {
-        const snap = actor.getSnapshot();
+        const world = session.state.world;
         return Response.json({
           ok: true,
           run: config.run,
-          phase: phaseOf(snap.value),
-          month: snap.context.world.campaign.month,
-          attempt: snap.context.world.campaign.attempt,
+          phase: phaseOf(world),
+          month: world.campaign.month,
+          attempt: world.campaign.attempt,
           sessionGameFinished,
           version: versionSeq,
         });
@@ -377,26 +372,22 @@ const server = Bun.serve({
 
       if (path === "/board") {
         const player = url.searchParams.get("player") ?? leadPlayerId();
-        const snap = actor.getSnapshot();
-        return new Response(renderBoard(viewFor(snap.context.world, phaseOf(snap.value), player)));
+        return new Response(renderBoard(viewFor(session.state.world, player)));
       }
 
       if (path === "/sites") {
         const player = url.searchParams.get("player") ?? leadPlayerId();
-        const snap = actor.getSnapshot();
-        return new Response(renderSites(viewFor(snap.context.world, phaseOf(snap.value), player)));
+        return new Response(renderSites(viewFor(session.state.world, player)));
       }
 
       if (path === "/files") {
         const player = url.searchParams.get("player") ?? leadPlayerId();
-        const snap = actor.getSnapshot();
-        return new Response(renderFiles(viewFor(snap.context.world, phaseOf(snap.value), player)));
+        return new Response(renderFiles(viewFor(session.state.world, player)));
       }
 
       if (path === "/readings") {
         const after = Number(url.searchParams.get("after") ?? "0");
-        const snap = actor.getSnapshot();
-        const list = readingsSince(snap.context.world, after);
+        const list = readingsSince(session.state.world, after);
         return new Response(
           list.length > 0 ? renderReadings(list) : `No readings after #${after}.`,
         );
@@ -409,19 +400,18 @@ const server = Bun.serve({
 
       if (path === "/log") {
         const count = Number(url.searchParams.get("n") ?? "30");
-        const g = actor.getSnapshot().context.world.game;
+        const g = session.state.world.game;
         if (!g) return new Response("No active game log.");
         return new Response(g.log.slice(-count).map(formatLogLine).join("\n"));
       }
 
       if (path === "/summary") {
-        const snap = actor.getSnapshot();
-        return new Response(formatAuditSummary(audit, snap.context.world));
+        return new Response(formatAuditSummary(audit, session.state.world));
       }
 
       if (path === "/say" && req.method === "POST") {
         const body = (await req.json()) as { player: PlayerId; text: string };
-        const ts = actor.getSnapshot().context.world.table.seats.find((s) => s.player === body.player);
+        const ts = session.state.world.table.seats.find((s) => s.player === body.player);
         const msg: ChatMessage = {
           seq: chatLog.length + 1,
           at: new Date().toISOString(),
@@ -451,14 +441,14 @@ const server = Bun.serve({
 
       if (path === "/report" && req.method === "POST") {
         const body = (await req.json()) as { player: PlayerId; text: string };
-        const snap = actor.getSnapshot();
+        const world = session.state.world;
         const entry = {
           at: new Date().toISOString(),
           player: body.player,
-          month: snap.context.world.campaign.month,
-          attempt: snap.context.world.campaign.attempt,
-          phase: phaseOf(snap.value),
-          turn: snap.context.world.game?.turn ?? null,
+          month: world.campaign.month,
+          attempt: world.campaign.attempt,
+          phase: phaseOf(world),
+          turn: world.game?.turn ?? null,
           text: body.text,
         };
         appendFileSync(issuesPath, JSON.stringify(entry) + "\n");
@@ -468,11 +458,11 @@ const server = Bun.serve({
       if (path === "/wait") {
         const player = url.searchParams.get("player") ?? leadPlayerId();
         const timeoutSec = Math.min(45, Math.max(1, Number(url.searchParams.get("timeout") ?? "25")));
-        const snapNow = actor.getSnapshot();
-        const phaseNow = phaseOf(snapNow.value);
+        const worldNow = session.state.world;
+        const phaseNow = phaseOf(worldNow);
         if (
-          !isPlayerActionable(snapNow.context.world, phaseNow, player) &&
-          !hasUnreadFor(snapNow.context.world, phaseNow, player)
+          !isPlayerActionable(worldNow, phaseNow, player) &&
+          !hasUnreadFor(worldNow, phaseNow, player)
         ) {
           await new Promise<void>((resolve) => {
             const w: Waiter = {
@@ -492,15 +482,8 @@ const server = Bun.serve({
 
       if (path === "/do" && req.method === "POST") {
         const body = (await req.json()) as { player: PlayerId; args: string[]; why?: string };
-        const snap = actor.getSnapshot();
-        const phase = phaseOf(snap.value);
-        const parsed = parseDoCommand(
-          snap.context.world,
-          phase,
-          body.player,
-          snap.context.undo.length,
-          body.args,
-        );
+        const { world, undo } = session.state;
+        const parsed = parseDoCommand(world, body.player, undo.length, body.args);
         if (parsed.kind === "error") {
           audit.rejections.push({
             at: new Date().toISOString(),
@@ -520,13 +503,13 @@ const server = Bun.serve({
           );
         }
 
-        // Batch helpers (each step still executes an explicit XState transition!)
+        // Batch helpers (each step executes a full Effect Stack command transition)
         let count = 0;
         if (parsed.batch === "flip-all-threats") {
           while (true) {
-            const s = actor.getSnapshot();
-            if (phaseOf(s.value) !== "setup.threat") break;
-            if ((s.context.world.game?.pending.length ?? 0) > 0) break;
+            const w = session.state.world;
+            if (phaseOf(w) !== "setup.threat") break;
+            if (topDecision(w) !== null) break;
             const r = executeSingleCommand(
               body.player,
               { type: "FLIP_OPENING_THREAT", player: body.player },
@@ -545,9 +528,9 @@ const server = Bun.serve({
 
         if (parsed.batch === "draw-all-threats") {
           while (true) {
-            const s = actor.getSnapshot();
-            if (phaseOf(s.value) !== "playing.threat") break;
-            if ((s.context.world.game?.pending.length ?? 0) > 0) break;
+            const w = session.state.world;
+            if (phaseOf(w) !== "playing.threat") break;
+            if (topDecision(w) !== null) break;
             const r = executeSingleCommand(
               body.player,
               { type: "DRAW_THREAT", player: body.player },
@@ -566,12 +549,12 @@ const server = Bun.serve({
 
         if (parsed.batch === "resolve-escalation") {
           while (true) {
-            const s = actor.getSnapshot();
-            const top = s.context.world.game?.pending[0];
+            const w = session.state.world;
+            const top = topDecision(w);
             if (!top || top.t !== "escalation") break;
             // Pause at intensify if ANY player holds Counter-Intelligence!
             if (top.step === "intensify" && count > 0) {
-              const g = s.context.world.game!;
+              const g = w.game!;
               const anyoneHasCI = g.seats.some((st) =>
                 g.players[st].hand.some(
                   (id) => g.playerCards[id]?.kind === "event" && g.playerCards[id]?.event === "counter-intelligence",
@@ -613,21 +596,21 @@ const server = Bun.serve({
             sessionEndWaiters.push(onDone);
           });
         }
-        const snap = actor.getSnapshot();
+        const world = session.state.world;
         return Response.json({
           ok: true,
           timedOut,
-          phase: phaseOf(snap.value),
-          month: snap.context.world.campaign.month,
-          attempt: snap.context.world.campaign.attempt,
+          phase: phaseOf(world),
+          month: world.campaign.month,
+          attempt: world.campaign.attempt,
           sessionGameFinished,
           violations: audit.invariantViolations.length,
         });
       }
 
       if (path === "/admin/next-game" && req.method === "POST") {
-        const snap = actor.getSnapshot();
-        const phase = phaseOf(snap.value);
+        const world = session.state.world;
+        const phase = phaseOf(world);
         if (phase === "finished") {
           return Response.json({ ok: false, error: "Campaign is already finished" }, { status: 400 });
         }
@@ -637,8 +620,8 @@ const server = Bun.serve({
         return Response.json({
           ok: true,
           phase,
-          month: snap.context.world.campaign.month,
-          attempt: snap.context.world.campaign.attempt,
+          month: world.campaign.month,
+          attempt: world.campaign.attempt,
         });
       }
 
@@ -650,7 +633,7 @@ const server = Bun.serve({
         if (!res.ok) return Response.json({ ok: false, error: res.error }, { status: 400 });
         sessionGameFinished = false;
         sessionGameStarted = false;
-        return Response.json({ ok: true, month: actor.getSnapshot().context.world.campaign.month });
+        return Response.json({ ok: true, month: session.state.world.campaign.month });
       }
 
       if (path === "/admin/stop" && req.method === "POST") {

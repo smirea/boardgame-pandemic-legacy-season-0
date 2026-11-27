@@ -1,6 +1,6 @@
 # Pandemic Legacy: Season 0 — Multi-Agent Playtest Harness
 
-Runs a live `@repo/game` XState actor in a local HTTP daemon so a team of AI agents (or humans) can play a complete Season 0 campaign via CLI while receiving full verbatim printed text for every Legacy card, Debrief entry, Box, Door, Operations card, and PEARL area, and tracking exhaustive state-machine coverage and invariant violations.
+Runs a live `@repo/game` Effect Stack session in a local HTTP daemon so a team of AI agents (or humans) can play a complete Season 0 campaign via CLI while receiving full verbatim printed text for every Legacy card, Debrief entry, Box, Door, Operations card, and PEARL area, and tracking exhaustive rules coverage and invariant violations.
 
 ## Quick Start
 

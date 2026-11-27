@@ -18,10 +18,14 @@ import {
   findAsset,
   hasAsset,
   hasCheckpoint,
+  hasPendingWork,
   hasRule,
   isRestrictionActive,
   isSymptomCard,
   otherRoom,
+  phaseOf,
+  seatOfPlayer,
+  topDecision,
 } from "./helpers";
 import type {
   Affiliation,
@@ -35,8 +39,8 @@ import type {
   SeatId,
 } from "./ids";
 import { PASSPORT_COLORS } from "./ids";
-import type { Command, Phase } from "./machine";
-import { reject, seatOfPlayer } from "./machine";
+import type { Command } from "./engine";
+import { reject } from "./engine";
 import type { Answer, Play } from "./plays";
 import { decisionOwner } from "./plays";
 import type { Purchase, World } from "./state";
@@ -51,11 +55,10 @@ export type OptionItem = {
 function addIfLegal(
   out: OptionItem[],
   world: World,
-  phase: Phase,
   undoDepth: number,
   item: OptionItem,
 ): void {
-  if (reject(world, phase, item.command, undoDepth) === null) {
+  if (reject(world, item.command, undoDepth) === null) {
     out.push(item);
   }
 }
@@ -130,19 +133,18 @@ function cityCardShort(world: World, cardId: CardId): string {
 function addDecisionOptions(
   out: OptionItem[],
   world: World,
-  phase: Phase,
   player: PlayerId,
   seat: SeatId,
   undoDepth: number,
 ): void {
   const game = world.game;
-  if (!game || game.pending.length === 0) return;
-  const top = game.pending[0]!;
+  const top = topDecision(world);
+  if (!game || !top) return;
   const owner = decisionOwner(world);
   if (owner !== null && owner !== seat) return;
 
   const push = (key: string, label: string, answer: Answer) =>
-    addIfLegal(out, world, phase, undoDepth, {
+    addIfLegal(out, world, undoDepth, {
       key,
       label,
       category: "decision",
@@ -664,7 +666,6 @@ function addDecisionOptions(
 function addEventOptions(
   out: OptionItem[],
   world: World,
-  phase: Phase,
   player: PlayerId,
   seat: SeatId,
   undoDepth: number,
@@ -674,7 +675,7 @@ function addEventOptions(
   const p = game.players[seat];
 
   const pushPlay = (key: string, label: string, play: Play) =>
-    addIfLegal(out, world, phase, undoDepth, {
+    addIfLegal(out, world, undoDepth, {
       key,
       label,
       category: "event",
@@ -981,13 +982,12 @@ function addEventOptions(
 function addActionOptions(
   out: OptionItem[],
   world: World,
-  phase: Phase,
   player: PlayerId,
   seat: SeatId,
   undoDepth: number,
 ): void {
   const game = world.game;
-  if (!game || phase !== "playing.actions" || game.active !== seat || game.pending.length > 0) {
+  if (!game || phaseOf(world) !== "playing.actions" || game.active !== seat || hasPendingWork(world)) {
     return;
   }
 
@@ -996,7 +996,7 @@ function addActionOptions(
   const locDef = cityDef(loc);
   const handCityCards = p.hand.filter((id) => cityOfCard(game, id) !== null);
   const pushAct = (key: string, label: string, action: Action) =>
-    addIfLegal(out, world, phase, undoDepth, {
+    addIfLegal(out, world, undoDepth, {
       key,
       label,
       category: "action",
@@ -1574,7 +1574,6 @@ function addActionOptions(
 function addUpkeepOptions(
   out: OptionItem[],
   world: World,
-  phase: Phase,
   player: PlayerId,
   undoDepth: number,
 ): void {
@@ -1582,7 +1581,7 @@ function addUpkeepOptions(
   const c = world.campaign;
   if (!game?.upkeep) return;
   const pushBuy = (key: string, label: string, purchase: Purchase) =>
-    addIfLegal(out, world, phase, undoDepth, {
+    addIfLegal(out, world, undoDepth, {
       key,
       label,
       category: "upkeep",
@@ -1644,14 +1643,14 @@ function addUpkeepOptions(
         : p.t === "counter-surveillance"
           ? `Counter-Surveillance in ${cityDef(p.city).name}`
           : `${pack.assetById[p.asset].name}${p.city ? ` (${cityDef(p.city).name})` : ""} on ${p.passport}/${p.affiliation}`;
-    addIfLegal(out, world, phase, undoDepth, {
+    addIfLegal(out, world, undoDepth, {
       key: `refund:${idx}`,
       label: `Refund #${idx}: ${desc} (${b.cost}b)`,
       category: "upkeep",
       command: { type: "REFUND", player, index: idx },
     });
   });
-  addIfLegal(out, world, phase, undoDepth, {
+  addIfLegal(out, world, undoDepth, {
     key: "finish-upkeep",
     label: "Finish Spend Budget (confirm upkeep)",
     category: "upkeep",
@@ -1659,18 +1658,18 @@ function addUpkeepOptions(
   });
 }
 
-/** Enumerates legal options for `player` in the current phase. Every returned command passes `reject(...) === null`. */
+/** Enumerates legal options for `player` right now. Every returned command passes `reject(...) === null`. */
 export function optionsFor(
   world: World,
-  phase: Phase,
   player: PlayerId,
   undoDepth = 0,
 ): OptionItem[] {
   const out: OptionItem[] = [];
+  const phase = phaseOf(world);
   const seat = seatOfPlayer(world, player);
   if (!seat) {
     if (phase === "lobby") {
-      addIfLegal(out, world, phase, undoDepth, {
+      addIfLegal(out, world, undoDepth, {
         key: "join",
         label: "Join the table",
         category: "lobby",
@@ -1682,14 +1681,14 @@ export function optionsFor(
 
   switch (phase) {
     case "lobby":
-      addIfLegal(out, world, phase, undoDepth, {
+      addIfLegal(out, world, undoDepth, {
         key: "start-game",
         label: `Start ${pack.monthNames[world.campaign.month]}`,
         category: "lobby",
         command: { type: "START_GAME", player },
       });
       if (world.campaign.month === 0) {
-        addIfLegal(out, world, phase, undoDepth, {
+        addIfLegal(out, world, undoDepth, {
           key: "begin-january",
           label: "Advance from Prologue to January (start permanent campaign)",
           category: "lobby",
@@ -1701,7 +1700,7 @@ export function optionsFor(
           const cur = world.campaign.seating.find((s) => s.seat === ts.seat)?.passport ?? null;
           for (const color of PASSPORT_COLORS) {
             if (color === cur) continue;
-            addIfLegal(out, world, phase, undoDepth, {
+            addIfLegal(out, world, undoDepth, {
               key: `assign-passport:${ts.seat}:${color}`,
               label: `Assign ${color} passport to ${ts.seat} (${ts.player})`,
               category: "lobby",
@@ -1711,13 +1710,13 @@ export function optionsFor(
         }
       }
       if (world.campaign.door14State === "ignored") {
-        addIfLegal(out, world, phase, undoDepth, {
+        addIfLegal(out, world, undoDepth, {
           key: "resolve-door14:open",
           label: "Open ignored Door 14 briefcase (Door 19)",
           category: "lobby",
           command: { type: "RESOLVE_DOOR_14", player, choice: "open" },
         });
-        addIfLegal(out, world, phase, undoDepth, {
+        addIfLegal(out, world, undoDepth, {
           key: "resolve-door14:blow-up",
           label: "Blow up ignored Door 14 briefcase (Door 24)",
           category: "lobby",
@@ -1727,12 +1726,12 @@ export function optionsFor(
       break;
 
     case "setup.legacy":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
+      addDecisionOptions(out, world, player, seat, undoDepth);
       break;
 
     case "setup.threat":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
-      addIfLegal(out, world, phase, undoDepth, {
+      addDecisionOptions(out, world, player, seat, undoDepth);
+      addIfLegal(out, world, undoDepth, {
         key: "flip-threat",
         label: `Flip opening Threat card (${world.game?.openingThreatsLeft ?? 0} remaining)`,
         category: "setup",
@@ -1743,7 +1742,8 @@ export function optionsFor(
     case "setup.events": {
       const c = world.campaign;
       const g = world.game!;
-      addIfLegal(out, world, phase, undoDepth, {
+      addDecisionOptions(out, world, player, seat, undoDepth);
+      addIfLegal(out, world, undoDepth, {
         key: "confirm-events",
         label: `Confirm ${g.pickedEvents.length} Event card(s): ${g.pickedEvents.join(", ") || "none"}`,
         category: "setup",
@@ -1751,7 +1751,7 @@ export function optionsFor(
       });
       if (c.discretionaryBudgetBoxesLeft && c.discretionaryBudgetBoxesLeft > 0) {
         const extraPick = c.unlockedEvents.slice(0, Math.min(c.unlockedEvents.length, c.funding + 1));
-        addIfLegal(out, world, phase, undoDepth, {
+        addIfLegal(out, world, undoDepth, {
           key: "pick-events:discretionary+1",
           label: `Use 1 Discretionary Budget box (+1 Event card: ${extraPick.length} total)`,
           category: "setup",
@@ -1762,11 +1762,12 @@ export function optionsFor(
     }
 
     case "setup.aliases": {
+      addDecisionOptions(out, world, player, seat, undoDepth);
       const p = world.game?.players[seat];
       if (p?.passport) {
         for (const aff of createdUnburnedAliases(world.campaign, p.passport)) {
           const al = world.campaign.passports[p.passport].aliases[aff];
-          addIfLegal(out, world, phase, undoDepth, {
+          addIfLegal(out, world, undoDepth, {
             key: `choose-alias:${aff}`,
             label: `Use ${aff} alias: ${al.name} (${al.occupation ? pack.occupationById[al.occupation].name : "?"})`,
             category: "setup",
@@ -1778,9 +1779,9 @@ export function optionsFor(
     }
 
     case "playing.surveillance":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
-      addEventOptions(out, world, phase, player, seat, undoDepth);
-      addIfLegal(out, world, phase, undoDepth, {
+      addDecisionOptions(out, world, player, seat, undoDepth);
+      addEventOptions(out, world, player, seat, undoDepth);
+      addIfLegal(out, world, undoDepth, {
         key: "begin-turn",
         label: "Begin Turn (Check Surveillance)",
         category: "turn",
@@ -1789,16 +1790,16 @@ export function optionsFor(
       break;
 
     case "playing.actions":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
-      addActionOptions(out, world, phase, player, seat, undoDepth);
-      addEventOptions(out, world, phase, player, seat, undoDepth);
-      addIfLegal(out, world, phase, undoDepth, {
+      addDecisionOptions(out, world, player, seat, undoDepth);
+      addActionOptions(out, world, player, seat, undoDepth);
+      addEventOptions(out, world, player, seat, undoDepth);
+      addIfLegal(out, world, undoDepth, {
         key: "undo",
         label: "Undo last action",
         category: "turn",
         command: { type: "UNDO", player },
       });
-      addIfLegal(out, world, phase, undoDepth, {
+      addIfLegal(out, world, undoDepth, {
         key: "end-actions",
         label: `End Do Actions (${world.game?.actionsLeft ?? 0} actions left) -> Mop Up & Draw`,
         category: "turn",
@@ -1807,9 +1808,9 @@ export function optionsFor(
       break;
 
     case "playing.draw":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
-      addEventOptions(out, world, phase, player, seat, undoDepth);
-      addIfLegal(out, world, phase, undoDepth, {
+      addDecisionOptions(out, world, player, seat, undoDepth);
+      addEventOptions(out, world, player, seat, undoDepth);
+      addIfLegal(out, world, undoDepth, {
         key: "draw-cards",
         label: "Draw 2 Player Cards",
         category: "turn",
@@ -1818,9 +1819,9 @@ export function optionsFor(
       break;
 
     case "playing.threat":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
-      addEventOptions(out, world, phase, player, seat, undoDepth);
-      addIfLegal(out, world, phase, undoDepth, {
+      addDecisionOptions(out, world, player, seat, undoDepth);
+      addEventOptions(out, world, player, seat, undoDepth);
+      addIfLegal(out, world, undoDepth, {
         key: "draw-threat",
         label: `Draw 1 Threat Card (${world.game?.threatsLeft ?? 0} left)`,
         category: "turn",
@@ -1829,7 +1830,7 @@ export function optionsFor(
       break;
 
     case "over":
-      addIfLegal(out, world, phase, undoDepth, {
+      addIfLegal(out, world, undoDepth, {
         key: "continue",
         label: "Resolve Game End Steps (Evaluation, Cities, Legacy, Budget)",
         category: "turn",
@@ -1838,26 +1839,26 @@ export function optionsFor(
       break;
 
     case "postgame":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
+      addDecisionOptions(out, world, player, seat, undoDepth);
       break;
 
     case "upkeep":
-      addDecisionOptions(out, world, phase, player, seat, undoDepth);
+      addDecisionOptions(out, world, player, seat, undoDepth);
       if (world.campaign.door14State === "ignored") {
-        addIfLegal(out, world, phase, undoDepth, {
+        addIfLegal(out, world, undoDepth, {
           key: "resolve-door14:open",
           label: "Open ignored Door 14 briefcase (Door 19)",
           category: "upkeep",
           command: { type: "RESOLVE_DOOR_14", player, choice: "open" },
         });
-        addIfLegal(out, world, phase, undoDepth, {
+        addIfLegal(out, world, undoDepth, {
           key: "resolve-door14:blow-up",
           label: "Blow up ignored Door 14 briefcase (Door 24)",
           category: "upkeep",
           command: { type: "RESOLVE_DOOR_14", player, choice: "blow-up" },
         });
       }
-      addUpkeepOptions(out, world, phase, player, undoDepth);
+      addUpkeepOptions(out, world, player, undoDepth);
       break;
 
     case "finished":

@@ -8,11 +8,11 @@ import type {
   SeatId,
   TeamId,
 } from "./ids";
-import type { Phase } from "./machine";
-import type { LogEntry, ReadingKind, World } from "./state";
+import { phaseOf } from "./helpers";
+import type { LogEntry, Phase, ReadingKind, World } from "./state";
 
 /**
- * Ordered UI/animation cues derived from a single XState transition.
+ * Ordered UI/animation cues derived from a single Effect Stack transition.
  * Consumed by future UI/animation layers without reverse-engineering raw state diffs.
  */
 export type AnimationCue =
@@ -33,14 +33,11 @@ export type AnimationCue =
   | { cue: "objective-resolved"; objective: string; status: "completed" | "failed"; detail: string }
   | { cue: "game-ended"; reason: string };
 
-/** Computes ordered UI animation cues for a transition from `(before, phaseBefore)` to `(after, phaseAfter)`. */
-export function buildAnimationCues(
-  before: World,
-  phaseBefore: Phase,
-  after: World,
-  phaseAfter: Phase,
-): AnimationCue[] {
+/** Computes ordered UI animation cues for a transition from `before` to `after`. */
+export function buildAnimationCues(before: World, after: World): AnimationCue[] {
   const cues: AnimationCue[] = [];
+  const phaseBefore = phaseOf(before);
+  const phaseAfter = phaseOf(after);
 
   if (phaseBefore !== phaseAfter) {
     cues.push({ cue: "phase-change", from: phaseBefore, to: phaseAfter });

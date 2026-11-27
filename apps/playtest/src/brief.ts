@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
-import { pack, parseSave } from "@repo/game";
+import { pack, parseSave, phaseOf } from "@repo/game";
 import type { AuditState } from "./audit";
 import { createAuditState, untouchedTargetsForWorld } from "./audit";
 import type { PlaytestConfig } from "./config";
@@ -74,7 +74,7 @@ ${personaText}
 ${aliasLines.length > 0 ? aliasLines.join("\n") : "(No permanent aliases created yet — Allied aliases are created in January.)"}
 
 ## Current Campaign State
-- **Month / Attempt**: ${monthName}${c.month > 0 ? ` (Attempt ${c.attempt})` : ""} (Phase: \`${save.phase}\`)
+- **Month / Attempt**: ${monthName}${c.month > 0 ? ` (Attempt ${c.attempt})` : ""} (Phase: \`${phaseOf(save.world)}\`)
 - **Branch**: ${c.branch.toUpperCase()} | **Funding**: ${c.funding} | **Unlocked Rules**: ${c.rules.join(", ") || "core only"}
 - **Opened Boxes**: ${c.openedBoxes.join(", ") || "none"} | **Opened Doors**: ${c.openedDoors.join(", ") || "none"}
 - **Active Restrictions**: ${c.restrictions.join(", ") || "none"}
