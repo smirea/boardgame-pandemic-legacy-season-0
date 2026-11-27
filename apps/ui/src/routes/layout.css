@@ -1,4 +1,16 @@
 @import "tailwindcss";
+@import "@fontsource/jost/latin-400.css";
+@import "@fontsource/jost/latin-400-italic.css";
+@import "@fontsource/jost/latin-500.css";
+@import "@fontsource/jost/latin-600.css";
+@import "@fontsource/jost/latin-700.css";
+@import "@fontsource/courier-prime/latin-400.css";
+@import "@fontsource/courier-prime/latin-400-italic.css";
+@import "@fontsource/courier-prime/latin-700.css";
+@import "@fontsource/courier-prime/latin-700-italic.css";
+@import "@fontsource/saira-condensed/latin-600.css";
+@import "@fontsource/saira-condensed/latin-700.css";
+@import "@fontsource/saira-condensed/latin-800.css";
 @import "./theme.css";
 
 * {
@@ -10,24 +22,71 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: var(--app-bg);
-  color: var(--app-text);
+  background: var(--surface-desk);
+  color: var(--ink-primary);
 }
 
 button {
   font: inherit;
 }
 
+:focus-visible {
+  outline: 2px solid var(--signal-attention);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--signal-attention) 32%, transparent);
+}
+
+/* Pause ambient animations whenever the tab loses focus or is hidden. */
+html[data-window-inactive] [data-ambient-animation],
+html[data-window-inactive] [data-ambient-animation]::before,
+html[data-window-inactive] [data-ambient-animation]::after {
+  animation-play-state: paused !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+  }
+}
+
 @theme inline {
-  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "SFMono-Regular", ui-monospace, monospace;
+  --font-sans: var(--font-ui);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-typewriter);
+
+  --color-desk: var(--surface-desk);
+  --color-chrome: var(--surface-chrome);
+  --color-panel: var(--surface-panel-solid);
+  --color-manila: var(--surface-manila);
+  --color-manila-deep: var(--surface-manila-deep);
+  --color-passport: var(--surface-passport-cover);
+  --color-blueprint: var(--surface-blueprint);
+
+  --color-ink: var(--ink-primary);
+  --color-muted: var(--ink-muted);
+  --color-paper-ink: var(--ink-paper);
+  --color-paper-muted: var(--ink-paper-muted);
+  --color-foil: var(--ink-passport-foil);
+
+  --color-border: var(--border-subtle);
+  --color-border-strong: var(--border-strong);
+
+  --color-espionage: var(--signal-espionage);
+  --color-classified: var(--signal-classified);
+  --color-medusa: var(--signal-medusa);
+  --color-attention: var(--signal-attention);
+  --color-positive: var(--signal-positive);
+  --color-warning: var(--signal-warning);
 
   --color-app: var(--app-bg);
   --color-app-ink: var(--app-text);
-  --color-muted: var(--app-muted);
-  --color-panel: var(--app-panel);
   --color-panel-ink: var(--app-panel-text);
-  --color-border: var(--app-border);
   --color-accent: var(--app-accent);
   --color-accent-ink: var(--app-accent-ink);
   --color-error: var(--app-error);
@@ -35,10 +94,10 @@ button {
 
 @layer base {
   :where(html, body, button, input, textarea, select) {
-    font-family: var(--font-sans);
+    font-family: var(--font-ui);
   }
 
   :where(pre, code, kbd, samp) {
-    font-family: var(--font-mono);
+    font-family: var(--font-typewriter);
   }
 }

@@ -2,18 +2,10 @@
   import type { StatusResponse } from "@repo/shared";
   import { createQuery } from "@tanstack/svelte-query";
 
-  type Theme = "dark" | "light";
-
-  let theme = $state<Theme>("dark");
   const status = createQuery(() => ({
     queryKey: ["status"],
     queryFn: fetchStatus,
   }));
-
-  $effect(() => {
-    if (typeof document === "undefined") return;
-    document.documentElement.dataset.theme = theme;
-  });
 
   async function fetchStatus(): Promise<StatusResponse> {
     const response = await fetch("/api/status");
@@ -23,139 +15,160 @@
 </script>
 
 <svelte:head>
-  <title>Svelte App</title>
+  <title>Pandemic Legacy: Season 0</title>
 </svelte:head>
 
-<main class="app">
-  <section class="shell">
-    <div class="intro">
-      <p class="eyebrow">SvelteKit + Bun</p>
-      <h1>Start here.</h1>
-      <p class="lede">
-        A tiny Svelte route, Tailwind v4 theme tokens, and a Bun API server are wired together.
-      </p>
-    </div>
+<main class="desk">
+  <section class="dossier">
+    <header class="dossier-head">
+      <p class="classification">FIELD MANUAL N4245.3 // 1962</p>
+      <span class="stamp">TOP SECRET</span>
+    </header>
+
+    <h1>PANDEMIC LEGACY: SEASON 0</h1>
+    <p class="lede">
+      Situation room shell is wired with semantic design tokens, self-hosted typography, and the
+      Bun API server.
+    </p>
 
     <div class="actions">
-      <button
-        type="button"
-        class="primary"
-        onclick={() => (theme = theme === "dark" ? "light" : "dark")}
-      >
-        {theme === "dark" ? "Light" : "Dark"} theme
+      <button type="button" class="primary" onclick={() => void status.refetch()}>
+        Check Comms
       </button>
-      <button type="button" onclick={() => void status.refetch()}> Ping server </button>
     </div>
 
-    <div class="status">
-      <p class="eyebrow">API</p>
+    <div class="telemetry">
+      <p class="label">STATION LINK</p>
       {#if status.isError}
-        <p class="error">{status.error.message}</p>
+        <p class="alert">{status.error.message}</p>
       {:else if status.isPending}
-        <p class="muted">Checking server...</p>
+        <p class="muted">Checking station...</p>
       {:else if status.data}
-        <p>Server is online.</p>
-        <p class="muted">{status.data.now}</p>
+        <p class="online">Station online.</p>
+        <p class="timestamp">{status.data.now}</p>
       {/if}
     </div>
   </section>
 </main>
 
 <style>
-  .app {
+  .desk {
     min-height: 100vh;
-    background: var(--app-bg);
-    color: var(--app-text);
-  }
-
-  .shell {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    width: min(100%, 48rem);
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 3rem 1.5rem;
-  }
-
-  .intro {
     display: grid;
-    gap: 1rem;
+    place-items: center;
+    padding: 2rem;
+    background: var(--surface-desk);
+    color: var(--ink-primary);
   }
 
-  .eyebrow {
+  .dossier {
+    display: grid;
+    gap: 1.5rem;
+    width: min(100%, 40rem);
+    padding: 2rem;
+    background: var(--surface-manila);
+    color: var(--ink-paper);
+    border: 1px solid var(--border-paper);
+    box-shadow: var(--shadow-document);
+  }
+
+  .dossier-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid var(--border-paper);
+    padding-bottom: 0.75rem;
+  }
+
+  .classification {
     margin: 0;
-    color: var(--app-muted);
-    font-size: 0.875rem;
-    font-weight: 600;
+    font-family: var(--font-typewriter);
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    color: var(--ink-paper-muted);
+  }
+
+  .stamp {
+    font-family: var(--font-typewriter);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--signal-espionage-deep);
+    border: 2px solid var(--signal-espionage-deep);
+    padding: 0.15rem 0.45rem;
+    transform: rotate(-3deg);
   }
 
   h1 {
     margin: 0;
-    color: var(--app-text);
-    font-size: clamp(3rem, 8vw, 5rem);
-    font-weight: 650;
-    letter-spacing: 0;
-    line-height: 1;
+    font-family: var(--font-display);
+    font-size: clamp(2.4rem, 6vw, 3.6rem);
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    line-height: 0.95;
   }
 
   .lede {
-    max-width: 40rem;
     margin: 0;
-    color: var(--app-muted);
-    font-size: 1.125rem;
-    line-height: 1.7;
+    font-family: var(--font-typewriter);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ink-paper-muted);
   }
 
   .actions {
     display: flex;
-    flex-wrap: wrap;
     gap: 0.75rem;
   }
 
-  button {
-    border: 1px solid var(--app-border);
-    border-radius: 0.375rem;
-    padding: 0.5rem 1rem;
-    background: transparent;
-    color: var(--app-text);
-    font-weight: 600;
-    cursor: pointer;
-  }
-
-  button:hover {
-    border-color: var(--app-accent);
-  }
-
   button.primary {
-    border-color: var(--app-accent);
-    background: var(--app-accent);
-    color: var(--app-accent-ink);
+    border: 1px solid var(--ink-paper);
+    background: var(--ink-paper);
+    color: var(--surface-manila);
+    padding: 0.55rem 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity var(--duration-fast) var(--ease-mechanical);
   }
 
-  .status {
-    border: 1px solid var(--app-border);
-    border-radius: 0.5rem;
-    background: var(--app-panel);
-    color: var(--app-panel-text);
-    padding: 1rem;
+  button.primary:hover {
+    opacity: 0.88;
   }
 
-  .status p {
-    margin: 0.5rem 0 0;
+  .telemetry {
+    border-top: 1px dashed var(--border-paper);
+    padding-top: 1rem;
+    display: grid;
+    gap: 0.25rem;
   }
 
-  .status .eyebrow {
-    margin-top: 0;
+  .label {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--ink-paper-muted);
   }
 
-  .muted {
-    color: var(--app-muted);
+  .online,
+  .muted,
+  .alert,
+  .timestamp {
+    margin: 0;
+    font-family: var(--font-typewriter);
     font-size: 0.875rem;
+    font-variant-numeric: tabular-nums;
   }
 
-  .error {
-    color: var(--app-error);
+  .muted,
+  .timestamp {
+    color: var(--ink-paper-muted);
+  }
+
+  .alert {
+    color: var(--signal-espionage-deep);
   }
 </style>

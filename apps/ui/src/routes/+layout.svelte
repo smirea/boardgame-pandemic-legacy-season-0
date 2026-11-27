@@ -12,6 +12,26 @@
       },
     },
   });
+
+  $effect(() => {
+    if (!browser) return;
+
+    const syncWindowActivity = () => {
+      const inactive = document.visibilityState !== "visible" || !document.hasFocus();
+      document.documentElement.toggleAttribute("data-window-inactive", inactive);
+    };
+
+    syncWindowActivity();
+    window.addEventListener("focus", syncWindowActivity);
+    window.addEventListener("blur", syncWindowActivity);
+    document.addEventListener("visibilitychange", syncWindowActivity);
+
+    return () => {
+      window.removeEventListener("focus", syncWindowActivity);
+      window.removeEventListener("blur", syncWindowActivity);
+      document.removeEventListener("visibilitychange", syncWindowActivity);
+    };
+  });
 </script>
 
 <QueryClientProvider client={queryClient}>

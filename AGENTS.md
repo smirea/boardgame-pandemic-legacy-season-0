@@ -3,7 +3,7 @@
 - Implementation of the **Pandemic Legacy: Season 0** board game.
 - Predecessor: [boardgame-pandemic-legacy-season-2](https://github.com/smirea/boardgame-pandemic-legacy-season-2) (Pandemic Legacy: Season 2).
 - Use the Season 2 repo as a high-level reference when tackling new problems or architectural decisions—it is mostly polished and shows how similar patterns were solved. However, treat it as a reference rather than gospel: this is both a newer iteration and a different game with its own rules and context, so don't hesitate to improve or redesign systems where it makes sense.
-- **Design language (`DESIGN.md`):** Before building or changing any UI, interaction, or animation, first inspect existing components in `apps/ui/` to reuse or extend established patterns, then consult `DESIGN.md` for the 1962 visual language, color/pattern truth, interaction grammar, motion feel, and tradeoffs. Keep `DESIGN.md` up to date whenever the design vision evolves.
+- **Design language (`DESIGN.md`):** Before building or changing any UI, interaction, or animation, first inspect existing components in `apps/ui/` to reuse or extend established patterns, then consult `DESIGN.md`. Always use semantic design tokens from `apps/ui/src/routes/theme.css` and `apps/ui/src/lib/design/tokens.ts`—never hardcode raw colors, font names, or z-index values. Keep `DESIGN.md` up to date as the vision evolves, and **push back explicitly** if a request conflicts with stated design guidelines so we either adhere to them or intentionally update `DESIGN.md` and refactor for consistency.
 
 # Stack
 
