@@ -7,7 +7,7 @@
 # Stack
 
 - Tooling: Bun + TypeScript
-- Game engine: Custom Effect Stack engine in `packages/game/` (`immer` only — **do not use XState**; see `packages/game/AGENTS.md`)
+- Game engine: Custom Effect Stack engine in `packages/game/` (`immer` only; see `packages/game/AGENTS.md`)
 - Server: Bun.serve API (`apps/server/`)
 - UI: SvelteKit SPA (`apps/ui/`) with Svelte 5, TanStack Query, and Tailwind CSS v4
 - Shared: `@repo/shared` (`packages/shared/`)
